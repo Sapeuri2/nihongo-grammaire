@@ -1,0 +1,573 @@
+{
+  "id": "n5-b04",
+  "level": "N5",
+  "title": "Les formes des verbes : dictionnaire et て",
+  "lessons": [
+    {
+      "id": "n5-16",
+      "title": "Les 3 groupes de verbes et la forme du dictionnaire",
+      "formula": ["Groupe 1 : i + ます → u ({書|か}きます → {書|か}く)", "Groupe 2 : ます → る ({食|た}べます → {食|た}べる)", "Groupe 3 : します → する, {来|き}ます → {来|く}る"],
+      "sections": [
+        {
+          "h": "À quoi sert la forme du dictionnaire ?",
+          "p": [
+            "C'est la forme « de base » du verbe, celle du dictionnaire. C'est aussi le **présent familier** (entre amis) : {行|い}く？ = tu y vas ?",
+            "Surtout, beaucoup de points de grammaire se construisent dessus. Il faut savoir passer de ます à cette forme sans réfléchir."
+          ]
+        },
+        {
+          "h": "Groupe 1 : le son « i » devient « u »",
+          "p": ["Devant ます, il y a un son en **i** (き, み, り, い, ち, し, び…). On le remplace par le son en **u** correspondant."],
+          "vocab": [
+            { "jp": "{書|か}きます → {書|か}く", "fr": "écrire" },
+            { "jp": "{飲|の}みます → {飲|の}む", "fr": "boire" },
+            { "jp": "{帰|かえ}ります → {帰|かえ}る", "fr": "rentrer" },
+            { "jp": "{買|か}います → {買|か}う", "fr": "acheter" },
+            { "jp": "{待|ま}ちます → {待|ま}つ", "fr": "attendre" },
+            { "jp": "{話|はな}します → {話|はな}す", "fr": "parler" },
+            { "jp": "{遊|あそ}びます → {遊|あそ}ぶ", "fr": "s'amuser" },
+            { "jp": "{泳|およ}ぎます → {泳|およ}ぐ", "fr": "nager" }
+          ]
+        },
+        {
+          "h": "Groupe 2 : ます → る",
+          "p": ["Le plus souvent, un son en **e** devant ます ({食|た}べます, ねます), et quelques verbes en i à apprendre ({見|み}ます, {起|お}きます, います)."],
+          "vocab": [
+            { "jp": "{食|た}べます → {食|た}べる", "fr": "manger" },
+            { "jp": "{見|み}ます → {見|み}る", "fr": "voir" },
+            { "jp": "{起|お}きます → {起|お}きる", "fr": "se lever" },
+            { "jp": "ねます → ねる", "fr": "dormir" }
+          ]
+        },
+        {
+          "h": "Groupe 3 : les deux irréguliers",
+          "vocab": [
+            { "jp": "します → する", "fr": "faire" },
+            { "jp": "{来|き}ます → {来|く}る", "fr": "venir" }
+          ]
+        }
+      ],
+      "pieges": [
+        "{帰|かえ}ります, {入|はい}ります, {走|はし}ります ressemblent au groupe 2 mais sont du **groupe 1** (il faut les retenir).",
+        "{見|み}ます, {起|お}きます ont un son en i mais sont du **groupe 2** : {見|み}る, {起|お}きる.",
+        "{来|き}ます → {来|く}る : la lecture du kanji change."
+      ],
+      "exercises": [
+        {
+          "id": "n5-16-e01", "type": "choice",
+          "q": "Forme du dictionnaire de {書|か}きます ?",
+          "choices": ["{書|か}く", "{書|か}きる", "{書|か}きう", "{書|か}る"], "a": 0,
+          "explain": "Groupe 1 : き → く."
+        },
+        {
+          "id": "n5-16-e02", "type": "choice",
+          "q": "Forme du dictionnaire de {食|た}べます ?",
+          "choices": ["{食|た}べる", "{食|た}ぶ", "{食|た}べう", "{食|た}べく"], "a": 0,
+          "explain": "Groupe 2 : ます → る."
+        },
+        {
+          "id": "n5-16-e03", "type": "choice",
+          "q": "Forme du dictionnaire de {飲|の}みます ?",
+          "choices": ["{飲|の}む", "{飲|の}みる", "{飲|の}る", "{飲|の}みう"], "a": 0,
+          "explain": "Groupe 1 : み → む."
+        },
+        {
+          "id": "n5-16-e04", "type": "choice",
+          "q": "Forme du dictionnaire de {来|き}ます ?",
+          "choices": ["{来|く}る", "{来|き}る", "{来|く}", "{来|こ}る"], "a": 0,
+          "explain": "Irrégulier : {来|く}る."
+        },
+        {
+          "id": "n5-16-e05", "type": "choice",
+          "q": "Lequel de ces verbes est du groupe 2 (ます → る) ?",
+          "choices": ["{見|み}ます", "{帰|かえ}ります", "{書|か}きます", "{行|い}きます"], "a": 0
+        },
+        {
+          "id": "n5-16-e06", "type": "choice",
+          "q": "Forme du dictionnaire de {買|か}います ?",
+          "choices": ["{買|か}う", "{買|か}いる", "{買|か}る", "{買|か}つ"], "a": 0,
+          "explain": "Groupe 1 : い → う."
+        },
+        {
+          "id": "n5-16-e07", "type": "choice",
+          "q": "Forme du dictionnaire de します ?",
+          "choices": ["する", "しる", "す", "しう"], "a": 0
+        },
+        {
+          "id": "n5-16-e08", "type": "choice",
+          "q": "Forme du dictionnaire de {待|ま}ちます ?",
+          "choices": ["{待|ま}つ", "{待|ま}ちる", "{待|ま}る", "{待|ま}す"], "a": 0,
+          "explain": "Groupe 1 : ち → つ."
+        },
+        {
+          "id": "n5-16-e09", "type": "choice",
+          "q": "Forme du dictionnaire de {話|はな}します ?",
+          "choices": ["{話|はな}す", "{話|はな}しる", "{話|はな}る", "{話|はな}つ"], "a": 0,
+          "explain": "Groupe 1 : し → す."
+        },
+        {
+          "id": "n5-16-e10", "type": "choice",
+          "q": "Forme du dictionnaire de {起|お}きます ?",
+          "choices": ["{起|お}きる", "{起|お}く", "{起|お}きう", "{起|お}る"], "a": 0,
+          "explain": "{起|お}きます est un des verbes du groupe 2 avec un son en i."
+        },
+        {
+          "id": "n5-16-e11", "type": "choice",
+          "q": "Lequel de ces verbes est du groupe 1 ?",
+          "choices": ["{入|はい}ります", "ねます", "{見|み}ます", "{食|た}べます"], "a": 0,
+          "explain": "{入|はい}ります → {入|はい}る : groupe 1, malgré les apparences."
+        },
+        {
+          "id": "n5-16-e12", "type": "choice", "uses": ["n5-05"],
+          "q": "Que signifie (style familier) : あした{学校|がっこう}に{行|い}く？",
+          "choices": ["Tu vas à l'école demain ?", "Je suis allé à l'école hier.", "Allons à l'école demain !", "Je ne vais pas à l'école demain."], "a": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-17",
+      "title": "La forme て : comment la fabriquer",
+      "formula": ["Groupe 2 : ます → て", "う・つ・る → って", "む・ぶ・ぬ → んで", "く → いて / ぐ → いで", "す → して", "{行|い}く → {行|い}って (exception)"],
+      "sections": [
+        {
+          "h": "Pourquoi c'est important",
+          "p": ["La forme て sert pour demander (てください), dire ce qu'on est en train de faire (ている), demander la permission, enchaîner des actions… C'est **la** forme à maîtriser."]
+        },
+        {
+          "h": "Groupes 2 et 3 : facile",
+          "vocab": [
+            { "jp": "{食|た}べる → {食|た}べて", "fr": "groupe 2 : る → て" },
+            { "jp": "{見|み}る → {見|み}て", "fr": "groupe 2" },
+            { "jp": "する → して", "fr": "groupe 3" },
+            { "jp": "{来|く}る → {来|き}て", "fr": "groupe 3" }
+          ]
+        },
+        {
+          "h": "Groupe 1 : selon la dernière syllabe",
+          "p": ["Pars de la forme du dictionnaire et regarde la dernière syllabe :"],
+          "vocab": [
+            { "jp": "う・つ・る → って", "fr": "{買|か}う → {買|か}って, {待|ま}つ → {待|ま}って, {帰|かえ}る → {帰|かえ}って" },
+            { "jp": "む・ぶ・ぬ → んで", "fr": "{飲|の}む → {飲|の}んで, {遊|あそ}ぶ → {遊|あそ}んで" },
+            { "jp": "く → いて", "fr": "{書|か}く → {書|か}いて" },
+            { "jp": "ぐ → いで", "fr": "{泳|およ}ぐ → {泳|およ}いで" },
+            { "jp": "す → して", "fr": "{話|はな}す → {話|はな}して" },
+            { "jp": "{行|い}く → {行|い}って", "fr": "seule exception" }
+          ]
+        }
+      ],
+      "pieges": [
+        "{行|い}く → {行|い}って, pas {行|い}いて.",
+        "{来|く}る → {来|き}て : la lecture change.",
+        "La forme た (passé familier, plus tard) se fabrique exactement pareil : remplace て par た."
+      ],
+      "exercises": [
+        {
+          "id": "n5-17-e01", "type": "choice", "uses": ["n5-16"],
+          "q": "Forme て de {書|か}く ?",
+          "choices": ["{書|か}いて", "{書|か}って", "{書|か}きて", "{書|か}んで"], "a": 0,
+          "explain": "く → いて."
+        },
+        {
+          "id": "n5-17-e02", "type": "choice", "uses": ["n5-16"],
+          "q": "Forme て de {飲|の}む ?",
+          "choices": ["{飲|の}んで", "{飲|の}みて", "{飲|の}って", "{飲|の}いて"], "a": 0,
+          "explain": "む → んで."
+        },
+        {
+          "id": "n5-17-e03", "type": "choice", "uses": ["n5-16"],
+          "q": "Forme て de {買|か}う ?",
+          "choices": ["{買|か}って", "{買|か}いて", "{買|か}んで", "{買|か}うて"], "a": 0,
+          "explain": "う → って."
+        },
+        {
+          "id": "n5-17-e04", "type": "choice", "uses": ["n5-16"],
+          "q": "Forme て de {行|い}く ?",
+          "choices": ["{行|い}って", "{行|い}いて", "{行|い}きて", "{行|い}んで"], "a": 0,
+          "explain": "La seule exception du groupe 1."
+        },
+        {
+          "id": "n5-17-e05", "type": "choice", "uses": ["n5-16"],
+          "q": "Forme て de {食|た}べる ?",
+          "choices": ["{食|た}べて", "{食|た}べって", "{食|た}んで", "{食|た}べいて"], "a": 0,
+          "explain": "Groupe 2 : る → て."
+        },
+        {
+          "id": "n5-17-e06", "type": "choice", "uses": ["n5-16"],
+          "q": "Forme て de {話|はな}す ?",
+          "choices": ["{話|はな}して", "{話|はな}って", "{話|はな}いて", "{話|はな}すて"], "a": 0,
+          "explain": "す → して."
+        },
+        {
+          "id": "n5-17-e07", "type": "choice", "uses": ["n5-16"],
+          "q": "Forme て de {待|ま}つ ?",
+          "choices": ["{待|ま}って", "{待|ま}ちて", "{待|ま}んで", "{待|ま}いて"], "a": 0,
+          "explain": "つ → って."
+        },
+        {
+          "id": "n5-17-e08", "type": "choice", "uses": ["n5-16"],
+          "q": "Forme て de {来|く}る ?",
+          "choices": ["{来|き}て", "{来|く}って", "{来|く}て", "{来|こ}て"], "a": 0,
+          "explain": "Irrégulier : {来|き}て."
+        },
+        {
+          "id": "n5-17-e09", "type": "choice", "uses": ["n5-16"],
+          "q": "Forme て de {泳|およ}ぐ ?",
+          "choices": ["{泳|およ}いで", "{泳|およ}いて", "{泳|およ}んで", "{泳|およ}って"], "a": 0,
+          "explain": "ぐ → いで (comme く → いて, mais avec le son voisé)."
+        },
+        {
+          "id": "n5-17-e10", "type": "choice", "uses": ["n5-16"],
+          "q": "Forme て de {帰|かえ}る ?",
+          "choices": ["{帰|かえ}って", "{帰|かえ}て", "{帰|かえ}んで", "{帰|かえ}りて"], "a": 0,
+          "explain": "{帰|かえ}る est du groupe 1 : る → って."
+        },
+        {
+          "id": "n5-17-e11", "type": "choice", "uses": ["n5-16"],
+          "q": "Forme て de {遊|あそ}ぶ ?",
+          "choices": ["{遊|あそ}んで", "{遊|あそ}って", "{遊|あそ}びて", "{遊|あそ}いで"], "a": 0,
+          "explain": "ぶ → んで."
+        },
+        {
+          "id": "n5-17-e12", "type": "choice", "uses": ["n5-16"],
+          "q": "Forme て de {見|み}る ?",
+          "choices": ["{見|み}て", "{見|み}って", "{見|み}んで", "{見|み}いて"], "a": 0,
+          "explain": "{見|み}る est du groupe 2 : る → て."
+        }
+      ]
+    },
+    {
+      "id": "n5-18",
+      "title": "てください : demander poliment",
+      "formula": ["Verbe-て ください", "Nom を ください (donnez-moi…)"],
+      "sections": [
+        {
+          "h": "Demander à quelqu'un de faire quelque chose",
+          "p": ["Forme て + **ください** = « faites…, s'il vous plaît ». Sert pour les demandes et les consignes."],
+          "ex": [
+            { "jp": "ちょっと{待|ま}ってください。", "fr": "Attendez un peu, s'il vous plaît." },
+            { "jp": "ここに{名前|なまえ}を{書|か}いてください。", "fr": "Écrivez votre nom ici, s'il vous plaît." },
+            { "jp": "ゆっくり{話|はな}してください。", "fr": "Parlez lentement, s'il vous plaît." }
+          ]
+        },
+        {
+          "h": "Demander une chose",
+          "p": ["Nom + **をください** = « donnez-moi… »."],
+          "ex": [
+            { "jp": "{水|みず}をください。", "fr": "De l'eau, s'il vous plaît." }
+          ]
+        }
+      ],
+      "pieges": [
+        "ください se met après la forme て : {待|ま}ちますください ✗.",
+        "C'est poli mais direct : c'est une demande, pas une question."
+      ],
+      "exercises": [
+        {
+          "id": "n5-18-e01", "type": "choice", "uses": ["n5-17"],
+          "jp": "ちょっと＿ください。", "fr": "Attendez un peu, s'il vous plaît.",
+          "choices": ["{待|ま}って", "{待|ま}ちます", "{待|ま}つ", "{待|ま}ちて"], "a": 0
+        },
+        {
+          "id": "n5-18-e02", "type": "choice", "uses": ["n5-05", "n5-17"],
+          "jp": "ここに{名前|なまえ}を＿ください。", "fr": "Écrivez votre nom ici, s'il vous plaît.",
+          "choices": ["{書|か}いて", "{書|か}って", "{書|か}きて", "{書|か}く"], "a": 0
+        },
+        {
+          "id": "n5-18-e03", "type": "order", "uses": ["n5-17"],
+          "fr": "Parlez lentement, s'il vous plaît.",
+          "tokens": ["ゆっくり", "{話|はな}して", "ください"]
+        },
+        {
+          "id": "n5-18-e04", "type": "choice",
+          "jp": "すみません、{水|みず}＿ください。", "fr": "Excusez-moi, de l'eau s'il vous plaît.",
+          "choices": ["を", "が", "に", "で"], "a": 0,
+          "explain": "Nom をください = donnez-moi…"
+        },
+        {
+          "id": "n5-18-e05", "type": "choice", "uses": ["n5-05", "n5-17"],
+          "jp": "あした、{七時|しちじ}に＿ください。", "fr": "Venez à 7 h demain, s'il vous plaît.",
+          "choices": ["{来|き}て", "{来|く}て", "{来|く}って", "{来|き}って"], "a": 0
+        },
+        {
+          "id": "n5-18-e06", "type": "order", "uses": ["n5-03", "n5-17"],
+          "fr": "Lisez ce livre, s'il vous plaît.",
+          "tokens": ["この", "{本|ほん}", "を", "{読|よ}んで", "ください"]
+        },
+        {
+          "id": "n5-18-e07", "type": "choice",
+          "q": "Que signifie : もう{一度|いちど}{言|い}ってください。",
+          "choices": ["Répétez encore une fois, s'il vous plaît.", "Je l'ai déjà dit une fois.", "Dites-le une seule fois.", "Ne le dites plus."], "a": 0
+        },
+        {
+          "id": "n5-18-e08", "type": "choice", "uses": ["n5-17"],
+          "q": "Quelle phrase est correcte ?",
+          "choices": ["{電話|でんわ}してください。", "{電話|でんわ}しますください。", "{電話|でんわ}するください。", "{電話|でんわ}してくださいます。"], "a": 0
+        },
+        {
+          "id": "n5-18-e09", "type": "choice", "uses": ["n5-08", "n5-15", "n5-17"],
+          "jp": "{窓|まど}を＿ください。{暑|あつ}いですから。", "fr": "Ouvrez la fenêtre, s'il vous plaît. Il fait chaud.",
+          "choices": ["あけて", "あけって", "あいて", "あけんで"], "a": 0,
+          "explain": "あける est du groupe 2 : あけて."
+        },
+        {
+          "id": "n5-18-e10", "type": "order", "uses": ["n5-05", "n5-17"],
+          "fr": "Rentrez à la maison en taxi, s'il vous plaît.",
+          "tokens": ["タクシー", "で", "うち", "に", "{帰|かえ}って", "ください"],
+          "alt": [["うち", "に", "タクシー", "で", "{帰|かえ}って", "ください"]]
+        }
+      ]
+    },
+    {
+      "id": "n5-19",
+      "title": "ている : en train de, état, situation",
+      "formula": ["Verbe-て います"],
+      "sections": [
+        {
+          "h": "Action en cours",
+          "p": ["Forme て + **います** = être en train de faire."],
+          "ex": [
+            { "jp": "{今|いま}、テレビを{見|み}ています。", "fr": "Je suis en train de regarder la télé." },
+            { "jp": "{雨|あめ}が{降|ふ}っています。", "fr": "Il pleut (en ce moment)." }
+          ]
+        },
+        {
+          "h": "État qui dure, situation",
+          "p": ["Avec certains verbes, ている décrit un **état** ou une **situation stable** (habiter, être marié, travailler quelque part, savoir)."],
+          "ex": [
+            { "jp": "{田中|たなか}さんは{東京|とうきょう}に{住|す}んでいます。", "fr": "M. Tanaka habite à Tokyo." },
+            { "jp": "{姉|あね}はけっこんしています。", "fr": "Ma sœur aînée est mariée." },
+            { "jp": "{兄|あに}は{銀行|ぎんこう}で{働|はたら}いています。", "fr": "Mon frère aîné travaille dans une banque." }
+          ]
+        },
+        {
+          "h": "{知|し}っています : savoir, connaître",
+          "p": ["« Je sais / je connais » = {知|し}っています. Mais « je ne sais pas » = **{知|し}りません** (pas {知|し}っていません)."]
+        }
+      ],
+      "pieges": [
+        "{食|た}べます = je mange (habitude) / je mangerai ; {食|た}べています = je suis en train de manger.",
+        "{住|す}んでいます prend **に** : {東京|とうきょう}に{住|す}んでいます.",
+        "{知|し}っていますか → いいえ、{知|し}りません."
+      ],
+      "exercises": [
+        {
+          "id": "n5-19-e01", "type": "choice", "uses": ["n5-17"],
+          "jp": "{今|いま}、テレビを{見|み}＿。", "fr": "Je suis en train de regarder la télé.",
+          "choices": ["ています", "ます", "ました", "てください"], "a": 0
+        },
+        {
+          "id": "n5-19-e02", "type": "choice", "uses": ["n5-17"],
+          "jp": "{田中|たなか}さんは{東京|とうきょう}＿{住|す}んでいます。", "fr": "M. Tanaka habite à Tokyo.",
+          "choices": ["に", "で", "を", "へ"], "a": 0,
+          "explain": "{住|す}む prend に."
+        },
+        {
+          "id": "n5-19-e03", "type": "choice",
+          "q": "{山田|やまだ}さんのでんわばんごうを{知|し}っていますか。 Tu ne le connais pas. Que réponds-tu ?",
+          "choices": ["いいえ、{知|し}りません。", "いいえ、{知|し}っていません。", "いいえ、{知|し}りませんでした。", "いいえ、{知|し}っています。"], "a": 0,
+          "explain": "Négatif de {知|し}っています : {知|し}りません."
+        },
+        {
+          "id": "n5-19-e04", "type": "order", "uses": ["n5-05", "n5-17"],
+          "fr": "Mon frère aîné travaille dans une banque.",
+          "tokens": ["{兄|あに}", "は", "{銀行|ぎんこう}", "で", "{働|はたら}いています"]
+        },
+        {
+          "id": "n5-19-e05", "type": "choice", "uses": ["n5-17"],
+          "jp": "{雨|あめ}が＿います。", "fr": "Il est en train de pleuvoir.",
+          "choices": ["{降|ふ}って", "{降|ふ}りて", "{降|ふ}んで", "{降|ふ}る"], "a": 0,
+          "explain": "{降|ふ}る (groupe 1) → {降|ふ}って."
+        },
+        {
+          "id": "n5-19-e06", "type": "choice", "uses": ["n5-04"],
+          "q": "Quelle est la différence entre {食|た}べます et {食|た}べています ?",
+          "choices": ["« je mange (d'habitude) / je mangerai » contre « je suis en train de manger »", "Aucune différence.", "Le premier est au passé.", "Le second est une demande."], "a": 0
+        },
+        {
+          "id": "n5-19-e07", "type": "order", "uses": ["n5-04"],
+          "fr": "Qu'est-ce que tu fais en ce moment ?",
+          "tokens": ["{今|いま}", "{何|なに}", "を", "しています", "か"]
+        },
+        {
+          "id": "n5-19-e08", "type": "choice", "uses": ["n5-17"],
+          "jp": "{姉|あね}はけっこん＿います。", "fr": "Ma sœur aînée est mariée.",
+          "choices": ["して", "した", "する", "しって"], "a": 0
+        },
+        {
+          "id": "n5-19-e09", "type": "choice", "uses": ["n5-05", "n5-17"],
+          "jp": "{子|こ}どもたちは{公園|こうえん}で＿います。", "fr": "Les enfants jouent au parc (en ce moment).",
+          "choices": ["{遊|あそ}んで", "{遊|あそ}って", "{遊|あそ}びて", "{遊|あそ}いで"], "a": 0
+        },
+        {
+          "id": "n5-19-e10", "type": "choice",
+          "q": "Que signifie : {田中|たなか}さんは{今|いま}{勉強|べんきょう}していません。",
+          "choices": ["M. Tanaka n'est pas en train d'étudier.", "M. Tanaka n'étudie jamais.", "M. Tanaka a étudié.", "M. Tanaka, étudiez !"], "a": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-20",
+      "title": "てもいいです・てはいけません : permission et interdiction",
+      "formula": ["Verbe-て も いいです (on peut)", "Verbe-て は いけません (on ne doit pas)"],
+      "sections": [
+        {
+          "h": "Permission : てもいい",
+          "p": ["Forme て + **もいいです** = « on peut… ». En question : « je peux… ? »."],
+          "ex": [
+            { "jp": "ここで{写真|しゃしん}をとってもいいですか。— ええ、いいですよ。", "fr": "Je peux prendre une photo ici ? — Oui, bien sûr." },
+            { "jp": "{今日|きょう}は{早|はや}く{帰|かえ}ってもいいです。", "fr": "Aujourd'hui, tu peux rentrer tôt." }
+          ]
+        },
+        {
+          "h": "Interdiction : てはいけない",
+          "p": ["Forme て + **はいけません** = « il ne faut pas… », « c'est interdit ». Le は se prononce « wa »."],
+          "ex": [
+            { "jp": "ここでたばこをすってはいけません。", "fr": "Il est interdit de fumer ici." },
+            { "jp": "{教室|きょうしつ}で{食|た}べてはいけません。", "fr": "On ne mange pas en classe." }
+          ]
+        },
+        {
+          "h": "Refuser une permission poliment",
+          "p": ["Au lieu de いいえ、いけません (très sec), on dit : すみません、ちょっと…"]
+        }
+      ],
+      "pieges": [
+        "N'oublie pas le も : {帰|かえ}っていいですか est familier ; la forme complète est {帰|かえ}って**も**いいですか.",
+        "てもいいですか (demander la permission) ≠ てください (demander à l'autre de faire)."
+      ],
+      "exercises": [
+        {
+          "id": "n5-20-e01", "type": "choice", "uses": ["n5-05", "n5-17"],
+          "jp": "ここで{写真|しゃしん}をとって＿いいですか。", "fr": "Je peux prendre une photo ici ?",
+          "choices": ["も", "は", "を", "が"], "a": 0
+        },
+        {
+          "id": "n5-20-e02", "type": "choice", "uses": ["n5-05", "n5-17"],
+          "jp": "{教室|きょうしつ}で{食|た}べて＿いけません。", "fr": "Il est interdit de manger en classe.",
+          "choices": ["は", "も", "を", "が"], "a": 0
+        },
+        {
+          "id": "n5-20-e03", "type": "order", "uses": ["n5-05", "n5-17"],
+          "fr": "Puis-je rentrer à la maison ?",
+          "tokens": ["うち", "に", "{帰|かえ}って", "も", "いい", "です", "か"]
+        },
+        {
+          "id": "n5-20-e04", "type": "choice",
+          "q": "{窓|まど}をあけてもいいですか。 Tu es d'accord. Que réponds-tu ?",
+          "choices": ["ええ、いいですよ。", "ええ、あけてはいけません。", "いいえ、いいです。", "ええ、あけません。"], "a": 0
+        },
+        {
+          "id": "n5-20-e05", "type": "choice", "uses": ["n5-17"],
+          "jp": "ここでたばこを＿はいけません。", "fr": "On ne doit pas fumer ici.",
+          "choices": ["すって", "すいて", "すんで", "すうて"], "a": 0,
+          "explain": "すう (fumer, groupe 1) : う → って."
+        },
+        {
+          "id": "n5-20-e06", "type": "choice", "uses": ["n5-03"],
+          "q": "Que signifie : このペンを{使|つか}ってもいいですか。",
+          "choices": ["Je peux utiliser ce stylo ?", "Utilisez ce stylo, s'il vous plaît.", "Je n'ai pas le droit d'utiliser ce stylo.", "Ce stylo est pratique."], "a": 0
+        },
+        {
+          "id": "n5-20-e07", "type": "order", "uses": ["n5-05", "n5-17"],
+          "fr": "On ne doit pas parler ici.",
+          "tokens": ["ここ", "で", "{話|はな}して", "は", "いけません"]
+        },
+        {
+          "id": "n5-20-e08", "type": "choice", "uses": ["n5-18", "n5-19"],
+          "q": "Laquelle est une **demande** (et pas une permission) ?",
+          "choices": ["{待|ま}ってください。", "{待|ま}ってもいいですか。", "{待|ま}ってはいけません。", "{待|ま}っています。"], "a": 0
+        },
+        {
+          "id": "n5-20-e09", "type": "choice", "uses": ["n5-17"],
+          "jp": "テストでじしょを{見|み}て＿。", "fr": "Pendant le contrôle, on n'a pas le droit de regarder le dictionnaire.",
+          "choices": ["はいけません", "もいいです", "ください", "います"], "a": 0
+        },
+        {
+          "id": "n5-20-e10", "type": "choice", "uses": ["n5-17"],
+          "jp": "{今日|きょう}は{早|はや}く{帰|かえ}って＿。", "fr": "Aujourd'hui, tu peux rentrer tôt.",
+          "choices": ["もいいです", "はいけません", "ください", "いました"], "a": 0
+        }
+      ]
+    }
+  ],
+  "test": [
+    {
+      "id": "n5-b04-t01", "type": "choice", "uses": ["n5-16", "n5-17"],
+      "q": "Forme て de {読|よ}む ?",
+      "choices": ["{読|よ}んで", "{読|よ}って", "{読|よ}みて", "{読|よ}いて"], "a": 0
+    },
+    {
+      "id": "n5-b04-t02", "type": "order", "uses": ["n5-04", "n5-19"],
+      "fr": "Mme Yamada est en train de lire le journal.",
+      "tokens": ["{山田|やまだ}さん", "は", "{新聞|しんぶん}", "を", "{読|よ}んでいます"]
+    },
+    {
+      "id": "n5-b04-t03", "type": "choice", "uses": ["n5-17", "n5-20"],
+      "jp": "ここに{車|くるま}を＿はいけません。", "fr": "On ne doit pas garer de voiture ici.",
+      "choices": ["とめて", "とめって", "とまて", "とめんで"], "a": 0,
+      "explain": "とめる est du groupe 2 : とめて."
+    },
+    {
+      "id": "n5-b04-t04", "type": "choice", "uses": ["n5-16"],
+      "q": "Forme du dictionnaire de {入|はい}ります ?",
+      "choices": ["{入|はい}る", "{入|はい}りる", "{入|はい}う", "{入|はい}く"], "a": 0
+    },
+    {
+      "id": "n5-b04-t05", "type": "choice", "uses": ["n5-17", "n5-19"],
+      "jp": "{友|とも}だちを＿います。", "fr": "J'attends un ami (en ce moment).",
+      "choices": ["{待|ま}って", "{待|ま}ちて", "{待|ま}んで", "{待|ま}つ"], "a": 0
+    },
+    {
+      "id": "n5-b04-t06", "type": "order", "uses": ["n5-20"],
+      "fr": "Puis-je ouvrir la fenêtre ?",
+      "tokens": ["{窓|まど}", "を", "あけて", "も", "いい", "です", "か"]
+    },
+    {
+      "id": "n5-b04-t07", "type": "choice", "uses": ["n5-02", "n5-19"],
+      "jp": "{日本語|にほんご}の{先生|せんせい}を{知|し}っていますか。— はい、＿。", "fr": "Tu connais le professeur de japonais ? — Oui.",
+      "choices": ["{知|し}っています", "{知|し}ります", "{知|し}りません", "{知|し}っていません"], "a": 0
+    },
+    {
+      "id": "n5-b04-t08", "type": "choice", "uses": ["n5-15", "n5-18"],
+      "jp": "{暑|あつ}いですから、{窓|まど}を＿ください。", "fr": "Il fait chaud, alors ouvre la fenêtre s'il te plaît.",
+      "choices": ["あけて", "あけます", "あける", "あけたい"], "a": 0
+    },
+    {
+      "id": "n5-b04-t09", "type": "choice", "uses": ["n5-20"],
+      "q": "Que signifie : ここで{泳|およ}いではいけません。",
+      "choices": ["Il est interdit de nager ici.", "On peut nager ici.", "Nagez ici, s'il vous plaît.", "Je suis en train de nager ici."], "a": 0
+    },
+    {
+      "id": "n5-b04-t10", "type": "order", "uses": ["n5-05", "n5-19"],
+      "fr": "Ma mère est en train de cuisiner dans la cuisine.",
+      "tokens": ["{母|はは}", "は", "だいどころ", "で", "{料理|りょうり}", "を", "しています"]
+    },
+    {
+      "id": "n5-b04-t11", "type": "choice", "uses": ["n5-17"],
+      "q": "Quelle forme て est **fausse** ?",
+      "choices": ["{書|か}く → {書|か}って", "{飲|の}む → {飲|の}んで", "{話|はな}す → {話|はな}して", "{行|い}く → {行|い}って"], "a": 0,
+      "explain": "{書|か}く → {書|か}いて."
+    },
+    {
+      "id": "n5-b04-t12", "type": "choice", "uses": ["n5-18"],
+      "jp": "すみません、もう{少|すこ}しゆっくり＿ください。", "fr": "Excusez-moi, parlez un peu plus lentement.",
+      "choices": ["{話|はな}して", "{話|はな}って", "{話|はな}す", "{話|はな}しました"], "a": 0
+    },
+    {
+      "id": "n5-b04-t13", "type": "choice", "uses": ["n5-05", "n5-20"],
+      "q": "Comment demander poliment « Je peux m'asseoir ici ? »",
+      "choices": ["ここに{座|すわ}ってもいいですか。", "ここに{座|すわ}ってはいけません。", "ここに{座|すわ}ってください。", "ここに{座|すわ}っています。"], "a": 0
+    },
+    {
+      "id": "n5-b04-t14", "type": "order", "uses": ["n5-03", "n5-13"],
+      "fr": "Je veux voir ce film-là.",
+      "tokens": ["あの", "{映画|えいが}", "が", "{見|み}たい", "です"]
+    },
+    {
+      "id": "n5-b04-t15", "type": "choice", "uses": ["n5-05", "n5-17", "n5-19"],
+      "jp": "{弟|おとうと}は{今|いま}{部屋|へや}で＿います。", "fr": "Mon petit frère est en train de dormir dans sa chambre.",
+      "choices": ["ねて", "ねって", "ねんで", "ねいて"], "a": 0,
+      "explain": "ねる est du groupe 2 : ねて."
+    }
+  ]
+}

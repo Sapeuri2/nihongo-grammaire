@@ -1,0 +1,604 @@
+{
+  "id": "n5-b02",
+  "level": "N5",
+  "title": "Le passé, l'existence et les adjectifs",
+  "lessons": [
+    {
+      "id": "n5-06",
+      "title": "Le passé poli : ました・ませんでした・でした",
+      "formula": ["Verbe-ました (j'ai fait)", "Verbe-ませんでした (je n'ai pas fait)", "Nom でした / Nom じゃありませんでした"],
+      "sections": [
+        {
+          "h": "Verbes au passé",
+          "p": [
+            "ます → **ました** : {食|た}べました = j'ai mangé.",
+            "ません → **ませんでした** : {食|た}べませんでした = je n'ai pas mangé."
+          ],
+          "ex": [
+            { "jp": "きのう、えいがを{見|み}ました。", "fr": "Hier, j'ai regardé un film." },
+            { "jp": "{先週|せんしゅう}、{東京|とうきょう}に{行|い}きました。", "fr": "La semaine dernière, je suis allé à Tokyo." },
+            { "jp": "けさ、{朝|あさ}ごはんを{食|た}べませんでした。", "fr": "Ce matin, je n'ai pas pris de petit-déjeuner." }
+          ]
+        },
+        {
+          "h": "Noms au passé",
+          "p": ["です → **でした** ; じゃありません → **じゃありませんでした**."],
+          "ex": [
+            { "jp": "きのうは{日曜日|にちようび}でした。", "fr": "Hier, c'était dimanche." },
+            { "jp": "{田中|たなか}さんは{学生|がくせい}じゃありませんでした。", "fr": "M. Tanaka n'était pas étudiant." }
+          ]
+        },
+        {
+          "h": "Mots de temps passé",
+          "vocab": [
+            { "jp": "きのう", "fr": "hier" },
+            { "jp": "けさ", "fr": "ce matin" },
+            { "jp": "{先週|せんしゅう}", "fr": "la semaine dernière" },
+            { "jp": "{先月|せんげつ}", "fr": "le mois dernier" },
+            { "jp": "{去年|きょねん}", "fr": "l'année dernière" }
+          ]
+        }
+      ],
+      "pieges": [
+        "Question au passé → réponse au passé : {見|み}ましたか — いいえ、{見|み}ませんでした (et non {見|み}ません, qui veut dire « je ne regarde pas »).",
+        "Ces mots de temps sont relatifs : **pas de に** ({先週|せんしゅう}に ✗).",
+        "Négatif passé : ませんでした, jamais ましたじゃありません."
+      ],
+      "exercises": [
+        {
+          "id": "n5-06-e01", "type": "choice", "uses": ["n5-04"],
+          "jp": "きのう{本|ほん}を{読|よ}み＿。", "fr": "Hier, j'ai lu un livre.",
+          "choices": ["ました", "ます", "ませんでした", "でした"], "a": 0,
+          "explain": "Passé affirmatif d'un verbe : ました."
+        },
+        {
+          "id": "n5-06-e02", "type": "choice",
+          "jp": "けさ、{朝|あさ}ごはんを{食|た}べ＿。", "fr": "Ce matin, je n'ai pas pris de petit-déjeuner.",
+          "choices": ["ませんでした", "ません", "ました", "じゃありませんでした"], "a": 0,
+          "explain": "Passé négatif d'un verbe : ませんでした. じゃありませんでした est pour les noms."
+        },
+        {
+          "id": "n5-06-e03", "type": "choice", "uses": ["n5-01"],
+          "jp": "きのうは{日曜日|にちようび}＿。", "fr": "Hier, c'était dimanche.",
+          "choices": ["でした", "ました", "です", "じゃありません"], "a": 0,
+          "explain": "Un nom au passé : でした."
+        },
+        {
+          "id": "n5-06-e04", "type": "order", "uses": ["n5-05"],
+          "fr": "La semaine dernière, je suis allé à Tokyo.",
+          "tokens": ["{先週|せんしゅう}", "{東京|とうきょう}", "に", "{行|い}きました"]
+        },
+        {
+          "id": "n5-06-e05", "type": "choice",
+          "q": "Quel est le passé négatif de {飲|の}みます ?",
+          "choices": ["{飲|の}みませんでした", "{飲|の}みましたじゃありません", "{飲|の}みじゃありませんでした", "{飲|の}みませんだった"], "a": 0
+        },
+        {
+          "id": "n5-06-e06", "type": "choice", "uses": ["n5-01"],
+          "jp": "{田中|たなか}さんは{学生|がくせい}＿。", "fr": "M. Tanaka n'était pas étudiant.",
+          "choices": ["じゃありませんでした", "ませんでした", "でした", "じゃありません"], "a": 0,
+          "explain": "Nom au passé négatif : じゃありませんでした."
+        },
+        {
+          "id": "n5-06-e07", "type": "choice", "uses": ["n5-04"],
+          "q": "きのう、テレビを{見|み}ましたか。 Tu ne l'as pas regardée. Que réponds-tu ?",
+          "choices": ["いいえ、{見|み}ませんでした。", "いいえ、{見|み}ません。", "はい、{見|み}ませんでした。", "いいえ、{見|み}ましたじゃありません。"], "a": 0,
+          "explain": "{見|み}ません = « je ne regarde pas (d'habitude) ». Pour hier, il faut le passé."
+        },
+        {
+          "id": "n5-06-e08", "type": "order", "uses": ["n5-05"],
+          "fr": "À quelle heure t'es-tu levé hier ?",
+          "tokens": ["きのう", "{何時|なんじ}", "に", "{起|お}きました", "か"]
+        },
+        {
+          "id": "n5-06-e09", "type": "choice", "uses": ["n5-05"],
+          "jp": "{先月|せんげつ}＿{京都|きょうと}へ{行|い}きました。", "fr": "Le mois dernier, je suis allé à Kyoto.",
+          "choices": ["(rien)", "に", "で", "を"], "a": 0,
+          "explain": "{先月|せんげつ} est un mot de temps relatif : pas de に."
+        },
+        {
+          "id": "n5-06-e10", "type": "choice", "uses": ["n5-03", "n5-05"],
+          "jp": "あのレストランで{何|なに}を{食|た}べ＿か。— すしを{食|た}べました。", "fr": "Qu'as-tu mangé dans ce restaurant-là ? — Des sushis.",
+          "choices": ["ました", "ません", "でした", "じゃありません"], "a": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-07",
+      "title": "あります・います : il y a, se trouver",
+      "formula": ["Lieu に Chose が あります", "Lieu に Être vivant が います", "Chose/Personne は Lieu に あります/います"],
+      "sections": [
+        {
+          "h": "あります ou います ?",
+          "p": [
+            "**あります** : pour les choses, les plantes, les événements.",
+            "**います** : pour les êtres qui bougent seuls (personnes, animaux)."
+          ]
+        },
+        {
+          "h": "« Il y a X à tel endroit »",
+          "p": [
+            "Lieu **に** X **が** あります / います. Le lieu prend **に** (pas で !).",
+            "が présente quelque chose de nouveau dans la conversation (on reverra が en détail)."
+          ],
+          "ex": [
+            { "jp": "つくえの{上|うえ}に{本|ほん}があります。", "fr": "Il y a un livre sur le bureau." },
+            { "jp": "{公園|こうえん}に{子|こ}どもがいます。", "fr": "Il y a des enfants dans le parc." }
+          ]
+        },
+        {
+          "h": "« X se trouve à tel endroit »",
+          "p": ["Si on parle d'une chose déjà connue : X **は** Lieu **に** あります / います."],
+          "ex": [
+            { "jp": "{本|ほん}はつくえの{上|うえ}にあります。", "fr": "Le livre est sur le bureau." },
+            { "jp": "{田中|たなか}さんは{今|いま}{図書館|としょかん}にいます。", "fr": "M. Tanaka est à la bibliothèque en ce moment." }
+          ]
+        },
+        {
+          "h": "Les positions : Nom の Position に",
+          "vocab": [
+            { "jp": "{上|うえ}", "fr": "dessus" },
+            { "jp": "{下|した}", "fr": "dessous" },
+            { "jp": "{中|なか}", "fr": "dedans" },
+            { "jp": "{前|まえ}", "fr": "devant" },
+            { "jp": "うしろ", "fr": "derrière" },
+            { "jp": "となり", "fr": "à côté" },
+            { "jp": "{近|ちか}く", "fr": "près" }
+          ]
+        },
+        {
+          "h": "Avoir",
+          "p": ["あります sert aussi à dire « avoir » : {車|くるま}があります = j'ai une voiture. Négatif : ありません / いません."]
+        }
+      ],
+      "pieges": [
+        "{公園|こうえん}で{子|こ}どもがいます ✗ → {公園|こうえん}に. L'existence prend に.",
+        "Un oiseau, un poisson, un chien → います. Un arbre, une fleur → あります.",
+        "La position se construit avec の : つくえ**の**{上|うえ}に."
+      ],
+      "exercises": [
+        {
+          "id": "n5-07-e01", "type": "choice",
+          "jp": "つくえの{上|うえ}に{本|ほん}が＿。", "fr": "Il y a un livre sur le bureau.",
+          "choices": ["あります", "います", "です", "ありましょう"], "a": 0,
+          "explain": "Un objet → あります."
+        },
+        {
+          "id": "n5-07-e02", "type": "choice",
+          "jp": "{公園|こうえん}に{子|こ}どもが＿。", "fr": "Il y a des enfants dans le parc.",
+          "choices": ["います", "あります", "です", "でした"], "a": 0,
+          "explain": "Des personnes → います."
+        },
+        {
+          "id": "n5-07-e03", "type": "choice",
+          "jp": "{田中|たなか}さんは{今|いま}{図書館|としょかん}＿います。", "fr": "M. Tanaka est à la bibliothèque en ce moment.",
+          "choices": ["に", "で", "を", "へ"], "a": 0,
+          "explain": "Où se trouve quelqu'un → に."
+        },
+        {
+          "id": "n5-07-e04", "type": "order", "uses": ["n5-02"],
+          "fr": "Il y a un chat sous la chaise.",
+          "tokens": ["いす", "の", "{下|した}", "に", "ねこ", "が", "います"]
+        },
+        {
+          "id": "n5-07-e05", "type": "choice",
+          "q": "Comment dire « J'ai une voiture » ?",
+          "choices": ["{車|くるま}があります。", "{車|くるま}がいます。", "{車|くるま}をあります。", "{車|くるま}です。"], "a": 0,
+          "explain": "Posséder = あります, avec が."
+        },
+        {
+          "id": "n5-07-e06", "type": "choice", "uses": ["n5-03"],
+          "jp": "トイレはどこに＿か。— あそこにあります。", "fr": "Où sont les toilettes ? — Là-bas.",
+          "choices": ["あります", "います", "です", "ありません"], "a": 0
+        },
+        {
+          "id": "n5-07-e07", "type": "choice",
+          "q": "Trouve l'erreur : {教室|きょうしつ}で{学生|がくせい}がいます。",
+          "choices": ["で → に", "が → を", "います → あります", "{教室|きょうしつ} → {教室|きょうしつ}の"], "a": 0,
+          "explain": "L'endroit où quelqu'un **se trouve** prend に."
+        },
+        {
+          "id": "n5-07-e08", "type": "order", "uses": ["n5-02"],
+          "fr": "La banque est devant la gare.",
+          "tokens": ["{銀行|ぎんこう}", "は", "{駅|えき}", "の", "{前|まえ}", "に", "あります"]
+        },
+        {
+          "id": "n5-07-e09", "type": "choice",
+          "jp": "{木|き}の{上|うえ}に{鳥|とり}が＿。", "fr": "Il y a un oiseau dans l'arbre.",
+          "choices": ["います", "あります", "です", "ありました"], "a": 0,
+          "explain": "Un oiseau est vivant → います (l'arbre, lui, « あります »)."
+        },
+        {
+          "id": "n5-07-e10", "type": "choice", "uses": ["n5-06"],
+          "jp": "きのう、{山田|やまだ}さんはうちに＿。", "fr": "Hier, Mme Yamada n'était pas à la maison.",
+          "choices": ["いませんでした", "ありませんでした", "いません", "じゃありませんでした"], "a": 0
+        },
+        {
+          "id": "n5-07-e11", "type": "choice", "uses": ["n5-03"],
+          "q": "Que signifie : かばんの{中|なか}に{何|なに}がありますか。",
+          "choices": ["Qu'y a-t-il dans le sac ?", "Qu'y a-t-il sous le sac ?", "Où est le sac ?", "Qui est dans le sac ?"], "a": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-08",
+      "title": "Les adjectifs en い",
+      "formula": ["Adj-い + Nom (たかい{車|くるま})", "Nom は Adj-い です", "Adj-くないです (négatif)"],
+      "sections": [
+        {
+          "h": "Deux places possibles",
+          "p": [
+            "Les adjectifs en い finissent par い : {高|たか}い, {安|やす}い, {大|おお}きい…",
+            "**Devant un nom**, directement, sans の : {高|たか}い{車|くるま} = une voiture chère.",
+            "**En fin de phrase** + です : この{車|くるま}は{高|たか}いです. Ici です sert juste à être poli."
+          ],
+          "ex": [
+            { "jp": "おもしろい{本|ほん}です。", "fr": "C'est un livre intéressant." },
+            { "jp": "{日本語|にほんご}はむずかしいです。", "fr": "Le japonais est difficile." }
+          ]
+        },
+        {
+          "h": "Le négatif",
+          "p": [
+            "い → **くないです** (ou くありません) : {高|たか}い → {高|たか}くないです.",
+            "Exception : いい (bien, bon) → **よくないです**."
+          ],
+          "ex": [
+            { "jp": "この{本|ほん}はおもしろくないです。", "fr": "Ce livre n'est pas intéressant." }
+          ]
+        },
+        {
+          "h": "とても / あまり",
+          "p": ["**とても** = très (avec l'affirmatif). **あまり** = pas très (toujours avec le **négatif**)."],
+          "ex": [
+            { "jp": "とても{大|おお}きいです。", "fr": "C'est très grand." },
+            { "jp": "あまり{高|たか}くないです。", "fr": "Ce n'est pas très cher." }
+          ]
+        },
+        {
+          "h": "Adjectifs utiles",
+          "vocab": [
+            { "jp": "{高|たか}い / {安|やす}い", "fr": "cher, haut / bon marché" },
+            { "jp": "{大|おお}きい / {小|ちい}さい", "fr": "grand / petit" },
+            { "jp": "{新|あたら}しい / {古|ふる}い", "fr": "neuf / vieux" },
+            { "jp": "おいしい", "fr": "bon (au goût)" },
+            { "jp": "むずかしい / やさしい", "fr": "difficile / facile" },
+            { "jp": "おもしろい", "fr": "intéressant, drôle" },
+            { "jp": "{暑|あつ}い / {寒|さむ}い", "fr": "chaud / froid (temps)" },
+            { "jp": "いい", "fr": "bien, bon" }
+          ]
+        }
+      ],
+      "pieges": [
+        "{高|たか}いじゃありません ✗ → {高|たか}くないです.",
+        "いい → よくない (jamais いくない).",
+        "Pas de の entre l'adjectif et le nom : おもしろいの{本|ほん} ✗.",
+        "あまり exige le négatif : あまり{高|たか}いです ✗."
+      ],
+      "exercises": [
+        {
+          "id": "n5-08-e01", "type": "choice", "uses": ["n5-03"],
+          "jp": "この{車|くるま}は＿です。", "fr": "Cette voiture n'est pas chère.",
+          "choices": ["{高|たか}くない", "{高|たか}いじゃない", "{高|たか}いない", "{高|たか}くありません"], "a": 0,
+          "explain": "い → くない, puis です. くありません contient déjà la politesse : on n'ajoute pas です."
+        },
+        {
+          "id": "n5-08-e02", "type": "choice",
+          "q": "Comment dit-on « un livre intéressant » ?",
+          "choices": ["おもしろい{本|ほん}", "おもしろいの{本|ほん}", "おもしろな{本|ほん}", "{本|ほん}おもしろい"], "a": 0,
+          "explain": "L'adjectif en い se place directement devant le nom."
+        },
+        {
+          "id": "n5-08-e03", "type": "choice",
+          "q": "Quel est le négatif de いいです ?",
+          "choices": ["よくないです", "いくないです", "いいじゃありません", "いいないです"], "a": 0,
+          "explain": "いい est irrégulier : よくない."
+        },
+        {
+          "id": "n5-08-e04", "type": "order",
+          "fr": "Le japonais n'est pas très difficile.",
+          "tokens": ["{日本語|にほんご}", "は", "あまり", "むずかしくない", "です"]
+        },
+        {
+          "id": "n5-08-e05", "type": "choice",
+          "jp": "{今日|きょう}はとても＿です。", "fr": "Aujourd'hui il fait très chaud.",
+          "choices": ["{暑|あつ}い", "{暑|あつ}くない", "{暑|あつ}いな", "{暑|あつ}"], "a": 0
+        },
+        {
+          "id": "n5-08-e06", "type": "choice", "uses": ["n5-03"],
+          "q": "Quelle phrase est correcte ?",
+          "choices": ["このケーキはおいしいです。", "このケーキはおいしだです。", "このケーキはおいしくです。", "このケーキはおいしいじゃありません。"], "a": 0
+        },
+        {
+          "id": "n5-08-e07", "type": "choice", "uses": ["n5-03"],
+          "jp": "あの{店|みせ}は＿{安|やす}くないです。", "fr": "Ce magasin-là n'est pas très bon marché.",
+          "choices": ["あまり", "とても", "{大|おお}きい", "いい"], "a": 0,
+          "explain": "« Pas très » → あまり + négatif."
+        },
+        {
+          "id": "n5-08-e08", "type": "order", "uses": ["n5-04", "n5-06"],
+          "fr": "J'ai acheté un nouveau sac.",
+          "tokens": ["{新|あたら}しい", "かばん", "を", "{買|か}いました"]
+        },
+        {
+          "id": "n5-08-e09", "type": "choice", "uses": ["n5-02"],
+          "jp": "{山田|やまだ}さんの{家|いえ}は＿です。", "fr": "La maison de Mme Yamada est grande.",
+          "choices": ["{大|おお}きい", "{大|おお}きいな", "{大|おお}きく", "{大|おお}きいの"], "a": 0
+        },
+        {
+          "id": "n5-08-e10", "type": "choice", "uses": ["n5-03"],
+          "q": "Que signifie : この{本|ほん}はあまりおもしろくないです。",
+          "choices": ["Ce livre n'est pas très intéressant.", "Ce livre est très intéressant.", "Ce livre n'est pas du tout cher.", "Ce livre était intéressant."], "a": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-09",
+      "title": "Les adjectifs en な",
+      "formula": ["Adj な + Nom ({静|しず}かな{町|まち})", "Nom は Adj です", "Adj じゃありません (négatif)"],
+      "sections": [
+        {
+          "h": "Le principe",
+          "p": [
+            "Certains adjectifs prennent **な** devant un nom : {静|しず}か**な**{町|まち} = une ville calme.",
+            "En fin de phrase, ils se comportent **comme un nom** : {静|しず}かです / {静|しず}かじゃありません."
+          ],
+          "ex": [
+            { "jp": "{有名|ゆうめい}なレストランです。", "fr": "C'est un restaurant célèbre." },
+            { "jp": "この{町|まち}は{便利|べんり}です。", "fr": "Cette ville est pratique." },
+            { "jp": "{山田|やまだ}さんは{元気|げんき}じゃありません。", "fr": "Mme Yamada n'est pas en forme." }
+          ]
+        },
+        {
+          "h": "Adjectifs en な utiles",
+          "vocab": [
+            { "jp": "{静|しず}か", "fr": "calme" },
+            { "jp": "にぎやか", "fr": "animé" },
+            { "jp": "きれい", "fr": "beau, joli, propre" },
+            { "jp": "{有名|ゆうめい}", "fr": "célèbre" },
+            { "jp": "{元気|げんき}", "fr": "en forme" },
+            { "jp": "{便利|べんり}", "fr": "pratique" },
+            { "jp": "ひま", "fr": "libre, pas occupé" },
+            { "jp": "{親切|しんせつ}", "fr": "gentil, serviable" }
+          ]
+        }
+      ],
+      "pieges": [
+        "**きれい** et **{有名|ゆうめい}** finissent par い mais sont des adjectifs en な : きれいじゃありません (et pas きれくない).",
+        "Devant un nom : な, pas の ({静|しず}かの{町|まち} ✗).",
+        "Négatif : comme un nom → じゃありません. Jamais くない avec un adjectif en な."
+      ],
+      "exercises": [
+        {
+          "id": "n5-09-e01", "type": "choice",
+          "jp": "{静|しず}か＿{町|まち}です。", "fr": "C'est une ville calme.",
+          "choices": ["な", "の", "い", "(rien)"], "a": 0,
+          "explain": "Adjectif en な devant un nom → な."
+        },
+        {
+          "id": "n5-09-e02", "type": "choice",
+          "jp": "この{部屋|へや}はきれい＿。", "fr": "Cette chambre n'est pas propre.",
+          "choices": ["じゃありません", "くないです", "くありません", "いじゃありません"], "a": 0,
+          "explain": "きれい est un adjectif en な malgré son い final → じゃありません."
+        },
+        {
+          "id": "n5-09-e03", "type": "choice",
+          "q": "Lequel est un adjectif en な ?",
+          "choices": ["{有名|ゆうめい}", "{高|たか}い", "おいしい", "{大|おお}きい"], "a": 0
+        },
+        {
+          "id": "n5-09-e04", "type": "order",
+          "fr": "Mme Yamada est une personne gentille.",
+          "tokens": ["{山田|やまだ}さん", "は", "{親切|しんせつ}", "な", "{人|ひと}", "です"]
+        },
+        {
+          "id": "n5-09-e05", "type": "choice",
+          "jp": "{東京|とうきょう}は＿{町|まち}です。", "fr": "Tokyo est une ville animée.",
+          "choices": ["にぎやかな", "にぎやかい", "にぎやかの", "にぎやか"], "a": 0
+        },
+        {
+          "id": "n5-09-e06", "type": "choice",
+          "q": "Quelle phrase est correcte ?",
+          "choices": ["{田中|たなか}さんは{元気|げんき}じゃありません。", "{田中|たなか}さんは{元気|げんき}くないです。", "{田中|たなか}さんは{元気|げんき}なです。", "{田中|たなか}さんは{元気|げんき}ないです。"], "a": 0
+        },
+        {
+          "id": "n5-09-e07", "type": "choice", "uses": ["n5-08"],
+          "jp": "これは＿{本|ほん}です。", "fr": "C'est un livre intéressant.",
+          "choices": ["おもしろい", "おもしろいな", "おもしろな", "おもしろの"], "a": 0,
+          "explain": "おもしろい est un adjectif en い : directement devant le nom, sans な."
+        },
+        {
+          "id": "n5-09-e08", "type": "choice", "uses": ["n5-03", "n5-08"],
+          "q": "Mets au négatif : この{町|まち}は{便利|べんり}です。",
+          "choices": ["この{町|まち}は{便利|べんり}じゃありません。", "この{町|まち}は{便利|べんり}くないです。", "この{町|まち}は{便利|べんり}ないです。", "この{町|まち}は{便利|べんり}なじゃありません。"], "a": 0
+        },
+        {
+          "id": "n5-09-e09", "type": "order", "uses": ["n5-07"],
+          "fr": "Il y a un restaurant célèbre près de la gare.",
+          "tokens": ["{駅|えき}", "の", "{近|ちか}く", "に", "{有名|ゆうめい}な", "レストラン", "が", "あります"]
+        },
+        {
+          "id": "n5-09-e10", "type": "choice",
+          "jp": "{日曜日|にちようび}は＿です。", "fr": "Le dimanche, je suis libre.",
+          "choices": ["ひま", "ひまな", "ひまい", "ひまの"], "a": 0,
+          "explain": "En fin de phrase, pas de な : ひまです."
+        },
+        {
+          "id": "n5-09-e11", "type": "choice",
+          "q": "Que signifie : きれいな{花|はな}です。",
+          "choices": ["Ce sont de jolies fleurs.", "Les fleurs ne sont pas jolies.", "La fleur était jolie.", "C'est un joli nez."], "a": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-10",
+      "title": "Les adjectifs au passé",
+      "formula": ["Adj-い → かったです / くなかったです", "Adj-な, Nom → でした / じゃありませんでした"],
+      "sections": [
+        {
+          "h": "Adjectifs en い",
+          "p": [
+            "い → **かったです** : {寒|さむ}い → {寒|さむ}かったです (il faisait froid).",
+            "Négatif : くない → **くなかったです** : {寒|さむ}くなかったです.",
+            "いい → **よかったです** / よくなかったです."
+          ],
+          "ex": [
+            { "jp": "きのうはとても{寒|さむ}かったです。", "fr": "Hier, il faisait très froid." },
+            { "jp": "テストはむずかしくなかったです。", "fr": "Le contrôle n'était pas difficile." },
+            { "jp": "{旅行|りょこう}は{楽|たの}しかったです。", "fr": "Le voyage était amusant." }
+          ]
+        },
+        {
+          "h": "Adjectifs en な (et noms)",
+          "p": ["Comme les noms : **でした** / **じゃありませんでした**."],
+          "ex": [
+            { "jp": "パーティーはにぎやかでした。", "fr": "La fête était animée." },
+            { "jp": "{部屋|へや}はきれいじゃありませんでした。", "fr": "La chambre n'était pas propre." }
+          ]
+        },
+        {
+          "h": "どうでしたか : comment c'était ?",
+          "ex": [
+            { "jp": "{映画|えいが}はどうでしたか。— おもしろかったです。", "fr": "Comment était le film ? — Il était intéressant." }
+          ]
+        }
+      ],
+      "pieges": [
+        "{寒|さむ}いでした ✗ → {寒|さむ}かったです. Le passé est dans l'adjectif, です reste au présent.",
+        "いかった ✗ → よかった.",
+        "きれいかった ✗ → きれいでした (adjectif en な)."
+      ],
+      "exercises": [
+        {
+          "id": "n5-10-e01", "type": "choice", "uses": ["n5-08"],
+          "jp": "きのうはとても＿です。", "fr": "Hier, il faisait très froid.",
+          "choices": ["{寒|さむ}かった", "{寒|さむ}いでした", "{寒|さむ}かったでした", "{寒|さむ}くでした"], "a": 0
+        },
+        {
+          "id": "n5-10-e02", "type": "choice", "uses": ["n5-08"],
+          "jp": "テストは＿です。", "fr": "Le contrôle n'était pas difficile.",
+          "choices": ["むずかしくなかった", "むずかしいじゃありませんでした", "むずかしくないでした", "むずかしかったじゃない"], "a": 0
+        },
+        {
+          "id": "n5-10-e03", "type": "choice", "uses": ["n5-08"],
+          "q": "Quel est le passé de いいです ?",
+          "choices": ["よかったです", "いかったです", "いいでした", "よいでした"], "a": 0
+        },
+        {
+          "id": "n5-10-e04", "type": "choice", "uses": ["n5-09"],
+          "jp": "パーティーは＿でした。", "fr": "La fête était animée.",
+          "choices": ["にぎやか", "にぎやかな", "にぎやかかった", "にぎやかい"], "a": 0
+        },
+        {
+          "id": "n5-10-e05", "type": "choice", "uses": ["n5-09"],
+          "jp": "{町|まち}は{静|しず}か＿。", "fr": "La ville n'était pas calme.",
+          "choices": ["じゃありませんでした", "くなかったです", "じゃないでした", "でしたじゃありません"], "a": 0
+        },
+        {
+          "id": "n5-10-e06", "type": "order",
+          "fr": "Le voyage était amusant.",
+          "tokens": ["{旅行|りょこう}", "は", "{楽|たの}しかった", "です"]
+        },
+        {
+          "id": "n5-10-e07", "type": "choice", "uses": ["n5-09"],
+          "q": "Quelle phrase est correcte ?",
+          "choices": ["{部屋|へや}はきれいでした。", "{部屋|へや}はきれかったです。", "{部屋|へや}はきれいかったです。", "{部屋|へや}はきれいだったでした。"], "a": 0
+        },
+        {
+          "id": "n5-10-e08", "type": "order", "uses": ["n5-04", "n5-06", "n5-08"],
+          "fr": "Hier, j'ai mangé un gâteau délicieux.",
+          "tokens": ["きのう", "おいしい", "ケーキ", "を", "{食|た}べました"]
+        },
+        {
+          "id": "n5-10-e09", "type": "choice", "uses": ["n5-08"],
+          "jp": "{映画|えいが}はどうでしたか。— ＿。", "fr": "Comment était le film ? — Il n'était pas très intéressant.",
+          "choices": ["あまりおもしろくなかったです", "とてもおもしろかったです", "あまりおもしろかったです", "あまりおもしろいでした"], "a": 0
+        },
+        {
+          "id": "n5-10-e10", "type": "choice", "uses": ["n5-06"],
+          "q": "Que signifie : {先週|せんしゅう}はいそがしくなかったです。",
+          "choices": ["La semaine dernière, je n'étais pas occupé.", "La semaine dernière, j'étais très occupé.", "La semaine prochaine, je ne serai pas occupé.", "Cette semaine, je ne suis pas occupé."], "a": 0
+        }
+      ]
+    }
+  ],
+  "test": [
+    {
+      "id": "n5-b02-t01", "type": "choice", "uses": ["n5-06", "n5-07", "n5-08"],
+      "jp": "つくえの{上|うえ}に{古|ふる}い{本|ほん}が＿。", "fr": "Il y avait un vieux livre sur le bureau.",
+      "choices": ["ありました", "いました", "でした", "ありません"], "a": 0
+    },
+    {
+      "id": "n5-b02-t02", "type": "order", "uses": ["n5-02", "n5-08", "n5-10"],
+      "fr": "Le restaurant d'hier n'était pas très bon.",
+      "tokens": ["きのう", "の", "レストラン", "は", "あまり", "おいしくなかった", "です"]
+    },
+    {
+      "id": "n5-b02-t03", "type": "choice", "uses": ["n5-08", "n5-09", "n5-10"],
+      "q": "Trouve la phrase **incorrecte**.",
+      "choices": ["{部屋|へや}は{静|しず}かかったです。", "{部屋|へや}は{静|しず}かでした。", "{部屋|へや}は{広|ひろ}かったです。", "{部屋|へや}は{広|ひろ}くなかったです。"], "a": 0,
+      "explain": "{静|しず}か est un adjectif en な : passé = {静|しず}かでした."
+    },
+    {
+      "id": "n5-b02-t04", "type": "choice", "uses": ["n5-06", "n5-07"],
+      "jp": "{公園|こうえん}に{犬|いぬ}が＿。", "fr": "Il y avait un chien dans le parc.",
+      "choices": ["いました", "ありました", "いません", "でした"], "a": 0
+    },
+    {
+      "id": "n5-b02-t05", "type": "choice", "uses": ["n5-05", "n5-06", "n5-09"],
+      "jp": "{有名|ゆうめい}＿レストランで{食|た}べました。", "fr": "J'ai mangé dans un restaurant célèbre.",
+      "choices": ["な", "の", "い", "で"], "a": 0
+    },
+    {
+      "id": "n5-b02-t06", "type": "order", "uses": ["n5-03", "n5-06", "n5-07"],
+      "fr": "Où étais-tu hier ?",
+      "tokens": ["きのう", "どこ", "に", "いました", "か"]
+    },
+    {
+      "id": "n5-b02-t07", "type": "choice", "uses": ["n5-08", "n5-10"],
+      "q": "{日本語|にほんご}のテストはどうでしたか。 Tu l'as trouvé facile. Que réponds-tu ?",
+      "choices": ["やさしかったです。", "やさしいでした。", "やさしかったでした。", "やさしくでした。"], "a": 0
+    },
+    {
+      "id": "n5-b02-t08", "type": "choice", "uses": ["n5-06", "n5-10"],
+      "jp": "{先週|せんしゅう}の{日曜日|にちようび}は{雨|あめ}＿。", "fr": "Dimanche dernier, il pleuvait (c'était la pluie).",
+      "choices": ["でした", "かったです", "ました", "ありました"], "a": 0,
+      "explain": "{雨|あめ} est un nom : passé = でした."
+    },
+    {
+      "id": "n5-b02-t09", "type": "choice", "uses": ["n5-07"],
+      "q": "Comment dire « Je n'ai pas de voiture » ?",
+      "choices": ["{車|くるま}がありません。", "{車|くるま}がいません。", "{車|くるま}じゃありません。", "{車|くるま}をありません。"], "a": 0
+    },
+    {
+      "id": "n5-b02-t10", "type": "order", "uses": ["n5-02", "n5-07", "n5-09"],
+      "fr": "Il y a une jolie fleur devant la maison.",
+      "tokens": ["{家|いえ}", "の", "{前|まえ}", "に", "きれいな", "{花|はな}", "が", "あります"]
+    },
+    {
+      "id": "n5-b02-t11", "type": "choice", "uses": ["n5-06", "n5-09"],
+      "q": "Comment dire « Ce n'était pas une chambre calme » ?",
+      "choices": ["{静|しず}かな{部屋|へや}じゃありませんでした。", "{静|しず}かい{部屋|へや}じゃありませんでした。", "{静|しず}かの{部屋|へや}じゃありませんでした。", "{静|しず}かな{部屋|へや}じゃありません。"], "a": 0
+    },
+    {
+      "id": "n5-b02-t12", "type": "choice", "uses": ["n5-05", "n5-06"],
+      "jp": "{田中|たなか}さんはきのう{学校|がっこう}＿{来|き}ませんでした。", "fr": "M. Tanaka n'est pas venu à l'école hier.",
+      "choices": ["に", "で", "を", "が"], "a": 0
+    },
+    {
+      "id": "n5-b02-t13", "type": "choice", "uses": ["n5-06", "n5-07"],
+      "q": "Que signifie : {木|き}の{下|した}にねこがいました。",
+      "choices": ["Il y avait un chat sous l'arbre.", "Il y a un chat sur l'arbre.", "Le chat n'était pas sous l'arbre.", "Il y avait un arbre sous le chat."], "a": 0
+    },
+    {
+      "id": "n5-b02-t14", "type": "order", "uses": ["n5-03", "n5-10"],
+      "fr": "Ce film-là était très intéressant.",
+      "tokens": ["あの", "{映画|えいが}", "は", "とても", "おもしろかった", "です"]
+    },
+    {
+      "id": "n5-b02-t15", "type": "choice", "uses": ["n5-08", "n5-10"],
+      "jp": "きのうのパーティーは＿です。", "fr": "La fête d'hier était bien.",
+      "choices": ["よかった", "いかった", "いいでした", "よくなかった"], "a": 0
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-import { esc, rich, richBlank } from './text.js';
+import { esc, plain, rich, richBlank } from './text.js';
 import * as S from './state.js';
 import * as Sync from './sync.js';
 
@@ -88,7 +88,7 @@ function stepStatuses() {
 }
 
 function stepLabel(s) {
-  if (s.type === 'lesson') { const l = C.lessonById[s.id]; return `Leçon ${l.num} — ${l.title}`; }
+  if (s.type === 'lesson') { const l = C.lessonById[s.id]; return `Leçon ${l.num} — ${plain(l.title)}`; }
   if (s.type === 'test') return `Test du bloc ${C.blockById[s.id].index + 1}`;
   const e = C.examById[s.id];
   return `Grand examen ${e.num} (leçons ${C.lessonById[e.lessonIds[0]].num}–${C.lessonById[e.lessonIds.at(-1)].num})`;
@@ -99,12 +99,15 @@ function nextStep() {
   return C.steps.find(s => st[`${s.type}:${s.id}`] === 'current');
 }
 
-// Maîtrise d'une leçon (0 à 1) d'après la répétition espacée, ou null si rien vu.
+// Maîtrise d'une leçon (0 à 1) d'après la répétition espacée, ou null si rien vu :
+// raté récemment = 0, réussi une fois = 0,6, consolidé par les révisions = 1.
+const BOX_MASTERY = [0, 0.6, 0.8, 1];
+
 function mastery(lessonId) {
   const items = S.get().items;
   const seen = Object.values(C.items).filter(it => it.uses.includes(lessonId) && items[it.id]);
   if (!seen.length) return null;
-  return seen.reduce((sum, it) => sum + Math.min(items[it.id].box, 3) / 3, 0) / seen.length;
+  return seen.reduce((sum, it) => sum + BOX_MASTERY[Math.min(items[it.id].box, 3)], 0) / seen.length;
 }
 
 function dueItems() {
@@ -264,18 +267,24 @@ function viewHome() {
   h += '</section>';
 
   for (const b of C.blocks) {
-    h += `<section class="card"><h2>Bloc ${b.index + 1} <span class="tag">${esc(b.level)}</span></h2><p class="muted">${esc(b.title || '')}</p><ul class="steps">`;
+    const ts = statuses[`test:${b.id}`];
+    const tr = st.tests[b.id];
+    const title = `<h2>Bloc ${b.index + 1} <span class="tag">${esc(b.level)}</span></h2>`;
+    // Un bloc terminé est replié pour garder l'accueil court.
+    if (ts === 'done') {
+      const weak = b.lessonIds.filter(lid => (mastery(lid) ?? 1) < 0.4).length;
+      h += `<details class="card"><summary>${title}<span class="muted small">✓ terminé · test ${pct(tr.best)}${weak ? ` · ${weak} point${weak > 1 ? 's' : ''} faible${weak > 1 ? 's' : ''}` : ''}</span></summary>`;
+    } else h += `<section class="card">${title}`;
+    h += `<p class="muted">${esc(b.title || '')}</p><ul class="steps">`;
     for (const lid of b.lessonIds) {
       const l = C.lessonById[lid];
       const s = statuses[`lesson:${lid}`];
       h += `<li class="${s}"><button data-act="step" data-type="lesson" data-id="${lid}" ${s === 'locked' ? 'disabled' : ''}>
         <span class="ico">${icon(s)}</span><span class="lbl">${l.num}. ${rich(l.title)}</span>${bar(mastery(lid))}</button></li>`;
     }
-    const ts = statuses[`test:${b.id}`];
-    const tr = st.tests[b.id];
     h += `<li class="${ts} test"><button data-act="step" data-type="test" data-id="${b.id}" ${ts === 'locked' ? 'disabled' : ''}>
       <span class="ico">${icon(ts)}</span><span class="lbl">Test du bloc ${b.index + 1}</span>${tr ? `<span class="score">${pct(tr.best)}</span>` : ''}</button></li>`;
-    h += '</ul></section>';
+    h += ts === 'done' ? '</ul></details>' : '</ul></section>';
     if (b.exam) {
       const es = statuses[`exam:${b.exam.id}`];
       const er = st.tests[b.exam.id];

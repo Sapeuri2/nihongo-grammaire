@@ -1,0 +1,553 @@
+{
+  "id": "n5-b03",
+  "level": "N5",
+  "title": "Goûts, envies, invitations et liaisons",
+  "lessons": [
+    {
+      "id": "n5-11",
+      "title": "が avec {好|す}き, {上手|じょうず}, わかる… et les fins ね / よ",
+      "formula": ["Personne は X が {好|す}きです / きらいです", "Personne は X が {上手|じょうず}です / わかります", "だれが… ? {何|なに}が… ?", "…ね (n'est-ce pas ?) / …よ (je te le dis)"],
+      "sections": [
+        {
+          "h": "Des mots qui marquent leur objet avec が",
+          "p": [
+            "Avec **{好|す}き** (aimer), **きらい** (détester), **{上手|じょうず}** (doué), **{下手|へた}** (mauvais), **わかります** (comprendre), la chose concernée prend **が**, pas を.",
+            "{好|す}き et きらい sont des adjectifs en な : {好|す}きです, {好|す}きじゃありません, {好|す}きな{食|た}べ{物|もの}."
+          ],
+          "ex": [
+            { "jp": "{私|わたし}は{日本|にほん}の{音楽|おんがく}が{好|す}きです。", "fr": "J'aime la musique japonaise." },
+            { "jp": "{田中|たなか}さんは{料理|りょうり}が{上手|じょうず}です。", "fr": "M. Tanaka cuisine bien." },
+            { "jp": "{日本語|にほんご}が{少|すこ}しわかります。", "fr": "Je comprends un peu le japonais." }
+          ]
+        },
+        {
+          "h": "だれ・何 + が",
+          "p": ["Quand le mot interrogatif est le **sujet**, il prend **が** (jamais は). La réponse aussi."],
+          "ex": [
+            { "jp": "だれが{来|き}ましたか。— {田中|たなか}さんが{来|き}ました。", "fr": "Qui est venu ? — M. Tanaka." }
+          ]
+        },
+        {
+          "h": "ね et よ en fin de phrase",
+          "p": [
+            "**ね** : on cherche l'accord, « n'est-ce pas ? », « hein ? ».",
+            "**よ** : on apprend quelque chose à l'autre, « tu sais », « je t'assure »."
+          ],
+          "ex": [
+            { "jp": "{暑|あつ}いですね。", "fr": "Il fait chaud, hein ?" },
+            { "jp": "あした、テストがありますよ。", "fr": "Demain, il y a un contrôle, tu sais !" }
+          ]
+        }
+      ],
+      "pieges": [
+        "{音楽|おんがく}を{好|す}きです ✗ → {音楽|おんがく}が{好|す}きです.",
+        "{好|す}き n'est pas un verbe : {好|す}きます ✗.",
+        "だれは{来|き}ましたか ✗ → だれが.",
+        "{上手|じょうず} se dit des autres ; pour soi-même, ça sonne vantard."
+      ],
+      "exercises": [
+        {
+          "id": "n5-11-e01", "type": "choice",
+          "jp": "{私|わたし}はすし＿{好|す}きです。", "fr": "J'aime les sushis.",
+          "choices": ["が", "を", "に", "で"], "a": 0,
+          "explain": "{好|す}き prend が."
+        },
+        {
+          "id": "n5-11-e02", "type": "choice",
+          "jp": "{田中|たなか}さんは{料理|りょうり}＿{上手|じょうず}です。", "fr": "M. Tanaka cuisine bien.",
+          "choices": ["が", "を", "で", "の"], "a": 0
+        },
+        {
+          "id": "n5-11-e03", "type": "choice",
+          "q": "Quelle phrase est correcte ?",
+          "choices": ["{日本語|にほんご}がわかります。", "{日本語|にほんご}をわかります。", "{日本語|にほんご}にわかります。", "{日本語|にほんご}がわかりです。"], "a": 0
+        },
+        {
+          "id": "n5-11-e04", "type": "order", "uses": ["n5-06"],
+          "fr": "Qui est venu ?",
+          "tokens": ["だれ", "が", "{来|き}ました", "か"]
+        },
+        {
+          "id": "n5-11-e05", "type": "choice", "uses": ["n5-03", "n5-08"],
+          "jp": "これ、おいしいです＿。", "fr": "C'est bon, hein ? (tu ne trouves pas ?)",
+          "choices": ["ね", "よ", "か", "が"], "a": 0,
+          "explain": "On cherche l'accord de l'autre → ね."
+        },
+        {
+          "id": "n5-11-e06", "type": "choice", "uses": ["n5-07"],
+          "jp": "あした、テストがあります＿。", "fr": "Demain, il y a un contrôle, tu sais ! (je t'informe)",
+          "choices": ["よ", "ね", "か", "を"], "a": 0,
+          "explain": "On apprend une information à l'autre → よ."
+        },
+        {
+          "id": "n5-11-e07", "type": "choice", "uses": ["n5-09"],
+          "jp": "＿{食|た}べ{物|もの}は{何|なん}ですか。", "fr": "Quel est ton plat préféré ? (La nourriture que tu aimes, c'est quoi ?)",
+          "choices": ["{好|す}きな", "{好|す}きの", "{好|す}きい", "{好|す}きです"], "a": 0,
+          "explain": "{好|す}き est un adjectif en な : devant un nom → {好|す}きな."
+        },
+        {
+          "id": "n5-11-e08", "type": "choice", "uses": ["n5-08", "n5-09"],
+          "q": "Comment dire « Je n'aime pas trop le café » ?",
+          "choices": ["コーヒーはあまり{好|す}きじゃありません。", "コーヒーはあまり{好|す}きません。", "コーヒーをあまり{好|す}きくないです。", "コーヒーがあまり{好|す}きです。"], "a": 0,
+          "explain": "Au négatif, が devient souvent は (contraste) : コーヒーは… {好|す}きじゃありません."
+        },
+        {
+          "id": "n5-11-e09", "type": "order",
+          "fr": "Mme Yamada chante bien (est douée pour le chant).",
+          "tokens": ["{山田|やまだ}さん", "は", "{歌|うた}", "が", "{上手|じょうず}", "です"]
+        },
+        {
+          "id": "n5-11-e10", "type": "choice", "uses": ["n5-03"],
+          "jp": "だれ＿{先生|せんせい}ですか。— あの{人|ひと}です。", "fr": "Qui est le professeur ? — Cette personne-là.",
+          "choices": ["が", "は", "を", "の"], "a": 0,
+          "explain": "Mot interrogatif sujet → が."
+        },
+        {
+          "id": "n5-11-e11", "type": "choice",
+          "q": "Que signifie : {私|わたし}は{犬|いぬ}がきらいです。",
+          "choices": ["Je n'aime pas les chiens.", "Je suis un chien détesté.", "Les chiens ne m'aiment pas.", "J'aime les chiens."], "a": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-12",
+      "title": "ませんか・ましょう・ましょうか : inviter, proposer",
+      "formula": ["Verbe-ませんか (tu ne veux pas… ?)", "Verbe-ましょう (faisons…)", "Verbe-ましょうか (je fais… ? / on fait… ?)"],
+      "sections": [
+        {
+          "h": "Inviter : ませんか",
+          "p": ["La forme négative en question sert à **inviter poliment** : « Tu ne voudrais pas… ? »."],
+          "ex": [
+            { "jp": "いっしょに{映画|えいが}を{見|み}ませんか。", "fr": "Tu ne veux pas regarder un film avec moi ?" }
+          ]
+        },
+        {
+          "h": "Accepter, proposer : ましょう",
+          "p": ["ます → **ましょう** = « faisons ! ». On l'utilise pour accepter ou lancer une action commune."],
+          "ex": [
+            { "jp": "ええ、{見|み}ましょう。", "fr": "Oui, regardons-le !" },
+            { "jp": "{少|すこ}し{休|やす}みましょう。", "fr": "Faisons une petite pause." }
+          ]
+        },
+        {
+          "h": "Offrir son aide, demander l'avis : ましょうか",
+          "ex": [
+            { "jp": "{窓|まど}をあけましょうか。", "fr": "J'ouvre la fenêtre ?" },
+            { "jp": "どこで{会|あ}いましょうか。", "fr": "Où est-ce qu'on se retrouve ?" }
+          ]
+        },
+        {
+          "h": "Refuser poliment",
+          "p": ["On évite le « non » direct : すみません、{土曜日|どようび}は**ちょっと**… (« samedi, c'est un peu… »). La phrase reste en suspens."]
+        }
+      ],
+      "pieges": [
+        "{飲|の}みませんか (invitation) ≠ {飲|の}みません (« je ne bois pas »). Seul le か change tout.",
+        "Pour refuser, ちょっと… suffit : いいえ、しません sonne sec."
+      ],
+      "exercises": [
+        {
+          "id": "n5-12-e01", "type": "choice", "uses": ["n5-04"],
+          "jp": "いっしょに{映画|えいが}を{見|み}＿。", "fr": "Tu ne veux pas regarder un film avec moi ?",
+          "choices": ["ませんか", "ましょう", "ません", "ました"], "a": 0
+        },
+        {
+          "id": "n5-12-e02", "type": "choice", "uses": ["n5-11"],
+          "jp": "いいですね。{行|い}き＿。", "fr": "Bonne idée. Allons-y !",
+          "choices": ["ましょう", "ませんか", "ません", "ましたか"], "a": 0
+        },
+        {
+          "id": "n5-12-e03", "type": "choice",
+          "q": "On t'invite : {土曜日|どようび}にテニスをしませんか。 Tu refuses poliment. Que réponds-tu ?",
+          "choices": ["すみません、{土曜日|どようび}はちょっと…。", "いいえ、しません。", "はい、しません。", "いいえ、しましょう。"], "a": 0
+        },
+        {
+          "id": "n5-12-e04", "type": "order", "uses": ["n5-05"],
+          "fr": "Tu ne veux pas manger au restaurant avec moi ?",
+          "tokens": ["いっしょに", "レストラン", "で", "{食|た}べません", "か"]
+        },
+        {
+          "id": "n5-12-e05", "type": "choice",
+          "q": "Que veut dire : にもつを{持|も}ちましょうか。",
+          "choices": ["Je porte tes bagages ?", "Tu portes mes bagages ?", "Je n'ai pas de bagages.", "Portons les bagages demain."], "a": 0
+        },
+        {
+          "id": "n5-12-e06", "type": "choice", "uses": ["n5-03", "n5-05"],
+          "jp": "どこで{会|あ}い＿か。", "fr": "Où est-ce qu'on se retrouve ?",
+          "choices": ["ましょう", "ませんでした", "でした", "です"], "a": 0
+        },
+        {
+          "id": "n5-12-e07", "type": "order", "uses": ["n5-05"],
+          "fr": "Allons à la mer dimanche !",
+          "tokens": ["{日曜日|にちようび}", "に", "{海|うみ}", "へ", "{行|い}きましょう"]
+        },
+        {
+          "id": "n5-12-e08", "type": "choice",
+          "q": "Quelle est la différence entre {飲|の}みませんか et {飲|の}みません ?",
+          "choices": ["Le premier est une invitation, le second veut dire « je ne bois pas ».", "Aucune différence.", "Le premier est au passé.", "Le second est plus poli."], "a": 0
+        },
+        {
+          "id": "n5-12-e09", "type": "choice", "uses": ["n5-04"],
+          "jp": "{何|なに}を{食|た}べましょうか。— ラーメン＿{食|た}べましょう。", "fr": "On mange quoi ? — Mangeons des ramen.",
+          "choices": ["を", "が", "で", "に"], "a": 0
+        },
+        {
+          "id": "n5-12-e10", "type": "choice", "uses": ["n5-08", "n5-11"],
+          "jp": "{暑|あつ}いですね。{窓|まど}を＿か。", "fr": "Il fait chaud, hein. J'ouvre la fenêtre ?",
+          "choices": ["あけましょう", "あけません", "あけました", "あけ"], "a": 0,
+          "explain": "Proposer de faire quelque chose pour l'autre → ましょうか."
+        }
+      ]
+    },
+    {
+      "id": "n5-13",
+      "title": "たい : avoir envie de",
+      "formula": ["Verbe-ます → Verbe-たいです", "たくないです / たかったです"],
+      "sections": [
+        {
+          "h": "Formation",
+          "p": [
+            "On remplace ます par **たい** : {食|た}べます → {食|た}べたい = je veux manger.",
+            "たい se conjugue comme un **adjectif en い** : {食|た}べたいです / {食|た}べたくないです / {食|た}べたかったです."
+          ],
+          "ex": [
+            { "jp": "{日本|にほん}に{行|い}きたいです。", "fr": "Je veux aller au Japon." },
+            { "jp": "{今日|きょう}は{出|で}かけたくないです。", "fr": "Aujourd'hui, je n'ai pas envie de sortir." },
+            { "jp": "きのうはすしが{食|た}べたかったです。", "fr": "Hier, j'avais envie de sushis." }
+          ]
+        },
+        {
+          "h": "L'objet : を ou が",
+          "p": ["Les deux sont corrects : {水|みず}**を**{飲|の}みたい / {水|みず}**が**{飲|の}みたい."],
+          "ex": [
+            { "jp": "{水|みず}が{飲|の}みたいです。", "fr": "Je veux boire de l'eau." },
+            { "jp": "どこに{行|い}きたいですか。", "fr": "Où veux-tu aller ?" }
+          ]
+        },
+        {
+          "h": "Pour qui ?",
+          "p": [
+            "たい exprime **ton** envie, ou sert à demander celle de ton interlocuteur. On ne l'emploie pas pour affirmer l'envie d'un tiers (on verra une autre forme plus tard).",
+            "Pour vouloir un **objet** (« je veux une voiture »), ce sera ほしい, plus tard."
+          ]
+        }
+      ],
+      "pieges": [
+        "たい = adjectif en い : {行|い}きたくないです (pas {行|い}きたいじゃない).",
+        "Passé : {行|い}きたかったです (pas {行|い}きたいでした).",
+        "{田中|たなか}さんは{行|い}きたいです ✗ pour affirmer l'envie de quelqu'un d'autre."
+      ],
+      "exercises": [
+        {
+          "id": "n5-13-e01", "type": "choice", "uses": ["n5-05"],
+          "jp": "{日本|にほん}に{行|い}き＿です。", "fr": "Je veux aller au Japon.",
+          "choices": ["たい", "たく", "ます", "ましょう"], "a": 0
+        },
+        {
+          "id": "n5-13-e02", "type": "choice",
+          "jp": "{今日|きょう}はお{酒|さけ}を{飲|の}み＿です。", "fr": "Aujourd'hui, je n'ai pas envie de boire d'alcool.",
+          "choices": ["たくない", "たいじゃない", "ません", "たいない"], "a": 0,
+          "explain": "たい se conjugue comme un adjectif en い : たくない."
+        },
+        {
+          "id": "n5-13-e03", "type": "choice",
+          "q": "Quelle est la forme « vouloir » de {見|み}ます ?",
+          "choices": ["{見|み}たい", "{見|み}ますたい", "{見|み}るたい", "{見|み}たいます"], "a": 0
+        },
+        {
+          "id": "n5-13-e04", "type": "order", "uses": ["n5-04"],
+          "fr": "Que veux-tu manger ?",
+          "tokens": ["{何|なに}", "を", "{食|た}べたい", "です", "か"]
+        },
+        {
+          "id": "n5-13-e05", "type": "choice", "uses": ["n5-10"],
+          "jp": "きのうは{本|ほん}が{読|よ}み＿です。", "fr": "Hier, j'avais envie de lire un livre.",
+          "choices": ["たかった", "たいでした", "たかったでした", "たくて"], "a": 0,
+          "explain": "Passé d'un adjectif en い : かった."
+        },
+        {
+          "id": "n5-13-e06", "type": "choice",
+          "q": "Quelle phrase est correcte pour « Je veux boire de l'eau » ?",
+          "choices": ["{水|みず}が{飲|の}みたいです。", "{水|みず}が{飲|の}みたいます。", "{水|みず}が{飲|の}むたいです。", "{水|みず}を{飲|の}みたいでした。"], "a": 0
+        },
+        {
+          "id": "n5-13-e07", "type": "order", "uses": ["n5-05"],
+          "fr": "Je ne veux pas rentrer à la maison.",
+          "tokens": ["うち", "に", "{帰|かえ}りたくない", "です"]
+        },
+        {
+          "id": "n5-13-e08", "type": "choice", "uses": ["n5-03", "n5-05"],
+          "jp": "{週末|しゅうまつ}、どこ＿{行|い}きたいですか。", "fr": "Où veux-tu aller ce week-end ?",
+          "choices": ["に", "で", "を", "が"], "a": 0
+        },
+        {
+          "id": "n5-13-e09", "type": "choice",
+          "q": "Pourquoi « {田中|たなか}さんはすしが{食|た}べたいです » sonne bizarre ?",
+          "choices": ["On n'affirme pas l'envie de quelqu'un d'autre avec たい.", "たい ne s'utilise pas avec が.", "Il manque か.", "すし ne se mange pas."], "a": 0
+        },
+        {
+          "id": "n5-13-e10", "type": "choice", "uses": ["n5-12"],
+          "q": "Laquelle est une **invitation** ?",
+          "choices": ["いっしょに{行|い}きませんか。", "いっしょに{行|い}きたいです。", "いっしょに{行|い}きませんでした。", "いっしょに{行|い}きたくないです。"], "a": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-14",
+      "title": "と (et, avec) et や〜など",
+      "formula": ["A と B (A et B, liste complète)", "A や B など (A, B, etc.)", "Personne と + verbe (avec)"],
+      "sections": [
+        {
+          "h": "と : « et » entre des noms",
+          "p": ["A と B = A et B, on cite **tout**."],
+          "ex": [
+            { "jp": "パンとたまごを{食|た}べました。", "fr": "J'ai mangé du pain et des œufs." }
+          ]
+        },
+        {
+          "h": "や〜など : quelques exemples",
+          "p": ["A や B (など) = A, B, etc. On cite **des exemples parmi d'autres**."],
+          "ex": [
+            { "jp": "かばんの{中|なか}に{本|ほん}やペンなどがあります。", "fr": "Dans le sac, il y a des livres, des stylos, etc." }
+          ]
+        },
+        {
+          "h": "と : « avec » quelqu'un",
+          "p": ["Personne と + action = faire avec quelqu'un. Seul = ひとりで."],
+          "ex": [
+            { "jp": "{友|とも}だちと{映画|えいが}を{見|み}ました。", "fr": "J'ai regardé un film avec un ami." },
+            { "jp": "ひとりで{勉強|べんきょう}しました。", "fr": "J'ai étudié seul." }
+          ]
+        }
+      ],
+      "pieges": [
+        "と relie **uniquement des noms** : {食|た}べますと{飲|の}みます ✗. Pour enchaîner des verbes, on verra la forme て.",
+        "« Seul » : ひとり**で** (pas ひとりと)."
+      ],
+      "exercises": [
+        {
+          "id": "n5-14-e01", "type": "choice", "uses": ["n5-04", "n5-06"],
+          "jp": "パン＿たまごを{食|た}べました。", "fr": "J'ai mangé du pain et des œufs.",
+          "choices": ["と", "や", "も", "の"], "a": 0,
+          "explain": "Liste complète → と."
+        },
+        {
+          "id": "n5-14-e02", "type": "choice", "uses": ["n5-06"],
+          "jp": "{友|とも}だち＿{映画|えいが}を{見|み}ました。", "fr": "J'ai regardé un film avec un ami.",
+          "choices": ["と", "に", "を", "や"], "a": 0
+        },
+        {
+          "id": "n5-14-e03", "type": "choice", "uses": ["n5-07"],
+          "jp": "かばんの{中|なか}に{本|ほん}＿ペンなどがあります。", "fr": "Dans le sac, il y a des livres, des stylos, etc.",
+          "choices": ["や", "と", "も", "の"], "a": 0,
+          "explain": "Exemples parmi d'autres (など) → や."
+        },
+        {
+          "id": "n5-14-e04", "type": "order", "uses": ["n5-05", "n5-06"],
+          "fr": "Je suis allé à Kyoto avec ma famille.",
+          "tokens": ["{家族|かぞく}", "と", "{京都|きょうと}", "に", "{行|い}きました"],
+          "alt": [["{京都|きょうと}", "に", "{家族|かぞく}", "と", "{行|い}きました"]]
+        },
+        {
+          "id": "n5-14-e05", "type": "choice",
+          "q": "Quelle phrase est **incorrecte** ?",
+          "choices": ["{食|た}べますと{飲|の}みます。", "パンと{水|みず}を{買|か}います。", "{田中|たなか}さんと{行|い}きます。", "{犬|いぬ}とねこがいます。"], "a": 0,
+          "explain": "と ne relie pas deux verbes."
+        },
+        {
+          "id": "n5-14-e06", "type": "choice", "uses": ["n5-06"],
+          "jp": "きのうはひとり＿{勉強|べんきょう}しました。", "fr": "Hier, j'ai étudié seul.",
+          "choices": ["で", "と", "に", "を"], "a": 0
+        },
+        {
+          "id": "n5-14-e07", "type": "order", "uses": ["n5-07"],
+          "fr": "Dans le frigo, il y a de la bière, du jus, etc.",
+          "tokens": ["れいぞうこ", "に", "ビール", "や", "ジュース", "など", "が", "あります"]
+        },
+        {
+          "id": "n5-14-e08", "type": "choice",
+          "q": "Quelle est la différence entre « A と B » et « A や B など » ?",
+          "choices": ["と donne une liste complète, や〜など des exemples parmi d'autres.", "や est plus poli.", "と s'emploie seulement pour les personnes.", "Aucune."], "a": 0
+        },
+        {
+          "id": "n5-14-e09", "type": "choice", "uses": ["n5-05", "n5-12"],
+          "jp": "いっしょに{行|い}きませんか。— すみません、{今日|きょう}は{母|はは}＿デパートに{行|い}きます。", "fr": "Tu viens avec moi ? — Désolé, aujourd'hui je vais au grand magasin avec ma mère.",
+          "choices": ["と", "や", "の", "が"], "a": 0
+        },
+        {
+          "id": "n5-14-e10", "type": "choice", "uses": ["n5-01"],
+          "q": "Que signifie : {田中|たなか}さんと{山田|やまだ}さんは{学生|がくせい}です。",
+          "choices": ["M. Tanaka et Mme Yamada sont étudiants.", "M. Tanaka est étudiant avec Mme Yamada.", "M. Tanaka, Mme Yamada, etc. sont étudiants.", "M. Tanaka est l'étudiant de Mme Yamada."], "a": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-15",
+      "title": "から (parce que) et が (mais)",
+      "formula": ["Cause から、Conséquence", "Phrase 1 が、Phrase 2 (mais)", "どうして… ? — …からです"],
+      "sections": [
+        {
+          "h": "から : la cause",
+          "p": [
+            "Cause **から**、conséquence = « comme…, donc… ». **La cause vient en premier**, l'inverse du français « parce que »."
+          ],
+          "ex": [
+            { "jp": "{暑|あつ}いですから、{窓|まど}をあけます。", "fr": "Comme il fait chaud, j'ouvre la fenêtre." },
+            { "jp": "{時間|じかん}がありませんから、タクシーで{行|い}きましょう。", "fr": "On n'a pas le temps, alors allons-y en taxi." }
+          ]
+        },
+        {
+          "h": "どうして : pourquoi",
+          "p": ["On répond avec la cause + から (です)."],
+          "ex": [
+            { "jp": "どうして{来|き}ませんでしたか。— いそがしかったですから。", "fr": "Pourquoi n'es-tu pas venu ? — Parce que j'étais occupé." }
+          ]
+        },
+        {
+          "h": "が : mais",
+          "p": [
+            "Phrase 1 **が**、phrase 2 = « …, mais… ».",
+            "En début de phrase, « Mais… » se dit **でも**."
+          ],
+          "ex": [
+            { "jp": "{日本語|にほんご}はむずかしいですが、おもしろいです。", "fr": "Le japonais est difficile, mais intéressant." }
+          ]
+        }
+      ],
+      "pieges": [
+        "Ne pas confondre ce が (« mais », entre deux phrases) avec la particule が (après un nom).",
+        "から après une phrase = « parce que ». Après un nom de lieu ou d'heure, から voudra dire « depuis » (plus tard)."
+      ],
+      "exercises": [
+        {
+          "id": "n5-15-e01", "type": "choice", "uses": ["n5-08"],
+          "jp": "{暑|あつ}いです＿、{窓|まど}をあけます。", "fr": "Comme il fait chaud, j'ouvre la fenêtre.",
+          "choices": ["から", "が", "と", "で"], "a": 0
+        },
+        {
+          "id": "n5-15-e02", "type": "choice", "uses": ["n5-08"],
+          "jp": "{日本語|にほんご}はむずかしいです＿、おもしろいです。", "fr": "Le japonais est difficile, mais intéressant.",
+          "choices": ["が", "から", "と", "や"], "a": 0
+        },
+        {
+          "id": "n5-15-e03", "type": "choice",
+          "q": "Que veut dire どうして ?",
+          "choices": ["pourquoi", "comment", "quand", "où"], "a": 0
+        },
+        {
+          "id": "n5-15-e04", "type": "order", "uses": ["n5-04", "n5-07"],
+          "fr": "Je n'ai pas d'argent, donc je n'achète pas.",
+          "tokens": ["お{金|かね}", "が", "ありません", "から", "{買|か}いません"]
+        },
+        {
+          "id": "n5-15-e05", "type": "choice", "uses": ["n5-11"],
+          "jp": "どうして{日本語|にほんご}を{勉強|べんきょう}しますか。— アニメが{好|す}きです＿。", "fr": "Pourquoi étudies-tu le japonais ? — Parce que j'aime les anime.",
+          "choices": ["から", "が", "ね", "で"], "a": 0
+        },
+        {
+          "id": "n5-15-e06", "type": "choice", "uses": ["n5-08"],
+          "q": "Dans « {高|たか}いですから、{買|か}いません », quelle est la cause ?",
+          "choices": ["C'est cher.", "Je n'achète pas.", "Les deux.", "Aucune."], "a": 0,
+          "explain": "La cause est toujours devant から."
+        },
+        {
+          "id": "n5-15-e07", "type": "order", "uses": ["n5-03", "n5-08"],
+          "fr": "Ce restaurant est bon, mais cher.",
+          "tokens": ["この", "レストラン", "は", "おいしいです", "が", "{高|たか}いです"]
+        },
+        {
+          "id": "n5-15-e08", "type": "choice", "uses": ["n5-07"],
+          "jp": "{雨|あめ}です＿、うちにいます。", "fr": "Comme il pleut, je reste à la maison.",
+          "choices": ["から", "が", "と", "も"], "a": 0
+        },
+        {
+          "id": "n5-15-e09", "type": "choice", "uses": ["n5-09", "n5-10"],
+          "jp": "きのうはいそがしかったです＿、{今日|きょう}はひまです。", "fr": "Hier j'étais occupé, mais aujourd'hui je suis libre.",
+          "choices": ["が", "から", "と", "の"], "a": 0
+        },
+        {
+          "id": "n5-15-e10", "type": "choice", "uses": ["n5-05", "n5-07", "n5-12"],
+          "q": "Que signifie : {時間|じかん}がありませんから、タクシーで{行|い}きましょう。",
+          "choices": ["On n'a pas le temps, alors allons-y en taxi.", "Allons-y en taxi, mais on n'a pas le temps.", "Le taxi n'a pas le temps.", "On a le temps, prenons un taxi."], "a": 0
+        }
+      ]
+    }
+  ],
+  "test": [
+    {
+      "id": "n5-b03-t01", "type": "choice", "uses": ["n5-11", "n5-15"],
+      "jp": "{私|わたし}は{音楽|おんがく}＿{好|す}きですから、{毎日|まいにち}{聞|き}きます。", "fr": "J'aime la musique, alors j'en écoute tous les jours.",
+      "choices": ["が", "を", "に", "で"], "a": 0
+    },
+    {
+      "id": "n5-b03-t02", "type": "order", "uses": ["n5-05", "n5-12"],
+      "fr": "Tu ne veux pas aller au café avec moi ?",
+      "tokens": ["いっしょに", "カフェ", "に", "{行|い}きません", "か"]
+    },
+    {
+      "id": "n5-b03-t03", "type": "choice", "uses": ["n5-12"],
+      "q": "Comment proposer : « On boit un thé ? »",
+      "choices": ["お{茶|ちゃ}を{飲|の}みませんか。", "お{茶|ちゃ}を{飲|の}みませんでした。", "お{茶|ちゃ}が{飲|の}みたくないです。", "お{茶|ちゃ}を{飲|の}みました。"], "a": 0
+    },
+    {
+      "id": "n5-b03-t04", "type": "choice", "uses": ["n5-13", "n5-14"],
+      "jp": "{友|とも}だち＿テニスをしたいです。", "fr": "Je veux jouer au tennis avec un ami.",
+      "choices": ["と", "や", "を", "が"], "a": 0
+    },
+    {
+      "id": "n5-b03-t05", "type": "order", "uses": ["n5-08", "n5-11", "n5-15"],
+      "fr": "Le japonais est difficile, mais j'aime ça.",
+      "tokens": ["{日本語|にほんご}", "は", "むずかしいです", "が", "{好|す}きです"]
+    },
+    {
+      "id": "n5-b03-t06", "type": "choice", "uses": ["n5-11"],
+      "q": "Quelle phrase est correcte ?",
+      "choices": ["{田中|たなか}さんは{料理|りょうり}が{上手|じょうず}です。", "{田中|たなか}さんは{料理|りょうり}を{上手|じょうず}です。", "{田中|たなか}さんは{料理|りょうり}が{上手|じょうず}ます。", "{田中|たなか}さんは{料理|りょうり}が{上手|じょうず}いです。"], "a": 0
+    },
+    {
+      "id": "n5-b03-t07", "type": "choice", "uses": ["n5-13", "n5-15"],
+      "jp": "{寒|さむ}いですから、{外|そと}に＿。", "fr": "Il fait froid, donc je ne veux pas sortir.",
+      "choices": ["{行|い}きたくないです", "{行|い}きたいです", "{行|い}きましょう", "{行|い}きたくなかったです"], "a": 0
+    },
+    {
+      "id": "n5-b03-t08", "type": "order", "uses": ["n5-11", "n5-13"],
+      "fr": "Qui veut venir ?",
+      "tokens": ["だれ", "が", "{来|き}たい", "です", "か"]
+    },
+    {
+      "id": "n5-b03-t09", "type": "choice", "uses": ["n5-05", "n5-06", "n5-14"],
+      "jp": "デパートでくつ＿かばんなどを{買|か}いました。", "fr": "Au grand magasin, j'ai acheté des chaussures, un sac, etc.",
+      "choices": ["や", "と", "も", "が"], "a": 0
+    },
+    {
+      "id": "n5-b03-t10", "type": "choice", "uses": ["n5-10", "n5-15"],
+      "q": "Que signifie : {映画|えいが}はおもしろかったですが、{長|なが}かったです。",
+      "choices": ["Le film était intéressant, mais long.", "Le film était long, donc intéressant.", "Le film n'était ni intéressant ni long.", "Le film était intéressant et court."], "a": 0
+    },
+    {
+      "id": "n5-b03-t11", "type": "choice", "uses": ["n5-03", "n5-08", "n5-11"],
+      "jp": "この{店|みせ}のケーキはおいしいです＿。", "fr": "Les gâteaux de ce magasin sont bons, je te le dis !",
+      "choices": ["よ", "ね", "か", "が"], "a": 0
+    },
+    {
+      "id": "n5-b03-t12", "type": "choice", "uses": ["n5-12"],
+      "jp": "いっしょに{帰|かえ}りませんか。— ええ、{帰|かえ}り＿。", "fr": "On rentre ensemble ? — Oui, rentrons.",
+      "choices": ["ましょう", "ません", "たくない", "ましたか"], "a": 0
+    },
+    {
+      "id": "n5-b03-t13", "type": "order", "uses": ["n5-11", "n5-14"],
+      "fr": "J'aime les chiens et les chats.",
+      "tokens": ["{私|わたし}", "は", "{犬|いぬ}", "と", "ねこ", "が", "{好|す}きです"]
+    },
+    {
+      "id": "n5-b03-t14", "type": "choice", "uses": ["n5-10", "n5-15"],
+      "q": "どうしてパーティーに{来|き}ませんでしたか。 Quelle réponse est correcte ?",
+      "choices": ["いそがしかったですから。", "いそがしいでしたから。", "いそがしかったですが。", "いそがしかったですと。"], "a": 0
+    },
+    {
+      "id": "n5-b03-t15", "type": "choice", "uses": ["n5-09", "n5-11", "n5-15"],
+      "q": "Que signifie : {日本語|にほんご}が{少|すこ}しわかりますが、{上手|じょうず}じゃありません。",
+      "choices": ["Je comprends un peu le japonais, mais je ne suis pas doué.", "Je ne comprends pas le japonais, donc je ne suis pas doué.", "Je comprends bien le japonais et je suis doué.", "Je veux comprendre le japonais."], "a": 0
+    }
+  ]
+}

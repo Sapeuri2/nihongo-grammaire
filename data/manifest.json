@@ -1,6 +1,9 @@
 {
   "examEvery": 4,
   "blocks": [
-    "data/n5/bloc01.json"
+    "data/n5/bloc01.json",
+    "data/n5/bloc02.json",
+    "data/n5/bloc03.json",
+    "data/n5/bloc04.json"
   ]
 }

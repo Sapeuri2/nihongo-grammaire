@@ -13,28 +13,28 @@ Ordre prévu des leçons. Les points rares ou facultatifs sont laissés de côt�
 4. Verbes en ます / ません + を
 5. に・へ・で (destination, moment, lieu de l'action, moyen)
 
-**Bloc 2**
+**Bloc 2** ✅
 6. Passé poli : ました / ませんでした
 7. あります / います + に (existence, position)
 8. Adjectifs en い (présent, négatif)
 9. Adjectifs en な
 10. Adjectifs au passé (かった / でした)
 
-**Bloc 3**
+**Bloc 3** ✅
 11. が : すき・きらい・じょうず・わかる, sujet + ね / よ
 12. ましょう / ませんか (proposer, inviter)
 13. たい (avoir envie de)
 14. と (et / avec), や〜など
 15. から (parce que), が (mais)
 
-**Bloc 4**
+**Bloc 4** ✅
 16. Groupes de verbes et forme du dictionnaire
 17. Forme て : formation
 18. てください
 19. ている (en cours, état)
 20. てもいいです / てはいけません
 
-→ **Grand examen 1** (leçons 1–20)
+→ **Grand examen 1** (leçons 1–20) ✅
 
 **Bloc 5**
 21. て pour enchaîner ; adjectifs くて / で
