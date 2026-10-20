@@ -1,0 +1,637 @@
+{
+  "id": "n5-b01",
+  "level": "N5",
+  "title": "Les bases : être, relier, montrer, agir, situer",
+  "lessons": [
+    {
+      "id": "n5-01",
+      "title": "A は B です : être, ne pas être, question",
+      "formula": ["A は B です", "A は B じゃありません", "A は B ですか"],
+      "sections": [
+        {
+          "h": "Le principe",
+          "p": [
+            "**は** marque le **thème** de la phrase : ce dont on parle. **です** à la fin veut dire « être » (forme polie).",
+            "A は B です = « A, c'est B » / « A est B ».",
+            "Attention : la particule は se prononce **wa**, pas « ha »."
+          ],
+          "ex": [
+            { "jp": "{私|わたし}は{学生|がくせい}です。", "fr": "Je suis étudiant(e)." },
+            { "jp": "{田中|たなか}さんは{先生|せんせい}です。", "fr": "M. Tanaka est professeur." },
+            { "jp": "{山田|やまだ}さんは{日本人|にほんじん}です。", "fr": "Mme Yamada est japonaise." }
+          ]
+        },
+        {
+          "h": "La négation",
+          "p": [
+            "Remplace です par **じゃありません**. À l'écrit ou en plus soutenu : ではありません. À l'oral on entend aussi じゃないです."
+          ],
+          "ex": [
+            { "jp": "{私|わたし}は{先生|せんせい}じゃありません。", "fr": "Je ne suis pas professeur." },
+            { "jp": "{田中|たなか}さんは{学生|がくせい}ではありません。", "fr": "M. Tanaka n'est pas étudiant." }
+          ]
+        },
+        {
+          "h": "La question",
+          "p": [
+            "Ajoute **か** à la fin. Pas d'inversion, pas besoin de point d'interrogation.",
+            "Réponses : はい、そうです (oui, c'est ça) / いいえ、ちがいます (non, ce n'est pas ça)."
+          ],
+          "ex": [
+            { "jp": "{田中|たなか}さんは{学生|がくせい}ですか。— はい、そうです。", "fr": "M. Tanaka est-il étudiant ? — Oui." },
+            { "jp": "{山田|やまだ}さんは{先生|せんせい}ですか。— いいえ、ちがいます。{学生|がくせい}です。", "fr": "Mme Yamada est-elle professeur ? — Non. Elle est étudiante." },
+            { "jp": "{山田|やまだ}さんは{何人|なにじん}ですか。", "fr": "De quelle nationalité est Mme Yamada ?" }
+          ]
+        }
+      ],
+      "pieges": [
+        "Pas d'article ni de pluriel : {学生|がくせい} = un étudiant, l'étudiant, des étudiants.",
+        "Quand le thème est évident, on le supprime : {学生|がくせい}です。 suffit pour « Je suis étudiant ». Répéter {私|わたし}は sans arrêt sonne lourd.",
+        "さん s'ajoute au nom des autres, **jamais** au sien ni après {私|わたし}."
+      ],
+      "exercises": [
+        {
+          "id": "n5-01-e01", "type": "choice",
+          "jp": "{私|わたし}＿{学生|がくせい}です。", "fr": "Je suis étudiant.",
+          "choices": ["は", "か", "です", "じゃ"], "a": 0,
+          "explain": "は marque le thème : {私|わたし}は = « moi, … »."
+        },
+        {
+          "id": "n5-01-e02", "type": "choice",
+          "jp": "{田中|たなか}さんは{先生|せんせい}＿。", "fr": "M. Tanaka n'est pas professeur.",
+          "choices": ["じゃありません", "です", "ですか", "か"], "a": 0,
+          "explain": "Négation de です : じゃありません."
+        },
+        {
+          "id": "n5-01-e03", "type": "choice",
+          "jp": "{山田|やまだ}さんは{日本人|にほんじん}です＿。", "fr": "Mme Yamada est-elle japonaise ?",
+          "choices": ["か", "は", "です", "じゃ"], "a": 0,
+          "explain": "Pour poser une question, on ajoute か à la fin."
+        },
+        {
+          "id": "n5-01-e04", "type": "choice",
+          "q": "Comment se prononce la particule は dans {私|わたし}は ?",
+          "choices": ["wa", "ha", "o", "e"], "a": 0,
+          "explain": "Quand は est une particule, elle se prononce « wa »."
+        },
+        {
+          "id": "n5-01-e05", "type": "order",
+          "fr": "Je ne suis pas japonais.",
+          "tokens": ["{私|わたし}", "は", "{日本人|にほんじん}", "じゃありません"]
+        },
+        {
+          "id": "n5-01-e06", "type": "order",
+          "fr": "M. Tanaka est-il étudiant ?",
+          "tokens": ["{田中|たなか}さん", "は", "{学生|がくせい}", "です", "か"]
+        },
+        {
+          "id": "n5-01-e07", "type": "choice",
+          "q": "{田中|たなか}さんは{学生|がくせい}ですか。 Tanaka est bien étudiant. Quelle réponse est correcte ?",
+          "choices": ["はい、そうです。", "はい、ちがいます。", "いいえ、そうです。", "はい、じゃありません。"], "a": 0,
+          "explain": "はい、そうです = « oui, c'est ça ». ちがいます sert à dire non."
+        },
+        {
+          "id": "n5-01-e08", "type": "choice",
+          "q": "Quelle phrase veut dire « Je suis professeur » ?",
+          "choices": ["{私|わたし}は{先生|せんせい}です。", "{私|わたし}さんは{先生|せんせい}です。", "{私|わたし}は{先生|せんせい}か。", "{私|わたし}は{先生|せんせい}さんです。"], "a": 0,
+          "explain": "Jamais de さん pour soi-même, et une question se termine par ですか, pas par か seul après un nom."
+        },
+        {
+          "id": "n5-01-e09", "type": "choice",
+          "q": "On te demande : {学生|がくせい}ですか。 Tu es professeur. Que réponds-tu ?",
+          "choices": ["いいえ、{先生|せんせい}です。", "はい、{先生|せんせい}です。", "いいえ、{学生|がくせい}です。", "いいえ、{先生|せんせい}じゃありません。"], "a": 0,
+          "explain": "Tu n'es pas étudiant → いいえ, puis tu dis ce que tu es : {先生|せんせい}です."
+        },
+        {
+          "id": "n5-01-e10", "type": "order",
+          "fr": "De quelle nationalité est Mme Yamada ?",
+          "tokens": ["{山田|やまだ}さん", "は", "{何人|なにじん}", "です", "か"]
+        }
+      ]
+    },
+    {
+      "id": "n5-02",
+      "title": "の (de) et も (aussi)",
+      "formula": ["A の B = le B de A", "A も B です = A aussi est B"],
+      "sections": [
+        {
+          "h": "の : relier deux noms",
+          "p": [
+            "A の B = « le B de A ». **L'ordre est inversé** par rapport au français : le nom principal est à la fin.",
+            "Usages : possession ({私|わたし}の{本|ほん} = mon livre), domaine ({日本語|にほんご}の{先生|せんせい} = professeur de japonais), origine ou appartenance ({日本|にほん}の{車|くるま} = voiture japonaise).",
+            "Si le second nom est évident, il peut disparaître : {私|わたし}のです = c'est le mien."
+          ],
+          "ex": [
+            { "jp": "{私|わたし}の{本|ほん}です。", "fr": "C'est mon livre." },
+            { "jp": "{田中|たなか}さんは{日本語|にほんご}の{先生|せんせい}です。", "fr": "M. Tanaka est professeur de japonais." },
+            { "jp": "{山田|やまだ}さんは{東京大学|とうきょうだいがく}の{学生|がくせい}です。", "fr": "Mme Yamada est étudiante à l'université de Tokyo." }
+          ]
+        },
+        {
+          "h": "も : aussi",
+          "p": [
+            "も **remplace** は : {私|わたし}も{学生|がくせい}です = moi aussi, je suis étudiant. On ne dit jamais はも.",
+            "Avec une négation, も veut dire « non plus »."
+          ],
+          "ex": [
+            { "jp": "{田中|たなか}さんは{先生|せんせい}です。{山田|やまだ}さんも{先生|せんせい}です。", "fr": "M. Tanaka est professeur. Mme Yamada aussi est professeur." },
+            { "jp": "{私|わたし}も{日本人|にほんじん}じゃありません。", "fr": "Moi non plus, je ne suis pas japonais." }
+          ]
+        }
+      ],
+      "pieges": [
+        "« Le livre de Tanaka » = {田中|たなか}さんの{本|ほん}, jamais {本|ほん}の{田中|たなか}さん.",
+        "は et も ne se cumulent pas : {私|わたし}はも ✗ → {私|わたし}も ✓.",
+        "の relie deux **noms**. Les adjectifs fonctionnent autrement (on le verra plus tard)."
+      ],
+      "exercises": [
+        {
+          "id": "n5-02-e01", "type": "choice",
+          "jp": "{私|わたし}＿{本|ほん}です。", "fr": "C'est mon livre.",
+          "choices": ["の", "は", "も", "か"], "a": 0,
+          "explain": "{私|わたし}の{本|ほん} = « le livre de moi » = mon livre."
+        },
+        {
+          "id": "n5-02-e02", "type": "choice",
+          "jp": "{田中|たなか}さんは{学生|がくせい}です。{山田|やまだ}さん＿{学生|がくせい}です。", "fr": "M. Tanaka est étudiant. Mme Yamada aussi est étudiante.",
+          "choices": ["も", "は", "の", "はも"], "a": 0,
+          "explain": "« Aussi » → も, qui remplace は."
+        },
+        {
+          "id": "n5-02-e03", "type": "choice",
+          "q": "Comment dit-on « professeur de japonais » ?",
+          "choices": ["{日本語|にほんご}の{先生|せんせい}", "{先生|せんせい}の{日本語|にほんご}", "{日本語|にほんご}も{先生|せんせい}", "{日本語|にほんご}は{先生|せんせい}"], "a": 0,
+          "explain": "A の B : le nom principal ({先生|せんせい}) est à la fin."
+        },
+        {
+          "id": "n5-02-e04", "type": "order",
+          "fr": "Mme Yamada est étudiante à l'université de Tokyo.",
+          "tokens": ["{山田|やまだ}さん", "は", "{東京大学|とうきょうだいがく}", "の", "{学生|がくせい}", "です"]
+        },
+        {
+          "id": "n5-02-e05", "type": "choice",
+          "jp": "{私|わたし}も{日本人|にほんじん}＿。", "fr": "Moi non plus, je ne suis pas japonais.",
+          "choices": ["じゃありません", "です", "ですか", "の"], "a": 0,
+          "explain": "も + négation = « non plus »."
+        },
+        {
+          "id": "n5-02-e06", "type": "choice",
+          "q": "Quelle phrase est correcte ?",
+          "choices": ["{私|わたし}も{先生|せんせい}です。", "{私|わたし}はも{先生|せんせい}です。", "{私|わたし}もは{先生|せんせい}です。", "{私|わたし}の{先生|せんせい}もです。"], "a": 0,
+          "explain": "も remplace は, on ne les met jamais ensemble."
+        },
+        {
+          "id": "n5-02-e07", "type": "order",
+          "fr": "Ce n'est pas le livre de M. Tanaka.",
+          "tokens": ["{田中|たなか}さん", "の", "{本|ほん}", "じゃありません"]
+        },
+        {
+          "id": "n5-02-e08", "type": "choice",
+          "jp": "{田中|たなか}さんの{本|ほん}ですか。— いいえ、{私|わたし}＿です。", "fr": "C'est le livre de M. Tanaka ? — Non, c'est le mien.",
+          "choices": ["の", "は", "も", "か"], "a": 0,
+          "explain": "{私|わたし}の{本|ほん} → {本|ほん} est évident, on le supprime : {私|わたし}の = le mien."
+        },
+        {
+          "id": "n5-02-e09", "type": "choice", "uses": ["n5-01"],
+          "q": "Que signifie : {山田|やまだ}さんは{日本語|にほんご}の{先生|せんせい}ですか。",
+          "choices": ["Mme Yamada est-elle professeur de japonais ?", "Mme Yamada est-elle japonaise ?", "Le professeur de Mme Yamada est-il japonais ?", "Mme Yamada a-t-elle un professeur de japonais ?"], "a": 0
+        },
+        {
+          "id": "n5-02-e10", "type": "order",
+          "fr": "Mon ami aussi est professeur.",
+          "tokens": ["{私|わたし}", "の", "{友|とも}だち", "も", "{先生|せんせい}", "です"]
+        }
+      ]
+    },
+    {
+      "id": "n5-03",
+      "title": "こ・そ・あ・ど : ceci, cela, ici, là-bas",
+      "formula": ["これ・それ・あれ・どれ (seuls)", "この・その・あの・どの + nom", "ここ・そこ・あそこ・どこ (lieux)"],
+      "sections": [
+        {
+          "h": "Le système こ・そ・あ・ど",
+          "p": [
+            "**こ** = près de moi (celui qui parle) · **そ** = près de toi · **あ** = loin de nous deux · **ど** = question."
+          ]
+        },
+        {
+          "h": "これ・それ・あれ・どれ : seuls",
+          "p": ["Ils remplacent un nom (« ceci, cela ») et sont suivis d'une **particule**, jamais d'un nom."],
+          "ex": [
+            { "jp": "これは{本|ほん}です。", "fr": "Ceci est un livre." },
+            { "jp": "それは{何|なん}ですか。", "fr": "Qu'est-ce que c'est, ça (près de toi) ?" },
+            { "jp": "{田中|たなか}さんのかばんはどれですか。", "fr": "Lequel est le sac de M. Tanaka ?" }
+          ]
+        },
+        {
+          "h": "この・その・あの・どの + nom",
+          "p": ["Ils se placent **devant un nom** : ce livre-ci = この{本|ほん}."],
+          "ex": [
+            { "jp": "この{本|ほん}は{私|わたし}のです。", "fr": "Ce livre-ci est à moi." },
+            { "jp": "あの{人|ひと}は{先生|せんせい}です。", "fr": "Cette personne là-bas est professeur." }
+          ]
+        },
+        {
+          "h": "ここ・そこ・あそこ・どこ : les lieux",
+          "ex": [
+            { "jp": "トイレはどこですか。", "fr": "Où sont les toilettes ?" },
+            { "jp": "{駅|えき}はあそこです。", "fr": "La gare est là-bas." }
+          ]
+        },
+        {
+          "h": "{何|なに} : quoi",
+          "p": ["{何|なに} se lit **なん** devant です et の ({何|なん}ですか, {何|なん}の{本|ほん}), et **なに** dans la plupart des autres cas ({何|なに}を…)."],
+          "ex": [
+            { "jp": "これは{何|なん}の{本|ほん}ですか。— {日本語|にほんご}の{本|ほん}です。", "fr": "C'est un livre de quoi ? — C'est un livre de japonais." }
+          ]
+        }
+      ],
+      "pieges": [
+        "この{本|ほん} ✓ / これ{本|ほん} ✗. これは{本|ほん}です ✓ / このは{本|ほん}です ✗.",
+        "Si on te demande それは{何|なん}ですか en montrant un objet que **tu** tiens, tu réponds avec これ : l'objet est près de toi.",
+        "どれ = lequel (parmi plusieurs) ; どこ = où."
+      ],
+      "exercises": [
+        {
+          "id": "n5-03-e01", "type": "choice", "uses": ["n5-02"],
+          "jp": "＿{本|ほん}は{私|わたし}のです。", "fr": "Ce livre (près de moi) est à moi.",
+          "choices": ["この", "これ", "ここ", "その"], "a": 0,
+          "explain": "Devant un nom → この. これ s'emploie seul."
+        },
+        {
+          "id": "n5-03-e02", "type": "choice",
+          "jp": "＿は{何|なん}ですか。", "fr": "Qu'est-ce que c'est, ça (près de toi) ?",
+          "choices": ["それ", "その", "そこ", "これ"], "a": 0,
+          "explain": "Seul, près de l'interlocuteur → それ."
+        },
+        {
+          "id": "n5-03-e03", "type": "choice",
+          "jp": "トイレは＿ですか。", "fr": "Où sont les toilettes ?",
+          "choices": ["どこ", "どれ", "どの", "{何|なに}"], "a": 0,
+          "explain": "Où → どこ."
+        },
+        {
+          "id": "n5-03-e04", "type": "choice",
+          "q": "Ton ami montre le livre que **tu** tiens et demande : それは{何|なん}ですか。 Que réponds-tu ?",
+          "choices": ["これは{本|ほん}です。", "それは{本|ほん}です。", "あれは{本|ほん}です。", "あそこは{本|ほん}です。"], "a": 0,
+          "explain": "Le livre est près de toi → これ."
+        },
+        {
+          "id": "n5-03-e05", "type": "order", "uses": ["n5-02"],
+          "fr": "Cette personne là-bas est le professeur de M. Tanaka.",
+          "tokens": ["あの", "{人|ひと}", "は", "{田中|たなか}さん", "の", "{先生|せんせい}", "です"]
+        },
+        {
+          "id": "n5-03-e06", "type": "choice",
+          "q": "Quelle phrase est correcte ?",
+          "choices": ["あの{人|ひと}は{学生|がくせい}です。", "あれ{人|ひと}は{学生|がくせい}です。", "あのは{学生|がくせい}です。", "あそこ{人|ひと}は{学生|がくせい}です。"], "a": 0,
+          "explain": "Devant un nom ({人|ひと}) → あの."
+        },
+        {
+          "id": "n5-03-e07", "type": "choice", "uses": ["n5-02"],
+          "jp": "{山田|やまだ}さんのかばんは＿ですか。", "fr": "Lequel est le sac de Mme Yamada ?",
+          "choices": ["どれ", "どの", "どこ", "{何|なん}"], "a": 0,
+          "explain": "« Lequel » seul → どれ. どの doit être suivi d'un nom."
+        },
+        {
+          "id": "n5-03-e08", "type": "order", "uses": ["n5-01", "n5-02"],
+          "fr": "Ça (près de toi), ce n'est pas mon parapluie.",
+          "tokens": ["それ", "は", "{私|わたし}", "の", "かさ", "じゃありません"]
+        },
+        {
+          "id": "n5-03-e09", "type": "choice",
+          "jp": "{駅|えき}は＿です。", "fr": "La gare est là-bas (loin de nous deux).",
+          "choices": ["あそこ", "あれ", "あの", "そこ"], "a": 0,
+          "explain": "Lieu loin des deux → あそこ. そこ = près de toi."
+        },
+        {
+          "id": "n5-03-e10", "type": "choice", "uses": ["n5-02"],
+          "jp": "これは＿{本|ほん}ですか。— {日本語|にほんご}の{本|ほん}です。", "fr": "C'est un livre de quoi ? — Un livre de japonais.",
+          "choices": ["{何|なん}の", "{何|なに}", "どの", "どれの"], "a": 0,
+          "explain": "« Livre de quoi » → {何|なん}の{本|ほん}. どの{本|ほん} = quel livre (parmi plusieurs)."
+        },
+        {
+          "id": "n5-03-e11", "type": "choice", "uses": ["n5-02"],
+          "q": "Que signifie : この{車|くるま}は{日本|にほん}のです。",
+          "choices": ["Cette voiture est japonaise.", "Cette voiture n'est pas japonaise.", "Cette voiture-là est-elle japonaise ?", "Le Japon a cette voiture."], "a": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-04",
+      "title": "Les verbes en ます et la particule を",
+      "formula": ["Thème は Objet を Verbe-ます", "Verbe-ません (négatif)", "Verbe-ますか (question)"],
+      "sections": [
+        {
+          "h": "Le verbe va à la fin",
+          "p": [
+            "En japonais, le verbe est **toujours en fin de phrase**. La forme en ます est la forme polie, celle à utiliser par défaut.",
+            "Elle exprime le **présent d'habitude** ou le **futur** : {食|た}べます = je mange (d'habitude) / je mangerai."
+          ],
+          "ex": [
+            { "jp": "{私|わたし}はパンを{食|た}べます。", "fr": "Je mange du pain." },
+            { "jp": "{毎日|まいにち}コーヒーを{飲|の}みます。", "fr": "Je bois du café tous les jours." },
+            { "jp": "{田中|たなか}さんは{新聞|しんぶん}を{読|よ}みます。", "fr": "M. Tanaka lit le journal." }
+          ]
+        },
+        {
+          "h": "を : le complément d'objet",
+          "p": ["**を** (prononcé « o ») se place après la chose sur laquelle porte l'action : manger **quoi** ? → パンを{食|た}べます."],
+          "ex": [
+            { "jp": "{何|なに}を{見|み}ますか。", "fr": "Qu'est-ce que tu regardes / vas regarder ?" }
+          ]
+        },
+        {
+          "h": "Négatif et question",
+          "p": ["ます → **ません** : {飲|の}みません = je ne bois pas. Question : ajoute か → {飲|の}みますか."],
+          "ex": [
+            { "jp": "{肉|にく}を{食|た}べません。", "fr": "Je ne mange pas de viande." },
+            { "jp": "テレビを{見|み}ますか。— いいえ、{見|み}ません。", "fr": "Tu regardes la télé ? — Non." }
+          ]
+        },
+        {
+          "h": "Verbes utiles",
+          "vocab": [
+            { "jp": "{食|た}べます", "fr": "manger" },
+            { "jp": "{飲|の}みます", "fr": "boire" },
+            { "jp": "{見|み}ます", "fr": "regarder, voir" },
+            { "jp": "{読|よ}みます", "fr": "lire" },
+            { "jp": "{聞|き}きます", "fr": "écouter" },
+            { "jp": "{書|か}きます", "fr": "écrire" },
+            { "jp": "{買|か}います", "fr": "acheter" },
+            { "jp": "します", "fr": "faire (べんきょうします = étudier)" },
+            { "jp": "{行|い}きます", "fr": "aller" },
+            { "jp": "{来|き}ます", "fr": "venir" },
+            { "jp": "{帰|かえ}ります", "fr": "rentrer" },
+            { "jp": "{起|お}きます", "fr": "se lever" },
+            { "jp": "ねます", "fr": "se coucher" }
+          ]
+        }
+      ],
+      "pieges": [
+        "La forme ます ne veut pas dire « je suis en train de » (ça viendra avec ている).",
+        "{行|い}きます, {来|き}ます, {帰|かえ}ります n'ont **pas** d'objet : {学校|がっこう}を{行|い}きます ✗. La destination prend に ou へ (leçon suivante).",
+        "を s'écrit を mais se prononce « o »."
+      ],
+      "exercises": [
+        {
+          "id": "n5-04-e01", "type": "choice",
+          "jp": "{私|わたし}はパン＿{食|た}べます。", "fr": "Je mange du pain.",
+          "choices": ["を", "は", "の", "か"], "a": 0,
+          "explain": "Ce qu'on mange = l'objet → を."
+        },
+        {
+          "id": "n5-04-e02", "type": "choice",
+          "jp": "{田中|たなか}さんはコーヒーを{飲|の}み＿。", "fr": "M. Tanaka ne boit pas de café.",
+          "choices": ["ません", "ます", "じゃありません", "ですか"], "a": 0,
+          "explain": "Négatif d'un verbe : ます → ません. じゃありません est pour です."
+        },
+        {
+          "id": "n5-04-e03", "type": "order",
+          "fr": "Je lis le journal tous les jours.",
+          "tokens": ["{毎日|まいにち}", "{新聞|しんぶん}", "を", "{読|よ}みます"],
+          "alt": [["{新聞|しんぶん}", "を", "{毎日|まいにち}", "{読|よ}みます"]]
+        },
+        {
+          "id": "n5-04-e04", "type": "choice",
+          "jp": "{何|なに}を{見|み}ますか。— えいが＿{見|み}ます。", "fr": "Que vas-tu regarder ? — Je vais regarder un film.",
+          "choices": ["を", "は", "の", "か"], "a": 0,
+          "explain": "On répond avec la même structure : えいがを{見|み}ます."
+        },
+        {
+          "id": "n5-04-e05", "type": "choice",
+          "q": "Quelle phrase est correcte ?",
+          "choices": ["{私|わたし}はテレビを{見|み}ます。", "{私|わたし}はテレビ{見|み}ますを。", "{私|わたし}は{見|み}ますテレビを。", "{私|わたし}をテレビは{見|み}ます。"], "a": 0,
+          "explain": "Le verbe est toujours à la fin, la particule suit le mot qu'elle marque."
+        },
+        {
+          "id": "n5-04-e06", "type": "choice",
+          "q": "Que signifie : {山田|やまだ}さんは{肉|にく}を{食|た}べません。",
+          "choices": ["Mme Yamada ne mange pas de viande.", "Mme Yamada mange de la viande.", "Mme Yamada va-t-elle manger de la viande ?", "Mme Yamada n'est pas de la viande."], "a": 0
+        },
+        {
+          "id": "n5-04-e07", "type": "order", "uses": ["n5-03"],
+          "fr": "Qu'est-ce que tu achètes ?",
+          "tokens": ["{何|なに}", "を", "{買|か}います", "か"]
+        },
+        {
+          "id": "n5-04-e08", "type": "choice", "uses": ["n5-02"],
+          "jp": "{私|わたし}も{音楽|おんがく}を＿。", "fr": "Moi aussi, j'écoute de la musique.",
+          "choices": ["{聞|き}きます", "{見|み}ます", "{読|よ}みます", "{書|か}きます"], "a": 0,
+          "explain": "Écouter = {聞|き}きます."
+        },
+        {
+          "id": "n5-04-e09", "type": "choice", "uses": ["n5-03"],
+          "jp": "この{本|ほん}を{読|よ}み＿か。— はい、{読|よ}みます。", "fr": "Tu vas lire ce livre ? — Oui.",
+          "choices": ["ます", "です", "じゃありません", "の"], "a": 0,
+          "explain": "Un verbe garde ます ; です ne s'ajoute pas à un verbe."
+        },
+        {
+          "id": "n5-04-e10", "type": "order", "uses": ["n5-03"],
+          "fr": "Je ne bois pas ce café (près de moi).",
+          "tokens": ["{私|わたし}", "は", "この", "コーヒー", "を", "{飲|の}みません"]
+        }
+      ]
+    },
+    {
+      "id": "n5-05",
+      "title": "に・へ・で : où l'on va, quand, où l'on fait, avec quoi",
+      "formula": ["Lieu に / へ {行|い}きます", "Heure に Verbe", "Lieu で Action", "Moyen で Verbe"],
+      "sections": [
+        {
+          "h": "に / へ : la destination",
+          "p": [
+            "Avec les verbes de mouvement ({行|い}きます, {来|き}ます, {帰|かえ}ります), la destination prend **に** ou **へ**.",
+            "へ se prononce « e ». Les deux sont presque équivalents ; へ insiste sur la direction."
+          ],
+          "ex": [
+            { "jp": "{学校|がっこう}に{行|い}きます。", "fr": "Je vais à l'école." },
+            { "jp": "{日本|にほん}へ{行|い}きます。", "fr": "Je vais au Japon." }
+          ]
+        },
+        {
+          "h": "に : le moment précis",
+          "p": [
+            "に marque un **moment précis** : une heure, une date, un jour de la semaine.",
+            "**Pas de に** avec les mots relatifs : {今日|きょう}, あした, {毎日|まいにち}, {今|いま}…"
+          ],
+          "ex": [
+            { "jp": "{七時|しちじ}に{起|お}きます。", "fr": "Je me lève à 7 h." },
+            { "jp": "{日曜日|にちようび}にテニスをします。", "fr": "Je fais du tennis le dimanche." },
+            { "jp": "{毎日|まいにち}{日本語|にほんご}をべんきょうします。", "fr": "J'étudie le japonais tous les jours (pas de に)." }
+          ]
+        },
+        {
+          "h": "で : le lieu de l'action",
+          "p": ["で marque l'endroit **où se passe** une action : manger, lire, étudier… dans un lieu."],
+          "ex": [
+            { "jp": "レストランで{食|た}べます。", "fr": "Je mange au restaurant." },
+            { "jp": "{学校|がっこう}で{日本語|にほんご}をべんきょうします。", "fr": "J'étudie le japonais à l'école." }
+          ]
+        },
+        {
+          "h": "で : le moyen",
+          "p": ["で marque aussi le **moyen** : avec quoi, en quoi."],
+          "ex": [
+            { "jp": "{電車|でんしゃ}で{行|い}きます。", "fr": "J'y vais en train." },
+            { "jp": "はしで{食|た}べます。", "fr": "Je mange avec des baguettes." }
+          ]
+        }
+      ],
+      "pieges": [
+        "に = vers où on va ; で = où on fait l'action. {学校|がっこう}に{行|い}きます (aller à l'école) ≠ {学校|がっこう}でべんきょうします (étudier à l'école).",
+        "Pas de に devant {今日|きょう}, あした, {毎日|まいにち} : {毎日|まいにち}に ✗.",
+        "Ordre habituel : quand → où → quoi → verbe. L'ordre des groupes est assez libre, tant que le verbe reste à la fin."
+      ],
+      "exercises": [
+        {
+          "id": "n5-05-e01", "type": "choice",
+          "jp": "{学校|がっこう}＿{行|い}きます。", "fr": "Je vais à l'école.",
+          "choices": ["に", "で", "を", "の"], "a": 0,
+          "explain": "Destination d'un verbe de mouvement → に (ou へ)."
+        },
+        {
+          "id": "n5-05-e02", "type": "choice", "uses": ["n5-04"],
+          "jp": "{学校|がっこう}＿{日本語|にほんご}をべんきょうします。", "fr": "J'étudie le japonais à l'école.",
+          "choices": ["で", "に", "を", "へ"], "a": 0,
+          "explain": "Lieu où se passe l'action → で."
+        },
+        {
+          "id": "n5-05-e03", "type": "choice",
+          "jp": "{七時|しちじ}＿{起|お}きます。", "fr": "Je me lève à 7 heures.",
+          "choices": ["に", "で", "を", "は"], "a": 0,
+          "explain": "Heure précise → に."
+        },
+        {
+          "id": "n5-05-e04", "type": "choice", "uses": ["n5-04"],
+          "q": "Quelle phrase est correcte ?",
+          "choices": ["{毎日|まいにち}コーヒーを{飲|の}みます。", "{毎日|まいにち}にコーヒーを{飲|の}みます。", "{毎日|まいにち}でコーヒーを{飲|の}みます。", "{毎日|まいにち}をコーヒーを{飲|の}みます。"], "a": 0,
+          "explain": "{毎日|まいにち} est un mot de temps relatif : pas de particule."
+        },
+        {
+          "id": "n5-05-e05", "type": "choice",
+          "jp": "{電車|でんしゃ}＿{東京|とうきょう}へ{行|い}きます。", "fr": "Je vais à Tokyo en train.",
+          "choices": ["で", "に", "を", "へ"], "a": 0,
+          "explain": "Moyen de transport → で."
+        },
+        {
+          "id": "n5-05-e06", "type": "order",
+          "fr": "Demain, je vais à la gare en bus.",
+          "tokens": ["あした", "バス", "で", "{駅|えき}", "に", "{行|い}きます"],
+          "alt": [["あした", "{駅|えき}", "に", "バス", "で", "{行|い}きます"]]
+        },
+        {
+          "id": "n5-05-e07", "type": "choice", "uses": ["n5-04"],
+          "jp": "レストラン＿ばんごはんを{食|た}べます。", "fr": "Je dîne au restaurant.",
+          "choices": ["で", "に", "を", "へ"], "a": 0,
+          "explain": "Manger est une action qui se passe au restaurant → で."
+        },
+        {
+          "id": "n5-05-e08", "type": "choice", "uses": ["n5-04"],
+          "q": "Trouve l'erreur : {私|わたし}は{図書館|としょかん}に{本|ほん}を{読|よ}みます。 Que faut-il changer ?",
+          "choices": ["に → で", "は → を", "を → に", "に → へ"], "a": 0,
+          "explain": "Lire se passe **à** la bibliothèque : lieu d'action → で."
+        },
+        {
+          "id": "n5-05-e09", "type": "order", "uses": ["n5-04"],
+          "fr": "À quelle heure rentres-tu ?",
+          "tokens": ["{何時|なんじ}", "に", "{帰|かえ}ります", "か"]
+        },
+        {
+          "id": "n5-05-e10", "type": "choice", "uses": ["n5-02"],
+          "jp": "{日曜日|にちようび}に{友|とも}だち＿うちに{行|い}きます。", "fr": "Dimanche, je vais chez un ami (à la maison de mon ami).",
+          "choices": ["の", "に", "で", "を"], "a": 0,
+          "explain": "La maison **de** mon ami → {友|とも}だちのうち."
+        },
+        {
+          "id": "n5-05-e11", "type": "choice",
+          "jp": "あした＿{東京|とうきょう}へ{行|い}きます。", "fr": "Demain, je vais à Tokyo.",
+          "choices": ["(rien)", "に", "で", "を"], "a": 0,
+          "explain": "あした est relatif : aucune particule."
+        }
+      ]
+    }
+  ],
+  "test": [
+    {
+      "id": "n5-b01-t01", "type": "choice", "uses": ["n5-01", "n5-02", "n5-03"],
+      "jp": "あれは{田中|たなか}さん＿{車|くるま}です。", "fr": "Ça, là-bas, c'est la voiture de M. Tanaka.",
+      "choices": ["の", "は", "も", "を"], "a": 0
+    },
+    {
+      "id": "n5-b01-t02", "type": "order", "uses": ["n5-03", "n5-04"],
+      "fr": "Je ne lis pas ce livre-là (là-bas).",
+      "tokens": ["{私|わたし}", "は", "あの", "{本|ほん}", "を", "{読|よ}みません"]
+    },
+    {
+      "id": "n5-b01-t03", "type": "choice", "uses": ["n5-02", "n5-05"],
+      "q": "Quelle phrase veut dire « Moi aussi, je vais à l'école en bus » ?",
+      "choices": ["{私|わたし}もバスで{学校|がっこう}に{行|い}きます。", "{私|わたし}はバスも{学校|がっこう}に{行|い}きます。", "{私|わたし}もバスに{学校|がっこう}で{行|い}きます。", "{私|わたし}のバスで{学校|がっこう}に{行|い}きます。"], "a": 0,
+      "explain": "も après {私|わたし} (moi aussi), で pour le moyen, に pour la destination."
+    },
+    {
+      "id": "n5-b01-t04", "type": "choice", "uses": ["n5-04", "n5-05"],
+      "jp": "{山田|やまだ}さんは{大学|だいがく}＿{英語|えいご}をべんきょうします。", "fr": "Mme Yamada étudie l'anglais à l'université.",
+      "choices": ["で", "に", "の", "を"], "a": 0
+    },
+    {
+      "id": "n5-b01-t05", "type": "order", "uses": ["n5-03", "n5-04", "n5-05"],
+      "fr": "Où achètes-tu ce journal (près de toi) ?",
+      "tokens": ["その", "{新聞|しんぶん}", "を", "どこ", "で", "{買|か}います", "か"],
+      "alt": [["どこ", "で", "その", "{新聞|しんぶん}", "を", "{買|か}います", "か"]]
+    },
+    {
+      "id": "n5-b01-t06", "type": "choice", "uses": ["n5-01", "n5-02"],
+      "jp": "{田中|たなか}さんは{日本人|にほんじん}じゃありません。{山田|やまだ}さん＿{日本人|にほんじん}じゃありません。", "fr": "M. Tanaka n'est pas japonais. Mme Yamada non plus.",
+      "choices": ["も", "は", "の", "に"], "a": 0
+    },
+    {
+      "id": "n5-b01-t07", "type": "choice", "uses": ["n5-02", "n5-03"],
+      "q": "Que signifie : これは{何|なん}の{本|ほん}ですか。",
+      "choices": ["C'est un livre sur quoi ?", "Combien coûte ce livre ?", "Où est ce livre ?", "Lequel est ton livre ?"], "a": 0
+    },
+    {
+      "id": "n5-b01-t08", "type": "choice", "uses": ["n5-04", "n5-05"],
+      "q": "Trouve la phrase **incorrecte**.",
+      "choices": ["{学校|がっこう}で{行|い}きます。", "{学校|がっこう}に{行|い}きます。", "{学校|がっこう}へ{行|い}きます。", "{学校|がっこう}でべんきょうします。"], "a": 0,
+      "explain": "La destination de {行|い}きます prend に ou へ, pas で."
+    },
+    {
+      "id": "n5-b01-t09", "type": "order", "uses": ["n5-01", "n5-04", "n5-05"],
+      "fr": "À quelle heure M. Tanaka se lève-t-il ?",
+      "tokens": ["{田中|たなか}さん", "は", "{何時|なんじ}", "に", "{起|お}きます", "か"]
+    },
+    {
+      "id": "n5-b01-t10", "type": "choice", "uses": ["n5-01", "n5-02", "n5-03"],
+      "q": "Que signifie : この{人|ひと}は{私|わたし}の{日本語|にほんご}の{先生|せんせい}です。",
+      "choices": ["Cette personne est mon professeur de japonais.", "Cette personne est un professeur japonais.", "Mon professeur est cette personne japonaise.", "Cette personne n'est pas mon professeur de japonais."], "a": 0
+    },
+    {
+      "id": "n5-b01-t11", "type": "choice", "uses": ["n5-01", "n5-03"],
+      "jp": "あそこは{駅|えき}ですか。— いいえ、＿。", "fr": "Là-bas, c'est la gare ? — Non, ce n'est pas ça.",
+      "choices": ["ちがいます", "そうです", "{駅|えき}です", "あそこです"], "a": 0
+    },
+    {
+      "id": "n5-b01-t12", "type": "order", "uses": ["n5-04", "n5-05"],
+      "fr": "Au restaurant, je mange avec des baguettes.",
+      "tokens": ["レストラン", "で", "はし", "で", "{食|た}べます"],
+      "alt": [["はし", "で", "レストラン", "で", "{食|た}べます"]]
+    },
+    {
+      "id": "n5-b01-t13", "type": "choice", "uses": ["n5-01", "n5-02", "n5-03"],
+      "q": "Ton ami montre un sac près de toi : それは{山田|やまだ}さんのかばんですか。 C'est le tien. Que réponds-tu ?",
+      "choices": ["いいえ、{私|わたし}のです。", "はい、{私|わたし}のです。", "いいえ、それは{私|わたし}のです。", "いいえ、あれは{私|わたし}のです。"], "a": 0,
+      "explain": "Le sac est près de toi : pour le désigner tu dirais これ, pas それ ni あれ. Le plus simple : いいえ、{私|わたし}のです."
+    },
+    {
+      "id": "n5-b01-t14", "type": "choice", "uses": ["n5-03", "n5-04"],
+      "jp": "{何|なに}＿{飲|の}みますか。", "fr": "Qu'est-ce que tu bois ?",
+      "choices": ["を", "で", "に", "の"], "a": 0
+    },
+    {
+      "id": "n5-b01-t15", "type": "choice", "uses": ["n5-04", "n5-05"],
+      "q": "Que signifie : {日曜日|にちようび}に{図書館|としょかん}で{本|ほん}を{読|よ}みます。",
+      "choices": ["Le dimanche, je lis des livres à la bibliothèque.", "Le dimanche, je vais à la bibliothèque pour acheter des livres.", "Tous les jours, je lis des livres à la bibliothèque.", "Le dimanche, je ne lis pas à la bibliothèque."], "a": 0
+    }
+  ]
+}
