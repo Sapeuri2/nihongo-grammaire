@@ -47,15 +47,17 @@
       "exercises": [
         {
           "id": "n5-06-e01", "type": "choice", "uses": ["n5-04"],
-          "jp": "きのう{本|ほん}を{読|よ}み＿。", "fr": "Hier, j'ai lu un livre.",
+          "jp": "きのう{本|ほん}を{読|よ}みましたか。— はい、{読|よ}み＿。",
+          "fr": "Tu as lu un livre hier ? — Oui, j'en ai lu un.",
           "choices": ["ました", "ます", "ませんでした", "でした"], "a": 0,
           "explain": "Passé affirmatif d'un verbe : ました."
         },
         {
           "id": "n5-06-e02", "type": "choice",
-          "jp": "けさ、{朝|あさ}ごはんを{食|た}べ＿。", "fr": "Ce matin, je n'ai pas pris de petit-déjeuner.",
+          "jp": "けさ、{朝|あさ}ごはんを{食|た}べましたか。— いいえ、{食|た}べ＿。",
+          "fr": "Tu as pris ton petit-déjeuner ce matin ? — Non.",
           "choices": ["ませんでした", "ません", "ました", "じゃありませんでした"], "a": 0,
-          "explain": "Passé négatif d'un verbe : ませんでした. じゃありませんでした est pour les noms."
+          "explain": "Passé négatif d'un verbe : ませんでした. ません est le présent ; じゃありませんでした est pour les noms."
         },
         {
           "id": "n5-06-e03", "type": "choice", "uses": ["n5-01"],
@@ -66,7 +68,8 @@
         {
           "id": "n5-06-e04", "type": "order", "uses": ["n5-05"],
           "fr": "La semaine dernière, je suis allé à Tokyo.",
-          "tokens": ["{先週|せんしゅう}", "{東京|とうきょう}", "に", "{行|い}きました"]
+          "tokens": ["{先週|せんしゅう}", "{東京|とうきょう}", "に", "{行|い}きました"],
+          "alt": [["{東京|とうきょう}", "に", "{先週|せんしゅう}", "{行|い}きました"]]
         },
         {
           "id": "n5-06-e05", "type": "choice",
@@ -75,7 +78,8 @@
         },
         {
           "id": "n5-06-e06", "type": "choice", "uses": ["n5-01"],
-          "jp": "{田中|たなか}さんは{学生|がくせい}＿。", "fr": "M. Tanaka n'était pas étudiant.",
+          "jp": "{田中|たなか}さんは{去年|きょねん}{学生|がくせい}でしたか。— いいえ、{学生|がくせい}＿。",
+          "fr": "M. Tanaka était-il étudiant l'année dernière ? — Non, il ne l'était pas.",
           "choices": ["じゃありませんでした", "ませんでした", "でした", "じゃありません"], "a": 0,
           "explain": "Nom au passé négatif : じゃありませんでした."
         },
@@ -178,7 +182,8 @@
         {
           "id": "n5-07-e04", "type": "order", "uses": ["n5-02"],
           "fr": "Il y a un chat sous la chaise.",
-          "tokens": ["いす", "の", "{下|した}", "に", "ねこ", "が", "います"]
+          "tokens": ["いす", "の", "{下|した}", "に", "ねこ", "が", "います"],
+          "alt": [["ねこ", "が", "いす", "の", "{下|した}", "に", "います"]]
         },
         {
           "id": "n5-07-e05", "type": "choice",
@@ -188,8 +193,9 @@
         },
         {
           "id": "n5-07-e06", "type": "choice", "uses": ["n5-03"],
-          "jp": "トイレはどこに＿か。— あそこにあります。", "fr": "Où sont les toilettes ? — Là-bas.",
-          "choices": ["あります", "います", "です", "ありません"], "a": 0
+          "jp": "トイレはどこに＿か。— あそこにあります。",
+          "fr": "Où sont les toilettes ? — Là-bas.",
+          "choices": ["あります", "います", "です", "でした"], "a": 0
         },
         {
           "id": "n5-07-e07", "type": "choice",
@@ -426,7 +432,7 @@
         {
           "id": "n5-09-e11", "type": "choice",
           "q": "Que signifie : きれいな{花|はな}です。",
-          "choices": ["Ce sont de jolies fleurs.", "Les fleurs ne sont pas jolies.", "La fleur était jolie.", "C'est un joli nez."], "a": 0
+          "choices": ["Ce sont de jolies fleurs.", "Les fleurs ne sont pas jolies.", "La fleur était jolie.", "Ce sont des fleurs célèbres."], "a": 0
         }
       ]
     },
@@ -541,8 +547,10 @@
     },
     {
       "id": "n5-b02-t04", "type": "choice", "uses": ["n5-06", "n5-07"],
-      "jp": "{公園|こうえん}に{犬|いぬ}が＿。", "fr": "Il y avait un chien dans le parc.",
-      "choices": ["いました", "ありました", "いません", "でした"], "a": 0
+      "jp": "{公園|こうえん}に{犬|いぬ}が＿。",
+      "fr": "Il y avait un chien dans le parc.",
+      "choices": ["いました", "ありました", "でした", "ありませんでした"], "a": 0,
+      "explain": "Un animal → います, au passé : いました."
     },
     {
       "id": "n5-b02-t05", "type": "choice", "uses": ["n5-05", "n5-06", "n5-09"],
@@ -573,7 +581,8 @@
     {
       "id": "n5-b02-t10", "type": "order", "uses": ["n5-02", "n5-07", "n5-09"],
       "fr": "Il y a une jolie fleur devant la maison.",
-      "tokens": ["{家|いえ}", "の", "{前|まえ}", "に", "きれいな", "{花|はな}", "が", "あります"]
+      "tokens": ["{家|いえ}", "の", "{前|まえ}", "に", "きれいな", "{花|はな}", "が", "あります"],
+      "alt": [["きれいな", "{花|はな}", "が", "{家|いえ}", "の", "{前|まえ}", "に", "あります"]]
     },
     {
       "id": "n5-b02-t11", "type": "choice", "uses": ["n5-06", "n5-09"],

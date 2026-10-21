@@ -74,8 +74,8 @@
         {
           "id": "n5-16-e04", "type": "choice",
           "q": "Forme du dictionnaire de {来|き}ます ?",
-          "choices": ["{来|く}る", "{来|き}る", "{来|く}", "{来|こ}る"], "a": 0,
-          "explain": "Irrégulier : {来|く}る."
+          "choices": ["くる", "きる", "く", "こる"], "a": 0,
+          "explain": "Irrégulier : {来|く}る (くる)."
         },
         {
           "id": "n5-16-e05", "type": "choice",
@@ -206,8 +206,8 @@
         {
           "id": "n5-17-e08", "type": "choice", "uses": ["n5-16"],
           "q": "Forme て de {来|く}る ?",
-          "choices": ["{来|き}て", "{来|く}って", "{来|く}て", "{来|こ}て"], "a": 0,
-          "explain": "Irrégulier : {来|き}て."
+          "choices": ["きて", "くって", "くて", "こて"], "a": 0,
+          "explain": "Irrégulier : {来|き}て (きて)."
         },
         {
           "id": "n5-17-e09", "type": "choice", "uses": ["n5-16"],
@@ -285,8 +285,10 @@
         },
         {
           "id": "n5-18-e05", "type": "choice", "uses": ["n5-05", "n5-17"],
-          "jp": "あした、{七時|しちじ}に＿ください。", "fr": "Venez à 7 h demain, s'il vous plaît.",
-          "choices": ["{来|き}て", "{来|く}て", "{来|く}って", "{来|き}って"], "a": 0
+          "jp": "あした、{七時|しちじ}に＿ください。",
+          "fr": "Venez à 7 h demain, s'il vous plaît.",
+          "choices": ["きて", "くて", "くって", "きって"], "a": 0,
+          "explain": "{来|く}る → {来|き}て (きて)."
         },
         {
           "id": "n5-18-e06", "type": "order", "uses": ["n5-03", "n5-17"],
@@ -352,8 +354,10 @@
       "exercises": [
         {
           "id": "n5-19-e01", "type": "choice", "uses": ["n5-17"],
-          "jp": "{今|いま}、テレビを{見|み}＿。", "fr": "Je suis en train de regarder la télé.",
-          "choices": ["ています", "ます", "ました", "てください"], "a": 0
+          "jp": "{今|いま}、{何|なに}をしていますか。— テレビを{見|み}＿。",
+          "fr": "Qu'est-ce que tu fais en ce moment ? — Je regarde la télé.",
+          "choices": ["ています", "ます", "ました", "てください"], "a": 0,
+          "explain": "La question porte sur ce qui se passe maintenant → ている."
         },
         {
           "id": "n5-19-e02", "type": "choice", "uses": ["n5-17"],
@@ -443,8 +447,10 @@
         },
         {
           "id": "n5-20-e02", "type": "choice", "uses": ["n5-05", "n5-17"],
-          "jp": "{教室|きょうしつ}で{食|た}べて＿いけません。", "fr": "Il est interdit de manger en classe.",
-          "choices": ["は", "も", "を", "が"], "a": 0
+          "jp": "{教室|きょうしつ}で{食|た}べて＿いけません。",
+          "fr": "Il est interdit de manger en classe.",
+          "choices": ["は", "で", "を", "が"], "a": 0,
+          "explain": "Interdiction : てはいけません."
         },
         {
           "id": "n5-20-e03", "type": "order", "uses": ["n5-05", "n5-17"],
@@ -479,13 +485,13 @@
         },
         {
           "id": "n5-20-e09", "type": "choice", "uses": ["n5-17"],
-          "jp": "テストでじしょを{見|み}て＿。", "fr": "Pendant le contrôle, on n'a pas le droit de regarder le dictionnaire.",
-          "choices": ["はいけません", "もいいです", "ください", "います"], "a": 0
+          "q": "Pendant le contrôle, le professeur interdit le dictionnaire. Que dit-il ?",
+          "choices": ["じしょを{見|み}てはいけません。", "じしょを{見|み}てもいいです。", "じしょを{見|み}てください。", "じしょを{見|み}ています。"], "a": 0
         },
         {
           "id": "n5-20-e10", "type": "choice", "uses": ["n5-17"],
-          "jp": "{今日|きょう}は{早|はや}く{帰|かえ}って＿。", "fr": "Aujourd'hui, tu peux rentrer tôt.",
-          "choices": ["もいいです", "はいけません", "ください", "いました"], "a": 0
+          "q": "Ton collègue demande : {早|はや}く{帰|かえ}ってもいいですか。 Tu acceptes. Que réponds-tu ?",
+          "choices": ["ええ、{帰|かえ}ってもいいですよ。", "ええ、{帰|かえ}ってはいけません。", "いいえ、{帰|かえ}ってもいいです。", "ええ、{帰|かえ}っています。"], "a": 0
         }
       ]
     }

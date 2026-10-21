@@ -13,6 +13,8 @@ const ids = new Set();
 let n = 0;
 let count = 0;
 
+const plain = s => s.replace(/\{([^|{}]+)\|[^{}]+\}/g, '$1');
+
 function checkText(where, s) {
   if (typeof s !== 'string') return;
   const stripped = s.replace(/\{[^|{}]+\|[^{}]+\}/g, '');
@@ -35,6 +37,8 @@ function checkExercise(where, ex, maxLesson) {
     else {
       if (!(ex.a >= 0 && ex.a < ex.choices.length)) err(where, `réponse a=${ex.a} hors limites`);
       if (new Set(ex.choices).size !== ex.choices.length) err(where, 'choix en double');
+      // Furigana masqués : deux choix ne doivent pas s'afficher pareil (ex. {来|き}て / {来|く}て).
+      if (new Set(ex.choices.map(plain)).size !== ex.choices.length) err(where, 'choix identiques sans furigana : écrire en kana');
       ex.choices.forEach(c => checkText(where, c));
     }
     const blanks = (ex.jp || '').split('＿').length - 1;

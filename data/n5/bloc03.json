@@ -68,16 +68,16 @@
           "tokens": ["だれ", "が", "{来|き}ました", "か"]
         },
         {
-          "id": "n5-11-e05", "type": "choice", "uses": ["n5-03", "n5-08"],
-          "jp": "これ、おいしいです＿。", "fr": "C'est bon, hein ? (tu ne trouves pas ?)",
-          "choices": ["ね", "よ", "か", "が"], "a": 0,
-          "explain": "On cherche l'accord de l'autre → ね."
+          "id": "n5-11-e05", "type": "choice", "uses": ["n5-08"],
+          "q": "Vous goûtez un gâteau ensemble. Tu veux l'avis de ton ami : « C'est bon, hein ? » Que dis-tu ?",
+          "choices": ["おいしいですね。", "おいしいですよ。", "おいしいですか。", "おいしいですが。"], "a": 0,
+          "explain": "ね cherche l'accord de l'autre. よ servirait à lui apprendre que c'est bon (s'il n'a pas goûté)."
         },
         {
           "id": "n5-11-e06", "type": "choice", "uses": ["n5-07"],
-          "jp": "あした、テストがあります＿。", "fr": "Demain, il y a un contrôle, tu sais ! (je t'informe)",
-          "choices": ["よ", "ね", "か", "を"], "a": 0,
-          "explain": "On apprend une information à l'autre → よ."
+          "q": "Ton ami ne sait pas qu'il y a un contrôle demain. Tu le préviens. Que dis-tu ?",
+          "choices": ["あした、テストがありますよ。", "あした、テストがありますね。", "あした、テストがありますか。", "あした、テストをありますよ。"], "a": 0,
+          "explain": "よ : on apprend une information à l'autre. ね supposerait qu'il le sait déjà."
         },
         {
           "id": "n5-11-e07", "type": "choice", "uses": ["n5-09"],
@@ -98,9 +98,10 @@
         },
         {
           "id": "n5-11-e10", "type": "choice", "uses": ["n5-03"],
-          "jp": "だれ＿{先生|せんせい}ですか。— あの{人|ひと}です。", "fr": "Qui est le professeur ? — Cette personne-là.",
-          "choices": ["が", "は", "を", "の"], "a": 0,
-          "explain": "Mot interrogatif sujet → が."
+          "jp": "だれ＿{先生|せんせい}ですか。— あの{人|ひと}です。",
+          "fr": "Qui est le professeur ? — Cette personne-là.",
+          "choices": ["が", "は", "を", "に"], "a": 0,
+          "explain": "Mot interrogatif sujet → が (jamais だれは)."
         },
         {
           "id": "n5-11-e11", "type": "choice",
@@ -148,13 +149,17 @@
       "exercises": [
         {
           "id": "n5-12-e01", "type": "choice", "uses": ["n5-04"],
-          "jp": "いっしょに{映画|えいが}を{見|み}＿。", "fr": "Tu ne veux pas regarder un film avec moi ?",
-          "choices": ["ませんか", "ましょう", "ません", "ました"], "a": 0
+          "jp": "いっしょに{映画|えいが}を{見|み}＿。— ええ、いいですね。",
+          "fr": "Tu ne veux pas regarder un film avec moi ? — Oui, bonne idée.",
+          "choices": ["ませんか", "ません", "ました", "ませんでした"], "a": 0,
+          "explain": "Inviter → ませんか."
         },
         {
           "id": "n5-12-e02", "type": "choice", "uses": ["n5-11"],
-          "jp": "いいですね。{行|い}き＿。", "fr": "Bonne idée. Allons-y !",
-          "choices": ["ましょう", "ませんか", "ません", "ましたか"], "a": 0
+          "jp": "いいですね。{行|い}き＿。",
+          "fr": "Bonne idée. Allons-y !",
+          "choices": ["ましょう", "ません", "ませんでした", "ましたか"], "a": 0,
+          "explain": "« Faisons… ! » → ましょう."
         },
         {
           "id": "n5-12-e03", "type": "choice",
@@ -179,7 +184,8 @@
         {
           "id": "n5-12-e07", "type": "order", "uses": ["n5-05"],
           "fr": "Allons à la mer dimanche !",
-          "tokens": ["{日曜日|にちようび}", "に", "{海|うみ}", "へ", "{行|い}きましょう"]
+          "tokens": ["{日曜日|にちようび}", "に", "{海|うみ}", "へ", "{行|い}きましょう"],
+          "alt": [["{海|うみ}", "へ", "{日曜日|にちようび}", "に", "{行|い}きましょう"]]
         },
         {
           "id": "n5-12-e08", "type": "choice",
@@ -193,8 +199,9 @@
         },
         {
           "id": "n5-12-e10", "type": "choice", "uses": ["n5-08", "n5-11"],
-          "jp": "{暑|あつ}いですね。{窓|まど}を＿か。", "fr": "Il fait chaud, hein. J'ouvre la fenêtre ?",
-          "choices": ["あけましょう", "あけません", "あけました", "あけ"], "a": 0,
+          "jp": "{暑|あつ}いですね。{窓|まど}を＿か。— ええ、おねがいします。",
+          "fr": "Il fait chaud, hein. J'ouvre la fenêtre ? — Oui, s'il te plaît.",
+          "choices": ["あけましょう", "あけました", "あけ", "あけたい"], "a": 0,
           "explain": "Proposer de faire quelque chose pour l'autre → ましょうか."
         }
       ]
@@ -327,20 +334,24 @@
       "exercises": [
         {
           "id": "n5-14-e01", "type": "choice", "uses": ["n5-04", "n5-06"],
-          "jp": "パン＿たまごを{食|た}べました。", "fr": "J'ai mangé du pain et des œufs.",
-          "choices": ["と", "や", "も", "の"], "a": 0,
-          "explain": "Liste complète → と."
+          "jp": "パン＿たまごを{食|た}べました。",
+          "fr": "J'ai mangé du pain et des œufs.",
+          "choices": ["と", "を", "が", "へ"], "a": 0,
+          "explain": "« Et » entre deux noms → と."
         },
         {
           "id": "n5-14-e02", "type": "choice", "uses": ["n5-06"],
-          "jp": "{友|とも}だち＿{映画|えいが}を{見|み}ました。", "fr": "J'ai regardé un film avec un ami.",
-          "choices": ["と", "に", "を", "や"], "a": 0
+          "jp": "{友|とも}だち＿{映画|えいが}を{見|み}ました。",
+          "fr": "J'ai regardé un film avec un ami.",
+          "choices": ["と", "に", "を", "へ"], "a": 0,
+          "explain": "« Avec » quelqu'un → と."
         },
         {
           "id": "n5-14-e03", "type": "choice", "uses": ["n5-07"],
-          "jp": "かばんの{中|なか}に{本|ほん}＿ペンなどがあります。", "fr": "Dans le sac, il y a des livres, des stylos, etc.",
-          "choices": ["や", "と", "も", "の"], "a": 0,
-          "explain": "Exemples parmi d'autres (など) → や."
+          "jp": "かばんの{中|なか}に{本|ほん}＿ペンなどがあります。",
+          "fr": "Dans le sac, il y a des livres, des stylos, etc.",
+          "choices": ["や", "を", "が", "へ"], "a": 0,
+          "explain": "Exemples parmi d'autres, avec など → や."
         },
         {
           "id": "n5-14-e04", "type": "order", "uses": ["n5-05", "n5-06"],
@@ -362,7 +373,8 @@
         {
           "id": "n5-14-e07", "type": "order", "uses": ["n5-07"],
           "fr": "Dans le frigo, il y a de la bière, du jus, etc.",
-          "tokens": ["れいぞうこ", "に", "ビール", "や", "ジュース", "など", "が", "あります"]
+          "tokens": ["れいぞうこ", "に", "ビール", "や", "ジュース", "など", "が", "あります"],
+          "alt": [["ビール", "や", "ジュース", "など", "が", "れいぞうこ", "に", "あります"]]
         },
         {
           "id": "n5-14-e08", "type": "choice",
@@ -371,8 +383,9 @@
         },
         {
           "id": "n5-14-e09", "type": "choice", "uses": ["n5-05", "n5-12"],
-          "jp": "いっしょに{行|い}きませんか。— すみません、{今日|きょう}は{母|はは}＿デパートに{行|い}きます。", "fr": "Tu viens avec moi ? — Désolé, aujourd'hui je vais au grand magasin avec ma mère.",
-          "choices": ["と", "や", "の", "が"], "a": 0
+          "jp": "いっしょに{行|い}きませんか。— すみません、{今日|きょう}は{母|はは}＿デパートに{行|い}きます。",
+          "fr": "Tu viens avec moi ? — Désolé, aujourd'hui je vais au grand magasin avec ma mère.",
+          "choices": ["と", "を", "や", "で"], "a": 0
         },
         {
           "id": "n5-14-e10", "type": "choice", "uses": ["n5-01"],
@@ -426,8 +439,10 @@
         },
         {
           "id": "n5-15-e02", "type": "choice", "uses": ["n5-08"],
-          "jp": "{日本語|にほんご}はむずかしいです＿、おもしろいです。", "fr": "Le japonais est difficile, mais intéressant.",
-          "choices": ["が", "から", "と", "や"], "a": 0
+          "jp": "{日本語|にほんご}はむずかしいです＿、おもしろいです。",
+          "fr": "Le japonais est difficile, mais intéressant.",
+          "choices": ["が", "を", "と", "や"], "a": 0,
+          "explain": "« Mais » entre deux phrases → が."
         },
         {
           "id": "n5-15-e03", "type": "choice",
@@ -441,8 +456,9 @@
         },
         {
           "id": "n5-15-e05", "type": "choice", "uses": ["n5-11"],
-          "jp": "どうして{日本語|にほんご}を{勉強|べんきょう}しますか。— アニメが{好|す}きです＿。", "fr": "Pourquoi étudies-tu le japonais ? — Parce que j'aime les anime.",
-          "choices": ["から", "が", "ね", "で"], "a": 0
+          "jp": "どうして{日本語|にほんご}を{勉強|べんきょう}しますか。— アニメが{好|す}きです＿。",
+          "fr": "Pourquoi étudies-tu le japonais ? — Parce que j'aime les anime.",
+          "choices": ["から", "を", "に", "で"], "a": 0
         },
         {
           "id": "n5-15-e06", "type": "choice", "uses": ["n5-08"],
@@ -457,13 +473,15 @@
         },
         {
           "id": "n5-15-e08", "type": "choice", "uses": ["n5-07"],
-          "jp": "{雨|あめ}です＿、うちにいます。", "fr": "Comme il pleut, je reste à la maison.",
-          "choices": ["から", "が", "と", "も"], "a": 0
+          "jp": "{雨|あめ}です＿、うちにいます。",
+          "fr": "Comme il pleut, je reste à la maison.",
+          "choices": ["から", "を", "と", "も"], "a": 0
         },
         {
           "id": "n5-15-e09", "type": "choice", "uses": ["n5-09", "n5-10"],
-          "jp": "きのうはいそがしかったです＿、{今日|きょう}はひまです。", "fr": "Hier j'étais occupé, mais aujourd'hui je suis libre.",
-          "choices": ["が", "から", "と", "の"], "a": 0
+          "jp": "きのうはいそがしかったです＿、{今日|きょう}はひまです。",
+          "fr": "Hier j'étais occupé, mais aujourd'hui je suis libre.",
+          "choices": ["が", "を", "と", "の"], "a": 0
         },
         {
           "id": "n5-15-e10", "type": "choice", "uses": ["n5-05", "n5-07", "n5-12"],
@@ -491,8 +509,9 @@
     },
     {
       "id": "n5-b03-t04", "type": "choice", "uses": ["n5-13", "n5-14"],
-      "jp": "{友|とも}だち＿テニスをしたいです。", "fr": "Je veux jouer au tennis avec un ami.",
-      "choices": ["と", "や", "を", "が"], "a": 0
+      "jp": "{友|とも}だち＿テニスをしたいです。",
+      "fr": "Je veux jouer au tennis avec un ami.",
+      "choices": ["と", "や", "を", "に"], "a": 0
     },
     {
       "id": "n5-b03-t05", "type": "order", "uses": ["n5-08", "n5-11", "n5-15"],
@@ -516,8 +535,9 @@
     },
     {
       "id": "n5-b03-t09", "type": "choice", "uses": ["n5-05", "n5-06", "n5-14"],
-      "jp": "デパートでくつ＿かばんなどを{買|か}いました。", "fr": "Au grand magasin, j'ai acheté des chaussures, un sac, etc.",
-      "choices": ["や", "と", "も", "が"], "a": 0
+      "jp": "デパートでくつ＿かばんなどを{買|か}いました。",
+      "fr": "Au grand magasin, j'ai acheté des chaussures, un sac, etc.",
+      "choices": ["や", "を", "が", "へ"], "a": 0
     },
     {
       "id": "n5-b03-t10", "type": "choice", "uses": ["n5-10", "n5-15"],
@@ -526,8 +546,8 @@
     },
     {
       "id": "n5-b03-t11", "type": "choice", "uses": ["n5-03", "n5-08", "n5-11"],
-      "jp": "この{店|みせ}のケーキはおいしいです＿。", "fr": "Les gâteaux de ce magasin sont bons, je te le dis !",
-      "choices": ["よ", "ね", "か", "が"], "a": 0
+      "q": "Ton ami ne connaît pas ce magasin. Tu lui assures que les gâteaux y sont bons. Que dis-tu ?",
+      "choices": ["この{店|みせ}のケーキはおいしいですよ。", "この{店|みせ}のケーキはおいしいですね。", "この{店|みせ}のケーキはおいしいですか。", "この{店|みせ}のケーキをおいしいですよ。"], "a": 0
     },
     {
       "id": "n5-b03-t12", "type": "choice", "uses": ["n5-12"],
@@ -537,7 +557,8 @@
     {
       "id": "n5-b03-t13", "type": "order", "uses": ["n5-11", "n5-14"],
       "fr": "J'aime les chiens et les chats.",
-      "tokens": ["{私|わたし}", "は", "{犬|いぬ}", "と", "ねこ", "が", "{好|す}きです"]
+      "tokens": ["{私|わたし}", "は", "{犬|いぬ}", "と", "ねこ", "が", "{好|す}きです"],
+      "alt": [["{私|わたし}", "は", "ねこ", "と", "{犬|いぬ}", "が", "{好|す}きです"]]
     },
     {
       "id": "n5-b03-t14", "type": "choice", "uses": ["n5-10", "n5-15"],

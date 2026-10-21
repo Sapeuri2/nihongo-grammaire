@@ -41,4 +41,12 @@ Les identifiants (leçons, exercices) ne doivent jamais changer une fois publié
 ```
 
 - `{漢字|かんじ}` affiche des furigana, `**texte**` met en gras.
+
+### Règles de qualité (à respecter pour chaque exercice)
+
+1. **Une seule bonne réponse en japonais.** Chaque mauvais choix doit rendre la phrase japonaise fausse (ou incohérente avec le contexte japonais), sans compter sur la traduction. Si un autre choix donne une phrase correcte avec un autre sens (どこ au lieu de どれ, ませんか au lieu de ましょう…), on change le choix ou on ajoute du contexte japonais (question + はい/いいえ).
+2. **Du japonais naturel.** Pas de 私は inutile ; l'objet déjà connu (この/その/あの…) passe en は au négatif ; pas deux fois la même particule (で…で).
+3. **Remise en ordre : tous les ordres naturels sont acceptés** (`alt`). Éviter les éléments qui peuvent se placer n'importe où.
+4. **Nuances (ね/よ, politesse…)** : décrire la situation dans la consigne plutôt que de laisser la traduction trancher.
+5. Pas deux choix qui s'affichent pareil sans furigana (écrire en kana : きて / くて).
 - `uses` : les leçons **précédentes** que l'exercice mobilise en plus de la sienne.
