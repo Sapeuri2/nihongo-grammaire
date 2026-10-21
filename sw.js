@@ -6,8 +6,8 @@ const CORE = [
   './', 'index.html', 'css/style.css', 'css/theme.css', 'js/app.js', 'js/state.js', 'js/sync.js', 'js/text.js',
   'js/config.js', 'data/manifest.json', 'manifest.webmanifest', 'icons/icon-192.png',
 ];
-// Anciens noms de cache de la première version de cette appli.
-const LEGACY = ['ng-v1'];
+// Anciens noms de cache des premières versions des applis (grammaire, vocabulaire) : plus utilisés nulle part.
+const LEGACY = ['ng-v1', 'nv-v1'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(CORE)).then(() => self.skipWaiting()));
@@ -34,6 +34,7 @@ self.addEventListener('fetch', e => {
         }
         return res;
       })
-      .catch(() => caches.match(e.request, { ignoreSearch: true })),
+      // Hors ligne : uniquement dans notre cache (pas dans ceux d'autres applis ou d'anciennes versions).
+      .catch(() => caches.open(CACHE).then(c => c.match(e.request, { ignoreSearch: true }))),
   );
 });

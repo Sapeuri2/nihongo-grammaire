@@ -26,6 +26,7 @@ Le code de cette appli sert de **moteur commun** à plusieurs applis d'apprentis
 | `css/theme.css` | Couleur principale (rouge pour la grammaire, bleu pour le vocabulaire…) |
 | `index.html`, `manifest.webmanifest`, `icons/` | Nom, icône, couleur de la barre du téléphone |
 | `data/` | Le contenu (leçons, exercices) |
+| `tools/verifier-appli.mjs` | Facultatif : contrôles propres à l'appli, lancés par `tools/verifier.mjs` (code de sortie ≠ 0 = échec) |
 | `README.md`, `PROGRAMME.md` | Documentation de l'appli |
 
 ## Mettre à jour le moteur d'une autre appli
@@ -48,7 +49,29 @@ du moteur (nouveau type d'exercice, correctif…) se fait dans le dépôt gramma
 propage avec le script. Si une appli en a besoin, décrire le changement à l'utilisateur
 pour qu'il le fasse faire côté grammaire.
 
+## Format : mots d'une leçon (facultatif)
+
+Une leçon peut avoir un champ `words`, affiché en tableau Mot / Lecture / Sens avant les sections.
+La colonne Lecture suit le réglage des furigana (masquée → on touche la case pour la voir).
+
+```json
+"words": [
+  { "jp": "{傘|かさ}", "kana": "かさ", "fr": "parapluie", "ex": "{傘|かさ}を{買|か}いました。", "exFr": "J'ai acheté un parapluie." }
+]
+```
+
+`jp`, `kana` et `fr` sont obligatoires ; `ex` (phrase d'exemple) et `exFr` (sa traduction) sont facultatifs.
+
 ## Historique des changements du moteur
+
+### 2026-10-21 — Propositions de l'appli vocabulaire
+- `sw.js` : les anciens caches `ng-v1` **et** `nv-v1` sont supprimés ; hors ligne, on ne cherche plus
+  que dans le cache de l'appli (avant, un ancien cache pouvait ressortir de vieux fichiers).
+- Leçons : champ facultatif `words` (voir plus haut).
+- Nouveau réglage `hideBlankTranslation` dans `js/config.js` : dans les phrases à trous, la traduction
+  reste cachée derrière « Voir la traduction » jusqu'à la réponse (`true` pour le vocabulaire,
+  `false` pour la grammaire).
+- `tools/verifier.mjs` lance aussi `tools/verifier-appli.mjs` s'il existe.
 
 ### 2026-10-21 — Examens intermédiaires, rappels, moteur partagé
 - Séparation moteur / appli : nouveaux fichiers `js/config.js` et `css/theme.css`

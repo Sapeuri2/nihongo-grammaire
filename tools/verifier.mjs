@@ -1,5 +1,7 @@
 // Vérifie le contenu du cours : node tools/verifier.mjs
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
+import { spawnSync } from 'node:child_process';
+import { fileURLToPath } from 'node:url';
 
 const root = new URL('../', import.meta.url);
 const read = p => JSON.parse(readFileSync(new URL(p, root), 'utf8'));
@@ -68,6 +70,10 @@ for (const file of manifest.blocks) {
       (s.vocab || []).forEach(v => checkText(l.id, v.jp));
     }
     (l.pieges || []).forEach(p => checkText(l.id, p));
+    for (const w of l.words || []) {
+      if (!w.jp || !w.kana || !w.fr) err(l.id, `mot incomplet (jp, kana et fr obligatoires) : ${JSON.stringify(w)}`);
+      ['jp', 'fr', 'ex', 'exFr'].forEach(k => checkText(l.id, w[k]));
+    }
     for (const ex of l.exercises || []) checkExercise(l.id, ex, n);
     if ((l.exercises || []).length < 5) err(l.id, 'moins de 5 exercices');
   }
@@ -75,6 +81,13 @@ for (const file of manifest.blocks) {
   for (const ex of b.test || []) checkExercise(`${b.id} test`, ex, n);
   // Questions de réflexion de l'examen qui suit ce bloc.
   for (const ex of b.examTest || []) checkExercise(`${b.id} examen`, ex, n);
+}
+
+// Contrôles propres à l'appli (facultatif) : tools/verifier-appli.mjs, lancé à la suite.
+const extra = new URL('verifier-appli.mjs', import.meta.url);
+if (existsSync(extra)) {
+  const r = spawnSync(process.execPath, [fileURLToPath(extra)], { stdio: 'inherit' });
+  if (r.status !== 0) errors.push('tools/verifier-appli.mjs : contrôles propres à l’appli en échec (voir ci-dessus)');
 }
 
 if (errors.length) {

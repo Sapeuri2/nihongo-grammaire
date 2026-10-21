@@ -136,6 +136,17 @@ details.card[open] summary { margin-bottom: .5em; }
 .vocab td { padding: 4px 8px; border-bottom: 1px solid var(--line); }
 .vocab td.jp { font-size: 1.1rem; line-height: 2; }
 .vocab td:last-child { font-size: .9rem; color: var(--muted); }
+.words { border-collapse: collapse; width: 100%; margin: 10px 0 22px; }
+.words th { text-align: left; font-size: .8rem; color: var(--muted); font-weight: 600; padding: 4px 8px; border-bottom: 2px solid var(--line); }
+.words td { padding: 6px 8px; vertical-align: top; }
+.words td.jp { font-size: 1.15rem; line-height: 1.9; }
+.words td.kana { color: var(--muted); }
+.words tr.wex td { padding-top: 0; border-bottom: 1px solid var(--line); }
+.words tr.wex .jp { display: block; font-size: 1rem; line-height: 2; }
+.words tr.wex .fr { display: block; font-size: .85rem; }
+body.nofuri .words td.kana { cursor: pointer; }
+body.nofuri .words td.kana:not(.reveal) .reading { visibility: hidden; }
+.link.small { font-size: .9rem; color: var(--accent); padding: 0; text-decoration: underline; }
 .pieges { background: var(--bad-bg); border-radius: var(--radius); padding: 12px 16px; }
 .pieges ul { padding-left: 1.2em; margin: 0; }
 .pieges li { margin: 6px 0; }

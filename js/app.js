@@ -365,12 +365,23 @@ function icon(s) {
   return s === 'done' ? '✓' : s === 'current' ? '▶' : '🔒';
 }
 
+// Tableau de mots (leçons de vocabulaire). La lecture suit le réglage des furigana.
+function viewWords(words) {
+  const rows = words.map(w => {
+    let r = `<tr><td class="jp">${rich(w.jp)}</td><td class="jp kana"><span class="reading">${esc(w.kana || '')}</span></td><td>${rich(w.fr)}</td></tr>`;
+    if (w.ex) r += `<tr class="wex"><td colspan="3"><span class="jp">${rich(w.ex)}</span>${w.exFr ? `<span class="fr">${rich(w.exFr)}</span>` : ''}</td></tr>`;
+    return r;
+  });
+  return `<table class="words"><thead><tr><th>Mot</th><th>Lecture</th><th>Sens</th></tr></thead><tbody>${rows.join('')}</tbody></table>`;
+}
+
 function viewLesson(id) {
   const l = C.lessonById[id];
   if (!l || stepStatuses()[`lesson:${id}`] === 'locked') return go('#/');
   const done = S.get().lessons[id]?.done;
   let h = `<a class="back" href="#/">← Accueil</a><article class="lesson"><p class="muted">Leçon ${l.num}</p><h1>${rich(l.title)}</h1>`;
   if (l.formula?.length) h += `<div class="formula">${l.formula.map(f => `<div>${rich(f)}</div>`).join('')}</div>`;
+  if (l.words?.length) h += viewWords(l.words);
   for (const sec of l.sections || []) {
     h += `<section><h2>${rich(sec.h)}</h2>${(sec.p || []).map(p => `<p>${rich(p)}</p>`).join('')}`;
     if (sec.ex?.length) h += `<ul class="examples">${sec.ex.map(e => `<li><span class="jp">${rich(e.jp)}</span><span class="fr">${rich(e.fr)}</span></li>`).join('')}</ul>`;
@@ -413,7 +424,11 @@ function viewChoice(it, cur) {
   const hasBlank = it.jp?.includes('＿');
   let h = `<p class="instr">${rich(it.q || (hasBlank ? 'Complète la phrase.' : 'Choisis la bonne réponse.'))}</p>`;
   if (it.jp) h += `<p class="jp big">${richBlank(it.jp, cur.answered ? it.choices[it.a] : null)}</p>`;
-  if (it.fr) h += `<p class="fr">${rich(it.fr)}</p>`;
+  if (it.fr) {
+    // Si la traduction donne la réponse (vocabulaire), elle reste cachée jusqu'à ce qu'on réponde.
+    if (CONFIG.hideBlankTranslation && hasBlank && !cur.answered && !cur.showFr) h += '<p class="fr"><button class="link small" data-act="show-fr">Voir la traduction</button></p>';
+    else h += `<p class="fr">${rich(it.fr)}</p>`;
+  }
   h += '<div class="choices">';
   cur.order.forEach((ci, k) => {
     let cls = 'choice';
@@ -544,7 +559,11 @@ function openStep(type, id) {
 
 function onClick(e) {
   const ruby = e.target.closest('ruby');
-  if (ruby && document.body.classList.contains('nofuri') && !ruby.closest('button')) ruby.classList.toggle('reveal');
+  const reading = e.target.closest('td.kana');
+  if (document.body.classList.contains('nofuri')) {
+    if (ruby && !ruby.closest('button')) ruby.classList.toggle('reveal');
+    if (reading) reading.classList.toggle('reveal');
+  }
   const el = e.target.closest('[data-act]');
   if (!el || el.disabled) return;
   const act = el.dataset.act;
@@ -560,6 +579,7 @@ function onClick(e) {
     case 'unplace': cur.built = cur.built.filter(i => i !== +el.dataset.i); render(); break;
     case 'check': answer(checkOrder(it, cur.built)); break;
     case 'next': next(); break;
+    case 'show-fr': cur.showFr = true; render(); break;
     case 'quit': if (confirm('Quitter la série ? Les réponses déjà données sont gardées.')) { session = null; go('#/'); } break;
     case 'retry': restart(); break;
     case 'sync-on': connectSync(); break;

@@ -21,4 +21,5 @@ export const CONFIG = {
   reviewSize: 20,
   drillSize: 15,
   maxRetries: 2, // en leçon : nombre de fois qu'une question ratée revient dans la même série
+  hideBlankTranslation: false, // phrases à trous : traduction cachée jusqu'à la réponse (si elle donne la réponse)
 };
