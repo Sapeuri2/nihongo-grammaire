@@ -3,9 +3,10 @@
 Appli web perso pour apprendre la grammaire japonaise (JLPT N5 → N4, puis N3), en français.
 
 - Leçon → exercices (QCM, phrase à trous, remise en ordre) → leçon suivante.
-- Toutes les 5 leçons : un test du bloc (80 % pour continuer).
-- Toutes les 20 leçons : un grand examen.
-- Les erreurs reviennent en fin de série, puis en révision (répétition espacée).
+- Toutes les 5 leçons : un test du bloc de 30 questions (80 % pour continuer).
+- Toutes les 10 leçons : un examen intermédiaire (40 questions) ; toutes les 20 : un grand examen (60).
+- Tests et examens mélangent environ 25 % de rappels des leçons précédentes, et des questions de réflexion propres à chaque examen (`examTest`).
+- Les erreurs reviennent dans la série, puis en révision et dans les tests suivants (répétition espacée) ; les exercices réussis peuvent revenir aussi.
 - Progression synchronisée entre appareils via un Gist GitHub privé (optionnel).
 - Fonctionne hors ligne une fois chargée ; installable sur l'écran d'accueil du téléphone.
 
