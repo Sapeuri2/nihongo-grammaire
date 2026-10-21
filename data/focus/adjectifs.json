@@ -1,0 +1,3855 @@
+{
+ "id": "adj-i-na",
+ "label": "い・な",
+ "title": "Adjectifs : い ou な ?",
+ "unlockAfter": "n5-09",
+ "sheet": {
+  "sections": [
+   {
+    "h": "Le principe en une phrase",
+    "p": [
+     "**い : l'adjectif se transforme lui-même** (sa fin change, comme un verbe).",
+     "**な : l'adjectif ne bouge jamais**, c'est です qui change (exactement comme avec un nom : {学生|がくせい}です → {学生|がくせい}じゃありません)."
+    ]
+   },
+   {
+    "h": "Le tableau",
+    "p": [
+     "En surligné : ce qui change. À gauche, c'est la fin de l'adjectif ; à droite, c'est toujours ce qui vient **après** lui."
+    ],
+    "grid": {
+     "head": [
+      "",
+      "い : {高|たか}い",
+      "な : {静|しず}か"
+     ],
+     "rows": [
+      [
+       "Présent",
+       "{高|たか}い==です==",
+       "{静|しず}か==です=="
+      ],
+      [
+       "Négatif",
+       "{高|たか}==くない==です",
+       "{静|しず}か==じゃありません=="
+      ],
+      [
+       "Passé",
+       "{高|たか}==かった==です",
+       "{静|しず}か==でした=="
+      ],
+      [
+       "Passé négatif",
+       "{高|たか}==くなかった==です",
+       "{静|しず}か==じゃありませんでした=="
+      ],
+      [
+       "Devant un nom",
+       "{高|たか}い{車|くるま}",
+       "{静|しず}か==な=={町|まち}"
+      ],
+      [
+       "Familier, négatif",
+       "{高|たか}==くない==",
+       "{静|しず}か==じゃない=="
+      ],
+      [
+       "Familier, passé",
+       "{高|たか}==かった==",
+       "{静|しず}か==だった=="
+      ],
+      [
+       "Familier, passé nég.",
+       "{高|たか}==くなかった==",
+       "{静|しず}か==じゃなかった=="
+      ]
+     ]
+    }
+   },
+   {
+    "h": "Comment savoir si c'est un い ou un な ?",
+    "p": [
+     "**Apprends chaque adjectif avec un nom** : {高|たか}い{車|くるま}, きれい**な**{部屋|へや}. Si tu entends な devant le nom, c'est un な.",
+     "**Indice** : un mot de deux kanji ({有名|ゆうめい}, {便利|べんり}, {元気|げんき}, {親切|しんせつ}, {大切|たいせつ}) est presque toujours un な. Un kanji + い en hiragana ({高|たか}い, {安|やす}い, {新|あたら}しい) est presque toujours un い."
+    ]
+   }
+  ],
+  "pieges": [
+   "Les **faux い** : **きれい**, **きらい**, **{有名|ゆうめい}** (ゆうめい) sont des adjectifs en な → きれいじゃありません, きれいでした (jamais きれくない, きれかった).",
+   "**いい** est irrégulier : **よ**くない, **よ**かった, **よ**くなかった.",
+   "Jamais です au passé d'un い : {高|たか}いでした ✗ → {高|たか}かったです.",
+   "Jamais くない ni かった sur un な : {静|しず}かくない ✗, {静|しず}かかった ✗."
+  ]
+ },
+ "exercises": [
+  {
+   "id": "adj-takai-type",
+   "type": "choice",
+   "uses": [
+    "n5-08",
+    "n5-09"
+   ],
+   "q": "{高|たか}い (cher) : adjectif en い ou en な ?",
+   "choices": [
+    "adjectif en い",
+    "adjectif en な"
+   ],
+   "a": 0,
+   "explain": "{高|たか}い{車|くるま}, {高|たか}くないです : c'est un adjectif en い."
+  },
+  {
+   "id": "adj-takai-noun",
+   "type": "choice",
+   "uses": [
+    "n5-08"
+   ],
+   "jp": "これは＿です。",
+   "fr": "{高|たか}い (cher) + {車|くるま} : devant un nom",
+   "choices": [
+    "{高|たか}い{車|くるま}",
+    "{高|たか}いな{車|くるま}",
+    "{高|たか}いの{車|くるま}",
+    "{高|たか}く{車|くるま}"
+   ],
+   "a": 0,
+   "explain": "Adjectif en い : directement devant le nom, sans な ni の."
+  },
+  {
+   "id": "adj-takai-neg",
+   "type": "choice",
+   "uses": [
+    "n5-08"
+   ],
+   "jp": "この{車|くるま}は＿。",
+   "fr": "{高|たか}い (cher) → négatif poli",
+   "choices": [
+    "{高|たか}くないです",
+    "{高|たか}いじゃありません",
+    "{高|たか}いくないです",
+    "{高|たか}いないです"
+   ],
+   "a": 0,
+   "explain": "{高|たか}い est un adjectif en い : on enlève le い et on le transforme. Négatif : くないです."
+  },
+  {
+   "id": "adj-takai-past",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "この{車|くるま}は＿。",
+   "fr": "{高|たか}い (cher) → passé poli",
+   "choices": [
+    "{高|たか}かったです",
+    "{高|たか}いでした",
+    "{高|たか}かったでした",
+    "{高|たか}いかったです"
+   ],
+   "a": 0,
+   "explain": "{高|たか}い est un adjectif en い : on enlève le い et on le transforme. Passé : かったです (jamais 高いでした)."
+  },
+  {
+   "id": "adj-takai-pastneg",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "この{車|くるま}は＿。",
+   "fr": "{高|たか}い (cher) → passé négatif poli",
+   "choices": [
+    "{高|たか}くなかったです",
+    "{高|たか}いじゃありませんでした",
+    "{高|たか}くないでした",
+    "{高|たか}いくなかったです"
+   ],
+   "a": 0,
+   "explain": "{高|たか}い est un adjectif en い : on enlève le い et on le transforme. Passé négatif : くなかったです."
+  },
+  {
+   "id": "adj-takai-pneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{車|くるま}は＿。",
+   "fr": "{高|たか}い (cher) → négatif familier",
+   "choices": [
+    "{高|たか}くない",
+    "{高|たか}いくない",
+    "{高|たか}いない",
+    "{高|たか}じゃない"
+   ],
+   "a": 0,
+   "explain": "{高|たか}い est un adjectif en い : on enlève le い et on le transforme. Négatif familier : くない."
+  },
+  {
+   "id": "adj-takai-ppast",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{車|くるま}は＿。",
+   "fr": "{高|たか}い (cher) → passé familier",
+   "choices": [
+    "{高|たか}かった",
+    "{高|たか}いだった",
+    "{高|たか}いかった",
+    "{高|たか}かっただ"
+   ],
+   "a": 0,
+   "explain": "{高|たか}い est un adjectif en い : on enlève le い et on le transforme. Passé familier : かった."
+  },
+  {
+   "id": "adj-takai-ppastneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{車|くるま}は＿。",
+   "fr": "{高|たか}い (cher) → passé négatif familier",
+   "choices": [
+    "{高|たか}くなかった",
+    "{高|たか}いじゃなかった",
+    "{高|たか}いくなかった",
+    "{高|たか}くないだった"
+   ],
+   "a": 0,
+   "explain": "{高|たか}い est un adjectif en い : on enlève le い et on le transforme. Passé négatif familier : くなかった."
+  },
+  {
+   "id": "adj-yasui-type",
+   "type": "choice",
+   "uses": [
+    "n5-08",
+    "n5-09"
+   ],
+   "q": "{安|やす}い (bon marché) : adjectif en い ou en な ?",
+   "choices": [
+    "adjectif en い",
+    "adjectif en な"
+   ],
+   "a": 0,
+   "explain": "{安|やす}い{店|みせ}, {安|やす}くないです : c'est un adjectif en い."
+  },
+  {
+   "id": "adj-yasui-noun",
+   "type": "choice",
+   "uses": [
+    "n5-08"
+   ],
+   "jp": "これは＿です。",
+   "fr": "{安|やす}い (bon marché) + {店|みせ} : devant un nom",
+   "choices": [
+    "{安|やす}い{店|みせ}",
+    "{安|やす}いな{店|みせ}",
+    "{安|やす}いの{店|みせ}",
+    "{安|やす}く{店|みせ}"
+   ],
+   "a": 0,
+   "explain": "Adjectif en い : directement devant le nom, sans な ni の."
+  },
+  {
+   "id": "adj-yasui-neg",
+   "type": "choice",
+   "uses": [
+    "n5-08"
+   ],
+   "jp": "この{店|みせ}は＿。",
+   "fr": "{安|やす}い (bon marché) → négatif poli",
+   "choices": [
+    "{安|やす}くないです",
+    "{安|やす}いじゃありません",
+    "{安|やす}いくないです",
+    "{安|やす}いないです"
+   ],
+   "a": 0,
+   "explain": "{安|やす}い est un adjectif en い : on enlève le い et on le transforme. Négatif : くないです."
+  },
+  {
+   "id": "adj-yasui-past",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "この{店|みせ}は＿。",
+   "fr": "{安|やす}い (bon marché) → passé poli",
+   "choices": [
+    "{安|やす}かったです",
+    "{安|やす}いでした",
+    "{安|やす}かったでした",
+    "{安|やす}いかったです"
+   ],
+   "a": 0,
+   "explain": "{安|やす}い est un adjectif en い : on enlève le い et on le transforme. Passé : かったです (jamais 安いでした)."
+  },
+  {
+   "id": "adj-yasui-pastneg",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "この{店|みせ}は＿。",
+   "fr": "{安|やす}い (bon marché) → passé négatif poli",
+   "choices": [
+    "{安|やす}くなかったです",
+    "{安|やす}いじゃありませんでした",
+    "{安|やす}くないでした",
+    "{安|やす}いくなかったです"
+   ],
+   "a": 0,
+   "explain": "{安|やす}い est un adjectif en い : on enlève le い et on le transforme. Passé négatif : くなかったです."
+  },
+  {
+   "id": "adj-yasui-pneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{店|みせ}は＿。",
+   "fr": "{安|やす}い (bon marché) → négatif familier",
+   "choices": [
+    "{安|やす}くない",
+    "{安|やす}いくない",
+    "{安|やす}いない",
+    "{安|やす}じゃない"
+   ],
+   "a": 0,
+   "explain": "{安|やす}い est un adjectif en い : on enlève le い et on le transforme. Négatif familier : くない."
+  },
+  {
+   "id": "adj-yasui-ppast",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{店|みせ}は＿。",
+   "fr": "{安|やす}い (bon marché) → passé familier",
+   "choices": [
+    "{安|やす}かった",
+    "{安|やす}いだった",
+    "{安|やす}いかった",
+    "{安|やす}かっただ"
+   ],
+   "a": 0,
+   "explain": "{安|やす}い est un adjectif en い : on enlève le い et on le transforme. Passé familier : かった."
+  },
+  {
+   "id": "adj-yasui-ppastneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{店|みせ}は＿。",
+   "fr": "{安|やす}い (bon marché) → passé négatif familier",
+   "choices": [
+    "{安|やす}くなかった",
+    "{安|やす}いじゃなかった",
+    "{安|やす}いくなかった",
+    "{安|やす}くないだった"
+   ],
+   "a": 0,
+   "explain": "{安|やす}い est un adjectif en い : on enlève le い et on le transforme. Passé négatif familier : くなかった."
+  },
+  {
+   "id": "adj-ookii-type",
+   "type": "choice",
+   "uses": [
+    "n5-08",
+    "n5-09"
+   ],
+   "q": "{大|おお}きい (grand) : adjectif en い ou en な ?",
+   "choices": [
+    "adjectif en い",
+    "adjectif en な"
+   ],
+   "a": 0,
+   "explain": "{大|おお}きい{家|いえ}, {大|おお}きくないです : c'est un adjectif en い."
+  },
+  {
+   "id": "adj-ookii-noun",
+   "type": "choice",
+   "uses": [
+    "n5-08"
+   ],
+   "jp": "これは＿です。",
+   "fr": "{大|おお}きい (grand) + {家|いえ} : devant un nom",
+   "choices": [
+    "{大|おお}きい{家|いえ}",
+    "{大|おお}きいな{家|いえ}",
+    "{大|おお}きいの{家|いえ}",
+    "{大|おお}きく{家|いえ}"
+   ],
+   "a": 0,
+   "explain": "Adjectif en い : directement devant le nom, sans な ni の."
+  },
+  {
+   "id": "adj-ookii-neg",
+   "type": "choice",
+   "uses": [
+    "n5-08"
+   ],
+   "jp": "この{家|いえ}は＿。",
+   "fr": "{大|おお}きい (grand) → négatif poli",
+   "choices": [
+    "{大|おお}きくないです",
+    "{大|おお}きいじゃありません",
+    "{大|おお}きいくないです",
+    "{大|おお}きいないです"
+   ],
+   "a": 0,
+   "explain": "{大|おお}きい est un adjectif en い : on enlève le い et on le transforme. Négatif : くないです."
+  },
+  {
+   "id": "adj-ookii-past",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "この{家|いえ}は＿。",
+   "fr": "{大|おお}きい (grand) → passé poli",
+   "choices": [
+    "{大|おお}きかったです",
+    "{大|おお}きいでした",
+    "{大|おお}きかったでした",
+    "{大|おお}きいかったです"
+   ],
+   "a": 0,
+   "explain": "{大|おお}きい est un adjectif en い : on enlève le い et on le transforme. Passé : かったです (jamais 大きいでした)."
+  },
+  {
+   "id": "adj-ookii-pastneg",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "この{家|いえ}は＿。",
+   "fr": "{大|おお}きい (grand) → passé négatif poli",
+   "choices": [
+    "{大|おお}きくなかったです",
+    "{大|おお}きいじゃありませんでした",
+    "{大|おお}きくないでした",
+    "{大|おお}きいくなかったです"
+   ],
+   "a": 0,
+   "explain": "{大|おお}きい est un adjectif en い : on enlève le い et on le transforme. Passé négatif : くなかったです."
+  },
+  {
+   "id": "adj-ookii-pneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{家|いえ}は＿。",
+   "fr": "{大|おお}きい (grand) → négatif familier",
+   "choices": [
+    "{大|おお}きくない",
+    "{大|おお}きいくない",
+    "{大|おお}きいない",
+    "{大|おお}きじゃない"
+   ],
+   "a": 0,
+   "explain": "{大|おお}きい est un adjectif en い : on enlève le い et on le transforme. Négatif familier : くない."
+  },
+  {
+   "id": "adj-ookii-ppast",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{家|いえ}は＿。",
+   "fr": "{大|おお}きい (grand) → passé familier",
+   "choices": [
+    "{大|おお}きかった",
+    "{大|おお}きいだった",
+    "{大|おお}きいかった",
+    "{大|おお}きかっただ"
+   ],
+   "a": 0,
+   "explain": "{大|おお}きい est un adjectif en い : on enlève le い et on le transforme. Passé familier : かった."
+  },
+  {
+   "id": "adj-ookii-ppastneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{家|いえ}は＿。",
+   "fr": "{大|おお}きい (grand) → passé négatif familier",
+   "choices": [
+    "{大|おお}きくなかった",
+    "{大|おお}きいじゃなかった",
+    "{大|おお}きいくなかった",
+    "{大|おお}きくないだった"
+   ],
+   "a": 0,
+   "explain": "{大|おお}きい est un adjectif en い : on enlève le い et on le transforme. Passé négatif familier : くなかった."
+  },
+  {
+   "id": "adj-chiisai-type",
+   "type": "choice",
+   "uses": [
+    "n5-08",
+    "n5-09"
+   ],
+   "q": "{小|ちい}さい (petit) : adjectif en い ou en な ?",
+   "choices": [
+    "adjectif en い",
+    "adjectif en な"
+   ],
+   "a": 0,
+   "explain": "{小|ちい}さい{部屋|へや}, {小|ちい}さくないです : c'est un adjectif en い."
+  },
+  {
+   "id": "adj-chiisai-noun",
+   "type": "choice",
+   "uses": [
+    "n5-08"
+   ],
+   "jp": "これは＿です。",
+   "fr": "{小|ちい}さい (petit) + {部屋|へや} : devant un nom",
+   "choices": [
+    "{小|ちい}さい{部屋|へや}",
+    "{小|ちい}さいな{部屋|へや}",
+    "{小|ちい}さいの{部屋|へや}",
+    "{小|ちい}さく{部屋|へや}"
+   ],
+   "a": 0,
+   "explain": "Adjectif en い : directement devant le nom, sans な ni の."
+  },
+  {
+   "id": "adj-chiisai-neg",
+   "type": "choice",
+   "uses": [
+    "n5-08"
+   ],
+   "jp": "この{部屋|へや}は＿。",
+   "fr": "{小|ちい}さい (petit) → négatif poli",
+   "choices": [
+    "{小|ちい}さくないです",
+    "{小|ちい}さいじゃありません",
+    "{小|ちい}さいくないです",
+    "{小|ちい}さいないです"
+   ],
+   "a": 0,
+   "explain": "{小|ちい}さい est un adjectif en い : on enlève le い et on le transforme. Négatif : くないです."
+  },
+  {
+   "id": "adj-chiisai-past",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "この{部屋|へや}は＿。",
+   "fr": "{小|ちい}さい (petit) → passé poli",
+   "choices": [
+    "{小|ちい}さかったです",
+    "{小|ちい}さいでした",
+    "{小|ちい}さかったでした",
+    "{小|ちい}さいかったです"
+   ],
+   "a": 0,
+   "explain": "{小|ちい}さい est un adjectif en い : on enlève le い et on le transforme. Passé : かったです (jamais 小さいでした)."
+  },
+  {
+   "id": "adj-chiisai-pastneg",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "この{部屋|へや}は＿。",
+   "fr": "{小|ちい}さい (petit) → passé négatif poli",
+   "choices": [
+    "{小|ちい}さくなかったです",
+    "{小|ちい}さいじゃありませんでした",
+    "{小|ちい}さくないでした",
+    "{小|ちい}さいくなかったです"
+   ],
+   "a": 0,
+   "explain": "{小|ちい}さい est un adjectif en い : on enlève le い et on le transforme. Passé négatif : くなかったです."
+  },
+  {
+   "id": "adj-chiisai-pneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{部屋|へや}は＿。",
+   "fr": "{小|ちい}さい (petit) → négatif familier",
+   "choices": [
+    "{小|ちい}さくない",
+    "{小|ちい}さいくない",
+    "{小|ちい}さいない",
+    "{小|ちい}さじゃない"
+   ],
+   "a": 0,
+   "explain": "{小|ちい}さい est un adjectif en い : on enlève le い et on le transforme. Négatif familier : くない."
+  },
+  {
+   "id": "adj-chiisai-ppast",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{部屋|へや}は＿。",
+   "fr": "{小|ちい}さい (petit) → passé familier",
+   "choices": [
+    "{小|ちい}さかった",
+    "{小|ちい}さいだった",
+    "{小|ちい}さいかった",
+    "{小|ちい}さかっただ"
+   ],
+   "a": 0,
+   "explain": "{小|ちい}さい est un adjectif en い : on enlève le い et on le transforme. Passé familier : かった."
+  },
+  {
+   "id": "adj-chiisai-ppastneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{部屋|へや}は＿。",
+   "fr": "{小|ちい}さい (petit) → passé négatif familier",
+   "choices": [
+    "{小|ちい}さくなかった",
+    "{小|ちい}さいじゃなかった",
+    "{小|ちい}さいくなかった",
+    "{小|ちい}さくないだった"
+   ],
+   "a": 0,
+   "explain": "{小|ちい}さい est un adjectif en い : on enlève le い et on le transforme. Passé négatif familier : くなかった."
+  },
+  {
+   "id": "adj-atarashii-type",
+   "type": "choice",
+   "uses": [
+    "n5-08",
+    "n5-09"
+   ],
+   "q": "{新|あたら}しい (neuf, nouveau) : adjectif en い ou en な ?",
+   "choices": [
+    "adjectif en い",
+    "adjectif en な"
+   ],
+   "a": 0,
+   "explain": "{新|あたら}しい{本|ほん}, {新|あたら}しくないです : c'est un adjectif en い."
+  },
+  {
+   "id": "adj-atarashii-noun",
+   "type": "choice",
+   "uses": [
+    "n5-08"
+   ],
+   "jp": "これは＿です。",
+   "fr": "{新|あたら}しい (neuf, nouveau) + {本|ほん} : devant un nom",
+   "choices": [
+    "{新|あたら}しい{本|ほん}",
+    "{新|あたら}しいな{本|ほん}",
+    "{新|あたら}しいの{本|ほん}",
+    "{新|あたら}しく{本|ほん}"
+   ],
+   "a": 0,
+   "explain": "Adjectif en い : directement devant le nom, sans な ni の."
+  },
+  {
+   "id": "adj-atarashii-neg",
+   "type": "choice",
+   "uses": [
+    "n5-08"
+   ],
+   "jp": "この{本|ほん}は＿。",
+   "fr": "{新|あたら}しい (neuf, nouveau) → négatif poli",
+   "choices": [
+    "{新|あたら}しくないです",
+    "{新|あたら}しいじゃありません",
+    "{新|あたら}しいくないです",
+    "{新|あたら}しいないです"
+   ],
+   "a": 0,
+   "explain": "{新|あたら}しい est un adjectif en い : on enlève le い et on le transforme. Négatif : くないです."
+  },
+  {
+   "id": "adj-atarashii-past",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "この{本|ほん}は＿。",
+   "fr": "{新|あたら}しい (neuf, nouveau) → passé poli",
+   "choices": [
+    "{新|あたら}しかったです",
+    "{新|あたら}しいでした",
+    "{新|あたら}しかったでした",
+    "{新|あたら}しいかったです"
+   ],
+   "a": 0,
+   "explain": "{新|あたら}しい est un adjectif en い : on enlève le い et on le transforme. Passé : かったです (jamais 新しいでした)."
+  },
+  {
+   "id": "adj-atarashii-pastneg",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "この{本|ほん}は＿。",
+   "fr": "{新|あたら}しい (neuf, nouveau) → passé négatif poli",
+   "choices": [
+    "{新|あたら}しくなかったです",
+    "{新|あたら}しいじゃありませんでした",
+    "{新|あたら}しくないでした",
+    "{新|あたら}しいくなかったです"
+   ],
+   "a": 0,
+   "explain": "{新|あたら}しい est un adjectif en い : on enlève le い et on le transforme. Passé négatif : くなかったです."
+  },
+  {
+   "id": "adj-atarashii-pneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{本|ほん}は＿。",
+   "fr": "{新|あたら}しい (neuf, nouveau) → négatif familier",
+   "choices": [
+    "{新|あたら}しくない",
+    "{新|あたら}しいくない",
+    "{新|あたら}しいない",
+    "{新|あたら}しじゃない"
+   ],
+   "a": 0,
+   "explain": "{新|あたら}しい est un adjectif en い : on enlève le い et on le transforme. Négatif familier : くない."
+  },
+  {
+   "id": "adj-atarashii-ppast",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{本|ほん}は＿。",
+   "fr": "{新|あたら}しい (neuf, nouveau) → passé familier",
+   "choices": [
+    "{新|あたら}しかった",
+    "{新|あたら}しいだった",
+    "{新|あたら}しいかった",
+    "{新|あたら}しかっただ"
+   ],
+   "a": 0,
+   "explain": "{新|あたら}しい est un adjectif en い : on enlève le い et on le transforme. Passé familier : かった."
+  },
+  {
+   "id": "adj-atarashii-ppastneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{本|ほん}は＿。",
+   "fr": "{新|あたら}しい (neuf, nouveau) → passé négatif familier",
+   "choices": [
+    "{新|あたら}しくなかった",
+    "{新|あたら}しいじゃなかった",
+    "{新|あたら}しいくなかった",
+    "{新|あたら}しくないだった"
+   ],
+   "a": 0,
+   "explain": "{新|あたら}しい est un adjectif en い : on enlève le い et on le transforme. Passé négatif familier : くなかった."
+  },
+  {
+   "id": "adj-furui-type",
+   "type": "choice",
+   "uses": [
+    "n5-08",
+    "n5-09"
+   ],
+   "q": "{古|ふる}い (vieux) : adjectif en い ou en な ?",
+   "choices": [
+    "adjectif en い",
+    "adjectif en な"
+   ],
+   "a": 0,
+   "explain": "{古|ふる}い{車|くるま}, {古|ふる}くないです : c'est un adjectif en い."
+  },
+  {
+   "id": "adj-furui-noun",
+   "type": "choice",
+   "uses": [
+    "n5-08"
+   ],
+   "jp": "これは＿です。",
+   "fr": "{古|ふる}い (vieux) + {車|くるま} : devant un nom",
+   "choices": [
+    "{古|ふる}い{車|くるま}",
+    "{古|ふる}いな{車|くるま}",
+    "{古|ふる}いの{車|くるま}",
+    "{古|ふる}く{車|くるま}"
+   ],
+   "a": 0,
+   "explain": "Adjectif en い : directement devant le nom, sans な ni の."
+  },
+  {
+   "id": "adj-furui-neg",
+   "type": "choice",
+   "uses": [
+    "n5-08"
+   ],
+   "jp": "この{車|くるま}は＿。",
+   "fr": "{古|ふる}い (vieux) → négatif poli",
+   "choices": [
+    "{古|ふる}くないです",
+    "{古|ふる}いじゃありません",
+    "{古|ふる}いくないです",
+    "{古|ふる}いないです"
+   ],
+   "a": 0,
+   "explain": "{古|ふる}い est un adjectif en い : on enlève le い et on le transforme. Négatif : くないです."
+  },
+  {
+   "id": "adj-furui-past",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "この{車|くるま}は＿。",
+   "fr": "{古|ふる}い (vieux) → passé poli",
+   "choices": [
+    "{古|ふる}かったです",
+    "{古|ふる}いでした",
+    "{古|ふる}かったでした",
+    "{古|ふる}いかったです"
+   ],
+   "a": 0,
+   "explain": "{古|ふる}い est un adjectif en い : on enlève le い et on le transforme. Passé : かったです (jamais 古いでした)."
+  },
+  {
+   "id": "adj-furui-pastneg",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "この{車|くるま}は＿。",
+   "fr": "{古|ふる}い (vieux) → passé négatif poli",
+   "choices": [
+    "{古|ふる}くなかったです",
+    "{古|ふる}いじゃありませんでした",
+    "{古|ふる}くないでした",
+    "{古|ふる}いくなかったです"
+   ],
+   "a": 0,
+   "explain": "{古|ふる}い est un adjectif en い : on enlève le い et on le transforme. Passé négatif : くなかったです."
+  },
+  {
+   "id": "adj-furui-pneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{車|くるま}は＿。",
+   "fr": "{古|ふる}い (vieux) → négatif familier",
+   "choices": [
+    "{古|ふる}くない",
+    "{古|ふる}いくない",
+    "{古|ふる}いない",
+    "{古|ふる}じゃない"
+   ],
+   "a": 0,
+   "explain": "{古|ふる}い est un adjectif en い : on enlève le い et on le transforme. Négatif familier : くない."
+  },
+  {
+   "id": "adj-furui-ppast",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{車|くるま}は＿。",
+   "fr": "{古|ふる}い (vieux) → passé familier",
+   "choices": [
+    "{古|ふる}かった",
+    "{古|ふる}いだった",
+    "{古|ふる}いかった",
+    "{古|ふる}かっただ"
+   ],
+   "a": 0,
+   "explain": "{古|ふる}い est un adjectif en い : on enlève le い et on le transforme. Passé familier : かった."
+  },
+  {
+   "id": "adj-furui-ppastneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{車|くるま}は＿。",
+   "fr": "{古|ふる}い (vieux) → passé négatif familier",
+   "choices": [
+    "{古|ふる}くなかった",
+    "{古|ふる}いじゃなかった",
+    "{古|ふる}いくなかった",
+    "{古|ふる}くないだった"
+   ],
+   "a": 0,
+   "explain": "{古|ふる}い est un adjectif en い : on enlève le い et on le transforme. Passé négatif familier : くなかった."
+  },
+  {
+   "id": "adj-oishii-type",
+   "type": "choice",
+   "uses": [
+    "n5-08",
+    "n5-09"
+   ],
+   "q": "おいしい (bon (au goût)) : adjectif en い ou en な ?",
+   "choices": [
+    "adjectif en い",
+    "adjectif en な"
+   ],
+   "a": 0,
+   "explain": "おいしいケーキ, おいしくないです : c'est un adjectif en い."
+  },
+  {
+   "id": "adj-oishii-noun",
+   "type": "choice",
+   "uses": [
+    "n5-08"
+   ],
+   "jp": "これは＿です。",
+   "fr": "おいしい (bon (au goût)) + ケーキ : devant un nom",
+   "choices": [
+    "おいしいケーキ",
+    "おいしいなケーキ",
+    "おいしいのケーキ",
+    "おいしくケーキ"
+   ],
+   "a": 0,
+   "explain": "Adjectif en い : directement devant le nom, sans な ni の."
+  },
+  {
+   "id": "adj-oishii-neg",
+   "type": "choice",
+   "uses": [
+    "n5-08"
+   ],
+   "jp": "このケーキは＿。",
+   "fr": "おいしい (bon (au goût)) → négatif poli",
+   "choices": [
+    "おいしくないです",
+    "おいしいじゃありません",
+    "おいしいくないです",
+    "おいしいないです"
+   ],
+   "a": 0,
+   "explain": "おいしい est un adjectif en い : on enlève le い et on le transforme. Négatif : くないです."
+  },
+  {
+   "id": "adj-oishii-past",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "このケーキは＿。",
+   "fr": "おいしい (bon (au goût)) → passé poli",
+   "choices": [
+    "おいしかったです",
+    "おいしいでした",
+    "おいしかったでした",
+    "おいしいかったです"
+   ],
+   "a": 0,
+   "explain": "おいしい est un adjectif en い : on enlève le い et on le transforme. Passé : かったです (jamais おいしいでした)."
+  },
+  {
+   "id": "adj-oishii-pastneg",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "このケーキは＿。",
+   "fr": "おいしい (bon (au goût)) → passé négatif poli",
+   "choices": [
+    "おいしくなかったです",
+    "おいしいじゃありませんでした",
+    "おいしくないでした",
+    "おいしいくなかったです"
+   ],
+   "a": 0,
+   "explain": "おいしい est un adjectif en い : on enlève le い et on le transforme. Passé négatif : くなかったです."
+  },
+  {
+   "id": "adj-oishii-pneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "このケーキは＿。",
+   "fr": "おいしい (bon (au goût)) → négatif familier",
+   "choices": [
+    "おいしくない",
+    "おいしいくない",
+    "おいしいない",
+    "おいしじゃない"
+   ],
+   "a": 0,
+   "explain": "おいしい est un adjectif en い : on enlève le い et on le transforme. Négatif familier : くない."
+  },
+  {
+   "id": "adj-oishii-ppast",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "このケーキは＿。",
+   "fr": "おいしい (bon (au goût)) → passé familier",
+   "choices": [
+    "おいしかった",
+    "おいしいだった",
+    "おいしいかった",
+    "おいしかっただ"
+   ],
+   "a": 0,
+   "explain": "おいしい est un adjectif en い : on enlève le い et on le transforme. Passé familier : かった."
+  },
+  {
+   "id": "adj-oishii-ppastneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "このケーキは＿。",
+   "fr": "おいしい (bon (au goût)) → passé négatif familier",
+   "choices": [
+    "おいしくなかった",
+    "おいしいじゃなかった",
+    "おいしいくなかった",
+    "おいしくないだった"
+   ],
+   "a": 0,
+   "explain": "おいしい est un adjectif en い : on enlève le い et on le transforme. Passé négatif familier : くなかった."
+  },
+  {
+   "id": "adj-muzukashii-type",
+   "type": "choice",
+   "uses": [
+    "n5-08",
+    "n5-09"
+   ],
+   "q": "むずかしい (difficile) : adjectif en い ou en な ?",
+   "choices": [
+    "adjectif en い",
+    "adjectif en な"
+   ],
+   "a": 0,
+   "explain": "むずかしいテスト, むずかしくないです : c'est un adjectif en い."
+  },
+  {
+   "id": "adj-muzukashii-noun",
+   "type": "choice",
+   "uses": [
+    "n5-08"
+   ],
+   "jp": "これは＿です。",
+   "fr": "むずかしい (difficile) + テスト : devant un nom",
+   "choices": [
+    "むずかしいテスト",
+    "むずかしいなテスト",
+    "むずかしいのテスト",
+    "むずかしくテスト"
+   ],
+   "a": 0,
+   "explain": "Adjectif en い : directement devant le nom, sans な ni の."
+  },
+  {
+   "id": "adj-muzukashii-neg",
+   "type": "choice",
+   "uses": [
+    "n5-08"
+   ],
+   "jp": "テストは＿。",
+   "fr": "むずかしい (difficile) → négatif poli",
+   "choices": [
+    "むずかしくないです",
+    "むずかしいじゃありません",
+    "むずかしいくないです",
+    "むずかしいないです"
+   ],
+   "a": 0,
+   "explain": "むずかしい est un adjectif en い : on enlève le い et on le transforme. Négatif : くないです."
+  },
+  {
+   "id": "adj-muzukashii-past",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "テストは＿。",
+   "fr": "むずかしい (difficile) → passé poli",
+   "choices": [
+    "むずかしかったです",
+    "むずかしいでした",
+    "むずかしかったでした",
+    "むずかしいかったです"
+   ],
+   "a": 0,
+   "explain": "むずかしい est un adjectif en い : on enlève le い et on le transforme. Passé : かったです (jamais むずかしいでした)."
+  },
+  {
+   "id": "adj-muzukashii-pastneg",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "テストは＿。",
+   "fr": "むずかしい (difficile) → passé négatif poli",
+   "choices": [
+    "むずかしくなかったです",
+    "むずかしいじゃありませんでした",
+    "むずかしくないでした",
+    "むずかしいくなかったです"
+   ],
+   "a": 0,
+   "explain": "むずかしい est un adjectif en い : on enlève le い et on le transforme. Passé négatif : くなかったです."
+  },
+  {
+   "id": "adj-muzukashii-pneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "テストは＿。",
+   "fr": "むずかしい (difficile) → négatif familier",
+   "choices": [
+    "むずかしくない",
+    "むずかしいくない",
+    "むずかしいない",
+    "むずかしじゃない"
+   ],
+   "a": 0,
+   "explain": "むずかしい est un adjectif en い : on enlève le い et on le transforme. Négatif familier : くない."
+  },
+  {
+   "id": "adj-muzukashii-ppast",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "テストは＿。",
+   "fr": "むずかしい (difficile) → passé familier",
+   "choices": [
+    "むずかしかった",
+    "むずかしいだった",
+    "むずかしいかった",
+    "むずかしかっただ"
+   ],
+   "a": 0,
+   "explain": "むずかしい est un adjectif en い : on enlève le い et on le transforme. Passé familier : かった."
+  },
+  {
+   "id": "adj-muzukashii-ppastneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "テストは＿。",
+   "fr": "むずかしい (difficile) → passé négatif familier",
+   "choices": [
+    "むずかしくなかった",
+    "むずかしいじゃなかった",
+    "むずかしいくなかった",
+    "むずかしくないだった"
+   ],
+   "a": 0,
+   "explain": "むずかしい est un adjectif en い : on enlève le い et on le transforme. Passé négatif familier : くなかった."
+  },
+  {
+   "id": "adj-omoshiroi-type",
+   "type": "choice",
+   "uses": [
+    "n5-08",
+    "n5-09"
+   ],
+   "q": "おもしろい (intéressant) : adjectif en い ou en な ?",
+   "choices": [
+    "adjectif en い",
+    "adjectif en な"
+   ],
+   "a": 0,
+   "explain": "おもしろい{映画|えいが}, おもしろくないです : c'est un adjectif en い."
+  },
+  {
+   "id": "adj-omoshiroi-noun",
+   "type": "choice",
+   "uses": [
+    "n5-08"
+   ],
+   "jp": "これは＿です。",
+   "fr": "おもしろい (intéressant) + {映画|えいが} : devant un nom",
+   "choices": [
+    "おもしろい{映画|えいが}",
+    "おもしろいな{映画|えいが}",
+    "おもしろいの{映画|えいが}",
+    "おもしろく{映画|えいが}"
+   ],
+   "a": 0,
+   "explain": "Adjectif en い : directement devant le nom, sans な ni の."
+  },
+  {
+   "id": "adj-omoshiroi-neg",
+   "type": "choice",
+   "uses": [
+    "n5-08"
+   ],
+   "jp": "この{映画|えいが}は＿。",
+   "fr": "おもしろい (intéressant) → négatif poli",
+   "choices": [
+    "おもしろくないです",
+    "おもしろいじゃありません",
+    "おもしろいくないです",
+    "おもしろいないです"
+   ],
+   "a": 0,
+   "explain": "おもしろい est un adjectif en い : on enlève le い et on le transforme. Négatif : くないです."
+  },
+  {
+   "id": "adj-omoshiroi-past",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "この{映画|えいが}は＿。",
+   "fr": "おもしろい (intéressant) → passé poli",
+   "choices": [
+    "おもしろかったです",
+    "おもしろいでした",
+    "おもしろかったでした",
+    "おもしろいかったです"
+   ],
+   "a": 0,
+   "explain": "おもしろい est un adjectif en い : on enlève le い et on le transforme. Passé : かったです (jamais おもしろいでした)."
+  },
+  {
+   "id": "adj-omoshiroi-pastneg",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "この{映画|えいが}は＿。",
+   "fr": "おもしろい (intéressant) → passé négatif poli",
+   "choices": [
+    "おもしろくなかったです",
+    "おもしろいじゃありませんでした",
+    "おもしろくないでした",
+    "おもしろいくなかったです"
+   ],
+   "a": 0,
+   "explain": "おもしろい est un adjectif en い : on enlève le い et on le transforme. Passé négatif : くなかったです."
+  },
+  {
+   "id": "adj-omoshiroi-pneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{映画|えいが}は＿。",
+   "fr": "おもしろい (intéressant) → négatif familier",
+   "choices": [
+    "おもしろくない",
+    "おもしろいくない",
+    "おもしろいない",
+    "おもしろじゃない"
+   ],
+   "a": 0,
+   "explain": "おもしろい est un adjectif en い : on enlève le い et on le transforme. Négatif familier : くない."
+  },
+  {
+   "id": "adj-omoshiroi-ppast",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{映画|えいが}は＿。",
+   "fr": "おもしろい (intéressant) → passé familier",
+   "choices": [
+    "おもしろかった",
+    "おもしろいだった",
+    "おもしろいかった",
+    "おもしろかっただ"
+   ],
+   "a": 0,
+   "explain": "おもしろい est un adjectif en い : on enlève le い et on le transforme. Passé familier : かった."
+  },
+  {
+   "id": "adj-omoshiroi-ppastneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{映画|えいが}は＿。",
+   "fr": "おもしろい (intéressant) → passé négatif familier",
+   "choices": [
+    "おもしろくなかった",
+    "おもしろいじゃなかった",
+    "おもしろいくなかった",
+    "おもしろくないだった"
+   ],
+   "a": 0,
+   "explain": "おもしろい est un adjectif en い : on enlève le い et on le transforme. Passé négatif familier : くなかった."
+  },
+  {
+   "id": "adj-atsui-type",
+   "type": "choice",
+   "uses": [
+    "n5-08",
+    "n5-09"
+   ],
+   "q": "{暑|あつ}い (chaud (temps)) : adjectif en い ou en な ?",
+   "choices": [
+    "adjectif en い",
+    "adjectif en な"
+   ],
+   "a": 0,
+   "explain": "{暑|あつ}い{日|ひ}, {暑|あつ}くないです : c'est un adjectif en い."
+  },
+  {
+   "id": "adj-atsui-noun",
+   "type": "choice",
+   "uses": [
+    "n5-08"
+   ],
+   "jp": "これは＿です。",
+   "fr": "{暑|あつ}い (chaud (temps)) + {日|ひ} : devant un nom",
+   "choices": [
+    "{暑|あつ}い{日|ひ}",
+    "{暑|あつ}いな{日|ひ}",
+    "{暑|あつ}いの{日|ひ}",
+    "{暑|あつ}く{日|ひ}"
+   ],
+   "a": 0,
+   "explain": "Adjectif en い : directement devant le nom, sans な ni の."
+  },
+  {
+   "id": "adj-atsui-neg",
+   "type": "choice",
+   "uses": [
+    "n5-08"
+   ],
+   "jp": "{今日|きょう}は＿。",
+   "fr": "{暑|あつ}い (chaud (temps)) → négatif poli",
+   "choices": [
+    "{暑|あつ}くないです",
+    "{暑|あつ}いじゃありません",
+    "{暑|あつ}いくないです",
+    "{暑|あつ}いないです"
+   ],
+   "a": 0,
+   "explain": "{暑|あつ}い est un adjectif en い : on enlève le い et on le transforme. Négatif : くないです."
+  },
+  {
+   "id": "adj-atsui-past",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "{今日|きょう}は＿。",
+   "fr": "{暑|あつ}い (chaud (temps)) → passé poli",
+   "choices": [
+    "{暑|あつ}かったです",
+    "{暑|あつ}いでした",
+    "{暑|あつ}かったでした",
+    "{暑|あつ}いかったです"
+   ],
+   "a": 0,
+   "explain": "{暑|あつ}い est un adjectif en い : on enlève le い et on le transforme. Passé : かったです (jamais 暑いでした)."
+  },
+  {
+   "id": "adj-atsui-pastneg",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "{今日|きょう}は＿。",
+   "fr": "{暑|あつ}い (chaud (temps)) → passé négatif poli",
+   "choices": [
+    "{暑|あつ}くなかったです",
+    "{暑|あつ}いじゃありませんでした",
+    "{暑|あつ}くないでした",
+    "{暑|あつ}いくなかったです"
+   ],
+   "a": 0,
+   "explain": "{暑|あつ}い est un adjectif en い : on enlève le い et on le transforme. Passé négatif : くなかったです."
+  },
+  {
+   "id": "adj-atsui-pneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "{今日|きょう}は＿。",
+   "fr": "{暑|あつ}い (chaud (temps)) → négatif familier",
+   "choices": [
+    "{暑|あつ}くない",
+    "{暑|あつ}いくない",
+    "{暑|あつ}いない",
+    "{暑|あつ}じゃない"
+   ],
+   "a": 0,
+   "explain": "{暑|あつ}い est un adjectif en い : on enlève le い et on le transforme. Négatif familier : くない."
+  },
+  {
+   "id": "adj-atsui-ppast",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "{今日|きょう}は＿。",
+   "fr": "{暑|あつ}い (chaud (temps)) → passé familier",
+   "choices": [
+    "{暑|あつ}かった",
+    "{暑|あつ}いだった",
+    "{暑|あつ}いかった",
+    "{暑|あつ}かっただ"
+   ],
+   "a": 0,
+   "explain": "{暑|あつ}い est un adjectif en い : on enlève le い et on le transforme. Passé familier : かった."
+  },
+  {
+   "id": "adj-atsui-ppastneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "{今日|きょう}は＿。",
+   "fr": "{暑|あつ}い (chaud (temps)) → passé négatif familier",
+   "choices": [
+    "{暑|あつ}くなかった",
+    "{暑|あつ}いじゃなかった",
+    "{暑|あつ}いくなかった",
+    "{暑|あつ}くないだった"
+   ],
+   "a": 0,
+   "explain": "{暑|あつ}い est un adjectif en い : on enlève le い et on le transforme. Passé négatif familier : くなかった."
+  },
+  {
+   "id": "adj-samui-type",
+   "type": "choice",
+   "uses": [
+    "n5-08",
+    "n5-09"
+   ],
+   "q": "{寒|さむ}い (froid (temps)) : adjectif en い ou en な ?",
+   "choices": [
+    "adjectif en い",
+    "adjectif en な"
+   ],
+   "a": 0,
+   "explain": "{寒|さむ}い{日|ひ}, {寒|さむ}くないです : c'est un adjectif en い."
+  },
+  {
+   "id": "adj-samui-noun",
+   "type": "choice",
+   "uses": [
+    "n5-08"
+   ],
+   "jp": "これは＿です。",
+   "fr": "{寒|さむ}い (froid (temps)) + {日|ひ} : devant un nom",
+   "choices": [
+    "{寒|さむ}い{日|ひ}",
+    "{寒|さむ}いな{日|ひ}",
+    "{寒|さむ}いの{日|ひ}",
+    "{寒|さむ}く{日|ひ}"
+   ],
+   "a": 0,
+   "explain": "Adjectif en い : directement devant le nom, sans な ni の."
+  },
+  {
+   "id": "adj-samui-neg",
+   "type": "choice",
+   "uses": [
+    "n5-08"
+   ],
+   "jp": "{外|そと}は＿。",
+   "fr": "{寒|さむ}い (froid (temps)) → négatif poli",
+   "choices": [
+    "{寒|さむ}くないです",
+    "{寒|さむ}いじゃありません",
+    "{寒|さむ}いくないです",
+    "{寒|さむ}いないです"
+   ],
+   "a": 0,
+   "explain": "{寒|さむ}い est un adjectif en い : on enlève le い et on le transforme. Négatif : くないです."
+  },
+  {
+   "id": "adj-samui-past",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "{外|そと}は＿。",
+   "fr": "{寒|さむ}い (froid (temps)) → passé poli",
+   "choices": [
+    "{寒|さむ}かったです",
+    "{寒|さむ}いでした",
+    "{寒|さむ}かったでした",
+    "{寒|さむ}いかったです"
+   ],
+   "a": 0,
+   "explain": "{寒|さむ}い est un adjectif en い : on enlève le い et on le transforme. Passé : かったです (jamais 寒いでした)."
+  },
+  {
+   "id": "adj-samui-pastneg",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "{外|そと}は＿。",
+   "fr": "{寒|さむ}い (froid (temps)) → passé négatif poli",
+   "choices": [
+    "{寒|さむ}くなかったです",
+    "{寒|さむ}いじゃありませんでした",
+    "{寒|さむ}くないでした",
+    "{寒|さむ}いくなかったです"
+   ],
+   "a": 0,
+   "explain": "{寒|さむ}い est un adjectif en い : on enlève le い et on le transforme. Passé négatif : くなかったです."
+  },
+  {
+   "id": "adj-samui-pneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "{外|そと}は＿。",
+   "fr": "{寒|さむ}い (froid (temps)) → négatif familier",
+   "choices": [
+    "{寒|さむ}くない",
+    "{寒|さむ}いくない",
+    "{寒|さむ}いない",
+    "{寒|さむ}じゃない"
+   ],
+   "a": 0,
+   "explain": "{寒|さむ}い est un adjectif en い : on enlève le い et on le transforme. Négatif familier : くない."
+  },
+  {
+   "id": "adj-samui-ppast",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "{外|そと}は＿。",
+   "fr": "{寒|さむ}い (froid (temps)) → passé familier",
+   "choices": [
+    "{寒|さむ}かった",
+    "{寒|さむ}いだった",
+    "{寒|さむ}いかった",
+    "{寒|さむ}かっただ"
+   ],
+   "a": 0,
+   "explain": "{寒|さむ}い est un adjectif en い : on enlève le い et on le transforme. Passé familier : かった."
+  },
+  {
+   "id": "adj-samui-ppastneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "{外|そと}は＿。",
+   "fr": "{寒|さむ}い (froid (temps)) → passé négatif familier",
+   "choices": [
+    "{寒|さむ}くなかった",
+    "{寒|さむ}いじゃなかった",
+    "{寒|さむ}いくなかった",
+    "{寒|さむ}くないだった"
+   ],
+   "a": 0,
+   "explain": "{寒|さむ}い est un adjectif en い : on enlève le い et on le transforme. Passé négatif familier : くなかった."
+  },
+  {
+   "id": "adj-nagai-type",
+   "type": "choice",
+   "uses": [
+    "n5-08",
+    "n5-09"
+   ],
+   "q": "{長|なが}い (long) : adjectif en い ou en な ?",
+   "choices": [
+    "adjectif en い",
+    "adjectif en な"
+   ],
+   "a": 0,
+   "explain": "{長|なが}い{映画|えいが}, {長|なが}くないです : c'est un adjectif en い."
+  },
+  {
+   "id": "adj-nagai-noun",
+   "type": "choice",
+   "uses": [
+    "n5-08"
+   ],
+   "jp": "これは＿です。",
+   "fr": "{長|なが}い (long) + {映画|えいが} : devant un nom",
+   "choices": [
+    "{長|なが}い{映画|えいが}",
+    "{長|なが}いな{映画|えいが}",
+    "{長|なが}いの{映画|えいが}",
+    "{長|なが}く{映画|えいが}"
+   ],
+   "a": 0,
+   "explain": "Adjectif en い : directement devant le nom, sans な ni の."
+  },
+  {
+   "id": "adj-nagai-neg",
+   "type": "choice",
+   "uses": [
+    "n5-08"
+   ],
+   "jp": "この{映画|えいが}は＿。",
+   "fr": "{長|なが}い (long) → négatif poli",
+   "choices": [
+    "{長|なが}くないです",
+    "{長|なが}いじゃありません",
+    "{長|なが}いくないです",
+    "{長|なが}いないです"
+   ],
+   "a": 0,
+   "explain": "{長|なが}い est un adjectif en い : on enlève le い et on le transforme. Négatif : くないです."
+  },
+  {
+   "id": "adj-nagai-past",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "この{映画|えいが}は＿。",
+   "fr": "{長|なが}い (long) → passé poli",
+   "choices": [
+    "{長|なが}かったです",
+    "{長|なが}いでした",
+    "{長|なが}かったでした",
+    "{長|なが}いかったです"
+   ],
+   "a": 0,
+   "explain": "{長|なが}い est un adjectif en い : on enlève le い et on le transforme. Passé : かったです (jamais 長いでした)."
+  },
+  {
+   "id": "adj-nagai-pastneg",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "この{映画|えいが}は＿。",
+   "fr": "{長|なが}い (long) → passé négatif poli",
+   "choices": [
+    "{長|なが}くなかったです",
+    "{長|なが}いじゃありませんでした",
+    "{長|なが}くないでした",
+    "{長|なが}いくなかったです"
+   ],
+   "a": 0,
+   "explain": "{長|なが}い est un adjectif en い : on enlève le い et on le transforme. Passé négatif : くなかったです."
+  },
+  {
+   "id": "adj-nagai-pneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{映画|えいが}は＿。",
+   "fr": "{長|なが}い (long) → négatif familier",
+   "choices": [
+    "{長|なが}くない",
+    "{長|なが}いくない",
+    "{長|なが}いない",
+    "{長|なが}じゃない"
+   ],
+   "a": 0,
+   "explain": "{長|なが}い est un adjectif en い : on enlève le い et on le transforme. Négatif familier : くない."
+  },
+  {
+   "id": "adj-nagai-ppast",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{映画|えいが}は＿。",
+   "fr": "{長|なが}い (long) → passé familier",
+   "choices": [
+    "{長|なが}かった",
+    "{長|なが}いだった",
+    "{長|なが}いかった",
+    "{長|なが}かっただ"
+   ],
+   "a": 0,
+   "explain": "{長|なが}い est un adjectif en い : on enlève le い et on le transforme. Passé familier : かった."
+  },
+  {
+   "id": "adj-nagai-ppastneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{映画|えいが}は＿。",
+   "fr": "{長|なが}い (long) → passé négatif familier",
+   "choices": [
+    "{長|なが}くなかった",
+    "{長|なが}いじゃなかった",
+    "{長|なが}いくなかった",
+    "{長|なが}くないだった"
+   ],
+   "a": 0,
+   "explain": "{長|なが}い est un adjectif en い : on enlève le い et on le transforme. Passé négatif familier : くなかった."
+  },
+  {
+   "id": "adj-isogashii-type",
+   "type": "choice",
+   "uses": [
+    "n5-08",
+    "n5-09"
+   ],
+   "q": "いそがしい (occupé) : adjectif en い ou en な ?",
+   "choices": [
+    "adjectif en い",
+    "adjectif en な"
+   ],
+   "a": 0,
+   "explain": "いそがしい{人|ひと}, いそがしくないです : c'est un adjectif en い."
+  },
+  {
+   "id": "adj-isogashii-noun",
+   "type": "choice",
+   "uses": [
+    "n5-08"
+   ],
+   "jp": "これは＿です。",
+   "fr": "いそがしい (occupé) + {人|ひと} : devant un nom",
+   "choices": [
+    "いそがしい{人|ひと}",
+    "いそがしいな{人|ひと}",
+    "いそがしいの{人|ひと}",
+    "いそがしく{人|ひと}"
+   ],
+   "a": 0,
+   "explain": "Adjectif en い : directement devant le nom, sans な ni の."
+  },
+  {
+   "id": "adj-isogashii-neg",
+   "type": "choice",
+   "uses": [
+    "n5-08"
+   ],
+   "jp": "{田中|たなか}さんは＿。",
+   "fr": "いそがしい (occupé) → négatif poli",
+   "choices": [
+    "いそがしくないです",
+    "いそがしいじゃありません",
+    "いそがしいくないです",
+    "いそがしいないです"
+   ],
+   "a": 0,
+   "explain": "いそがしい est un adjectif en い : on enlève le い et on le transforme. Négatif : くないです."
+  },
+  {
+   "id": "adj-isogashii-past",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "{田中|たなか}さんは＿。",
+   "fr": "いそがしい (occupé) → passé poli",
+   "choices": [
+    "いそがしかったです",
+    "いそがしいでした",
+    "いそがしかったでした",
+    "いそがしいかったです"
+   ],
+   "a": 0,
+   "explain": "いそがしい est un adjectif en い : on enlève le い et on le transforme. Passé : かったです (jamais いそがしいでした)."
+  },
+  {
+   "id": "adj-isogashii-pastneg",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "{田中|たなか}さんは＿。",
+   "fr": "いそがしい (occupé) → passé négatif poli",
+   "choices": [
+    "いそがしくなかったです",
+    "いそがしいじゃありませんでした",
+    "いそがしくないでした",
+    "いそがしいくなかったです"
+   ],
+   "a": 0,
+   "explain": "いそがしい est un adjectif en い : on enlève le い et on le transforme. Passé négatif : くなかったです."
+  },
+  {
+   "id": "adj-isogashii-pneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "{田中|たなか}さんは＿。",
+   "fr": "いそがしい (occupé) → négatif familier",
+   "choices": [
+    "いそがしくない",
+    "いそがしいくない",
+    "いそがしいない",
+    "いそがしじゃない"
+   ],
+   "a": 0,
+   "explain": "いそがしい est un adjectif en い : on enlève le い et on le transforme. Négatif familier : くない."
+  },
+  {
+   "id": "adj-isogashii-ppast",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "{田中|たなか}さんは＿。",
+   "fr": "いそがしい (occupé) → passé familier",
+   "choices": [
+    "いそがしかった",
+    "いそがしいだった",
+    "いそがしいかった",
+    "いそがしかっただ"
+   ],
+   "a": 0,
+   "explain": "いそがしい est un adjectif en い : on enlève le い et on le transforme. Passé familier : かった."
+  },
+  {
+   "id": "adj-isogashii-ppastneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "{田中|たなか}さんは＿。",
+   "fr": "いそがしい (occupé) → passé négatif familier",
+   "choices": [
+    "いそがしくなかった",
+    "いそがしいじゃなかった",
+    "いそがしいくなかった",
+    "いそがしくないだった"
+   ],
+   "a": 0,
+   "explain": "いそがしい est un adjectif en い : on enlève le い et on le transforme. Passé négatif familier : くなかった."
+  },
+  {
+   "id": "adj-tanoshii-type",
+   "type": "choice",
+   "uses": [
+    "n5-08",
+    "n5-09"
+   ],
+   "q": "{楽|たの}しい (amusant) : adjectif en い ou en な ?",
+   "choices": [
+    "adjectif en い",
+    "adjectif en な"
+   ],
+   "a": 0,
+   "explain": "{楽|たの}しいパーティー, {楽|たの}しくないです : c'est un adjectif en い."
+  },
+  {
+   "id": "adj-tanoshii-noun",
+   "type": "choice",
+   "uses": [
+    "n5-08"
+   ],
+   "jp": "これは＿です。",
+   "fr": "{楽|たの}しい (amusant) + パーティー : devant un nom",
+   "choices": [
+    "{楽|たの}しいパーティー",
+    "{楽|たの}しいなパーティー",
+    "{楽|たの}しいのパーティー",
+    "{楽|たの}しくパーティー"
+   ],
+   "a": 0,
+   "explain": "Adjectif en い : directement devant le nom, sans な ni の."
+  },
+  {
+   "id": "adj-tanoshii-neg",
+   "type": "choice",
+   "uses": [
+    "n5-08"
+   ],
+   "jp": "パーティーは＿。",
+   "fr": "{楽|たの}しい (amusant) → négatif poli",
+   "choices": [
+    "{楽|たの}しくないです",
+    "{楽|たの}しいじゃありません",
+    "{楽|たの}しいくないです",
+    "{楽|たの}しいないです"
+   ],
+   "a": 0,
+   "explain": "{楽|たの}しい est un adjectif en い : on enlève le い et on le transforme. Négatif : くないです."
+  },
+  {
+   "id": "adj-tanoshii-past",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "パーティーは＿。",
+   "fr": "{楽|たの}しい (amusant) → passé poli",
+   "choices": [
+    "{楽|たの}しかったです",
+    "{楽|たの}しいでした",
+    "{楽|たの}しかったでした",
+    "{楽|たの}しいかったです"
+   ],
+   "a": 0,
+   "explain": "{楽|たの}しい est un adjectif en い : on enlève le い et on le transforme. Passé : かったです (jamais 楽しいでした)."
+  },
+  {
+   "id": "adj-tanoshii-pastneg",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "パーティーは＿。",
+   "fr": "{楽|たの}しい (amusant) → passé négatif poli",
+   "choices": [
+    "{楽|たの}しくなかったです",
+    "{楽|たの}しいじゃありませんでした",
+    "{楽|たの}しくないでした",
+    "{楽|たの}しいくなかったです"
+   ],
+   "a": 0,
+   "explain": "{楽|たの}しい est un adjectif en い : on enlève le い et on le transforme. Passé négatif : くなかったです."
+  },
+  {
+   "id": "adj-tanoshii-pneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "パーティーは＿。",
+   "fr": "{楽|たの}しい (amusant) → négatif familier",
+   "choices": [
+    "{楽|たの}しくない",
+    "{楽|たの}しいくない",
+    "{楽|たの}しいない",
+    "{楽|たの}しじゃない"
+   ],
+   "a": 0,
+   "explain": "{楽|たの}しい est un adjectif en い : on enlève le い et on le transforme. Négatif familier : くない."
+  },
+  {
+   "id": "adj-tanoshii-ppast",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "パーティーは＿。",
+   "fr": "{楽|たの}しい (amusant) → passé familier",
+   "choices": [
+    "{楽|たの}しかった",
+    "{楽|たの}しいだった",
+    "{楽|たの}しいかった",
+    "{楽|たの}しかっただ"
+   ],
+   "a": 0,
+   "explain": "{楽|たの}しい est un adjectif en い : on enlève le い et on le transforme. Passé familier : かった."
+  },
+  {
+   "id": "adj-tanoshii-ppastneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "パーティーは＿。",
+   "fr": "{楽|たの}しい (amusant) → passé négatif familier",
+   "choices": [
+    "{楽|たの}しくなかった",
+    "{楽|たの}しいじゃなかった",
+    "{楽|たの}しいくなかった",
+    "{楽|たの}しくないだった"
+   ],
+   "a": 0,
+   "explain": "{楽|たの}しい est un adjectif en い : on enlève le い et on le transforme. Passé négatif familier : くなかった."
+  },
+  {
+   "id": "adj-hiroi-type",
+   "type": "choice",
+   "uses": [
+    "n5-08",
+    "n5-09"
+   ],
+   "q": "{広|ひろ}い (spacieux) : adjectif en い ou en な ?",
+   "choices": [
+    "adjectif en い",
+    "adjectif en な"
+   ],
+   "a": 0,
+   "explain": "{広|ひろ}い{部屋|へや}, {広|ひろ}くないです : c'est un adjectif en い."
+  },
+  {
+   "id": "adj-hiroi-noun",
+   "type": "choice",
+   "uses": [
+    "n5-08"
+   ],
+   "jp": "これは＿です。",
+   "fr": "{広|ひろ}い (spacieux) + {部屋|へや} : devant un nom",
+   "choices": [
+    "{広|ひろ}い{部屋|へや}",
+    "{広|ひろ}いな{部屋|へや}",
+    "{広|ひろ}いの{部屋|へや}",
+    "{広|ひろ}く{部屋|へや}"
+   ],
+   "a": 0,
+   "explain": "Adjectif en い : directement devant le nom, sans な ni の."
+  },
+  {
+   "id": "adj-hiroi-neg",
+   "type": "choice",
+   "uses": [
+    "n5-08"
+   ],
+   "jp": "この{部屋|へや}は＿。",
+   "fr": "{広|ひろ}い (spacieux) → négatif poli",
+   "choices": [
+    "{広|ひろ}くないです",
+    "{広|ひろ}いじゃありません",
+    "{広|ひろ}いくないです",
+    "{広|ひろ}いないです"
+   ],
+   "a": 0,
+   "explain": "{広|ひろ}い est un adjectif en い : on enlève le い et on le transforme. Négatif : くないです."
+  },
+  {
+   "id": "adj-hiroi-past",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "この{部屋|へや}は＿。",
+   "fr": "{広|ひろ}い (spacieux) → passé poli",
+   "choices": [
+    "{広|ひろ}かったです",
+    "{広|ひろ}いでした",
+    "{広|ひろ}かったでした",
+    "{広|ひろ}いかったです"
+   ],
+   "a": 0,
+   "explain": "{広|ひろ}い est un adjectif en い : on enlève le い et on le transforme. Passé : かったです (jamais 広いでした)."
+  },
+  {
+   "id": "adj-hiroi-pastneg",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "この{部屋|へや}は＿。",
+   "fr": "{広|ひろ}い (spacieux) → passé négatif poli",
+   "choices": [
+    "{広|ひろ}くなかったです",
+    "{広|ひろ}いじゃありませんでした",
+    "{広|ひろ}くないでした",
+    "{広|ひろ}いくなかったです"
+   ],
+   "a": 0,
+   "explain": "{広|ひろ}い est un adjectif en い : on enlève le い et on le transforme. Passé négatif : くなかったです."
+  },
+  {
+   "id": "adj-hiroi-pneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{部屋|へや}は＿。",
+   "fr": "{広|ひろ}い (spacieux) → négatif familier",
+   "choices": [
+    "{広|ひろ}くない",
+    "{広|ひろ}いくない",
+    "{広|ひろ}いない",
+    "{広|ひろ}じゃない"
+   ],
+   "a": 0,
+   "explain": "{広|ひろ}い est un adjectif en い : on enlève le い et on le transforme. Négatif familier : くない."
+  },
+  {
+   "id": "adj-hiroi-ppast",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{部屋|へや}は＿。",
+   "fr": "{広|ひろ}い (spacieux) → passé familier",
+   "choices": [
+    "{広|ひろ}かった",
+    "{広|ひろ}いだった",
+    "{広|ひろ}いかった",
+    "{広|ひろ}かっただ"
+   ],
+   "a": 0,
+   "explain": "{広|ひろ}い est un adjectif en い : on enlève le い et on le transforme. Passé familier : かった."
+  },
+  {
+   "id": "adj-hiroi-ppastneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{部屋|へや}は＿。",
+   "fr": "{広|ひろ}い (spacieux) → passé négatif familier",
+   "choices": [
+    "{広|ひろ}くなかった",
+    "{広|ひろ}いじゃなかった",
+    "{広|ひろ}いくなかった",
+    "{広|ひろ}くないだった"
+   ],
+   "a": 0,
+   "explain": "{広|ひろ}い est un adjectif en い : on enlève le い et on le transforme. Passé négatif familier : くなかった."
+  },
+  {
+   "id": "adj-ii-type",
+   "type": "choice",
+   "uses": [
+    "n5-08",
+    "n5-09"
+   ],
+   "q": "いい (bien, bon) : adjectif en い ou en な ?",
+   "choices": [
+    "adjectif en い",
+    "adjectif en な"
+   ],
+   "a": 0,
+   "explain": "いい{天気|てんき}, よくないです : c'est un adjectif en い."
+  },
+  {
+   "id": "adj-ii-noun",
+   "type": "choice",
+   "uses": [
+    "n5-08"
+   ],
+   "jp": "これは＿です。",
+   "fr": "いい (bien, bon) + {天気|てんき} : devant un nom",
+   "choices": [
+    "いい{天気|てんき}",
+    "いいな{天気|てんき}",
+    "いいの{天気|てんき}",
+    "いく{天気|てんき}"
+   ],
+   "a": 0,
+   "explain": "Adjectif en い : directement devant le nom, sans な ni の."
+  },
+  {
+   "id": "adj-ii-neg",
+   "type": "choice",
+   "uses": [
+    "n5-08"
+   ],
+   "jp": "{天気|てんき}は＿。",
+   "fr": "いい (bien, bon) → négatif poli",
+   "choices": [
+    "よくないです",
+    "いいじゃありません",
+    "いくないです",
+    "いいないです"
+   ],
+   "a": 0,
+   "explain": "いい est irrégulier : il devient よ- (よくない, よかった, よくなかった). Négatif : くないです."
+  },
+  {
+   "id": "adj-ii-past",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "{天気|てんき}は＿。",
+   "fr": "いい (bien, bon) → passé poli",
+   "choices": [
+    "よかったです",
+    "いいでした",
+    "よかったでした",
+    "いかったです"
+   ],
+   "a": 0,
+   "explain": "いい est irrégulier : il devient よ- (よくない, よかった, よくなかった). Passé : かったです (jamais いいでした)."
+  },
+  {
+   "id": "adj-ii-pastneg",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "{天気|てんき}は＿。",
+   "fr": "いい (bien, bon) → passé négatif poli",
+   "choices": [
+    "よくなかったです",
+    "いいじゃありませんでした",
+    "よくないでした",
+    "いくなかったです"
+   ],
+   "a": 0,
+   "explain": "いい est irrégulier : il devient よ- (よくない, よかった, よくなかった). Passé négatif : くなかったです."
+  },
+  {
+   "id": "adj-ii-pneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "{天気|てんき}は＿。",
+   "fr": "いい (bien, bon) → négatif familier",
+   "choices": [
+    "よくない",
+    "いいくない",
+    "いいない",
+    "いじゃない"
+   ],
+   "a": 0,
+   "explain": "いい est irrégulier : il devient よ- (よくない, よかった, よくなかった). Négatif familier : くない."
+  },
+  {
+   "id": "adj-ii-ppast",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "{天気|てんき}は＿。",
+   "fr": "いい (bien, bon) → passé familier",
+   "choices": [
+    "よかった",
+    "いいだった",
+    "いかった",
+    "よかっただ"
+   ],
+   "a": 0,
+   "explain": "いい est irrégulier : il devient よ- (よくない, よかった, よくなかった). Passé familier : かった."
+  },
+  {
+   "id": "adj-ii-ppastneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "{天気|てんき}は＿。",
+   "fr": "いい (bien, bon) → passé négatif familier",
+   "choices": [
+    "よくなかった",
+    "いいじゃなかった",
+    "いいくなかった",
+    "よくないだった"
+   ],
+   "a": 0,
+   "explain": "いい est irrégulier : il devient よ- (よくない, よかった, よくなかった). Passé négatif familier : くなかった."
+  },
+  {
+   "id": "na-shizuka-type",
+   "type": "choice",
+   "uses": [
+    "n5-08",
+    "n5-09"
+   ],
+   "q": "{静|しず}か (calme) : adjectif en い ou en な ?",
+   "choices": [
+    "adjectif en い",
+    "adjectif en な"
+   ],
+   "a": 1,
+   "explain": "{静|しず}かな{町|まち}, {静|しず}かじゃありません : c'est un adjectif en な."
+  },
+  {
+   "id": "na-shizuka-noun",
+   "type": "choice",
+   "uses": [
+    "n5-09"
+   ],
+   "jp": "これは＿です。",
+   "fr": "{静|しず}か (calme) + {町|まち} : devant un nom",
+   "choices": [
+    "{静|しず}かな{町|まち}",
+    "{静|しず}か{町|まち}",
+    "{静|しず}かの{町|まち}",
+    "{静|しず}かい{町|まち}"
+   ],
+   "a": 0,
+   "explain": "Adjectif en な : il faut な devant le nom → {静|しず}かな{町|まち}."
+  },
+  {
+   "id": "na-shizuka-neg",
+   "type": "choice",
+   "uses": [
+    "n5-09"
+   ],
+   "jp": "この{町|まち}は＿。",
+   "fr": "{静|しず}か (calme) → négatif poli",
+   "choices": [
+    "{静|しず}かじゃありません",
+    "{静|しず}かくないです",
+    "{静|しず}かないです",
+    "{静|しず}かなじゃありません"
+   ],
+   "a": 0,
+   "explain": "{静|しず}か est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Négatif : じゃありません."
+  },
+  {
+   "id": "na-shizuka-past",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "この{町|まち}は＿。",
+   "fr": "{静|しず}か (calme) → passé poli",
+   "choices": [
+    "{静|しず}かでした",
+    "{静|しず}かかったです",
+    "{静|しず}かだったでした",
+    "{静|しず}かなでした"
+   ],
+   "a": 0,
+   "explain": "{静|しず}か est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Passé : でした (jamais 静かかった)."
+  },
+  {
+   "id": "na-shizuka-pastneg",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "この{町|まち}は＿。",
+   "fr": "{静|しず}か (calme) → passé négatif poli",
+   "choices": [
+    "{静|しず}かじゃありませんでした",
+    "{静|しず}かくなかったです",
+    "{静|しず}かじゃないでした",
+    "{静|しず}かじゃありませんだった"
+   ],
+   "a": 0,
+   "explain": "{静|しず}か est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Passé négatif : じゃありませんでした."
+  },
+  {
+   "id": "na-shizuka-pneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{町|まち}は＿。",
+   "fr": "{静|しず}か (calme) → négatif familier",
+   "choices": [
+    "{静|しず}かじゃない",
+    "{静|しず}かくない",
+    "{静|しず}かない",
+    "{静|しず}かだない"
+   ],
+   "a": 0,
+   "explain": "{静|しず}か est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Négatif familier : じゃない."
+  },
+  {
+   "id": "na-shizuka-ppast",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{町|まち}は＿。",
+   "fr": "{静|しず}か (calme) → passé familier",
+   "choices": [
+    "{静|しず}かだった",
+    "{静|しず}かかった",
+    "{静|しず}かなだった",
+    "{静|しず}かだだった"
+   ],
+   "a": 0,
+   "explain": "{静|しず}か est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Passé familier : だった."
+  },
+  {
+   "id": "na-shizuka-ppastneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{町|まち}は＿。",
+   "fr": "{静|しず}か (calme) → passé négatif familier",
+   "choices": [
+    "{静|しず}かじゃなかった",
+    "{静|しず}かくなかった",
+    "{静|しず}かじゃないだった",
+    "{静|しず}かなかった"
+   ],
+   "a": 0,
+   "explain": "{静|しず}か est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Passé négatif familier : じゃなかった."
+  },
+  {
+   "id": "na-nigiyaka-type",
+   "type": "choice",
+   "uses": [
+    "n5-08",
+    "n5-09"
+   ],
+   "q": "にぎやか (animé) : adjectif en い ou en な ?",
+   "choices": [
+    "adjectif en い",
+    "adjectif en な"
+   ],
+   "a": 1,
+   "explain": "にぎやかな{町|まち}, にぎやかじゃありません : c'est un adjectif en な."
+  },
+  {
+   "id": "na-nigiyaka-noun",
+   "type": "choice",
+   "uses": [
+    "n5-09"
+   ],
+   "jp": "これは＿です。",
+   "fr": "にぎやか (animé) + {町|まち} : devant un nom",
+   "choices": [
+    "にぎやかな{町|まち}",
+    "にぎやか{町|まち}",
+    "にぎやかの{町|まち}",
+    "にぎやかい{町|まち}"
+   ],
+   "a": 0,
+   "explain": "Adjectif en な : il faut な devant le nom → にぎやかな{町|まち}."
+  },
+  {
+   "id": "na-nigiyaka-neg",
+   "type": "choice",
+   "uses": [
+    "n5-09"
+   ],
+   "jp": "{東京|とうきょう}は＿。",
+   "fr": "にぎやか (animé) → négatif poli",
+   "choices": [
+    "にぎやかじゃありません",
+    "にぎやかくないです",
+    "にぎやかないです",
+    "にぎやかなじゃありません"
+   ],
+   "a": 0,
+   "explain": "にぎやか est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Négatif : じゃありません."
+  },
+  {
+   "id": "na-nigiyaka-past",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "{東京|とうきょう}は＿。",
+   "fr": "にぎやか (animé) → passé poli",
+   "choices": [
+    "にぎやかでした",
+    "にぎやかかったです",
+    "にぎやかだったでした",
+    "にぎやかなでした"
+   ],
+   "a": 0,
+   "explain": "にぎやか est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Passé : でした (jamais にぎやかかった)."
+  },
+  {
+   "id": "na-nigiyaka-pastneg",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "{東京|とうきょう}は＿。",
+   "fr": "にぎやか (animé) → passé négatif poli",
+   "choices": [
+    "にぎやかじゃありませんでした",
+    "にぎやかくなかったです",
+    "にぎやかじゃないでした",
+    "にぎやかじゃありませんだった"
+   ],
+   "a": 0,
+   "explain": "にぎやか est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Passé négatif : じゃありませんでした."
+  },
+  {
+   "id": "na-nigiyaka-pneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "{東京|とうきょう}は＿。",
+   "fr": "にぎやか (animé) → négatif familier",
+   "choices": [
+    "にぎやかじゃない",
+    "にぎやかくない",
+    "にぎやかない",
+    "にぎやかだない"
+   ],
+   "a": 0,
+   "explain": "にぎやか est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Négatif familier : じゃない."
+  },
+  {
+   "id": "na-nigiyaka-ppast",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "{東京|とうきょう}は＿。",
+   "fr": "にぎやか (animé) → passé familier",
+   "choices": [
+    "にぎやかだった",
+    "にぎやかかった",
+    "にぎやかなだった",
+    "にぎやかだだった"
+   ],
+   "a": 0,
+   "explain": "にぎやか est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Passé familier : だった."
+  },
+  {
+   "id": "na-nigiyaka-ppastneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "{東京|とうきょう}は＿。",
+   "fr": "にぎやか (animé) → passé négatif familier",
+   "choices": [
+    "にぎやかじゃなかった",
+    "にぎやかくなかった",
+    "にぎやかじゃないだった",
+    "にぎやかなかった"
+   ],
+   "a": 0,
+   "explain": "にぎやか est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Passé négatif familier : じゃなかった."
+  },
+  {
+   "id": "na-kirei-type",
+   "type": "choice",
+   "uses": [
+    "n5-08",
+    "n5-09"
+   ],
+   "q": "きれい (beau, propre) : adjectif en い ou en な ?",
+   "choices": [
+    "adjectif en い",
+    "adjectif en な"
+   ],
+   "a": 1,
+   "explain": "Piège ! きれいな{部屋|へや}, きれいじゃありません : c'est un adjectif en な."
+  },
+  {
+   "id": "na-kirei-noun",
+   "type": "choice",
+   "uses": [
+    "n5-09"
+   ],
+   "jp": "これは＿です。",
+   "fr": "きれい (beau, propre) + {部屋|へや} : devant un nom",
+   "choices": [
+    "きれいな{部屋|へや}",
+    "きれい{部屋|へや}",
+    "きれいの{部屋|へや}",
+    "きれく{部屋|へや}"
+   ],
+   "a": 0,
+   "explain": "Adjectif en な : il faut な devant le nom → きれいな{部屋|へや}."
+  },
+  {
+   "id": "na-kirei-neg",
+   "type": "choice",
+   "uses": [
+    "n5-09"
+   ],
+   "jp": "この{部屋|へや}は＿。",
+   "fr": "きれい (beau, propre) → négatif poli",
+   "choices": [
+    "きれいじゃありません",
+    "きれくないです",
+    "きれいないです",
+    "きれいなじゃありません"
+   ],
+   "a": 0,
+   "explain": "Piège ! きれい finit par le son « い » mais c'est un adjectif en な : il ne change pas, c'est です qui change. Négatif : じゃありません."
+  },
+  {
+   "id": "na-kirei-past",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "この{部屋|へや}は＿。",
+   "fr": "きれい (beau, propre) → passé poli",
+   "choices": [
+    "きれいでした",
+    "きれかったです",
+    "きれいだったでした",
+    "きれいなでした"
+   ],
+   "a": 0,
+   "explain": "Piège ! きれい finit par le son « い » mais c'est un adjectif en な : il ne change pas, c'est です qui change. Passé : でした (jamais きれかった)."
+  },
+  {
+   "id": "na-kirei-pastneg",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "この{部屋|へや}は＿。",
+   "fr": "きれい (beau, propre) → passé négatif poli",
+   "choices": [
+    "きれいじゃありませんでした",
+    "きれくなかったです",
+    "きれいじゃないでした",
+    "きれいじゃありませんだった"
+   ],
+   "a": 0,
+   "explain": "Piège ! きれい finit par le son « い » mais c'est un adjectif en な : il ne change pas, c'est です qui change. Passé négatif : じゃありませんでした."
+  },
+  {
+   "id": "na-kirei-pneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{部屋|へや}は＿。",
+   "fr": "きれい (beau, propre) → négatif familier",
+   "choices": [
+    "きれいじゃない",
+    "きれくない",
+    "きれいない",
+    "きれいだない"
+   ],
+   "a": 0,
+   "explain": "Piège ! きれい finit par le son « い » mais c'est un adjectif en な : il ne change pas, c'est です qui change. Négatif familier : じゃない."
+  },
+  {
+   "id": "na-kirei-ppast",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{部屋|へや}は＿。",
+   "fr": "きれい (beau, propre) → passé familier",
+   "choices": [
+    "きれいだった",
+    "きれかった",
+    "きれいなだった",
+    "きれいだだった"
+   ],
+   "a": 0,
+   "explain": "Piège ! きれい finit par le son « い » mais c'est un adjectif en な : il ne change pas, c'est です qui change. Passé familier : だった."
+  },
+  {
+   "id": "na-kirei-ppastneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{部屋|へや}は＿。",
+   "fr": "きれい (beau, propre) → passé négatif familier",
+   "choices": [
+    "きれいじゃなかった",
+    "きれくなかった",
+    "きれいじゃないだった",
+    "きれいなかった"
+   ],
+   "a": 0,
+   "explain": "Piège ! きれい finit par le son « い » mais c'est un adjectif en な : il ne change pas, c'est です qui change. Passé négatif familier : じゃなかった."
+  },
+  {
+   "id": "na-yuumei-type",
+   "type": "choice",
+   "uses": [
+    "n5-08",
+    "n5-09"
+   ],
+   "q": "{有名|ゆうめい} (célèbre) : adjectif en い ou en な ?",
+   "choices": [
+    "adjectif en い",
+    "adjectif en な"
+   ],
+   "a": 1,
+   "explain": "Piège ! {有名|ゆうめい}な{店|みせ}, {有名|ゆうめい}じゃありません : c'est un adjectif en な."
+  },
+  {
+   "id": "na-yuumei-noun",
+   "type": "choice",
+   "uses": [
+    "n5-09"
+   ],
+   "jp": "これは＿です。",
+   "fr": "{有名|ゆうめい} (célèbre) + {店|みせ} : devant un nom",
+   "choices": [
+    "{有名|ゆうめい}な{店|みせ}",
+    "{有名|ゆうめい}だ{店|みせ}",
+    "{有名|ゆうめい}の{店|みせ}",
+    "{有名|ゆうめい}い{店|みせ}"
+   ],
+   "a": 0,
+   "explain": "Adjectif en な : il faut な devant le nom → {有名|ゆうめい}な{店|みせ}."
+  },
+  {
+   "id": "na-yuumei-neg",
+   "type": "choice",
+   "uses": [
+    "n5-09"
+   ],
+   "jp": "この{店|みせ}は＿。",
+   "fr": "{有名|ゆうめい} (célèbre) → négatif poli",
+   "choices": [
+    "{有名|ゆうめい}じゃありません",
+    "{有名|ゆうめい}くないです",
+    "{有名|ゆうめい}ないです",
+    "{有名|ゆうめい}なじゃありません"
+   ],
+   "a": 0,
+   "explain": "Piège ! {有名|ゆうめい} finit par le son « い » mais c'est un adjectif en な : il ne change pas, c'est です qui change. Négatif : じゃありません."
+  },
+  {
+   "id": "na-yuumei-past",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "この{店|みせ}は＿。",
+   "fr": "{有名|ゆうめい} (célèbre) → passé poli",
+   "choices": [
+    "{有名|ゆうめい}でした",
+    "{有名|ゆうめい}かったです",
+    "{有名|ゆうめい}だったでした",
+    "{有名|ゆうめい}なでした"
+   ],
+   "a": 0,
+   "explain": "Piège ! {有名|ゆうめい} finit par le son « い » mais c'est un adjectif en な : il ne change pas, c'est です qui change. Passé : でした (jamais 有名かった)."
+  },
+  {
+   "id": "na-yuumei-pastneg",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "この{店|みせ}は＿。",
+   "fr": "{有名|ゆうめい} (célèbre) → passé négatif poli",
+   "choices": [
+    "{有名|ゆうめい}じゃありませんでした",
+    "{有名|ゆうめい}くなかったです",
+    "{有名|ゆうめい}じゃないでした",
+    "{有名|ゆうめい}じゃありませんだった"
+   ],
+   "a": 0,
+   "explain": "Piège ! {有名|ゆうめい} finit par le son « い » mais c'est un adjectif en な : il ne change pas, c'est です qui change. Passé négatif : じゃありませんでした."
+  },
+  {
+   "id": "na-yuumei-pneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{店|みせ}は＿。",
+   "fr": "{有名|ゆうめい} (célèbre) → négatif familier",
+   "choices": [
+    "{有名|ゆうめい}じゃない",
+    "{有名|ゆうめい}くない",
+    "{有名|ゆうめい}ない",
+    "{有名|ゆうめい}だない"
+   ],
+   "a": 0,
+   "explain": "Piège ! {有名|ゆうめい} finit par le son « い » mais c'est un adjectif en な : il ne change pas, c'est です qui change. Négatif familier : じゃない."
+  },
+  {
+   "id": "na-yuumei-ppast",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{店|みせ}は＿。",
+   "fr": "{有名|ゆうめい} (célèbre) → passé familier",
+   "choices": [
+    "{有名|ゆうめい}だった",
+    "{有名|ゆうめい}かった",
+    "{有名|ゆうめい}なだった",
+    "{有名|ゆうめい}だだった"
+   ],
+   "a": 0,
+   "explain": "Piège ! {有名|ゆうめい} finit par le son « い » mais c'est un adjectif en な : il ne change pas, c'est です qui change. Passé familier : だった."
+  },
+  {
+   "id": "na-yuumei-ppastneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{店|みせ}は＿。",
+   "fr": "{有名|ゆうめい} (célèbre) → passé négatif familier",
+   "choices": [
+    "{有名|ゆうめい}じゃなかった",
+    "{有名|ゆうめい}くなかった",
+    "{有名|ゆうめい}じゃないだった",
+    "{有名|ゆうめい}なかった"
+   ],
+   "a": 0,
+   "explain": "Piège ! {有名|ゆうめい} finit par le son « い » mais c'est un adjectif en な : il ne change pas, c'est です qui change. Passé négatif familier : じゃなかった."
+  },
+  {
+   "id": "na-genki-type",
+   "type": "choice",
+   "uses": [
+    "n5-08",
+    "n5-09"
+   ],
+   "q": "{元気|げんき} (en forme) : adjectif en い ou en な ?",
+   "choices": [
+    "adjectif en い",
+    "adjectif en な"
+   ],
+   "a": 1,
+   "explain": "{元気|げんき}な{人|ひと}, {元気|げんき}じゃありません : c'est un adjectif en な."
+  },
+  {
+   "id": "na-genki-noun",
+   "type": "choice",
+   "uses": [
+    "n5-09"
+   ],
+   "jp": "これは＿です。",
+   "fr": "{元気|げんき} (en forme) + {人|ひと} : devant un nom",
+   "choices": [
+    "{元気|げんき}な{人|ひと}",
+    "{元気|げんき}{人|ひと}",
+    "{元気|げんき}の{人|ひと}",
+    "{元気|げんき}い{人|ひと}"
+   ],
+   "a": 0,
+   "explain": "Adjectif en な : il faut な devant le nom → {元気|げんき}な{人|ひと}."
+  },
+  {
+   "id": "na-genki-neg",
+   "type": "choice",
+   "uses": [
+    "n5-09"
+   ],
+   "jp": "{田中|たなか}さんは＿。",
+   "fr": "{元気|げんき} (en forme) → négatif poli",
+   "choices": [
+    "{元気|げんき}じゃありません",
+    "{元気|げんき}くないです",
+    "{元気|げんき}ないです",
+    "{元気|げんき}なじゃありません"
+   ],
+   "a": 0,
+   "explain": "{元気|げんき} est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Négatif : じゃありません."
+  },
+  {
+   "id": "na-genki-past",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "{田中|たなか}さんは＿。",
+   "fr": "{元気|げんき} (en forme) → passé poli",
+   "choices": [
+    "{元気|げんき}でした",
+    "{元気|げんき}かったです",
+    "{元気|げんき}だったでした",
+    "{元気|げんき}なでした"
+   ],
+   "a": 0,
+   "explain": "{元気|げんき} est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Passé : でした (jamais 元気かった)."
+  },
+  {
+   "id": "na-genki-pastneg",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "{田中|たなか}さんは＿。",
+   "fr": "{元気|げんき} (en forme) → passé négatif poli",
+   "choices": [
+    "{元気|げんき}じゃありませんでした",
+    "{元気|げんき}くなかったです",
+    "{元気|げんき}じゃないでした",
+    "{元気|げんき}じゃありませんだった"
+   ],
+   "a": 0,
+   "explain": "{元気|げんき} est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Passé négatif : じゃありませんでした."
+  },
+  {
+   "id": "na-genki-pneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "{田中|たなか}さんは＿。",
+   "fr": "{元気|げんき} (en forme) → négatif familier",
+   "choices": [
+    "{元気|げんき}じゃない",
+    "{元気|げんき}くない",
+    "{元気|げんき}ない",
+    "{元気|げんき}だない"
+   ],
+   "a": 0,
+   "explain": "{元気|げんき} est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Négatif familier : じゃない."
+  },
+  {
+   "id": "na-genki-ppast",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "{田中|たなか}さんは＿。",
+   "fr": "{元気|げんき} (en forme) → passé familier",
+   "choices": [
+    "{元気|げんき}だった",
+    "{元気|げんき}かった",
+    "{元気|げんき}なだった",
+    "{元気|げんき}だだった"
+   ],
+   "a": 0,
+   "explain": "{元気|げんき} est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Passé familier : だった."
+  },
+  {
+   "id": "na-genki-ppastneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "{田中|たなか}さんは＿。",
+   "fr": "{元気|げんき} (en forme) → passé négatif familier",
+   "choices": [
+    "{元気|げんき}じゃなかった",
+    "{元気|げんき}くなかった",
+    "{元気|げんき}じゃないだった",
+    "{元気|げんき}なかった"
+   ],
+   "a": 0,
+   "explain": "{元気|げんき} est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Passé négatif familier : じゃなかった."
+  },
+  {
+   "id": "na-benri-type",
+   "type": "choice",
+   "uses": [
+    "n5-08",
+    "n5-09"
+   ],
+   "q": "{便利|べんり} (pratique) : adjectif en い ou en な ?",
+   "choices": [
+    "adjectif en い",
+    "adjectif en な"
+   ],
+   "a": 1,
+   "explain": "{便利|べんり}な{町|まち}, {便利|べんり}じゃありません : c'est un adjectif en な."
+  },
+  {
+   "id": "na-benri-noun",
+   "type": "choice",
+   "uses": [
+    "n5-09"
+   ],
+   "jp": "これは＿です。",
+   "fr": "{便利|べんり} (pratique) + {町|まち} : devant un nom",
+   "choices": [
+    "{便利|べんり}な{町|まち}",
+    "{便利|べんり}{町|まち}",
+    "{便利|べんり}の{町|まち}",
+    "{便利|べんり}い{町|まち}"
+   ],
+   "a": 0,
+   "explain": "Adjectif en な : il faut な devant le nom → {便利|べんり}な{町|まち}."
+  },
+  {
+   "id": "na-benri-neg",
+   "type": "choice",
+   "uses": [
+    "n5-09"
+   ],
+   "jp": "この{町|まち}は＿。",
+   "fr": "{便利|べんり} (pratique) → négatif poli",
+   "choices": [
+    "{便利|べんり}じゃありません",
+    "{便利|べんり}くないです",
+    "{便利|べんり}ないです",
+    "{便利|べんり}なじゃありません"
+   ],
+   "a": 0,
+   "explain": "{便利|べんり} est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Négatif : じゃありません."
+  },
+  {
+   "id": "na-benri-past",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "この{町|まち}は＿。",
+   "fr": "{便利|べんり} (pratique) → passé poli",
+   "choices": [
+    "{便利|べんり}でした",
+    "{便利|べんり}かったです",
+    "{便利|べんり}だったでした",
+    "{便利|べんり}なでした"
+   ],
+   "a": 0,
+   "explain": "{便利|べんり} est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Passé : でした (jamais 便利かった)."
+  },
+  {
+   "id": "na-benri-pastneg",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "この{町|まち}は＿。",
+   "fr": "{便利|べんり} (pratique) → passé négatif poli",
+   "choices": [
+    "{便利|べんり}じゃありませんでした",
+    "{便利|べんり}くなかったです",
+    "{便利|べんり}じゃないでした",
+    "{便利|べんり}じゃありませんだった"
+   ],
+   "a": 0,
+   "explain": "{便利|べんり} est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Passé négatif : じゃありませんでした."
+  },
+  {
+   "id": "na-benri-pneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{町|まち}は＿。",
+   "fr": "{便利|べんり} (pratique) → négatif familier",
+   "choices": [
+    "{便利|べんり}じゃない",
+    "{便利|べんり}くない",
+    "{便利|べんり}ない",
+    "{便利|べんり}だない"
+   ],
+   "a": 0,
+   "explain": "{便利|べんり} est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Négatif familier : じゃない."
+  },
+  {
+   "id": "na-benri-ppast",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{町|まち}は＿。",
+   "fr": "{便利|べんり} (pratique) → passé familier",
+   "choices": [
+    "{便利|べんり}だった",
+    "{便利|べんり}かった",
+    "{便利|べんり}なだった",
+    "{便利|べんり}だだった"
+   ],
+   "a": 0,
+   "explain": "{便利|べんり} est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Passé familier : だった."
+  },
+  {
+   "id": "na-benri-ppastneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{町|まち}は＿。",
+   "fr": "{便利|べんり} (pratique) → passé négatif familier",
+   "choices": [
+    "{便利|べんり}じゃなかった",
+    "{便利|べんり}くなかった",
+    "{便利|べんり}じゃないだった",
+    "{便利|べんり}なかった"
+   ],
+   "a": 0,
+   "explain": "{便利|べんり} est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Passé négatif familier : じゃなかった."
+  },
+  {
+   "id": "na-hima-type",
+   "type": "choice",
+   "uses": [
+    "n5-08",
+    "n5-09"
+   ],
+   "q": "ひま (libre (pas occupé)) : adjectif en い ou en な ?",
+   "choices": [
+    "adjectif en い",
+    "adjectif en な"
+   ],
+   "a": 1,
+   "explain": "ひまな{人|ひと}, ひまじゃありません : c'est un adjectif en な."
+  },
+  {
+   "id": "na-hima-noun",
+   "type": "choice",
+   "uses": [
+    "n5-09"
+   ],
+   "jp": "これは＿です。",
+   "fr": "ひま (libre (pas occupé)) + {人|ひと} : devant un nom",
+   "choices": [
+    "ひまな{人|ひと}",
+    "ひま{人|ひと}",
+    "ひまの{人|ひと}",
+    "ひまい{人|ひと}"
+   ],
+   "a": 0,
+   "explain": "Adjectif en な : il faut な devant le nom → ひまな{人|ひと}."
+  },
+  {
+   "id": "na-hima-neg",
+   "type": "choice",
+   "uses": [
+    "n5-09"
+   ],
+   "jp": "{山田|やまだ}さんは＿。",
+   "fr": "ひま (libre (pas occupé)) → négatif poli",
+   "choices": [
+    "ひまじゃありません",
+    "ひまくないです",
+    "ひまないです",
+    "ひまなじゃありません"
+   ],
+   "a": 0,
+   "explain": "ひま est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Négatif : じゃありません."
+  },
+  {
+   "id": "na-hima-past",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "{山田|やまだ}さんは＿。",
+   "fr": "ひま (libre (pas occupé)) → passé poli",
+   "choices": [
+    "ひまでした",
+    "ひまかったです",
+    "ひまだったでした",
+    "ひまなでした"
+   ],
+   "a": 0,
+   "explain": "ひま est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Passé : でした (jamais ひまかった)."
+  },
+  {
+   "id": "na-hima-pastneg",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "{山田|やまだ}さんは＿。",
+   "fr": "ひま (libre (pas occupé)) → passé négatif poli",
+   "choices": [
+    "ひまじゃありませんでした",
+    "ひまくなかったです",
+    "ひまじゃないでした",
+    "ひまじゃありませんだった"
+   ],
+   "a": 0,
+   "explain": "ひま est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Passé négatif : じゃありませんでした."
+  },
+  {
+   "id": "na-hima-pneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "{山田|やまだ}さんは＿。",
+   "fr": "ひま (libre (pas occupé)) → négatif familier",
+   "choices": [
+    "ひまじゃない",
+    "ひまくない",
+    "ひまない",
+    "ひまだない"
+   ],
+   "a": 0,
+   "explain": "ひま est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Négatif familier : じゃない."
+  },
+  {
+   "id": "na-hima-ppast",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "{山田|やまだ}さんは＿。",
+   "fr": "ひま (libre (pas occupé)) → passé familier",
+   "choices": [
+    "ひまだった",
+    "ひまかった",
+    "ひまなだった",
+    "ひまだだった"
+   ],
+   "a": 0,
+   "explain": "ひま est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Passé familier : だった."
+  },
+  {
+   "id": "na-hima-ppastneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "{山田|やまだ}さんは＿。",
+   "fr": "ひま (libre (pas occupé)) → passé négatif familier",
+   "choices": [
+    "ひまじゃなかった",
+    "ひまくなかった",
+    "ひまじゃないだった",
+    "ひまなかった"
+   ],
+   "a": 0,
+   "explain": "ひま est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Passé négatif familier : じゃなかった."
+  },
+  {
+   "id": "na-shinsetsu-type",
+   "type": "choice",
+   "uses": [
+    "n5-08",
+    "n5-09"
+   ],
+   "q": "{親切|しんせつ} (gentil) : adjectif en い ou en な ?",
+   "choices": [
+    "adjectif en い",
+    "adjectif en な"
+   ],
+   "a": 1,
+   "explain": "{親切|しんせつ}な{人|ひと}, {親切|しんせつ}じゃありません : c'est un adjectif en な."
+  },
+  {
+   "id": "na-shinsetsu-noun",
+   "type": "choice",
+   "uses": [
+    "n5-09"
+   ],
+   "jp": "これは＿です。",
+   "fr": "{親切|しんせつ} (gentil) + {人|ひと} : devant un nom",
+   "choices": [
+    "{親切|しんせつ}な{人|ひと}",
+    "{親切|しんせつ}{人|ひと}",
+    "{親切|しんせつ}の{人|ひと}",
+    "{親切|しんせつ}い{人|ひと}"
+   ],
+   "a": 0,
+   "explain": "Adjectif en な : il faut な devant le nom → {親切|しんせつ}な{人|ひと}."
+  },
+  {
+   "id": "na-shinsetsu-neg",
+   "type": "choice",
+   "uses": [
+    "n5-09"
+   ],
+   "jp": "{先生|せんせい}は＿。",
+   "fr": "{親切|しんせつ} (gentil) → négatif poli",
+   "choices": [
+    "{親切|しんせつ}じゃありません",
+    "{親切|しんせつ}くないです",
+    "{親切|しんせつ}ないです",
+    "{親切|しんせつ}なじゃありません"
+   ],
+   "a": 0,
+   "explain": "{親切|しんせつ} est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Négatif : じゃありません."
+  },
+  {
+   "id": "na-shinsetsu-past",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "{先生|せんせい}は＿。",
+   "fr": "{親切|しんせつ} (gentil) → passé poli",
+   "choices": [
+    "{親切|しんせつ}でした",
+    "{親切|しんせつ}かったです",
+    "{親切|しんせつ}だったでした",
+    "{親切|しんせつ}なでした"
+   ],
+   "a": 0,
+   "explain": "{親切|しんせつ} est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Passé : でした (jamais 親切かった)."
+  },
+  {
+   "id": "na-shinsetsu-pastneg",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "{先生|せんせい}は＿。",
+   "fr": "{親切|しんせつ} (gentil) → passé négatif poli",
+   "choices": [
+    "{親切|しんせつ}じゃありませんでした",
+    "{親切|しんせつ}くなかったです",
+    "{親切|しんせつ}じゃないでした",
+    "{親切|しんせつ}じゃありませんだった"
+   ],
+   "a": 0,
+   "explain": "{親切|しんせつ} est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Passé négatif : じゃありませんでした."
+  },
+  {
+   "id": "na-shinsetsu-pneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "{先生|せんせい}は＿。",
+   "fr": "{親切|しんせつ} (gentil) → négatif familier",
+   "choices": [
+    "{親切|しんせつ}じゃない",
+    "{親切|しんせつ}くない",
+    "{親切|しんせつ}ない",
+    "{親切|しんせつ}だない"
+   ],
+   "a": 0,
+   "explain": "{親切|しんせつ} est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Négatif familier : じゃない."
+  },
+  {
+   "id": "na-shinsetsu-ppast",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "{先生|せんせい}は＿。",
+   "fr": "{親切|しんせつ} (gentil) → passé familier",
+   "choices": [
+    "{親切|しんせつ}だった",
+    "{親切|しんせつ}かった",
+    "{親切|しんせつ}なだった",
+    "{親切|しんせつ}だだった"
+   ],
+   "a": 0,
+   "explain": "{親切|しんせつ} est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Passé familier : だった."
+  },
+  {
+   "id": "na-shinsetsu-ppastneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "{先生|せんせい}は＿。",
+   "fr": "{親切|しんせつ} (gentil) → passé négatif familier",
+   "choices": [
+    "{親切|しんせつ}じゃなかった",
+    "{親切|しんせつ}くなかった",
+    "{親切|しんせつ}じゃないだった",
+    "{親切|しんせつ}なかった"
+   ],
+   "a": 0,
+   "explain": "{親切|しんせつ} est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Passé négatif familier : じゃなかった."
+  },
+  {
+   "id": "na-suki-type",
+   "type": "choice",
+   "uses": [
+    "n5-08",
+    "n5-09",
+    "n5-11"
+   ],
+   "q": "{好|す}き (aimé) : adjectif en い ou en な ?",
+   "choices": [
+    "adjectif en い",
+    "adjectif en な"
+   ],
+   "a": 1,
+   "explain": "{好|す}きな{食|た}べ{物|もの}, {好|す}きじゃありません : c'est un adjectif en な."
+  },
+  {
+   "id": "na-suki-noun",
+   "type": "choice",
+   "uses": [
+    "n5-09",
+    "n5-11"
+   ],
+   "jp": "これは＿です。",
+   "fr": "{好|す}き (aimé) + {食|た}べ{物|もの} : devant un nom",
+   "choices": [
+    "{好|す}きな{食|た}べ{物|もの}",
+    "{好|す}き{食|た}べ{物|もの}",
+    "{好|す}きの{食|た}べ{物|もの}",
+    "{好|す}きい{食|た}べ{物|もの}"
+   ],
+   "a": 0,
+   "explain": "Adjectif en な : il faut な devant le nom → {好|す}きな{食|た}べ{物|もの}."
+  },
+  {
+   "id": "na-suki-neg",
+   "type": "choice",
+   "uses": [
+    "n5-09",
+    "n5-11"
+   ],
+   "jp": "すしは＿。",
+   "fr": "{好|す}き (aimé) → négatif poli",
+   "choices": [
+    "{好|す}きじゃありません",
+    "{好|す}きくないです",
+    "{好|す}きないです",
+    "{好|す}きなじゃありません"
+   ],
+   "a": 0,
+   "explain": "{好|す}き est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Négatif : じゃありません."
+  },
+  {
+   "id": "na-suki-past",
+   "type": "choice",
+   "uses": [
+    "n5-10",
+    "n5-11"
+   ],
+   "jp": "すしは＿。",
+   "fr": "{好|す}き (aimé) → passé poli",
+   "choices": [
+    "{好|す}きでした",
+    "{好|す}きかったです",
+    "{好|す}きだったでした",
+    "{好|す}きなでした"
+   ],
+   "a": 0,
+   "explain": "{好|す}き est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Passé : でした (jamais 好きかった)."
+  },
+  {
+   "id": "na-suki-pastneg",
+   "type": "choice",
+   "uses": [
+    "n5-10",
+    "n5-11"
+   ],
+   "jp": "すしは＿。",
+   "fr": "{好|す}き (aimé) → passé négatif poli",
+   "choices": [
+    "{好|す}きじゃありませんでした",
+    "{好|す}きくなかったです",
+    "{好|す}きじゃないでした",
+    "{好|す}きじゃありませんだった"
+   ],
+   "a": 0,
+   "explain": "{好|す}き est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Passé négatif : じゃありませんでした."
+  },
+  {
+   "id": "na-suki-pneg",
+   "type": "choice",
+   "uses": [
+    "n5-26",
+    "n5-11"
+   ],
+   "jp": "すしは＿。",
+   "fr": "{好|す}き (aimé) → négatif familier",
+   "choices": [
+    "{好|す}きじゃない",
+    "{好|す}きくない",
+    "{好|す}きない",
+    "{好|す}きだない"
+   ],
+   "a": 0,
+   "explain": "{好|す}き est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Négatif familier : じゃない."
+  },
+  {
+   "id": "na-suki-ppast",
+   "type": "choice",
+   "uses": [
+    "n5-26",
+    "n5-11"
+   ],
+   "jp": "すしは＿。",
+   "fr": "{好|す}き (aimé) → passé familier",
+   "choices": [
+    "{好|す}きだった",
+    "{好|す}きかった",
+    "{好|す}きなだった",
+    "{好|す}きだだった"
+   ],
+   "a": 0,
+   "explain": "{好|す}き est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Passé familier : だった."
+  },
+  {
+   "id": "na-suki-ppastneg",
+   "type": "choice",
+   "uses": [
+    "n5-26",
+    "n5-11"
+   ],
+   "jp": "すしは＿。",
+   "fr": "{好|す}き (aimé) → passé négatif familier",
+   "choices": [
+    "{好|す}きじゃなかった",
+    "{好|す}きくなかった",
+    "{好|す}きじゃないだった",
+    "{好|す}きなかった"
+   ],
+   "a": 0,
+   "explain": "{好|す}き est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Passé négatif familier : じゃなかった."
+  },
+  {
+   "id": "na-kirai-type",
+   "type": "choice",
+   "uses": [
+    "n5-08",
+    "n5-09",
+    "n5-11"
+   ],
+   "q": "きらい (détesté) : adjectif en い ou en な ?",
+   "choices": [
+    "adjectif en い",
+    "adjectif en な"
+   ],
+   "a": 1,
+   "explain": "Piège ! きらいな{食|た}べ{物|もの}, きらいじゃありません : c'est un adjectif en な."
+  },
+  {
+   "id": "na-kirai-noun",
+   "type": "choice",
+   "uses": [
+    "n5-09",
+    "n5-11"
+   ],
+   "jp": "これは＿です。",
+   "fr": "きらい (détesté) + {食|た}べ{物|もの} : devant un nom",
+   "choices": [
+    "きらいな{食|た}べ{物|もの}",
+    "きらい{食|た}べ{物|もの}",
+    "きらいの{食|た}べ{物|もの}",
+    "きらく{食|た}べ{物|もの}"
+   ],
+   "a": 0,
+   "explain": "Adjectif en な : il faut な devant le nom → きらいな{食|た}べ{物|もの}."
+  },
+  {
+   "id": "na-kirai-neg",
+   "type": "choice",
+   "uses": [
+    "n5-09",
+    "n5-11"
+   ],
+   "jp": "ピーマンは＿。",
+   "fr": "きらい (détesté) → négatif poli",
+   "choices": [
+    "きらいじゃありません",
+    "きらくないです",
+    "きらいないです",
+    "きらいなじゃありません"
+   ],
+   "a": 0,
+   "explain": "Piège ! きらい finit par le son « い » mais c'est un adjectif en な : il ne change pas, c'est です qui change. Négatif : じゃありません."
+  },
+  {
+   "id": "na-kirai-past",
+   "type": "choice",
+   "uses": [
+    "n5-10",
+    "n5-11"
+   ],
+   "jp": "ピーマンは＿。",
+   "fr": "きらい (détesté) → passé poli",
+   "choices": [
+    "きらいでした",
+    "きらかったです",
+    "きらいだったでした",
+    "きらいなでした"
+   ],
+   "a": 0,
+   "explain": "Piège ! きらい finit par le son « い » mais c'est un adjectif en な : il ne change pas, c'est です qui change. Passé : でした (jamais きらかった)."
+  },
+  {
+   "id": "na-kirai-pastneg",
+   "type": "choice",
+   "uses": [
+    "n5-10",
+    "n5-11"
+   ],
+   "jp": "ピーマンは＿。",
+   "fr": "きらい (détesté) → passé négatif poli",
+   "choices": [
+    "きらいじゃありませんでした",
+    "きらくなかったです",
+    "きらいじゃないでした",
+    "きらいじゃありませんだった"
+   ],
+   "a": 0,
+   "explain": "Piège ! きらい finit par le son « い » mais c'est un adjectif en な : il ne change pas, c'est です qui change. Passé négatif : じゃありませんでした."
+  },
+  {
+   "id": "na-kirai-pneg",
+   "type": "choice",
+   "uses": [
+    "n5-26",
+    "n5-11"
+   ],
+   "jp": "ピーマンは＿。",
+   "fr": "きらい (détesté) → négatif familier",
+   "choices": [
+    "きらいじゃない",
+    "きらくない",
+    "きらいない",
+    "きらいだない"
+   ],
+   "a": 0,
+   "explain": "Piège ! きらい finit par le son « い » mais c'est un adjectif en な : il ne change pas, c'est です qui change. Négatif familier : じゃない."
+  },
+  {
+   "id": "na-kirai-ppast",
+   "type": "choice",
+   "uses": [
+    "n5-26",
+    "n5-11"
+   ],
+   "jp": "ピーマンは＿。",
+   "fr": "きらい (détesté) → passé familier",
+   "choices": [
+    "きらいだった",
+    "きらかった",
+    "きらいなだった",
+    "きらいだだった"
+   ],
+   "a": 0,
+   "explain": "Piège ! きらい finit par le son « い » mais c'est un adjectif en な : il ne change pas, c'est です qui change. Passé familier : だった."
+  },
+  {
+   "id": "na-kirai-ppastneg",
+   "type": "choice",
+   "uses": [
+    "n5-26",
+    "n5-11"
+   ],
+   "jp": "ピーマンは＿。",
+   "fr": "きらい (détesté) → passé négatif familier",
+   "choices": [
+    "きらいじゃなかった",
+    "きらくなかった",
+    "きらいじゃないだった",
+    "きらいなかった"
+   ],
+   "a": 0,
+   "explain": "Piège ! きらい finit par le son « い » mais c'est un adjectif en な : il ne change pas, c'est です qui change. Passé négatif familier : じゃなかった."
+  },
+  {
+   "id": "na-taisetsu-type",
+   "type": "choice",
+   "uses": [
+    "n5-08",
+    "n5-09"
+   ],
+   "q": "{大切|たいせつ} (important, précieux) : adjectif en い ou en な ?",
+   "choices": [
+    "adjectif en い",
+    "adjectif en な"
+   ],
+   "a": 1,
+   "explain": "{大切|たいせつ}な{写真|しゃしん}, {大切|たいせつ}じゃありません : c'est un adjectif en な."
+  },
+  {
+   "id": "na-taisetsu-noun",
+   "type": "choice",
+   "uses": [
+    "n5-09"
+   ],
+   "jp": "これは＿です。",
+   "fr": "{大切|たいせつ} (important, précieux) + {写真|しゃしん} : devant un nom",
+   "choices": [
+    "{大切|たいせつ}な{写真|しゃしん}",
+    "{大切|たいせつ}{写真|しゃしん}",
+    "{大切|たいせつ}の{写真|しゃしん}",
+    "{大切|たいせつ}い{写真|しゃしん}"
+   ],
+   "a": 0,
+   "explain": "Adjectif en な : il faut な devant le nom → {大切|たいせつ}な{写真|しゃしん}."
+  },
+  {
+   "id": "na-taisetsu-neg",
+   "type": "choice",
+   "uses": [
+    "n5-09"
+   ],
+   "jp": "この{写真|しゃしん}は＿。",
+   "fr": "{大切|たいせつ} (important, précieux) → négatif poli",
+   "choices": [
+    "{大切|たいせつ}じゃありません",
+    "{大切|たいせつ}くないです",
+    "{大切|たいせつ}ないです",
+    "{大切|たいせつ}なじゃありません"
+   ],
+   "a": 0,
+   "explain": "{大切|たいせつ} est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Négatif : じゃありません."
+  },
+  {
+   "id": "na-taisetsu-past",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "この{写真|しゃしん}は＿。",
+   "fr": "{大切|たいせつ} (important, précieux) → passé poli",
+   "choices": [
+    "{大切|たいせつ}でした",
+    "{大切|たいせつ}かったです",
+    "{大切|たいせつ}だったでした",
+    "{大切|たいせつ}なでした"
+   ],
+   "a": 0,
+   "explain": "{大切|たいせつ} est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Passé : でした (jamais 大切かった)."
+  },
+  {
+   "id": "na-taisetsu-pastneg",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "この{写真|しゃしん}は＿。",
+   "fr": "{大切|たいせつ} (important, précieux) → passé négatif poli",
+   "choices": [
+    "{大切|たいせつ}じゃありませんでした",
+    "{大切|たいせつ}くなかったです",
+    "{大切|たいせつ}じゃないでした",
+    "{大切|たいせつ}じゃありませんだった"
+   ],
+   "a": 0,
+   "explain": "{大切|たいせつ} est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Passé négatif : じゃありませんでした."
+  },
+  {
+   "id": "na-taisetsu-pneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{写真|しゃしん}は＿。",
+   "fr": "{大切|たいせつ} (important, précieux) → négatif familier",
+   "choices": [
+    "{大切|たいせつ}じゃない",
+    "{大切|たいせつ}くない",
+    "{大切|たいせつ}ない",
+    "{大切|たいせつ}だない"
+   ],
+   "a": 0,
+   "explain": "{大切|たいせつ} est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Négatif familier : じゃない."
+  },
+  {
+   "id": "na-taisetsu-ppast",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{写真|しゃしん}は＿。",
+   "fr": "{大切|たいせつ} (important, précieux) → passé familier",
+   "choices": [
+    "{大切|たいせつ}だった",
+    "{大切|たいせつ}かった",
+    "{大切|たいせつ}なだった",
+    "{大切|たいせつ}だだった"
+   ],
+   "a": 0,
+   "explain": "{大切|たいせつ} est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Passé familier : だった."
+  },
+  {
+   "id": "na-taisetsu-ppastneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "この{写真|しゃしん}は＿。",
+   "fr": "{大切|たいせつ} (important, précieux) → passé négatif familier",
+   "choices": [
+    "{大切|たいせつ}じゃなかった",
+    "{大切|たいせつ}くなかった",
+    "{大切|たいせつ}じゃないだった",
+    "{大切|たいせつ}なかった"
+   ],
+   "a": 0,
+   "explain": "{大切|たいせつ} est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Passé négatif familier : じゃなかった."
+  },
+  {
+   "id": "na-kantan-type",
+   "type": "choice",
+   "uses": [
+    "n5-08",
+    "n5-09"
+   ],
+   "q": "かんたん (facile, simple) : adjectif en い ou en な ?",
+   "choices": [
+    "adjectif en い",
+    "adjectif en な"
+   ],
+   "a": 1,
+   "explain": "かんたんなテスト, かんたんじゃありません : c'est un adjectif en な."
+  },
+  {
+   "id": "na-kantan-noun",
+   "type": "choice",
+   "uses": [
+    "n5-09"
+   ],
+   "jp": "これは＿です。",
+   "fr": "かんたん (facile, simple) + テスト : devant un nom",
+   "choices": [
+    "かんたんなテスト",
+    "かんたんテスト",
+    "かんたんのテスト",
+    "かんたんいテスト"
+   ],
+   "a": 0,
+   "explain": "Adjectif en な : il faut な devant le nom → かんたんなテスト."
+  },
+  {
+   "id": "na-kantan-neg",
+   "type": "choice",
+   "uses": [
+    "n5-09"
+   ],
+   "jp": "このテストは＿。",
+   "fr": "かんたん (facile, simple) → négatif poli",
+   "choices": [
+    "かんたんじゃありません",
+    "かんたんくないです",
+    "かんたんないです",
+    "かんたんなじゃありません"
+   ],
+   "a": 0,
+   "explain": "かんたん est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Négatif : じゃありません."
+  },
+  {
+   "id": "na-kantan-past",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "このテストは＿。",
+   "fr": "かんたん (facile, simple) → passé poli",
+   "choices": [
+    "かんたんでした",
+    "かんたんかったです",
+    "かんたんだったでした",
+    "かんたんなでした"
+   ],
+   "a": 0,
+   "explain": "かんたん est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Passé : でした (jamais かんたんかった)."
+  },
+  {
+   "id": "na-kantan-pastneg",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "このテストは＿。",
+   "fr": "かんたん (facile, simple) → passé négatif poli",
+   "choices": [
+    "かんたんじゃありませんでした",
+    "かんたんくなかったです",
+    "かんたんじゃないでした",
+    "かんたんじゃありませんだった"
+   ],
+   "a": 0,
+   "explain": "かんたん est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Passé négatif : じゃありませんでした."
+  },
+  {
+   "id": "na-kantan-pneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "このテストは＿。",
+   "fr": "かんたん (facile, simple) → négatif familier",
+   "choices": [
+    "かんたんじゃない",
+    "かんたんくない",
+    "かんたんない",
+    "かんたんだない"
+   ],
+   "a": 0,
+   "explain": "かんたん est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Négatif familier : じゃない."
+  },
+  {
+   "id": "na-kantan-ppast",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "このテストは＿。",
+   "fr": "かんたん (facile, simple) → passé familier",
+   "choices": [
+    "かんたんだった",
+    "かんたんかった",
+    "かんたんなだった",
+    "かんたんだだった"
+   ],
+   "a": 0,
+   "explain": "かんたん est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Passé familier : だった."
+  },
+  {
+   "id": "na-kantan-ppastneg",
+   "type": "choice",
+   "uses": [
+    "n5-26"
+   ],
+   "jp": "このテストは＿。",
+   "fr": "かんたん (facile, simple) → passé négatif familier",
+   "choices": [
+    "かんたんじゃなかった",
+    "かんたんくなかった",
+    "かんたんじゃないだった",
+    "かんたんなかった"
+   ],
+   "a": 0,
+   "explain": "かんたん est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Passé négatif familier : じゃなかった."
+  }
+ ]
+}

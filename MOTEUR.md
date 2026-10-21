@@ -62,7 +62,35 @@ La colonne Lecture suit le réglage des furigana (masquée → on touche la case
 
 `jp`, `kana` et `fr` sont obligatoires ; `ex` (phrase d'exemple) et `exFr` (sa traduction) sont facultatifs.
 
+## Format : points clés (facultatif)
+
+Un point clé est une notion à marteler. Dans `data/manifest.json` : `"focus": ["data/focus/xxx.json"]`.
+Une fois la leçon `unlockAfter` validée :
+- une **bulle** (avec `label`) est affichée partout sauf pendant les tests et examens ; elle ouvre l'**antisèche** ;
+- une carte sur l'accueil propose l'antisèche, un **défi éclair** et la maîtrise du point ;
+- une question du point clé est glissée toutes les `focusEvery` questions (leçons, révisions, entraînements)
+  et `focusInTests` questions sont ajoutées à chaque test et examen (elles comptent).
+
+```json
+{
+  "id": "adj-i-na", "label": "い・な", "title": "Adjectifs : い ou な ?", "unlockAfter": "n5-09",
+  "sheet": { "sections": [ { "h": "…", "p": ["…"], "grid": { "head": ["", "…"], "rows": [["…", "…"]] } } ], "pieges": ["…"] },
+  "exercises": [ { "id": "…", "type": "choice", "uses": ["n5-08"], "…": "…" } ]
+}
+```
+
+Les sections de l'antisèche ont le même format que celles d'une leçon, plus `grid` (tableau).
+Une question n'apparaît que si les leçons de son `uses` sont faites. Dans tous les textes, `==texte==` surligne.
+Les exercices d'un point clé peuvent être écrits à la main ou générés par un script propre à l'appli
+(ex. `tools/generer-adjectifs.mjs` dans la grammaire).
+
 ## Historique des changements du moteur
+
+### 2026-10-22 — Points clés
+- Nouveau champ `focus` dans `data/manifest.json` (voir « Format : points clés »).
+- Nouveaux réglages dans `js/config.js` : `focusEvery`, `focusInTests`, `focusChallengeSize`.
+- Nouveau balisage `==surligné==` ; les sections acceptent `grid` (tableau).
+- Réglage utilisateur « Afficher la bulle des points clés » (page Réglages).
 
 ### 2026-10-21 — Propositions de l'appli vocabulaire
 - `sw.js` : les anciens caches `ng-v1` **et** `nv-v1` sont supprimés ; hors ligne, on ne cherche plus

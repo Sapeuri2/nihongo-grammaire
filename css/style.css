@@ -122,6 +122,41 @@ details.card[open] summary { margin-bottom: .5em; }
 .mbar.mid span { background: var(--mid); }
 .mbar.good span { background: var(--good); }
 
+/* Points clés */
+mark { background: color-mix(in srgb, var(--accent) 22%, transparent); color: inherit; border-radius: 3px; padding: 0 2px; font-weight: 700; }
+.card.focus { border: 2px solid var(--accent); }
+.focus-head { display: flex; align-items: center; gap: 12px; }
+.focus-head h2 { margin: 0; }
+.focus-head p { margin: 2px 0 0; }
+.focus-txt { flex: 1; }
+.focus-label { font-size: 1.4rem; font-weight: 800; color: var(--accent); white-space: nowrap; }
+.card.focus .actions { margin: 12px 0 0; }
+.flash { color: var(--accent); font-weight: 700; }
+.bubble {
+  position: fixed; right: 14px; bottom: max(14px, env(safe-area-inset-bottom)); z-index: 20;
+  min-width: 54px; height: 54px; padding: 0 12px; border-radius: 27px; border: 0;
+  background: var(--accent); color: var(--accent-text); font-size: 1.15rem; font-weight: 800;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, .25); cursor: pointer;
+}
+.bubble[hidden], .sheet-overlay[hidden] { display: none; }
+.sheet-overlay {
+  position: fixed; inset: 0; z-index: 30; background: rgba(0, 0, 0, .45);
+  display: flex; align-items: flex-end; justify-content: center;
+}
+.sheet {
+  position: relative; width: 100%; max-width: 680px; max-height: 88vh; overflow-y: auto;
+  background: var(--bg); border-radius: 16px 16px 0 0; padding: 16px 16px 24px;
+}
+.sheet-x { position: absolute; top: 10px; right: 10px; }
+body.noscroll { overflow: hidden; }
+.grid-wrap { overflow-x: auto; }
+.grid { border-collapse: collapse; width: 100%; background: var(--card); border-radius: 8px; }
+.grid th, .grid td { padding: 6px 8px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: middle; }
+.grid thead th { font-size: .9rem; border-bottom: 2px solid var(--line); }
+.grid tbody th { font-size: .8rem; color: var(--muted); font-weight: 600; }
+.grid td.jp { font-size: 1.05rem; line-height: 2; white-space: nowrap; }
+main { padding-bottom: 88px; }
+
 /* Leçon */
 .lesson section { margin: 22px 0; }
 .formula {

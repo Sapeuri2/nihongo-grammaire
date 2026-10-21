@@ -17,8 +17,28 @@ async function fetchJSON(url) {
 
 async function loadCourse() {
   const manifest = await fetchJSON('data/manifest.json');
-  const blocks = await Promise.all(manifest.blocks.map(fetchJSON));
-  return buildCourse(blocks, manifest.examEvery || 4, manifest.miniExamEvery || 0);
+  const [blocks, focus] = await Promise.all([
+    Promise.all(manifest.blocks.map(fetchJSON)),
+    Promise.all((manifest.focus || []).map(fetchJSON)),
+  ]);
+  const c = buildCourse(blocks, manifest.examEvery || 4, manifest.miniExamEvery || 0);
+  addFocus(c, focus);
+  return c;
+}
+
+// Points clés : notions à marteler (antisèche + questions surprises partout).
+function addFocus(c, focus) {
+  c.focus = [];
+  c.focusById = {};
+  for (const f of focus) {
+    const fp = { ...f, itemIds: [] };
+    for (const ex of f.exercises || []) {
+      c.items[ex.id] = { ...ex, focus: f.id, uses: unique(ex.uses?.length ? ex.uses : [f.unlockAfter]) };
+      fp.itemIds.push(ex.id);
+    }
+    c.focus.push(fp);
+    c.focusById[f.id] = fp;
+  }
 }
 
 const unique = a => [...new Set(a)];
@@ -174,7 +194,7 @@ function weightedSample(ids, n) {
 function available(maxNum, examId = null) {
   const seen = S.get().items;
   return Object.values(C.items)
-    .filter(it => it.uses.every(u => C.lessonById[u].num <= maxNum))
+    .filter(it => !it.focus && it.uses.every(u => C.lessonById[u].num <= maxNum))
     .filter(it => !it.examOnly || it.examId === examId || seen[it.id])
     .map(it => it.id);
 }
@@ -188,6 +208,47 @@ function compose(n, { forced = [], main = [], recall = [], recallShare = 0 }) {
   take(main, n - picked.size);
   take(recall, n - picked.size);
   return shuffle([...picked]);
+}
+
+// ---------- Points clés ----------
+
+const lessonDone = id => stepDone({ type: 'lesson', id });
+const focusUnlocked = f => !f.unlockAfter || lessonDone(f.unlockAfter);
+
+// Questions de points clés jouables : point débloqué et leçons nécessaires faites.
+function focusPool(f = null) {
+  return (f ? [f] : C.focus).filter(focusUnlocked)
+    .flatMap(x => x.itemIds)
+    .filter(id => C.items[id].uses.every(lessonDone));
+}
+
+function focusMastery(f) {
+  const items = S.get().items;
+  const seen = f.itemIds.filter(id => items[id]);
+  if (!seen.length) return null;
+  return seen.reduce((sum, id) => sum + BOX_MASTERY[Math.min(items[id].box, 3)], 0) / seen.length;
+}
+
+// Glisse une question de point clé toutes les `every` questions.
+function sprinkle(ids, every = CONFIG.focusEvery) {
+  const picks = every ? weightedSample(focusPool().filter(id => !ids.includes(id)), Math.floor(ids.length / every)) : [];
+  if (!picks.length) return ids;
+  const out = [];
+  ids.forEach((id, i) => {
+    out.push(id);
+    if ((i + 1) % every === 0 && picks.length) out.push(picks.shift());
+  });
+  return out;
+}
+
+// Tests et examens : quelques questions de points clés en plus, qui comptent.
+function withFocus(ids) {
+  return shuffle([...ids, ...weightedSample(focusPool().filter(id => !ids.includes(id)), CONFIG.focusInTests)]);
+}
+
+function startFocus(fid) {
+  const f = C.focusById[fid];
+  startSession({ kind: 'focus', ref: fid, title: `⚡ Défi éclair — ${plain(f.title)}`, ids: weightedSample(focusPool(f), CONFIG.focusChallengeSize) });
 }
 
 // ---------- Séances ----------
@@ -204,7 +265,7 @@ function startLesson(id) {
   const recall = weightedSample(available(l.num - 1), CONFIG.lessonRecall);
   startSession({
     kind: 'lesson', ref: id, title: `Leçon ${l.num} — exercices`,
-    ids: shuffle([...l.itemIds, ...recall]), scored: new Set(l.itemIds),
+    ids: sprinkle(shuffle([...l.itemIds, ...recall])), scored: new Set(l.itemIds),
   });
 }
 
@@ -220,7 +281,7 @@ function startTest(blockId) {
     recall: pool.filter(id => C.items[id].uses.every(u => C.lessonById[u].num < first)),
     recallShare: CONFIG.recallShare,
   });
-  startSession({ kind: 'test', ref: blockId, title: `Test du bloc ${b.index + 1}`, ids, requeue: false });
+  startSession({ kind: 'test', ref: blockId, title: `Test du bloc ${b.index + 1}`, ids: withFocus(ids), requeue: false });
 }
 
 function startExam(examId) {
@@ -242,7 +303,7 @@ function startExam(examId) {
     recall: pool.filter(id => C.items[id].uses.every(u => C.lessonById[u].num < first)),
     recallShare: CONFIG.recallShare,
   });
-  startSession({ kind: 'exam', ref: examId, title: examName(e), ids, requeue: false });
+  startSession({ kind: 'exam', ref: examId, title: examName(e), ids: withFocus(ids), requeue: false });
 }
 
 // Révisions : d'abord ce qui est à revoir, complété par d'anciens exercices (même réussis).
@@ -255,16 +316,16 @@ function startReview() {
   const due = dueItems().slice(0, CONFIG.reviewSize);
   const rest = seenItems().filter(id => !due.includes(id));
   const ids = [...due, ...weightedSample(rest, CONFIG.reviewSize - due.length)];
-  startSession({ kind: 'review', title: due.length ? 'Révisions' : 'Révision libre', ids: shuffle(ids) });
+  startSession({ kind: 'review', title: due.length ? 'Révisions' : 'Révision libre', ids: sprinkle(shuffle(ids)) });
 }
 
 function startDrill(lessonIds) {
   const set = new Set(lessonIds);
   const pool = Object.values(C.items)
     .filter(it => it.uses.some(u => set.has(u)) && it.uses.every(u => stepDone({ type: 'lesson', id: u })))
-    .filter(it => !it.examOnly || S.get().items[it.id])
+    .filter(it => !it.focus && (!it.examOnly || S.get().items[it.id]))
     .map(it => it.id);
-  startSession({ kind: 'drill', title: 'Entraînement ciblé', ids: weightedSample(pool, CONFIG.drillSize) });
+  startSession({ kind: 'drill', title: 'Entraînement ciblé', ids: sprinkle(weightedSample(pool, CONFIG.drillSize)) });
 }
 
 function answer(ok, extra = {}) {
@@ -332,6 +393,13 @@ function viewHome() {
   h += `<button class="btn" data-act="review" ${seen ? '' : 'disabled'}>Révisions<small>${due ? `${due} à revoir` : seen ? 'révision libre' : 'rien pour l’instant'}</small></button>`;
   h += '</section>';
 
+  for (const f of C.focus.filter(focusUnlocked)) {
+    h += `<section class="card focus"><div class="focus-head"><span class="focus-label jp">${rich(f.label)}</span>
+      <div class="focus-txt"><h2>${rich(f.title)}</h2><p class="muted small">Point clé · reviens-y souvent</p></div>${bar(focusMastery(f))}</div>
+      <div class="actions left"><button class="btn primary" data-act="focus-go" data-id="${f.id}">⚡ Défi éclair</button>
+      <button class="btn" data-act="sheet" data-id="${f.id}">Antisèche</button></div></section>`;
+  }
+
   for (const b of C.blocks) {
     const ts = statuses[`test:${b.id}`];
     const tr = st.tests[b.id];
@@ -375,6 +443,23 @@ function viewWords(words) {
   return `<table class="words"><thead><tr><th>Mot</th><th>Lecture</th><th>Sens</th></tr></thead><tbody>${rows.join('')}</tbody></table>`;
 }
 
+// Sections d'une leçon ou d'une antisèche : texte, exemples, vocabulaire, tableau (grid), pièges.
+function viewSections(sections = [], pieges = []) {
+  let h = '';
+  for (const sec of sections) {
+    h += `<section><h2>${rich(sec.h)}</h2>${(sec.p || []).map(p => `<p>${rich(p)}</p>`).join('')}`;
+    if (sec.grid) {
+      h += `<div class="grid-wrap"><table class="grid"><thead><tr>${sec.grid.head.map(c => `<th>${rich(c)}</th>`).join('')}</tr></thead>`;
+      h += `<tbody>${sec.grid.rows.map(r => `<tr>${r.map((c, i) => i ? `<td class="jp">${rich(c)}</td>` : `<th>${rich(c)}</th>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+    }
+    if (sec.ex?.length) h += `<ul class="examples">${sec.ex.map(e => `<li><span class="jp">${rich(e.jp)}</span><span class="fr">${rich(e.fr)}</span></li>`).join('')}</ul>`;
+    if (sec.vocab?.length) h += `<table class="vocab">${sec.vocab.map(v => `<tr><td class="jp">${rich(v.jp)}</td><td>${rich(v.fr)}</td></tr>`).join('')}</table>`;
+    h += '</section>';
+  }
+  if (pieges?.length) h += `<section class="pieges"><h2>Pièges</h2><ul>${pieges.map(p => `<li>${rich(p)}</li>`).join('')}</ul></section>`;
+  return h;
+}
+
 function viewLesson(id) {
   const l = C.lessonById[id];
   if (!l || stepStatuses()[`lesson:${id}`] === 'locked') return go('#/');
@@ -382,13 +467,7 @@ function viewLesson(id) {
   let h = `<a class="back" href="#/">← Accueil</a><article class="lesson"><p class="muted">Leçon ${l.num}</p><h1>${rich(l.title)}</h1>`;
   if (l.formula?.length) h += `<div class="formula">${l.formula.map(f => `<div>${rich(f)}</div>`).join('')}</div>`;
   if (l.words?.length) h += viewWords(l.words);
-  for (const sec of l.sections || []) {
-    h += `<section><h2>${rich(sec.h)}</h2>${(sec.p || []).map(p => `<p>${rich(p)}</p>`).join('')}`;
-    if (sec.ex?.length) h += `<ul class="examples">${sec.ex.map(e => `<li><span class="jp">${rich(e.jp)}</span><span class="fr">${rich(e.fr)}</span></li>`).join('')}</ul>`;
-    if (sec.vocab?.length) h += `<table class="vocab">${sec.vocab.map(v => `<tr><td class="jp">${rich(v.jp)}</td><td>${rich(v.fr)}</td></tr>`).join('')}</table>`;
-    h += '</section>';
-  }
-  if (l.pieges?.length) h += `<section class="pieges"><h2>Pièges</h2><ul>${l.pieges.map(p => `<li>${rich(p)}</li>`).join('')}</ul></section>`;
+  h += viewSections(l.sections, l.pieges);
   h += `</article><div class="actions"><button class="btn primary" data-act="lesson-ex" data-id="${id}">${done ? 'Refaire les exercices' : 'Passer aux exercices'}</button></div>`;
   return h;
 }
@@ -405,7 +484,8 @@ function viewSession() {
   const cur = session.cur;
   const total = session.queue.length;
   let h = `<div class="sess-top"><button class="link" data-act="quit">✕</button><div class="progress"><span style="width:${(session.idx / total) * 100}%"></span></div><span class="count">${session.idx + 1}/${total}</span></div>`;
-  h += `<p class="muted sess-title">${esc(session.title)}${q.tries ? ' · <em>elle revient !</em>' : ''}</p>`;
+  const flash = it.focus && session.kind !== 'focus' ? ` · <span class="flash">⚡ point clé ${rich(C.focusById[it.focus].label)}</span>` : '';
+  h += `<p class="muted sess-title">${esc(session.title)}${flash}${q.tries ? ' · <em>elle revient !</em>' : ''}</p>`;
   h += `<div class="exercise" data-id="${it.id}">${it.type === 'order' ? viewOrder(it, cur) : viewChoice(it, cur)}</div>`;
   if (cur.answered) h += viewFeedback(it, cur);
   return h;
@@ -471,7 +551,7 @@ function viewResult() {
   if (k === 'lesson') msg = r.passed ? 'Leçon validée, la suite est débloquée !' : `Pas encore : il faut ${pct(CONFIG.lessonPass)}. Relis la leçon et recommence.`;
   if (k === 'test') msg = r.passed ? 'Bloc validé, la suite est débloquée !' : `Il faut ${pct(CONFIG.testPass)}. Travaille les points ci-dessous puis retente.`;
   if (k === 'exam') msg = r.passed ? 'Examen réussi, bravo !' : `Il faut ${pct(CONFIG.testPass)}. Travaille les points ci-dessous puis retente.`;
-  if (k === 'review' || k === 'drill') msg = 'Séance terminée.';
+  if (k === 'review' || k === 'drill' || k === 'focus') msg = 'Séance terminée.';
   let h = `<section class="result ${r.passed === false ? 'fail' : 'pass'}"><p class="muted">${esc(session.title)}</p>
     <div class="big-score">${pct(r.score)}</div><p>${r.okCount}/${r.total} du premier coup</p><p><strong>${msg}</strong></p></section>`;
   const weak = Object.entries(r.byLesson).sort((a, b) => b[1] - a[1]);
@@ -484,7 +564,7 @@ function viewResult() {
     h += `</ul><button class="btn" data-act="drill" data-ids="${weak.map(w => w[0]).join(',')}">Entraînement ciblé sur ces points</button></section>`;
   }
   h += '<div class="actions">';
-  if (r.passed === false || k === 'review' || k === 'drill') h += '<button class="btn" data-act="retry">Recommencer</button>';
+  if (r.passed === false || k === 'review' || k === 'drill' || k === 'focus') h += '<button class="btn" data-act="retry">Recommencer</button>';
   const nx = nextStep();
   if (nx && r.passed) h += `<button class="btn primary" data-act="step" data-type="${nx.type}" data-id="${nx.id}">Suite : ${esc(stepLabel(nx))}</button>`;
   h += '<a class="btn" href="#/">Accueil</a></div>';
@@ -497,7 +577,8 @@ function viewSettings() {
   const status = Sync.getStatus();
   let h = '<a class="back" href="#/">← Accueil</a><h1>Réglages</h1>';
   h += `<section class="card"><h2>Affichage</h2><label class="row"><input type="checkbox" data-act="furigana" ${st.settings.furigana ? 'checked' : ''}> Afficher les furigana</label>
-    <p class="muted small">Masqués, tu peux toucher un kanji pour voir sa lecture.</p></section>`;
+    <p class="muted small">Masqués, tu peux toucher un kanji pour voir sa lecture.</p>
+    <label class="row"><input type="checkbox" data-act="bubble" ${st.settings.bubble !== false ? 'checked' : ''}> Afficher la bulle des points clés</label></section>`;
   h += '<section class="card"><h2>Synchronisation PC ↔ téléphone</h2>';
   if (cfg) {
     h += `<p>Connecté au compte GitHub <strong>${esc(cfg.login)}</strong>.</p><p class="muted small">${esc(syncText(status))}${status.msg ? ` — ${esc(status.msg)}` : ''}</p>
@@ -549,6 +630,45 @@ function render() {
   else if (hash === '#/reglages') html = viewSettings();
   else html = viewHome();
   if (html) app.innerHTML = html;
+  updateBubble();
+}
+
+// ---------- Bulle et antisèche des points clés ----------
+
+let bubble = null;
+let sheet = null;
+
+function updateBubble() {
+  const unlocked = C.focus.filter(focusUnlocked);
+  // Pendant un test ou un examen, pas d'antisèche : c'est à toi de te souvenir.
+  const inTest = location.hash === '#/seance' && ['test', 'exam'].includes(session?.kind) && !session?.result;
+  const show = unlocked.length && S.get().settings.bubble !== false && !inTest;
+  bubble.hidden = !show;
+  if (show) bubble.innerHTML = unlocked.length === 1 ? rich(unlocked[0].label) : '★';
+  if (inTest) closeSheet();
+}
+
+function openSheet(fid) {
+  const list = fid ? [C.focusById[fid]] : C.focus.filter(focusUnlocked);
+  sheet.innerHTML = `<div class="sheet" role="dialog" aria-modal="true"><button class="link sheet-x" data-act="sheet-close" aria-label="Fermer">✕</button>
+    ${list.map(f => `<article class="lesson"><p class="muted">Point clé</p><h1>${rich(f.title)}</h1>${viewSections(f.sheet?.sections, f.sheet?.pieges)}</article>`).join('')}
+    <div class="actions"><button class="btn" data-act="sheet-close">Fermer</button></div></div>`;
+  sheet.hidden = false;
+  document.body.classList.add('noscroll');
+}
+
+function closeSheet() {
+  if (!sheet || sheet.hidden) return;
+  sheet.hidden = true;
+  document.body.classList.remove('noscroll');
+}
+
+function onGlobalClick(e) {
+  const el = e.target.closest('[data-act="sheet"], [data-act="sheet-close"]');
+  if (el) {
+    if (el.dataset.act === 'sheet') openSheet(el.dataset.id);
+    else closeSheet();
+  } else if (e.target === sheet) closeSheet();
 }
 
 function openStep(type, id) {
@@ -574,6 +694,7 @@ function onClick(e) {
     case 'review': startReview(); break;
     case 'lesson-ex': startLesson(el.dataset.id); break;
     case 'drill': startDrill(el.dataset.ids.split(',')); break;
+    case 'focus-go': startFocus(el.dataset.id); break;
     case 'pick': if (!cur.answered) { const i = +el.dataset.i; answer(i === it.a, { picked: i }); } break;
     case 'place': cur.built.push(+el.dataset.i); render(); break;
     case 'unplace': cur.built = cur.built.filter(i => i !== +el.dataset.i); render(); break;
@@ -600,6 +721,7 @@ function restart() {
   if (s.kind === 'lesson') startLesson(s.ref);
   else if (s.kind === 'test') startTest(s.ref);
   else if (s.kind === 'exam') startExam(s.ref);
+  else if (s.kind === 'focus') startFocus(s.ref);
   else if (s.kind === 'review') { if (dueItems().length) startReview(); else go('#/'); }
   else startSession({ ...s, ids: shuffle(s.queue.filter(q => !q.tries).map(q => q.id)) });
 }
@@ -629,6 +751,7 @@ function exportState() {
 function onChangeInput(e) {
   const act = e.target.dataset.act;
   if (act === 'furigana') { S.setSetting('furigana', e.target.checked); render(); }
+  if (act === 'bubble') { S.setSetting('bubble', e.target.checked); render(); }
   if (act === 'import' && e.target.files[0]) {
     e.target.files[0].text().then(txt => {
       try {
@@ -661,6 +784,13 @@ async function main() {
     app.innerHTML = `<p class="error">Impossible de charger le cours : ${esc(e.message)}</p>`;
     return;
   }
+  bubble = Object.assign(document.createElement('button'), { className: 'bubble jp', hidden: true });
+  bubble.dataset.act = 'sheet';
+  bubble.setAttribute('aria-label', 'Antisèche des points clés');
+  sheet = Object.assign(document.createElement('div'), { className: 'sheet-overlay', hidden: true });
+  document.body.append(bubble, sheet);
+  document.addEventListener('click', onGlobalClick);
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeSheet(); });
   app.addEventListener('click', onClick);
   app.addEventListener('change', onChangeInput);
   document.addEventListener('keydown', onKey);

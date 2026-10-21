@@ -1,4 +1,4 @@
-// Mise en forme du contenu : {漢字|かんじ} → furigana, **gras**, ＿ → trou.
+// Mise en forme du contenu : {漢字|かんじ} → furigana, **gras**, ==surligné==, ＿ → trou.
 
 export function esc(s) {
   return String(s ?? '')
@@ -11,12 +11,13 @@ export function esc(s) {
 export function rich(s) {
   return esc(s)
     .replace(/\{([^|{}]+)\|([^{}]+)\}/g, '<ruby>$1<rt>$2</rt></ruby>')
-    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/==(.+?)==/g, '<mark>$1</mark>');
 }
 
 // Texte sans balisage (lecture en kanji seulement).
 export function plain(s) {
-  return String(s ?? '').replace(/\{([^|{}]+)\|[^{}]+\}/g, '$1').replace(/\*\*/g, '');
+  return String(s ?? '').replace(/\{([^|{}]+)\|[^{}]+\}/g, '$1').replace(/\*\*|==/g, '');
 }
 
 // Phrase japonaise avec trou ; `fill` remplit le trou une fois la réponse donnée.

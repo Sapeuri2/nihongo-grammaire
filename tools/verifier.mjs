@@ -83,6 +83,20 @@ for (const file of manifest.blocks) {
   for (const ex of b.examTest || []) checkExercise(`${b.id} examen`, ex, n);
 }
 
+// Points clés (manifest.focus) : antisèche + exercices.
+for (const file of manifest.focus || []) {
+  const f = read(file);
+  if (!f.id || !f.label || !f.title) err(file, 'point clé : id, label et title obligatoires');
+  if (f.unlockAfter && !lessonOrder.has(f.unlockAfter)) err(file, `unlockAfter : leçon inconnue ${f.unlockAfter}`);
+  for (const s of f.sheet?.sections || []) {
+    checkText(file, s.h);
+    (s.p || []).forEach(p => checkText(file, p));
+    (s.grid?.rows || []).flat().concat(s.grid?.head || []).forEach(c => checkText(file, c));
+  }
+  (f.sheet?.pieges || []).forEach(p => checkText(file, p));
+  for (const ex of f.exercises || []) checkExercise(`${f.id}`, ex, n);
+}
+
 // Contrôles propres à l'appli (facultatif) : tools/verifier-appli.mjs, lancé à la suite.
 const extra = new URL('verifier-appli.mjs', import.meta.url);
 if (existsSync(extra)) {
