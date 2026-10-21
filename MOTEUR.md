@@ -91,6 +91,7 @@ Les exercices d'un point clé peuvent être écrits à la main ou générés par
 - Nouveaux réglages dans `js/config.js` : `focusEvery`, `focusInTests`, `focusChallengeSize`.
 - Nouveau balisage `==surligné==` ; les sections acceptent `grid` (tableau).
 - Réglage utilisateur « Afficher la bulle des points clés » (page Réglages).
+- Sur téléphone, les tableaux `grid` s'affichent en fiches (une par ligne, chaque case garde le titre de sa colonne).
 
 ### 2026-10-21 — Propositions de l'appli vocabulaire
 - `sw.js` : les anciens caches `ng-v1` **et** `nv-v1` sont supprimés ; hors ligne, on ne cherche plus

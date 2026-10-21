@@ -450,7 +450,8 @@ function viewSections(sections = [], pieges = []) {
     h += `<section><h2>${rich(sec.h)}</h2>${(sec.p || []).map(p => `<p>${rich(p)}</p>`).join('')}`;
     if (sec.grid) {
       h += `<div class="grid-wrap"><table class="grid"><thead><tr>${sec.grid.head.map(c => `<th>${rich(c)}</th>`).join('')}</tr></thead>`;
-      h += `<tbody>${sec.grid.rows.map(r => `<tr>${r.map((c, i) => i ? `<td class="jp">${rich(c)}</td>` : `<th>${rich(c)}</th>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+      // data-label : sur téléphone, chaque ligne devient une fiche et chaque case garde le titre de sa colonne.
+      h += `<tbody>${sec.grid.rows.map(r => `<tr>${r.map((c, i) => i ? `<td class="jp" data-label="${esc(plain(sec.grid.head[i] || ''))}">${rich(c)}</td>` : `<th>${rich(c)}</th>`).join('')}</tr>`).join('')}</tbody></table></div>`;
     }
     if (sec.ex?.length) h += `<ul class="examples">${sec.ex.map(e => `<li><span class="jp">${rich(e.jp)}</span><span class="fr">${rich(e.fr)}</span></li>`).join('')}</ul>`;
     if (sec.vocab?.length) h += `<table class="vocab">${sec.vocab.map(v => `<tr><td class="jp">${rich(v.jp)}</td><td>${rich(v.fr)}</td></tr>`).join('')}</table>`;

@@ -156,6 +156,17 @@ body.noscroll { overflow: hidden; }
 .grid tbody th { font-size: .8rem; color: var(--muted); font-weight: 600; }
 .grid td.jp { font-size: 1.05rem; line-height: 2; white-space: nowrap; }
 main { padding-bottom: 88px; }
+@media (max-width: 560px) {
+  .grid thead { display: none; }
+  .grid tr { display: block; padding: 6px 10px; border-bottom: 1px solid var(--line); }
+  .grid tbody th, .grid td { display: block; border: 0; padding: 2px 0; }
+  .grid tbody th { font-size: .85rem; color: var(--accent); }
+  .grid td.jp { white-space: normal; }
+  .grid td[data-label]:not([data-label=""])::before {
+    content: attr(data-label); display: block; font-family: system-ui, sans-serif;
+    font-size: .72rem; color: var(--muted); line-height: 1.2; margin-top: 4px;
+  }
+}
 
 /* Leçon */
 .lesson section { margin: 22px 0; }

@@ -1,7 +1,7 @@
 {
  "id": "adj-i-na",
  "label": "い・な",
- "title": "Adjectifs : い ou な ?",
+ "title": "い ou な ? Et quel passé ?",
  "unlockAfter": "n5-09",
  "sheet": {
   "sections": [
@@ -73,9 +73,75 @@
      "**Apprends chaque adjectif avec un nom** : {高|たか}い{車|くるま}, きれい**な**{部屋|へや}. Si tu entends な devant le nom, c'est un な.",
      "**Indice** : un mot de deux kanji ({有名|ゆうめい}, {便利|べんり}, {元気|げんき}, {親切|しんせつ}, {大切|たいせつ}) est presque toujours un な. Un kanji + い en hiragana ({高|たか}い, {安|やす}い, {新|あたら}しい) est presque toujours un い."
     ]
+   },
+   {
+    "h": "Le passé poli : quelle fin ?",
+    "p": [
+     "Avant de choisir, demande-toi : **c'est un nom, un adjectif (い ou な) ou un verbe ?** Chaque type a SA fin."
+    ],
+    "grid": {
+     "head": [
+      "",
+      "Passé",
+      "Passé négatif"
+     ],
+     "rows": [
+      [
+       "Nom",
+       "{雨|あめ}==でした==",
+       "{雨|あめ}==じゃありませんでした=="
+      ],
+      [
+       "Adj. な",
+       "{静|しず}か==でした==",
+       "{静|しず}か==じゃありませんでした=="
+      ],
+      [
+       "Adj. い",
+       "{寒|さむ}==かったです==",
+       "{寒|さむ}==くなかったです=="
+      ],
+      [
+       "Verbe",
+       "{降|ふ}り==ました==",
+       "{降|ふ}り==ませんでした=="
+      ],
+      [
+       "ある・いる",
+       "==ありました== / ==いました==",
+       "==ありませんでした== / ==いませんでした=="
+      ]
+     ]
+    }
+   },
+   {
+    "h": "La pluie d'hier, en trois façons",
+    "p": [
+     "**でした** ne va qu'après un nom ou un adjectif en な. **ました** ne va qu'après un verbe. **かった** n'existe qu'avec les adjectifs en い.",
+     "**ありました** = « il y avait / il y a eu » (un objet, un événement : テストがありました). Pour la pluie, {雨|あめ}がありました se comprend mais ne sonne pas naturel."
+    ],
+    "ex": [
+     {
+      "jp": "きのうは{雨|あめ}==でした==。",
+      "fr": "Hier, c'était un temps de pluie. ({雨|あめ} = nom)"
+     },
+     {
+      "jp": "きのう、{雨|あめ}が{降|ふ}り==ました==。",
+      "fr": "Hier, il a plu. ({降|ふ}ります = verbe)"
+     },
+     {
+      "jp": "きのうは{寒|さむ}==かったです==。",
+      "fr": "Hier, il faisait froid. ({寒|さむ}い = adjectif en い)"
+     },
+     {
+      "jp": "{先週|せんしゅう}、テストが==ありました==。",
+      "fr": "La semaine dernière, il y a eu un contrôle. (あります = il y a)"
+     }
+    ]
    }
   ],
   "pieges": [
+   "{寒|さむ}いでした ✗ → {寒|さむ}かったです · {雨|あめ}かったです ✗ → {雨|あめ}でした · {降|ふ}りでした ✗ → {降|ふ}りました.",
    "Les **faux い** : **きれい**, **きらい**, **{有名|ゆうめい}** (ゆうめい) sont des adjectifs en な → きれいじゃありません, きれいでした (jamais きれくない, きれかった).",
    "**いい** est irrégulier : **よ**くない, **よ**かった, **よ**くなかった.",
    "Jamais です au passé d'un い : {高|たか}いでした ✗ → {高|たか}かったです.",
@@ -3850,6 +3916,888 @@
    ],
    "a": 0,
    "explain": "かんたん est un adjectif en な : il ne change pas, c'est です qui change (comme un nom). Passé négatif familier : じゃなかった."
+  },
+  {
+   "id": "past-ame-aff",
+   "type": "choice",
+   "uses": [
+    "n5-06"
+   ],
+   "q": "Passé poli de {雨|あめ} (pluie) ?",
+   "choices": [
+    "{雨|あめ}でした",
+    "{雨|あめ}ました",
+    "{雨|あめ}かったです",
+    "{雨|あめ}だでした"
+   ],
+   "a": 0,
+   "explain": "{雨|あめ} est un nom. Un nom → でした / じゃありませんでした (jamais ました ni かった)."
+  },
+  {
+   "id": "past-ame-neg",
+   "type": "choice",
+   "uses": [
+    "n5-06"
+   ],
+   "q": "Passé négatif poli de {雨|あめ} (pluie) ?",
+   "choices": [
+    "{雨|あめ}じゃありませんでした",
+    "{雨|あめ}ませんでした",
+    "{雨|あめ}くなかったです",
+    "{雨|あめ}ないでした"
+   ],
+   "a": 0,
+   "explain": "{雨|あめ} est un nom. Un nom → でした / じゃありませんでした (jamais ました ni かった)."
+  },
+  {
+   "id": "past-nichiyoubi-aff",
+   "type": "choice",
+   "uses": [
+    "n5-06"
+   ],
+   "q": "Passé poli de {日曜日|にちようび} (dimanche) ?",
+   "choices": [
+    "{日曜日|にちようび}でした",
+    "{日曜日|にちようび}ました",
+    "{日曜日|にちようび}かったです",
+    "{日曜日|にちようび}だでした"
+   ],
+   "a": 0,
+   "explain": "{日曜日|にちようび} est un nom. Un nom → でした / じゃありませんでした (jamais ました ni かった)."
+  },
+  {
+   "id": "past-nichiyoubi-neg",
+   "type": "choice",
+   "uses": [
+    "n5-06"
+   ],
+   "q": "Passé négatif poli de {日曜日|にちようび} (dimanche) ?",
+   "choices": [
+    "{日曜日|にちようび}じゃありませんでした",
+    "{日曜日|にちようび}ませんでした",
+    "{日曜日|にちようび}くなかったです",
+    "{日曜日|にちようび}ないでした"
+   ],
+   "a": 0,
+   "explain": "{日曜日|にちようび} est un nom. Un nom → でした / じゃありませんでした (jamais ました ni かった)."
+  },
+  {
+   "id": "past-nihonjin-aff",
+   "type": "choice",
+   "uses": [
+    "n5-06"
+   ],
+   "q": "Passé poli de {日本人|にほんじん} (Japonais) ?",
+   "choices": [
+    "{日本人|にほんじん}でした",
+    "{日本人|にほんじん}ました",
+    "{日本人|にほんじん}かったです",
+    "{日本人|にほんじん}だでした"
+   ],
+   "a": 0,
+   "explain": "{日本人|にほんじん} est un nom. Un nom → でした / じゃありませんでした (jamais ました ni かった)."
+  },
+  {
+   "id": "past-nihonjin-neg",
+   "type": "choice",
+   "uses": [
+    "n5-06"
+   ],
+   "q": "Passé négatif poli de {日本人|にほんじん} (Japonais) ?",
+   "choices": [
+    "{日本人|にほんじん}じゃありませんでした",
+    "{日本人|にほんじん}ませんでした",
+    "{日本人|にほんじん}くなかったです",
+    "{日本人|にほんじん}ないでした"
+   ],
+   "a": 0,
+   "explain": "{日本人|にほんじん} est un nom. Un nom → でした / じゃありませんでした (jamais ました ni かった)."
+  },
+  {
+   "id": "past-tesuto-aff",
+   "type": "choice",
+   "uses": [
+    "n5-06"
+   ],
+   "q": "Passé poli de テスト (contrôle) ?",
+   "choices": [
+    "テストでした",
+    "テストました",
+    "テストかったです",
+    "テストだでした"
+   ],
+   "a": 0,
+   "explain": "テスト est un nom. Un nom → でした / じゃありませんでした (jamais ました ni かった)."
+  },
+  {
+   "id": "past-tesuto-neg",
+   "type": "choice",
+   "uses": [
+    "n5-06"
+   ],
+   "q": "Passé négatif poli de テスト (contrôle) ?",
+   "choices": [
+    "テストじゃありませんでした",
+    "テストませんでした",
+    "テストくなかったです",
+    "テストないでした"
+   ],
+   "a": 0,
+   "explain": "テスト est un nom. Un nom → でした / じゃありませんでした (jamais ました ni かった)."
+  },
+  {
+   "id": "past-gakusei-aff",
+   "type": "choice",
+   "uses": [
+    "n5-06"
+   ],
+   "q": "Passé poli de {学生|がくせい} (étudiant) ?",
+   "choices": [
+    "{学生|がくせい}でした",
+    "{学生|がくせい}ました",
+    "{学生|がくせい}かったです",
+    "{学生|がくせい}だでした"
+   ],
+   "a": 0,
+   "explain": "{学生|がくせい} est un nom. Un nom → でした / じゃありませんでした (jamais ました ni かった)."
+  },
+  {
+   "id": "past-gakusei-neg",
+   "type": "choice",
+   "uses": [
+    "n5-06"
+   ],
+   "q": "Passé négatif poli de {学生|がくせい} (étudiant) ?",
+   "choices": [
+    "{学生|がくせい}じゃありませんでした",
+    "{学生|がくせい}ませんでした",
+    "{学生|がくせい}くなかったです",
+    "{学生|がくせい}ないでした"
+   ],
+   "a": 0,
+   "explain": "{学生|がくせい} est un nom. Un nom → でした / じゃありませんでした (jamais ました ni かった)."
+  },
+  {
+   "id": "past-taberu-aff",
+   "type": "choice",
+   "uses": [
+    "n5-06"
+   ],
+   "q": "Passé poli de {食|た}べます (manger) ?",
+   "choices": [
+    "{食|た}べました",
+    "{食|た}べでした",
+    "{食|た}べかったです",
+    "{食|た}べますでした"
+   ],
+   "a": 0,
+   "explain": "{食|た}べます est un verbe. Un verbe → ます devient ました / ませんでした (jamais でした ni かった)."
+  },
+  {
+   "id": "past-taberu-neg",
+   "type": "choice",
+   "uses": [
+    "n5-06"
+   ],
+   "q": "Passé négatif poli de {食|た}べます (manger) ?",
+   "choices": [
+    "{食|た}べませんでした",
+    "{食|た}べじゃありませんでした",
+    "{食|た}べくなかったです",
+    "{食|た}べましたじゃありません"
+   ],
+   "a": 0,
+   "explain": "{食|た}べます est un verbe. Un verbe → ます devient ました / ませんでした (jamais でした ni かった)."
+  },
+  {
+   "id": "past-nomu-aff",
+   "type": "choice",
+   "uses": [
+    "n5-06"
+   ],
+   "q": "Passé poli de {飲|の}みます (boire) ?",
+   "choices": [
+    "{飲|の}みました",
+    "{飲|の}みでした",
+    "{飲|の}みかったです",
+    "{飲|の}みますでした"
+   ],
+   "a": 0,
+   "explain": "{飲|の}みます est un verbe. Un verbe → ます devient ました / ませんでした (jamais でした ni かった)."
+  },
+  {
+   "id": "past-nomu-neg",
+   "type": "choice",
+   "uses": [
+    "n5-06"
+   ],
+   "q": "Passé négatif poli de {飲|の}みます (boire) ?",
+   "choices": [
+    "{飲|の}みませんでした",
+    "{飲|の}みじゃありませんでした",
+    "{飲|の}みくなかったです",
+    "{飲|の}みましたじゃありません"
+   ],
+   "a": 0,
+   "explain": "{飲|の}みます est un verbe. Un verbe → ます devient ました / ませんでした (jamais でした ni かった)."
+  },
+  {
+   "id": "past-iku-aff",
+   "type": "choice",
+   "uses": [
+    "n5-06"
+   ],
+   "q": "Passé poli de {行|い}きます (aller) ?",
+   "choices": [
+    "{行|い}きました",
+    "{行|い}きでした",
+    "{行|い}きかったです",
+    "{行|い}きますでした"
+   ],
+   "a": 0,
+   "explain": "{行|い}きます est un verbe. Un verbe → ます devient ました / ませんでした (jamais でした ni かった)."
+  },
+  {
+   "id": "past-iku-neg",
+   "type": "choice",
+   "uses": [
+    "n5-06"
+   ],
+   "q": "Passé négatif poli de {行|い}きます (aller) ?",
+   "choices": [
+    "{行|い}きませんでした",
+    "{行|い}きじゃありませんでした",
+    "{行|い}きくなかったです",
+    "{行|い}きましたじゃありません"
+   ],
+   "a": 0,
+   "explain": "{行|い}きます est un verbe. Un verbe → ます devient ました / ませんでした (jamais でした ni かった)."
+  },
+  {
+   "id": "past-furu-aff",
+   "type": "choice",
+   "uses": [
+    "n5-06"
+   ],
+   "q": "Passé poli de {降|ふ}ります (tomber (pluie, neige)) ?",
+   "choices": [
+    "{降|ふ}りました",
+    "{降|ふ}りでした",
+    "{降|ふ}りかったです",
+    "{降|ふ}りますでした"
+   ],
+   "a": 0,
+   "explain": "{降|ふ}ります est un verbe. Un verbe → ます devient ました / ませんでした (jamais でした ni かった)."
+  },
+  {
+   "id": "past-furu-neg",
+   "type": "choice",
+   "uses": [
+    "n5-06"
+   ],
+   "q": "Passé négatif poli de {降|ふ}ります (tomber (pluie, neige)) ?",
+   "choices": [
+    "{降|ふ}りませんでした",
+    "{降|ふ}りじゃありませんでした",
+    "{降|ふ}りくなかったです",
+    "{降|ふ}りましたじゃありません"
+   ],
+   "a": 0,
+   "explain": "{降|ふ}ります est un verbe. Un verbe → ます devient ました / ませんでした (jamais でした ni かった)."
+  },
+  {
+   "id": "past-miru-aff",
+   "type": "choice",
+   "uses": [
+    "n5-06"
+   ],
+   "q": "Passé poli de {見|み}ます (regarder) ?",
+   "choices": [
+    "{見|み}ました",
+    "{見|み}でした",
+    "{見|み}かったです",
+    "{見|み}ますでした"
+   ],
+   "a": 0,
+   "explain": "{見|み}ます est un verbe. Un verbe → ます devient ました / ませんでした (jamais でした ni かった)."
+  },
+  {
+   "id": "past-miru-neg",
+   "type": "choice",
+   "uses": [
+    "n5-06"
+   ],
+   "q": "Passé négatif poli de {見|み}ます (regarder) ?",
+   "choices": [
+    "{見|み}ませんでした",
+    "{見|み}じゃありませんでした",
+    "{見|み}くなかったです",
+    "{見|み}ましたじゃありません"
+   ],
+   "a": 0,
+   "explain": "{見|み}ます est un verbe. Un verbe → ます devient ました / ませんでした (jamais でした ni かった)."
+  },
+  {
+   "id": "past-aru-aff",
+   "type": "choice",
+   "uses": [
+    "n5-06",
+    "n5-07"
+   ],
+   "q": "Passé poli de あります (il y a (objet, événement)) ?",
+   "choices": [
+    "ありました",
+    "ありでした",
+    "ありかったです",
+    "ありますでした"
+   ],
+   "a": 0,
+   "explain": "あります est un verbe. Un verbe → ます devient ました / ませんでした (jamais でした ni かった)."
+  },
+  {
+   "id": "past-aru-neg",
+   "type": "choice",
+   "uses": [
+    "n5-06",
+    "n5-07"
+   ],
+   "q": "Passé négatif poli de あります (il y a (objet, événement)) ?",
+   "choices": [
+    "ありませんでした",
+    "ありじゃありませんでした",
+    "ありくなかったです",
+    "ありましたじゃありません"
+   ],
+   "a": 0,
+   "explain": "あります est un verbe. Un verbe → ます devient ました / ませんでした (jamais でした ni かった)."
+  },
+  {
+   "id": "past-iru-aff",
+   "type": "choice",
+   "uses": [
+    "n5-06",
+    "n5-07"
+   ],
+   "q": "Passé poli de います (il y a (personne, animal)) ?",
+   "choices": [
+    "いました",
+    "いでした",
+    "いかったです",
+    "いますでした"
+   ],
+   "a": 0,
+   "explain": "います est un verbe. Un verbe → ます devient ました / ませんでした (jamais でした ni かった)."
+  },
+  {
+   "id": "past-iru-neg",
+   "type": "choice",
+   "uses": [
+    "n5-06",
+    "n5-07"
+   ],
+   "q": "Passé négatif poli de います (il y a (personne, animal)) ?",
+   "choices": [
+    "いませんでした",
+    "いじゃありませんでした",
+    "いくなかったです",
+    "いましたじゃありません"
+   ],
+   "a": 0,
+   "explain": "います est un verbe. Un verbe → ます devient ました / ませんでした (jamais でした ni かった)."
+  },
+  {
+   "id": "past-samui-aff",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "q": "Passé poli de {寒|さむ}い (froid) ?",
+   "choices": [
+    "{寒|さむ}かったです",
+    "{寒|さむ}いでした",
+    "{寒|さむ}いました",
+    "{寒|さむ}いかったです"
+   ],
+   "a": 0,
+   "explain": "{寒|さむ}い est un adjectif en い. Un adjectif en い → い devient かったです / くなかったです (jamais でした)."
+  },
+  {
+   "id": "past-samui-neg",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "q": "Passé négatif poli de {寒|さむ}い (froid) ?",
+   "choices": [
+    "{寒|さむ}くなかったです",
+    "{寒|さむ}いじゃありませんでした",
+    "{寒|さむ}いませんでした",
+    "{寒|さむ}くないでした"
+   ],
+   "a": 0,
+   "explain": "{寒|さむ}い est un adjectif en い. Un adjectif en い → い devient かったです / くなかったです (jamais でした)."
+  },
+  {
+   "id": "past-atsui-aff",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "q": "Passé poli de {暑|あつ}い (chaud) ?",
+   "choices": [
+    "{暑|あつ}かったです",
+    "{暑|あつ}いでした",
+    "{暑|あつ}いました",
+    "{暑|あつ}いかったです"
+   ],
+   "a": 0,
+   "explain": "{暑|あつ}い est un adjectif en い. Un adjectif en い → い devient かったです / くなかったです (jamais でした)."
+  },
+  {
+   "id": "past-atsui-neg",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "q": "Passé négatif poli de {暑|あつ}い (chaud) ?",
+   "choices": [
+    "{暑|あつ}くなかったです",
+    "{暑|あつ}いじゃありませんでした",
+    "{暑|あつ}いませんでした",
+    "{暑|あつ}くないでした"
+   ],
+   "a": 0,
+   "explain": "{暑|あつ}い est un adjectif en い. Un adjectif en い → い devient かったです / くなかったです (jamais でした)."
+  },
+  {
+   "id": "past-tanoshii-aff",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "q": "Passé poli de {楽|たの}しい (amusant) ?",
+   "choices": [
+    "{楽|たの}しかったです",
+    "{楽|たの}しいでした",
+    "{楽|たの}しいました",
+    "{楽|たの}しいかったです"
+   ],
+   "a": 0,
+   "explain": "{楽|たの}しい est un adjectif en い. Un adjectif en い → い devient かったです / くなかったです (jamais でした)."
+  },
+  {
+   "id": "past-tanoshii-neg",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "q": "Passé négatif poli de {楽|たの}しい (amusant) ?",
+   "choices": [
+    "{楽|たの}しくなかったです",
+    "{楽|たの}しいじゃありませんでした",
+    "{楽|たの}しいませんでした",
+    "{楽|たの}しくないでした"
+   ],
+   "a": 0,
+   "explain": "{楽|たの}しい est un adjectif en い. Un adjectif en い → い devient かったです / くなかったです (jamais でした)."
+  },
+  {
+   "id": "past-oishii-aff",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "q": "Passé poli de おいしい (bon (au goût)) ?",
+   "choices": [
+    "おいしかったです",
+    "おいしいでした",
+    "おいしいました",
+    "おいしいかったです"
+   ],
+   "a": 0,
+   "explain": "おいしい est un adjectif en い. Un adjectif en い → い devient かったです / くなかったです (jamais でした)."
+  },
+  {
+   "id": "past-oishii-neg",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "q": "Passé négatif poli de おいしい (bon (au goût)) ?",
+   "choices": [
+    "おいしくなかったです",
+    "おいしいじゃありませんでした",
+    "おいしいませんでした",
+    "おいしくないでした"
+   ],
+   "a": 0,
+   "explain": "おいしい est un adjectif en い. Un adjectif en い → い devient かったです / くなかったです (jamais でした)."
+  },
+  {
+   "id": "past-ii-aff",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "q": "Passé poli de いい (bien, bon) ?",
+   "choices": [
+    "よかったです",
+    "いいでした",
+    "いいました",
+    "いかったです"
+   ],
+   "a": 0,
+   "explain": "いい est un adjectif en い. いい est un adjectif en い irrégulier → よかったです / よくなかったです."
+  },
+  {
+   "id": "past-ii-neg",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "q": "Passé négatif poli de いい (bien, bon) ?",
+   "choices": [
+    "よくなかったです",
+    "いいじゃありませんでした",
+    "いいませんでした",
+    "よくないでした"
+   ],
+   "a": 0,
+   "explain": "いい est un adjectif en い. いい est un adjectif en い irrégulier → よかったです / よくなかったです."
+  },
+  {
+   "id": "past-shizuka-aff",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "q": "Passé poli de {静|しず}か (calme) ?",
+   "choices": [
+    "{静|しず}かでした",
+    "{静|しず}かかったです",
+    "{静|しず}かました",
+    "{静|しず}かなでした"
+   ],
+   "a": 0,
+   "explain": "{静|しず}か est un adjectif en な. Un adjectif en な → でした / じゃありませんでした, comme un nom."
+  },
+  {
+   "id": "past-shizuka-neg",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "q": "Passé négatif poli de {静|しず}か (calme) ?",
+   "choices": [
+    "{静|しず}かじゃありませんでした",
+    "{静|しず}かくなかったです",
+    "{静|しず}かませんでした",
+    "{静|しず}かじゃないでした"
+   ],
+   "a": 0,
+   "explain": "{静|しず}か est un adjectif en な. Un adjectif en な → でした / じゃありませんでした, comme un nom."
+  },
+  {
+   "id": "past-kirei-aff",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "q": "Passé poli de きれい (beau, propre) ?",
+   "choices": [
+    "きれいでした",
+    "きれかったです",
+    "きれいました",
+    "きれいなでした"
+   ],
+   "a": 0,
+   "explain": "きれい est un adjectif en な. Piège : きれい est un adjectif en な. Un adjectif en な → でした / じゃありませんでした, comme un nom."
+  },
+  {
+   "id": "past-kirei-neg",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "q": "Passé négatif poli de きれい (beau, propre) ?",
+   "choices": [
+    "きれいじゃありませんでした",
+    "きれくなかったです",
+    "きれいませんでした",
+    "きれいじゃないでした"
+   ],
+   "a": 0,
+   "explain": "きれい est un adjectif en な. Piège : きれい est un adjectif en な. Un adjectif en な → でした / じゃありませんでした, comme un nom."
+  },
+  {
+   "id": "past-hima-aff",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "q": "Passé poli de ひま (libre) ?",
+   "choices": [
+    "ひまでした",
+    "ひまかったです",
+    "ひまました",
+    "ひまなでした"
+   ],
+   "a": 0,
+   "explain": "ひま est un adjectif en な. Un adjectif en な → でした / じゃありませんでした, comme un nom."
+  },
+  {
+   "id": "past-hima-neg",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "q": "Passé négatif poli de ひま (libre) ?",
+   "choices": [
+    "ひまじゃありませんでした",
+    "ひまくなかったです",
+    "ひまませんでした",
+    "ひまじゃないでした"
+   ],
+   "a": 0,
+   "explain": "ひま est un adjectif en な. Un adjectif en な → でした / じゃありませんでした, comme un nom."
+  },
+  {
+   "id": "past-genki-aff",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "q": "Passé poli de {元気|げんき} (en forme) ?",
+   "choices": [
+    "{元気|げんき}でした",
+    "{元気|げんき}かったです",
+    "{元気|げんき}ました",
+    "{元気|げんき}なでした"
+   ],
+   "a": 0,
+   "explain": "{元気|げんき} est un adjectif en な. Un adjectif en な → でした / じゃありませんでした, comme un nom."
+  },
+  {
+   "id": "past-genki-neg",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "q": "Passé négatif poli de {元気|げんき} (en forme) ?",
+   "choices": [
+    "{元気|げんき}じゃありませんでした",
+    "{元気|げんき}くなかったです",
+    "{元気|げんき}ませんでした",
+    "{元気|げんき}じゃないでした"
+   ],
+   "a": 0,
+   "explain": "{元気|げんき} est un adjectif en な. Un adjectif en な → でした / じゃありませんでした, comme un nom."
+  },
+  {
+   "id": "past-mix-01",
+   "type": "choice",
+   "uses": [
+    "n5-06"
+   ],
+   "jp": "きのうは{雨|あめ}＿。",
+   "fr": "Hier, c'était un temps de pluie.",
+   "choices": [
+    "でした",
+    "ました",
+    "かったです",
+    "かったでした"
+   ],
+   "a": 0,
+   "explain": "{雨|あめ} est un nom → でした."
+  },
+  {
+   "id": "past-mix-02",
+   "type": "choice",
+   "uses": [
+    "n5-06"
+   ],
+   "jp": "きのう、{雨|あめ}が{降|ふ}り＿。",
+   "fr": "Hier, il a plu.",
+   "choices": [
+    "ました",
+    "でした",
+    "かったです",
+    "ありました"
+   ],
+   "a": 0,
+   "explain": "{降|ふ}ります est un verbe → ました."
+  },
+  {
+   "id": "past-mix-03",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "きのうはとても{寒|さむ}＿。",
+   "fr": "Hier, il faisait très froid.",
+   "choices": [
+    "かったです",
+    "いでした",
+    "いました",
+    "かったでした"
+   ],
+   "a": 0,
+   "explain": "{寒|さむ}い est un adjectif en い → かったです."
+  },
+  {
+   "id": "past-mix-04",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "パーティーはにぎやか＿。",
+   "fr": "La fête était animée.",
+   "choices": [
+    "でした",
+    "かったです",
+    "ました",
+    "ありました"
+   ],
+   "a": 0,
+   "explain": "にぎやか est un adjectif en な → でした."
+  },
+  {
+   "id": "past-mix-05",
+   "type": "choice",
+   "uses": [
+    "n5-06",
+    "n5-07"
+   ],
+   "jp": "{先週|せんしゅう}、テストが＿。",
+   "fr": "La semaine dernière, il y a eu un contrôle.",
+   "choices": [
+    "ありました",
+    "でした",
+    "いました",
+    "かったです"
+   ],
+   "a": 0,
+   "explain": "Un événement qui a eu lieu → ありました."
+  },
+  {
+   "id": "past-mix-06",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "テストはむずかし＿。",
+   "fr": "Le contrôle était difficile.",
+   "choices": [
+    "かったです",
+    "いでした",
+    "ました",
+    "くでした"
+   ],
+   "a": 0,
+   "explain": "むずかしい est un adjectif en い → かったです."
+  },
+  {
+   "id": "past-mix-07",
+   "type": "choice",
+   "uses": [
+    "n5-06",
+    "n5-07"
+   ],
+   "jp": "{公園|こうえん}に{子|こ}どもが＿。",
+   "fr": "Il y avait des enfants au parc.",
+   "choices": [
+    "いました",
+    "ありました",
+    "でした",
+    "かったです"
+   ],
+   "a": 0,
+   "explain": "Des personnes → います → いました."
+  },
+  {
+   "id": "past-mix-08",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "{部屋|へや}はきれい＿。",
+   "fr": "La chambre était propre.",
+   "choices": [
+    "でした",
+    "かったです",
+    "ました",
+    "くなかったです"
+   ],
+   "a": 0,
+   "explain": "Piège : きれい est un adjectif en な → でした."
+  },
+  {
+   "id": "past-mix-09",
+   "type": "choice",
+   "uses": [
+    "n5-06"
+   ],
+   "jp": "{週末|しゅうまつ}は{映画|えいが}を{見|み}＿。",
+   "fr": "Ce week-end, j'ai regardé un film.",
+   "choices": [
+    "ました",
+    "でした",
+    "かったです",
+    "ありました"
+   ],
+   "a": 0,
+   "explain": "{見|み}ます est un verbe → ました."
+  },
+  {
+   "id": "past-mix-10",
+   "type": "choice",
+   "uses": [
+    "n5-10"
+   ],
+   "jp": "{旅行|りょこう}は{楽|たの}し＿。",
+   "fr": "Le voyage était amusant.",
+   "choices": [
+    "かったです",
+    "いでした",
+    "ました",
+    "でした"
+   ],
+   "a": 0,
+   "explain": "{楽|たの}しい est un adjectif en い → かったです."
+  },
+  {
+   "id": "past-mix-11",
+   "type": "choice",
+   "uses": [
+    "n5-06",
+    "n5-10"
+   ],
+   "q": "Pour parler du temps qu'il faisait hier, laquelle de ces phrases est **fausse** ?",
+   "choices": [
+    "きのうは{雨|あめ}かったです。",
+    "きのうは{雨|あめ}でした。",
+    "きのう、{雨|あめ}が{降|ふ}りました。",
+    "きのうは{寒|さむ}かったです。"
+   ],
+   "a": 0,
+   "explain": "{雨|あめ} est un nom : かった ne marche qu'avec un adjectif en い. On dit {雨|あめ}でした (nom) ou {雨|あめ}が{降|ふ}りました (verbe)."
+  },
+  {
+   "id": "past-mix-12",
+   "type": "choice",
+   "uses": [
+    "n5-06",
+    "n5-07"
+   ],
+   "q": "Comment dire naturellement « Hier, il a plu » ?",
+   "choices": [
+    "きのう、{雨|あめ}が{降|ふ}りました。",
+    "きのう、{雨|あめ}がありました。",
+    "きのう、{雨|あめ}が{降|ふ}りでした。",
+    "きのう、{雨|あめ}かったです。"
+   ],
+   "a": 0,
+   "explain": "La pluie « tombe » : {降|ふ}ります → {降|ふ}りました. {雨|あめ}がありました se comprend mais ne sonne pas naturel."
   }
  ]
 }

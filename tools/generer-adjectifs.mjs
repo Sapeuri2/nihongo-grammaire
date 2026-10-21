@@ -119,10 +119,93 @@ for (const [id, a, fr, subj, noun, lesson, trap] of NA) {
   conjugation('na', id, a, fr, subj, 'ppastneg', `${a}じゃなかった`, [`${cut}くなかった`, `${a}じゃないだった`, `${a}なかった`], ['n5-26', ...base], `${why} Passé négatif familier : じゃなかった.`);
 }
 
+// ---------- Quel passé ? でした / ました / かったです / ありました ----------
+// [id, mot affiché, radical à conjuguer, sens, type, leçons]
+const PAST = [
+  ['ame', '{雨|あめ}', '{雨|あめ}', 'pluie', 'nom', ['n5-06']],
+  ['nichiyoubi', '{日曜日|にちようび}', '{日曜日|にちようび}', 'dimanche', 'nom', ['n5-06']],
+  ['nihonjin', '{日本人|にほんじん}', '{日本人|にほんじん}', 'Japonais', 'nom', ['n5-06']],
+  ['tesuto', 'テスト', 'テスト', 'contrôle', 'nom', ['n5-06']],
+  ['gakusei', '{学生|がくせい}', '{学生|がくせい}', 'étudiant', 'nom', ['n5-06']],
+  ['taberu', '{食|た}べます', '{食|た}べ', 'manger', 'verbe', ['n5-06']],
+  ['nomu', '{飲|の}みます', '{飲|の}み', 'boire', 'verbe', ['n5-06']],
+  ['iku', '{行|い}きます', '{行|い}き', 'aller', 'verbe', ['n5-06']],
+  ['furu', '{降|ふ}ります', '{降|ふ}り', 'tomber (pluie, neige)', 'verbe', ['n5-06']],
+  ['miru', '{見|み}ます', '{見|み}', 'regarder', 'verbe', ['n5-06']],
+  ['aru', 'あります', 'あり', 'il y a (objet, événement)', 'verbe', ['n5-06', 'n5-07']],
+  ['iru', 'います', 'い', 'il y a (personne, animal)', 'verbe', ['n5-06', 'n5-07']],
+  ['samui', '{寒|さむ}い', '{寒|さむ}', 'froid', 'い', ['n5-10']],
+  ['atsui', '{暑|あつ}い', '{暑|あつ}', 'chaud', 'い', ['n5-10']],
+  ['tanoshii', '{楽|たの}しい', '{楽|たの}し', 'amusant', 'い', ['n5-10']],
+  ['oishii', 'おいしい', 'おいし', 'bon (au goût)', 'い', ['n5-10']],
+  ['ii', 'いい', 'よ', 'bien, bon', 'い', ['n5-10']],
+  ['shizuka', '{静|しず}か', '{静|しず}か', 'calme', 'な', ['n5-10']],
+  ['kirei', 'きれい', 'きれい', 'beau, propre', 'な', ['n5-10']],
+  ['hima', 'ひま', 'ひま', 'libre', 'な', ['n5-10']],
+  ['genki', '{元気|げんき}', '{元気|げんき}', 'en forme', 'な', ['n5-10']],
+];
+const TYPE_NAME = { nom: 'un nom', verbe: 'un verbe', い: 'un adjectif en い', な: 'un adjectif en な' };
+
+for (const [id, word, r, fr, type, uses] of PAST) {
+  // `r` est ce qu'on conjugue ; pour いい le bon radical est よ, le mauvais い.
+  const w = id === 'ii' ? 'いい' : word;
+  const cut = id === 'kirei' ? 'きれ' : r;
+  const forms = {
+    nom: { aff: [`${r}でした`, `${r}ました`, `${r}かったです`, `${r}だでした`], neg: [`${r}じゃありませんでした`, `${r}ませんでした`, `${r}くなかったです`, `${r}ないでした`] },
+    verbe: { aff: [`${r}ました`, `${r}でした`, `${r}かったです`, `${r}ますでした`], neg: [`${r}ませんでした`, `${r}じゃありませんでした`, `${r}くなかったです`, `${r}ましたじゃありません`] },
+    い: { aff: [`${r}かったです`, `${w}でした`, `${w}ました`, id === 'ii' ? 'いかったです' : `${w}かったです`], neg: [`${r}くなかったです`, `${w}じゃありませんでした`, `${w}ませんでした`, `${r}くないでした`] },
+    な: { aff: [`${r}でした`, `${cut}かったです`, `${r}ました`, `${r}なでした`], neg: [`${r}じゃありませんでした`, `${cut}くなかったです`, `${r}ませんでした`, `${r}じゃないでした`] },
+  }[type];
+  const rule = {
+    nom: 'Un nom → でした / じゃありませんでした (jamais ました ni かった).',
+    verbe: 'Un verbe → ます devient ました / ませんでした (jamais でした ni かった).',
+    い: id === 'ii' ? 'いい est un adjectif en い irrégulier → よかったです / よくなかったです.' : 'Un adjectif en い → い devient かったです / くなかったです (jamais でした).',
+    な: `${id === 'kirei' ? 'Piège : きれい est un adjectif en な. ' : ''}Un adjectif en な → でした / じゃありませんでした, comme un nom.`,
+  }[type];
+  for (const [form, label] of [['aff', 'passé poli'], ['neg', 'passé négatif poli']]) {
+    add({
+      id: `past-${id}-${form}`, type: 'choice', uses,
+      q: `${label[0].toUpperCase() + label.slice(1)} de ${word} (${fr}) ?`,
+      choices: forms[form], a: 0,
+      explain: `${word} est ${TYPE_NAME[type]}. ${rule}`,
+    });
+  }
+}
+
+// Phrases qui mélangent les types : il faut d'abord reconnaître le mot avant le trou.
+const MIX = [
+  ['n5-06', 'きのうは{雨|あめ}＿。', 'Hier, c\'était un temps de pluie.', ['でした', 'ました', 'かったです', 'かったでした'], '{雨|あめ} est un nom → でした.'],
+  ['n5-06', 'きのう、{雨|あめ}が{降|ふ}り＿。', 'Hier, il a plu.', ['ました', 'でした', 'かったです', 'ありました'], '{降|ふ}ります est un verbe → ました.'],
+  ['n5-10', 'きのうはとても{寒|さむ}＿。', 'Hier, il faisait très froid.', ['かったです', 'いでした', 'いました', 'かったでした'], '{寒|さむ}い est un adjectif en い → かったです.'],
+  ['n5-10', 'パーティーはにぎやか＿。', 'La fête était animée.', ['でした', 'かったです', 'ました', 'ありました'], 'にぎやか est un adjectif en な → でした.'],
+  ['n5-07', '{先週|せんしゅう}、テストが＿。', 'La semaine dernière, il y a eu un contrôle.', ['ありました', 'でした', 'いました', 'かったです'], 'Un événement qui a eu lieu → ありました.'],
+  ['n5-10', 'テストはむずかし＿。', 'Le contrôle était difficile.', ['かったです', 'いでした', 'ました', 'くでした'], 'むずかしい est un adjectif en い → かったです.'],
+  ['n5-07', '{公園|こうえん}に{子|こ}どもが＿。', 'Il y avait des enfants au parc.', ['いました', 'ありました', 'でした', 'かったです'], 'Des personnes → います → いました.'],
+  ['n5-10', '{部屋|へや}はきれい＿。', 'La chambre était propre.', ['でした', 'かったです', 'ました', 'くなかったです'], 'Piège : きれい est un adjectif en な → でした.'],
+  ['n5-06', '{週末|しゅうまつ}は{映画|えいが}を{見|み}＿。', 'Ce week-end, j\'ai regardé un film.', ['ました', 'でした', 'かったです', 'ありました'], '{見|み}ます est un verbe → ました.'],
+  ['n5-10', '{旅行|りょこう}は{楽|たの}し＿。', 'Le voyage était amusant.', ['かったです', 'いでした', 'ました', 'でした'], '{楽|たの}しい est un adjectif en い → かったです.'],
+];
+MIX.forEach(([lesson, jp, fr, choices, explain], i) => add({
+  id: `past-mix-${String(i + 1).padStart(2, '0')}`, type: 'choice', uses: lesson === 'n5-07' ? ['n5-06', 'n5-07'] : [lesson],
+  jp, fr, choices, a: 0, explain,
+}));
+add({
+  id: 'past-mix-11', type: 'choice', uses: ['n5-06', 'n5-10'],
+  q: 'Pour parler du temps qu\'il faisait hier, laquelle de ces phrases est **fausse** ?',
+  choices: ['きのうは{雨|あめ}かったです。', 'きのうは{雨|あめ}でした。', 'きのう、{雨|あめ}が{降|ふ}りました。', 'きのうは{寒|さむ}かったです。'], a: 0,
+  explain: '{雨|あめ} est un nom : かった ne marche qu\'avec un adjectif en い. On dit {雨|あめ}でした (nom) ou {雨|あめ}が{降|ふ}りました (verbe).',
+});
+add({
+  id: 'past-mix-12', type: 'choice', uses: ['n5-06', 'n5-07'],
+  q: 'Comment dire naturellement « Hier, il a plu » ?',
+  choices: ['きのう、{雨|あめ}が{降|ふ}りました。', 'きのう、{雨|あめ}がありました。', 'きのう、{雨|あめ}が{降|ふ}りでした。', 'きのう、{雨|あめ}かったです。'], a: 0,
+  explain: 'La pluie « tombe » : {降|ふ}ります → {降|ふ}りました. {雨|あめ}がありました se comprend mais ne sonne pas naturel.',
+});
+
 const focus = {
   id: 'adj-i-na',
   label: 'い・な',
-  title: 'Adjectifs : い ou な ?',
+  title: 'い ou な ? Et quel passé ?',
   unlockAfter: 'n5-09',
   sheet: {
     sections: [
@@ -157,8 +240,36 @@ const focus = {
           '**Indice** : un mot de deux kanji ({有名|ゆうめい}, {便利|べんり}, {元気|げんき}, {親切|しんせつ}, {大切|たいせつ}) est presque toujours un な. Un kanji + い en hiragana ({高|たか}い, {安|やす}い, {新|あたら}しい) est presque toujours un い.',
         ],
       },
+      {
+        h: 'Le passé poli : quelle fin ?',
+        p: ['Avant de choisir, demande-toi : **c\'est un nom, un adjectif (い ou な) ou un verbe ?** Chaque type a SA fin.'],
+        grid: {
+          head: ['', 'Passé', 'Passé négatif'],
+          rows: [
+            ['Nom', '{雨|あめ}==でした==', '{雨|あめ}==じゃありませんでした=='],
+            ['Adj. な', '{静|しず}か==でした==', '{静|しず}か==じゃありませんでした=='],
+            ['Adj. い', '{寒|さむ}==かったです==', '{寒|さむ}==くなかったです=='],
+            ['Verbe', '{降|ふ}り==ました==', '{降|ふ}り==ませんでした=='],
+            ['ある・いる', '==ありました== / ==いました==', '==ありませんでした== / ==いませんでした=='],
+          ],
+        },
+      },
+      {
+        h: 'La pluie d\'hier, en trois façons',
+        p: [
+          '**でした** ne va qu\'après un nom ou un adjectif en な. **ました** ne va qu\'après un verbe. **かった** n\'existe qu\'avec les adjectifs en い.',
+          '**ありました** = « il y avait / il y a eu » (un objet, un événement : テストがありました). Pour la pluie, {雨|あめ}がありました se comprend mais ne sonne pas naturel.',
+        ],
+        ex: [
+          { jp: 'きのうは{雨|あめ}==でした==。', fr: 'Hier, c\'était un temps de pluie. ({雨|あめ} = nom)' },
+          { jp: 'きのう、{雨|あめ}が{降|ふ}り==ました==。', fr: 'Hier, il a plu. ({降|ふ}ります = verbe)' },
+          { jp: 'きのうは{寒|さむ}==かったです==。', fr: 'Hier, il faisait froid. ({寒|さむ}い = adjectif en い)' },
+          { jp: '{先週|せんしゅう}、テストが==ありました==。', fr: 'La semaine dernière, il y a eu un contrôle. (あります = il y a)' },
+        ],
+      },
     ],
     pieges: [
+      '{寒|さむ}いでした ✗ → {寒|さむ}かったです · {雨|あめ}かったです ✗ → {雨|あめ}でした · {降|ふ}りでした ✗ → {降|ふ}りました.',
       'Les **faux い** : **きれい**, **きらい**, **{有名|ゆうめい}** (ゆうめい) sont des adjectifs en な → きれいじゃありません, きれいでした (jamais きれくない, きれかった).',
       '**いい** est irrégulier : **よ**くない, **よ**かった, **よ**くなかった.',
       'Jamais です au passé d\'un い : {高|たか}いでした ✗ → {高|たか}かったです.',
