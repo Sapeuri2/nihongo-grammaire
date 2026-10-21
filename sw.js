@@ -12,7 +12,8 @@ self.addEventListener('install', e => {
 self.addEventListener('activate', e => {
   e.waitUntil(
     caches.keys()
-      .then(keys => Promise.all(keys.filter(k => k !== CACHE).map(k => caches.delete(k))))
+      // Ne supprime que nos anciens caches : d'autres applis peuvent partager le même domaine.
+      .then(keys => Promise.all(keys.filter(k => k.startsWith('ng-') && k !== CACHE).map(k => caches.delete(k))))
       .then(() => self.clients.claim()),
   );
 });
