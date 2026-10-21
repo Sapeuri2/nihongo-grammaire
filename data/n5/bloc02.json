@@ -609,5 +609,99 @@
       "jp": "きのうのパーティーは＿です。", "fr": "La fête d'hier était bien.",
       "choices": ["よかった", "いかった", "いいでした", "よくなかった"], "a": 0
     }
+  ],
+  "examTest": [
+    {
+      "id": "n5-x01-01", "type": "choice", "uses": ["n5-03", "n5-09", "n5-10"],
+      "q": "Mets au passé négatif : この{部屋|へや}は{静|しず}かです。",
+      "choices": ["この{部屋|へや}は{静|しず}かじゃありませんでした。", "この{部屋|へや}は{静|しず}かくなかったです。", "この{部屋|へや}は{静|しず}かじゃありません。", "この{部屋|へや}は{静|しず}かでしたじゃありません。"], "a": 0,
+      "explain": "{静|しず}か est un adjectif en な : il se conjugue comme un nom → じゃありませんでした."
+    },
+    {
+      "id": "n5-x01-02", "type": "choice", "uses": ["n5-02", "n5-07", "n5-08"],
+      "q": "Une seule de ces phrases est correcte. Laquelle ?",
+      "choices": ["{駅|えき}の{前|まえ}に{大|おお}きい{銀行|ぎんこう}があります。", "{駅|えき}の{前|まえ}で{大|おお}きい{銀行|ぎんこう}があります。", "{駅|えき}の{前|まえ}に{大|おお}きいな{銀行|ぎんこう}があります。", "{駅|えき}の{前|まえ}に{大|おお}きい{銀行|ぎんこう}がいます。"], "a": 0,
+      "explain": "Existence → に ; adjectif en い sans な ; une banque → あります."
+    },
+    {
+      "id": "n5-x01-03", "type": "choice", "uses": ["n5-05", "n5-06", "n5-09"],
+      "q": "Une seule de ces phrases est correcte. Laquelle ?",
+      "choices": ["{先週|せんしゅう}、{東京|とうきょう}で{有名|ゆうめい}な{店|みせ}に{行|い}きました。", "{先週|せんしゅう}に、{東京|とうきょう}で{有名|ゆうめい}な{店|みせ}に{行|い}きました。", "{先週|せんしゅう}、{東京|とうきょう}で{有名|ゆうめい}の{店|みせ}に{行|い}きました。", "{先週|せんしゅう}、{東京|とうきょう}で{有名|ゆうめい}な{店|みせ}を{行|い}きました。"], "a": 0,
+      "explain": "{先週|せんしゅう} sans に ; {有名|ゆうめい}な + nom ; destination → に."
+    },
+    {
+      "id": "n5-x01-04", "type": "choice", "uses": ["n5-02", "n5-08"],
+      "jp": "{田中|たなか}さんの{車|くるま}は{新|あたら}しいですか。— いいえ、＿。",
+      "fr": "La voiture de M. Tanaka est neuve ? — Non, elle est vieille.",
+      "choices": ["{古|ふる}いです", "{古|ふる}くないです", "{新|あたら}しいです", "{古|ふる}いじゃありません"], "a": 0,
+      "explain": "« Non, elle n'est pas neuve » = elle est vieille : {古|ふる}いです."
+    },
+    {
+      "id": "n5-x01-05", "type": "order", "uses": ["n5-04", "n5-06", "n5-07"],
+      "fr": "Hier, il n'y avait pas de chat dans le jardin.",
+      "tokens": ["きのう", "{庭|にわ}", "に", "ねこ", "は", "いませんでした"],
+      "alt": [["ねこ", "は", "きのう", "{庭|にわ}", "に", "いませんでした"]]
+    },
+    {
+      "id": "n5-x01-06", "type": "choice", "uses": ["n5-03", "n5-08", "n5-10"],
+      "q": "On te demande : この{本|ほん}、おもしろいですか。 Tu l'as lu et tu ne l'as pas trouvé terrible. Que réponds-tu ?",
+      "choices": ["あまりおもしろくなかったです。", "あまりおもしろかったです。", "あまりおもしろくないでした。", "あまりおもしろいでした。"], "a": 0,
+      "explain": "あまり + négatif ; passé négatif d'un adjectif en い : くなかったです."
+    },
+    {
+      "id": "n5-x01-07", "type": "choice", "uses": ["n5-03", "n5-07", "n5-09"],
+      "jp": "あそこに{高|たか}い{建物|たてもの}がありますね。— ＿は{有名|ゆうめい}なホテルです。",
+      "fr": "Il y a un grand bâtiment là-bas, hein. — Ça, c'est un hôtel célèbre.",
+      "choices": ["あれ", "これ", "あの", "あそこの"], "a": 0,
+      "explain": "Le bâtiment est loin des deux → あれ, seul devant は."
+    },
+    {
+      "id": "n5-x01-08", "type": "choice", "uses": ["n5-06", "n5-10"],
+      "q": "Laquelle veut dire « Hier, ce n'était pas un jour de congé (休み) » ?",
+      "choices": ["きのうは{休|やす}みじゃありませんでした。", "きのうは{休|やす}みませんでした。", "きのうは{休|やす}みじゃありません。", "きのうは{休|やす}みくなかったです。"], "a": 0,
+      "explain": "{休|やす}み est ici un nom → じゃありませんでした. {休|やす}みませんでした (verbe) veut dire « je ne me suis pas reposé »."
+    },
+    {
+      "id": "n5-x01-09", "type": "order", "uses": ["n5-02", "n5-07", "n5-08"],
+      "fr": "Il y a un vieux restaurant derrière la gare.",
+      "tokens": ["{駅|えき}", "の", "うしろ", "に", "{古|ふる}い", "レストラン", "が", "あります"],
+      "alt": [["{古|ふる}い", "レストラン", "が", "{駅|えき}", "の", "うしろ", "に", "あります"]]
+    },
+    {
+      "id": "n5-x01-10", "type": "choice", "uses": ["n5-05", "n5-06", "n5-09", "n5-10"],
+      "jp": "{日曜日|にちようび}、{友|とも}だちの{家|いえ}に{行|い}きました。{家|いえ}はとてもきれい＿。",
+      "fr": "Dimanche, je suis allé chez un ami. Sa maison était très propre.",
+      "choices": ["でした", "かったです", "いでした", "くなかったです"], "a": 0,
+      "explain": "きれい est un adjectif en な → でした."
+    },
+    {
+      "id": "n5-x01-11", "type": "choice", "uses": ["n5-02", "n5-07", "n5-08"],
+      "q": "Trouve l'erreur : {私|わたし}の{部屋|へや}に{古|ふる}いテレビがいます。",
+      "choices": ["います → あります", "に → で", "{古|ふる}い → {古|ふる}いな", "の → は"], "a": 0,
+      "explain": "Une télé est un objet → あります."
+    },
+    {
+      "id": "n5-x01-12", "type": "choice", "uses": ["n5-01", "n5-02", "n5-03"],
+      "jp": "これは{山田|やまだ}さんのかさですか。— いいえ、{山田|やまだ}さんの＿。{私|わたし}のです。",
+      "fr": "C'est le parapluie de Mme Yamada ? — Non, ce n'est pas le sien. C'est le mien.",
+      "choices": ["じゃありません", "です", "でした", "ですか"], "a": 0
+    },
+    {
+      "id": "n5-x01-13", "type": "choice", "uses": ["n5-09", "n5-10"],
+      "q": "Tu racontes ton voyage : « La ville était animée. La chambre n'était pas propre. » Laquelle est correcte ?",
+      "choices": ["{町|まち}はにぎやかでした。{部屋|へや}はきれいじゃありませんでした。", "{町|まち}はにぎやかかったです。{部屋|へや}はきれいじゃありませんでした。", "{町|まち}はにぎやかでした。{部屋|へや}はきれくなかったです。", "{町|まち}はにぎやかでした。{部屋|へや}はきれいじゃありません。"], "a": 0,
+      "explain": "にぎやか et きれい sont des adjectifs en な, et tout est au passé."
+    },
+    {
+      "id": "n5-x01-14", "type": "order", "uses": ["n5-02", "n5-03", "n5-06", "n5-07"],
+      "fr": "Où étais-tu dimanche dernier ?",
+      "tokens": ["{先週|せんしゅう}", "の", "{日曜日|にちようび}", "は", "どこ", "に", "いました", "か"]
+    },
+    {
+      "id": "n5-x01-15", "type": "choice", "uses": ["n5-01", "n5-02", "n5-03"],
+      "q": "On te montre une photo : この{人|ひと}はだれですか。 C'est ton professeur de japonais. Que réponds-tu ?",
+      "choices": ["{私|わたし}の{日本語|にほんご}の{先生|せんせい}です。", "{私|わたし}は{日本語|にほんご}の{先生|せんせい}です。", "{私|わたし}の{先生|せんせい}の{日本語|にほんご}です。", "{私|わたし}の{日本語|にほんご}は{先生|せんせい}です。"], "a": 0,
+      "explain": "A の B の C : le nom principal ({先生|せんせい}) est à la fin. {私|わたし}は… voudrait dire que c'est toi le professeur."
+    }
   ]
 }

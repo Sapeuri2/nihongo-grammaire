@@ -1,9 +1,13 @@
 // Hors ligne : on prend toujours la version du réseau si possible, sinon celle en cache.
-const CACHE = 'ng-v1';
+// Le nom du cache dépend de l'adresse de l'appli : plusieurs applis peuvent partager le domaine.
+const PREFIX = `cache:${new URL(self.registration.scope).pathname}:`;
+const CACHE = `${PREFIX}v1`;
 const CORE = [
-  './', 'index.html', 'css/style.css', 'js/app.js', 'js/state.js', 'js/sync.js', 'js/text.js',
-  'data/manifest.json', 'manifest.webmanifest', 'icons/icon-192.png',
+  './', 'index.html', 'css/style.css', 'css/theme.css', 'js/app.js', 'js/state.js', 'js/sync.js', 'js/text.js',
+  'js/config.js', 'data/manifest.json', 'manifest.webmanifest', 'icons/icon-192.png',
 ];
+// Anciens noms de cache de la première version de cette appli.
+const LEGACY = ['ng-v1'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(CORE)).then(() => self.skipWaiting()));
@@ -13,7 +17,7 @@ self.addEventListener('activate', e => {
   e.waitUntil(
     caches.keys()
       // Ne supprime que nos anciens caches : d'autres applis peuvent partager le même domaine.
-      .then(keys => Promise.all(keys.filter(k => k.startsWith('ng-') && k !== CACHE).map(k => caches.delete(k))))
+      .then(keys => Promise.all(keys.filter(k => (k.startsWith(PREFIX) && k !== CACHE) || LEGACY.includes(k)).map(k => caches.delete(k))))
       .then(() => self.clients.claim()),
   );
 });

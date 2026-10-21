@@ -109,6 +109,7 @@ details.card[open] summary { margin-bottom: .5em; }
 .steps .test .lbl, .card.exam .lbl { font-weight: 700; }
 .card.exam { padding: 6px 14px; border-width: 2px; }
 .card.exam.current { border-color: var(--accent); }
+.card.exam.mini { border-style: dashed; }
 .ico { width: 1.4em; text-align: center; flex: none; }
 .done .ico { color: var(--good); }
 .current .ico { color: var(--accent); }

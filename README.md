@@ -11,6 +11,8 @@ Appli web perso pour apprendre la grammaire japonaise (JLPT N5 → N4, puis N3),
 
 Le plan complet des leçons est dans [PROGRAMME.md](PROGRAMME.md).
 
+Le code est un **moteur partagé** avec d'autres applis (vocabulaire…) : voir [MOTEUR.md](MOTEUR.md). Les réglages propres à cette appli sont dans `js/config.js` et `css/theme.css`.
+
 ## Lancer en local
 
 ```sh

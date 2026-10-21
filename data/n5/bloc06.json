@@ -500,5 +500,90 @@
       "jp": "{友|とも}だちが＿{料理|りょうり}はおいしかったです。", "fr": "Le plat que mon ami a cuisiné était bon.",
       "choices": ["{作|つく}った", "{作|つく}りました", "{作|つく}って", "{作|つく}ったの"], "a": 0
     }
+  ],
+  "examTest": [
+    {
+      "id": "n5-x03-01", "type": "choice", "uses": ["n5-15", "n5-25"],
+      "q": "Une seule de ces phrases est correcte. Laquelle ?",
+      "choices": ["{日本|にほん}に{行|い}ったことがありますが、すしを{食|た}べたことはありません。", "{日本|にほん}に{行|い}ったのことがありますが、すしを{食|た}べたことはありません。", "{日本|にほん}に{行|い}ったことがありますが、すしを{食|た}べてことはありません。", "{日本|にほん}に{行|い}ったことをありますが、すしを{食|た}べたことはありません。"], "a": 0
+    },
+    {
+      "id": "n5-x03-02", "type": "choice", "uses": ["n5-26", "n5-28"],
+      "q": "Ton collègue t'a dit : 「あしたは{会社|かいしゃ}を{休|やす}む」. Tu le rapportes à ton chef. Que dis-tu ?",
+      "choices": ["{田中|たなか}さんは、あしたは{会社|かいしゃ}を{休|やす}むと{言|い}っていました。", "{田中|たなか}さんは、あしたは{会社|かいしゃ}を{休|やす}むだと{言|い}っていました。", "{田中|たなか}さんは、あしたは{会社|かいしゃ}を{休|やす}むを{言|い}っていました。", "{田中|たなか}さんは、あしたは{会社|かいしゃ}を{休|やす}んでと{言|い}っていました。"], "a": 0
+    },
+    {
+      "id": "n5-x03-03", "type": "order", "uses": ["n5-10", "n5-30"],
+      "fr": "Le livre que j'ai acheté hier n'était pas intéressant.",
+      "tokens": ["きのう", "{買|か}った", "{本|ほん}", "は", "おもしろくなかった", "です"]
+    },
+    {
+      "id": "n5-x03-04", "type": "choice", "uses": ["n5-21", "n5-24"],
+      "jp": "シャワーを＿、{朝|あさ}ごはんを{食|た}べて、{会社|かいしゃ}に{行|い}きました。",
+      "fr": "J'ai pris une douche, pris mon petit-déjeuner et je suis allé au bureau.",
+      "choices": ["あびて", "あびた", "あびって", "あびました"], "a": 0
+    },
+    {
+      "id": "n5-x03-05", "type": "choice", "uses": ["n5-18", "n5-30"],
+      "q": "Trouve l'erreur : {私|わたし}が{作|つく}りましたケーキを{食|た}べてください。",
+      "choices": ["{作|つく}りました → {作|つく}った", "が → は", "を → が", "{食|た}べて → {食|た}べた"], "a": 0,
+      "explain": "Devant un nom, la relative est à la forme neutre."
+    },
+    {
+      "id": "n5-x03-06", "type": "choice", "uses": ["n5-19", "n5-29"],
+      "q": "Que signifie : {週末|しゅうまつ}は{本|ほん}を{読|よ}んだり、ねたりしていました。",
+      "choices": ["Le week-end, j'ai lu, dormi… (entre autres).", "Le week-end, je lisais en dormant.", "Le week-end, j'ai lu puis dormi, dans cet ordre.", "Le week-end, je dois lire et dormir."], "a": 0
+    },
+    {
+      "id": "n5-x03-07", "type": "choice", "uses": ["n5-23"],
+      "jp": "この{薬|くすり}は{毎日|まいにち}{飲|の}ま＿なりません。でも、お{酒|さけ}といっしょに{飲|の}まないでください。",
+      "fr": "Ce médicament doit être pris tous les jours. Mais ne le prenez pas avec de l'alcool.",
+      "choices": ["なければ", "ないで", "なくて", "ない"], "a": 0
+    },
+    {
+      "id": "n5-x03-08", "type": "order", "uses": ["n5-24", "n5-27"],
+      "fr": "Je pense que Mme Yamada est rentrée chez elle.",
+      "tokens": ["{山田|やまだ}さん", "は", "{家|いえ}", "に", "{帰|かえ}った", "と", "{思|おも}います"]
+    },
+    {
+      "id": "n5-x03-09", "type": "choice", "uses": ["n5-24", "n5-26"],
+      "q": "(Entre amis) きのう、パーティーに{行|い}った？ Tu n'y es pas allé. Que réponds-tu ? (ううん = non, familier)",
+      "choices": ["ううん、{行|い}かなかった。", "ううん、{行|い}かない。", "ううん、{行|い}きませんだった。", "ううん、{行|い}ったない。"], "a": 0
+    },
+    {
+      "id": "n5-x03-10", "type": "choice", "uses": ["n5-09", "n5-21"],
+      "jp": "この{店|みせ}は{安|やす}くて、＿、いい{店|みせ}です。",
+      "fr": "Ce magasin est bon marché, propre, c'est un bon magasin.",
+      "choices": ["きれいで", "きれくて", "きれいて", "きれいくて"], "a": 0
+    },
+    {
+      "id": "n5-x03-11", "type": "choice", "uses": ["n5-25"],
+      "q": "Laquelle veut dire « Je n'ai jamais dit ça » ?",
+      "choices": ["{私|わたし}はそう{言|い}ったことがありません。", "{私|わたし}はそう{言|い}ってことがありません。", "{私|わたし}はそう{言|い}ったことがあります。", "{私|わたし}はそう{言|い}ったのことがありません。"], "a": 0
+    },
+    {
+      "id": "n5-x03-12", "type": "order", "uses": ["n5-05", "n5-21"],
+      "fr": "Je rentre chez moi, je prends une douche et je me couche.",
+      "tokens": ["うち", "に", "{帰|かえ}って", "シャワー", "を", "あびて", "ねます"]
+    },
+    {
+      "id": "n5-x03-13", "type": "choice", "uses": ["n5-11", "n5-19", "n5-30"],
+      "jp": "{日本語|にほんご}が＿{人|ひと}をさがしています。",
+      "fr": "Je cherche quelqu'un qui comprend le japonais.",
+      "choices": ["わかる", "わかります", "わかって", "わかるの"], "a": 0
+    },
+    {
+      "id": "n5-x03-14", "type": "choice", "uses": ["n5-22", "n5-23"],
+      "q": "Une seule de ces phrases est correcte. Laquelle ?",
+      "choices": ["ここでたばこをすわないでください。", "ここでたばこをすいないでください。", "ここでたばこをすわなくてください。", "ここでたばこをすうないでください。"], "a": 0,
+      "explain": "すう → すわない (う → わ) → すわないでください."
+    },
+    {
+      "id": "n5-x03-15", "type": "choice", "uses": ["n5-09", "n5-27", "n5-30"],
+      "jp": "{田中|たなか}さんは{親切|しんせつ}＿{人|ひと}だと{思|おも}います。",
+      "fr": "Je pense que M. Tanaka est quelqu'un de gentil.",
+      "choices": ["な", "だ", "の", "で"], "a": 0,
+      "explain": "Devant le nom {人|ひと}, l'adjectif en な garde な. Le だ vient après {人|ひと}."
+    }
   ]
 }

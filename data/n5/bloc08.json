@@ -488,5 +488,90 @@
       "jp": "{何|なに}か＿ものがありますか。", "fr": "Il y a quelque chose à manger ?",
       "choices": ["{食|た}べる", "{食|た}べます", "{食|た}べて", "{食|た}べるの"], "a": 0
     }
+  ],
+  "examTest": [
+    {
+      "id": "n5-x04-01", "type": "choice", "uses": ["n5-32"],
+      "q": "Une seule de ces phrases est correcte. Laquelle ?",
+      "choices": ["{日本|にほん}に{行|い}くまえに、{日本語|にほんご}を{勉強|べんきょう}しました。", "{日本|にほん}に{行|い}ったまえに、{日本語|にほんご}を{勉強|べんきょう}しました。", "{日本|にほん}に{行|い}くあとで、{日本語|にほんご}を{勉強|べんきょう}しました。", "{日本|にほん}に{行|い}きますまえに、{日本語|にほんご}を{勉強|べんきょう}しました。"], "a": 0
+    },
+    {
+      "id": "n5-x04-02", "type": "choice", "uses": ["n5-19", "n5-38"],
+      "jp": "{雨|あめ}が{降|ふ}っている＿、{今日|きょう}は{出|で}かけません。",
+      "fr": "Comme il pleut, je ne sors pas aujourd'hui.",
+      "choices": ["ので", "なので", "だので", "のでに"], "a": 0
+    },
+    {
+      "id": "n5-x04-03", "type": "order", "uses": ["n5-13", "n5-33", "n5-37"],
+      "fr": "Quand j'étais petit, je voulais devenir médecin.",
+      "tokens": ["{子|こ}ども", "の", "とき", "{医者|いしゃ}", "に", "なりたかった", "です"]
+    },
+    {
+      "id": "n5-x04-04", "type": "choice", "uses": ["n5-26", "n5-36"],
+      "q": "Ton ami : もう{宿題|しゅくだい}、した？ Tu ne l'as pas encore fait. Réponse familière ? (ううん = non)",
+      "choices": ["ううん、まだ。", "ううん、もう。", "うん、まだしなかった。", "ううん、まだした。"], "a": 0
+    },
+    {
+      "id": "n5-x04-05", "type": "choice", "uses": ["n5-08", "n5-31"],
+      "jp": "{東京|とうきょう}は{大阪|おおさか}より{人|ひと}が＿です。",
+      "fr": "Il y a plus de monde à Tokyo qu'à Osaka.",
+      "choices": ["{多|おお}い", "{多|おお}くて", "{多|おお}いの", "{多|おお}いだ"], "a": 0
+    },
+    {
+      "id": "n5-x04-06", "type": "choice", "uses": ["n5-12", "n5-15", "n5-37"],
+      "q": "Trouve l'erreur : {寒|さむ}いになりましたから、コートを{着|き}て{出|で}かけましょう。",
+      "choices": ["{寒|さむ}いに → {寒|さむ}く", "から → ので", "{着|き}て → {着|き}た", "{出|で}かけましょう → {出|で}かけません"], "a": 0,
+      "explain": "Adjectif en い + なる : くなる. (から → ので serait aussi correct : ce n'est pas l'erreur.)"
+    },
+    {
+      "id": "n5-x04-07", "type": "choice", "uses": ["n5-12", "n5-40"],
+      "jp": "のどがかわきましたね。— じゃあ、コンビニに{飲|の}み{物|もの}を{買|か}い＿{行|い}きましょう。",
+      "fr": "J'ai soif. — Alors allons acheter à boire à la supérette.",
+      "choices": ["に", "て", "を", "たい"], "a": 0
+    },
+    {
+      "id": "n5-x04-08", "type": "order", "uses": ["n5-19", "n5-35", "n5-39"],
+      "fr": "Je n'ai rien mangé depuis ce matin.",
+      "tokens": ["けさ", "から", "{何|なに}", "も", "{食|た}べていません"]
+    },
+    {
+      "id": "n5-x04-09", "type": "choice", "uses": ["n5-35", "n5-39"],
+      "jp": "だれ＿{電話|でんわ}がありましたか。— いいえ、だれからもありませんでした。",
+      "fr": "Quelqu'un a appelé ? — Non, personne.",
+      "choices": ["かから", "から", "も", "が"], "a": 0,
+      "explain": "La réponse est いいえ : la question est « quelqu'un ? » → だれか + から. だれから (« de qui ? ») attendrait un nom en réponse."
+    },
+    {
+      "id": "n5-x04-10", "type": "choice", "uses": ["n5-10", "n5-31"],
+      "q": "Laquelle veut dire « Le film d'hier était plus intéressant que celui d'aujourd'hui » ?",
+      "choices": ["きのうの{映画|えいが}は{今日|きょう}の{映画|えいが}よりおもしろかったです。", "{今日|きょう}の{映画|えいが}はきのうの{映画|えいが}よりおもしろかったです。", "きのうの{映画|えいが}は{今日|きょう}の{映画|えいが}よりおもしろいでした。", "きのうの{映画|えいが}は{今日|きょう}の{映画|えいが}よりおもしろいかったです。"], "a": 0
+    },
+    {
+      "id": "n5-x04-11", "type": "choice", "uses": ["n5-26", "n5-28"],
+      "jp": "{先生|せんせい}は、テストは{来週|らいしゅう}＿と{言|い}っていました。",
+      "fr": "Le professeur a dit que le contrôle aurait lieu la semaine prochaine.",
+      "choices": ["だ", "です", "の", "な"], "a": 0
+    },
+    {
+      "id": "n5-x04-12", "type": "order", "uses": ["n5-02", "n5-25"],
+      "fr": "Je n'ai jamais mangé de cuisine coréenne.",
+      "tokens": ["かんこく", "の", "{料理|りょうり}", "を", "{食|た}べた", "こと", "が", "ありません"]
+    },
+    {
+      "id": "n5-x04-13", "type": "choice", "uses": ["n5-29", "n5-33", "n5-40"],
+      "q": "Une seule de ces phrases est correcte. Laquelle ?",
+      "choices": ["ひまなとき、{映画|えいが}を{見|み}に{行|い}ったり、ゲームをしたりします。", "ひまのとき、{映画|えいが}を{見|み}に{行|い}ったり、ゲームをしたりします。", "ひまなとき、{映画|えいが}を{見|み}に{行|い}ったり、ゲームをします。", "ひまなとき、{映画|えいが}を{見|み}るに{行|い}ったり、ゲームをしたりします。"], "a": 0
+    },
+    {
+      "id": "n5-x04-14", "type": "choice", "uses": ["n5-18", "n5-33"],
+      "jp": "{部屋|へや}が{暗|くら}い＿は、{電気|でんき}をつけてください。",
+      "fr": "Quand la pièce est sombre, allumez la lumière.",
+      "choices": ["とき", "なとき", "のとき", "だとき"], "a": 0
+    },
+    {
+      "id": "n5-x04-15", "type": "order", "uses": ["n5-28", "n5-40"],
+      "fr": "Mme Yamada a dit qu'elle voulait un nouvel ordinateur.",
+      "tokens": ["{山田|やまだ}さん", "は", "{新|あたら}しい", "パソコン", "が", "ほしい", "と", "{言|い}っていました"]
+    }
   ]
 }

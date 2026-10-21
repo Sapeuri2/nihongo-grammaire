@@ -1,0 +1,24 @@
+// Réglages propres à CETTE appli. Le reste de js/ et css/style.css est le moteur partagé
+// (voir MOTEUR.md) : ne pas mettre ici de logique, seulement des valeurs.
+
+export const CONFIG = {
+  // Stockage : à changer pour chaque appli (elles partagent le domaine sapeuri2.github.io).
+  // Ne jamais modifier une fois en ligne, sinon la progression est perdue.
+  storageKey: 'ng-state-v1',
+  syncKey: 'ng-sync',
+  gistFile: 'nihongo-grammaire-progression.json',
+  gistDescription: 'Progression nihongo-grammaire (ne pas supprimer)',
+  tokenName: 'nihongo-grammaire',
+
+  // Pédagogie
+  lessonPass: 0.7, // score pour valider une leçon
+  testPass: 0.8, // score pour valider un test ou un examen
+  lessonRecall: 5, // anciens exercices mélangés à chaque série de leçon
+  testSize: 30, // test de bloc
+  miniExamSize: 40, // examen intermédiaire (2 blocs)
+  examSize: 60, // grand examen (4 blocs)
+  recallShare: 0.25, // part des questions d'un test qui reviennent sur les leçons d'avant
+  reviewSize: 20,
+  drillSize: 15,
+  maxRetries: 2, // en leçon : nombre de fois qu'une question ratée revient dans la même série
+};

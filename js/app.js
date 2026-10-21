@@ -1,14 +1,7 @@
 import { esc, plain, rich, richBlank } from './text.js';
 import * as S from './state.js';
 import * as Sync from './sync.js';
-
-const LESSON_PASS = 0.7;
-const TEST_PASS = 0.8;
-const TEST_SIZE = 20;
-const EXAM_SIZE = 40;
-const REVIEW_SIZE = 20;
-const DRILL_SIZE = 12;
-const LESSON_REVIEW_EXTRA = 3;
+import { CONFIG } from './config.js';
 
 const app = document.getElementById('app');
 let C = null; // le cours chargé
@@ -25,16 +18,16 @@ async function fetchJSON(url) {
 async function loadCourse() {
   const manifest = await fetchJSON('data/manifest.json');
   const blocks = await Promise.all(manifest.blocks.map(fetchJSON));
-  return buildCourse(blocks, manifest.examEvery || 4);
+  return buildCourse(blocks, manifest.examEvery || 4, manifest.miniExamEvery || 0);
 }
 
 const unique = a => [...new Set(a)];
 
-function buildCourse(blocks, examEvery) {
+function buildCourse(blocks, examEvery, miniEvery) {
   const c = { blocks: [], blockById: {}, lessons: [], lessonById: {}, items: {}, exams: [], examById: {}, steps: [] };
   let num = 0;
   blocks.forEach((b, bi) => {
-    const block = { ...b, index: bi, lessonIds: [], testIds: [] };
+    const block = { ...b, index: bi, lessonIds: [], testIds: [], examPoolIds: [] };
     for (const l of b.lessons) {
       const lesson = { ...l, num: ++num, blockId: b.id, itemIds: [] };
       c.lessons.push(lesson);
@@ -49,21 +42,39 @@ function buildCourse(blocks, examEvery) {
       c.items[ex.id] = { ...ex, blockId: b.id, fromTest: true, uses: unique(ex.uses?.length ? ex.uses : block.lessonIds) };
       block.testIds.push(ex.id);
     }
+    // Questions de réflexion réservées à l'examen qui suit ce bloc (première apparition).
+    for (const ex of b.examTest || []) {
+      c.items[ex.id] = { ...ex, blockId: b.id, examOnly: true, uses: unique(ex.uses?.length ? ex.uses : block.lessonIds) };
+      block.examPoolIds.push(ex.id);
+    }
     c.blocks.push(block);
     c.blockById[b.id] = block;
   });
+  let bigNum = 0;
+  let miniNum = 0;
   c.blocks.forEach((block, bi) => {
     block.lessonIds.forEach(id => c.steps.push({ type: 'lesson', id }));
     c.steps.push({ type: 'test', id: block.id });
-    if ((bi + 1) % examEvery === 0) {
-      const group = c.blocks.slice(bi + 1 - examEvery, bi + 1);
-      const lessonIds = group.flatMap(g => g.lessonIds);
-      const exam = { id: `exam-${block.id}`, num: c.exams.length + 1, lessonIds };
-      c.exams.push(exam);
-      c.examById[exam.id] = exam;
-      block.exam = exam;
-      c.steps.push({ type: 'exam', id: exam.id });
-    }
+    // Un grand examen tous les `examEvery` blocs, un examen intermédiaire entre deux.
+    let kind = null;
+    let span = 0;
+    if ((bi + 1) % examEvery === 0) { kind = 'big'; span = examEvery; }
+    else if (miniEvery && (bi + 1) % miniEvery === 0) { kind = 'mini'; span = miniEvery; }
+    if (!kind) return;
+    const group = c.blocks.slice(bi + 1 - span, bi + 1);
+    const exam = {
+      id: kind === 'big' ? `exam-${block.id}` : `mini-${block.id}`,
+      kind,
+      num: kind === 'big' ? ++bigNum : ++miniNum,
+      lessonIds: group.flatMap(g => g.lessonIds),
+      poolIds: block.examPoolIds,
+      size: kind === 'big' ? CONFIG.examSize : CONFIG.miniExamSize,
+    };
+    for (const id of exam.poolIds) c.items[id].examId = exam.id;
+    c.exams.push(exam);
+    c.examById[exam.id] = exam;
+    block.exam = exam;
+    c.steps.push({ type: 'exam', id: exam.id });
   });
   return c;
 }
@@ -87,11 +98,15 @@ function stepStatuses() {
   return out;
 }
 
+function examName(e) {
+  return e.kind === 'big' ? `Grand examen ${e.num}` : `Examen intermédiaire ${e.num}`;
+}
+
 function stepLabel(s) {
   if (s.type === 'lesson') { const l = C.lessonById[s.id]; return `Leçon ${l.num} — ${plain(l.title)}`; }
   if (s.type === 'test') return `Test du bloc ${C.blockById[s.id].index + 1}`;
   const e = C.examById[s.id];
-  return `Grand examen ${e.num} (leçons ${C.lessonById[e.lessonIds[0]].num}–${C.lessonById[e.lessonIds.at(-1)].num})`;
+  return `${examName(e)} (leçons ${C.lessonById[e.lessonIds[0]].num}–${C.lessonById[e.lessonIds.at(-1)].num})`;
 }
 
 function nextStep() {
@@ -130,12 +145,15 @@ function shuffle(a) {
   return a;
 }
 
-// Plus un exercice est raté (ou jamais vu), plus il a de chances de sortir.
+// Plus un exercice a été raté (récemment ou un jour), plus il a de chances de sortir.
+// Un exercice réussi garde toujours une petite chance de revenir.
 function weight(id) {
   const r = S.get().items[id];
   if (!r) return 2;
-  if (r.box === 0) return 4;
-  return r.box < 3 ? 2 : 1;
+  let w = r.box === 0 ? 5 : r.box < 3 ? 2 : 1;
+  w += Math.min(r.ko, 3);
+  if (r.due <= Date.now()) w += 1;
+  return w;
 }
 
 function weightedSample(ids, n) {
@@ -151,70 +169,117 @@ function weightedSample(ids, n) {
   return out;
 }
 
+// Exercices utilisables jusqu'à la leçon n° maxNum. Les questions réservées à un examen
+// n'apparaissent ailleurs qu'une fois vues dans cet examen.
+function available(maxNum, examId = null) {
+  const seen = S.get().items;
+  return Object.values(C.items)
+    .filter(it => it.uses.every(u => C.lessonById[u].num <= maxNum))
+    .filter(it => !it.examOnly || it.examId === examId || seen[it.id])
+    .map(it => it.id);
+}
+
+// Tire `n` questions : d'abord `forced`, puis environ `recallShare` de rappels,
+// le reste dans `main`. Si une réserve manque, l'autre complète.
+function compose(n, { forced = [], main = [], recall = [], recallShare = 0 }) {
+  const picked = new Set(forced.slice(0, n));
+  const take = (pool, k) => weightedSample(pool.filter(id => !picked.has(id)), k).forEach(id => picked.add(id));
+  take(recall, Math.round(n * recallShare));
+  take(main, n - picked.size);
+  take(recall, n - picked.size);
+  return shuffle([...picked]);
+}
+
 // ---------- Séances ----------
 
 function startSession(opts) {
   if (!opts.ids.length) return;
-  session = { requeue: true, ...opts, queue: opts.ids.map(id => ({ id })), idx: 0, first: new Map(), cur: null, result: null };
+  session = { requeue: true, ...opts, queue: opts.ids.map(id => ({ id, tries: 0 })), idx: 0, first: new Map(), cur: null, result: null };
   if (location.hash === '#/seance') render(); else location.hash = '#/seance';
 }
 
 function startLesson(id) {
   const l = C.lessonById[id];
-  const before = new Set(C.lessons.slice(0, l.num - 1).map(x => x.id));
-  const extra = dueItems().filter(i => C.items[i].uses.every(u => before.has(u))).slice(0, LESSON_REVIEW_EXTRA);
+  // Les exercices de la leçon, mélangés avec des rappels des leçons précédentes.
+  const recall = weightedSample(available(l.num - 1), CONFIG.lessonRecall);
   startSession({
     kind: 'lesson', ref: id, title: `Leçon ${l.num} — exercices`,
-    ids: [...shuffle(l.itemIds), ...extra], scored: new Set(l.itemIds),
+    ids: shuffle([...l.itemIds, ...recall]), scored: new Set(l.itemIds),
   });
 }
 
 function startTest(blockId) {
   const b = C.blockById[blockId];
-  const testIds = shuffle(b.testIds).slice(0, TEST_SIZE);
-  const lessonItems = b.lessonIds.flatMap(id => C.lessonById[id].itemIds);
-  const ids = shuffle([...testIds, ...weightedSample(lessonItems, TEST_SIZE - testIds.length)]);
+  const first = C.lessonById[b.lessonIds[0]].num;
+  const last = C.lessonById[b.lessonIds.at(-1)].num;
+  const pool = available(last);
+  const inBlock = new Set(b.lessonIds);
+  const ids = compose(CONFIG.testSize, {
+    forced: shuffle(b.testIds),
+    main: pool.filter(id => C.items[id].uses.some(u => inBlock.has(u))),
+    recall: pool.filter(id => C.items[id].uses.every(u => C.lessonById[u].num < first)),
+    recallShare: CONFIG.recallShare,
+  });
   startSession({ kind: 'test', ref: blockId, title: `Test du bloc ${b.index + 1}`, ids, requeue: false });
 }
 
 function startExam(examId) {
   const e = C.examById[examId];
+  const first = C.lessonById[e.lessonIds[0]].num;
+  const last = C.lessonById[e.lessonIds.at(-1)].num;
+  const pool = available(last, e.id);
   const inExam = new Set(e.lessonIds);
-  const pool = Object.values(C.items).filter(it => it.uses.every(u => inExam.has(u))).map(it => it.id);
-  // Au moins un exercice par leçon, puis le reste en priorité sur les points faibles.
-  const picked = [];
+  const main = pool.filter(id => C.items[id].uses.some(u => inExam.has(u)));
+  // Toutes les questions de réflexion de l'examen, au moins une question par leçon, puis le reste.
+  const forced = [...shuffle(e.poolIds)];
   for (const lid of e.lessonIds) {
-    const own = pool.filter(id => C.items[id].uses.includes(lid) && !picked.includes(id));
-    picked.push(...weightedSample(own, 1));
+    if (forced.some(id => C.items[id].uses.includes(lid))) continue;
+    forced.push(...weightedSample(main.filter(id => C.items[id].uses.includes(lid) && !forced.includes(id)), 1));
   }
-  picked.push(...weightedSample(pool.filter(id => !picked.includes(id)), EXAM_SIZE - picked.length));
-  startSession({ kind: 'exam', ref: examId, title: `Grand examen ${e.num}`, ids: shuffle(picked), requeue: false });
+  const ids = compose(e.size, {
+    forced,
+    main,
+    recall: pool.filter(id => C.items[id].uses.every(u => C.lessonById[u].num < first)),
+    recallShare: CONFIG.recallShare,
+  });
+  startSession({ kind: 'exam', ref: examId, title: examName(e), ids, requeue: false });
+}
+
+// Révisions : d'abord ce qui est à revoir, complété par d'anciens exercices (même réussis).
+function seenItems() {
+  const items = S.get().items;
+  return Object.keys(items).filter(id => C.items[id]);
 }
 
 function startReview() {
-  const ids = dueItems().slice(0, REVIEW_SIZE);
-  if (!ids.length) return;
-  startSession({ kind: 'review', title: 'Révisions', ids: shuffle(ids) });
+  const due = dueItems().slice(0, CONFIG.reviewSize);
+  const rest = seenItems().filter(id => !due.includes(id));
+  const ids = [...due, ...weightedSample(rest, CONFIG.reviewSize - due.length)];
+  startSession({ kind: 'review', title: due.length ? 'Révisions' : 'Révision libre', ids: shuffle(ids) });
 }
 
 function startDrill(lessonIds) {
   const set = new Set(lessonIds);
   const pool = Object.values(C.items)
     .filter(it => it.uses.some(u => set.has(u)) && it.uses.every(u => stepDone({ type: 'lesson', id: u })))
+    .filter(it => !it.examOnly || S.get().items[it.id])
     .map(it => it.id);
-  startSession({ kind: 'drill', title: 'Entraînement ciblé', ids: weightedSample(pool, DRILL_SIZE) });
+  startSession({ kind: 'drill', title: 'Entraînement ciblé', ids: weightedSample(pool, CONFIG.drillSize) });
 }
 
 function answer(ok, extra = {}) {
   const cur = session.cur;
   Object.assign(cur, extra, { answered: true, ok });
   const q = session.queue[session.idx];
-  if (!q.retry) {
+  if (!q.tries) {
     S.recordAnswer(q.id, ok);
     session.first.set(q.id, ok);
   }
-  // En leçon et en révision, une question ratée revient en fin de série.
-  if (!ok && session.requeue && !q.retry) session.queue.push({ id: q.id, retry: true });
+  // En leçon et en révision, une question ratée revient plus loin dans la série (plusieurs fois si besoin).
+  if (!ok && session.requeue && q.tries < CONFIG.maxRetries) {
+    const at = Math.min(session.queue.length, session.idx + 3 + Math.floor(Math.random() * 4));
+    session.queue.splice(at, 0, { id: q.id, tries: q.tries + 1 });
+  }
   render();
 }
 
@@ -234,12 +299,12 @@ function finish() {
   for (const id of missed) for (const u of C.items[id].uses) byLesson[u] = (byLesson[u] || 0) + 1;
   let passed = null;
   if (session.kind === 'lesson') {
-    S.finishLesson(session.ref, score, LESSON_PASS);
-    passed = score >= LESSON_PASS;
+    S.finishLesson(session.ref, score, CONFIG.lessonPass);
+    passed = score >= CONFIG.lessonPass;
   }
   if (session.kind === 'test' || session.kind === 'exam') {
-    S.finishTest(session.ref, score, TEST_PASS);
-    passed = score >= TEST_PASS;
+    S.finishTest(session.ref, score, CONFIG.testPass);
+    passed = score >= CONFIG.testPass;
   }
   session.result = { score, okCount, total: scoredIds.length, byLesson, passed };
 }
@@ -263,7 +328,8 @@ function viewHome() {
   h += nx
     ? `<button class="btn primary big" data-act="step" data-type="${nx.type}" data-id="${nx.id}">Continuer<small>${esc(stepLabel(nx))}</small></button>`
     : '<p class="muted">Tout le contenu disponible est terminé. Révise en attendant la suite !</p>';
-  h += `<button class="btn" data-act="review" ${due ? '' : 'disabled'}>Révisions<small>${due ? `${due} à revoir` : 'rien pour l’instant'}</small></button>`;
+  const seen = seenItems().length;
+  h += `<button class="btn" data-act="review" ${seen ? '' : 'disabled'}>Révisions<small>${due ? `${due} à revoir` : seen ? 'révision libre' : 'rien pour l’instant'}</small></button>`;
   h += '</section>';
 
   for (const b of C.blocks) {
@@ -288,7 +354,7 @@ function viewHome() {
     if (b.exam) {
       const es = statuses[`exam:${b.exam.id}`];
       const er = st.tests[b.exam.id];
-      h += `<section class="card exam ${es}"><button data-act="step" data-type="exam" data-id="${b.exam.id}" ${es === 'locked' ? 'disabled' : ''}>
+      h += `<section class="card exam ${b.exam.kind} ${es}"><button data-act="step" data-type="exam" data-id="${b.exam.id}" ${es === 'locked' ? 'disabled' : ''}>
         <span class="ico">${icon(es)}</span><span class="lbl">${esc(stepLabel({ type: 'exam', id: b.exam.id }))}</span>${er ? `<span class="score">${pct(er.best)}</span>` : ''}</button></section>`;
     }
   }
@@ -328,7 +394,7 @@ function viewSession() {
   const cur = session.cur;
   const total = session.queue.length;
   let h = `<div class="sess-top"><button class="link" data-act="quit">✕</button><div class="progress"><span style="width:${(session.idx / total) * 100}%"></span></div><span class="count">${session.idx + 1}/${total}</span></div>`;
-  h += `<p class="muted sess-title">${esc(session.title)}${q.retry ? ' · <em>deuxième chance</em>' : ''}</p>`;
+  h += `<p class="muted sess-title">${esc(session.title)}${q.tries ? ' · <em>elle revient !</em>' : ''}</p>`;
   h += `<div class="exercise" data-id="${it.id}">${it.type === 'order' ? viewOrder(it, cur) : viewChoice(it, cur)}</div>`;
   if (cur.answered) h += viewFeedback(it, cur);
   return h;
@@ -387,9 +453,9 @@ function viewResult() {
   const r = session.result;
   const k = session.kind;
   let msg = '';
-  if (k === 'lesson') msg = r.passed ? 'Leçon validée, la suite est débloquée !' : `Pas encore : il faut ${pct(LESSON_PASS)}. Relis la leçon et recommence.`;
-  if (k === 'test') msg = r.passed ? 'Bloc validé, la suite est débloquée !' : `Il faut ${pct(TEST_PASS)}. Travaille les points ci-dessous puis retente.`;
-  if (k === 'exam') msg = r.passed ? 'Grand examen réussi, bravo !' : `Il faut ${pct(TEST_PASS)}. Travaille les points ci-dessous puis retente.`;
+  if (k === 'lesson') msg = r.passed ? 'Leçon validée, la suite est débloquée !' : `Pas encore : il faut ${pct(CONFIG.lessonPass)}. Relis la leçon et recommence.`;
+  if (k === 'test') msg = r.passed ? 'Bloc validé, la suite est débloquée !' : `Il faut ${pct(CONFIG.testPass)}. Travaille les points ci-dessous puis retente.`;
+  if (k === 'exam') msg = r.passed ? 'Examen réussi, bravo !' : `Il faut ${pct(CONFIG.testPass)}. Travaille les points ci-dessous puis retente.`;
   if (k === 'review' || k === 'drill') msg = 'Séance terminée.';
   let h = `<section class="result ${r.passed === false ? 'fail' : 'pass'}"><p class="muted">${esc(session.title)}</p>
     <div class="big-score">${pct(r.score)}</div><p>${r.okCount}/${r.total} du premier coup</p><p><strong>${msg}</strong></p></section>`;
@@ -423,7 +489,7 @@ function viewSettings() {
       <div class="actions left"><button class="btn" data-act="sync-now">Synchroniser maintenant</button><button class="btn" data-act="sync-off">Déconnecter cet appareil</button></div>`;
   } else {
     h += `<p>Ta progression est enregistrée sur cet appareil. Pour la retrouver sur ton autre appareil, connecte une clé GitHub (à faire une fois sur chaque appareil, avec la même clé) :</p>
-      <ol class="small"><li><a href="https://github.com/settings/tokens/new?scopes=gist&description=nihongo-grammaire" target="_blank" rel="noopener">Crée une clé GitHub</a> : seule la case <strong>gist</strong> doit être cochée. Choisis la durée (« No expiration » pour ne plus y penser), puis <em>Generate token</em>.</li>
+      <ol class="small"><li><a href="https://github.com/settings/tokens/new?scopes=gist&description=${encodeURIComponent(CONFIG.tokenName)}" target="_blank" rel="noopener">Crée une clé GitHub</a> : seule la case <strong>gist</strong> doit être cochée. Choisis la durée (« No expiration » pour ne plus y penser), puis <em>Generate token</em>.</li>
       <li>Copie la clé (elle commence par <code>ghp_</code>) et colle-la ici.</li></ol>
       <div class="row"><input type="password" id="token" placeholder="ghp_…" autocomplete="off"><button class="btn primary" data-act="sync-on">Connecter</button></div>
       <p class="muted small" id="sync-err">${status.state === 'error' ? esc(status.msg) : ''}</p>`;
@@ -515,7 +581,7 @@ function restart() {
   else if (s.kind === 'test') startTest(s.ref);
   else if (s.kind === 'exam') startExam(s.ref);
   else if (s.kind === 'review') { if (dueItems().length) startReview(); else go('#/'); }
-  else startSession({ ...s, ids: shuffle(s.queue.filter(q => !q.retry).map(q => q.id)) });
+  else startSession({ ...s, ids: shuffle(s.queue.filter(q => !q.tries).map(q => q.id)) });
 }
 
 async function connectSync() {

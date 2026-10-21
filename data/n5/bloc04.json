@@ -575,5 +575,94 @@
       "choices": ["ねて", "ねって", "ねんで", "ねいて"], "a": 0,
       "explain": "ねる est du groupe 2 : ねて."
     }
+  ],
+  "examTest": [
+    {
+      "id": "n5-x02-01", "type": "choice", "uses": ["n5-20"],
+      "q": "Une seule de ces conversations est correcte. Laquelle ?",
+      "choices": ["{窓|まど}をあけてもいいですか。— ええ、どうぞ。", "{窓|まど}をあけるもいいですか。— ええ、どうぞ。", "{窓|まど}をあけてもいいですか。— ええ、あけてはいけません。", "{窓|まど}をあけてはいいですか。— ええ、どうぞ。"], "a": 0,
+      "explain": "Permission : てもいいですか. Répondre ええ puis interdire est incohérent."
+    },
+    {
+      "id": "n5-x02-02", "type": "choice", "uses": ["n5-04", "n5-18"],
+      "q": "Transforme en demande polie : {名前|なまえ}を{書|か}きます。",
+      "choices": ["{名前|なまえ}を{書|か}いてください。", "{名前|なまえ}を{書|か}きてください。", "{名前|なまえ}を{書|か}くください。", "{名前|なまえ}を{書|か}いてもいいです。"], "a": 0
+    },
+    {
+      "id": "n5-x02-03", "type": "order", "uses": ["n5-04", "n5-05", "n5-12"],
+      "fr": "Tu ne veux pas regarder un film avec moi dimanche ?",
+      "tokens": ["{日曜日|にちようび}", "に", "いっしょに", "{映画|えいが}", "を", "{見|み}ません", "か"],
+      "alt": [["いっしょに", "{日曜日|にちようび}", "に", "{映画|えいが}", "を", "{見|み}ません", "か"]]
+    },
+    {
+      "id": "n5-x02-04", "type": "choice", "uses": ["n5-11", "n5-15", "n5-19"],
+      "q": "Une seule de ces phrases est correcte. Laquelle ?",
+      "choices": ["{日本|にほん}の{歌|うた}が{好|す}きですから、{毎日|まいにち}{聞|き}いています。", "{日本|にほん}の{歌|うた}を{好|す}きですから、{毎日|まいにち}{聞|き}いています。", "{日本|にほん}の{歌|うた}が{好|す}きですから、{毎日|まいにち}{聞|き}きています。", "{日本|にほん}の{歌|うた}が{好|す}きですから、{毎日|まいにち}を{聞|き}いています。"], "a": 0,
+      "explain": "{好|す}き + が ; {聞|き}く → {聞|き}いて ; {毎日|まいにち} sans particule."
+    },
+    {
+      "id": "n5-x02-05", "type": "choice", "uses": ["n5-17", "n5-20"],
+      "jp": "このいすに＿もいいですか。",
+      "fr": "Je peux m'asseoir sur cette chaise ?",
+      "choices": ["すわって", "すわりて", "すわんで", "すわいて"], "a": 0,
+      "explain": "すわる (groupe 1) → すわって."
+    },
+    {
+      "id": "n5-x02-06", "type": "choice", "uses": ["n5-12", "n5-13"],
+      "q": "Ton ami : コーヒーを{飲|の}みませんか。 Tu as déjà bu trois cafés aujourd'hui et tu refuses poliment. Que réponds-tu ?",
+      "choices": ["すみません、コーヒーはちょっと…。", "いいえ、{飲|の}みましょう。", "はい、{飲|の}みません。", "ええ、{飲|の}みたくないです。"], "a": 0
+    },
+    {
+      "id": "n5-x02-07", "type": "choice", "uses": ["n5-11", "n5-15", "n5-19"],
+      "jp": "{日本|にほん}のアニメが{好|す}きです＿、{毎日|まいにち}{日本語|にほんご}を{勉強|べんきょう}しています。",
+      "fr": "J'aime les anime japonais, alors j'étudie le japonais tous les jours.",
+      "choices": ["から", "で", "と", "を"], "a": 0
+    },
+    {
+      "id": "n5-x02-08", "type": "order", "uses": ["n5-02", "n5-05", "n5-08", "n5-19"],
+      "fr": "Mon père travaille dans une grande banque de Tokyo.",
+      "tokens": ["{父|ちち}", "は", "{東京|とうきょう}", "の", "{大|おお}きい", "{銀行|ぎんこう}", "で", "{働|はたら}いています"]
+    },
+    {
+      "id": "n5-x02-09", "type": "choice", "uses": ["n5-05", "n5-06", "n5-19"],
+      "q": "Trouve l'erreur : きのう、{図書館|としょかん}で{日本語|にほんご}の{本|ほん}を{読|よ}んでいます。",
+      "choices": ["{読|よ}んでいます → {読|よ}みました", "で → に", "の → を", "を → が"], "a": 0,
+      "explain": "きのう → il faut le passé."
+    },
+    {
+      "id": "n5-x02-10", "type": "choice", "uses": ["n5-05", "n5-07", "n5-19"],
+      "jp": "{山田|やまだ}さんは{今|いま}どこにいますか。— {部屋|へや}＿{本|ほん}を{読|よ}んでいます。",
+      "fr": "Où est Mme Yamada ? — Elle lit dans sa chambre.",
+      "choices": ["で", "に", "を", "が"], "a": 0,
+      "explain": "Lire est une action → lieu avec で (même si la question utilisait に)."
+    },
+    {
+      "id": "n5-x02-11", "type": "choice", "uses": ["n5-19", "n5-20"],
+      "q": "Que veut dire : ここで{写真|しゃしん}をとってはいけませんか。",
+      "choices": ["On n'a pas le droit de prendre des photos ici ?", "Prenez des photos ici, s'il vous plaît.", "Je peux prendre des photos ici.", "Je suis en train de prendre des photos ici."], "a": 0
+    },
+    {
+      "id": "n5-x02-12", "type": "choice", "uses": ["n5-11", "n5-15"],
+      "q": "Tu veux dire : « Mon grand frère ne comprend pas l'anglais, mais il aime l'Amérique. » Laquelle est correcte ?",
+      "choices": ["{兄|あに}は{英語|えいご}がわかりませんが、アメリカが{好|す}きです。", "{兄|あに}は{英語|えいご}をわかりませんが、アメリカが{好|す}きです。", "{兄|あに}は{英語|えいご}がわかりませんから、アメリカが{好|す}きです。", "{兄|あに}は{英語|えいご}がわかりませんが、アメリカを{好|す}きです。"], "a": 0,
+      "explain": "わかる et {好|す}き prennent が ; « mais » = が, から voudrait dire « donc »."
+    },
+    {
+      "id": "n5-x02-13", "type": "order", "uses": ["n5-02", "n5-20"],
+      "fr": "Je peux utiliser le dictionnaire de M. Tanaka ?",
+      "tokens": ["{田中|たなか}さん", "の", "じしょ", "を", "{使|つか}って", "も", "いい", "です", "か"]
+    },
+    {
+      "id": "n5-x02-14", "type": "choice", "uses": ["n5-17", "n5-19"],
+      "q": "Une seule de ces phrases est correcte. Laquelle ?",
+      "choices": ["{毎朝|まいあさ}コーヒーを{飲|の}んでいます。", "{毎朝|まいあさ}コーヒーを{飲|の}みています。", "{毎朝|まいあさ}コーヒーを{飲|の}っています。", "{毎朝|まいあさ}コーヒーを{飲|の}むています。"], "a": 0,
+      "explain": "{飲|の}む → {飲|の}んで. ている sert aussi pour une habitude."
+    },
+    {
+      "id": "n5-x02-15", "type": "choice", "uses": ["n5-15", "n5-17", "n5-20"],
+      "jp": "ここは{図書館|としょかん}ですから、{大|おお}きい{声|こえ}で＿はいけません。",
+      "fr": "C'est une bibliothèque, alors on ne doit pas parler fort.",
+      "choices": ["{話|はな}して", "{話|はな}って", "{話|はな}す", "{話|はな}しませんで"], "a": 0
+    }
   ]
 }

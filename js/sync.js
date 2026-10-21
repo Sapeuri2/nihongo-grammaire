@@ -1,9 +1,10 @@
 // Synchronisation de la progression via un Gist GitHub privé.
 
 import * as S from './state.js';
+import { CONFIG } from './config.js';
 
-const CFG_KEY = 'ng-sync';
-const FILE = 'nihongo-grammaire-progression.json';
+const CFG_KEY = CONFIG.syncKey;
+const FILE = CONFIG.gistFile;
 const API = 'https://api.github.com';
 const PUSH_DELAY = 3000;
 
@@ -63,7 +64,7 @@ export async function connect(token) {
     const g = await gh('/gists', {
       method: 'POST',
       body: JSON.stringify({
-        description: 'Progression nihongo-grammaire (ne pas supprimer)',
+        description: CONFIG.gistDescription,
         public: false,
         files: { [FILE]: { content: JSON.stringify(S.get()) } },
       }),

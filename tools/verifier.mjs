@@ -73,6 +73,8 @@ for (const file of manifest.blocks) {
   }
   // Un test peut aussi réutiliser des leçons des blocs précédents.
   for (const ex of b.test || []) checkExercise(`${b.id} test`, ex, n);
+  // Questions de réflexion de l'examen qui suit ce bloc.
+  for (const ex of b.examTest || []) checkExercise(`${b.id} examen`, ex, n);
 }
 
 if (errors.length) {

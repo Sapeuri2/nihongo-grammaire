@@ -1,5 +1,6 @@
 {
   "examEvery": 4,
+  "miniExamEvery": 2,
   "blocks": [
     "data/n5/bloc01.json",
     "data/n5/bloc02.json",

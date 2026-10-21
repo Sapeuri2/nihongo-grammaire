@@ -1,6 +1,8 @@
 // Progression de l'utilisateur : stockée dans le navigateur, fusionnable entre appareils.
 
-const KEY = 'ng-state-v1';
+import { CONFIG } from './config.js';
+
+const KEY = CONFIG.storageKey;
 const DAY = 86400000;
 
 // Répétition espacée (boîtes de Leitner) : intervalle en jours pour chaque boîte.
