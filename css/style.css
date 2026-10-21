@@ -133,7 +133,8 @@ details.card[open] summary { margin-bottom: .5em; }
 .examples .fr { display: block; color: var(--muted); font-size: .9rem; }
 .vocab { border-collapse: collapse; width: 100%; }
 .vocab td { padding: 4px 8px; border-bottom: 1px solid var(--line); }
-.vocab td.jp { font-size: 1.1rem; line-height: 2; white-space: nowrap; }
+.vocab td.jp { font-size: 1.1rem; line-height: 2; }
+.vocab td:last-child { font-size: .9rem; color: var(--muted); }
 .pieges { background: var(--bad-bg); border-radius: var(--radius); padding: 12px 16px; }
 .pieges ul { padding-left: 1.2em; margin: 0; }
 .pieges li { margin: 6px 0; }

@@ -1,0 +1,492 @@
+{
+  "id": "n5-b08",
+  "level": "N5",
+  "title": "Déjà, devenir, expliquer, vouloir",
+  "lessons": [
+    {
+      "id": "n5-36",
+      "title": "もう・まだ : déjà, encore, pas encore, plus",
+      "formula": ["もう + passé : déjà", "まだ + ていません : pas encore", "まだ + affirmatif : encore, toujours", "もう + négatif : ne… plus"],
+      "sections": [
+        {
+          "h": "Les quatre combinaisons",
+          "ex": [
+            { "jp": "もう{昼|ひる}ごはんを{食|た}べました。", "fr": "J'ai déjà déjeuné." },
+            { "jp": "まだ{食|た}べていません。", "fr": "Je n'ai pas encore mangé." },
+            { "jp": "{弟|おとうと}はまだねています。", "fr": "Mon petit frère dort encore." },
+            { "jp": "もうたばこはすいません。", "fr": "Je ne fume plus." }
+          ]
+        },
+        {
+          "h": "Répondre à もう〜ましたか",
+          "p": ["Oui → はい、もう〜ました. Non → いいえ、**まだです** (ou まだ〜ていません)."]
+        }
+      ],
+      "pieges": [
+        "« Pas encore » = まだ〜**ていません**, jamais まだ〜ませんでした.",
+        "いいえ、まだです : la réponse courte la plus naturelle."
+      ],
+      "exercises": [
+        {
+          "id": "n5-36-e01", "type": "choice", "uses": ["n5-19"],
+          "jp": "もう{昼|ひる}ごはんを{食|た}べましたか。— いいえ、まだ＿。", "fr": "Tu as déjà déjeuné ? — Non, pas encore.",
+          "choices": ["{食|た}べていません", "{食|た}べませんでした", "{食|た}べました", "{食|た}べましょう"], "a": 0,
+          "explain": "« Pas encore » → まだ + ていません."
+        },
+        {
+          "id": "n5-36-e02", "type": "choice", "uses": ["n5-06"],
+          "jp": "{宿題|しゅくだい}は＿{終|お}わりました。", "fr": "J'ai déjà fini mes devoirs.",
+          "choices": ["もう", "まだ", "まだも", "もうに"], "a": 0
+        },
+        {
+          "id": "n5-36-e03", "type": "choice", "uses": ["n5-19"],
+          "q": "Il est midi et ton petit frère n'est toujours pas levé. Que dis-tu ?",
+          "choices": ["{弟|おとうと}はまだねています。", "{弟|おとうと}はもうねています。", "{弟|おとうと}はまだねていません。", "{弟|おとうと}はもうねませんでした。"], "a": 0
+        },
+        {
+          "id": "n5-36-e04", "type": "choice",
+          "q": "Que signifie : もうたばこはすいません。",
+          "choices": ["Je ne fume plus.", "Je ne fume pas encore.", "J'ai déjà fumé.", "Je fume encore."], "a": 0
+        },
+        {
+          "id": "n5-36-e05", "type": "order", "uses": ["n5-03", "n5-19"],
+          "fr": "Ce livre, je ne l'ai pas encore lu.",
+          "tokens": ["その", "{本|ほん}", "は", "まだ", "{読|よ}んでいません"]
+        },
+        {
+          "id": "n5-36-e06", "type": "choice",
+          "q": "Pourquoi « まだ{食|た}べませんでした » est faux pour « je n'ai pas encore mangé » ?",
+          "choices": ["« Pas encore » se dit まだ + ていません.", "まだ ne s'emploie pas avec {食|た}べる.", "Il faudrait もう.", "Il manque か."], "a": 0
+        },
+        {
+          "id": "n5-36-e07", "type": "choice", "uses": ["n5-06"],
+          "jp": "もう{電車|でんしゃ}に{乗|の}りましたか。— はい、＿{乗|の}りました。", "fr": "Tu es déjà monté dans le train ? — Oui, j'y suis déjà.",
+          "choices": ["もう", "まだ", "まだも", "もうに"], "a": 0
+        },
+        {
+          "id": "n5-36-e08", "type": "order", "uses": ["n5-19"],
+          "fr": "Il pleut encore.",
+          "tokens": ["まだ", "{雨|あめ}", "が", "{降|ふ}っています"],
+          "alt": [["{雨|あめ}", "が", "まだ", "{降|ふ}っています"]]
+        },
+        {
+          "id": "n5-36-e09", "type": "choice",
+          "q": "On te demande : もう{宿題|しゅくだい}をしましたか。 Tu ne l'as pas encore fait. Que réponds-tu ?",
+          "choices": ["いいえ、まだです。", "いいえ、もうです。", "はい、まだです。", "いいえ、まだしました。"], "a": 0
+        },
+        {
+          "id": "n5-36-e10", "type": "choice",
+          "q": "Que signifie : {田中|たなか}さんはもう{帰|かえ}りました。",
+          "choices": ["M. Tanaka est déjà rentré.", "M. Tanaka n'est pas encore rentré.", "M. Tanaka rentre encore.", "M. Tanaka ne rentrera plus."], "a": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-37",
+      "title": "〜くなる・〜になる : devenir",
+      "formula": ["Adj-い : い → く なる", "Adj-な / Nom + に なる"],
+      "sections": [
+        {
+          "h": "Le principe",
+          "p": [
+            "なる = devenir. Adj. い : **く**なる ({寒|さむ}い → {寒|さむ}くなる). Adj. な et nom : **に**なる (きれいになる, {先生|せんせい}になる).",
+            "Souvent au passé pour dire qu'un changement a eu lieu."
+          ],
+          "ex": [
+            { "jp": "{冬|ふゆ}になって、{寒|さむ}くなりました。", "fr": "L'hiver est arrivé et il fait froid." },
+            { "jp": "{部屋|へや}がきれいになりました。", "fr": "La chambre est devenue propre." },
+            { "jp": "しょうらい、{医者|いしゃ}になりたいです。", "fr": "Plus tard, je veux devenir médecin." }
+          ]
+        }
+      ],
+      "pieges": [
+        "いい → よくなる.",
+        "きれい est un adjectif en な : きれいになる (pas きれくなる)."
+      ],
+      "exercises": [
+        {
+          "id": "n5-37-e01", "type": "choice", "uses": ["n5-08", "n5-21"],
+          "jp": "{冬|ふゆ}になって、{寒|さむ}＿なりました。", "fr": "L'hiver est arrivé et il fait froid.",
+          "choices": ["く", "に", "い", "くて"], "a": 0
+        },
+        {
+          "id": "n5-37-e02", "type": "choice", "uses": ["n5-09"],
+          "jp": "{部屋|へや}がきれい＿なりました。", "fr": "La chambre est devenue propre.",
+          "choices": ["に", "く", "な", "で"], "a": 0
+        },
+        {
+          "id": "n5-37-e03", "type": "choice", "uses": ["n5-13"],
+          "jp": "しょうらい、{医者|いしゃ}＿なりたいです。", "fr": "Plus tard, je veux devenir médecin.",
+          "choices": ["に", "く", "が", "で"], "a": 0
+        },
+        {
+          "id": "n5-37-e04", "type": "order", "uses": ["n5-08"],
+          "fr": "Le japonais est devenu intéressant.",
+          "tokens": ["{日本語|にほんご}", "が", "おもしろく", "なりました"]
+        },
+        {
+          "id": "n5-37-e05", "type": "choice", "uses": ["n5-11"],
+          "q": "Comment dire « Je suis devenu bon en japonais » ?",
+          "choices": ["{日本語|にほんご}が{上手|じょうず}になりました。", "{日本語|にほんご}が{上手|じょうず}でなりました。", "{日本語|にほんご}を{上手|じょうず}になりました。", "{日本語|にほんご}が{上手|じょうず}なりました。"], "a": 0
+        },
+        {
+          "id": "n5-37-e06", "type": "choice",
+          "jp": "{夜|よる}＿なりました。", "fr": "La nuit est tombée.",
+          "choices": ["に", "く", "を", "で"], "a": 0
+        },
+        {
+          "id": "n5-37-e07", "type": "choice",
+          "q": "Que signifie : {暗|くら}くなりました。",
+          "choices": ["Il fait nuit (il est devenu sombre).", "Il a toujours fait sombre.", "Il ne fait plus sombre.", "Il va faire clair."], "a": 0
+        },
+        {
+          "id": "n5-37-e08", "type": "order", "uses": ["n5-08"],
+          "fr": "Mon petit frère a grandi (est devenu grand).",
+          "tokens": ["{弟|おとうと}", "は", "{大|おお}きく", "なりました"]
+        },
+        {
+          "id": "n5-37-e09", "type": "choice", "uses": ["n5-09", "n5-21"],
+          "jp": "{薬|くすり}を{飲|の}んで、{元気|げんき}＿なりました。", "fr": "J'ai pris un médicament et je me sens mieux.",
+          "choices": ["に", "く", "な", "で"], "a": 0
+        },
+        {
+          "id": "n5-37-e10", "type": "choice", "uses": ["n5-08"],
+          "q": "Il faisait mauvais, maintenant il fait beau. Que dis-tu ?",
+          "choices": ["{天気|てんき}がよくなりました。", "{天気|てんき}がいくなりました。", "{天気|てんき}がいいになりました。", "{天気|てんき}がよいになりました。"], "a": 0,
+          "explain": "いい → よくなる."
+        }
+      ]
+    },
+    {
+      "id": "n5-38",
+      "title": "ので et んです : expliquer",
+      "formula": ["Forme neutre + ので (comme, puisque)", "Nom / Adj-な + な ので", "Forme neutre + んです (c'est que…)", "Nom / Adj-な + な んです"],
+      "sections": [
+        {
+          "h": "ので : la cause, en douceur",
+          "p": [
+            "ので ressemble à から, mais sonne plus **doux et objectif** : idéal pour s'excuser ou se justifier poliment.",
+            "Nom / adj. な : **な**ので ({雨|あめ}なので)."
+          ],
+          "ex": [
+            { "jp": "{雨|あめ}なので、{出|で}かけません。", "fr": "Comme il pleut, je ne sors pas." },
+            { "jp": "{頭|あたま}がいたいので、{早|はや}く{帰|かえ}ります。", "fr": "J'ai mal à la tête, alors je rentre tôt." }
+          ]
+        },
+        {
+          "h": "んです : donner ou demander une explication",
+          "p": [
+            "んです (のです à l'écrit) ajoute une nuance d'**explication** : « c'est que… ». En question : « qu'est-ce qui se passe ? ».",
+            "Nom / adj. な : **な**んです."
+          ],
+          "ex": [
+            { "jp": "どうしたんですか。— さいふをなくしたんです。", "fr": "Qu'est-ce qui se passe ? — C'est que j'ai perdu mon portefeuille." },
+            { "jp": "あしたテストなんです。", "fr": "C'est que j'ai un contrôle demain." }
+          ]
+        }
+      ],
+      "pieges": [
+        "{雨|あめ}だので ✗ → {雨|あめ}なので.",
+        "Ne pas abuser de んです : c'est pour expliquer, pas pour toute phrase."
+      ],
+      "exercises": [
+        {
+          "id": "n5-38-e01", "type": "choice",
+          "jp": "{雨|あめ}＿ので、{出|で}かけません。", "fr": "Comme il pleut, je ne sors pas.",
+          "choices": ["な", "だ", "の", "で"], "a": 0
+        },
+        {
+          "id": "n5-38-e02", "type": "choice", "uses": ["n5-08"],
+          "jp": "{頭|あたま}がいたい＿、{早|はや}く{帰|かえ}ります。", "fr": "J'ai mal à la tête, alors je rentre tôt.",
+          "choices": ["ので", "なので", "だので", "のでで"], "a": 0,
+          "explain": "Adjectif en い : directement + ので."
+        },
+        {
+          "id": "n5-38-e03", "type": "choice", "uses": ["n5-24"],
+          "jp": "どうした＿ですか。— さいふをなくしたんです。", "fr": "Qu'est-ce qui se passe ? — C'est que j'ai perdu mon portefeuille.",
+          "choices": ["ん", "な", "だ", "を"], "a": 0
+        },
+        {
+          "id": "n5-38-e04", "type": "choice",
+          "jp": "あしたテストな＿です。", "fr": "C'est que j'ai un contrôle demain.",
+          "choices": ["ん", "だ", "で", "が"], "a": 0
+        },
+        {
+          "id": "n5-38-e05", "type": "choice", "uses": ["n5-15"],
+          "q": "Quelle est la différence entre から et ので ?",
+          "choices": ["ので est plus doux et objectif ; から plus direct.", "ので est au passé.", "から est plus poli.", "Aucune, mais ので ne s'emploie qu'avec des verbes."], "a": 0
+        },
+        {
+          "id": "n5-38-e06", "type": "order", "uses": ["n5-36"],
+          "fr": "Comme il est déjà tard, je rentre.",
+          "tokens": ["もう", "おそい", "ので", "{帰|かえ}ります"]
+        },
+        {
+          "id": "n5-38-e07", "type": "choice", "uses": ["n5-09"],
+          "jp": "{図書館|としょかん}は{静|しず}か＿ので、よく{勉強|べんきょう}します。", "fr": "La bibliothèque est calme, alors j'y étudie souvent.",
+          "choices": ["な", "だ", "の", "で"], "a": 0
+        },
+        {
+          "id": "n5-38-e08", "type": "choice", "uses": ["n5-24"],
+          "q": "Ton ami a l'air triste. Comment demander « Qu'est-ce qui se passe ? »",
+          "choices": ["どうしたんですか。", "どうしましたんですか。", "どうするんでした。", "どうしたですか。"], "a": 0
+        },
+        {
+          "id": "n5-38-e09", "type": "order", "uses": ["n5-11", "n5-22"],
+          "fr": "C'est que je ne comprends pas le japonais.",
+          "tokens": ["{日本語|にほんご}", "が", "わからない", "んです"]
+        },
+        {
+          "id": "n5-38-e10", "type": "choice", "uses": ["n5-37"],
+          "jp": "{学生|がくせい}な＿、{安|やす}くなります。", "fr": "Comme tu es étudiant, c'est moins cher.",
+          "choices": ["ので", "から", "だので", "のでで"], "a": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-39",
+      "title": "何か・何も : quelque chose, rien",
+      "formula": ["Interrogatif + か = quelque… ({何|なに}か, だれか, どこか)", "Interrogatif + も + négatif = aucun… ({何|なに}も, だれも, どこにも)"],
+      "sections": [
+        {
+          "h": "+ か : quelque chose, quelqu'un, quelque part",
+          "ex": [
+            { "jp": "{何|なに}か{飲|の}みたいです。", "fr": "Je veux boire quelque chose." },
+            { "jp": "だれか{来|き}ましたか。", "fr": "Quelqu'un est venu ?" },
+            { "jp": "{週末|しゅうまつ}はどこかへ{行|い}きたいです。", "fr": "Ce week-end, je veux aller quelque part." }
+          ]
+        },
+        {
+          "h": "+ も + négatif : rien, personne, nulle part",
+          "ex": [
+            { "jp": "{何|なに}も{食|た}べませんでした。", "fr": "Je n'ai rien mangé." },
+            { "jp": "{部屋|へや}にだれもいません。", "fr": "Il n'y a personne dans la chambre." },
+            { "jp": "どこにも{行|い}きませんでした。", "fr": "Je ne suis allé nulle part." }
+          ]
+        },
+        {
+          "h": "Et les particules ?",
+          "p": ["が et を **disparaissent** ({何|なに}かを → {何|なに}か). に, へ, で **restent** : どこ**に**も, どこか**へ**."]
+        }
+      ],
+      "pieges": [
+        "{何|なに}も + **négatif** obligatoire : {何|なに}も{食|た}べました ✗.",
+        "« Nulle part » : どこ**に**も (la particule de lieu reste)."
+      ],
+      "exercises": [
+        {
+          "id": "n5-39-e01", "type": "choice", "uses": ["n5-13"],
+          "jp": "{何|なに}＿{飲|の}みたいです。", "fr": "Je veux boire quelque chose.",
+          "choices": ["か", "も", "を", "が"], "a": 0
+        },
+        {
+          "id": "n5-39-e02", "type": "choice", "uses": ["n5-07"],
+          "jp": "{部屋|へや}にだれ＿いません。", "fr": "Il n'y a personne dans la chambre.",
+          "choices": ["も", "か", "が", "を"], "a": 0
+        },
+        {
+          "id": "n5-39-e03", "type": "choice", "uses": ["n5-06"],
+          "jp": "{週末|しゅうまつ}はどこ＿{行|い}きませんでした。", "fr": "Ce week-end, je ne suis allé nulle part.",
+          "choices": ["にも", "かに", "にか", "がも"], "a": 0
+        },
+        {
+          "id": "n5-39-e04", "type": "choice", "uses": ["n5-07"],
+          "q": "Que signifie : {何|なに}か{質問|しつもん}がありますか。",
+          "choices": ["Avez-vous une question ?", "Quelle est votre question ?", "Vous n'avez aucune question ?", "Pourquoi cette question ?"], "a": 0
+        },
+        {
+          "id": "n5-39-e05", "type": "order", "uses": ["n5-06"],
+          "fr": "Ce matin, je n'ai rien mangé.",
+          "tokens": ["けさ", "は", "{何|なに}", "も", "{食|た}べませんでした"]
+        },
+        {
+          "id": "n5-39-e06", "type": "choice", "uses": ["n5-06"],
+          "jp": "だれ＿{来|き}ましたか。— いいえ、だれも{来|き}ませんでした。", "fr": "Quelqu'un est venu ? — Non, personne.",
+          "choices": ["か", "も", "に", "を"], "a": 0
+        },
+        {
+          "id": "n5-39-e07", "type": "choice", "uses": ["n5-13"],
+          "jp": "どこか＿{行|い}きたいです。", "fr": "Je veux aller quelque part.",
+          "choices": ["へ", "を", "も", "が"], "a": 0
+        },
+        {
+          "id": "n5-39-e08", "type": "choice", "uses": ["n5-13"],
+          "q": "Quelle phrase est correcte ?",
+          "choices": ["{何|なに}も{食|た}べたくないです。", "{何|なに}も{食|た}べたいです。", "{何|なに}もを{食|た}べたくないです。", "{何|なに}を{食|た}べたくないです。"], "a": 0
+        },
+        {
+          "id": "n5-39-e09", "type": "order", "uses": ["n5-13"],
+          "fr": "Ce week-end, je veux aller quelque part.",
+          "tokens": ["{週末|しゅうまつ}", "は", "どこか", "に", "{行|い}きたい", "です"]
+        },
+        {
+          "id": "n5-39-e10", "type": "choice", "uses": ["n5-11"],
+          "q": "Que signifie : {何|なに}もわかりません。",
+          "choices": ["Je ne comprends rien.", "Je comprends quelque chose.", "Qu'est-ce que tu ne comprends pas ?", "Je comprends tout."], "a": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-40",
+      "title": "ほしい (vouloir un objet) et 〜に{行|い}く (aller faire)",
+      "formula": ["Nom が ほしいです", "Verbe-ます (sans ます) + に {行|い}く / {来|く}る / {帰|かえ}る", "Nom d'activité + に {行|い}く"],
+      "sections": [
+        {
+          "h": "ほしい : vouloir une chose",
+          "p": [
+            "Pour un **objet** : Nom **が ほしい**です. ほしい est un adjectif en い (ほしくない, ほしかった).",
+            "Pour une **action**, c'est たい ({買|か}いたい). Comme たい, ほしい ne sert pas à affirmer le désir d'un tiers."
+          ],
+          "ex": [
+            { "jp": "{新|あたら}しいパソコンがほしいです。", "fr": "Je veux un nouvel ordinateur." },
+            { "jp": "{今|いま}は{何|なに}もほしくないです。", "fr": "Pour l'instant, je ne veux rien." }
+          ]
+        },
+        {
+          "h": "Aller faire quelque chose : 〜に{行|い}く",
+          "p": ["Radical en ます + **に** + verbe de mouvement : {見|み}ます → {見|み}に{行|い}きます (je vais voir)."],
+          "ex": [
+            { "jp": "{映画|えいが}を{見|み}に{行|い}きます。", "fr": "Je vais voir un film." },
+            { "jp": "{友|とも}だちに{会|あ}いに{東京|とうきょう}へ{来|き}ました。", "fr": "Je suis venu à Tokyo pour voir des amis." },
+            { "jp": "デパートへ{買|か}い{物|もの}に{行|い}きました。", "fr": "Je suis allé faire les courses au grand magasin." }
+          ]
+        }
+      ],
+      "pieges": [
+        "Un objet → ほしい ; une action → たい. {車|くるま}がしたい ✗.",
+        "{泳|およ}ぐに{行|い}く ✗ → {泳|およ}ぎに{行|い}く (radical en ます)."
+      ],
+      "exercises": [
+        {
+          "id": "n5-40-e01", "type": "choice", "uses": ["n5-08"],
+          "jp": "{新|あたら}しいくつ＿ほしいです。", "fr": "Je veux de nouvelles chaussures.",
+          "choices": ["が", "に", "で", "の"], "a": 0
+        },
+        {
+          "id": "n5-40-e02", "type": "choice", "uses": ["n5-04"],
+          "jp": "{映画|えいが}を{見|み}＿{行|い}きます。", "fr": "Je vais voir un film.",
+          "choices": ["に", "を", "で", "が"], "a": 0
+        },
+        {
+          "id": "n5-40-e03", "type": "choice", "uses": ["n5-05"],
+          "jp": "デパートへ{買|か}い{物|もの}＿{行|い}きました。", "fr": "Je suis allé faire les courses au grand magasin.",
+          "choices": ["に", "を", "と", "が"], "a": 0
+        },
+        {
+          "id": "n5-40-e04", "type": "choice", "uses": ["n5-13"],
+          "q": "Comment dire « Je veux une voiture » ?",
+          "choices": ["{車|くるま}がほしいです。", "{車|くるま}がしたいです。", "{車|くるま}をほしいます。", "{車|くるま}が{買|か}いほしいです。"], "a": 0
+        },
+        {
+          "id": "n5-40-e05", "type": "order", "uses": ["n5-05"],
+          "fr": "Je vais au restaurant pour dîner.",
+          "tokens": ["レストラン", "へ", "ばんごはん", "を", "{食|た}べ", "に", "{行|い}きます"],
+          "alt": [["ばんごはん", "を", "{食|た}べ", "に", "レストラン", "へ", "{行|い}きます"]]
+        },
+        {
+          "id": "n5-40-e06", "type": "choice", "uses": ["n5-13"],
+          "q": "Pourquoi « {田中|たなか}さんは{車|くるま}がほしいです » est bizarre ?",
+          "choices": ["Comme たい, ほしい ne sert pas à affirmer le désir d'un tiers.", "ほしい ne s'emploie pas avec が.", "Il manque か.", "On ne peut pas vouloir une voiture."], "a": 0
+        },
+        {
+          "id": "n5-40-e07", "type": "choice",
+          "jp": "{何|なに}が＿ですか。— {時計|とけい}がほしいです。", "fr": "Qu'est-ce que tu veux ? — Je veux une montre.",
+          "choices": ["ほしい", "ほしく", "ほしいな", "ほし"], "a": 0
+        },
+        {
+          "id": "n5-40-e08", "type": "choice", "uses": ["n5-05"],
+          "jp": "{友|とも}だちに{会|あ}い＿{東京|とうきょう}へ{来|き}ました。", "fr": "Je suis venu à Tokyo pour voir des amis.",
+          "choices": ["に", "て", "を", "で"], "a": 0
+        },
+        {
+          "id": "n5-40-e09", "type": "choice", "uses": ["n5-16"],
+          "q": "Quelle phrase est correcte ?",
+          "choices": ["{泳|およ}ぎに{行|い}きます。", "{泳|およ}ぐに{行|い}きます。", "{泳|およ}いでに{行|い}きます。", "{泳|およ}ぎを{行|い}きます。"], "a": 0
+        },
+        {
+          "id": "n5-40-e10", "type": "choice", "uses": ["n5-08", "n5-39"],
+          "jp": "{今|いま}は{何|なに}も＿ないです。", "fr": "Pour l'instant, je ne veux rien.",
+          "choices": ["ほしく", "ほしい", "ほし", "ほしくて"], "a": 0
+        }
+      ]
+    }
+  ],
+  "test": [
+    {
+      "id": "n5-b08-t01", "type": "choice", "uses": ["n5-36"],
+      "jp": "まだばんごはんを＿。", "fr": "Je n'ai pas encore dîné.",
+      "choices": ["{食|た}べていません", "{食|た}べませんでした", "{食|た}べました", "{食|た}べましょう"], "a": 0
+    },
+    {
+      "id": "n5-b08-t02", "type": "choice", "uses": ["n5-15", "n5-37"],
+      "jp": "{暗|くら}＿なりましたから、{帰|かえ}りましょう。", "fr": "Il fait nuit, rentrons.",
+      "choices": ["く", "に", "い", "くて"], "a": 0
+    },
+    {
+      "id": "n5-b08-t03", "type": "order", "uses": ["n5-40"],
+      "fr": "Je veux un nouvel ordinateur.",
+      "tokens": ["{新|あたら}しい", "パソコン", "が", "ほしい", "です"]
+    },
+    {
+      "id": "n5-b08-t04", "type": "choice", "uses": ["n5-38"],
+      "jp": "ねつがある＿、{学校|がっこう}を{休|やす}みます。", "fr": "J'ai de la fièvre, alors je ne vais pas à l'école.",
+      "choices": ["ので", "なので", "だので", "のでに"], "a": 0
+    },
+    {
+      "id": "n5-b08-t05", "type": "choice", "uses": ["n5-07", "n5-39"],
+      "jp": "れいぞうこに{何|なに}＿ありません。", "fr": "Il n'y a rien dans le frigo.",
+      "choices": ["も", "か", "が", "を"], "a": 0
+    },
+    {
+      "id": "n5-b08-t06", "type": "choice", "uses": ["n5-36", "n5-37"],
+      "q": "Que signifie : もう{大人|おとな}になりました。",
+      "choices": ["Je suis devenu adulte.", "Je ne suis pas encore adulte.", "Je veux devenir adulte.", "Je ne suis plus adulte."], "a": 0
+    },
+    {
+      "id": "n5-b08-t07", "type": "order", "uses": ["n5-40"],
+      "fr": "Je suis allé à la poste pour envoyer une lettre.",
+      "tokens": ["{手紙|てがみ}", "を", "{出|だ}し", "に", "ゆうびんきょく", "へ", "{行|い}きました"],
+      "alt": [["ゆうびんきょく", "へ", "{手紙|てがみ}", "を", "{出|だ}し", "に", "{行|い}きました"]]
+    },
+    {
+      "id": "n5-b08-t08", "type": "choice", "uses": ["n5-38"],
+      "jp": "どうしておくれた＿ですか。", "fr": "Pourquoi es-tu en retard ? (c'est que…)",
+      "choices": ["ん", "な", "だ", "を"], "a": 0
+    },
+    {
+      "id": "n5-b08-t09", "type": "choice", "uses": ["n5-36"],
+      "q": "On te demande : もうきめましたか。 Tu n'as pas encore décidé. Que réponds-tu ?",
+      "choices": ["いいえ、まだです。", "いいえ、もうです。", "はい、まだです。", "いいえ、まだきめました。"], "a": 0
+    },
+    {
+      "id": "n5-b08-t10", "type": "choice", "uses": ["n5-11", "n5-13", "n5-37"],
+      "jp": "{日本語|にほんご}が{上手|じょうず}＿なりたいです。", "fr": "Je veux devenir bon en japonais.",
+      "choices": ["に", "く", "な", "で"], "a": 0
+    },
+    {
+      "id": "n5-b08-t11", "type": "choice", "uses": ["n5-13", "n5-39"],
+      "jp": "{今日|きょう}はどこ＿{行|い}きたくないです。うちにいます。", "fr": "Aujourd'hui, je ne veux aller nulle part. Je reste à la maison.",
+      "choices": ["にも", "かに", "にか", "がも"], "a": 0
+    },
+    {
+      "id": "n5-b08-t12", "type": "choice", "uses": ["n5-37", "n5-38"],
+      "q": "Quelle phrase est correcte ?",
+      "choices": ["{学生|がくせい}なので、{安|やす}くなります。", "{学生|がくせい}だので、{安|やす}くなります。", "{学生|がくせい}ので、{安|やす}くなります。", "{学生|がくせい}なのでで、{安|やす}くなります。"], "a": 0
+    },
+    {
+      "id": "n5-b08-t13", "type": "order", "uses": ["n5-08", "n5-36"],
+      "fr": "Il fait encore froid.",
+      "tokens": ["まだ", "{寒|さむ}い", "です"]
+    },
+    {
+      "id": "n5-b08-t14", "type": "choice", "uses": ["n5-40"],
+      "q": "Comment dire « Je veux de l'eau » (une chose) ?",
+      "choices": ["{水|みず}がほしいです。", "{水|みず}がしたいです。", "{水|みず}をほしいます。", "{水|みず}がほしくです。"], "a": 0
+    },
+    {
+      "id": "n5-b08-t15", "type": "choice", "uses": ["n5-30", "n5-39"],
+      "jp": "{何|なに}か＿ものがありますか。", "fr": "Il y a quelque chose à manger ?",
+      "choices": ["{食|た}べる", "{食|た}べます", "{食|た}べて", "{食|た}べるの"], "a": 0
+    }
+  ]
+}

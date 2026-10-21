@@ -36,35 +36,35 @@ Ordre prévu des leçons. Les points rares ou facultatifs sont laissés de côt�
 
 → **Grand examen 1** (leçons 1–20) ✅
 
-**Bloc 5**
+**Bloc 5** ✅
 21. て pour enchaîner ; adjectifs くて / で
 22. Forme ない
 23. ないでください / なければなりません
 24. Forme た (passé neutre)
 25. たことがある
 
-**Bloc 6**
+**Bloc 6** ✅
 26. Style neutre (familier) : la phrase complète
 27. と思います
 28. と言っていました
 29. たり〜たりする
 30. Propositions relatives (verbe + nom)
 
-**Bloc 7**
+**Bloc 7** ✅
 31. より / のほうが / いちばん (comparer)
 32. まえに / あとで
 33. とき
 34. でしょう / だろう
 35. から〜まで, ごろ / くらい, だけ
 
-**Bloc 8**
+**Bloc 8** ✅
 36. もう / まだ
 37. 〜くなる / 〜になる
 38. ので / んです
 39. 何か・何も (interrogatif + か / も)
 40. ほしい, 〜に行く (aller faire)
 
-→ **Grand examen 2** (leçons 21–40)
+→ **Grand examen 2** (leçons 21–40) ✅
 
 ## N4
 

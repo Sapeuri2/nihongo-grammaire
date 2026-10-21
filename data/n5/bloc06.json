@@ -1,0 +1,504 @@
+{
+  "id": "n5-b06",
+  "level": "N5",
+  "title": "Le style familier et ce qu'on en fait",
+  "lessons": [
+    {
+      "id": "n5-26",
+      "title": "Le style neutre (familier) : le tableau complet",
+      "formula": ["Verbe : {行|い}く / {行|い}かない / {行|い}った / {行|い}かなかった", "Adj-い : {高|たか}い / {高|たか}くない / {高|たか}かった / {高|たか}くなかった", "Adj-な, Nom : {静|しず}かだ / {静|しず}かじゃない / {静|しず}かだった / {静|しず}かじゃなかった"],
+      "sections": [
+        {
+          "h": "Pourquoi c'est important",
+          "p": [
+            "C'est la façon de parler **entre amis**, et surtout la forme à mettre **devant** beaucoup de structures : と{思|おも}います, と{言|い}っていました, les relatives…",
+            "Règle simple : on enlève です / ます et on remet la forme « nue »."
+          ]
+        },
+        {
+          "h": "Le tableau",
+          "vocab": [
+            { "jp": "{行|い}きます → {行|い}く", "fr": "verbe, présent" },
+            { "jp": "{行|い}きません → {行|い}かない", "fr": "verbe, négatif" },
+            { "jp": "{行|い}きました → {行|い}った", "fr": "verbe, passé" },
+            { "jp": "{行|い}きませんでした → {行|い}かなかった", "fr": "verbe, passé négatif" },
+            { "jp": "{高|たか}いです → {高|たか}い", "fr": "adj. い : on enlève です" },
+            { "jp": "{高|たか}くなかったです → {高|たか}くなかった", "fr": "adj. い" },
+            { "jp": "{静|しず}かです → {静|しず}かだ", "fr": "adj. な / nom : です → だ" },
+            { "jp": "{静|しず}かじゃありません → {静|しず}かじゃない", "fr": "adj. な / nom" },
+            { "jp": "{静|しず}かでした → {静|しず}かだった", "fr": "adj. な / nom" },
+            { "jp": "{静|しず}かじゃありませんでした → {静|しず}かじゃなかった", "fr": "adj. な / nom" }
+          ]
+        },
+        {
+          "h": "Les questions entre amis",
+          "p": ["Pas de か (ça sonne brusque) : on monte la voix. Avec un nom ou un adj. な, on enlève aussi だ : ひま？ (tu es libre ?)."],
+          "ex": [
+            { "jp": "あした{来|く}る？", "fr": "Tu viens demain ?" },
+            { "jp": "{今日|きょう}、ひま？", "fr": "Tu es libre aujourd'hui ?" }
+          ]
+        }
+      ],
+      "pieges": [
+        "Adj. い : jamais だ → {高|たか}いだ ✗.",
+        "Adj. な / nom : です → だ, pas rien : {静|しず}かだ (mais en question : {静|しず}か？)."
+      ],
+      "exercises": [
+        {
+          "id": "n5-26-e01", "type": "choice", "uses": ["n5-01"],
+          "q": "Forme neutre de {学生|がくせい}です ?",
+          "choices": ["{学生|がくせい}だ", "{学生|がくせい}い", "{学生|がくせい}な", "{学生|がくせい}だです"], "a": 0
+        },
+        {
+          "id": "n5-26-e02", "type": "choice", "uses": ["n5-08"],
+          "q": "Forme neutre de {高|たか}くないです ?",
+          "choices": ["{高|たか}くない", "{高|たか}くないだ", "{高|たか}いじゃない", "{高|たか}くなかっただ"], "a": 0
+        },
+        {
+          "id": "n5-26-e03", "type": "choice", "uses": ["n5-10"],
+          "q": "Forme neutre de {静|しず}かでした ?",
+          "choices": ["{静|しず}かだった", "{静|しず}かかった", "{静|しず}かでしただ", "{静|しず}かったです"], "a": 0
+        },
+        {
+          "id": "n5-26-e04", "type": "choice", "uses": ["n5-24"],
+          "q": "Forme neutre de {行|い}きませんでした ?",
+          "choices": ["{行|い}かなかった", "{行|い}きなかった", "{行|い}かないでした", "{行|い}かないかった"], "a": 0
+        },
+        {
+          "id": "n5-26-e05", "type": "choice", "uses": ["n5-16"],
+          "q": "Entre amis, comment demander « Tu viens demain ? »",
+          "choices": ["あしたくる？", "あしたくるですか。", "あしたくるだ？", "あしたこる？"], "a": 0
+        },
+        {
+          "id": "n5-26-e06", "type": "order", "uses": ["n5-03", "n5-10"],
+          "fr": "(Familier) Ce film n'était pas intéressant.",
+          "tokens": ["この", "{映画|えいが}", "は", "おもしろくなかった"]
+        },
+        {
+          "id": "n5-26-e07", "type": "choice", "uses": ["n5-09"],
+          "q": "Forme neutre de {元気|げんき}じゃありません ?",
+          "choices": ["{元気|げんき}じゃない", "{元気|げんき}くない", "{元気|げんき}ない", "{元気|げんき}じゃないだ"], "a": 0
+        },
+        {
+          "id": "n5-26-e08", "type": "choice", "uses": ["n5-10"],
+          "q": "Forme neutre de おいしかったです ?",
+          "choices": ["おいしかった", "おいしいだった", "おいしかっただ", "おいしいかった"], "a": 0
+        },
+        {
+          "id": "n5-26-e09", "type": "choice", "uses": ["n5-09"],
+          "q": "Que signifie (familier) : {今日|きょう}はひまじゃない。",
+          "choices": ["Aujourd'hui, je ne suis pas libre.", "Aujourd'hui, je suis libre.", "Hier, je n'étais pas libre.", "Tu es libre aujourd'hui ?"], "a": 0
+        },
+        {
+          "id": "n5-26-e10", "type": "choice", "uses": ["n5-24"],
+          "jp": "きのう、{何|なに}＿？— {映画|えいが}を{見|み}た。", "fr": "Tu as fait quoi hier ? — J'ai regardé un film.",
+          "choices": ["した", "しない", "します", "すた"], "a": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-27",
+      "title": "と思います : je pense que",
+      "formula": ["Forme neutre + と{思|おも}います", "Nom / Adj-な + だ + と{思|おも}います"],
+      "sections": [
+        {
+          "h": "Donner son avis, faire une supposition",
+          "p": [
+            "Forme neutre + **と{思|おも}います** = « je pense que… ».",
+            "Avec un nom ou un adjectif en な, **だ est obligatoire** : {学生|がくせい}だと{思|おも}います."
+          ],
+          "ex": [
+            { "jp": "あしたは{雨|あめ}が{降|ふ}ると{思|おも}います。", "fr": "Je pense qu'il pleuvra demain." },
+            { "jp": "この{店|みせ}は{高|たか}いと{思|おも}います。", "fr": "Je pense que ce magasin est cher." },
+            { "jp": "{田中|たなか}さんは{来|こ}ないと{思|おも}います。", "fr": "Je pense que M. Tanaka ne viendra pas." }
+          ]
+        },
+        {
+          "h": "Demander l'avis",
+          "ex": [
+            { "jp": "この{本|ほん}についてどう{思|おも}いますか。", "fr": "Que penses-tu de ce livre ?" }
+          ]
+        }
+      ],
+      "pieges": [
+        "{学生|がくせい}ですと{思|おも}います ✗ → {学生|がくせい}だと{思|おも}います.",
+        "Adj. い : pas de だ → {高|たか}いと{思|おも}います.",
+        "« Je ne pense pas que… » : on met plutôt la négation dans la phrase citée : {来|こ}ないと{思|おも}います."
+      ],
+      "exercises": [
+        {
+          "id": "n5-27-e01", "type": "choice", "uses": ["n5-26"],
+          "jp": "あしたは{雨|あめ}が{降|ふ}る＿{思|おも}います。", "fr": "Je pense qu'il pleuvra demain.",
+          "choices": ["と", "を", "が", "に"], "a": 0
+        },
+        {
+          "id": "n5-27-e02", "type": "choice", "uses": ["n5-26"],
+          "jp": "{田中|たなか}さんは{学生|がくせい}＿と{思|おも}います。", "fr": "Je pense que M. Tanaka est étudiant.",
+          "choices": ["だ", "です", "な", "の"], "a": 0,
+          "explain": "Nom + だ + と{思|おも}います."
+        },
+        {
+          "id": "n5-27-e03", "type": "choice", "uses": ["n5-26"],
+          "jp": "この{店|みせ}は{高|たか}い＿{思|おも}います。", "fr": "Je pense que ce magasin est cher.",
+          "choices": ["と", "だと", "なと", "ですと"], "a": 0,
+          "explain": "Adjectif en い : pas de だ."
+        },
+        {
+          "id": "n5-27-e04", "type": "order", "uses": ["n5-22", "n5-26"],
+          "fr": "Je pense que M. Tanaka ne viendra pas.",
+          "tokens": ["{田中|たなか}さん", "は", "{来|こ}ない", "と", "{思|おも}います"]
+        },
+        {
+          "id": "n5-27-e05", "type": "choice", "uses": ["n5-07", "n5-26"],
+          "jp": "{山田|やまだ}さんは{今|いま}{家|いえ}に＿と{思|おも}います。", "fr": "Je pense que Mme Yamada est chez elle en ce moment.",
+          "choices": ["いる", "います", "いるだ", "いて"], "a": 0
+        },
+        {
+          "id": "n5-27-e06", "type": "choice", "uses": ["n5-26"],
+          "q": "Comment demander : « Que penses-tu de ce livre ? »",
+          "choices": ["この{本|ほん}についてどう{思|おも}いますか。", "この{本|ほん}についてどう{思|おも}いますですか。", "この{本|ほん}についてどう{思|おも}うですか。", "この{本|ほん}についてどう{思|おも}いだ？"], "a": 0
+        },
+        {
+          "id": "n5-27-e07", "type": "choice", "uses": ["n5-10", "n5-26"],
+          "jp": "きのうのテストはむずかしかった＿{思|おも}います。", "fr": "Je pense que le contrôle d'hier était difficile.",
+          "choices": ["と", "だと", "たと", "を"], "a": 0
+        },
+        {
+          "id": "n5-27-e08", "type": "order", "uses": ["n5-09", "n5-26"],
+          "fr": "Je pense que ce restaurant est célèbre.",
+          "tokens": ["この", "レストラン", "は", "{有名|ゆうめい}だ", "と", "{思|おも}います"]
+        },
+        {
+          "id": "n5-27-e09", "type": "choice", "uses": ["n5-22", "n5-26"],
+          "q": "Quelle phrase est correcte pour « Je pense qu'il ne pleuvra pas » ?",
+          "choices": ["{雨|あめ}は{降|ふ}らないと{思|おも}います。", "{雨|あめ}は{降|ふ}らないだと{思|おも}います。", "{雨|あめ}は{降|ふ}るじゃないと{思|おも}います。", "{雨|あめ}は{降|ふ}りませんだと{思|おも}います。"], "a": 0
+        },
+        {
+          "id": "n5-27-e10", "type": "choice", "uses": ["n5-26"],
+          "jp": "{日本語|にほんご}はおもしろい＿{思|おも}いませんか。", "fr": "Tu ne trouves pas que le japonais est intéressant ?",
+          "choices": ["と", "を", "が", "だ"], "a": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-28",
+      "title": "と言っていました : rapporter des paroles",
+      "formula": ["Personne は + forme neutre + と{言|い}っていました", "「citation exacte」と{言|い}いました"],
+      "sections": [
+        {
+          "h": "Rapporter ce que quelqu'un a dit",
+          "p": [
+            "Forme neutre + **と{言|い}っていました** = « il / elle a dit que… » (pour transmettre un message).",
+            "Comme avec と{思|おも}います : nom / adj. な + **だ**."
+          ],
+          "ex": [
+            { "jp": "{田中|たなか}さんはあした{来|く}ると{言|い}っていました。", "fr": "M. Tanaka a dit qu'il viendrait demain." },
+            { "jp": "{山田|やまだ}さんは{今日|きょう}はひまだと{言|い}っていました。", "fr": "Mme Yamada a dit qu'elle était libre aujourd'hui." }
+          ]
+        },
+        {
+          "h": "Citation exacte",
+          "p": ["Entre crochets japonais 「 」, on cite les mots exacts, puis と{言|い}いました."],
+          "ex": [
+            { "jp": "{先生|せんせい}は「おはようございます」と{言|い}いました。", "fr": "Le professeur a dit « Bonjour »." },
+            { "jp": "{田中|たなか}さんは{何|なん}と{言|い}っていましたか。", "fr": "Qu'a dit M. Tanaka ?" }
+          ]
+        }
+      ],
+      "pieges": [
+        "La particule est **と**, pas を : {来|く}るを{言|い}いました ✗.",
+        "Forme neutre devant と : {来|く}ると (pas {来|き}ますと, sauf citation exacte entre 「 」)."
+      ],
+      "exercises": [
+        {
+          "id": "n5-28-e01", "type": "choice", "uses": ["n5-26"],
+          "jp": "{田中|たなか}さんはあした{来|く}る＿{言|い}っていました。", "fr": "M. Tanaka a dit qu'il viendrait demain.",
+          "choices": ["と", "を", "が", "に"], "a": 0
+        },
+        {
+          "id": "n5-28-e02", "type": "choice", "uses": ["n5-22", "n5-26"],
+          "jp": "{先生|せんせい}は{宿題|しゅくだい}はない＿{言|い}っていました。", "fr": "Le professeur a dit qu'il n'y avait pas de devoirs.",
+          "choices": ["と", "を", "で", "が"], "a": 0
+        },
+        {
+          "id": "n5-28-e03", "type": "choice", "uses": ["n5-09", "n5-26"],
+          "jp": "{山田|やまだ}さんは{今日|きょう}はひま＿と{言|い}っていました。", "fr": "Mme Yamada a dit qu'elle était libre aujourd'hui.",
+          "choices": ["だ", "です", "な", "の"], "a": 0
+        },
+        {
+          "id": "n5-28-e04", "type": "order", "uses": ["n5-24", "n5-26"],
+          "fr": "Mme Yamada a dit qu'elle était fatiguée.",
+          "tokens": ["{山田|やまだ}さん", "は", "つかれた", "と", "{言|い}っていました"]
+        },
+        {
+          "id": "n5-28-e05", "type": "choice",
+          "q": "Que signifie : {先生|せんせい}は{何|なん}と{言|い}っていましたか。",
+          "choices": ["Qu'a dit le professeur ?", "Le professeur a-t-il parlé ?", "Qu'as-tu dit au professeur ?", "Que dira le professeur demain ?"], "a": 0
+        },
+        {
+          "id": "n5-28-e06", "type": "choice",
+          "jp": "{田中|たなか}さんは「ありがとう」＿{言|い}いました。", "fr": "M. Tanaka a dit « merci ».",
+          "choices": ["と", "が", "に", "で"], "a": 0
+        },
+        {
+          "id": "n5-28-e07", "type": "choice", "uses": ["n5-22", "n5-26"],
+          "q": "Ton ami t'a dit : 「あしたパーティーに{行|い}かない」. Tu le rapportes. Que dis-tu ?",
+          "choices": ["{友|とも}だちはあしたパーティーに{行|い}かないと{言|い}っていました。", "{友|とも}だちはあしたパーティーに{行|い}かないを{言|い}っていました。", "{友|とも}だちはあしたパーティーに{行|い}かないだと{言|い}っていました。", "{友|とも}だちはあしたパーティーに{行|い}きませんだと{言|い}っていました。"], "a": 0
+        },
+        {
+          "id": "n5-28-e08", "type": "order", "uses": ["n5-08", "n5-26"],
+          "fr": "Le professeur a dit que le contrôle était facile.",
+          "tokens": ["{先生|せんせい}", "は", "テスト", "が", "やさしい", "と", "{言|い}っていました"]
+        },
+        {
+          "id": "n5-28-e09", "type": "choice", "uses": ["n5-13", "n5-26"],
+          "jp": "{兄|あに}は{来年|らいねん}{日本|にほん}に{行|い}きたい＿{言|い}っていました。", "fr": "Mon grand frère a dit qu'il voulait aller au Japon l'année prochaine.",
+          "choices": ["と", "だと", "です", "を"], "a": 0,
+          "explain": "たい se comporte comme un adjectif en い : pas de だ."
+        },
+        {
+          "id": "n5-28-e10", "type": "choice", "uses": ["n5-26"],
+          "q": "Quelle forme va devant と{言|い}っていました (sans crochets) ?",
+          "choices": ["La forme neutre (familière)", "La forme en ます", "La forme て", "Seulement la forme ない"], "a": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-29",
+      "title": "たり〜たりする : faire des choses comme…",
+      "formula": ["Verbe-たり、Verbe-たり する"],
+      "sections": [
+        {
+          "h": "Citer quelques actions parmi d'autres",
+          "p": [
+            "Forme た + **り**, deux fois, puis **する** à la fin : « je fais des choses comme A, B… ».",
+            "Contrairement à て, il n'y a **pas d'ordre** : ce sont des exemples. Le temps se met sur する."
+          ],
+          "ex": [
+            { "jp": "{週末|しゅうまつ}は{本|ほん}を{読|よ}んだり、{映画|えいが}を{見|み}たりします。", "fr": "Le week-end, je lis, je regarde des films… (entre autres)" },
+            { "jp": "きのうは{買|か}い{物|もの}をしたり、{友|とも}だちに{会|あ}ったりしました。", "fr": "Hier, j'ai fait des courses, vu des amis…" }
+          ]
+        }
+      ],
+      "pieges": [
+        "N'oublie pas する à la fin : {読|よ}んだり、{見|み}たり**します**.",
+        "Les deux verbes prennent たり : {読|よ}んだり、{見|み}ます ✗."
+      ],
+      "exercises": [
+        {
+          "id": "n5-29-e01", "type": "choice", "uses": ["n5-24"],
+          "jp": "{週末|しゅうまつ}は{本|ほん}を{読|よ}ん＿、{映画|えいが}を{見|み}たりします。", "fr": "Le week-end, je lis, je regarde des films…",
+          "choices": ["だり", "たり", "でり", "だる"], "a": 0,
+          "explain": "{読|よ}んだ → {読|よ}んだり."
+        },
+        {
+          "id": "n5-29-e02", "type": "choice", "uses": ["n5-24"],
+          "jp": "きのうは{買|か}い{物|もの}をしたり、{友|とも}だちに{会|あ}ったり＿。", "fr": "Hier, j'ai fait des courses, vu des amis…",
+          "choices": ["しました", "です", "ました", "たり"], "a": 0
+        },
+        {
+          "id": "n5-29-e03", "type": "order", "uses": ["n5-24"],
+          "fr": "Le dimanche, je fais le ménage, la lessive…",
+          "tokens": ["{日曜日|にちようび}", "は", "そうじ", "を", "したり", "せんたく", "を", "したり", "します"],
+          "alt": [["{日曜日|にちようび}", "は", "せんたく", "を", "したり", "そうじ", "を", "したり", "します"]]
+        },
+        {
+          "id": "n5-29-e04", "type": "choice",
+          "q": "Que signifie : {休|やす}みの{日|ひ}は、テレビを{見|み}たり、ねたりします。",
+          "choices": ["Les jours de repos, je regarde la télé, je dors… (entre autres).", "Les jours de repos, je regarde la télé en dormant.", "Les jours de repos, je dois regarder la télé et dormir.", "Les jours de repos, je ne regarde pas la télé."], "a": 0
+        },
+        {
+          "id": "n5-29-e05", "type": "choice", "uses": ["n5-24"],
+          "q": "Forme たり de {行|い}く ?",
+          "choices": ["{行|い}ったり", "{行|い}きたり", "{行|い}いたり", "{行|い}んだり"], "a": 0
+        },
+        {
+          "id": "n5-29-e06", "type": "choice", "uses": ["n5-24"],
+          "jp": "パーティーで{歌|うた}を{歌|うた}ったり、おどったり＿。", "fr": "À la fête, on a chanté, dansé…",
+          "choices": ["しました", "おどりました", "ました", "でした"], "a": 0
+        },
+        {
+          "id": "n5-29-e07", "type": "choice", "uses": ["n5-24"],
+          "q": "Quelle phrase est correcte ?",
+          "choices": ["{本|ほん}を{読|よ}んだり、{音楽|おんがく}を{聞|き}いたりします。", "{本|ほん}を{読|よ}んだり、{音楽|おんがく}を{聞|き}きます。", "{本|ほん}を{読|よ}みたり、{音楽|おんがく}を{聞|き}きたりします。", "{本|ほん}を{読|よ}んだり、{音楽|おんがく}を{聞|き}いたりです。"], "a": 0
+        },
+        {
+          "id": "n5-29-e08", "type": "order", "uses": ["n5-14", "n5-24"],
+          "fr": "Hier, avec des amis, on a mangé, bu…",
+          "tokens": ["きのう", "{友|とも}だち", "と", "{食|た}べたり", "{飲|の}んだり", "しました"],
+          "alt": [["きのう", "{友|とも}だち", "と", "{飲|の}んだり", "{食|た}べたり", "しました"]]
+        },
+        {
+          "id": "n5-29-e09", "type": "choice", "uses": ["n5-13", "n5-24"],
+          "jp": "{夏休|なつやす}みは{海|うみ}で{泳|およ}い＿、{山|やま}にのぼったりしたいです。", "fr": "Pendant les vacances d'été, je veux nager à la mer, faire de la montagne…",
+          "choices": ["だり", "たり", "ったり", "んだり"], "a": 0,
+          "explain": "{泳|およ}ぐ → {泳|およ}いだ → {泳|およ}いだり."
+        },
+        {
+          "id": "n5-29-e10", "type": "choice", "uses": ["n5-21"],
+          "q": "Pourquoi utiliser たり〜たり plutôt que て ?",
+          "choices": ["Pour citer quelques actions parmi d'autres, sans ordre précis.", "Pour dire que les actions se suivent dans l'ordre.", "Pour faire une demande.", "Pour parler uniquement du futur."], "a": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-30",
+      "title": "Les propositions relatives : le livre que j'ai lu",
+      "formula": ["Forme neutre + Nom", "{私|わたし}が{読|よ}んだ{本|ほん} = le livre que j'ai lu"],
+      "sections": [
+        {
+          "h": "Le principe",
+          "p": [
+            "En japonais, ce qui décrit le nom se met **devant** lui, à la forme neutre. Pas de mot comme « que » ou « qui ».",
+            "{読|よ}んだ{本|ほん} = le livre (que j'ai) lu ; {日本語|にほんご}を{話|はな}す{人|ひと} = une personne qui parle japonais."
+          ],
+          "ex": [
+            { "jp": "これは{私|わたし}が{読|よ}んだ{本|ほん}です。", "fr": "C'est le livre que j'ai lu." },
+            { "jp": "めがねをかけている{人|ひと}は{田中|たなか}さんです。", "fr": "La personne qui porte des lunettes, c'est M. Tanaka." },
+            { "jp": "きのう{行|い}ったレストランはおいしかったです。", "fr": "Le restaurant où je suis allé hier était bon." }
+          ]
+        },
+        {
+          "h": "Le sujet dans la relative",
+          "p": ["Le sujet de la relative prend **が** (jamais は) : {母|はは}が{作|つく}ったケーキ = le gâteau que ma mère a fait."]
+        }
+      ],
+      "pieges": [
+        "Pas de ます dans la relative : {読|よ}みました{本|ほん} ✗.",
+        "Pas de の entre le verbe et le nom : {読|よ}んだの{本|ほん} ✗.",
+        "{母|はは}は{作|つく}ったケーキ ✗ → {母|はは}が."
+      ],
+      "exercises": [
+        {
+          "id": "n5-30-e01", "type": "choice", "uses": ["n5-24", "n5-26"],
+          "q": "Comment dit-on « le livre que j'ai lu » ?",
+          "choices": ["{私|わたし}が{読|よ}んだ{本|ほん}", "{私|わたし}は{読|よ}んだの{本|ほん}", "{私|わたし}が{読|よ}みました{本|ほん}", "{本|ほん}が{読|よ}んだ{私|わたし}の"], "a": 0
+        },
+        {
+          "id": "n5-30-e02", "type": "choice", "uses": ["n5-19", "n5-26"],
+          "jp": "あそこで{本|ほん}を{読|よ}んで＿{人|ひと}は{田中|たなか}さんです。", "fr": "La personne qui lit là-bas, c'est M. Tanaka.",
+          "choices": ["いる", "います", "いるの", "いるな"], "a": 0
+        },
+        {
+          "id": "n5-30-e03", "type": "choice", "uses": ["n5-24"],
+          "jp": "これは{母|はは}＿{作|つく}ったケーキです。", "fr": "C'est le gâteau que ma mère a fait.",
+          "choices": ["が", "は", "を", "に"], "a": 0,
+          "explain": "Sujet dans une relative → が."
+        },
+        {
+          "id": "n5-30-e04", "type": "order", "uses": ["n5-24"],
+          "fr": "C'est le restaurant où je suis allé hier.",
+          "tokens": ["これ", "は", "きのう", "{行|い}った", "レストラン", "です"]
+        },
+        {
+          "id": "n5-30-e05", "type": "choice", "uses": ["n5-26"],
+          "jp": "{日本語|にほんご}を＿{人|ひと}はだれですか。", "fr": "Qui est la personne qui parle japonais ?",
+          "choices": ["{話|はな}す", "{話|はな}します", "{話|はな}して", "{話|はな}すの"], "a": 0
+        },
+        {
+          "id": "n5-30-e06", "type": "choice", "uses": ["n5-11"],
+          "q": "Que signifie : {私|わたし}が{好|す}きな{食|た}べ{物|もの}はすしです。",
+          "choices": ["Mon plat préféré, ce sont les sushis.", "Je mange des sushis tous les jours.", "Les sushis m'aiment.", "Je ne mange que des sushis."], "a": 0
+        },
+        {
+          "id": "n5-30-e07", "type": "choice", "uses": ["n5-24"],
+          "jp": "きのう＿{映画|えいが}はおもしろかったです。", "fr": "Le film que j'ai vu hier était intéressant.",
+          "choices": ["{見|み}た", "{見|み}ました", "{見|み}て", "{見|み}る"], "a": 0
+        },
+        {
+          "id": "n5-30-e08", "type": "order", "uses": ["n5-19"],
+          "fr": "La personne qui porte des lunettes est mon professeur.",
+          "tokens": ["めがね", "を", "かけている", "{人|ひと}", "は", "{私|わたし}", "の", "{先生|せんせい}", "です"]
+        },
+        {
+          "id": "n5-30-e09", "type": "choice", "uses": ["n5-24"],
+          "q": "Quelle phrase est correcte ?",
+          "choices": ["{田中|たなか}さんが{買|か}った{車|くるま}は{高|たか}いです。", "{田中|たなか}さんは{買|か}った{車|くるま}は{高|たか}いです。", "{田中|たなか}さんが{買|か}いました{車|くるま}は{高|たか}いです。", "{田中|たなか}さんが{買|か}ったの{車|くるま}は{高|たか}いです。"], "a": 0
+        },
+        {
+          "id": "n5-30-e10", "type": "choice", "uses": ["n5-24"],
+          "jp": "{先週|せんしゅう}{会|あ}った＿は{山田|やまだ}さんです。", "fr": "La personne que j'ai rencontrée la semaine dernière, c'est Mme Yamada.",
+          "choices": ["{人|ひと}", "の{人|ひと}", "な{人|ひと}", "{人|ひと}の"], "a": 0
+        }
+      ]
+    }
+  ],
+  "test": [
+    {
+      "id": "n5-b06-t01", "type": "choice", "uses": ["n5-06", "n5-26"],
+      "q": "Forme neutre de {学生|がくせい}じゃありませんでした ?",
+      "choices": ["{学生|がくせい}じゃなかった", "{学生|がくせい}くなかった", "{学生|がくせい}じゃないでした", "{学生|がくせい}なかった"], "a": 0
+    },
+    {
+      "id": "n5-b06-t02", "type": "choice", "uses": ["n5-28"],
+      "jp": "{田中|たなか}さんは{来週|らいしゅう}{国|くに}に{帰|かえ}る＿{言|い}っていました。", "fr": "M. Tanaka a dit qu'il rentrerait dans son pays la semaine prochaine.",
+      "choices": ["と", "を", "が", "に"], "a": 0
+    },
+    {
+      "id": "n5-b06-t03", "type": "order", "uses": ["n5-03", "n5-27"],
+      "fr": "Je pense que ce livre-ci est intéressant.",
+      "tokens": ["この", "{本|ほん}", "は", "おもしろい", "と", "{思|おも}います"]
+    },
+    {
+      "id": "n5-b06-t04", "type": "choice", "uses": ["n5-30"],
+      "jp": "{先生|せんせい}が＿{本|ほん}を{読|よ}みました。", "fr": "J'ai lu le livre que le professeur a écrit.",
+      "choices": ["{書|か}いた", "{書|か}きました", "{書|か}いて", "{書|か}いたの"], "a": 0
+    },
+    {
+      "id": "n5-b06-t05", "type": "choice", "uses": ["n5-26"],
+      "q": "Entre amis : « Tu as mangé ? »",
+      "choices": ["{食|た}べた？", "{食|た}べたですか。", "{食|た}べただ？", "{食|た}べるだ？"], "a": 0
+    },
+    {
+      "id": "n5-b06-t06", "type": "choice", "uses": ["n5-29"],
+      "jp": "{休|やす}みの{日|ひ}はそうじをし＿、{本|ほん}を{読|よ}んだりします。", "fr": "Les jours de repos, je fais le ménage, je lis…",
+      "choices": ["たり", "だり", "ったり", "んだり"], "a": 0
+    },
+    {
+      "id": "n5-b06-t07", "type": "choice", "uses": ["n5-09", "n5-27"],
+      "jp": "あの{人|ひと}は{有名|ゆうめい}＿と{思|おも}います。", "fr": "Je pense que cette personne est célèbre.",
+      "choices": ["だ", "な", "です", "の"], "a": 0
+    },
+    {
+      "id": "n5-b06-t08", "type": "choice", "uses": ["n5-26", "n5-28"],
+      "q": "Que signifie : {山田|やまだ}さんは、テストはむずかしくなかったと{言|い}っていました。",
+      "choices": ["Mme Yamada a dit que le contrôle n'était pas difficile.", "Mme Yamada a dit que le contrôle était difficile.", "Je pense que le contrôle n'était pas difficile.", "Mme Yamada dira que le contrôle est facile."], "a": 0
+    },
+    {
+      "id": "n5-b06-t09", "type": "order", "uses": ["n5-10", "n5-30"],
+      "fr": "Le gâteau que ma mère a fait était délicieux.",
+      "tokens": ["{母|はは}", "が", "{作|つく}った", "ケーキ", "は", "おいしかった", "です"]
+    },
+    {
+      "id": "n5-b06-t10", "type": "choice", "uses": ["n5-26"],
+      "q": "Forme neutre de {寒|さむ}かったです ?",
+      "choices": ["{寒|さむ}かった", "{寒|さむ}いだった", "{寒|さむ}かっただ", "{寒|さむ}いかった"], "a": 0
+    },
+    {
+      "id": "n5-b06-t11", "type": "choice", "uses": ["n5-27"],
+      "q": "Quelle phrase est correcte ?",
+      "choices": ["あしたは{雨|あめ}だと{思|おも}います。", "あしたは{雨|あめ}ですと{思|おも}います。", "あしたは{雨|あめ}なと{思|おも}います。", "あしたは{雨|あめ}のと{思|おも}います。"], "a": 0
+    },
+    {
+      "id": "n5-b06-t12", "type": "order", "uses": ["n5-29"],
+      "fr": "Le week-end, je joue au tennis, je fais les courses…",
+      "tokens": ["{週末|しゅうまつ}", "は", "テニス", "を", "したり", "{買|か}い{物|もの}", "を", "したり", "します"],
+      "alt": [["{週末|しゅうまつ}", "は", "{買|か}い{物|もの}", "を", "したり", "テニス", "を", "したり", "します"]]
+    },
+    {
+      "id": "n5-b06-t13", "type": "choice", "uses": ["n5-19", "n5-30"],
+      "jp": "めがねを＿{人|ひと}が{田中|たなか}さんです。", "fr": "La personne qui porte des lunettes, c'est M. Tanaka.",
+      "choices": ["かけている", "かけています", "かけているの", "かけているな"], "a": 0
+    },
+    {
+      "id": "n5-b06-t14", "type": "choice", "uses": ["n5-26", "n5-27"],
+      "q": "Ton ami demande : この{映画|えいが}、どう{思|おも}う？ Tu le trouves ennuyeux (つまらない). Que réponds-tu ?",
+      "choices": ["つまらないと{思|おも}う。", "つまらないだと{思|おも}う。", "つまらないですと{思|おも}う。", "つまらないと{思|おも}うだ。"], "a": 0
+    },
+    {
+      "id": "n5-b06-t15", "type": "choice", "uses": ["n5-30"],
+      "jp": "{友|とも}だちが＿{料理|りょうり}はおいしかったです。", "fr": "Le plat que mon ami a cuisiné était bon.",
+      "choices": ["{作|つく}った", "{作|つく}りました", "{作|つく}って", "{作|つく}ったの"], "a": 0
+    }
+  ]
+}

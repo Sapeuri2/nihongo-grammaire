@@ -1,0 +1,511 @@
+{
+  "id": "n5-b05",
+  "level": "N5",
+  "title": "Enchaîner, nier, obliger, raconter",
+  "lessons": [
+    {
+      "id": "n5-21",
+      "title": "て pour enchaîner ; adjectifs くて / で",
+      "formula": ["Verbe-て、Verbe-て、Verbe (le temps est à la fin)", "Adj-い → くて", "Adj-な / Nom → で"],
+      "sections": [
+        {
+          "h": "Enchaîner des actions",
+          "p": [
+            "La forme て relie des actions **dans l'ordre** où elles se passent : « je fais A, puis B, puis C ».",
+            "Seul le **dernier verbe** porte le temps (présent ou passé) et la politesse."
+          ],
+          "ex": [
+            { "jp": "{朝|あさ}{起|お}きて、シャワーをあびて、{学校|がっこう}に{行|い}きます。", "fr": "Le matin, je me lève, je prends une douche et je vais à l'école." },
+            { "jp": "うちに{帰|かえ}って、ごはんを{食|た}べました。", "fr": "Je suis rentré et j'ai mangé." }
+          ]
+        },
+        {
+          "h": "Enchaîner des adjectifs",
+          "p": [
+            "Adjectif en い : い → **くて** : {安|やす}くて、おいしい = pas cher et bon.",
+            "Adjectif en な ou nom : + **で** : {静|しず}かで、きれい = calme et joli ; {学生|がくせい}で、{日本人|にほんじん} = étudiant et japonais."
+          ],
+          "ex": [
+            { "jp": "この{店|みせ}は{安|やす}くて、おいしいです。", "fr": "Ce restaurant est bon marché et bon." },
+            { "jp": "{山田|やまだ}さんはきれいで、{親切|しんせつ}です。", "fr": "Mme Yamada est belle et gentille." }
+          ]
+        }
+      ],
+      "pieges": [
+        "Le temps se lit à la fin : {食|た}べて、ねました = j'ai mangé, puis je me suis couché (les deux au passé).",
+        "いい → よくて.",
+        "きれい est un adjectif en な : きれいで (pas きれくて)."
+      ],
+      "exercises": [
+        {
+          "id": "n5-21-e01", "type": "choice", "uses": ["n5-17"],
+          "jp": "{朝|あさ}{起|お}き＿、シャワーをあびます。", "fr": "Le matin, je me lève et je prends une douche.",
+          "choices": ["て", "ます", "る", "ました"], "a": 0,
+          "explain": "Pour enchaîner deux actions : forme て."
+        },
+        {
+          "id": "n5-21-e02", "type": "choice", "uses": ["n5-08"],
+          "jp": "この{店|みせ}は{安|やす}＿、おいしいです。", "fr": "Ce restaurant est bon marché et bon.",
+          "choices": ["くて", "いて", "で", "くで"], "a": 0,
+          "explain": "Adjectif en い : い → くて."
+        },
+        {
+          "id": "n5-21-e03", "type": "choice", "uses": ["n5-09"],
+          "jp": "この{町|まち}は{静|しず}か＿、きれいです。", "fr": "Cette ville est calme et jolie.",
+          "choices": ["で", "くて", "な", "て"], "a": 0,
+          "explain": "Adjectif en な : + で."
+        },
+        {
+          "id": "n5-21-e04", "type": "order", "uses": ["n5-05", "n5-06"],
+          "fr": "Je suis rentré à la maison et j'ai mangé.",
+          "tokens": ["うち", "に", "{帰|かえ}って", "ごはん", "を", "{食|た}べました"]
+        },
+        {
+          "id": "n5-21-e05", "type": "choice", "uses": ["n5-09"],
+          "q": "Quelle phrase est correcte ?",
+          "choices": ["{田中|たなか}さんは{親切|しんせつ}で、おもしろい{人|ひと}です。", "{田中|たなか}さんは{親切|しんせつ}くて、おもしろい{人|ひと}です。", "{田中|たなか}さんは{親切|しんせつ}て、おもしろい{人|ひと}です。", "{田中|たなか}さんは{親切|しんせつ}だくて、おもしろい{人|ひと}です。"], "a": 0,
+          "explain": "{親切|しんせつ} est un adjectif en な → {親切|しんせつ}で."
+        },
+        {
+          "id": "n5-21-e06", "type": "choice", "uses": ["n5-01"],
+          "jp": "{山田|やまだ}さんは{学生|がくせい}＿、{日本人|にほんじん}です。", "fr": "Mme Yamada est étudiante et japonaise.",
+          "choices": ["で", "くて", "て", "の"], "a": 0,
+          "explain": "Nom + で pour enchaîner."
+        },
+        {
+          "id": "n5-21-e07", "type": "choice", "uses": ["n5-06"],
+          "q": "Dans {食|た}べて、テレビを{見|み}て、ねました。, à quel temps est « manger » ?",
+          "choices": ["Au passé, comme le dernier verbe.", "Au présent.", "Au futur.", "On ne peut pas savoir."], "a": 0
+        },
+        {
+          "id": "n5-21-e08", "type": "order", "uses": ["n5-03", "n5-08"],
+          "fr": "Cette chambre est grande et claire.",
+          "tokens": ["この", "{部屋|へや}", "は", "{広|ひろ}くて", "{明|あか}るい", "です"]
+        },
+        {
+          "id": "n5-21-e09", "type": "choice", "uses": ["n5-05", "n5-06"],
+          "jp": "デパートに{行|い}っ＿、くつを{買|か}いました。", "fr": "Je suis allé au grand magasin et j'ai acheté des chaussures.",
+          "choices": ["て", "ています", "ます", "たい"], "a": 0
+        },
+        {
+          "id": "n5-21-e10", "type": "choice",
+          "q": "Que signifie : シャワーをあびて、ねます。",
+          "choices": ["Je prends une douche, puis je me couche.", "Je me couche, puis je prends une douche.", "Je prends une douche en dormant.", "Je ne prends pas de douche avant de dormir."], "a": 0,
+          "explain": "La forme て suit l'ordre des actions."
+        }
+      ]
+    },
+    {
+      "id": "n5-22",
+      "title": "La forme ない (négatif familier)",
+      "formula": ["Groupe 1 : u → a + ない ({書|か}く → {書|か}かない)", "う → わない ({買|か}う → {買|か}わない)", "Groupe 2 : る → ない", "する → しない, {来|く}る → {来|こ}ない, ある → ない"],
+      "sections": [
+        {
+          "h": "À quoi ça sert",
+          "p": ["C'est le **négatif familier** du présent : {行|い}かない = je n'y vais pas (entre amis). Elle sert aussi à construire d'autres formes (ないでください, なければ…)."]
+        },
+        {
+          "h": "Formation",
+          "vocab": [
+            { "jp": "{書|か}く → {書|か}かない", "fr": "groupe 1 : son u → son a + ない" },
+            { "jp": "{飲|の}む → {飲|の}まない", "fr": "groupe 1" },
+            { "jp": "{待|ま}つ → {待|ま}たない", "fr": "groupe 1" },
+            { "jp": "{帰|かえ}る → {帰|かえ}らない", "fr": "groupe 1" },
+            { "jp": "{買|か}う → {買|か}わない", "fr": "う → わ (pas あ !)" },
+            { "jp": "{食|た}べる → {食|た}べない", "fr": "groupe 2 : る → ない" },
+            { "jp": "する → しない", "fr": "irrégulier" },
+            { "jp": "{来|く}る → {来|こ}ない", "fr": "irrégulier (こ)" },
+            { "jp": "ある → ない", "fr": "irrégulier" }
+          ]
+        }
+      ],
+      "pieges": [
+        "{買|か}う → {買|か}**わ**ない (jamais {買|か}あない).",
+        "ある → ない tout court (pas あらない).",
+        "{来|く}る → **こ**ない."
+      ],
+      "exercises": [
+        {
+          "id": "n5-22-e01", "type": "choice", "uses": ["n5-16"],
+          "q": "Forme ない de {書|か}く ?",
+          "choices": ["{書|か}かない", "{書|か}きない", "{書|か}くない", "{書|か}わない"], "a": 0,
+          "explain": "Groupe 1 : く → か + ない."
+        },
+        {
+          "id": "n5-22-e02", "type": "choice", "uses": ["n5-16"],
+          "q": "Forme ない de {飲|の}む ?",
+          "choices": ["{飲|の}まない", "{飲|の}みない", "{飲|の}むない", "{飲|の}ない"], "a": 0
+        },
+        {
+          "id": "n5-22-e03", "type": "choice", "uses": ["n5-16"],
+          "q": "Forme ない de {買|か}う ?",
+          "choices": ["{買|か}わない", "{買|か}あない", "{買|か}いない", "{買|か}うない"], "a": 0,
+          "explain": "う → わない."
+        },
+        {
+          "id": "n5-22-e04", "type": "choice", "uses": ["n5-16"],
+          "q": "Forme ない de {食|た}べる ?",
+          "choices": ["{食|た}べない", "{食|た}べらない", "{食|た}ばない", "{食|た}べかない"], "a": 0,
+          "explain": "Groupe 2 : る → ない."
+        },
+        {
+          "id": "n5-22-e05", "type": "choice", "uses": ["n5-16"],
+          "q": "Forme ない de する ?",
+          "choices": ["しない", "すない", "さない", "せない"], "a": 0
+        },
+        {
+          "id": "n5-22-e06", "type": "choice", "uses": ["n5-16"],
+          "q": "Forme ない de {来|く}る ?",
+          "choices": ["こない", "きない", "くない", "こらない"], "a": 0
+        },
+        {
+          "id": "n5-22-e07", "type": "choice", "uses": ["n5-07", "n5-16"],
+          "q": "Forme ない de ある ?",
+          "choices": ["ない", "あらない", "ありない", "あない"], "a": 0
+        },
+        {
+          "id": "n5-22-e08", "type": "choice", "uses": ["n5-16"],
+          "q": "Forme ない de {待|ま}つ ?",
+          "choices": ["{待|ま}たない", "{待|ま}ちない", "{待|ま}つない", "{待|ま}さない"], "a": 0
+        },
+        {
+          "id": "n5-22-e09", "type": "choice", "uses": ["n5-05"],
+          "q": "Que signifie (familier) : {今日|きょう}は{学校|がっこう}に{行|い}かない。",
+          "choices": ["Aujourd'hui, je ne vais pas à l'école.", "Aujourd'hui, je vais à l'école.", "Hier, je ne suis pas allé à l'école.", "N'allons pas à l'école aujourd'hui."], "a": 0
+        },
+        {
+          "id": "n5-22-e10", "type": "choice", "uses": ["n5-16"],
+          "q": "Forme ない de {帰|かえ}る ?",
+          "choices": ["{帰|かえ}らない", "{帰|かえ}ない", "{帰|かえ}りない", "{帰|かえ}わない"], "a": 0,
+          "explain": "{帰|かえ}る est du groupe 1 : る → らない."
+        }
+      ]
+    },
+    {
+      "id": "n5-23",
+      "title": "ないでください (ne… pas) et なければなりません (devoir)",
+      "formula": ["Verbe-ない + でください = ne faites pas…", "Verbe-ない (sans い) + ければなりません = je dois…"],
+      "sections": [
+        {
+          "h": "Demander de ne pas faire",
+          "p": ["Forme ない + **でください** : « ne faites pas…, s'il vous plaît »."],
+          "ex": [
+            { "jp": "ここで{写真|しゃしん}をとらないでください。", "fr": "Ne prenez pas de photos ici, s'il vous plaît." },
+            { "jp": "{心配|しんぱい}しないでください。", "fr": "Ne vous inquiétez pas." }
+          ]
+        },
+        {
+          "h": "Devoir",
+          "p": [
+            "Forme ない : ない → **なければなりません** = « il faut, je dois ».",
+            "{行|い}かない → {行|い}かなければなりません = je dois y aller."
+          ],
+          "ex": [
+            { "jp": "あしたは{早|はや}く{起|お}きなければなりません。", "fr": "Demain, je dois me lever tôt." },
+            { "jp": "{薬|くすり}を{飲|の}まなければなりません。", "fr": "Je dois prendre un médicament." }
+          ]
+        }
+      ],
+      "pieges": [
+        "ないでください (ne faites pas) ≠ てはいけません (c'est interdit) : le premier est une demande, le second une règle.",
+        "なければ + **なりません**, pas なければください."
+      ],
+      "exercises": [
+        {
+          "id": "n5-23-e01", "type": "choice", "uses": ["n5-22"],
+          "jp": "ここでたばこをすわ＿ください。", "fr": "Ne fumez pas ici, s'il vous plaît.",
+          "choices": ["ないで", "なくて", "ない", "なければ"], "a": 0
+        },
+        {
+          "id": "n5-23-e02", "type": "choice", "uses": ["n5-22"],
+          "jp": "あしたは{早|はや}く{起|お}き＿なりません。", "fr": "Demain, je dois me lever tôt.",
+          "choices": ["なければ", "ないで", "なくて", "ない"], "a": 0
+        },
+        {
+          "id": "n5-23-e03", "type": "order", "uses": ["n5-22"],
+          "fr": "N'oubliez pas votre parapluie, s'il vous plaît.",
+          "tokens": ["かさ", "を", "わすれないで", "ください"]
+        },
+        {
+          "id": "n5-23-e04", "type": "choice", "uses": ["n5-22"],
+          "q": "Comment dire « Je dois étudier » ?",
+          "choices": ["{勉強|べんきょう}しなければなりません。", "{勉強|べんきょう}しないでください。", "{勉強|べんきょう}してはいけません。", "{勉強|べんきょう}しなくてください。"], "a": 0
+        },
+        {
+          "id": "n5-23-e05", "type": "choice", "uses": ["n5-22"],
+          "jp": "{薬|くすり}を{飲|の}ま＿なりません。", "fr": "Je dois prendre un médicament.",
+          "choices": ["なければ", "ないで", "なくて", "なけれ"], "a": 0
+        },
+        {
+          "id": "n5-23-e06", "type": "choice",
+          "q": "Que signifie : {心配|しんぱい}しないでください。",
+          "choices": ["Ne vous inquiétez pas.", "Inquiétez-vous.", "Je ne m'inquiète pas.", "Il faut s'inquiéter."], "a": 0
+        },
+        {
+          "id": "n5-23-e07", "type": "choice", "uses": ["n5-05", "n5-18", "n5-22"],
+          "jp": "{名前|なまえ}はボールペンで＿ください。えんぴつで{書|か}かないでください。", "fr": "Écrivez votre nom au stylo. N'écrivez pas au crayon.",
+          "choices": ["{書|か}いて", "{書|か}かないで", "{書|か}かなくて", "{書|か}かない"], "a": 0,
+          "explain": "La 2e phrase interdit le crayon : la 1re demande d'écrire au stylo → {書|か}いてください."
+        },
+        {
+          "id": "n5-23-e08", "type": "order", "uses": ["n5-22"],
+          "fr": "Aujourd'hui, je dois rentrer tôt.",
+          "tokens": ["{今日|きょう}", "は", "{早|はや}く", "{帰|かえ}らなければ", "なりません"]
+        },
+        {
+          "id": "n5-23-e09", "type": "choice", "uses": ["n5-22"],
+          "q": "Quelle est la différence entre {行|い}かないでください et {行|い}かなければなりません ?",
+          "choices": ["« N'y allez pas » / « Je dois y aller »", "« Je dois y aller » / « N'y allez pas »", "Aucune différence.", "Les deux veulent dire « je n'y vais pas »."], "a": 0
+        },
+        {
+          "id": "n5-23-e10", "type": "choice", "uses": ["n5-18", "n5-20", "n5-22"],
+          "q": "Le médecin te demande de ne pas boire d'alcool. Que dit-il ?",
+          "choices": ["お{酒|さけ}を{飲|の}まないでください。", "お{酒|さけ}を{飲|の}んでください。", "お{酒|さけ}を{飲|の}まなければなりません。", "お{酒|さけ}を{飲|の}んでもいいです。"], "a": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-24",
+      "title": "La forme た (passé familier)",
+      "formula": ["Comme la forme て, avec た / だ : {書|か}いた, {飲|の}んだ, {行|い}った", "Négatif passé : ない → なかった"],
+      "sections": [
+        {
+          "h": "Formation",
+          "p": [
+            "Prends la forme て et remplace て par **た** (et で par **だ**) : {食|た}べて → {食|た}べた, {飲|の}んで → {飲|の}んだ.",
+            "Négatif passé familier : ない → **なかった** : {行|い}かない → {行|い}かなかった."
+          ],
+          "vocab": [
+            { "jp": "{書|か}く → {書|か}いた", "fr": "écrire" },
+            { "jp": "{飲|の}む → {飲|の}んだ", "fr": "boire" },
+            { "jp": "{行|い}く → {行|い}った", "fr": "aller" },
+            { "jp": "{食|た}べる → {食|た}べた", "fr": "manger" },
+            { "jp": "する → した", "fr": "faire" },
+            { "jp": "{来|く}る → {来|き}た", "fr": "venir (きた)" }
+          ]
+        },
+        {
+          "h": "Usage",
+          "p": ["C'est le **passé entre amis** : きのう{映画|えいが}を{見|み}た。 Elle sert aussi de base à たことがある, たり, たあとで…"],
+          "ex": [
+            { "jp": "きのう、どこに{行|い}った？— {図書館|としょかん}に{行|い}った。", "fr": "Tu es allé où hier ? — À la bibliothèque." }
+          ]
+        }
+      ],
+      "pieges": [
+        "Mêmes règles que la forme て : {行|い}く → {行|い}った, {話|はな}す → {話|はな}した.",
+        "{来|く}る → {来|き}た (きた)."
+      ],
+      "exercises": [
+        {
+          "id": "n5-24-e01", "type": "choice", "uses": ["n5-17"],
+          "q": "Forme た de {書|か}く ?",
+          "choices": ["{書|か}いた", "{書|か}った", "{書|か}きた", "{書|か}んだ"], "a": 0
+        },
+        {
+          "id": "n5-24-e02", "type": "choice", "uses": ["n5-17"],
+          "q": "Forme た de {飲|の}む ?",
+          "choices": ["{飲|の}んだ", "{飲|の}んた", "{飲|の}みた", "{飲|の}った"], "a": 0
+        },
+        {
+          "id": "n5-24-e03", "type": "choice", "uses": ["n5-17"],
+          "q": "Forme た de {行|い}く ?",
+          "choices": ["{行|い}った", "{行|い}いた", "{行|い}きた", "{行|い}んだ"], "a": 0
+        },
+        {
+          "id": "n5-24-e04", "type": "choice", "uses": ["n5-17"],
+          "q": "Forme た de {来|く}る ?",
+          "choices": ["きた", "くた", "こた", "くった"], "a": 0
+        },
+        {
+          "id": "n5-24-e05", "type": "choice", "uses": ["n5-17"],
+          "q": "Forme た de する ?",
+          "choices": ["した", "すた", "さた", "しった"], "a": 0
+        },
+        {
+          "id": "n5-24-e06", "type": "choice", "uses": ["n5-22"],
+          "q": "Passé négatif familier de {行|い}く ?",
+          "choices": ["{行|い}かなかった", "{行|い}かないだった", "{行|い}きなかった", "{行|い}ったない"], "a": 0
+        },
+        {
+          "id": "n5-24-e07", "type": "choice", "uses": ["n5-06"],
+          "q": "Que signifie (familier) : きのう{映画|えいが}を{見|み}た。",
+          "choices": ["Hier, j'ai regardé un film.", "Hier, je n'ai pas regardé de film.", "Demain, je regarderai un film.", "Regarde un film !"], "a": 0
+        },
+        {
+          "id": "n5-24-e08", "type": "choice", "uses": ["n5-05", "n5-06"],
+          "jp": "きのう、どこに{行|い}った？— {図書館|としょかん}に＿。", "fr": "Tu es allé où hier ? — À la bibliothèque.",
+          "choices": ["{行|い}った", "{行|い}って", "{行|い}く", "{行|い}かない"], "a": 0
+        },
+        {
+          "id": "n5-24-e09", "type": "order", "uses": ["n5-04"],
+          "fr": "(Familier) J'ai bu du café ce matin.",
+          "tokens": ["けさ", "コーヒー", "を", "{飲|の}んだ"]
+        },
+        {
+          "id": "n5-24-e10", "type": "choice", "uses": ["n5-17"],
+          "q": "Forme た de {待|ま}つ ?",
+          "choices": ["{待|ま}った", "{待|ま}ちた", "{待|ま}んだ", "{待|ま}いた"], "a": 0
+        },
+        {
+          "id": "n5-24-e11", "type": "choice", "uses": ["n5-17"],
+          "q": "Quelle forme た est **fausse** ?",
+          "choices": ["{話|はな}す → {話|はな}った", "{遊|あそ}ぶ → {遊|あそ}んだ", "{帰|かえ}る → {帰|かえ}った", "{見|み}る → {見|み}た"], "a": 0,
+          "explain": "{話|はな}す → {話|はな}した."
+        }
+      ]
+    },
+    {
+      "id": "n5-25",
+      "title": "たことがある : avoir déjà fait",
+      "formula": ["Verbe-た ことが あります (j'ai déjà…)", "Verbe-た ことが ありません (je n'ai jamais…)"],
+      "sections": [
+        {
+          "h": "Parler d'une expérience",
+          "p": [
+            "Forme た + **ことがあります** = « j'ai déjà fait ça (au moins une fois dans ma vie) ».",
+            "Au négatif : **ことがありません** = « je n'ai jamais… »."
+          ],
+          "ex": [
+            { "jp": "{日本|にほん}に{行|い}ったことがあります。", "fr": "Je suis déjà allé au Japon." },
+            { "jp": "すしを{食|た}べたことがありますか。— いいえ、ありません。", "fr": "As-tu déjà mangé des sushis ? — Non, jamais." }
+          ]
+        }
+      ],
+      "pieges": [
+        "C'est une expérience de vie, pas un moment précis : きのう…{食|た}べたことがあります ✗ → きのう{食|た}べました.",
+        "Le verbe est à la forme **た** (pas dictionnaire) : {行|い}くことがあります voudrait dire « il m'arrive d'y aller »."
+      ],
+      "exercises": [
+        {
+          "id": "n5-25-e01", "type": "choice", "uses": ["n5-24"],
+          "jp": "{日本|にほん}に{行|い}った＿があります。", "fr": "Je suis déjà allé au Japon.",
+          "choices": ["こと", "もの", "を", "に"], "a": 0
+        },
+        {
+          "id": "n5-25-e02", "type": "choice", "uses": ["n5-24"],
+          "jp": "すしを{食|た}べた＿ありますか。", "fr": "As-tu déjà mangé des sushis ?",
+          "choices": ["ことが", "ことを", "ことに", "ことで"], "a": 0
+        },
+        {
+          "id": "n5-25-e03", "type": "choice", "uses": ["n5-24"],
+          "q": "Que signifie : ふじさんにのぼったことがありません。",
+          "choices": ["Je n'ai jamais escaladé le mont Fuji.", "Je n'ai pas escaladé le mont Fuji hier.", "Je veux escalader le mont Fuji.", "J'escalade souvent le mont Fuji."], "a": 0
+        },
+        {
+          "id": "n5-25-e04", "type": "order", "uses": ["n5-02", "n5-24"],
+          "fr": "As-tu déjà vu un film japonais ?",
+          "tokens": ["{日本|にほん}", "の", "{映画|えいが}", "を", "{見|み}た", "こと", "が", "あります", "か"]
+        },
+        {
+          "id": "n5-25-e05", "type": "choice", "uses": ["n5-24"],
+          "jp": "{日本|にほん}の{歌|うた}を＿ことがあります。", "fr": "J'ai déjà chanté une chanson japonaise.",
+          "choices": ["{歌|うた}った", "{歌|うた}って", "{歌|うた}います", "{歌|うた}いた"], "a": 0
+        },
+        {
+          "id": "n5-25-e06", "type": "choice", "uses": ["n5-24"],
+          "q": "Pourquoi « きのう、すしを{食|た}べたことがあります » est bizarre ?",
+          "choices": ["たことがある parle d'une expérience de vie, pas d'un moment précis comme hier.", "Il faudrait {食|た}べることがあります.", "すし ne se mange pas.", "Il manque か."], "a": 0
+        },
+        {
+          "id": "n5-25-e07", "type": "choice", "uses": ["n5-24"],
+          "q": "On te demande : {日本|にほん}に{行|い}ったことがありますか。 Tu n'y es jamais allé. Que réponds-tu ?",
+          "choices": ["いいえ、ありません。", "いいえ、{行|い}きません。", "はい、ありません。", "いいえ、{行|い}ったことです。"], "a": 0
+        },
+        {
+          "id": "n5-25-e08", "type": "choice", "uses": ["n5-24"],
+          "jp": "{飛行機|ひこうき}に{乗|の}った＿がありません。", "fr": "Je n'ai jamais pris l'avion.",
+          "choices": ["こと", "の", "もの", "を"], "a": 0
+        },
+        {
+          "id": "n5-25-e09", "type": "order", "uses": ["n5-24"],
+          "fr": "Je n'ai jamais mangé de natto.",
+          "tokens": ["なっとう", "を", "{食|た}べた", "こと", "が", "ありません"]
+        },
+        {
+          "id": "n5-25-e10", "type": "choice", "uses": ["n5-24"],
+          "q": "Quelle phrase est correcte ?",
+          "choices": ["{日本|にほん}に{行|い}ったことがあります。", "{日本|にほん}に{行|い}ったのことがあります。", "{日本|にほん}に{行|い}ってことがあります。", "{日本|にほん}に{行|い}ったがあります。"], "a": 0
+        }
+      ]
+    }
+  ],
+  "test": [
+    {
+      "id": "n5-b05-t01", "type": "choice", "uses": ["n5-05", "n5-21"],
+      "jp": "{朝|あさ}ごはんを{食|た}べ＿、{会社|かいしゃ}に{行|い}きます。", "fr": "Je prends mon petit-déjeuner, puis je vais au bureau.",
+      "choices": ["て", "た", "ます", "る"], "a": 0
+    },
+    {
+      "id": "n5-b05-t02", "type": "choice", "uses": ["n5-22"],
+      "q": "Forme ない de {話|はな}す ?",
+      "choices": ["{話|はな}さない", "{話|はな}しない", "{話|はな}すない", "{話|はな}わない"], "a": 0
+    },
+    {
+      "id": "n5-b05-t03", "type": "order", "uses": ["n5-05", "n5-23"],
+      "fr": "Ne parlez pas en classe, s'il vous plaît.",
+      "tokens": ["{教室|きょうしつ}", "で", "{話|はな}さないで", "ください"]
+    },
+    {
+      "id": "n5-b05-t04", "type": "choice", "uses": ["n5-08", "n5-21"],
+      "jp": "この{部屋|へや}は{広|ひろ}＿、きれいです。", "fr": "Cette chambre est grande et propre.",
+      "choices": ["くて", "いで", "で", "くで"], "a": 0
+    },
+    {
+      "id": "n5-b05-t05", "type": "choice", "uses": ["n5-24"],
+      "q": "Forme た de {食|た}べる ?",
+      "choices": ["{食|た}べた", "{食|た}べった", "{食|た}んだ", "{食|た}べいた"], "a": 0
+    },
+    {
+      "id": "n5-b05-t06", "type": "choice", "uses": ["n5-11", "n5-25"],
+      "jp": "{日本|にほん}の{料理|りょうり}を{作|つく}った＿がありますか。", "fr": "As-tu déjà cuisiné un plat japonais ?",
+      "choices": ["こと", "もの", "の", "を"], "a": 0
+    },
+    {
+      "id": "n5-b05-t07", "type": "choice", "uses": ["n5-05", "n5-23"],
+      "q": "Que signifie : あした{六時|ろくじ}に{起|お}きなければなりません。",
+      "choices": ["Demain, je dois me lever à 6 h.", "Demain, ne te lève pas à 6 h.", "Hier, je me suis levé à 6 h.", "Demain, je peux me lever à 6 h."], "a": 0
+    },
+    {
+      "id": "n5-b05-t08", "type": "order", "uses": ["n5-05", "n5-25"],
+      "fr": "Je ne suis jamais allé à Kyoto.",
+      "tokens": ["{京都|きょうと}", "に", "{行|い}った", "こと", "が", "ありません"]
+    },
+    {
+      "id": "n5-b05-t09", "type": "choice", "uses": ["n5-09", "n5-21"],
+      "jp": "{山田|やまだ}さんはきれい＿、{親切|しんせつ}です。", "fr": "Mme Yamada est belle et gentille.",
+      "choices": ["で", "くて", "な", "て"], "a": 0
+    },
+    {
+      "id": "n5-b05-t10", "type": "choice", "uses": ["n5-22"],
+      "q": "Forme ない de {来|く}る ?",
+      "choices": ["こない", "きない", "くない", "こらない"], "a": 0
+    },
+    {
+      "id": "n5-b05-t11", "type": "choice", "uses": ["n5-23"],
+      "jp": "{宿題|しゅくだい}をしなければ＿。", "fr": "Je dois faire mes devoirs.",
+      "choices": ["なりません", "ください", "います", "あります"], "a": 0
+    },
+    {
+      "id": "n5-b05-t12", "type": "choice", "uses": ["n5-07", "n5-24"],
+      "q": "(Entre amis) きのう{何|なに}をした？ Tu es resté à la maison. Que réponds-tu ?",
+      "choices": ["うちにいた。", "うちにいる。", "うちにいて。", "うちにいない。"], "a": 0
+    },
+    {
+      "id": "n5-b05-t13", "type": "order", "uses": ["n5-05", "n5-06", "n5-21"],
+      "fr": "Je me suis levé, j'ai pris une douche et je suis allé à l'école.",
+      "tokens": ["{起|お}きて", "シャワー", "を", "あびて", "{学校|がっこう}", "に", "{行|い}きました"]
+    },
+    {
+      "id": "n5-b05-t14", "type": "choice", "uses": ["n5-25"],
+      "q": "Quelle phrase est **incorrecte** ?",
+      "choices": ["きのう、すしを{食|た}べたことがあります。", "すしを{食|た}べたことがあります。", "すしを{食|た}べたことがありません。", "すしを{食|た}べたことがありますか。"], "a": 0,
+      "explain": "たことがある ne s'emploie pas avec un moment précis comme きのう."
+    },
+    {
+      "id": "n5-b05-t15", "type": "choice", "uses": ["n5-05", "n5-23"],
+      "jp": "ここに{車|くるま}をとめ＿ください。", "fr": "Ne vous garez pas ici, s'il vous plaît.",
+      "choices": ["ないで", "なくて", "なければ", "ない"], "a": 0
+    }
+  ]
+}

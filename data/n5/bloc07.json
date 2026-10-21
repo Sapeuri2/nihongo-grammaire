@@ -1,0 +1,508 @@
+{
+  "id": "n5-b07",
+  "level": "N5",
+  "title": "Comparer, situer dans le temps, estimer",
+  "lessons": [
+    {
+      "id": "n5-31",
+      "title": "より・のほうが・いちばん : comparer",
+      "formula": ["A は B より Adj (A est plus… que B)", "A と B と どちらが Adj ですか — A のほうが Adj です", "X の{中|なか}で Y が いちばん Adj"],
+      "sections": [
+        {
+          "h": "Plus que : より",
+          "p": ["A は B **より** Adj = A est plus… que B. より se place après ce à quoi on compare."],
+          "ex": [
+            { "jp": "{東京|とうきょう}は{大阪|おおさか}より{大|おお}きいです。", "fr": "Tokyo est plus grand qu'Osaka." },
+            { "jp": "{電車|でんしゃ}はバスより{速|はや}いです。", "fr": "Le train est plus rapide que le bus." }
+          ]
+        },
+        {
+          "h": "Lequel des deux : どちら / のほうが",
+          "ex": [
+            { "jp": "コーヒーと{紅茶|こうちゃ}と、どちらが{好|す}きですか。— コーヒーのほうが{好|す}きです。", "fr": "Tu préfères le café ou le thé ? — Je préfère le café." }
+          ]
+        },
+        {
+          "h": "Le plus : いちばん",
+          "p": ["X の{中|なか}で (parmi X) + Y が **いちばん** Adj. Question : {何|なに}・どこ・だれ + が いちばん…"],
+          "ex": [
+            { "jp": "{果物|くだもの}の{中|なか}でりんごがいちばん{好|す}きです。", "fr": "Parmi les fruits, c'est la pomme que je préfère." },
+            { "jp": "{日本|にほん}でどの{山|やま}がいちばん{高|たか}いですか。", "fr": "Quelle est la plus haute montagne du Japon ?" }
+          ]
+        }
+      ],
+      "pieges": [
+        "より suit l'élément **le moins** fort : A は B より{高|たか}い → A est plus cher.",
+        "どちら (lequel des deux) ≠ どれ (lequel parmi trois ou plus).",
+        "Mot interrogatif + が : どれがいちばん… (pas どれは)."
+      ],
+      "exercises": [
+        {
+          "id": "n5-31-e01", "type": "choice", "uses": ["n5-08"],
+          "jp": "{東京|とうきょう}は{大阪|おおさか}＿{大|おお}きいです。", "fr": "Tokyo est plus grand qu'Osaka.",
+          "choices": ["より", "ほう", "から", "で"], "a": 0
+        },
+        {
+          "id": "n5-31-e02", "type": "choice", "uses": ["n5-11"],
+          "jp": "コーヒーと{紅茶|こうちゃ}と、どちら＿{好|す}きですか。", "fr": "Tu préfères le café ou le thé ?",
+          "choices": ["が", "は", "を", "の"], "a": 0,
+          "explain": "Mot interrogatif sujet → が."
+        },
+        {
+          "id": "n5-31-e03", "type": "choice", "uses": ["n5-11"],
+          "jp": "コーヒーと{紅茶|こうちゃ}と、どちらが{好|す}きですか。— コーヒーの＿が{好|す}きです。", "fr": "Tu préfères le café ou le thé ? — Je préfère le café.",
+          "choices": ["ほう", "より", "いちばん", "どちら"], "a": 0
+        },
+        {
+          "id": "n5-31-e04", "type": "order", "uses": ["n5-11"],
+          "fr": "Parmi les saisons, c'est l'été que je préfère.",
+          "tokens": ["きせつ", "の", "{中|なか}", "で", "{夏|なつ}", "が", "いちばん", "{好|す}き", "です"]
+        },
+        {
+          "id": "n5-31-e05", "type": "choice", "uses": ["n5-08"],
+          "q": "Que signifie : {電車|でんしゃ}はバスより{速|はや}いです。",
+          "choices": ["Le train est plus rapide que le bus.", "Le bus est plus rapide que le train.", "Le train est aussi rapide que le bus.", "Le train est le plus rapide."], "a": 0
+        },
+        {
+          "id": "n5-31-e06", "type": "choice", "uses": ["n5-03", "n5-11"],
+          "jp": "{日本|にほん}でどの{山|やま}＿いちばん{高|たか}いですか。", "fr": "Quelle est la plus haute montagne du Japon ?",
+          "choices": ["が", "は", "を", "より"], "a": 0
+        },
+        {
+          "id": "n5-31-e07", "type": "order", "uses": ["n5-08"],
+          "fr": "Le japonais est plus difficile que l'anglais.",
+          "tokens": ["{日本語|にほんご}", "は", "{英語|えいご}", "より", "むずかしい", "です"]
+        },
+        {
+          "id": "n5-31-e08", "type": "choice", "uses": ["n5-11"],
+          "jp": "{犬|いぬ}とねことどちらが{好|す}きですか。— ねこ＿{好|す}きです。", "fr": "Tu préfères les chiens ou les chats ? — Je préfère les chats.",
+          "choices": ["のほうが", "よりが", "いちばん", "のほうを"], "a": 0
+        },
+        {
+          "id": "n5-31-e09", "type": "choice", "uses": ["n5-08"],
+          "q": "Comment dire « Mon grand frère est plus grand que moi » ?",
+          "choices": ["{兄|あに}は{私|わたし}よりせが{高|たか}いです。", "{私|わたし}は{兄|あに}よりせが{高|たか}いです。", "{兄|あに}より{私|わたし}はせが{高|たか}いです。", "{兄|あに}は{私|わたし}のほうがせが{高|たか}いです。"], "a": 0,
+          "explain": "A は B より… : A (le frère) est plus grand que B (moi)."
+        },
+        {
+          "id": "n5-31-e10", "type": "choice", "uses": ["n5-11"],
+          "jp": "{果物|くだもの}の{中|なか}＿りんごがいちばん{好|す}きです。", "fr": "Parmi les fruits, c'est la pomme que je préfère.",
+          "choices": ["で", "を", "が", "より"], "a": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-32",
+      "title": "まえに・あとで : avant, après",
+      "formula": ["Verbe (dictionnaire) + まえに", "Nom + の まえに", "Verbe-た + あとで", "Nom + の あとで"],
+      "sections": [
+        {
+          "h": "Avant : まえに",
+          "p": ["Le verbe devant まえに est **toujours à la forme du dictionnaire**, même si l'histoire est au passé."],
+          "ex": [
+            { "jp": "ねるまえに{歯|は}をみがきます。", "fr": "Avant de dormir, je me brosse les dents." },
+            { "jp": "{日本|にほん}に{行|い}くまえに、{日本語|にほんご}を{勉強|べんきょう}しました。", "fr": "Avant d'aller au Japon, j'ai étudié le japonais." },
+            { "jp": "{食事|しょくじ}のまえに、{手|て}をあらいます。", "fr": "Avant le repas, je me lave les mains." }
+          ]
+        },
+        {
+          "h": "Après : あとで",
+          "p": ["Le verbe devant あとで est **toujours à la forme た**."],
+          "ex": [
+            { "jp": "ごはんを{食|た}べたあとで、さんぽします。", "fr": "Après avoir mangé, je me promène." },
+            { "jp": "{仕事|しごと}のあとで、ビールを{飲|の}みます。", "fr": "Après le travail, je bois une bière." }
+          ]
+        }
+      ],
+      "pieges": [
+        "{行|い}ったまえに ✗ → {行|い}くまえに.",
+        "{食|た}べるあとで ✗ → {食|た}べたあとで.",
+        "Avec un nom : の obligatoire ({食事|しょくじ}のまえに)."
+      ],
+      "exercises": [
+        {
+          "id": "n5-32-e01", "type": "choice", "uses": ["n5-16"],
+          "jp": "ねる＿{歯|は}をみがきます。", "fr": "Avant de dormir, je me brosse les dents.",
+          "choices": ["まえに", "あとで", "まえで", "あとに"], "a": 0
+        },
+        {
+          "id": "n5-32-e02", "type": "choice", "uses": ["n5-24"],
+          "jp": "ごはんを{食|た}べた＿、さんぽします。", "fr": "Après avoir mangé, je me promène.",
+          "choices": ["あとで", "まえに", "のあとで", "のまえに"], "a": 0
+        },
+        {
+          "id": "n5-32-e03", "type": "choice", "uses": ["n5-16"],
+          "jp": "{日本|にほん}に＿まえに、{日本語|にほんご}を{勉強|べんきょう}しました。", "fr": "Avant d'aller au Japon, j'ai étudié le japonais.",
+          "choices": ["{行|い}く", "{行|い}った", "{行|い}って", "{行|い}きます"], "a": 0,
+          "explain": "Devant まえに : toujours la forme du dictionnaire."
+        },
+        {
+          "id": "n5-32-e04", "type": "order",
+          "fr": "Après les cours, je vais à la bibliothèque.",
+          "tokens": ["{授業|じゅぎょう}", "の", "あとで", "{図書館|としょかん}", "に", "{行|い}きます"],
+          "alt": [["{図書館|としょかん}", "に", "{授業|じゅぎょう}", "の", "あとで", "{行|い}きます"]]
+        },
+        {
+          "id": "n5-32-e05", "type": "choice",
+          "jp": "{食事|しょくじ}＿まえに、{手|て}をあらいます。", "fr": "Avant le repas, je me lave les mains.",
+          "choices": ["の", "を", "が", "に"], "a": 0
+        },
+        {
+          "id": "n5-32-e06", "type": "choice", "uses": ["n5-24"],
+          "q": "Pourquoi « {日本|にほん}に{行|い}ったまえに » est faux ?",
+          "choices": ["Devant まえに, le verbe est toujours à la forme du dictionnaire.", "まえに ne s'emploie pas avec {行|い}く.", "Il faudrait あとで.", "Il manque の."], "a": 0
+        },
+        {
+          "id": "n5-32-e07", "type": "choice", "uses": ["n5-24"],
+          "jp": "シャワーをあびた＿ねます。", "fr": "Après avoir pris une douche, je me couche.",
+          "choices": ["あとで", "まえに", "のあとで", "のまえに"], "a": 0
+        },
+        {
+          "id": "n5-32-e08", "type": "order", "uses": ["n5-28"],
+          "fr": "Avant de manger, on dit « いただきます ».",
+          "tokens": ["{食|た}べる", "まえに", "「いただきます」", "と", "{言|い}います"]
+        },
+        {
+          "id": "n5-32-e09", "type": "choice",
+          "q": "Que signifie : {仕事|しごと}のあとで、ビールを{飲|の}みます。",
+          "choices": ["Après le travail, je bois une bière.", "Avant le travail, je bois une bière.", "Au travail, je bois une bière.", "Je bois une bière au lieu de travailler."], "a": 0
+        },
+        {
+          "id": "n5-32-e10", "type": "choice", "uses": ["n5-24"],
+          "jp": "{電話|でんわ}を＿あとで、{出|で}かけました。", "fr": "Après avoir téléphoné, je suis sorti.",
+          "choices": ["した", "する", "して", "します"], "a": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-33",
+      "title": "とき : quand…",
+      "formula": ["Verbe / Adj-い (neutre) + とき", "Adj-な + な とき", "Nom + の とき"],
+      "sections": [
+        {
+          "h": "Le principe",
+          "p": [
+            "とき = « au moment où, quand ». Ce qui précède suit les règles d'un nom : adj. な → **な**とき, nom → **の**とき.",
+            "Le reste de la phrase porte le temps principal."
+          ],
+          "ex": [
+            { "jp": "{子|こ}どものとき、{東京|とうきょう}に{住|す}んでいました。", "fr": "Quand j'étais enfant, j'habitais à Tokyo." },
+            { "jp": "ひまなとき、ゲームをします。", "fr": "Quand je suis libre, je joue aux jeux vidéo." },
+            { "jp": "{寒|さむ}いとき、コートを{着|き}ます。", "fr": "Quand il fait froid, je mets un manteau." }
+          ]
+        },
+        {
+          "h": "{行|い}くとき ou {行|い}ったとき ?",
+          "p": [
+            "{日本|にほん}に**{行|い}く**とき、カメラを{買|か}いました = je l'ai acheté **avant / en partant** (le voyage n'était pas encore fait).",
+            "{日本|にほん}に**{行|い}った**とき、カメラを{買|か}いました = je l'ai acheté **une fois au Japon**."
+          ]
+        }
+      ],
+      "pieges": [
+        "{子|こ}どもとき ✗ → {子|こ}どものとき.",
+        "ひまのとき ✗ → ひまなとき.",
+        "Adj. い : directement → {寒|さむ}いとき."
+      ],
+      "exercises": [
+        {
+          "id": "n5-33-e01", "type": "choice", "uses": ["n5-19"],
+          "jp": "{子|こ}ども＿とき、{東京|とうきょう}に{住|す}んでいました。", "fr": "Quand j'étais enfant, j'habitais à Tokyo.",
+          "choices": ["の", "な", "だ", "が"], "a": 0
+        },
+        {
+          "id": "n5-33-e02", "type": "choice", "uses": ["n5-09"],
+          "jp": "ひま＿とき、{何|なに}をしますか。", "fr": "Que fais-tu quand tu es libre ?",
+          "choices": ["な", "の", "だ", "に"], "a": 0
+        },
+        {
+          "id": "n5-33-e03", "type": "choice", "uses": ["n5-08"],
+          "jp": "{寒|さむ}い＿、コートを{着|き}ます。", "fr": "Quand il fait froid, je mets un manteau.",
+          "choices": ["とき", "のとき", "なとき", "だとき"], "a": 0
+        },
+        {
+          "id": "n5-33-e04", "type": "choice", "uses": ["n5-24"],
+          "q": "Quelle est la différence entre {日本|にほん}に{行|い}くとき、カメラを{買|か}いました et {日本|にほん}に{行|い}ったとき、カメラを{買|か}いました ?",
+          "choices": ["1re : achetée avant de partir. 2e : achetée au Japon.", "Aucune différence.", "1re : achetée au Japon. 2e : avant de partir.", "La 1re est au futur."], "a": 0
+        },
+        {
+          "id": "n5-33-e05", "type": "order", "uses": ["n5-19"],
+          "fr": "Quand j'étais étudiant, j'habitais à Kyoto.",
+          "tokens": ["{学生|がくせい}", "の", "とき", "{京都|きょうと}", "に", "{住|す}んでいました"]
+        },
+        {
+          "id": "n5-33-e06", "type": "choice", "uses": ["n5-18"],
+          "jp": "{頭|あたま}がいたい＿、この{薬|くすり}を{飲|の}んでください。", "fr": "Quand vous avez mal à la tête, prenez ce médicament.",
+          "choices": ["とき", "ときの", "なとき", "のとき"], "a": 0
+        },
+        {
+          "id": "n5-33-e07", "type": "choice", "uses": ["n5-18", "n5-22"],
+          "jp": "{道|みち}がわからない＿、{電話|でんわ}してください。", "fr": "Si (quand) tu ne trouves pas le chemin, appelle-moi.",
+          "choices": ["とき", "のとき", "なとき", "だとき"], "a": 0
+        },
+        {
+          "id": "n5-33-e08", "type": "choice",
+          "q": "Que signifie : ひまなとき、ゲームをします。",
+          "choices": ["Quand je suis libre, je joue aux jeux vidéo.", "Je joue aux jeux vidéo tout le temps.", "Quand je joue, je suis libre.", "Je n'ai jamais le temps de jouer."], "a": 0
+        },
+        {
+          "id": "n5-33-e09", "type": "order", "uses": ["n5-19", "n5-24"],
+          "fr": "Quand je suis rentré, ma mère dormait.",
+          "tokens": ["うち", "に", "{帰|かえ}った", "とき", "{母|はは}", "は", "ねていました"]
+        },
+        {
+          "id": "n5-33-e10", "type": "choice", "uses": ["n5-08"],
+          "jp": "{若|わか}い＿、よくスポーツをしました。", "fr": "Quand j'étais jeune, je faisais souvent du sport.",
+          "choices": ["とき", "なとき", "のとき", "だとき"], "a": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-34",
+      "title": "でしょう・だろう : probablement",
+      "formula": ["Forme neutre + でしょう (poli) / だろう (familier)", "Nom / Adj-な : sans だ → {雨|あめ}でしょう"],
+      "sections": [
+        {
+          "h": "Faire une supposition",
+          "p": [
+            "**でしょう** = « sans doute, probablement » (c'est le ton de la météo). **だろう** est la version familière.",
+            "Devant でしょう, on ne met **pas だ** : {雨|あめ}でしょう, {静|しず}かでしょう. On ajoute souvent たぶん (peut-être)."
+          ],
+          "ex": [
+            { "jp": "あしたは{雨|あめ}でしょう。", "fr": "Demain, il pleuvra probablement." },
+            { "jp": "{田中|たなか}さんは{来|こ}ないだろう。", "fr": "M. Tanaka ne viendra sans doute pas." },
+            { "jp": "{今晩|こんばん}はたぶん{寒|さむ}いでしょう。", "fr": "Ce soir, il fera sans doute froid." }
+          ]
+        },
+        {
+          "h": "でしょう？ pour confirmer",
+          "p": ["Avec une intonation montante, でしょう？ veut dire « n'est-ce pas ? » : おいしいでしょう？ (c'est bon, hein ?)."]
+        }
+      ],
+      "pieges": [
+        "{雨|あめ}だでしょう ✗ → {雨|あめ}でしょう.",
+        "Pas de ます devant でしょう : {来|き}ますでしょう ✗ → {来|く}るでしょう."
+      ],
+      "exercises": [
+        {
+          "id": "n5-34-e01", "type": "choice",
+          "jp": "あしたは{雨|あめ}＿。", "fr": "Demain, il pleuvra probablement.",
+          "choices": ["でしょう", "だでしょう", "ですでしょう", "なでしょう"], "a": 0
+        },
+        {
+          "id": "n5-34-e02", "type": "choice", "uses": ["n5-24"],
+          "jp": "{田中|たなか}さんは{家|いえ}に{帰|かえ}った＿。", "fr": "M. Tanaka est sûrement rentré chez lui.",
+          "choices": ["でしょう", "ですでしょう", "だでしょう", "でしょうだ"], "a": 0
+        },
+        {
+          "id": "n5-34-e03", "type": "choice", "uses": ["n5-08"],
+          "jp": "あの{店|みせ}は{高|たか}い＿。", "fr": "Ce magasin-là est sans doute cher.",
+          "choices": ["でしょう", "だでしょう", "なでしょう", "ですでしょう"], "a": 0
+        },
+        {
+          "id": "n5-34-e04", "type": "choice",
+          "q": "Quelle est la différence entre でしょう et だろう ?",
+          "choices": ["でしょう est poli, だろう est familier.", "だろう est plus sûr.", "でしょう est au passé.", "Aucune, mais だろう est féminin."], "a": 0
+        },
+        {
+          "id": "n5-34-e05", "type": "order", "uses": ["n5-02"],
+          "fr": "Le contrôle de demain sera sûrement difficile.",
+          "tokens": ["あした", "の", "テスト", "は", "むずかしい", "でしょう"]
+        },
+        {
+          "id": "n5-34-e06", "type": "choice",
+          "q": "Que signifie : {今晩|こんばん}はたぶん{寒|さむ}いでしょう。",
+          "choices": ["Ce soir, il fera sans doute froid.", "Ce soir, il fait froid.", "Ce soir, il a fait froid.", "Ce soir, il ne fera sûrement pas froid."], "a": 0
+        },
+        {
+          "id": "n5-34-e07", "type": "choice", "uses": ["n5-22"],
+          "jp": "{山田|やまだ}さんは{来|こ}ない＿。", "fr": "(Familier) Mme Yamada ne viendra sans doute pas.",
+          "choices": ["だろう", "だだろう", "ですだろう", "なだろう"], "a": 0
+        },
+        {
+          "id": "n5-34-e08", "type": "choice", "uses": ["n5-09"],
+          "jp": "この{町|まち}は{静|しず}か＿。", "fr": "Cette ville est sans doute calme.",
+          "choices": ["でしょう", "なでしょう", "だでしょう", "ですでしょう"], "a": 0
+        },
+        {
+          "id": "n5-34-e09", "type": "choice", "uses": ["n5-26"],
+          "q": "Entre amis, comment dire « Il viendra sûrement » ?",
+          "choices": ["くるだろう。", "くるでしょうだ。", "きますだろう。", "くるだだろう。"], "a": 0
+        },
+        {
+          "id": "n5-34-e10", "type": "order", "uses": ["n5-08"],
+          "fr": "Il fera sans doute beau demain.",
+          "tokens": ["あした", "は", "たぶん", "いい", "{天気|てんき}", "でしょう"],
+          "alt": [["たぶん", "あした", "は", "いい", "{天気|てんき}", "でしょう"]]
+        }
+      ]
+    },
+    {
+      "id": "n5-35",
+      "title": "から〜まで, ごろ, ぐらい, だけ",
+      "formula": ["A から B まで (de A à B)", "Heure + ごろ (vers)", "Durée / quantité + ぐらい (environ)", "Nom + だけ (seulement)"],
+      "sections": [
+        {
+          "h": "De… à… : から〜まで",
+          "p": ["Pour le temps comme pour l'espace."],
+          "ex": [
+            { "jp": "{九時|くじ}から{五時|ごじ}まで{働|はたら}きます。", "fr": "Je travaille de 9 h à 17 h." },
+            { "jp": "{家|いえ}から{駅|えき}まで{歩|ある}きます。", "fr": "Je marche de chez moi à la gare." }
+          ]
+        },
+        {
+          "h": "Vers : ごろ / environ : ぐらい",
+          "p": [
+            "**ごろ** : vers un **moment** précis → {七時|しちじ}ごろ (vers 7 h).",
+            "**ぐらい** (ou くらい) : environ une **durée ou une quantité** → {一時間|いちじかん}ぐらい (environ une heure), {十人|じゅうにん}ぐらい."
+          ],
+          "ex": [
+            { "jp": "{七時|しちじ}ごろ{起|お}きます。", "fr": "Je me lève vers 7 h." },
+            { "jp": "{駅|えき}まで{十分|じゅっぷん}ぐらいかかります。", "fr": "Il faut environ 10 minutes jusqu'à la gare." }
+          ]
+        },
+        {
+          "h": "Seulement : だけ",
+          "ex": [
+            { "jp": "{水|みず}だけ{飲|の}みました。", "fr": "Je n'ai bu que de l'eau." },
+            { "jp": "{日本語|にほんご}は{少|すこ}しだけわかります。", "fr": "Je ne comprends qu'un petit peu le japonais." }
+          ]
+        }
+      ],
+      "pieges": [
+        "ごろ pour un point dans le temps, ぐらい pour une durée : {一時間|いちじかん}ごろ ✗.",
+        "だけ remplace が et を : {水|みず}をだけ ✗ → {水|みず}だけ."
+      ],
+      "exercises": [
+        {
+          "id": "n5-35-e01", "type": "choice", "uses": ["n5-19"],
+          "jp": "{九時|くじ}＿{五時|ごじ}まで{働|はたら}きます。", "fr": "Je travaille de 9 h à 17 h.",
+          "choices": ["から", "まで", "に", "ごろ"], "a": 0
+        },
+        {
+          "id": "n5-35-e02", "type": "choice",
+          "jp": "{七時|しちじ}＿{起|お}きます。", "fr": "Je me lève vers 7 h.",
+          "choices": ["ごろ", "だけ", "から", "の"], "a": 0
+        },
+        {
+          "id": "n5-35-e03", "type": "choice",
+          "jp": "{駅|えき}まで{一時間|いちじかん}＿かかります。", "fr": "Il faut environ une heure jusqu'à la gare.",
+          "choices": ["ぐらい", "ごろ", "から", "に"], "a": 0,
+          "explain": "Une durée → ぐらい."
+        },
+        {
+          "id": "n5-35-e04", "type": "choice", "uses": ["n5-06"],
+          "jp": "{水|みず}＿{飲|の}みました。", "fr": "Je n'ai bu que de l'eau.",
+          "choices": ["だけ", "ごろ", "ぐらいに", "のだけ"], "a": 0
+        },
+        {
+          "id": "n5-35-e05", "type": "order",
+          "fr": "De la maison à l'école, il faut environ 10 minutes.",
+          "tokens": ["{家|いえ}", "から", "{学校|がっこう}", "まで", "{十分|じゅっぷん}", "ぐらい", "かかります"]
+        },
+        {
+          "id": "n5-35-e06", "type": "choice",
+          "q": "Quelle est la différence entre ごろ et ぐらい ?",
+          "choices": ["ごろ : vers (un moment) ; ぐらい : environ (une durée, une quantité).", "ごろ : environ (une durée) ; ぐらい : vers (un moment).", "Aucune différence.", "ごろ est plus poli."], "a": 0
+        },
+        {
+          "id": "n5-35-e07", "type": "choice", "uses": ["n5-05", "n5-06"],
+          "jp": "{東京|とうきょう}＿{大阪|おおさか}までしんかんせんで{行|い}きました。", "fr": "Je suis allé de Tokyo à Osaka en shinkansen.",
+          "choices": ["から", "まで", "に", "ごろ"], "a": 0
+        },
+        {
+          "id": "n5-35-e08", "type": "choice", "uses": ["n5-11"],
+          "q": "Que signifie : {日本語|にほんご}は{少|すこ}しだけわかります。",
+          "choices": ["Je ne comprends qu'un petit peu le japonais.", "Je comprends bien le japonais.", "Je ne comprends que le japonais.", "Je ne comprends pas du tout le japonais."], "a": 0
+        },
+        {
+          "id": "n5-35-e09", "type": "order",
+          "fr": "La banque est ouverte de 9 h à 15 h.",
+          "tokens": ["{銀行|ぎんこう}", "は", "{九時|くじ}", "から", "{三時|さんじ}", "まで", "です"]
+        },
+        {
+          "id": "n5-35-e10", "type": "choice", "uses": ["n5-06"],
+          "jp": "パーティーには{十人|じゅうにん}＿{来|き}ました。", "fr": "Une dizaine de personnes sont venues à la fête.",
+          "choices": ["ぐらい", "ごろ", "だけに", "のぐらい"], "a": 0
+        }
+      ]
+    }
+  ],
+  "test": [
+    {
+      "id": "n5-b07-t01", "type": "choice", "uses": ["n5-08", "n5-31"],
+      "jp": "{日本|にほん}の{夏|なつ}はフランス＿{暑|あつ}いです。", "fr": "L'été japonais est plus chaud que la France.",
+      "choices": ["より", "ほう", "から", "いちばん"], "a": 0
+    },
+    {
+      "id": "n5-b07-t02", "type": "choice", "uses": ["n5-32"],
+      "jp": "ねる＿、{本|ほん}を{読|よ}みます。", "fr": "Avant de dormir, je lis.",
+      "choices": ["まえに", "あとで", "のまえに", "たまえに"], "a": 0
+    },
+    {
+      "id": "n5-b07-t03", "type": "order", "uses": ["n5-11", "n5-33"],
+      "fr": "Quand j'étais enfant, j'aimais les chiens.",
+      "tokens": ["{子|こ}ども", "の", "とき", "{犬|いぬ}", "が", "{好|す}きでした"]
+    },
+    {
+      "id": "n5-b07-t04", "type": "choice", "uses": ["n5-34"],
+      "jp": "あしたは{晴|は}れる＿。", "fr": "Demain, il fera sans doute beau.",
+      "choices": ["でしょう", "だでしょう", "ですでしょう", "なでしょう"], "a": 0
+    },
+    {
+      "id": "n5-b07-t05", "type": "choice", "uses": ["n5-35"],
+      "q": "Que signifie : {一日|いちにち}に{二時間|にじかん}ぐらい{勉強|べんきょう}します。",
+      "choices": ["J'étudie environ deux heures par jour.", "J'étudie vers deux heures chaque jour.", "J'étudie seulement deux heures par jour.", "J'étudie deux heures de plus par jour."], "a": 0
+    },
+    {
+      "id": "n5-b07-t06", "type": "choice", "uses": ["n5-14", "n5-32"],
+      "jp": "{授業|じゅぎょう}の＿で、{友|とも}だちと{話|はな}しました。", "fr": "Après le cours, j'ai parlé avec des amis.",
+      "choices": ["あと", "とき", "から", "ほう"], "a": 0
+    },
+    {
+      "id": "n5-b07-t07", "type": "order", "uses": ["n5-31"],
+      "fr": "Lequel est le plus cher, la viande ou le poisson ?",
+      "tokens": ["{肉|にく}", "と", "{魚|さかな}", "と", "どちら", "が", "{高|たか}い", "です", "か"]
+    },
+    {
+      "id": "n5-b07-t08", "type": "choice", "uses": ["n5-33"],
+      "jp": "{雨|あめ}の＿、うちで{映画|えいが}を{見|み}ます。", "fr": "Quand il pleut, je regarde des films à la maison.",
+      "choices": ["とき", "ほう", "だけ", "より"], "a": 0
+    },
+    {
+      "id": "n5-b07-t09", "type": "choice", "uses": ["n5-32"],
+      "q": "Quelle phrase est correcte ?",
+      "choices": ["{家|いえ}を{出|で}るまえに、{電気|でんき}を{消|け}します。", "{家|いえ}を{出|で}たまえに、{電気|でんき}を{消|け}します。", "{家|いえ}を{出|で}ますまえに、{電気|でんき}を{消|け}します。", "{家|いえ}を{出|で}てまえに、{電気|でんき}を{消|け}します。"], "a": 0
+    },
+    {
+      "id": "n5-b07-t10", "type": "choice", "uses": ["n5-35"],
+      "jp": "{会議|かいぎ}は{十時|じゅうじ}から{十二時|じゅうにじ}＿です。", "fr": "La réunion a lieu de 10 h à midi.",
+      "choices": ["まで", "から", "に", "を"], "a": 0
+    },
+    {
+      "id": "n5-b07-t11", "type": "choice", "uses": ["n5-26", "n5-34"],
+      "q": "Ton ami demande si Mme Yamada viendra. Tu penses que oui. Réponse familière ?",
+      "choices": ["くるだろう。", "くるでしょうだ。", "くるだだろう。", "きますだろう。"], "a": 0
+    },
+    {
+      "id": "n5-b07-t12", "type": "order", "uses": ["n5-32"],
+      "fr": "Après avoir fait mes devoirs, j'ai joué aux jeux vidéo.",
+      "tokens": ["{宿題|しゅくだい}", "を", "した", "あとで", "ゲーム", "を", "しました"]
+    },
+    {
+      "id": "n5-b07-t13", "type": "choice", "uses": ["n5-31"],
+      "jp": "クラスの{中|なか}で{田中|たなか}さん＿いちばんせが{高|たか}いです。", "fr": "Dans la classe, c'est M. Tanaka le plus grand.",
+      "choices": ["が", "を", "に", "より"], "a": 0
+    },
+    {
+      "id": "n5-b07-t14", "type": "choice", "uses": ["n5-35"],
+      "q": "Que signifie : {肉|にく}だけ{食|た}べます。",
+      "choices": ["Je ne mange que de la viande.", "Je mange même de la viande.", "Je mange environ de la viande.", "Je ne mange pas de viande."], "a": 0
+    },
+    {
+      "id": "n5-b07-t15", "type": "choice", "uses": ["n5-33"],
+      "jp": "{若|わか}い＿は、よく{旅行|りょこう}しました。", "fr": "Quand j'étais jeune, je voyageais souvent.",
+      "choices": ["とき", "ときの", "なとき", "のとき"], "a": 0
+    }
+  ]
+}
