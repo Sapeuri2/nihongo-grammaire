@@ -24,5 +24,5 @@ export const CONFIG = {
   focusEvery: 4, // points clés : une question surprise toutes les N questions (leçons, révisions)
   focusInTests: 3, // points clés : questions ajoutées à chaque test / examen (comptent dans la note)
   focusChallengeSize: 10, // points clés : longueur du défi éclair
-  hideBlankTranslation: false, // phrases à trous : traduction cachée jusqu'à la réponse (si elle donne la réponse)
+  hideBlankTranslation: true, // phrases à trous : traduction cachée derrière « Voir la traduction » jusqu'à la réponse
 };

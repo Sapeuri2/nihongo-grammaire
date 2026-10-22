@@ -517,8 +517,9 @@
         },
         {
           "id": "n5-10-e09", "type": "choice", "uses": ["n5-08"],
-          "jp": "{映画|えいが}はどうでしたか。— ＿。", "fr": "Comment était le film ? — Il n'était pas très intéressant.",
-          "choices": ["あまりおもしろくなかったです", "とてもおもしろかったです", "あまりおもしろかったです", "あまりおもしろいでした"], "a": 0
+          "jp": "{映画|えいが}はどうでしたか。— ＿。",
+          "fr": "Comment était le film ? — Il n'était pas très intéressant.",
+          "choices": ["あまりおもしろくなかったです", "あまりおもしろくないでした", "あまりおもしろかったです", "あまりおもしろいでした"], "a": 0
         },
         {
           "id": "n5-10-e10", "type": "choice", "uses": ["n5-06"],
@@ -531,8 +532,9 @@
   "test": [
     {
       "id": "n5-b02-t01", "type": "choice", "uses": ["n5-06", "n5-07", "n5-08"],
-      "jp": "つくえの{上|うえ}に{古|ふる}い{本|ほん}が＿。", "fr": "Il y avait un vieux livre sur le bureau.",
-      "choices": ["ありました", "いました", "でした", "ありません"], "a": 0
+      "jp": "つくえの{上|うえ}に{古|ふる}い{本|ほん}が＿。",
+      "fr": "Il y avait un vieux livre sur le bureau.",
+      "choices": ["ありました", "いました", "でした", "ありましょう"], "a": 0
     },
     {
       "id": "n5-b02-t02", "type": "order", "uses": ["n5-02", "n5-08", "n5-10"],
@@ -606,8 +608,9 @@
     },
     {
       "id": "n5-b02-t15", "type": "choice", "uses": ["n5-08", "n5-10"],
-      "jp": "きのうのパーティーは＿です。", "fr": "La fête d'hier était bien.",
-      "choices": ["よかった", "いかった", "いいでした", "よくなかった"], "a": 0
+      "jp": "きのうのパーティーは＿です。",
+      "fr": "La fête d'hier était bien.",
+      "choices": ["よかった", "いかった", "いいでした", "よいかった"], "a": 0
     }
   ],
   "examTest": [

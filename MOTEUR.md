@@ -86,6 +86,18 @@ Les exercices d'un point clé peuvent être écrits à la main ou générés par
 
 ## Historique des changements du moteur
 
+### 2026-10-22 — Reprise des séries, bouton furigana, série de bonnes réponses
+- Bouton 漢 dans la barre du haut (ajouté par le moteur à côté de ⚙) : affiche / masque les furigana
+  sans quitter l'exercice.
+- Réglages : « ← Retour » ramène à la page précédente (y compris la question en cours), plus à l'accueil.
+- La série en cours est gardée sur l'appareil (clé `<storageKey>:seance`) : on peut aller ailleurs,
+  recharger ou fermer l'appli et la reprendre ; l'accueil affiche « Série en cours · Reprendre / Abandonner ».
+  Relancer la même leçon, le même test ou le même examen reprend la série au lieu de la recommencer.
+- Compteur 🔥 de bonnes réponses d'affilée (toutes séries confondues) et record, synchronisés
+  (nouveau champ `stats` dans la progression).
+- Avec `hideBlankTranslation: true`, chaque phrase à trous doit avoir **une seule réponse possible
+  sans la traduction** ; une consigne indispensable va dans `q` (toujours visible), pas dans `fr`.
+
 ### 2026-10-22 — Points clés
 - Nouveau champ `focus` dans `data/manifest.json` (voir « Format : points clés »).
 - Nouveaux réglages dans `js/config.js` : `focusEvery`, `focusInTests`, `focusChallengeSize`.

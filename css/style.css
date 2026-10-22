@@ -62,6 +62,16 @@ body.nofuri ruby.reveal rt { visibility: visible; }
 .logo { font-weight: 700; text-decoration: none; color: var(--text); margin-right: auto; }
 .logo .jp { color: var(--accent); }
 .gear { text-decoration: none; font-size: 1.3rem; color: var(--muted); }
+.furi-toggle {
+  background: none; border: 1px solid var(--line); border-radius: 8px; padding: 0 8px; height: 34px;
+  font-size: 1.05rem; color: var(--text); cursor: pointer; line-height: 1;
+}
+.furi-toggle rt { font-size: .5em; }
+.furi-toggle.off { color: var(--muted); text-decoration: line-through; }
+.streak { font-size: .85rem; font-weight: 700; color: var(--accent); white-space: nowrap; }
+.card.resume { border: 2px solid var(--accent); }
+.card.resume h2 { margin: 0; }
+.card.resume .actions { margin: 10px 0 0; }
 .sync { font-size: .8rem; color: var(--muted); }
 .sync.error { color: var(--bad); }
 

@@ -60,7 +60,8 @@ function add(ex) {
 function conjugation(prefix, id, adj, fr, subj, form, correct, wrong, uses, explain) {
   add({
     id: `${prefix}-${id}-${form}`, type: 'choice', uses,
-    jp: `${subj}＿。`, fr: `${adj} (${fr}) → ${FORMS[form]}`,
+    // La consigne est dans q (toujours visible) : la ligne fr peut être cachée par hideBlankTranslation.
+    q: `${adj} (${fr}) → ${FORMS[form]}`, jp: `${subj}＿。`,
     choices: [correct, ...wrong], a: 0, explain,
   });
 }
@@ -79,7 +80,7 @@ for (const [id, a, fr, subj, noun] of I) {
   });
   add({
     id: `adj-${id}-noun`, type: 'choice', uses: ['n5-08'],
-    jp: 'これは＿です。', fr: `${a} (${fr}) + ${noun} : devant un nom`,
+    q: `${a} (${fr}) + ${noun} : devant un nom`, jp: 'これは＿です。',
     choices: [`${a}${noun}`, `${a}な${noun}`, `${a}の${noun}`, `${bad}く${noun}`], a: 0,
     explain: 'Adjectif en い : directement devant le nom, sans な ni の.',
   });
@@ -106,7 +107,7 @@ for (const [id, a, fr, subj, noun, lesson, trap] of NA) {
   });
   add({
     id: `na-${id}-noun`, type: 'choice', uses: ['n5-09', ...base],
-    jp: 'これは＿です。', fr: `${a} (${fr}) + ${noun} : devant un nom`,
+    q: `${a} (${fr}) + ${noun} : devant un nom`, jp: 'これは＿です。',
     // 有名 se colle devant un nom pour former de vrais mots (有名店, 有名人) : autre piège pour lui.
     choices: [`${a}な${noun}`, id === 'yuumei' ? `${a}だ${noun}` : `${a}${noun}`, `${a}の${noun}`, `${cut === a ? a + 'い' : cut + 'く'}${noun}`], a: 0,
     explain: `Adjectif en な : il faut な devant le nom → ${a}な${noun}.`,

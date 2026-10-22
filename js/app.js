@@ -253,6 +253,33 @@ function startFocus(fid) {
 
 // ---------- Séances ----------
 
+// La série en cours est gardée sur l'appareil : on peut aller ailleurs (réglages, leçon…) et revenir.
+const SESSION_KEY = `${CONFIG.storageKey}:seance`;
+
+function saveSession() {
+  try {
+    if (!session || session.result) localStorage.removeItem(SESSION_KEY);
+    else localStorage.setItem(SESSION_KEY, JSON.stringify({ ...session, first: [...session.first], scored: session.scored ? [...session.scored] : null }));
+  } catch { /* stockage indisponible */ }
+}
+
+function restoreSession() {
+  try {
+    const s = JSON.parse(localStorage.getItem(SESSION_KEY));
+    if (!s?.queue?.every(q => C.items[q.id])) return null;
+    return { ...s, first: new Map(s.first), scored: s.scored ? new Set(s.scored) : null };
+  } catch { return null; }
+}
+
+// Relancer une série déjà commencée la reprend au lieu de la recommencer.
+function resume(kind, ref) {
+  if (session && !session.result && session.kind === kind && session.ref === ref) {
+    go('#/seance');
+    return true;
+  }
+  return false;
+}
+
 function startSession(opts) {
   if (!opts.ids.length) return;
   session = { requeue: true, ...opts, queue: opts.ids.map(id => ({ id, tries: 0 })), idx: 0, first: new Map(), cur: null, result: null };
@@ -260,6 +287,7 @@ function startSession(opts) {
 }
 
 function startLesson(id) {
+  if (resume('lesson', id)) return;
   const l = C.lessonById[id];
   // Les exercices de la leçon, mélangés avec des rappels des leçons précédentes.
   const recall = weightedSample(available(l.num - 1), CONFIG.lessonRecall);
@@ -270,6 +298,7 @@ function startLesson(id) {
 }
 
 function startTest(blockId) {
+  if (resume('test', blockId)) return;
   const b = C.blockById[blockId];
   const first = C.lessonById[b.lessonIds[0]].num;
   const last = C.lessonById[b.lessonIds.at(-1)].num;
@@ -285,6 +314,7 @@ function startTest(blockId) {
 }
 
 function startExam(examId) {
+  if (resume('exam', examId)) return;
   const e = C.examById[examId];
   const first = C.lessonById[e.lessonIds[0]].num;
   const last = C.lessonById[e.lessonIds.at(-1)].num;
@@ -385,7 +415,12 @@ function viewHome() {
   const st = S.get();
   const nx = nextStep();
   const due = dueItems().length;
-  let h = '<section class="hero">';
+  let h = '';
+  if (session && !session.result) {
+    h += `<section class="card resume"><div><h2>Série en cours</h2><p class="muted small">${esc(session.title)} · question ${Math.min(session.idx + 1, session.queue.length)}/${session.queue.length}</p></div>
+      <div class="actions left"><button class="btn primary" data-act="resume">Reprendre</button><button class="btn" data-act="quit">Abandonner</button></div></section>`;
+  }
+  h += '<section class="hero">';
   h += nx
     ? `<button class="btn primary big" data-act="step" data-type="${nx.type}" data-id="${nx.id}">Continuer<small>${esc(stepLabel(nx))}</small></button>`
     : '<p class="muted">Tout le contenu disponible est terminé. Révise en attendant la suite !</p>';
@@ -484,7 +519,8 @@ function viewSession() {
   if (!session.cur || session.cur.id !== q.id) session.cur = initExercise(it);
   const cur = session.cur;
   const total = session.queue.length;
-  let h = `<div class="sess-top"><button class="link" data-act="quit">✕</button><div class="progress"><span style="width:${(session.idx / total) * 100}%"></span></div><span class="count">${session.idx + 1}/${total}</span></div>`;
+  const streak = S.get().stats.streak;
+  let h = `<div class="sess-top"><button class="link" data-act="quit">✕</button><div class="progress"><span style="width:${(session.idx / total) * 100}%"></span></div>${streak >= 2 ? `<span class="streak" title="Bonnes réponses d'affilée">🔥 ${streak}</span>` : ''}<span class="count">${session.idx + 1}/${total}</span></div>`;
   const flash = it.focus && session.kind !== 'focus' ? ` · <span class="flash">⚡ point clé ${rich(C.focusById[it.focus].label)}</span>` : '';
   h += `<p class="muted sess-title">${esc(session.title)}${flash}${q.tries ? ' · <em>elle revient !</em>' : ''}</p>`;
   h += `<div class="exercise" data-id="${it.id}">${it.type === 'order' ? viewOrder(it, cur) : viewChoice(it, cur)}</div>`;
@@ -554,7 +590,8 @@ function viewResult() {
   if (k === 'exam') msg = r.passed ? 'Examen réussi, bravo !' : `Il faut ${pct(CONFIG.testPass)}. Travaille les points ci-dessous puis retente.`;
   if (k === 'review' || k === 'drill' || k === 'focus') msg = 'Séance terminée.';
   let h = `<section class="result ${r.passed === false ? 'fail' : 'pass'}"><p class="muted">${esc(session.title)}</p>
-    <div class="big-score">${pct(r.score)}</div><p>${r.okCount}/${r.total} du premier coup</p><p><strong>${msg}</strong></p></section>`;
+    <div class="big-score">${pct(r.score)}</div><p>${r.okCount}/${r.total} du premier coup</p><p><strong>${msg}</strong></p>
+    <p class="muted small">🔥 ${S.get().stats.streak} bonne${S.get().stats.streak > 1 ? 's' : ''} réponse${S.get().stats.streak > 1 ? 's' : ''} d'affilée · record : ${S.get().stats.best}</p></section>`;
   const weak = Object.entries(r.byLesson).sort((a, b) => b[1] - a[1]);
   if (weak.length) {
     h += '<section class="card"><h2>Points à retravailler</h2><ul class="weak">';
@@ -576,7 +613,7 @@ function viewSettings() {
   const st = S.get();
   const cfg = Sync.getConfig();
   const status = Sync.getStatus();
-  let h = '<a class="back" href="#/">← Accueil</a><h1>Réglages</h1>';
+  let h = `<a class="back" href="${prevHash}">← Retour</a><h1>Réglages</h1>`;
   h += `<section class="card"><h2>Affichage</h2><label class="row"><input type="checkbox" data-act="furigana" ${st.settings.furigana ? 'checked' : ''}> Afficher les furigana</label>
     <p class="muted small">Masqués, tu peux toucher un kanji pour voir sa lecture.</p>
     <label class="row"><input type="checkbox" data-act="bubble" ${st.settings.bubble !== false ? 'checked' : ''}> Afficher la bulle des points clés</label></section>`;
@@ -632,7 +669,14 @@ function render() {
   else html = viewHome();
   if (html) app.innerHTML = html;
   updateBubble();
+  furiBtn?.classList.toggle('off', !S.get().settings.furigana);
+  furiBtn?.setAttribute('aria-pressed', String(!!S.get().settings.furigana));
+  saveSession();
 }
+
+// Page d'où l'on vient (pour le bouton Retour des réglages).
+let prevHash = '#/';
+let furiBtn = null;
 
 // ---------- Bulle et antisèche des points clés ----------
 
@@ -665,6 +709,11 @@ function closeSheet() {
 }
 
 function onGlobalClick(e) {
+  if (e.target.closest('[data-act="furi-toggle"]')) {
+    S.setSetting('furigana', !S.get().settings.furigana);
+    render();
+    return;
+  }
   const el = e.target.closest('[data-act="sheet"], [data-act="sheet-close"]');
   if (el) {
     if (el.dataset.act === 'sheet') openSheet(el.dataset.id);
@@ -696,6 +745,7 @@ function onClick(e) {
     case 'lesson-ex': startLesson(el.dataset.id); break;
     case 'drill': startDrill(el.dataset.ids.split(',')); break;
     case 'focus-go': startFocus(el.dataset.id); break;
+    case 'resume': go('#/seance'); break;
     case 'pick': if (!cur.answered) { const i = +el.dataset.i; answer(i === it.a, { picked: i }); } break;
     case 'place': cur.built.push(+el.dataset.i); render(); break;
     case 'unplace': cur.built = cur.built.filter(i => i !== +el.dataset.i); render(); break;
@@ -785,6 +835,12 @@ async function main() {
     app.innerHTML = `<p class="error">Impossible de charger le cours : ${esc(e.message)}</p>`;
     return;
   }
+  session = restoreSession();
+  // Bouton ふ dans la barre du haut : afficher / masquer les furigana sans quitter l'exercice.
+  furiBtn = Object.assign(document.createElement('button'), { className: 'furi-toggle jp', title: 'Afficher / masquer les furigana' });
+  furiBtn.dataset.act = 'furi-toggle';
+  furiBtn.innerHTML = '<ruby>漢<rt>かん</rt></ruby>';
+  document.querySelector('.top .gear')?.before(furiBtn);
   bubble = Object.assign(document.createElement('button'), { className: 'bubble jp', hidden: true });
   bubble.dataset.act = 'sheet';
   bubble.setAttribute('aria-label', 'Antisèche des points clés');
@@ -795,7 +851,11 @@ async function main() {
   app.addEventListener('click', onClick);
   app.addEventListener('change', onChangeInput);
   document.addEventListener('keydown', onKey);
-  window.addEventListener('hashchange', render);
+  window.addEventListener('hashchange', e => {
+    const old = new URL(e.oldURL).hash || '#/';
+    if (old !== '#/reglages') prevHash = old;
+    render();
+  });
   S.onChange(meta => {
     if (!meta.fromSync) Sync.schedule();
     // Une synchro ne doit pas interrompre un exercice en cours.

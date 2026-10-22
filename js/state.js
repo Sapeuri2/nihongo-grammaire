@@ -12,7 +12,7 @@ const listeners = new Set();
 let state = load();
 
 function empty() {
-  return { v: 1, resetAt: 0, lessons: {}, tests: {}, items: {}, settings: { furigana: true, t: 0 } };
+  return { v: 1, resetAt: 0, lessons: {}, tests: {}, items: {}, settings: { furigana: true, t: 0 }, stats: { streak: 0, best: 0, t: 0 } };
 }
 
 function normalize(s) {
@@ -25,6 +25,7 @@ function normalize(s) {
     tests: s.tests || {},
     items: s.items || {},
     settings: { ...e.settings, ...(s.settings || {}) },
+    stats: { ...e.stats, ...(s.stats || {}) },
   };
 }
 
@@ -59,6 +60,9 @@ export function recordAnswer(id, ok) {
   r.due = now + INTERVALS[r.box] * DAY;
   r.t = now;
   state.items[id] = r;
+  // Bonnes réponses d'affilée (toutes séries confondues) et record.
+  const streak = ok ? state.stats.streak + 1 : 0;
+  state.stats = { streak, best: Math.max(state.stats.best, streak), t: now };
   persist();
 }
 
@@ -130,5 +134,6 @@ export function merge(a, b) {
     })),
     items: mergeMap(a.items, b.items, latest),
     settings: latest(a.settings, b.settings),
+    stats: { ...latest(a.stats, b.stats), best: Math.max(a.stats.best, b.stats.best) },
   };
 }

@@ -170,8 +170,8 @@
    "uses": [
     "n5-08"
    ],
+   "q": "{高|たか}い (cher) + {車|くるま} : devant un nom",
    "jp": "これは＿です。",
-   "fr": "{高|たか}い (cher) + {車|くるま} : devant un nom",
    "choices": [
     "{高|たか}い{車|くるま}",
     "{高|たか}いな{車|くるま}",
@@ -187,8 +187,8 @@
    "uses": [
     "n5-08"
    ],
+   "q": "{高|たか}い (cher) → négatif poli",
    "jp": "この{車|くるま}は＿。",
-   "fr": "{高|たか}い (cher) → négatif poli",
    "choices": [
     "{高|たか}くないです",
     "{高|たか}いじゃありません",
@@ -204,8 +204,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "{高|たか}い (cher) → passé poli",
    "jp": "この{車|くるま}は＿。",
-   "fr": "{高|たか}い (cher) → passé poli",
    "choices": [
     "{高|たか}かったです",
     "{高|たか}いでした",
@@ -221,8 +221,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "{高|たか}い (cher) → passé négatif poli",
    "jp": "この{車|くるま}は＿。",
-   "fr": "{高|たか}い (cher) → passé négatif poli",
    "choices": [
     "{高|たか}くなかったです",
     "{高|たか}いじゃありませんでした",
@@ -238,8 +238,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{高|たか}い (cher) → négatif familier",
    "jp": "この{車|くるま}は＿。",
-   "fr": "{高|たか}い (cher) → négatif familier",
    "choices": [
     "{高|たか}くない",
     "{高|たか}いくない",
@@ -255,8 +255,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{高|たか}い (cher) → passé familier",
    "jp": "この{車|くるま}は＿。",
-   "fr": "{高|たか}い (cher) → passé familier",
    "choices": [
     "{高|たか}かった",
     "{高|たか}いだった",
@@ -272,8 +272,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{高|たか}い (cher) → passé négatif familier",
    "jp": "この{車|くるま}は＿。",
-   "fr": "{高|たか}い (cher) → passé négatif familier",
    "choices": [
     "{高|たか}くなかった",
     "{高|たか}いじゃなかった",
@@ -304,8 +304,8 @@
    "uses": [
     "n5-08"
    ],
+   "q": "{安|やす}い (bon marché) + {店|みせ} : devant un nom",
    "jp": "これは＿です。",
-   "fr": "{安|やす}い (bon marché) + {店|みせ} : devant un nom",
    "choices": [
     "{安|やす}い{店|みせ}",
     "{安|やす}いな{店|みせ}",
@@ -321,8 +321,8 @@
    "uses": [
     "n5-08"
    ],
+   "q": "{安|やす}い (bon marché) → négatif poli",
    "jp": "この{店|みせ}は＿。",
-   "fr": "{安|やす}い (bon marché) → négatif poli",
    "choices": [
     "{安|やす}くないです",
     "{安|やす}いじゃありません",
@@ -338,8 +338,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "{安|やす}い (bon marché) → passé poli",
    "jp": "この{店|みせ}は＿。",
-   "fr": "{安|やす}い (bon marché) → passé poli",
    "choices": [
     "{安|やす}かったです",
     "{安|やす}いでした",
@@ -355,8 +355,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "{安|やす}い (bon marché) → passé négatif poli",
    "jp": "この{店|みせ}は＿。",
-   "fr": "{安|やす}い (bon marché) → passé négatif poli",
    "choices": [
     "{安|やす}くなかったです",
     "{安|やす}いじゃありませんでした",
@@ -372,8 +372,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{安|やす}い (bon marché) → négatif familier",
    "jp": "この{店|みせ}は＿。",
-   "fr": "{安|やす}い (bon marché) → négatif familier",
    "choices": [
     "{安|やす}くない",
     "{安|やす}いくない",
@@ -389,8 +389,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{安|やす}い (bon marché) → passé familier",
    "jp": "この{店|みせ}は＿。",
-   "fr": "{安|やす}い (bon marché) → passé familier",
    "choices": [
     "{安|やす}かった",
     "{安|やす}いだった",
@@ -406,8 +406,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{安|やす}い (bon marché) → passé négatif familier",
    "jp": "この{店|みせ}は＿。",
-   "fr": "{安|やす}い (bon marché) → passé négatif familier",
    "choices": [
     "{安|やす}くなかった",
     "{安|やす}いじゃなかった",
@@ -438,8 +438,8 @@
    "uses": [
     "n5-08"
    ],
+   "q": "{大|おお}きい (grand) + {家|いえ} : devant un nom",
    "jp": "これは＿です。",
-   "fr": "{大|おお}きい (grand) + {家|いえ} : devant un nom",
    "choices": [
     "{大|おお}きい{家|いえ}",
     "{大|おお}きいな{家|いえ}",
@@ -455,8 +455,8 @@
    "uses": [
     "n5-08"
    ],
+   "q": "{大|おお}きい (grand) → négatif poli",
    "jp": "この{家|いえ}は＿。",
-   "fr": "{大|おお}きい (grand) → négatif poli",
    "choices": [
     "{大|おお}きくないです",
     "{大|おお}きいじゃありません",
@@ -472,8 +472,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "{大|おお}きい (grand) → passé poli",
    "jp": "この{家|いえ}は＿。",
-   "fr": "{大|おお}きい (grand) → passé poli",
    "choices": [
     "{大|おお}きかったです",
     "{大|おお}きいでした",
@@ -489,8 +489,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "{大|おお}きい (grand) → passé négatif poli",
    "jp": "この{家|いえ}は＿。",
-   "fr": "{大|おお}きい (grand) → passé négatif poli",
    "choices": [
     "{大|おお}きくなかったです",
     "{大|おお}きいじゃありませんでした",
@@ -506,8 +506,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{大|おお}きい (grand) → négatif familier",
    "jp": "この{家|いえ}は＿。",
-   "fr": "{大|おお}きい (grand) → négatif familier",
    "choices": [
     "{大|おお}きくない",
     "{大|おお}きいくない",
@@ -523,8 +523,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{大|おお}きい (grand) → passé familier",
    "jp": "この{家|いえ}は＿。",
-   "fr": "{大|おお}きい (grand) → passé familier",
    "choices": [
     "{大|おお}きかった",
     "{大|おお}きいだった",
@@ -540,8 +540,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{大|おお}きい (grand) → passé négatif familier",
    "jp": "この{家|いえ}は＿。",
-   "fr": "{大|おお}きい (grand) → passé négatif familier",
    "choices": [
     "{大|おお}きくなかった",
     "{大|おお}きいじゃなかった",
@@ -572,8 +572,8 @@
    "uses": [
     "n5-08"
    ],
+   "q": "{小|ちい}さい (petit) + {部屋|へや} : devant un nom",
    "jp": "これは＿です。",
-   "fr": "{小|ちい}さい (petit) + {部屋|へや} : devant un nom",
    "choices": [
     "{小|ちい}さい{部屋|へや}",
     "{小|ちい}さいな{部屋|へや}",
@@ -589,8 +589,8 @@
    "uses": [
     "n5-08"
    ],
+   "q": "{小|ちい}さい (petit) → négatif poli",
    "jp": "この{部屋|へや}は＿。",
-   "fr": "{小|ちい}さい (petit) → négatif poli",
    "choices": [
     "{小|ちい}さくないです",
     "{小|ちい}さいじゃありません",
@@ -606,8 +606,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "{小|ちい}さい (petit) → passé poli",
    "jp": "この{部屋|へや}は＿。",
-   "fr": "{小|ちい}さい (petit) → passé poli",
    "choices": [
     "{小|ちい}さかったです",
     "{小|ちい}さいでした",
@@ -623,8 +623,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "{小|ちい}さい (petit) → passé négatif poli",
    "jp": "この{部屋|へや}は＿。",
-   "fr": "{小|ちい}さい (petit) → passé négatif poli",
    "choices": [
     "{小|ちい}さくなかったです",
     "{小|ちい}さいじゃありませんでした",
@@ -640,8 +640,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{小|ちい}さい (petit) → négatif familier",
    "jp": "この{部屋|へや}は＿。",
-   "fr": "{小|ちい}さい (petit) → négatif familier",
    "choices": [
     "{小|ちい}さくない",
     "{小|ちい}さいくない",
@@ -657,8 +657,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{小|ちい}さい (petit) → passé familier",
    "jp": "この{部屋|へや}は＿。",
-   "fr": "{小|ちい}さい (petit) → passé familier",
    "choices": [
     "{小|ちい}さかった",
     "{小|ちい}さいだった",
@@ -674,8 +674,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{小|ちい}さい (petit) → passé négatif familier",
    "jp": "この{部屋|へや}は＿。",
-   "fr": "{小|ちい}さい (petit) → passé négatif familier",
    "choices": [
     "{小|ちい}さくなかった",
     "{小|ちい}さいじゃなかった",
@@ -706,8 +706,8 @@
    "uses": [
     "n5-08"
    ],
+   "q": "{新|あたら}しい (neuf, nouveau) + {本|ほん} : devant un nom",
    "jp": "これは＿です。",
-   "fr": "{新|あたら}しい (neuf, nouveau) + {本|ほん} : devant un nom",
    "choices": [
     "{新|あたら}しい{本|ほん}",
     "{新|あたら}しいな{本|ほん}",
@@ -723,8 +723,8 @@
    "uses": [
     "n5-08"
    ],
+   "q": "{新|あたら}しい (neuf, nouveau) → négatif poli",
    "jp": "この{本|ほん}は＿。",
-   "fr": "{新|あたら}しい (neuf, nouveau) → négatif poli",
    "choices": [
     "{新|あたら}しくないです",
     "{新|あたら}しいじゃありません",
@@ -740,8 +740,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "{新|あたら}しい (neuf, nouveau) → passé poli",
    "jp": "この{本|ほん}は＿。",
-   "fr": "{新|あたら}しい (neuf, nouveau) → passé poli",
    "choices": [
     "{新|あたら}しかったです",
     "{新|あたら}しいでした",
@@ -757,8 +757,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "{新|あたら}しい (neuf, nouveau) → passé négatif poli",
    "jp": "この{本|ほん}は＿。",
-   "fr": "{新|あたら}しい (neuf, nouveau) → passé négatif poli",
    "choices": [
     "{新|あたら}しくなかったです",
     "{新|あたら}しいじゃありませんでした",
@@ -774,8 +774,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{新|あたら}しい (neuf, nouveau) → négatif familier",
    "jp": "この{本|ほん}は＿。",
-   "fr": "{新|あたら}しい (neuf, nouveau) → négatif familier",
    "choices": [
     "{新|あたら}しくない",
     "{新|あたら}しいくない",
@@ -791,8 +791,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{新|あたら}しい (neuf, nouveau) → passé familier",
    "jp": "この{本|ほん}は＿。",
-   "fr": "{新|あたら}しい (neuf, nouveau) → passé familier",
    "choices": [
     "{新|あたら}しかった",
     "{新|あたら}しいだった",
@@ -808,8 +808,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{新|あたら}しい (neuf, nouveau) → passé négatif familier",
    "jp": "この{本|ほん}は＿。",
-   "fr": "{新|あたら}しい (neuf, nouveau) → passé négatif familier",
    "choices": [
     "{新|あたら}しくなかった",
     "{新|あたら}しいじゃなかった",
@@ -840,8 +840,8 @@
    "uses": [
     "n5-08"
    ],
+   "q": "{古|ふる}い (vieux) + {車|くるま} : devant un nom",
    "jp": "これは＿です。",
-   "fr": "{古|ふる}い (vieux) + {車|くるま} : devant un nom",
    "choices": [
     "{古|ふる}い{車|くるま}",
     "{古|ふる}いな{車|くるま}",
@@ -857,8 +857,8 @@
    "uses": [
     "n5-08"
    ],
+   "q": "{古|ふる}い (vieux) → négatif poli",
    "jp": "この{車|くるま}は＿。",
-   "fr": "{古|ふる}い (vieux) → négatif poli",
    "choices": [
     "{古|ふる}くないです",
     "{古|ふる}いじゃありません",
@@ -874,8 +874,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "{古|ふる}い (vieux) → passé poli",
    "jp": "この{車|くるま}は＿。",
-   "fr": "{古|ふる}い (vieux) → passé poli",
    "choices": [
     "{古|ふる}かったです",
     "{古|ふる}いでした",
@@ -891,8 +891,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "{古|ふる}い (vieux) → passé négatif poli",
    "jp": "この{車|くるま}は＿。",
-   "fr": "{古|ふる}い (vieux) → passé négatif poli",
    "choices": [
     "{古|ふる}くなかったです",
     "{古|ふる}いじゃありませんでした",
@@ -908,8 +908,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{古|ふる}い (vieux) → négatif familier",
    "jp": "この{車|くるま}は＿。",
-   "fr": "{古|ふる}い (vieux) → négatif familier",
    "choices": [
     "{古|ふる}くない",
     "{古|ふる}いくない",
@@ -925,8 +925,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{古|ふる}い (vieux) → passé familier",
    "jp": "この{車|くるま}は＿。",
-   "fr": "{古|ふる}い (vieux) → passé familier",
    "choices": [
     "{古|ふる}かった",
     "{古|ふる}いだった",
@@ -942,8 +942,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{古|ふる}い (vieux) → passé négatif familier",
    "jp": "この{車|くるま}は＿。",
-   "fr": "{古|ふる}い (vieux) → passé négatif familier",
    "choices": [
     "{古|ふる}くなかった",
     "{古|ふる}いじゃなかった",
@@ -974,8 +974,8 @@
    "uses": [
     "n5-08"
    ],
+   "q": "おいしい (bon (au goût)) + ケーキ : devant un nom",
    "jp": "これは＿です。",
-   "fr": "おいしい (bon (au goût)) + ケーキ : devant un nom",
    "choices": [
     "おいしいケーキ",
     "おいしいなケーキ",
@@ -991,8 +991,8 @@
    "uses": [
     "n5-08"
    ],
+   "q": "おいしい (bon (au goût)) → négatif poli",
    "jp": "このケーキは＿。",
-   "fr": "おいしい (bon (au goût)) → négatif poli",
    "choices": [
     "おいしくないです",
     "おいしいじゃありません",
@@ -1008,8 +1008,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "おいしい (bon (au goût)) → passé poli",
    "jp": "このケーキは＿。",
-   "fr": "おいしい (bon (au goût)) → passé poli",
    "choices": [
     "おいしかったです",
     "おいしいでした",
@@ -1025,8 +1025,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "おいしい (bon (au goût)) → passé négatif poli",
    "jp": "このケーキは＿。",
-   "fr": "おいしい (bon (au goût)) → passé négatif poli",
    "choices": [
     "おいしくなかったです",
     "おいしいじゃありませんでした",
@@ -1042,8 +1042,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "おいしい (bon (au goût)) → négatif familier",
    "jp": "このケーキは＿。",
-   "fr": "おいしい (bon (au goût)) → négatif familier",
    "choices": [
     "おいしくない",
     "おいしいくない",
@@ -1059,8 +1059,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "おいしい (bon (au goût)) → passé familier",
    "jp": "このケーキは＿。",
-   "fr": "おいしい (bon (au goût)) → passé familier",
    "choices": [
     "おいしかった",
     "おいしいだった",
@@ -1076,8 +1076,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "おいしい (bon (au goût)) → passé négatif familier",
    "jp": "このケーキは＿。",
-   "fr": "おいしい (bon (au goût)) → passé négatif familier",
    "choices": [
     "おいしくなかった",
     "おいしいじゃなかった",
@@ -1108,8 +1108,8 @@
    "uses": [
     "n5-08"
    ],
+   "q": "むずかしい (difficile) + テスト : devant un nom",
    "jp": "これは＿です。",
-   "fr": "むずかしい (difficile) + テスト : devant un nom",
    "choices": [
     "むずかしいテスト",
     "むずかしいなテスト",
@@ -1125,8 +1125,8 @@
    "uses": [
     "n5-08"
    ],
+   "q": "むずかしい (difficile) → négatif poli",
    "jp": "テストは＿。",
-   "fr": "むずかしい (difficile) → négatif poli",
    "choices": [
     "むずかしくないです",
     "むずかしいじゃありません",
@@ -1142,8 +1142,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "むずかしい (difficile) → passé poli",
    "jp": "テストは＿。",
-   "fr": "むずかしい (difficile) → passé poli",
    "choices": [
     "むずかしかったです",
     "むずかしいでした",
@@ -1159,8 +1159,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "むずかしい (difficile) → passé négatif poli",
    "jp": "テストは＿。",
-   "fr": "むずかしい (difficile) → passé négatif poli",
    "choices": [
     "むずかしくなかったです",
     "むずかしいじゃありませんでした",
@@ -1176,8 +1176,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "むずかしい (difficile) → négatif familier",
    "jp": "テストは＿。",
-   "fr": "むずかしい (difficile) → négatif familier",
    "choices": [
     "むずかしくない",
     "むずかしいくない",
@@ -1193,8 +1193,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "むずかしい (difficile) → passé familier",
    "jp": "テストは＿。",
-   "fr": "むずかしい (difficile) → passé familier",
    "choices": [
     "むずかしかった",
     "むずかしいだった",
@@ -1210,8 +1210,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "むずかしい (difficile) → passé négatif familier",
    "jp": "テストは＿。",
-   "fr": "むずかしい (difficile) → passé négatif familier",
    "choices": [
     "むずかしくなかった",
     "むずかしいじゃなかった",
@@ -1242,8 +1242,8 @@
    "uses": [
     "n5-08"
    ],
+   "q": "おもしろい (intéressant) + {映画|えいが} : devant un nom",
    "jp": "これは＿です。",
-   "fr": "おもしろい (intéressant) + {映画|えいが} : devant un nom",
    "choices": [
     "おもしろい{映画|えいが}",
     "おもしろいな{映画|えいが}",
@@ -1259,8 +1259,8 @@
    "uses": [
     "n5-08"
    ],
+   "q": "おもしろい (intéressant) → négatif poli",
    "jp": "この{映画|えいが}は＿。",
-   "fr": "おもしろい (intéressant) → négatif poli",
    "choices": [
     "おもしろくないです",
     "おもしろいじゃありません",
@@ -1276,8 +1276,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "おもしろい (intéressant) → passé poli",
    "jp": "この{映画|えいが}は＿。",
-   "fr": "おもしろい (intéressant) → passé poli",
    "choices": [
     "おもしろかったです",
     "おもしろいでした",
@@ -1293,8 +1293,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "おもしろい (intéressant) → passé négatif poli",
    "jp": "この{映画|えいが}は＿。",
-   "fr": "おもしろい (intéressant) → passé négatif poli",
    "choices": [
     "おもしろくなかったです",
     "おもしろいじゃありませんでした",
@@ -1310,8 +1310,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "おもしろい (intéressant) → négatif familier",
    "jp": "この{映画|えいが}は＿。",
-   "fr": "おもしろい (intéressant) → négatif familier",
    "choices": [
     "おもしろくない",
     "おもしろいくない",
@@ -1327,8 +1327,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "おもしろい (intéressant) → passé familier",
    "jp": "この{映画|えいが}は＿。",
-   "fr": "おもしろい (intéressant) → passé familier",
    "choices": [
     "おもしろかった",
     "おもしろいだった",
@@ -1344,8 +1344,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "おもしろい (intéressant) → passé négatif familier",
    "jp": "この{映画|えいが}は＿。",
-   "fr": "おもしろい (intéressant) → passé négatif familier",
    "choices": [
     "おもしろくなかった",
     "おもしろいじゃなかった",
@@ -1376,8 +1376,8 @@
    "uses": [
     "n5-08"
    ],
+   "q": "{暑|あつ}い (chaud (temps)) + {日|ひ} : devant un nom",
    "jp": "これは＿です。",
-   "fr": "{暑|あつ}い (chaud (temps)) + {日|ひ} : devant un nom",
    "choices": [
     "{暑|あつ}い{日|ひ}",
     "{暑|あつ}いな{日|ひ}",
@@ -1393,8 +1393,8 @@
    "uses": [
     "n5-08"
    ],
+   "q": "{暑|あつ}い (chaud (temps)) → négatif poli",
    "jp": "{今日|きょう}は＿。",
-   "fr": "{暑|あつ}い (chaud (temps)) → négatif poli",
    "choices": [
     "{暑|あつ}くないです",
     "{暑|あつ}いじゃありません",
@@ -1410,8 +1410,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "{暑|あつ}い (chaud (temps)) → passé poli",
    "jp": "{今日|きょう}は＿。",
-   "fr": "{暑|あつ}い (chaud (temps)) → passé poli",
    "choices": [
     "{暑|あつ}かったです",
     "{暑|あつ}いでした",
@@ -1427,8 +1427,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "{暑|あつ}い (chaud (temps)) → passé négatif poli",
    "jp": "{今日|きょう}は＿。",
-   "fr": "{暑|あつ}い (chaud (temps)) → passé négatif poli",
    "choices": [
     "{暑|あつ}くなかったです",
     "{暑|あつ}いじゃありませんでした",
@@ -1444,8 +1444,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{暑|あつ}い (chaud (temps)) → négatif familier",
    "jp": "{今日|きょう}は＿。",
-   "fr": "{暑|あつ}い (chaud (temps)) → négatif familier",
    "choices": [
     "{暑|あつ}くない",
     "{暑|あつ}いくない",
@@ -1461,8 +1461,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{暑|あつ}い (chaud (temps)) → passé familier",
    "jp": "{今日|きょう}は＿。",
-   "fr": "{暑|あつ}い (chaud (temps)) → passé familier",
    "choices": [
     "{暑|あつ}かった",
     "{暑|あつ}いだった",
@@ -1478,8 +1478,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{暑|あつ}い (chaud (temps)) → passé négatif familier",
    "jp": "{今日|きょう}は＿。",
-   "fr": "{暑|あつ}い (chaud (temps)) → passé négatif familier",
    "choices": [
     "{暑|あつ}くなかった",
     "{暑|あつ}いじゃなかった",
@@ -1510,8 +1510,8 @@
    "uses": [
     "n5-08"
    ],
+   "q": "{寒|さむ}い (froid (temps)) + {日|ひ} : devant un nom",
    "jp": "これは＿です。",
-   "fr": "{寒|さむ}い (froid (temps)) + {日|ひ} : devant un nom",
    "choices": [
     "{寒|さむ}い{日|ひ}",
     "{寒|さむ}いな{日|ひ}",
@@ -1527,8 +1527,8 @@
    "uses": [
     "n5-08"
    ],
+   "q": "{寒|さむ}い (froid (temps)) → négatif poli",
    "jp": "{外|そと}は＿。",
-   "fr": "{寒|さむ}い (froid (temps)) → négatif poli",
    "choices": [
     "{寒|さむ}くないです",
     "{寒|さむ}いじゃありません",
@@ -1544,8 +1544,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "{寒|さむ}い (froid (temps)) → passé poli",
    "jp": "{外|そと}は＿。",
-   "fr": "{寒|さむ}い (froid (temps)) → passé poli",
    "choices": [
     "{寒|さむ}かったです",
     "{寒|さむ}いでした",
@@ -1561,8 +1561,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "{寒|さむ}い (froid (temps)) → passé négatif poli",
    "jp": "{外|そと}は＿。",
-   "fr": "{寒|さむ}い (froid (temps)) → passé négatif poli",
    "choices": [
     "{寒|さむ}くなかったです",
     "{寒|さむ}いじゃありませんでした",
@@ -1578,8 +1578,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{寒|さむ}い (froid (temps)) → négatif familier",
    "jp": "{外|そと}は＿。",
-   "fr": "{寒|さむ}い (froid (temps)) → négatif familier",
    "choices": [
     "{寒|さむ}くない",
     "{寒|さむ}いくない",
@@ -1595,8 +1595,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{寒|さむ}い (froid (temps)) → passé familier",
    "jp": "{外|そと}は＿。",
-   "fr": "{寒|さむ}い (froid (temps)) → passé familier",
    "choices": [
     "{寒|さむ}かった",
     "{寒|さむ}いだった",
@@ -1612,8 +1612,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{寒|さむ}い (froid (temps)) → passé négatif familier",
    "jp": "{外|そと}は＿。",
-   "fr": "{寒|さむ}い (froid (temps)) → passé négatif familier",
    "choices": [
     "{寒|さむ}くなかった",
     "{寒|さむ}いじゃなかった",
@@ -1644,8 +1644,8 @@
    "uses": [
     "n5-08"
    ],
+   "q": "{長|なが}い (long) + {映画|えいが} : devant un nom",
    "jp": "これは＿です。",
-   "fr": "{長|なが}い (long) + {映画|えいが} : devant un nom",
    "choices": [
     "{長|なが}い{映画|えいが}",
     "{長|なが}いな{映画|えいが}",
@@ -1661,8 +1661,8 @@
    "uses": [
     "n5-08"
    ],
+   "q": "{長|なが}い (long) → négatif poli",
    "jp": "この{映画|えいが}は＿。",
-   "fr": "{長|なが}い (long) → négatif poli",
    "choices": [
     "{長|なが}くないです",
     "{長|なが}いじゃありません",
@@ -1678,8 +1678,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "{長|なが}い (long) → passé poli",
    "jp": "この{映画|えいが}は＿。",
-   "fr": "{長|なが}い (long) → passé poli",
    "choices": [
     "{長|なが}かったです",
     "{長|なが}いでした",
@@ -1695,8 +1695,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "{長|なが}い (long) → passé négatif poli",
    "jp": "この{映画|えいが}は＿。",
-   "fr": "{長|なが}い (long) → passé négatif poli",
    "choices": [
     "{長|なが}くなかったです",
     "{長|なが}いじゃありませんでした",
@@ -1712,8 +1712,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{長|なが}い (long) → négatif familier",
    "jp": "この{映画|えいが}は＿。",
-   "fr": "{長|なが}い (long) → négatif familier",
    "choices": [
     "{長|なが}くない",
     "{長|なが}いくない",
@@ -1729,8 +1729,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{長|なが}い (long) → passé familier",
    "jp": "この{映画|えいが}は＿。",
-   "fr": "{長|なが}い (long) → passé familier",
    "choices": [
     "{長|なが}かった",
     "{長|なが}いだった",
@@ -1746,8 +1746,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{長|なが}い (long) → passé négatif familier",
    "jp": "この{映画|えいが}は＿。",
-   "fr": "{長|なが}い (long) → passé négatif familier",
    "choices": [
     "{長|なが}くなかった",
     "{長|なが}いじゃなかった",
@@ -1778,8 +1778,8 @@
    "uses": [
     "n5-08"
    ],
+   "q": "いそがしい (occupé) + {人|ひと} : devant un nom",
    "jp": "これは＿です。",
-   "fr": "いそがしい (occupé) + {人|ひと} : devant un nom",
    "choices": [
     "いそがしい{人|ひと}",
     "いそがしいな{人|ひと}",
@@ -1795,8 +1795,8 @@
    "uses": [
     "n5-08"
    ],
+   "q": "いそがしい (occupé) → négatif poli",
    "jp": "{田中|たなか}さんは＿。",
-   "fr": "いそがしい (occupé) → négatif poli",
    "choices": [
     "いそがしくないです",
     "いそがしいじゃありません",
@@ -1812,8 +1812,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "いそがしい (occupé) → passé poli",
    "jp": "{田中|たなか}さんは＿。",
-   "fr": "いそがしい (occupé) → passé poli",
    "choices": [
     "いそがしかったです",
     "いそがしいでした",
@@ -1829,8 +1829,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "いそがしい (occupé) → passé négatif poli",
    "jp": "{田中|たなか}さんは＿。",
-   "fr": "いそがしい (occupé) → passé négatif poli",
    "choices": [
     "いそがしくなかったです",
     "いそがしいじゃありませんでした",
@@ -1846,8 +1846,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "いそがしい (occupé) → négatif familier",
    "jp": "{田中|たなか}さんは＿。",
-   "fr": "いそがしい (occupé) → négatif familier",
    "choices": [
     "いそがしくない",
     "いそがしいくない",
@@ -1863,8 +1863,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "いそがしい (occupé) → passé familier",
    "jp": "{田中|たなか}さんは＿。",
-   "fr": "いそがしい (occupé) → passé familier",
    "choices": [
     "いそがしかった",
     "いそがしいだった",
@@ -1880,8 +1880,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "いそがしい (occupé) → passé négatif familier",
    "jp": "{田中|たなか}さんは＿。",
-   "fr": "いそがしい (occupé) → passé négatif familier",
    "choices": [
     "いそがしくなかった",
     "いそがしいじゃなかった",
@@ -1912,8 +1912,8 @@
    "uses": [
     "n5-08"
    ],
+   "q": "{楽|たの}しい (amusant) + パーティー : devant un nom",
    "jp": "これは＿です。",
-   "fr": "{楽|たの}しい (amusant) + パーティー : devant un nom",
    "choices": [
     "{楽|たの}しいパーティー",
     "{楽|たの}しいなパーティー",
@@ -1929,8 +1929,8 @@
    "uses": [
     "n5-08"
    ],
+   "q": "{楽|たの}しい (amusant) → négatif poli",
    "jp": "パーティーは＿。",
-   "fr": "{楽|たの}しい (amusant) → négatif poli",
    "choices": [
     "{楽|たの}しくないです",
     "{楽|たの}しいじゃありません",
@@ -1946,8 +1946,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "{楽|たの}しい (amusant) → passé poli",
    "jp": "パーティーは＿。",
-   "fr": "{楽|たの}しい (amusant) → passé poli",
    "choices": [
     "{楽|たの}しかったです",
     "{楽|たの}しいでした",
@@ -1963,8 +1963,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "{楽|たの}しい (amusant) → passé négatif poli",
    "jp": "パーティーは＿。",
-   "fr": "{楽|たの}しい (amusant) → passé négatif poli",
    "choices": [
     "{楽|たの}しくなかったです",
     "{楽|たの}しいじゃありませんでした",
@@ -1980,8 +1980,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{楽|たの}しい (amusant) → négatif familier",
    "jp": "パーティーは＿。",
-   "fr": "{楽|たの}しい (amusant) → négatif familier",
    "choices": [
     "{楽|たの}しくない",
     "{楽|たの}しいくない",
@@ -1997,8 +1997,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{楽|たの}しい (amusant) → passé familier",
    "jp": "パーティーは＿。",
-   "fr": "{楽|たの}しい (amusant) → passé familier",
    "choices": [
     "{楽|たの}しかった",
     "{楽|たの}しいだった",
@@ -2014,8 +2014,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{楽|たの}しい (amusant) → passé négatif familier",
    "jp": "パーティーは＿。",
-   "fr": "{楽|たの}しい (amusant) → passé négatif familier",
    "choices": [
     "{楽|たの}しくなかった",
     "{楽|たの}しいじゃなかった",
@@ -2046,8 +2046,8 @@
    "uses": [
     "n5-08"
    ],
+   "q": "{広|ひろ}い (spacieux) + {部屋|へや} : devant un nom",
    "jp": "これは＿です。",
-   "fr": "{広|ひろ}い (spacieux) + {部屋|へや} : devant un nom",
    "choices": [
     "{広|ひろ}い{部屋|へや}",
     "{広|ひろ}いな{部屋|へや}",
@@ -2063,8 +2063,8 @@
    "uses": [
     "n5-08"
    ],
+   "q": "{広|ひろ}い (spacieux) → négatif poli",
    "jp": "この{部屋|へや}は＿。",
-   "fr": "{広|ひろ}い (spacieux) → négatif poli",
    "choices": [
     "{広|ひろ}くないです",
     "{広|ひろ}いじゃありません",
@@ -2080,8 +2080,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "{広|ひろ}い (spacieux) → passé poli",
    "jp": "この{部屋|へや}は＿。",
-   "fr": "{広|ひろ}い (spacieux) → passé poli",
    "choices": [
     "{広|ひろ}かったです",
     "{広|ひろ}いでした",
@@ -2097,8 +2097,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "{広|ひろ}い (spacieux) → passé négatif poli",
    "jp": "この{部屋|へや}は＿。",
-   "fr": "{広|ひろ}い (spacieux) → passé négatif poli",
    "choices": [
     "{広|ひろ}くなかったです",
     "{広|ひろ}いじゃありませんでした",
@@ -2114,8 +2114,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{広|ひろ}い (spacieux) → négatif familier",
    "jp": "この{部屋|へや}は＿。",
-   "fr": "{広|ひろ}い (spacieux) → négatif familier",
    "choices": [
     "{広|ひろ}くない",
     "{広|ひろ}いくない",
@@ -2131,8 +2131,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{広|ひろ}い (spacieux) → passé familier",
    "jp": "この{部屋|へや}は＿。",
-   "fr": "{広|ひろ}い (spacieux) → passé familier",
    "choices": [
     "{広|ひろ}かった",
     "{広|ひろ}いだった",
@@ -2148,8 +2148,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{広|ひろ}い (spacieux) → passé négatif familier",
    "jp": "この{部屋|へや}は＿。",
-   "fr": "{広|ひろ}い (spacieux) → passé négatif familier",
    "choices": [
     "{広|ひろ}くなかった",
     "{広|ひろ}いじゃなかった",
@@ -2180,8 +2180,8 @@
    "uses": [
     "n5-08"
    ],
+   "q": "いい (bien, bon) + {天気|てんき} : devant un nom",
    "jp": "これは＿です。",
-   "fr": "いい (bien, bon) + {天気|てんき} : devant un nom",
    "choices": [
     "いい{天気|てんき}",
     "いいな{天気|てんき}",
@@ -2197,8 +2197,8 @@
    "uses": [
     "n5-08"
    ],
+   "q": "いい (bien, bon) → négatif poli",
    "jp": "{天気|てんき}は＿。",
-   "fr": "いい (bien, bon) → négatif poli",
    "choices": [
     "よくないです",
     "いいじゃありません",
@@ -2214,8 +2214,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "いい (bien, bon) → passé poli",
    "jp": "{天気|てんき}は＿。",
-   "fr": "いい (bien, bon) → passé poli",
    "choices": [
     "よかったです",
     "いいでした",
@@ -2231,8 +2231,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "いい (bien, bon) → passé négatif poli",
    "jp": "{天気|てんき}は＿。",
-   "fr": "いい (bien, bon) → passé négatif poli",
    "choices": [
     "よくなかったです",
     "いいじゃありませんでした",
@@ -2248,8 +2248,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "いい (bien, bon) → négatif familier",
    "jp": "{天気|てんき}は＿。",
-   "fr": "いい (bien, bon) → négatif familier",
    "choices": [
     "よくない",
     "いいくない",
@@ -2265,8 +2265,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "いい (bien, bon) → passé familier",
    "jp": "{天気|てんき}は＿。",
-   "fr": "いい (bien, bon) → passé familier",
    "choices": [
     "よかった",
     "いいだった",
@@ -2282,8 +2282,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "いい (bien, bon) → passé négatif familier",
    "jp": "{天気|てんき}は＿。",
-   "fr": "いい (bien, bon) → passé négatif familier",
    "choices": [
     "よくなかった",
     "いいじゃなかった",
@@ -2314,8 +2314,8 @@
    "uses": [
     "n5-09"
    ],
+   "q": "{静|しず}か (calme) + {町|まち} : devant un nom",
    "jp": "これは＿です。",
-   "fr": "{静|しず}か (calme) + {町|まち} : devant un nom",
    "choices": [
     "{静|しず}かな{町|まち}",
     "{静|しず}か{町|まち}",
@@ -2331,8 +2331,8 @@
    "uses": [
     "n5-09"
    ],
+   "q": "{静|しず}か (calme) → négatif poli",
    "jp": "この{町|まち}は＿。",
-   "fr": "{静|しず}か (calme) → négatif poli",
    "choices": [
     "{静|しず}かじゃありません",
     "{静|しず}かくないです",
@@ -2348,8 +2348,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "{静|しず}か (calme) → passé poli",
    "jp": "この{町|まち}は＿。",
-   "fr": "{静|しず}か (calme) → passé poli",
    "choices": [
     "{静|しず}かでした",
     "{静|しず}かかったです",
@@ -2365,8 +2365,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "{静|しず}か (calme) → passé négatif poli",
    "jp": "この{町|まち}は＿。",
-   "fr": "{静|しず}か (calme) → passé négatif poli",
    "choices": [
     "{静|しず}かじゃありませんでした",
     "{静|しず}かくなかったです",
@@ -2382,8 +2382,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{静|しず}か (calme) → négatif familier",
    "jp": "この{町|まち}は＿。",
-   "fr": "{静|しず}か (calme) → négatif familier",
    "choices": [
     "{静|しず}かじゃない",
     "{静|しず}かくない",
@@ -2399,8 +2399,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{静|しず}か (calme) → passé familier",
    "jp": "この{町|まち}は＿。",
-   "fr": "{静|しず}か (calme) → passé familier",
    "choices": [
     "{静|しず}かだった",
     "{静|しず}かかった",
@@ -2416,8 +2416,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{静|しず}か (calme) → passé négatif familier",
    "jp": "この{町|まち}は＿。",
-   "fr": "{静|しず}か (calme) → passé négatif familier",
    "choices": [
     "{静|しず}かじゃなかった",
     "{静|しず}かくなかった",
@@ -2448,8 +2448,8 @@
    "uses": [
     "n5-09"
    ],
+   "q": "にぎやか (animé) + {町|まち} : devant un nom",
    "jp": "これは＿です。",
-   "fr": "にぎやか (animé) + {町|まち} : devant un nom",
    "choices": [
     "にぎやかな{町|まち}",
     "にぎやか{町|まち}",
@@ -2465,8 +2465,8 @@
    "uses": [
     "n5-09"
    ],
+   "q": "にぎやか (animé) → négatif poli",
    "jp": "{東京|とうきょう}は＿。",
-   "fr": "にぎやか (animé) → négatif poli",
    "choices": [
     "にぎやかじゃありません",
     "にぎやかくないです",
@@ -2482,8 +2482,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "にぎやか (animé) → passé poli",
    "jp": "{東京|とうきょう}は＿。",
-   "fr": "にぎやか (animé) → passé poli",
    "choices": [
     "にぎやかでした",
     "にぎやかかったです",
@@ -2499,8 +2499,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "にぎやか (animé) → passé négatif poli",
    "jp": "{東京|とうきょう}は＿。",
-   "fr": "にぎやか (animé) → passé négatif poli",
    "choices": [
     "にぎやかじゃありませんでした",
     "にぎやかくなかったです",
@@ -2516,8 +2516,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "にぎやか (animé) → négatif familier",
    "jp": "{東京|とうきょう}は＿。",
-   "fr": "にぎやか (animé) → négatif familier",
    "choices": [
     "にぎやかじゃない",
     "にぎやかくない",
@@ -2533,8 +2533,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "にぎやか (animé) → passé familier",
    "jp": "{東京|とうきょう}は＿。",
-   "fr": "にぎやか (animé) → passé familier",
    "choices": [
     "にぎやかだった",
     "にぎやかかった",
@@ -2550,8 +2550,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "にぎやか (animé) → passé négatif familier",
    "jp": "{東京|とうきょう}は＿。",
-   "fr": "にぎやか (animé) → passé négatif familier",
    "choices": [
     "にぎやかじゃなかった",
     "にぎやかくなかった",
@@ -2582,8 +2582,8 @@
    "uses": [
     "n5-09"
    ],
+   "q": "きれい (beau, propre) + {部屋|へや} : devant un nom",
    "jp": "これは＿です。",
-   "fr": "きれい (beau, propre) + {部屋|へや} : devant un nom",
    "choices": [
     "きれいな{部屋|へや}",
     "きれい{部屋|へや}",
@@ -2599,8 +2599,8 @@
    "uses": [
     "n5-09"
    ],
+   "q": "きれい (beau, propre) → négatif poli",
    "jp": "この{部屋|へや}は＿。",
-   "fr": "きれい (beau, propre) → négatif poli",
    "choices": [
     "きれいじゃありません",
     "きれくないです",
@@ -2616,8 +2616,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "きれい (beau, propre) → passé poli",
    "jp": "この{部屋|へや}は＿。",
-   "fr": "きれい (beau, propre) → passé poli",
    "choices": [
     "きれいでした",
     "きれかったです",
@@ -2633,8 +2633,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "きれい (beau, propre) → passé négatif poli",
    "jp": "この{部屋|へや}は＿。",
-   "fr": "きれい (beau, propre) → passé négatif poli",
    "choices": [
     "きれいじゃありませんでした",
     "きれくなかったです",
@@ -2650,8 +2650,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "きれい (beau, propre) → négatif familier",
    "jp": "この{部屋|へや}は＿。",
-   "fr": "きれい (beau, propre) → négatif familier",
    "choices": [
     "きれいじゃない",
     "きれくない",
@@ -2667,8 +2667,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "きれい (beau, propre) → passé familier",
    "jp": "この{部屋|へや}は＿。",
-   "fr": "きれい (beau, propre) → passé familier",
    "choices": [
     "きれいだった",
     "きれかった",
@@ -2684,8 +2684,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "きれい (beau, propre) → passé négatif familier",
    "jp": "この{部屋|へや}は＿。",
-   "fr": "きれい (beau, propre) → passé négatif familier",
    "choices": [
     "きれいじゃなかった",
     "きれくなかった",
@@ -2716,8 +2716,8 @@
    "uses": [
     "n5-09"
    ],
+   "q": "{有名|ゆうめい} (célèbre) + {店|みせ} : devant un nom",
    "jp": "これは＿です。",
-   "fr": "{有名|ゆうめい} (célèbre) + {店|みせ} : devant un nom",
    "choices": [
     "{有名|ゆうめい}な{店|みせ}",
     "{有名|ゆうめい}だ{店|みせ}",
@@ -2733,8 +2733,8 @@
    "uses": [
     "n5-09"
    ],
+   "q": "{有名|ゆうめい} (célèbre) → négatif poli",
    "jp": "この{店|みせ}は＿。",
-   "fr": "{有名|ゆうめい} (célèbre) → négatif poli",
    "choices": [
     "{有名|ゆうめい}じゃありません",
     "{有名|ゆうめい}くないです",
@@ -2750,8 +2750,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "{有名|ゆうめい} (célèbre) → passé poli",
    "jp": "この{店|みせ}は＿。",
-   "fr": "{有名|ゆうめい} (célèbre) → passé poli",
    "choices": [
     "{有名|ゆうめい}でした",
     "{有名|ゆうめい}かったです",
@@ -2767,8 +2767,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "{有名|ゆうめい} (célèbre) → passé négatif poli",
    "jp": "この{店|みせ}は＿。",
-   "fr": "{有名|ゆうめい} (célèbre) → passé négatif poli",
    "choices": [
     "{有名|ゆうめい}じゃありませんでした",
     "{有名|ゆうめい}くなかったです",
@@ -2784,8 +2784,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{有名|ゆうめい} (célèbre) → négatif familier",
    "jp": "この{店|みせ}は＿。",
-   "fr": "{有名|ゆうめい} (célèbre) → négatif familier",
    "choices": [
     "{有名|ゆうめい}じゃない",
     "{有名|ゆうめい}くない",
@@ -2801,8 +2801,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{有名|ゆうめい} (célèbre) → passé familier",
    "jp": "この{店|みせ}は＿。",
-   "fr": "{有名|ゆうめい} (célèbre) → passé familier",
    "choices": [
     "{有名|ゆうめい}だった",
     "{有名|ゆうめい}かった",
@@ -2818,8 +2818,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{有名|ゆうめい} (célèbre) → passé négatif familier",
    "jp": "この{店|みせ}は＿。",
-   "fr": "{有名|ゆうめい} (célèbre) → passé négatif familier",
    "choices": [
     "{有名|ゆうめい}じゃなかった",
     "{有名|ゆうめい}くなかった",
@@ -2850,8 +2850,8 @@
    "uses": [
     "n5-09"
    ],
+   "q": "{元気|げんき} (en forme) + {人|ひと} : devant un nom",
    "jp": "これは＿です。",
-   "fr": "{元気|げんき} (en forme) + {人|ひと} : devant un nom",
    "choices": [
     "{元気|げんき}な{人|ひと}",
     "{元気|げんき}{人|ひと}",
@@ -2867,8 +2867,8 @@
    "uses": [
     "n5-09"
    ],
+   "q": "{元気|げんき} (en forme) → négatif poli",
    "jp": "{田中|たなか}さんは＿。",
-   "fr": "{元気|げんき} (en forme) → négatif poli",
    "choices": [
     "{元気|げんき}じゃありません",
     "{元気|げんき}くないです",
@@ -2884,8 +2884,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "{元気|げんき} (en forme) → passé poli",
    "jp": "{田中|たなか}さんは＿。",
-   "fr": "{元気|げんき} (en forme) → passé poli",
    "choices": [
     "{元気|げんき}でした",
     "{元気|げんき}かったです",
@@ -2901,8 +2901,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "{元気|げんき} (en forme) → passé négatif poli",
    "jp": "{田中|たなか}さんは＿。",
-   "fr": "{元気|げんき} (en forme) → passé négatif poli",
    "choices": [
     "{元気|げんき}じゃありませんでした",
     "{元気|げんき}くなかったです",
@@ -2918,8 +2918,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{元気|げんき} (en forme) → négatif familier",
    "jp": "{田中|たなか}さんは＿。",
-   "fr": "{元気|げんき} (en forme) → négatif familier",
    "choices": [
     "{元気|げんき}じゃない",
     "{元気|げんき}くない",
@@ -2935,8 +2935,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{元気|げんき} (en forme) → passé familier",
    "jp": "{田中|たなか}さんは＿。",
-   "fr": "{元気|げんき} (en forme) → passé familier",
    "choices": [
     "{元気|げんき}だった",
     "{元気|げんき}かった",
@@ -2952,8 +2952,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{元気|げんき} (en forme) → passé négatif familier",
    "jp": "{田中|たなか}さんは＿。",
-   "fr": "{元気|げんき} (en forme) → passé négatif familier",
    "choices": [
     "{元気|げんき}じゃなかった",
     "{元気|げんき}くなかった",
@@ -2984,8 +2984,8 @@
    "uses": [
     "n5-09"
    ],
+   "q": "{便利|べんり} (pratique) + {町|まち} : devant un nom",
    "jp": "これは＿です。",
-   "fr": "{便利|べんり} (pratique) + {町|まち} : devant un nom",
    "choices": [
     "{便利|べんり}な{町|まち}",
     "{便利|べんり}{町|まち}",
@@ -3001,8 +3001,8 @@
    "uses": [
     "n5-09"
    ],
+   "q": "{便利|べんり} (pratique) → négatif poli",
    "jp": "この{町|まち}は＿。",
-   "fr": "{便利|べんり} (pratique) → négatif poli",
    "choices": [
     "{便利|べんり}じゃありません",
     "{便利|べんり}くないです",
@@ -3018,8 +3018,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "{便利|べんり} (pratique) → passé poli",
    "jp": "この{町|まち}は＿。",
-   "fr": "{便利|べんり} (pratique) → passé poli",
    "choices": [
     "{便利|べんり}でした",
     "{便利|べんり}かったです",
@@ -3035,8 +3035,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "{便利|べんり} (pratique) → passé négatif poli",
    "jp": "この{町|まち}は＿。",
-   "fr": "{便利|べんり} (pratique) → passé négatif poli",
    "choices": [
     "{便利|べんり}じゃありませんでした",
     "{便利|べんり}くなかったです",
@@ -3052,8 +3052,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{便利|べんり} (pratique) → négatif familier",
    "jp": "この{町|まち}は＿。",
-   "fr": "{便利|べんり} (pratique) → négatif familier",
    "choices": [
     "{便利|べんり}じゃない",
     "{便利|べんり}くない",
@@ -3069,8 +3069,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{便利|べんり} (pratique) → passé familier",
    "jp": "この{町|まち}は＿。",
-   "fr": "{便利|べんり} (pratique) → passé familier",
    "choices": [
     "{便利|べんり}だった",
     "{便利|べんり}かった",
@@ -3086,8 +3086,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{便利|べんり} (pratique) → passé négatif familier",
    "jp": "この{町|まち}は＿。",
-   "fr": "{便利|べんり} (pratique) → passé négatif familier",
    "choices": [
     "{便利|べんり}じゃなかった",
     "{便利|べんり}くなかった",
@@ -3118,8 +3118,8 @@
    "uses": [
     "n5-09"
    ],
+   "q": "ひま (libre (pas occupé)) + {人|ひと} : devant un nom",
    "jp": "これは＿です。",
-   "fr": "ひま (libre (pas occupé)) + {人|ひと} : devant un nom",
    "choices": [
     "ひまな{人|ひと}",
     "ひま{人|ひと}",
@@ -3135,8 +3135,8 @@
    "uses": [
     "n5-09"
    ],
+   "q": "ひま (libre (pas occupé)) → négatif poli",
    "jp": "{山田|やまだ}さんは＿。",
-   "fr": "ひま (libre (pas occupé)) → négatif poli",
    "choices": [
     "ひまじゃありません",
     "ひまくないです",
@@ -3152,8 +3152,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "ひま (libre (pas occupé)) → passé poli",
    "jp": "{山田|やまだ}さんは＿。",
-   "fr": "ひま (libre (pas occupé)) → passé poli",
    "choices": [
     "ひまでした",
     "ひまかったです",
@@ -3169,8 +3169,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "ひま (libre (pas occupé)) → passé négatif poli",
    "jp": "{山田|やまだ}さんは＿。",
-   "fr": "ひま (libre (pas occupé)) → passé négatif poli",
    "choices": [
     "ひまじゃありませんでした",
     "ひまくなかったです",
@@ -3186,8 +3186,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "ひま (libre (pas occupé)) → négatif familier",
    "jp": "{山田|やまだ}さんは＿。",
-   "fr": "ひま (libre (pas occupé)) → négatif familier",
    "choices": [
     "ひまじゃない",
     "ひまくない",
@@ -3203,8 +3203,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "ひま (libre (pas occupé)) → passé familier",
    "jp": "{山田|やまだ}さんは＿。",
-   "fr": "ひま (libre (pas occupé)) → passé familier",
    "choices": [
     "ひまだった",
     "ひまかった",
@@ -3220,8 +3220,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "ひま (libre (pas occupé)) → passé négatif familier",
    "jp": "{山田|やまだ}さんは＿。",
-   "fr": "ひま (libre (pas occupé)) → passé négatif familier",
    "choices": [
     "ひまじゃなかった",
     "ひまくなかった",
@@ -3252,8 +3252,8 @@
    "uses": [
     "n5-09"
    ],
+   "q": "{親切|しんせつ} (gentil) + {人|ひと} : devant un nom",
    "jp": "これは＿です。",
-   "fr": "{親切|しんせつ} (gentil) + {人|ひと} : devant un nom",
    "choices": [
     "{親切|しんせつ}な{人|ひと}",
     "{親切|しんせつ}{人|ひと}",
@@ -3269,8 +3269,8 @@
    "uses": [
     "n5-09"
    ],
+   "q": "{親切|しんせつ} (gentil) → négatif poli",
    "jp": "{先生|せんせい}は＿。",
-   "fr": "{親切|しんせつ} (gentil) → négatif poli",
    "choices": [
     "{親切|しんせつ}じゃありません",
     "{親切|しんせつ}くないです",
@@ -3286,8 +3286,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "{親切|しんせつ} (gentil) → passé poli",
    "jp": "{先生|せんせい}は＿。",
-   "fr": "{親切|しんせつ} (gentil) → passé poli",
    "choices": [
     "{親切|しんせつ}でした",
     "{親切|しんせつ}かったです",
@@ -3303,8 +3303,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "{親切|しんせつ} (gentil) → passé négatif poli",
    "jp": "{先生|せんせい}は＿。",
-   "fr": "{親切|しんせつ} (gentil) → passé négatif poli",
    "choices": [
     "{親切|しんせつ}じゃありませんでした",
     "{親切|しんせつ}くなかったです",
@@ -3320,8 +3320,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{親切|しんせつ} (gentil) → négatif familier",
    "jp": "{先生|せんせい}は＿。",
-   "fr": "{親切|しんせつ} (gentil) → négatif familier",
    "choices": [
     "{親切|しんせつ}じゃない",
     "{親切|しんせつ}くない",
@@ -3337,8 +3337,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{親切|しんせつ} (gentil) → passé familier",
    "jp": "{先生|せんせい}は＿。",
-   "fr": "{親切|しんせつ} (gentil) → passé familier",
    "choices": [
     "{親切|しんせつ}だった",
     "{親切|しんせつ}かった",
@@ -3354,8 +3354,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{親切|しんせつ} (gentil) → passé négatif familier",
    "jp": "{先生|せんせい}は＿。",
-   "fr": "{親切|しんせつ} (gentil) → passé négatif familier",
    "choices": [
     "{親切|しんせつ}じゃなかった",
     "{親切|しんせつ}くなかった",
@@ -3388,8 +3388,8 @@
     "n5-09",
     "n5-11"
    ],
+   "q": "{好|す}き (aimé) + {食|た}べ{物|もの} : devant un nom",
    "jp": "これは＿です。",
-   "fr": "{好|す}き (aimé) + {食|た}べ{物|もの} : devant un nom",
    "choices": [
     "{好|す}きな{食|た}べ{物|もの}",
     "{好|す}き{食|た}べ{物|もの}",
@@ -3406,8 +3406,8 @@
     "n5-09",
     "n5-11"
    ],
+   "q": "{好|す}き (aimé) → négatif poli",
    "jp": "すしは＿。",
-   "fr": "{好|す}き (aimé) → négatif poli",
    "choices": [
     "{好|す}きじゃありません",
     "{好|す}きくないです",
@@ -3424,8 +3424,8 @@
     "n5-10",
     "n5-11"
    ],
+   "q": "{好|す}き (aimé) → passé poli",
    "jp": "すしは＿。",
-   "fr": "{好|す}き (aimé) → passé poli",
    "choices": [
     "{好|す}きでした",
     "{好|す}きかったです",
@@ -3442,8 +3442,8 @@
     "n5-10",
     "n5-11"
    ],
+   "q": "{好|す}き (aimé) → passé négatif poli",
    "jp": "すしは＿。",
-   "fr": "{好|す}き (aimé) → passé négatif poli",
    "choices": [
     "{好|す}きじゃありませんでした",
     "{好|す}きくなかったです",
@@ -3460,8 +3460,8 @@
     "n5-26",
     "n5-11"
    ],
+   "q": "{好|す}き (aimé) → négatif familier",
    "jp": "すしは＿。",
-   "fr": "{好|す}き (aimé) → négatif familier",
    "choices": [
     "{好|す}きじゃない",
     "{好|す}きくない",
@@ -3478,8 +3478,8 @@
     "n5-26",
     "n5-11"
    ],
+   "q": "{好|す}き (aimé) → passé familier",
    "jp": "すしは＿。",
-   "fr": "{好|す}き (aimé) → passé familier",
    "choices": [
     "{好|す}きだった",
     "{好|す}きかった",
@@ -3496,8 +3496,8 @@
     "n5-26",
     "n5-11"
    ],
+   "q": "{好|す}き (aimé) → passé négatif familier",
    "jp": "すしは＿。",
-   "fr": "{好|す}き (aimé) → passé négatif familier",
    "choices": [
     "{好|す}きじゃなかった",
     "{好|す}きくなかった",
@@ -3530,8 +3530,8 @@
     "n5-09",
     "n5-11"
    ],
+   "q": "きらい (détesté) + {食|た}べ{物|もの} : devant un nom",
    "jp": "これは＿です。",
-   "fr": "きらい (détesté) + {食|た}べ{物|もの} : devant un nom",
    "choices": [
     "きらいな{食|た}べ{物|もの}",
     "きらい{食|た}べ{物|もの}",
@@ -3548,8 +3548,8 @@
     "n5-09",
     "n5-11"
    ],
+   "q": "きらい (détesté) → négatif poli",
    "jp": "ピーマンは＿。",
-   "fr": "きらい (détesté) → négatif poli",
    "choices": [
     "きらいじゃありません",
     "きらくないです",
@@ -3566,8 +3566,8 @@
     "n5-10",
     "n5-11"
    ],
+   "q": "きらい (détesté) → passé poli",
    "jp": "ピーマンは＿。",
-   "fr": "きらい (détesté) → passé poli",
    "choices": [
     "きらいでした",
     "きらかったです",
@@ -3584,8 +3584,8 @@
     "n5-10",
     "n5-11"
    ],
+   "q": "きらい (détesté) → passé négatif poli",
    "jp": "ピーマンは＿。",
-   "fr": "きらい (détesté) → passé négatif poli",
    "choices": [
     "きらいじゃありませんでした",
     "きらくなかったです",
@@ -3602,8 +3602,8 @@
     "n5-26",
     "n5-11"
    ],
+   "q": "きらい (détesté) → négatif familier",
    "jp": "ピーマンは＿。",
-   "fr": "きらい (détesté) → négatif familier",
    "choices": [
     "きらいじゃない",
     "きらくない",
@@ -3620,8 +3620,8 @@
     "n5-26",
     "n5-11"
    ],
+   "q": "きらい (détesté) → passé familier",
    "jp": "ピーマンは＿。",
-   "fr": "きらい (détesté) → passé familier",
    "choices": [
     "きらいだった",
     "きらかった",
@@ -3638,8 +3638,8 @@
     "n5-26",
     "n5-11"
    ],
+   "q": "きらい (détesté) → passé négatif familier",
    "jp": "ピーマンは＿。",
-   "fr": "きらい (détesté) → passé négatif familier",
    "choices": [
     "きらいじゃなかった",
     "きらくなかった",
@@ -3670,8 +3670,8 @@
    "uses": [
     "n5-09"
    ],
+   "q": "{大切|たいせつ} (important, précieux) + {写真|しゃしん} : devant un nom",
    "jp": "これは＿です。",
-   "fr": "{大切|たいせつ} (important, précieux) + {写真|しゃしん} : devant un nom",
    "choices": [
     "{大切|たいせつ}な{写真|しゃしん}",
     "{大切|たいせつ}{写真|しゃしん}",
@@ -3687,8 +3687,8 @@
    "uses": [
     "n5-09"
    ],
+   "q": "{大切|たいせつ} (important, précieux) → négatif poli",
    "jp": "この{写真|しゃしん}は＿。",
-   "fr": "{大切|たいせつ} (important, précieux) → négatif poli",
    "choices": [
     "{大切|たいせつ}じゃありません",
     "{大切|たいせつ}くないです",
@@ -3704,8 +3704,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "{大切|たいせつ} (important, précieux) → passé poli",
    "jp": "この{写真|しゃしん}は＿。",
-   "fr": "{大切|たいせつ} (important, précieux) → passé poli",
    "choices": [
     "{大切|たいせつ}でした",
     "{大切|たいせつ}かったです",
@@ -3721,8 +3721,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "{大切|たいせつ} (important, précieux) → passé négatif poli",
    "jp": "この{写真|しゃしん}は＿。",
-   "fr": "{大切|たいせつ} (important, précieux) → passé négatif poli",
    "choices": [
     "{大切|たいせつ}じゃありませんでした",
     "{大切|たいせつ}くなかったです",
@@ -3738,8 +3738,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{大切|たいせつ} (important, précieux) → négatif familier",
    "jp": "この{写真|しゃしん}は＿。",
-   "fr": "{大切|たいせつ} (important, précieux) → négatif familier",
    "choices": [
     "{大切|たいせつ}じゃない",
     "{大切|たいせつ}くない",
@@ -3755,8 +3755,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{大切|たいせつ} (important, précieux) → passé familier",
    "jp": "この{写真|しゃしん}は＿。",
-   "fr": "{大切|たいせつ} (important, précieux) → passé familier",
    "choices": [
     "{大切|たいせつ}だった",
     "{大切|たいせつ}かった",
@@ -3772,8 +3772,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "{大切|たいせつ} (important, précieux) → passé négatif familier",
    "jp": "この{写真|しゃしん}は＿。",
-   "fr": "{大切|たいせつ} (important, précieux) → passé négatif familier",
    "choices": [
     "{大切|たいせつ}じゃなかった",
     "{大切|たいせつ}くなかった",
@@ -3804,8 +3804,8 @@
    "uses": [
     "n5-09"
    ],
+   "q": "かんたん (facile, simple) + テスト : devant un nom",
    "jp": "これは＿です。",
-   "fr": "かんたん (facile, simple) + テスト : devant un nom",
    "choices": [
     "かんたんなテスト",
     "かんたんテスト",
@@ -3821,8 +3821,8 @@
    "uses": [
     "n5-09"
    ],
+   "q": "かんたん (facile, simple) → négatif poli",
    "jp": "このテストは＿。",
-   "fr": "かんたん (facile, simple) → négatif poli",
    "choices": [
     "かんたんじゃありません",
     "かんたんくないです",
@@ -3838,8 +3838,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "かんたん (facile, simple) → passé poli",
    "jp": "このテストは＿。",
-   "fr": "かんたん (facile, simple) → passé poli",
    "choices": [
     "かんたんでした",
     "かんたんかったです",
@@ -3855,8 +3855,8 @@
    "uses": [
     "n5-10"
    ],
+   "q": "かんたん (facile, simple) → passé négatif poli",
    "jp": "このテストは＿。",
-   "fr": "かんたん (facile, simple) → passé négatif poli",
    "choices": [
     "かんたんじゃありませんでした",
     "かんたんくなかったです",
@@ -3872,8 +3872,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "かんたん (facile, simple) → négatif familier",
    "jp": "このテストは＿。",
-   "fr": "かんたん (facile, simple) → négatif familier",
    "choices": [
     "かんたんじゃない",
     "かんたんくない",
@@ -3889,8 +3889,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "かんたん (facile, simple) → passé familier",
    "jp": "このテストは＿。",
-   "fr": "かんたん (facile, simple) → passé familier",
    "choices": [
     "かんたんだった",
     "かんたんかった",
@@ -3906,8 +3906,8 @@
    "uses": [
     "n5-26"
    ],
+   "q": "かんたん (facile, simple) → passé négatif familier",
    "jp": "このテストは＿。",
-   "fr": "かんたん (facile, simple) → passé négatif familier",
    "choices": [
     "かんたんじゃなかった",
     "かんたんくなかった",
