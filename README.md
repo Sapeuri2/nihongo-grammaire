@@ -12,7 +12,7 @@ Appli web perso pour apprendre la grammaire japonaise (JLPT N5 → N4, puis N3),
 
 Le plan complet des leçons est dans [PROGRAMME.md](PROGRAMME.md).
 
-**Point clé « い ou な ? »** : bulle-antisèche, défi éclair et questions surprises partout (y compris dans les tests). Les questions sont générées par `node tools/generer-adjectifs.mjs` (à relancer après modification de la liste d'adjectifs), qui écrit `data/focus/adjectifs.json`.
+**Points clés** « い ou な ? Et quel passé ? » et « La forme て » : bulle-antisèche, défi éclair et questions surprises partout (y compris dans les tests). Les questions sont générées par `node tools/generer-adjectifs.mjs` et `node tools/generer-te.mjs` (à relancer après modification des listes), qui écrivent `data/focus/`.
 
 Le code est un **moteur partagé** avec d'autres applis (vocabulaire…) : voir [MOTEUR.md](MOTEUR.md). Les réglages propres à cette appli sont dans `js/config.js` et `css/theme.css`.
 

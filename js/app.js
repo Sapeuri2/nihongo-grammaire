@@ -229,9 +229,22 @@ function focusMastery(f) {
   return seen.reduce((sum, id) => sum + BOX_MASTERY[Math.min(items[id].box, 3)], 0) / seen.length;
 }
 
+// Tire `n` questions de points clés en alternant les points (sinon un seul point, plus raté, prend toute la place).
+function focusPicks(n, exclude = []) {
+  const pools = C.focus.filter(focusUnlocked).map(f => focusPool(f).filter(id => !exclude.includes(id))).filter(p => p.length);
+  const out = [];
+  let k = Math.floor(Math.random() * (pools.length || 1));
+  while (out.length < n && pools.some(p => p.length)) {
+    const pool = pools[k++ % pools.length];
+    const [id] = weightedSample(pool, 1);
+    if (id) { out.push(id); pool.splice(pool.indexOf(id), 1); }
+  }
+  return out;
+}
+
 // Glisse une question de point clé toutes les `every` questions.
 function sprinkle(ids, every = CONFIG.focusEvery) {
-  const picks = every ? weightedSample(focusPool().filter(id => !ids.includes(id)), Math.floor(ids.length / every)) : [];
+  const picks = every ? focusPicks(Math.floor(ids.length / every), ids) : [];
   if (!picks.length) return ids;
   const out = [];
   ids.forEach((id, i) => {
@@ -243,7 +256,7 @@ function sprinkle(ids, every = CONFIG.focusEvery) {
 
 // Tests et examens : quelques questions de points clés en plus, qui comptent.
 function withFocus(ids) {
-  return shuffle([...ids, ...weightedSample(focusPool().filter(id => !ids.includes(id)), CONFIG.focusInTests)]);
+  return shuffle([...ids, ...focusPicks(CONFIG.focusInTests, ids)]);
 }
 
 function startFocus(fid) {
@@ -689,16 +702,25 @@ function updateBubble() {
   const inTest = location.hash === '#/seance' && ['test', 'exam'].includes(session?.kind) && !session?.result;
   const show = unlocked.length && S.get().settings.bubble !== false && !inTest;
   bubble.hidden = !show;
-  if (show) bubble.innerHTML = unlocked.length === 1 ? rich(unlocked[0].label) : '★';
+  if (show) bubble.innerHTML = unlocked.map(f => rich(f.label)).join('<span class="sep">｜</span>');
   if (inTest) closeSheet();
 }
 
+// Antisèche : un point clé à la fois, avec des onglets s'il y en a plusieurs.
+let lastSheet = null;
+
 function openSheet(fid) {
-  const list = fid ? [C.focusById[fid]] : C.focus.filter(focusUnlocked);
+  const unlocked = C.focus.filter(focusUnlocked);
+  const f = C.focusById[fid] || unlocked.find(x => x.id === lastSheet) || unlocked[0] || C.focus[0];
+  lastSheet = f.id;
+  const tabs = unlocked.length > 1
+    ? `<div class="sheet-tabs">${unlocked.map(x => `<button class="tab jp${x.id === f.id ? ' on' : ''}" data-act="sheet" data-id="${x.id}">${rich(x.label)}</button>`).join('')}</div>`
+    : '';
   sheet.innerHTML = `<div class="sheet" role="dialog" aria-modal="true"><button class="link sheet-x" data-act="sheet-close" aria-label="Fermer">✕</button>
-    ${list.map(f => `<article class="lesson"><p class="muted">Point clé</p><h1>${rich(f.title)}</h1>${viewSections(f.sheet?.sections, f.sheet?.pieges)}</article>`).join('')}
+    ${tabs}<article class="lesson"><p class="muted">Point clé</p><h1>${rich(f.title)}</h1>${viewSections(f.sheet?.sections, f.sheet?.pieges)}</article>
     <div class="actions"><button class="btn" data-act="sheet-close">Fermer</button></div></div>`;
   sheet.hidden = false;
+  sheet.querySelector('.sheet').scrollTop = 0;
   document.body.classList.add('noscroll');
 }
 

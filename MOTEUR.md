@@ -86,6 +86,12 @@ Les exercices d'un point clé peuvent être écrits à la main ou générés par
 
 ## Historique des changements du moteur
 
+### 2026-10-28 — Plusieurs points clés
+- La bulle affiche les étiquettes de tous les points clés débloqués (ex. い・な｜て) ; l'antisèche
+  a un onglet par point clé.
+- Les questions surprises et celles des tests alternent entre les points clés (un point souvent raté
+  ne prend plus toute la place).
+
 ### 2026-10-22 — Reprise des séries, bouton furigana, série de bonnes réponses
 - Bouton 漢 dans la barre du haut (ajouté par le moteur à côté de ⚙) : affiche / masque les furigana
   sans quitter l'exercice.

@@ -1,7 +1,7 @@
 {
   "examEvery": 4,
   "miniExamEvery": 2,
-  "focus": ["data/focus/adjectifs.json"],
+  "focus": ["data/focus/adjectifs.json", "data/focus/forme-te.json"],
   "blocks": [
     "data/n5/bloc01.json",
     "data/n5/bloc02.json",

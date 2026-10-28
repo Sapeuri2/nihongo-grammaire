@@ -1,0 +1,3493 @@
+{
+ "id": "forme-te",
+ "label": "て",
+ "title": "La forme て",
+ "unlockAfter": "n5-04",
+ "sheet": {
+  "sections": [
+   {
+    "h": "À quoi elle sert",
+    "p": [
+     "Partout : てください (demander), ている (en train de), てもいいです, enchaîner des actions…",
+     "Et la **forme た** (passé familier) se fabrique **exactement pareil** : て → た, で → だ."
+    ]
+   },
+   {
+    "h": "La méthode en 2 questions",
+    "p": [
+     "**1. Quel groupe ?** Groupe 2 ({食|た}べる, {見|み}る…) : on enlève る et on met **て**. Groupe 3 : する → **して**, {来|く}る → **{来|き}て**.",
+     "**2. Groupe 1 : regarde la dernière syllabe** et applique le tableau."
+    ],
+    "grid": {
+     "head": [
+      "Fin",
+      "Devient",
+      "Exemples"
+     ],
+     "rows": [
+      [
+       "う・つ・る",
+       "==って==",
+       "{買|か}==って==, {待|ま}==って==, {帰|かえ}==って=="
+      ],
+      [
+       "む・ぶ・ぬ",
+       "==んで==",
+       "{飲|の}==んで==, {遊|あそ}==んで==, {死|し}==んで=="
+      ],
+      [
+       "く",
+       "==いて==",
+       "{書|か}==いて==, {聞|き}==いて=="
+      ],
+      [
+       "ぐ",
+       "==いで==",
+       "{泳|およ}==いで==, {急|いそ}==いで=="
+      ],
+      [
+       "す",
+       "==して==",
+       "{話|はな}==して==, {貸|か}==して=="
+      ],
+      [
+       "{行|い}く",
+       "==って==",
+       "{行|い}==って== : la seule exception"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "Groupes 2 et 3",
+    "grid": {
+     "head": [
+      "Verbe",
+      "Devient",
+      "Exemples"
+     ],
+     "rows": [
+      [
+       "Groupe 2",
+       "る → ==て==",
+       "{食|た}べ==て==, {見|み}==て==, {起|お}き==て=="
+      ],
+      [
+       "する",
+       "==して==",
+       "{勉強|べんきょう}==して=="
+      ],
+      [
+       "{来|く}る",
+       "==きて==",
+       "{来|き}==て== (la lecture change)"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "À réciter",
+    "p": [
+     "**う・つ・る → って ; む・ぶ・ぬ → んで ; く → いて ; ぐ → いで ; す → して ; {行|い}く → {行|い}って.**",
+     "Astuce : les fins « sonores » (ぐ, む, ぶ, ぬ) donnent **で** ; les autres donnent **て**."
+    ]
+   }
+  ],
+  "pieges": [
+   "Les **faux groupe 2** : {帰|かえ}る, {入|はい}る, {走|はし}る, {知|し}る, {切|き}る finissent par る mais sont du groupe 1 → {帰|かえ}==って== (jamais {帰|かえ}て).",
+   "Même son, deux verbes : {着|き}る (porter, groupe 2) → {着|き}==て== ; {切|き}る (couper, groupe 1) → {切|き}==って==.",
+   "{降|ふ}る (tomber, la pluie) → {降|ふ}==って== ; {降|お}りる (descendre) → {降|お}り==て==.",
+   "{行|い}く → {行|い}==って== (pas {行|い}いて) · {来|く}る → {来|き}て (きて)."
+  ]
+ },
+ "exercises": [
+  {
+   "id": "te-kau",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {買|か}う (acheter) ?",
+   "choices": [
+    "{買|か}って",
+    "{買|か}いて",
+    "{買|か}んで",
+    "{買|か}して"
+   ],
+   "a": 0,
+   "explain": "{買|か}う : groupe 1 en う → う → って."
+  },
+  {
+   "id": "ta-kau",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {買|か}う (acheter) ?",
+   "choices": [
+    "{買|か}った",
+    "{買|か}いた",
+    "{買|か}んだ",
+    "{買|か}した"
+   ],
+   "a": 0,
+   "explain": "{買|か}う : groupe 1 en う → う → って. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-au",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {会|あ}う (rencontrer) ?",
+   "choices": [
+    "{会|あ}って",
+    "{会|あ}いて",
+    "{会|あ}んで",
+    "{会|あ}して"
+   ],
+   "a": 0,
+   "explain": "{会|あ}う : groupe 1 en う → う → って."
+  },
+  {
+   "id": "ta-au",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {会|あ}う (rencontrer) ?",
+   "choices": [
+    "{会|あ}った",
+    "{会|あ}いた",
+    "{会|あ}んだ",
+    "{会|あ}した"
+   ],
+   "a": 0,
+   "explain": "{会|あ}う : groupe 1 en う → う → って. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-iu",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {言|い}う (dire) ?",
+   "choices": [
+    "{言|い}って",
+    "{言|い}いて",
+    "{言|い}んで",
+    "{言|い}して"
+   ],
+   "a": 0,
+   "explain": "{言|い}う : groupe 1 en う → う → って."
+  },
+  {
+   "id": "ta-iu",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {言|い}う (dire) ?",
+   "choices": [
+    "{言|い}った",
+    "{言|い}いた",
+    "{言|い}んだ",
+    "{言|い}した"
+   ],
+   "a": 0,
+   "explain": "{言|い}う : groupe 1 en う → う → って. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-utau",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {歌|うた}う (chanter) ?",
+   "choices": [
+    "{歌|うた}って",
+    "{歌|うた}いて",
+    "{歌|うた}んで",
+    "{歌|うた}して"
+   ],
+   "a": 0,
+   "explain": "{歌|うた}う : groupe 1 en う → う → って."
+  },
+  {
+   "id": "ta-utau",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {歌|うた}う (chanter) ?",
+   "choices": [
+    "{歌|うた}った",
+    "{歌|うた}いた",
+    "{歌|うた}んだ",
+    "{歌|うた}した"
+   ],
+   "a": 0,
+   "explain": "{歌|うた}う : groupe 1 en う → う → って. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-tsukau",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {使|つか}う (utiliser) ?",
+   "choices": [
+    "{使|つか}って",
+    "{使|つか}いて",
+    "{使|つか}んで",
+    "{使|つか}して"
+   ],
+   "a": 0,
+   "explain": "{使|つか}う : groupe 1 en う → う → って."
+  },
+  {
+   "id": "ta-tsukau",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {使|つか}う (utiliser) ?",
+   "choices": [
+    "{使|つか}った",
+    "{使|つか}いた",
+    "{使|つか}んだ",
+    "{使|つか}した"
+   ],
+   "a": 0,
+   "explain": "{使|つか}う : groupe 1 en う → う → って. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-arau",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {洗|あら}う (laver) ?",
+   "choices": [
+    "{洗|あら}って",
+    "{洗|あら}いて",
+    "{洗|あら}んで",
+    "{洗|あら}して"
+   ],
+   "a": 0,
+   "explain": "{洗|あら}う : groupe 1 en う → う → って."
+  },
+  {
+   "id": "ta-arau",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {洗|あら}う (laver) ?",
+   "choices": [
+    "{洗|あら}った",
+    "{洗|あら}いた",
+    "{洗|あら}んだ",
+    "{洗|あら}した"
+   ],
+   "a": 0,
+   "explain": "{洗|あら}う : groupe 1 en う → う → って. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-narau",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {習|なら}う (apprendre (avec quelqu'un)) ?",
+   "choices": [
+    "{習|なら}って",
+    "{習|なら}いて",
+    "{習|なら}んで",
+    "{習|なら}して"
+   ],
+   "a": 0,
+   "explain": "{習|なら}う : groupe 1 en う → う → って."
+  },
+  {
+   "id": "ta-narau",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {習|なら}う (apprendre (avec quelqu'un)) ?",
+   "choices": [
+    "{習|なら}った",
+    "{習|なら}いた",
+    "{習|なら}んだ",
+    "{習|なら}した"
+   ],
+   "a": 0,
+   "explain": "{習|なら}う : groupe 1 en う → う → って. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-suu",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {吸|す}う (fumer, aspirer) ?",
+   "choices": [
+    "{吸|す}って",
+    "{吸|す}いて",
+    "{吸|す}んで",
+    "{吸|す}して"
+   ],
+   "a": 0,
+   "explain": "{吸|す}う : groupe 1 en う → う → って."
+  },
+  {
+   "id": "ta-suu",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {吸|す}う (fumer, aspirer) ?",
+   "choices": [
+    "{吸|す}った",
+    "{吸|す}いた",
+    "{吸|す}んだ",
+    "{吸|す}した"
+   ],
+   "a": 0,
+   "explain": "{吸|す}う : groupe 1 en う → う → って. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-tetsudau",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {手伝|てつだ}う (aider) ?",
+   "choices": [
+    "{手伝|てつだ}って",
+    "{手伝|てつだ}いて",
+    "{手伝|てつだ}んで",
+    "{手伝|てつだ}して"
+   ],
+   "a": 0,
+   "explain": "{手伝|てつだ}う : groupe 1 en う → う → って."
+  },
+  {
+   "id": "ta-tetsudau",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {手伝|てつだ}う (aider) ?",
+   "choices": [
+    "{手伝|てつだ}った",
+    "{手伝|てつだ}いた",
+    "{手伝|てつだ}んだ",
+    "{手伝|てつだ}した"
+   ],
+   "a": 0,
+   "explain": "{手伝|てつだ}う : groupe 1 en う → う → って. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-omou",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {思|おも}う (penser) ?",
+   "choices": [
+    "{思|おも}って",
+    "{思|おも}いて",
+    "{思|おも}んで",
+    "{思|おも}して"
+   ],
+   "a": 0,
+   "explain": "{思|おも}う : groupe 1 en う → う → って."
+  },
+  {
+   "id": "ta-omou",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {思|おも}う (penser) ?",
+   "choices": [
+    "{思|おも}った",
+    "{思|おも}いた",
+    "{思|おも}んだ",
+    "{思|おも}した"
+   ],
+   "a": 0,
+   "explain": "{思|おも}う : groupe 1 en う → う → って. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-harau",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {払|はら}う (payer) ?",
+   "choices": [
+    "{払|はら}って",
+    "{払|はら}いて",
+    "{払|はら}んで",
+    "{払|はら}して"
+   ],
+   "a": 0,
+   "explain": "{払|はら}う : groupe 1 en う → う → って."
+  },
+  {
+   "id": "ta-harau",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {払|はら}う (payer) ?",
+   "choices": [
+    "{払|はら}った",
+    "{払|はら}いた",
+    "{払|はら}んだ",
+    "{払|はら}した"
+   ],
+   "a": 0,
+   "explain": "{払|はら}う : groupe 1 en う → う → って. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-matsu",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {待|ま}つ (attendre) ?",
+   "choices": [
+    "{待|ま}って",
+    "{待|ま}いて",
+    "{待|ま}んで",
+    "{待|ま}ちて"
+   ],
+   "a": 0,
+   "explain": "{待|ま}つ : groupe 1 en つ → つ → って."
+  },
+  {
+   "id": "ta-matsu",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {待|ま}つ (attendre) ?",
+   "choices": [
+    "{待|ま}った",
+    "{待|ま}いた",
+    "{待|ま}んだ",
+    "{待|ま}ちた"
+   ],
+   "a": 0,
+   "explain": "{待|ま}つ : groupe 1 en つ → つ → って. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-motsu",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {持|も}つ (tenir, avoir) ?",
+   "choices": [
+    "{持|も}って",
+    "{持|も}いて",
+    "{持|も}んで",
+    "{持|も}ちて"
+   ],
+   "a": 0,
+   "explain": "{持|も}つ : groupe 1 en つ → つ → って."
+  },
+  {
+   "id": "ta-motsu",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {持|も}つ (tenir, avoir) ?",
+   "choices": [
+    "{持|も}った",
+    "{持|も}いた",
+    "{持|も}んだ",
+    "{持|も}ちた"
+   ],
+   "a": 0,
+   "explain": "{持|も}つ : groupe 1 en つ → つ → って. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-tatsu",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {立|た}つ (se mettre debout) ?",
+   "choices": [
+    "{立|た}って",
+    "{立|た}いて",
+    "{立|た}んで",
+    "{立|た}ちて"
+   ],
+   "a": 0,
+   "explain": "{立|た}つ : groupe 1 en つ → つ → って."
+  },
+  {
+   "id": "ta-tatsu",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {立|た}つ (se mettre debout) ?",
+   "choices": [
+    "{立|た}った",
+    "{立|た}いた",
+    "{立|た}んだ",
+    "{立|た}ちた"
+   ],
+   "a": 0,
+   "explain": "{立|た}つ : groupe 1 en つ → つ → って. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-kaeru",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {帰|かえ}る (rentrer) ?",
+   "choices": [
+    "{帰|かえ}って",
+    "{帰|かえ}て",
+    "{帰|かえ}んで",
+    "{帰|かえ}いて"
+   ],
+   "a": 0,
+   "explain": "{帰|かえ}る : groupe 1 en る → る (groupe 1) → って. Piège : {帰|かえ}る finit par る mais il est du groupe 1 (pas る → て)."
+  },
+  {
+   "id": "ta-kaeru",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {帰|かえ}る (rentrer) ?",
+   "choices": [
+    "{帰|かえ}った",
+    "{帰|かえ}た",
+    "{帰|かえ}んだ",
+    "{帰|かえ}いた"
+   ],
+   "a": 0,
+   "explain": "{帰|かえ}る : groupe 1 en る → る (groupe 1) → って. Piège : {帰|かえ}る finit par る mais il est du groupe 1 (pas る → て). La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-hairu",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {入|はい}る (entrer) ?",
+   "choices": [
+    "{入|はい}って",
+    "{入|はい}て",
+    "{入|はい}んで",
+    "{入|はい}いて"
+   ],
+   "a": 0,
+   "explain": "{入|はい}る : groupe 1 en る → る (groupe 1) → って. Piège : {入|はい}る finit par る mais il est du groupe 1 (pas る → て)."
+  },
+  {
+   "id": "ta-hairu",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {入|はい}る (entrer) ?",
+   "choices": [
+    "{入|はい}った",
+    "{入|はい}た",
+    "{入|はい}んだ",
+    "{入|はい}いた"
+   ],
+   "a": 0,
+   "explain": "{入|はい}る : groupe 1 en る → る (groupe 1) → って. Piège : {入|はい}る finit par る mais il est du groupe 1 (pas る → て). La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-hashiru",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {走|はし}る (courir) ?",
+   "choices": [
+    "{走|はし}って",
+    "{走|はし}て",
+    "{走|はし}んで",
+    "{走|はし}いて"
+   ],
+   "a": 0,
+   "explain": "{走|はし}る : groupe 1 en る → る (groupe 1) → って. Piège : {走|はし}る finit par る mais il est du groupe 1 (pas る → て)."
+  },
+  {
+   "id": "ta-hashiru",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {走|はし}る (courir) ?",
+   "choices": [
+    "{走|はし}った",
+    "{走|はし}た",
+    "{走|はし}んだ",
+    "{走|はし}いた"
+   ],
+   "a": 0,
+   "explain": "{走|はし}る : groupe 1 en る → る (groupe 1) → って. Piège : {走|はし}る finit par る mais il est du groupe 1 (pas る → て). La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-shiru",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {知|し}る (apprendre (une nouvelle), savoir) ?",
+   "choices": [
+    "{知|し}って",
+    "{知|し}て",
+    "{知|し}んで",
+    "{知|し}いて"
+   ],
+   "a": 0,
+   "explain": "{知|し}る : groupe 1 en る → る (groupe 1) → って. Piège : {知|し}る finit par る mais il est du groupe 1 (pas る → て)."
+  },
+  {
+   "id": "ta-shiru",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {知|し}る (apprendre (une nouvelle), savoir) ?",
+   "choices": [
+    "{知|し}った",
+    "{知|し}た",
+    "{知|し}んだ",
+    "{知|し}いた"
+   ],
+   "a": 0,
+   "explain": "{知|し}る : groupe 1 en る → る (groupe 1) → って. Piège : {知|し}る finit par る mais il est du groupe 1 (pas る → て). La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-kiru-couper",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {切|き}る (couper) ?",
+   "choices": [
+    "{切|き}って",
+    "{切|き}て",
+    "{切|き}んで",
+    "{切|き}いて"
+   ],
+   "a": 0,
+   "explain": "{切|き}る : groupe 1 en る → る (groupe 1) → って. Piège : {切|き}る finit par る mais il est du groupe 1 (pas る → て)."
+  },
+  {
+   "id": "ta-kiru-couper",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {切|き}る (couper) ?",
+   "choices": [
+    "{切|き}った",
+    "{切|き}た",
+    "{切|き}んだ",
+    "{切|き}いた"
+   ],
+   "a": 0,
+   "explain": "{切|き}る : groupe 1 en る → る (groupe 1) → って. Piège : {切|き}る finit par る mais il est du groupe 1 (pas る → て). La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-noru",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {乗|の}る (monter (dans un véhicule)) ?",
+   "choices": [
+    "{乗|の}って",
+    "{乗|の}て",
+    "{乗|の}んで",
+    "{乗|の}いて"
+   ],
+   "a": 0,
+   "explain": "{乗|の}る : groupe 1 en る → る (groupe 1) → って. Piège : {乗|の}る finit par る mais il est du groupe 1 (pas る → て)."
+  },
+  {
+   "id": "ta-noru",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {乗|の}る (monter (dans un véhicule)) ?",
+   "choices": [
+    "{乗|の}った",
+    "{乗|の}た",
+    "{乗|の}んだ",
+    "{乗|の}いた"
+   ],
+   "a": 0,
+   "explain": "{乗|の}る : groupe 1 en る → る (groupe 1) → って. Piège : {乗|の}る finit par る mais il est du groupe 1 (pas る → て). La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-toru",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {取|と}る (prendre) ?",
+   "choices": [
+    "{取|と}って",
+    "{取|と}て",
+    "{取|と}んで",
+    "{取|と}いて"
+   ],
+   "a": 0,
+   "explain": "{取|と}る : groupe 1 en る → る (groupe 1) → って. Piège : {取|と}る finit par る mais il est du groupe 1 (pas る → て)."
+  },
+  {
+   "id": "ta-toru",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {取|と}る (prendre) ?",
+   "choices": [
+    "{取|と}った",
+    "{取|と}た",
+    "{取|と}んだ",
+    "{取|と}いた"
+   ],
+   "a": 0,
+   "explain": "{取|と}る : groupe 1 en る → る (groupe 1) → って. Piège : {取|と}る finit par る mais il est du groupe 1 (pas る → て). La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-tsukuru",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {作|つく}る (fabriquer, cuisiner) ?",
+   "choices": [
+    "{作|つく}って",
+    "{作|つく}て",
+    "{作|つく}んで",
+    "{作|つく}いて"
+   ],
+   "a": 0,
+   "explain": "{作|つく}る : groupe 1 en る → る (groupe 1) → って. Piège : {作|つく}る finit par る mais il est du groupe 1 (pas る → て)."
+  },
+  {
+   "id": "ta-tsukuru",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {作|つく}る (fabriquer, cuisiner) ?",
+   "choices": [
+    "{作|つく}った",
+    "{作|つく}た",
+    "{作|つく}んだ",
+    "{作|つく}いた"
+   ],
+   "a": 0,
+   "explain": "{作|つく}る : groupe 1 en る → る (groupe 1) → って. Piège : {作|つく}る finit par る mais il est du groupe 1 (pas る → て). La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-furu",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {降|ふ}る (tomber (pluie, neige)) ?",
+   "choices": [
+    "{降|ふ}って",
+    "{降|ふ}て",
+    "{降|ふ}んで",
+    "{降|ふ}いて"
+   ],
+   "a": 0,
+   "explain": "{降|ふ}る : groupe 1 en る → る (groupe 1) → って. Piège : {降|ふ}る finit par る mais il est du groupe 1 (pas る → て)."
+  },
+  {
+   "id": "ta-furu",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {降|ふ}る (tomber (pluie, neige)) ?",
+   "choices": [
+    "{降|ふ}った",
+    "{降|ふ}た",
+    "{降|ふ}んだ",
+    "{降|ふ}いた"
+   ],
+   "a": 0,
+   "explain": "{降|ふ}る : groupe 1 en る → る (groupe 1) → って. Piège : {降|ふ}る finit par る mais il est du groupe 1 (pas る → て). La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-owaru",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {終|お}わる (se terminer) ?",
+   "choices": [
+    "{終|お}わって",
+    "{終|お}わて",
+    "{終|お}わんで",
+    "{終|お}わいて"
+   ],
+   "a": 0,
+   "explain": "{終|お}わる : groupe 1 en る → る (groupe 1) → って. Piège : {終|お}わる finit par る mais il est du groupe 1 (pas る → て)."
+  },
+  {
+   "id": "ta-owaru",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {終|お}わる (se terminer) ?",
+   "choices": [
+    "{終|お}わった",
+    "{終|お}わた",
+    "{終|お}わんだ",
+    "{終|お}わいた"
+   ],
+   "a": 0,
+   "explain": "{終|お}わる : groupe 1 en る → る (groupe 1) → って. Piège : {終|お}わる finit par る mais il est du groupe 1 (pas る → て). La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-wakaru",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {分|わ}かる (comprendre) ?",
+   "choices": [
+    "{分|わ}かって",
+    "{分|わ}かて",
+    "{分|わ}かんで",
+    "{分|わ}かいて"
+   ],
+   "a": 0,
+   "explain": "{分|わ}かる : groupe 1 en る → る (groupe 1) → って. Piège : {分|わ}かる finit par る mais il est du groupe 1 (pas る → て)."
+  },
+  {
+   "id": "ta-wakaru",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {分|わ}かる (comprendre) ?",
+   "choices": [
+    "{分|わ}かった",
+    "{分|わ}かた",
+    "{分|わ}かんだ",
+    "{分|わ}かいた"
+   ],
+   "a": 0,
+   "explain": "{分|わ}かる : groupe 1 en る → る (groupe 1) → って. Piège : {分|わ}かる finit par る mais il est du groupe 1 (pas る → て). La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-suwaru",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {座|すわ}る (s'asseoir) ?",
+   "choices": [
+    "{座|すわ}って",
+    "{座|すわ}て",
+    "{座|すわ}んで",
+    "{座|すわ}いて"
+   ],
+   "a": 0,
+   "explain": "{座|すわ}る : groupe 1 en る → る (groupe 1) → って. Piège : {座|すわ}る finit par る mais il est du groupe 1 (pas る → て)."
+  },
+  {
+   "id": "ta-suwaru",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {座|すわ}る (s'asseoir) ?",
+   "choices": [
+    "{座|すわ}った",
+    "{座|すわ}た",
+    "{座|すわ}んだ",
+    "{座|すわ}いた"
+   ],
+   "a": 0,
+   "explain": "{座|すわ}る : groupe 1 en る → る (groupe 1) → って. Piège : {座|すわ}る finit par る mais il est du groupe 1 (pas る → て). La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-uru",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {売|う}る (vendre) ?",
+   "choices": [
+    "{売|う}って",
+    "{売|う}て",
+    "{売|う}んで",
+    "{売|う}いて"
+   ],
+   "a": 0,
+   "explain": "{売|う}る : groupe 1 en る → る (groupe 1) → って. Piège : {売|う}る finit par る mais il est du groupe 1 (pas る → て)."
+  },
+  {
+   "id": "ta-uru",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {売|う}る (vendre) ?",
+   "choices": [
+    "{売|う}った",
+    "{売|う}た",
+    "{売|う}んだ",
+    "{売|う}いた"
+   ],
+   "a": 0,
+   "explain": "{売|う}る : groupe 1 en る → る (groupe 1) → って. Piège : {売|う}る finit par る mais il est du groupe 1 (pas る → て). La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-okuru",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {送|おく}る (envoyer) ?",
+   "choices": [
+    "{送|おく}って",
+    "{送|おく}て",
+    "{送|おく}んで",
+    "{送|おく}いて"
+   ],
+   "a": 0,
+   "explain": "{送|おく}る : groupe 1 en る → る (groupe 1) → って. Piège : {送|おく}る finit par る mais il est du groupe 1 (pas る → て)."
+  },
+  {
+   "id": "ta-okuru",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {送|おく}る (envoyer) ?",
+   "choices": [
+    "{送|おく}った",
+    "{送|おく}た",
+    "{送|おく}んだ",
+    "{送|おく}いた"
+   ],
+   "a": 0,
+   "explain": "{送|おく}る : groupe 1 en る → る (groupe 1) → って. Piège : {送|おく}る finit par る mais il est du groupe 1 (pas る → て). La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-hajimaru",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {始|はじ}まる (commencer (tout seul)) ?",
+   "choices": [
+    "{始|はじ}まって",
+    "{始|はじ}まて",
+    "{始|はじ}まんで",
+    "{始|はじ}まいて"
+   ],
+   "a": 0,
+   "explain": "{始|はじ}まる : groupe 1 en る → る (groupe 1) → って. Piège : {始|はじ}まる finit par る mais il est du groupe 1 (pas る → て)."
+  },
+  {
+   "id": "ta-hajimaru",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {始|はじ}まる (commencer (tout seul)) ?",
+   "choices": [
+    "{始|はじ}まった",
+    "{始|はじ}また",
+    "{始|はじ}まんだ",
+    "{始|はじ}まいた"
+   ],
+   "a": 0,
+   "explain": "{始|はじ}まる : groupe 1 en る → る (groupe 1) → って. Piège : {始|はじ}まる finit par る mais il est du groupe 1 (pas る → て). La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-nomu",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {飲|の}む (boire) ?",
+   "choices": [
+    "{飲|の}んで",
+    "{飲|の}って",
+    "{飲|の}みて",
+    "{飲|の}いて"
+   ],
+   "a": 0,
+   "explain": "{飲|の}む : groupe 1 en む → む → んで."
+  },
+  {
+   "id": "ta-nomu",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {飲|の}む (boire) ?",
+   "choices": [
+    "{飲|の}んだ",
+    "{飲|の}った",
+    "{飲|の}みた",
+    "{飲|の}いた"
+   ],
+   "a": 0,
+   "explain": "{飲|の}む : groupe 1 en む → む → んで. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-yomu",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {読|よ}む (lire) ?",
+   "choices": [
+    "{読|よ}んで",
+    "{読|よ}って",
+    "{読|よ}みて",
+    "{読|よ}いて"
+   ],
+   "a": 0,
+   "explain": "{読|よ}む : groupe 1 en む → む → んで."
+  },
+  {
+   "id": "ta-yomu",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {読|よ}む (lire) ?",
+   "choices": [
+    "{読|よ}んだ",
+    "{読|よ}った",
+    "{読|よ}みた",
+    "{読|よ}いた"
+   ],
+   "a": 0,
+   "explain": "{読|よ}む : groupe 1 en む → む → んで. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-sumu",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {住|す}む (habiter) ?",
+   "choices": [
+    "{住|す}んで",
+    "{住|す}って",
+    "{住|す}みて",
+    "{住|す}いて"
+   ],
+   "a": 0,
+   "explain": "{住|す}む : groupe 1 en む → む → んで."
+  },
+  {
+   "id": "ta-sumu",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {住|す}む (habiter) ?",
+   "choices": [
+    "{住|す}んだ",
+    "{住|す}った",
+    "{住|す}みた",
+    "{住|す}いた"
+   ],
+   "a": 0,
+   "explain": "{住|す}む : groupe 1 en む → む → んで. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-yasumu",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {休|やす}む (se reposer) ?",
+   "choices": [
+    "{休|やす}んで",
+    "{休|やす}って",
+    "{休|やす}みて",
+    "{休|やす}いて"
+   ],
+   "a": 0,
+   "explain": "{休|やす}む : groupe 1 en む → む → んで."
+  },
+  {
+   "id": "ta-yasumu",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {休|やす}む (se reposer) ?",
+   "choices": [
+    "{休|やす}んだ",
+    "{休|やす}った",
+    "{休|やす}みた",
+    "{休|やす}いた"
+   ],
+   "a": 0,
+   "explain": "{休|やす}む : groupe 1 en む → む → んで. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-tanomu",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {頼|たの}む (demander (un service)) ?",
+   "choices": [
+    "{頼|たの}んで",
+    "{頼|たの}って",
+    "{頼|たの}みて",
+    "{頼|たの}いて"
+   ],
+   "a": 0,
+   "explain": "{頼|たの}む : groupe 1 en む → む → んで."
+  },
+  {
+   "id": "ta-tanomu",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {頼|たの}む (demander (un service)) ?",
+   "choices": [
+    "{頼|たの}んだ",
+    "{頼|たの}った",
+    "{頼|たの}みた",
+    "{頼|たの}いた"
+   ],
+   "a": 0,
+   "explain": "{頼|たの}む : groupe 1 en む → む → んで. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-asobu",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {遊|あそ}ぶ (s'amuser) ?",
+   "choices": [
+    "{遊|あそ}んで",
+    "{遊|あそ}って",
+    "{遊|あそ}びて",
+    "{遊|あそ}いで"
+   ],
+   "a": 0,
+   "explain": "{遊|あそ}ぶ : groupe 1 en ぶ → ぶ → んで."
+  },
+  {
+   "id": "ta-asobu",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {遊|あそ}ぶ (s'amuser) ?",
+   "choices": [
+    "{遊|あそ}んだ",
+    "{遊|あそ}った",
+    "{遊|あそ}びた",
+    "{遊|あそ}いだ"
+   ],
+   "a": 0,
+   "explain": "{遊|あそ}ぶ : groupe 1 en ぶ → ぶ → んで. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-yobu",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {呼|よ}ぶ (appeler) ?",
+   "choices": [
+    "{呼|よ}んで",
+    "{呼|よ}って",
+    "{呼|よ}びて",
+    "{呼|よ}いで"
+   ],
+   "a": 0,
+   "explain": "{呼|よ}ぶ : groupe 1 en ぶ → ぶ → んで."
+  },
+  {
+   "id": "ta-yobu",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {呼|よ}ぶ (appeler) ?",
+   "choices": [
+    "{呼|よ}んだ",
+    "{呼|よ}った",
+    "{呼|よ}びた",
+    "{呼|よ}いだ"
+   ],
+   "a": 0,
+   "explain": "{呼|よ}ぶ : groupe 1 en ぶ → ぶ → んで. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-tobu",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {飛|と}ぶ (voler (dans l'air)) ?",
+   "choices": [
+    "{飛|と}んで",
+    "{飛|と}って",
+    "{飛|と}びて",
+    "{飛|と}いで"
+   ],
+   "a": 0,
+   "explain": "{飛|と}ぶ : groupe 1 en ぶ → ぶ → んで."
+  },
+  {
+   "id": "ta-tobu",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {飛|と}ぶ (voler (dans l'air)) ?",
+   "choices": [
+    "{飛|と}んだ",
+    "{飛|と}った",
+    "{飛|と}びた",
+    "{飛|と}いだ"
+   ],
+   "a": 0,
+   "explain": "{飛|と}ぶ : groupe 1 en ぶ → ぶ → んで. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-erabu",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {選|えら}ぶ (choisir) ?",
+   "choices": [
+    "{選|えら}んで",
+    "{選|えら}って",
+    "{選|えら}びて",
+    "{選|えら}いで"
+   ],
+   "a": 0,
+   "explain": "{選|えら}ぶ : groupe 1 en ぶ → ぶ → んで."
+  },
+  {
+   "id": "ta-erabu",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {選|えら}ぶ (choisir) ?",
+   "choices": [
+    "{選|えら}んだ",
+    "{選|えら}った",
+    "{選|えら}びた",
+    "{選|えら}いだ"
+   ],
+   "a": 0,
+   "explain": "{選|えら}ぶ : groupe 1 en ぶ → ぶ → んで. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-shinu",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {死|し}ぬ (mourir) ?",
+   "choices": [
+    "{死|し}んで",
+    "{死|し}って",
+    "{死|し}にて",
+    "{死|し}いで"
+   ],
+   "a": 0,
+   "explain": "{死|し}ぬ : groupe 1 en ぬ → ぬ → んで."
+  },
+  {
+   "id": "ta-shinu",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {死|し}ぬ (mourir) ?",
+   "choices": [
+    "{死|し}んだ",
+    "{死|し}った",
+    "{死|し}にた",
+    "{死|し}いだ"
+   ],
+   "a": 0,
+   "explain": "{死|し}ぬ : groupe 1 en ぬ → ぬ → んで. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-kaku",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {書|か}く (écrire) ?",
+   "choices": [
+    "{書|か}いて",
+    "{書|か}って",
+    "{書|か}きて",
+    "{書|か}いで"
+   ],
+   "a": 0,
+   "explain": "{書|か}く : groupe 1 en く → く → いて."
+  },
+  {
+   "id": "ta-kaku",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {書|か}く (écrire) ?",
+   "choices": [
+    "{書|か}いた",
+    "{書|か}った",
+    "{書|か}きた",
+    "{書|か}いだ"
+   ],
+   "a": 0,
+   "explain": "{書|か}く : groupe 1 en く → く → いて. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-kiku",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {聞|き}く (écouter) ?",
+   "choices": [
+    "{聞|き}いて",
+    "{聞|き}って",
+    "{聞|き}きて",
+    "{聞|き}いで"
+   ],
+   "a": 0,
+   "explain": "{聞|き}く : groupe 1 en く → く → いて."
+  },
+  {
+   "id": "ta-kiku",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {聞|き}く (écouter) ?",
+   "choices": [
+    "{聞|き}いた",
+    "{聞|き}った",
+    "{聞|き}きた",
+    "{聞|き}いだ"
+   ],
+   "a": 0,
+   "explain": "{聞|き}く : groupe 1 en く → く → いて. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-aruku",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {歩|ある}く (marcher) ?",
+   "choices": [
+    "{歩|ある}いて",
+    "{歩|ある}って",
+    "{歩|ある}きて",
+    "{歩|ある}いで"
+   ],
+   "a": 0,
+   "explain": "{歩|ある}く : groupe 1 en く → く → いて."
+  },
+  {
+   "id": "ta-aruku",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {歩|ある}く (marcher) ?",
+   "choices": [
+    "{歩|ある}いた",
+    "{歩|ある}った",
+    "{歩|ある}きた",
+    "{歩|ある}いだ"
+   ],
+   "a": 0,
+   "explain": "{歩|ある}く : groupe 1 en く → く → いて. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-hataraku",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {働|はたら}く (travailler) ?",
+   "choices": [
+    "{働|はたら}いて",
+    "{働|はたら}って",
+    "{働|はたら}きて",
+    "{働|はたら}いで"
+   ],
+   "a": 0,
+   "explain": "{働|はたら}く : groupe 1 en く → く → いて."
+  },
+  {
+   "id": "ta-hataraku",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {働|はたら}く (travailler) ?",
+   "choices": [
+    "{働|はたら}いた",
+    "{働|はたら}った",
+    "{働|はたら}きた",
+    "{働|はたら}いだ"
+   ],
+   "a": 0,
+   "explain": "{働|はたら}く : groupe 1 en く → く → いて. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-tsuku",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {着|つ}く (arriver) ?",
+   "choices": [
+    "{着|つ}いて",
+    "{着|つ}って",
+    "{着|つ}きて",
+    "{着|つ}いで"
+   ],
+   "a": 0,
+   "explain": "{着|つ}く : groupe 1 en く → く → いて."
+  },
+  {
+   "id": "ta-tsuku",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {着|つ}く (arriver) ?",
+   "choices": [
+    "{着|つ}いた",
+    "{着|つ}った",
+    "{着|つ}きた",
+    "{着|つ}いだ"
+   ],
+   "a": 0,
+   "explain": "{着|つ}く : groupe 1 en く → く → いて. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-oku",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {置|お}く (poser) ?",
+   "choices": [
+    "{置|お}いて",
+    "{置|お}って",
+    "{置|お}きて",
+    "{置|お}いで"
+   ],
+   "a": 0,
+   "explain": "{置|お}く : groupe 1 en く → く → いて."
+  },
+  {
+   "id": "ta-oku",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {置|お}く (poser) ?",
+   "choices": [
+    "{置|お}いた",
+    "{置|お}った",
+    "{置|お}きた",
+    "{置|お}いだ"
+   ],
+   "a": 0,
+   "explain": "{置|お}く : groupe 1 en く → く → いて. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-aku",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {開|あ}く (s'ouvrir) ?",
+   "choices": [
+    "{開|あ}いて",
+    "{開|あ}って",
+    "{開|あ}きて",
+    "{開|あ}いで"
+   ],
+   "a": 0,
+   "explain": "{開|あ}く : groupe 1 en く → く → いて."
+  },
+  {
+   "id": "ta-aku",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {開|あ}く (s'ouvrir) ?",
+   "choices": [
+    "{開|あ}いた",
+    "{開|あ}った",
+    "{開|あ}きた",
+    "{開|あ}いだ"
+   ],
+   "a": 0,
+   "explain": "{開|あ}く : groupe 1 en く → く → いて. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-naku",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {泣|な}く (pleurer) ?",
+   "choices": [
+    "{泣|な}いて",
+    "{泣|な}って",
+    "{泣|な}きて",
+    "{泣|な}いで"
+   ],
+   "a": 0,
+   "explain": "{泣|な}く : groupe 1 en く → く → いて."
+  },
+  {
+   "id": "ta-naku",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {泣|な}く (pleurer) ?",
+   "choices": [
+    "{泣|な}いた",
+    "{泣|な}った",
+    "{泣|な}きた",
+    "{泣|な}いだ"
+   ],
+   "a": 0,
+   "explain": "{泣|な}く : groupe 1 en く → く → いて. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-haku",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {履|は}く (mettre (chaussures, pantalon)) ?",
+   "choices": [
+    "{履|は}いて",
+    "{履|は}って",
+    "{履|は}きて",
+    "{履|は}いで"
+   ],
+   "a": 0,
+   "explain": "{履|は}く : groupe 1 en く → く → いて."
+  },
+  {
+   "id": "ta-haku",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {履|は}く (mettre (chaussures, pantalon)) ?",
+   "choices": [
+    "{履|は}いた",
+    "{履|は}った",
+    "{履|は}きた",
+    "{履|は}いだ"
+   ],
+   "a": 0,
+   "explain": "{履|は}く : groupe 1 en く → く → いて. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-oyogu",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {泳|およ}ぐ (nager) ?",
+   "choices": [
+    "{泳|およ}いで",
+    "{泳|およ}いて",
+    "{泳|およ}んで",
+    "{泳|およ}ぎて"
+   ],
+   "a": 0,
+   "explain": "{泳|およ}ぐ : groupe 1 en ぐ → ぐ → いで."
+  },
+  {
+   "id": "ta-oyogu",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {泳|およ}ぐ (nager) ?",
+   "choices": [
+    "{泳|およ}いだ",
+    "{泳|およ}いた",
+    "{泳|およ}んだ",
+    "{泳|およ}ぎた"
+   ],
+   "a": 0,
+   "explain": "{泳|およ}ぐ : groupe 1 en ぐ → ぐ → いで. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-isogu",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {急|いそ}ぐ (se dépêcher) ?",
+   "choices": [
+    "{急|いそ}いで",
+    "{急|いそ}いて",
+    "{急|いそ}んで",
+    "{急|いそ}ぎて"
+   ],
+   "a": 0,
+   "explain": "{急|いそ}ぐ : groupe 1 en ぐ → ぐ → いで."
+  },
+  {
+   "id": "ta-isogu",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {急|いそ}ぐ (se dépêcher) ?",
+   "choices": [
+    "{急|いそ}いだ",
+    "{急|いそ}いた",
+    "{急|いそ}んだ",
+    "{急|いそ}ぎた"
+   ],
+   "a": 0,
+   "explain": "{急|いそ}ぐ : groupe 1 en ぐ → ぐ → いで. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-nugu",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {脱|ぬ}ぐ (enlever (un vêtement)) ?",
+   "choices": [
+    "{脱|ぬ}いで",
+    "{脱|ぬ}いて",
+    "{脱|ぬ}んで",
+    "{脱|ぬ}ぎて"
+   ],
+   "a": 0,
+   "explain": "{脱|ぬ}ぐ : groupe 1 en ぐ → ぐ → いで."
+  },
+  {
+   "id": "ta-nugu",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {脱|ぬ}ぐ (enlever (un vêtement)) ?",
+   "choices": [
+    "{脱|ぬ}いだ",
+    "{脱|ぬ}いた",
+    "{脱|ぬ}んだ",
+    "{脱|ぬ}ぎた"
+   ],
+   "a": 0,
+   "explain": "{脱|ぬ}ぐ : groupe 1 en ぐ → ぐ → いで. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-hanasu",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {話|はな}す (parler) ?",
+   "choices": [
+    "{話|はな}して",
+    "{話|はな}って",
+    "{話|はな}いて",
+    "{話|はな}すて"
+   ],
+   "a": 0,
+   "explain": "{話|はな}す : groupe 1 en す → す → して."
+  },
+  {
+   "id": "ta-hanasu",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {話|はな}す (parler) ?",
+   "choices": [
+    "{話|はな}した",
+    "{話|はな}った",
+    "{話|はな}いた",
+    "{話|はな}すた"
+   ],
+   "a": 0,
+   "explain": "{話|はな}す : groupe 1 en す → す → して. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-kasu",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {貸|か}す (prêter) ?",
+   "choices": [
+    "{貸|か}して",
+    "{貸|か}って",
+    "{貸|か}いて",
+    "{貸|か}すて"
+   ],
+   "a": 0,
+   "explain": "{貸|か}す : groupe 1 en す → す → して."
+  },
+  {
+   "id": "ta-kasu",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {貸|か}す (prêter) ?",
+   "choices": [
+    "{貸|か}した",
+    "{貸|か}った",
+    "{貸|か}いた",
+    "{貸|か}すた"
+   ],
+   "a": 0,
+   "explain": "{貸|か}す : groupe 1 en す → す → して. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-dasu",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {出|だ}す (sortir (qqch), envoyer) ?",
+   "choices": [
+    "{出|だ}して",
+    "{出|だ}って",
+    "{出|だ}いて",
+    "{出|だ}すて"
+   ],
+   "a": 0,
+   "explain": "{出|だ}す : groupe 1 en す → す → して."
+  },
+  {
+   "id": "ta-dasu",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {出|だ}す (sortir (qqch), envoyer) ?",
+   "choices": [
+    "{出|だ}した",
+    "{出|だ}った",
+    "{出|だ}いた",
+    "{出|だ}すた"
+   ],
+   "a": 0,
+   "explain": "{出|だ}す : groupe 1 en す → す → して. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-kesu",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {消|け}す (éteindre, effacer) ?",
+   "choices": [
+    "{消|け}して",
+    "{消|け}って",
+    "{消|け}いて",
+    "{消|け}すて"
+   ],
+   "a": 0,
+   "explain": "{消|け}す : groupe 1 en す → す → して."
+  },
+  {
+   "id": "ta-kesu",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {消|け}す (éteindre, effacer) ?",
+   "choices": [
+    "{消|け}した",
+    "{消|け}った",
+    "{消|け}いた",
+    "{消|け}すた"
+   ],
+   "a": 0,
+   "explain": "{消|け}す : groupe 1 en す → す → して. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-kaesu",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {返|かえ}す (rendre) ?",
+   "choices": [
+    "{返|かえ}して",
+    "{返|かえ}って",
+    "{返|かえ}いて",
+    "{返|かえ}すて"
+   ],
+   "a": 0,
+   "explain": "{返|かえ}す : groupe 1 en す → す → して."
+  },
+  {
+   "id": "ta-kaesu",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {返|かえ}す (rendre) ?",
+   "choices": [
+    "{返|かえ}した",
+    "{返|かえ}った",
+    "{返|かえ}いた",
+    "{返|かえ}すた"
+   ],
+   "a": 0,
+   "explain": "{返|かえ}す : groupe 1 en す → す → して. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-osu",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {押|お}す (pousser, appuyer) ?",
+   "choices": [
+    "{押|お}して",
+    "{押|お}って",
+    "{押|お}いて",
+    "{押|お}すて"
+   ],
+   "a": 0,
+   "explain": "{押|お}す : groupe 1 en す → す → して."
+  },
+  {
+   "id": "ta-osu",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {押|お}す (pousser, appuyer) ?",
+   "choices": [
+    "{押|お}した",
+    "{押|お}った",
+    "{押|お}いた",
+    "{押|お}すた"
+   ],
+   "a": 0,
+   "explain": "{押|お}す : groupe 1 en す → す → して. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-sagasu",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {探|さが}す (chercher) ?",
+   "choices": [
+    "{探|さが}して",
+    "{探|さが}って",
+    "{探|さが}いて",
+    "{探|さが}すて"
+   ],
+   "a": 0,
+   "explain": "{探|さが}す : groupe 1 en す → す → して."
+  },
+  {
+   "id": "ta-sagasu",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {探|さが}す (chercher) ?",
+   "choices": [
+    "{探|さが}した",
+    "{探|さが}った",
+    "{探|さが}いた",
+    "{探|さが}すた"
+   ],
+   "a": 0,
+   "explain": "{探|さが}す : groupe 1 en す → す → して. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-iku",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {行|い}く (aller) ?",
+   "choices": [
+    "{行|い}って",
+    "{行|い}いて",
+    "{行|い}きて",
+    "{行|い}んで"
+   ],
+   "a": 0,
+   "explain": "{行|い}く est LA seule exception du groupe 1 : {行|い}って (jamais {行|い}いて)."
+  },
+  {
+   "id": "ta-iku",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {行|い}く (aller) ?",
+   "choices": [
+    "{行|い}った",
+    "{行|い}いた",
+    "{行|い}きた",
+    "{行|い}んだ"
+   ],
+   "a": 0,
+   "explain": "{行|い}く est LA seule exception du groupe 1 : {行|い}って (jamais {行|い}いて). La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-taberu",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {食|た}べる (manger) ?",
+   "choices": [
+    "{食|た}べて",
+    "{食|た}べって",
+    "{食|た}べんで",
+    "{食|た}べるて"
+   ],
+   "a": 0,
+   "explain": "{食|た}べる est du groupe 2 : on enlève る et on met て."
+  },
+  {
+   "id": "ta-taberu",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {食|た}べる (manger) ?",
+   "choices": [
+    "{食|た}べた",
+    "{食|た}べった",
+    "{食|た}べんだ",
+    "{食|た}べるた"
+   ],
+   "a": 0,
+   "explain": "{食|た}べる est du groupe 2 : on enlève る et on met て. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-miru",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {見|み}る (voir, regarder) ?",
+   "choices": [
+    "{見|み}て",
+    "{見|み}って",
+    "{見|み}んで",
+    "{見|み}るて"
+   ],
+   "a": 0,
+   "explain": "{見|み}る est du groupe 2 : on enlève る et on met て."
+  },
+  {
+   "id": "ta-miru",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {見|み}る (voir, regarder) ?",
+   "choices": [
+    "{見|み}た",
+    "{見|み}った",
+    "{見|み}んだ",
+    "{見|み}るた"
+   ],
+   "a": 0,
+   "explain": "{見|み}る est du groupe 2 : on enlève る et on met て. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-okiru",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {起|お}きる (se lever) ?",
+   "choices": [
+    "{起|お}きて",
+    "{起|お}きって",
+    "{起|お}きんで",
+    "{起|お}きるて"
+   ],
+   "a": 0,
+   "explain": "{起|お}きる est du groupe 2 : on enlève る et on met て."
+  },
+  {
+   "id": "ta-okiru",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {起|お}きる (se lever) ?",
+   "choices": [
+    "{起|お}きた",
+    "{起|お}きった",
+    "{起|お}きんだ",
+    "{起|お}きるた"
+   ],
+   "a": 0,
+   "explain": "{起|お}きる est du groupe 2 : on enlève る et on met て. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-neru",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {寝|ね}る (dormir, se coucher) ?",
+   "choices": [
+    "{寝|ね}て",
+    "{寝|ね}って",
+    "{寝|ね}んで",
+    "{寝|ね}るて"
+   ],
+   "a": 0,
+   "explain": "{寝|ね}る est du groupe 2 : on enlève る et on met て."
+  },
+  {
+   "id": "ta-neru",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {寝|ね}る (dormir, se coucher) ?",
+   "choices": [
+    "{寝|ね}た",
+    "{寝|ね}った",
+    "{寝|ね}んだ",
+    "{寝|ね}るた"
+   ],
+   "a": 0,
+   "explain": "{寝|ね}る est du groupe 2 : on enlève る et on met て. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-kiru-porter",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {着|き}る (porter (un vêtement)) ?",
+   "choices": [
+    "{着|き}て",
+    "{着|き}って",
+    "{着|き}んで",
+    "{着|き}るて"
+   ],
+   "a": 0,
+   "explain": "{着|き}る est du groupe 2 : on enlève る et on met て."
+  },
+  {
+   "id": "ta-kiru-porter",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {着|き}る (porter (un vêtement)) ?",
+   "choices": [
+    "{着|き}た",
+    "{着|き}った",
+    "{着|き}んだ",
+    "{着|き}るた"
+   ],
+   "a": 0,
+   "explain": "{着|き}る est du groupe 2 : on enlève る et on met て. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-oshieru",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {教|おし}える (enseigner) ?",
+   "choices": [
+    "{教|おし}えて",
+    "{教|おし}えって",
+    "{教|おし}えんで",
+    "{教|おし}えるて"
+   ],
+   "a": 0,
+   "explain": "{教|おし}える est du groupe 2 : on enlève る et on met て."
+  },
+  {
+   "id": "ta-oshieru",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {教|おし}える (enseigner) ?",
+   "choices": [
+    "{教|おし}えた",
+    "{教|おし}えった",
+    "{教|おし}えんだ",
+    "{教|おし}えるた"
+   ],
+   "a": 0,
+   "explain": "{教|おし}える est du groupe 2 : on enlève る et on met て. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-akeru",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {開|あ}ける (ouvrir) ?",
+   "choices": [
+    "{開|あ}けて",
+    "{開|あ}けって",
+    "{開|あ}けんで",
+    "{開|あ}けるて"
+   ],
+   "a": 0,
+   "explain": "{開|あ}ける est du groupe 2 : on enlève る et on met て."
+  },
+  {
+   "id": "ta-akeru",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {開|あ}ける (ouvrir) ?",
+   "choices": [
+    "{開|あ}けた",
+    "{開|あ}けった",
+    "{開|あ}けんだ",
+    "{開|あ}けるた"
+   ],
+   "a": 0,
+   "explain": "{開|あ}ける est du groupe 2 : on enlève る et on met て. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-shimeru",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {閉|し}める (fermer) ?",
+   "choices": [
+    "{閉|し}めて",
+    "{閉|し}めって",
+    "{閉|し}めんで",
+    "{閉|し}めるて"
+   ],
+   "a": 0,
+   "explain": "{閉|し}める est du groupe 2 : on enlève る et on met て."
+  },
+  {
+   "id": "ta-shimeru",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {閉|し}める (fermer) ?",
+   "choices": [
+    "{閉|し}めた",
+    "{閉|し}めった",
+    "{閉|し}めんだ",
+    "{閉|し}めるた"
+   ],
+   "a": 0,
+   "explain": "{閉|し}める est du groupe 2 : on enlève る et on met て. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-deru",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {出|で}る (sortir) ?",
+   "choices": [
+    "{出|で}て",
+    "{出|で}って",
+    "{出|で}んで",
+    "{出|で}るて"
+   ],
+   "a": 0,
+   "explain": "{出|で}る est du groupe 2 : on enlève る et on met て."
+  },
+  {
+   "id": "ta-deru",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {出|で}る (sortir) ?",
+   "choices": [
+    "{出|で}た",
+    "{出|で}った",
+    "{出|で}んだ",
+    "{出|で}るた"
+   ],
+   "a": 0,
+   "explain": "{出|で}る est du groupe 2 : on enlève る et on met て. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-abiru",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {浴|あ}びる (prendre (une douche)) ?",
+   "choices": [
+    "{浴|あ}びて",
+    "{浴|あ}びって",
+    "{浴|あ}びんで",
+    "{浴|あ}びるて"
+   ],
+   "a": 0,
+   "explain": "{浴|あ}びる est du groupe 2 : on enlève る et on met て."
+  },
+  {
+   "id": "ta-abiru",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {浴|あ}びる (prendre (une douche)) ?",
+   "choices": [
+    "{浴|あ}びた",
+    "{浴|あ}びった",
+    "{浴|あ}びんだ",
+    "{浴|あ}びるた"
+   ],
+   "a": 0,
+   "explain": "{浴|あ}びる est du groupe 2 : on enlève る et on met て. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-kariru",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {借|か}りる (emprunter) ?",
+   "choices": [
+    "{借|か}りて",
+    "{借|か}りって",
+    "{借|か}りんで",
+    "{借|か}りるて"
+   ],
+   "a": 0,
+   "explain": "{借|か}りる est du groupe 2 : on enlève る et on met て."
+  },
+  {
+   "id": "ta-kariru",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {借|か}りる (emprunter) ?",
+   "choices": [
+    "{借|か}りた",
+    "{借|か}りった",
+    "{借|か}りんだ",
+    "{借|か}りるた"
+   ],
+   "a": 0,
+   "explain": "{借|か}りる est du groupe 2 : on enlève る et on met て. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-wasureru",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {忘|わす}れる (oublier) ?",
+   "choices": [
+    "{忘|わす}れて",
+    "{忘|わす}れって",
+    "{忘|わす}れんで",
+    "{忘|わす}れるて"
+   ],
+   "a": 0,
+   "explain": "{忘|わす}れる est du groupe 2 : on enlève る et on met て."
+  },
+  {
+   "id": "ta-wasureru",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {忘|わす}れる (oublier) ?",
+   "choices": [
+    "{忘|わす}れた",
+    "{忘|わす}れった",
+    "{忘|わす}れんだ",
+    "{忘|わす}れるた"
+   ],
+   "a": 0,
+   "explain": "{忘|わす}れる est du groupe 2 : on enlève る et on met て. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-oboeru",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {覚|おぼ}える (mémoriser) ?",
+   "choices": [
+    "{覚|おぼ}えて",
+    "{覚|おぼ}えって",
+    "{覚|おぼ}えんで",
+    "{覚|おぼ}えるて"
+   ],
+   "a": 0,
+   "explain": "{覚|おぼ}える est du groupe 2 : on enlève る et on met て."
+  },
+  {
+   "id": "ta-oboeru",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {覚|おぼ}える (mémoriser) ?",
+   "choices": [
+    "{覚|おぼ}えた",
+    "{覚|おぼ}えった",
+    "{覚|おぼ}えんだ",
+    "{覚|おぼ}えるた"
+   ],
+   "a": 0,
+   "explain": "{覚|おぼ}える est du groupe 2 : on enlève る et on met て. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-ireru",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {入|い}れる (mettre dedans) ?",
+   "choices": [
+    "{入|い}れて",
+    "{入|い}れって",
+    "{入|い}れんで",
+    "{入|い}れるて"
+   ],
+   "a": 0,
+   "explain": "{入|い}れる est du groupe 2 : on enlève る et on met て."
+  },
+  {
+   "id": "ta-ireru",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {入|い}れる (mettre dedans) ?",
+   "choices": [
+    "{入|い}れた",
+    "{入|い}れった",
+    "{入|い}れんだ",
+    "{入|い}れるた"
+   ],
+   "a": 0,
+   "explain": "{入|い}れる est du groupe 2 : on enlève る et on met て. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-oriru",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {降|お}りる (descendre (d'un véhicule)) ?",
+   "choices": [
+    "{降|お}りて",
+    "{降|お}りって",
+    "{降|お}りんで",
+    "{降|お}りるて"
+   ],
+   "a": 0,
+   "explain": "{降|お}りる est du groupe 2 : on enlève る et on met て."
+  },
+  {
+   "id": "ta-oriru",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {降|お}りる (descendre (d'un véhicule)) ?",
+   "choices": [
+    "{降|お}りた",
+    "{降|お}りった",
+    "{降|お}りんだ",
+    "{降|お}りるた"
+   ],
+   "a": 0,
+   "explain": "{降|お}りる est du groupe 2 : on enlève る et on met て. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-miseru",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {見|み}せる (montrer) ?",
+   "choices": [
+    "{見|み}せて",
+    "{見|み}せって",
+    "{見|み}せんで",
+    "{見|み}せるて"
+   ],
+   "a": 0,
+   "explain": "{見|み}せる est du groupe 2 : on enlève る et on met て."
+  },
+  {
+   "id": "ta-miseru",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {見|み}せる (montrer) ?",
+   "choices": [
+    "{見|み}せた",
+    "{見|み}せった",
+    "{見|み}せんだ",
+    "{見|み}せるた"
+   ],
+   "a": 0,
+   "explain": "{見|み}せる est du groupe 2 : on enlève る et on met て. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-hajimeru",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {始|はじ}める (commencer (qqch)) ?",
+   "choices": [
+    "{始|はじ}めて",
+    "{始|はじ}めって",
+    "{始|はじ}めんで",
+    "{始|はじ}めるて"
+   ],
+   "a": 0,
+   "explain": "{始|はじ}める est du groupe 2 : on enlève る et on met て."
+  },
+  {
+   "id": "ta-hajimeru",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {始|はじ}める (commencer (qqch)) ?",
+   "choices": [
+    "{始|はじ}めた",
+    "{始|はじ}めった",
+    "{始|はじ}めんだ",
+    "{始|はじ}めるた"
+   ],
+   "a": 0,
+   "explain": "{始|はじ}める est du groupe 2 : on enlève る et on met て. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-kakeru",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {掛|か}ける (mettre (des lunettes), téléphoner) ?",
+   "choices": [
+    "{掛|か}けて",
+    "{掛|か}けって",
+    "{掛|か}けんで",
+    "{掛|か}けるて"
+   ],
+   "a": 0,
+   "explain": "{掛|か}ける est du groupe 2 : on enlève る et on met て."
+  },
+  {
+   "id": "ta-kakeru",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {掛|か}ける (mettre (des lunettes), téléphoner) ?",
+   "choices": [
+    "{掛|か}けた",
+    "{掛|か}けった",
+    "{掛|か}けんだ",
+    "{掛|か}けるた"
+   ],
+   "a": 0,
+   "explain": "{掛|か}ける est du groupe 2 : on enlève る et on met て. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-suru",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de する (faire) ?",
+   "choices": [
+    "して",
+    "すて",
+    "しって",
+    "さて"
+   ],
+   "a": 0,
+   "explain": "する est irrégulier : して."
+  },
+  {
+   "id": "ta-suru",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de する (faire) ?",
+   "choices": [
+    "した",
+    "すた",
+    "しった",
+    "さた"
+   ],
+   "a": 0,
+   "explain": "する est irrégulier : して. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-kuru",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {来|く}る (venir) ?",
+   "choices": [
+    "きて",
+    "くて",
+    "こて",
+    "くって"
+   ],
+   "a": 0,
+   "explain": "{来|く}る est irrégulier : {来|き}て (la lecture devient き)."
+  },
+  {
+   "id": "ta-kuru",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {来|く}る (venir) ?",
+   "choices": [
+    "きた",
+    "くた",
+    "こた",
+    "くった"
+   ],
+   "a": 0,
+   "explain": "{来|く}る est irrégulier : {来|き}て (la lecture devient き). La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-benkyou",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {勉強|べんきょう}する (étudier) ?",
+   "choices": [
+    "{勉強|べんきょう}して",
+    "{勉強|べんきょう}すて",
+    "{勉強|べんきょう}しって",
+    "{勉強|べんきょう}さて"
+   ],
+   "a": 0,
+   "explain": "する est irrégulier : して."
+  },
+  {
+   "id": "ta-benkyou",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {勉強|べんきょう}する (étudier) ?",
+   "choices": [
+    "{勉強|べんきょう}した",
+    "{勉強|べんきょう}すた",
+    "{勉強|べんきょう}しった",
+    "{勉強|べんきょう}さた"
+   ],
+   "a": 0,
+   "explain": "する est irrégulier : して. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-denwa",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Forme て de {電話|でんわ}する (téléphoner) ?",
+   "choices": [
+    "{電話|でんわ}して",
+    "{電話|でんわ}すて",
+    "{電話|でんわ}しって",
+    "{電話|でんわ}さて"
+   ],
+   "a": 0,
+   "explain": "する est irrégulier : して."
+  },
+  {
+   "id": "ta-denwa",
+   "type": "choice",
+   "uses": [
+    "n5-24"
+   ],
+   "q": "Forme た (passé familier) de {電話|でんわ}する (téléphoner) ?",
+   "choices": [
+    "{電話|でんわ}した",
+    "{電話|でんわ}すた",
+    "{電話|でんわ}しった",
+    "{電話|でんわ}さた"
+   ],
+   "a": 0,
+   "explain": "する est irrégulier : して. La forme た se fabrique comme la forme て : て → た, で → だ."
+  },
+  {
+   "id": "te-faux-01",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Une seule de ces formes て est **fausse**. Laquelle ?",
+   "choices": [
+    "{買|か}う → {買|か}いて",
+    "{飲|の}む → {飲|の}んで",
+    "{書|か}く → {書|か}いて",
+    "{話|はな}す → {話|はな}して"
+   ],
+   "a": 0,
+   "explain": "{買|か}う → {買|か}って. {買|か}う : groupe 1 en う → う → って."
+  },
+  {
+   "id": "te-faux-02",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Une seule de ces formes て est **fausse**. Laquelle ?",
+   "choices": [
+    "{待|ま}つ → {待|ま}って",
+    "{読|よ}む → {読|よ}って",
+    "{泳|およ}ぐ → {泳|およ}いで",
+    "{食|た}べる → {食|た}べて"
+   ],
+   "a": 1,
+   "explain": "{読|よ}む → {読|よ}んで. {読|よ}む : groupe 1 en む → む → んで."
+  },
+  {
+   "id": "te-faux-03",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Une seule de ces formes て est **fausse**. Laquelle ?",
+   "choices": [
+    "{帰|かえ}る → {帰|かえ}って",
+    "{遊|あそ}ぶ → {遊|あそ}んで",
+    "{聞|き}く → {聞|き}って",
+    "{見|み}る → {見|み}て"
+   ],
+   "a": 2,
+   "explain": "{聞|き}く → {聞|き}いて. {聞|き}く : groupe 1 en く → く → いて."
+  },
+  {
+   "id": "te-faux-04",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Une seule de ces formes て est **fausse**. Laquelle ?",
+   "choices": [
+    "{入|はい}る → {入|はい}って",
+    "{住|す}む → {住|す}んで",
+    "{急|いそ}ぐ → {急|いそ}いで",
+    "{貸|か}す → {貸|か}って"
+   ],
+   "a": 3,
+   "explain": "{貸|か}す → {貸|か}して. {貸|か}す : groupe 1 en す → す → して."
+  },
+  {
+   "id": "te-faux-05",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Une seule de ces formes て est **fausse**. Laquelle ?",
+   "choices": [
+    "{行|い}く → {行|い}いて",
+    "{呼|よ}ぶ → {呼|よ}んで",
+    "{働|はたら}く → {働|はたら}いて",
+    "{起|お}きる → {起|お}きて"
+   ],
+   "a": 0,
+   "explain": "{行|い}く → {行|い}って. {行|い}く est LA seule exception du groupe 1 : {行|い}って (jamais {行|い}いて)."
+  },
+  {
+   "id": "te-faux-06",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Une seule de ces formes て est **fausse**. Laquelle ?",
+   "choices": [
+    "{走|はし}る → {走|はし}って",
+    "{死|し}ぬ → {死|し}って",
+    "{歩|ある}く → {歩|ある}いて",
+    "{寝|ね}る → {寝|ね}て"
+   ],
+   "a": 1,
+   "explain": "{死|し}ぬ → {死|し}んで. {死|し}ぬ : groupe 1 en ぬ → ぬ → んで."
+  },
+  {
+   "id": "te-faux-07",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Une seule de ces formes て est **fausse**. Laquelle ?",
+   "choices": [
+    "{切|き}る → {切|き}って",
+    "{着|き}る → {着|き}て",
+    "{持|も}つ → {持|も}いて",
+    "{出|だ}す → {出|だ}して"
+   ],
+   "a": 2,
+   "explain": "{持|も}つ → {持|も}って. {持|も}つ : groupe 1 en つ → つ → って."
+  },
+  {
+   "id": "te-faux-08",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Une seule de ces formes て est **fausse**. Laquelle ?",
+   "choices": [
+    "{降|ふ}る → {降|ふ}って",
+    "{降|お}りる → {降|お}りて",
+    "{言|い}う → {言|い}って",
+    "{脱|ぬ}ぐ → {脱|ぬ}いて"
+   ],
+   "a": 3,
+   "explain": "{脱|ぬ}ぐ → {脱|ぬ}いで. {脱|ぬ}ぐ : groupe 1 en ぐ → ぐ → いで."
+  },
+  {
+   "id": "te-faux-09",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Une seule de ces formes て est **fausse**. Laquelle ?",
+   "choices": [
+    "{知|し}る → {知|し}て",
+    "{休|やす}む → {休|やす}んで",
+    "{消|け}す → {消|け}して",
+    "{来|く}る → きて"
+   ],
+   "a": 0,
+   "explain": "{知|し}る → {知|し}って. {知|し}る : groupe 1 en る → る (groupe 1) → って. Piège : {知|し}る finit par る mais il est du groupe 1 (pas る → て)."
+  },
+  {
+   "id": "te-faux-10",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Une seule de ces formes て est **fausse**. Laquelle ?",
+   "choices": [
+    "{乗|の}る → {乗|の}って",
+    "{飛|と}ぶ → {飛|と}って",
+    "{置|お}く → {置|お}いて",
+    "{開|あ}ける → {開|あ}けて"
+   ],
+   "a": 1,
+   "explain": "{飛|と}ぶ → {飛|と}んで. {飛|と}ぶ : groupe 1 en ぶ → ぶ → んで."
+  },
+  {
+   "id": "te-faux-11",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Une seule de ces formes て est **fausse**. Laquelle ?",
+   "choices": [
+    "{作|つく}る → {作|つく}って",
+    "{選|えら}ぶ → {選|えら}んで",
+    "{着|つ}く → {着|つ}って",
+    "する → して"
+   ],
+   "a": 2,
+   "explain": "{着|つ}く → {着|つ}いて. {着|つ}く : groupe 1 en く → く → いて."
+  },
+  {
+   "id": "te-faux-12",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Une seule de ces formes て est **fausse**. Laquelle ?",
+   "choices": [
+    "{終|お}わる → {終|お}わって",
+    "{頼|たの}む → {頼|たの}んで",
+    "{泣|な}く → {泣|な}いて",
+    "{教|おし}える → {教|おし}えって"
+   ],
+   "a": 3,
+   "explain": "{教|おし}える → {教|おし}えて. {教|おし}える est du groupe 2 : on enlève る et on met て."
+  },
+  {
+   "id": "te-faux-13",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Une seule de ces formes て est **fausse**. Laquelle ?",
+   "choices": [
+    "{座|すわ}る → {座|すわ}て",
+    "{歌|うた}う → {歌|うた}って",
+    "{押|お}す → {押|お}して",
+    "{出|で}る → {出|で}て"
+   ],
+   "a": 0,
+   "explain": "{座|すわ}る → {座|すわ}って. {座|すわ}る : groupe 1 en る → る (groupe 1) → って. Piège : {座|すわ}る finit par る mais il est du groupe 1 (pas る → て)."
+  },
+  {
+   "id": "te-faux-14",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Une seule de ces formes て est **fausse**. Laquelle ?",
+   "choices": [
+    "{売|う}る → {売|う}って",
+    "{立|た}つ → {立|た}いて",
+    "{探|さが}す → {探|さが}して",
+    "{浴|あ}びる → {浴|あ}びて"
+   ],
+   "a": 1,
+   "explain": "{立|た}つ → {立|た}って. {立|た}つ : groupe 1 en つ → つ → って."
+  },
+  {
+   "id": "te-faux-15",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Une seule de ces formes て est **fausse**. Laquelle ?",
+   "choices": [
+    "{送|おく}る → {送|おく}って",
+    "{洗|あら}う → {洗|あら}って",
+    "{開|あ}く → {開|あ}って",
+    "{借|か}りる → {借|か}りて"
+   ],
+   "a": 2,
+   "explain": "{開|あ}く → {開|あ}いて. {開|あ}く : groupe 1 en く → く → いて."
+  },
+  {
+   "id": "te-faux-16",
+   "type": "choice",
+   "uses": [
+    "n5-04"
+   ],
+   "q": "Une seule de ces formes て est **fausse**. Laquelle ?",
+   "choices": [
+    "{分|わ}かる → {分|わ}かって",
+    "{使|つか}う → {使|つか}って",
+    "{履|は}く → {履|は}いて",
+    "{忘|わす}れる → {忘|わす}れって"
+   ],
+   "a": 3,
+   "explain": "{忘|わす}れる → {忘|わす}れて. {忘|わす}れる est du groupe 2 : on enlève る et on met て."
+  },
+  {
+   "id": "te-phr-01",
+   "type": "choice",
+   "uses": [
+    "n5-04",
+    "n5-18"
+   ],
+   "q": "{待|ま}つ (attendre) → forme て",
+   "jp": "ちょっと＿ください。",
+   "choices": [
+    "{待|ま}って",
+    "{待|ま}いて",
+    "{待|ま}んで",
+    "{待|ま}ちて"
+   ],
+   "a": 0,
+   "explain": "{待|ま}つ : groupe 1 en つ → つ → って."
+  },
+  {
+   "id": "te-phr-02",
+   "type": "choice",
+   "uses": [
+    "n5-04",
+    "n5-18"
+   ],
+   "q": "{書|か}く (écrire) → forme て",
+   "jp": "ここに{名前|なまえ}を＿ください。",
+   "choices": [
+    "{書|か}いて",
+    "{書|か}って",
+    "{書|か}きて",
+    "{書|か}いで"
+   ],
+   "a": 0,
+   "explain": "{書|か}く : groupe 1 en く → く → いて."
+  },
+  {
+   "id": "te-phr-03",
+   "type": "choice",
+   "uses": [
+    "n5-04",
+    "n5-18"
+   ],
+   "q": "{話|はな}す (parler) → forme て",
+   "jp": "ゆっくり＿ください。",
+   "choices": [
+    "{話|はな}して",
+    "{話|はな}って",
+    "{話|はな}いて",
+    "{話|はな}すて"
+   ],
+   "a": 0,
+   "explain": "{話|はな}す : groupe 1 en す → す → して."
+  },
+  {
+   "id": "te-phr-04",
+   "type": "choice",
+   "uses": [
+    "n5-04",
+    "n5-18"
+   ],
+   "q": "{開|あ}ける (ouvrir) → forme て",
+   "jp": "{窓|まど}を＿ください。",
+   "choices": [
+    "{開|あ}けて",
+    "{開|あ}けって",
+    "{開|あ}けんで",
+    "{開|あ}けるて"
+   ],
+   "a": 0,
+   "explain": "{開|あ}ける est du groupe 2 : on enlève る et on met て."
+  },
+  {
+   "id": "te-phr-05",
+   "type": "choice",
+   "uses": [
+    "n5-04",
+    "n5-18"
+   ],
+   "q": "{消|け}す (éteindre, effacer) → forme て",
+   "jp": "{電気|でんき}を＿ください。",
+   "choices": [
+    "{消|け}して",
+    "{消|け}って",
+    "{消|け}いて",
+    "{消|け}すて"
+   ],
+   "a": 0,
+   "explain": "{消|け}す : groupe 1 en す → す → して."
+  },
+  {
+   "id": "te-phr-06",
+   "type": "choice",
+   "uses": [
+    "n5-04",
+    "n5-18"
+   ],
+   "q": "{読|よ}む (lire) → forme て",
+   "jp": "この{本|ほん}を＿ください。",
+   "choices": [
+    "{読|よ}んで",
+    "{読|よ}って",
+    "{読|よ}みて",
+    "{読|よ}いて"
+   ],
+   "a": 0,
+   "explain": "{読|よ}む : groupe 1 en む → む → んで."
+  },
+  {
+   "id": "te-phr-07",
+   "type": "choice",
+   "uses": [
+    "n5-04",
+    "n5-18"
+   ],
+   "q": "{貸|か}す (prêter) → forme て",
+   "jp": "ペンを＿ください。",
+   "choices": [
+    "{貸|か}して",
+    "{貸|か}って",
+    "{貸|か}いて",
+    "{貸|か}すて"
+   ],
+   "a": 0,
+   "explain": "{貸|か}す : groupe 1 en す → す → して."
+  },
+  {
+   "id": "te-phr-08",
+   "type": "choice",
+   "uses": [
+    "n5-04",
+    "n5-18"
+   ],
+   "q": "{見|み}せる (montrer) → forme て",
+   "jp": "{写真|しゃしん}を＿ください。",
+   "choices": [
+    "{見|み}せて",
+    "{見|み}せって",
+    "{見|み}せんで",
+    "{見|み}せるて"
+   ],
+   "a": 0,
+   "explain": "{見|み}せる est du groupe 2 : on enlève る et on met て."
+  },
+  {
+   "id": "te-phr-09",
+   "type": "choice",
+   "uses": [
+    "n5-04",
+    "n5-18"
+   ],
+   "q": "{座|すわ}る (s'asseoir) → forme て",
+   "jp": "ここに＿ください。",
+   "choices": [
+    "{座|すわ}って",
+    "{座|すわ}て",
+    "{座|すわ}んで",
+    "{座|すわ}いて"
+   ],
+   "a": 0,
+   "explain": "{座|すわ}る : groupe 1 en る → る (groupe 1) → って. Piège : {座|すわ}る finit par る mais il est du groupe 1 (pas る → て)."
+  },
+  {
+   "id": "te-phr-10",
+   "type": "choice",
+   "uses": [
+    "n5-04",
+    "n5-18"
+   ],
+   "q": "{急|いそ}ぐ (se dépêcher) → forme て",
+   "jp": "{早|はや}く＿ください。",
+   "choices": [
+    "{急|いそ}いで",
+    "{急|いそ}いて",
+    "{急|いそ}んで",
+    "{急|いそ}ぎて"
+   ],
+   "a": 0,
+   "explain": "{急|いそ}ぐ : groupe 1 en ぐ → ぐ → いで."
+  },
+  {
+   "id": "te-phr-11",
+   "type": "choice",
+   "uses": [
+    "n5-04",
+    "n5-18"
+   ],
+   "q": "{洗|あら}う (laver) → forme て",
+   "jp": "{手|て}を＿ください。",
+   "choices": [
+    "{洗|あら}って",
+    "{洗|あら}いて",
+    "{洗|あら}んで",
+    "{洗|あら}して"
+   ],
+   "a": 0,
+   "explain": "{洗|あら}う : groupe 1 en う → う → って."
+  },
+  {
+   "id": "te-phr-12",
+   "type": "choice",
+   "uses": [
+    "n5-04",
+    "n5-18"
+   ],
+   "q": "{脱|ぬ}ぐ (enlever (un vêtement)) → forme て",
+   "jp": "くつを＿ください。",
+   "choices": [
+    "{脱|ぬ}いで",
+    "{脱|ぬ}いて",
+    "{脱|ぬ}んで",
+    "{脱|ぬ}ぎて"
+   ],
+   "a": 0,
+   "explain": "{脱|ぬ}ぐ : groupe 1 en ぐ → ぐ → いで."
+  },
+  {
+   "id": "te-phr-13",
+   "type": "choice",
+   "uses": [
+    "n5-04",
+    "n5-18"
+   ],
+   "q": "{言|い}う (dire) → forme て",
+   "jp": "もう{一度|いちど}＿ください。",
+   "choices": [
+    "{言|い}って",
+    "{言|い}いて",
+    "{言|い}んで",
+    "{言|い}して"
+   ],
+   "a": 0,
+   "explain": "{言|い}う : groupe 1 en う → う → って."
+  },
+  {
+   "id": "te-phr-14",
+   "type": "choice",
+   "uses": [
+    "n5-04",
+    "n5-18"
+   ],
+   "q": "{教|おし}える (enseigner) → forme て",
+   "jp": "{日本語|にほんご}を＿ください。",
+   "choices": [
+    "{教|おし}えて",
+    "{教|おし}えって",
+    "{教|おし}えんで",
+    "{教|おし}えるて"
+   ],
+   "a": 0,
+   "explain": "{教|おし}える est du groupe 2 : on enlève る et on met て."
+  },
+  {
+   "id": "te-phr-15",
+   "type": "choice",
+   "uses": [
+    "n5-04",
+    "n5-18"
+   ],
+   "q": "{来|く}る (venir) → forme て",
+   "jp": "あしたも＿ください。",
+   "choices": [
+    "きて",
+    "くて",
+    "こて",
+    "くって"
+   ],
+   "a": 0,
+   "explain": "{来|く}る est irrégulier : {来|き}て (la lecture devient き)."
+  },
+  {
+   "id": "te-phr-16",
+   "type": "choice",
+   "uses": [
+    "n5-04",
+    "n5-18"
+   ],
+   "q": "{入|はい}る (entrer) → forme て",
+   "jp": "どうぞ、{部屋|へや}に＿ください。",
+   "choices": [
+    "{入|はい}って",
+    "{入|はい}て",
+    "{入|はい}んで",
+    "{入|はい}いて"
+   ],
+   "a": 0,
+   "explain": "{入|はい}る : groupe 1 en る → る (groupe 1) → って. Piège : {入|はい}る finit par る mais il est du groupe 1 (pas る → て)."
+  },
+  {
+   "id": "te-phr-17",
+   "type": "choice",
+   "uses": [
+    "n5-04",
+    "n5-18"
+   ],
+   "q": "{降|お}りる (descendre (d'un véhicule)) → forme て",
+   "jp": "つぎの{駅|えき}で＿ください。",
+   "choices": [
+    "{降|お}りて",
+    "{降|お}りって",
+    "{降|お}りんで",
+    "{降|お}りるて"
+   ],
+   "a": 0,
+   "explain": "{降|お}りる est du groupe 2 : on enlève る et on met て."
+  },
+  {
+   "id": "te-phr-18",
+   "type": "choice",
+   "uses": [
+    "n5-04",
+    "n5-18"
+   ],
+   "q": "{飲|の}む (boire) → forme て",
+   "jp": "この{薬|くすり}を＿ください。",
+   "choices": [
+    "{飲|の}んで",
+    "{飲|の}って",
+    "{飲|の}みて",
+    "{飲|の}いて"
+   ],
+   "a": 0,
+   "explain": "{飲|の}む : groupe 1 en む → む → んで."
+  },
+  {
+   "id": "te-phr-19",
+   "type": "choice",
+   "uses": [
+    "n5-04",
+    "n5-18"
+   ],
+   "q": "{呼|よ}ぶ (appeler) → forme て",
+   "jp": "タクシーを＿ください。",
+   "choices": [
+    "{呼|よ}んで",
+    "{呼|よ}って",
+    "{呼|よ}びて",
+    "{呼|よ}いで"
+   ],
+   "a": 0,
+   "explain": "{呼|よ}ぶ : groupe 1 en ぶ → ぶ → んで."
+  },
+  {
+   "id": "te-phr-20",
+   "type": "choice",
+   "uses": [
+    "n5-04",
+    "n5-18"
+   ],
+   "q": "{行|い}く (aller) → forme て",
+   "jp": "{病院|びょういん}に＿ください。",
+   "choices": [
+    "{行|い}って",
+    "{行|い}いて",
+    "{行|い}きて",
+    "{行|い}んで"
+   ],
+   "a": 0,
+   "explain": "{行|い}く est LA seule exception du groupe 1 : {行|い}って (jamais {行|い}いて)."
+  },
+  {
+   "id": "te-phr-21",
+   "type": "choice",
+   "uses": [
+    "n5-04",
+    "n5-19"
+   ],
+   "q": "{降|ふ}る (tomber (pluie, neige)) → forme て",
+   "jp": "{雨|あめ}が＿います。",
+   "choices": [
+    "{降|ふ}って",
+    "{降|ふ}て",
+    "{降|ふ}んで",
+    "{降|ふ}いて"
+   ],
+   "a": 0,
+   "explain": "{降|ふ}る : groupe 1 en る → る (groupe 1) → って. Piège : {降|ふ}る finit par る mais il est du groupe 1 (pas る → て)."
+  },
+  {
+   "id": "te-phr-22",
+   "type": "choice",
+   "uses": [
+    "n5-04",
+    "n5-19"
+   ],
+   "q": "{遊|あそ}ぶ (s'amuser) → forme て",
+   "jp": "{子|こ}どもが{公園|こうえん}で＿います。",
+   "choices": [
+    "{遊|あそ}んで",
+    "{遊|あそ}って",
+    "{遊|あそ}びて",
+    "{遊|あそ}いで"
+   ],
+   "a": 0,
+   "explain": "{遊|あそ}ぶ : groupe 1 en ぶ → ぶ → んで."
+  },
+  {
+   "id": "te-phr-23",
+   "type": "choice",
+   "uses": [
+    "n5-04",
+    "n5-19"
+   ],
+   "q": "{住|す}む (habiter) → forme て",
+   "jp": "{兄|あに}は{東京|とうきょう}に＿います。",
+   "choices": [
+    "{住|す}んで",
+    "{住|す}って",
+    "{住|す}みて",
+    "{住|す}いて"
+   ],
+   "a": 0,
+   "explain": "{住|す}む : groupe 1 en む → む → んで."
+  },
+  {
+   "id": "te-phr-24",
+   "type": "choice",
+   "uses": [
+    "n5-04",
+    "n5-19"
+   ],
+   "q": "{働|はたら}く (travailler) → forme て",
+   "jp": "{父|ちち}は{銀行|ぎんこう}で＿います。",
+   "choices": [
+    "{働|はたら}いて",
+    "{働|はたら}って",
+    "{働|はたら}きて",
+    "{働|はたら}いで"
+   ],
+   "a": 0,
+   "explain": "{働|はたら}く : groupe 1 en く → く → いて."
+  },
+  {
+   "id": "te-phr-25",
+   "type": "choice",
+   "uses": [
+    "n5-04",
+    "n5-19"
+   ],
+   "q": "{食|た}べる (manger) → forme て",
+   "jp": "{今|いま}、ばんごはんを＿います。",
+   "choices": [
+    "{食|た}べて",
+    "{食|た}べって",
+    "{食|た}べんで",
+    "{食|た}べるて"
+   ],
+   "a": 0,
+   "explain": "{食|た}べる est du groupe 2 : on enlève る et on met て."
+  },
+  {
+   "id": "te-phr-26",
+   "type": "choice",
+   "uses": [
+    "n5-04",
+    "n5-19"
+   ],
+   "q": "{寝|ね}る (dormir, se coucher) → forme て",
+   "jp": "{弟|おとうと}はまだ＿います。",
+   "choices": [
+    "{寝|ね}て",
+    "{寝|ね}って",
+    "{寝|ね}んで",
+    "{寝|ね}るて"
+   ],
+   "a": 0,
+   "explain": "{寝|ね}る est du groupe 2 : on enlève る et on met て."
+  },
+  {
+   "id": "te-phr-27",
+   "type": "choice",
+   "uses": [
+    "n5-04",
+    "n5-19"
+   ],
+   "q": "{泳|およ}ぐ (nager) → forme て",
+   "jp": "{子|こ}どもたちが{海|うみ}で＿います。",
+   "choices": [
+    "{泳|およ}いで",
+    "{泳|およ}いて",
+    "{泳|およ}んで",
+    "{泳|およ}ぎて"
+   ],
+   "a": 0,
+   "explain": "{泳|およ}ぐ : groupe 1 en ぐ → ぐ → いで."
+  },
+  {
+   "id": "te-phr-28",
+   "type": "choice",
+   "uses": [
+    "n5-04",
+    "n5-19"
+   ],
+   "q": "{掛|か}ける (mettre (des lunettes), téléphoner) → forme て",
+   "jp": "{田中|たなか}さんはめがねを＿います。",
+   "choices": [
+    "{掛|か}けて",
+    "{掛|か}けって",
+    "{掛|か}けんで",
+    "{掛|か}けるて"
+   ],
+   "a": 0,
+   "explain": "{掛|か}ける est du groupe 2 : on enlève る et on met て."
+  },
+  {
+   "id": "te-phr-29",
+   "type": "choice",
+   "uses": [
+    "n5-04",
+    "n5-19"
+   ],
+   "q": "{着|き}る (porter (un vêtement)) → forme て",
+   "jp": "{山田|やまだ}さんは{赤|あか}いセーターを＿います。",
+   "choices": [
+    "{着|き}て",
+    "{着|き}って",
+    "{着|き}んで",
+    "{着|き}るて"
+   ],
+   "a": 0,
+   "explain": "{着|き}る est du groupe 2 : on enlève る et on met て."
+  },
+  {
+   "id": "te-phr-30",
+   "type": "choice",
+   "uses": [
+    "n5-04",
+    "n5-19"
+   ],
+   "q": "{知|し}る (apprendre (une nouvelle), savoir) → forme て",
+   "jp": "その{人|ひと}を＿いますか。",
+   "choices": [
+    "{知|し}って",
+    "{知|し}て",
+    "{知|し}んで",
+    "{知|し}いて"
+   ],
+   "a": 0,
+   "explain": "{知|し}る : groupe 1 en る → る (groupe 1) → って. Piège : {知|し}る finit par る mais il est du groupe 1 (pas る → て)."
+  }
+ ]
+}
