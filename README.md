@@ -14,6 +14,8 @@ Le plan complet des leçons est dans [PROGRAMME.md](PROGRAMME.md).
 
 **Points clés** « い ou な ? Et quel passé ? » et « Les verbes : る・ます・て » (128 verbes : groupe, る ↔ ます, る / ます → て, て → る, た) : bulle-antisèche, défi éclair et questions surprises partout (y compris dans les tests). Les questions sont générées par `node tools/generer-adjectifs.mjs` et `node tools/generer-te.mjs` (à relancer après modification des listes), qui écrivent `data/focus/`.
 
+**Ma liste** : le ☆ à côté d'un mot ou d'une réponse le met dans une liste commune aux applis (page 📌, révision, export Anki). Réglages `autoNext` et `listeEnabled` dans `js/config.js`.
+
 Le code est un **moteur partagé** avec d'autres applis (vocabulaire…) : voir [MOTEUR.md](MOTEUR.md). Les réglages propres à cette appli sont dans `js/config.js` et `css/theme.css`.
 
 ## Lancer en local

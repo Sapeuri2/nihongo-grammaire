@@ -9,6 +9,7 @@ export const CONFIG = {
   gistFile: 'nihongo-grammaire-progression.json',
   gistDescription: 'Progression nihongo-grammaire (ne pas supprimer)',
   tokenName: 'nihongo-grammaire',
+  appId: 'grammaire', // nom de l'appli dans « Ma liste » (grammaire, vocabulaire, kanji)
 
   // Pédagogie
   lessonPass: 0.7, // score pour valider une leçon
@@ -24,5 +25,7 @@ export const CONFIG = {
   focusEvery: 4, // points clés : une question surprise toutes les N questions (leçons, révisions)
   focusInTests: 3, // points clés : questions ajoutées à chaque test / examen (comptent dans la note)
   focusChallengeSize: 10, // points clés : longueur du défi éclair
+  autoNext: 0, // ms : après une bonne réponse, passe seul à la question suivante (0 = désactivé)
+  listeEnabled: true, // « Ma liste » : mots mis de côté, communs aux applis
   hideBlankTranslation: true, // phrases à trous : traduction cachée derrière « Voir la traduction » jusqu'à la réponse
 };
