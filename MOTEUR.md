@@ -16,6 +16,7 @@ Le code de cette appli sert de **moteur commun** à plusieurs applis d'apprentis
 | `css/style.css` | Apparence commune |
 | `sw.js` | Hors ligne (cache nommé d'après l'adresse de l'appli) |
 | `tools/verifier.mjs` | Vérification du contenu |
+| `tools/test-parcours.mjs` | Test de bout en bout dans Chromium (tout le parcours, format téléphone) |
 | `tools/maj-moteur.sh` | Mise à jour du moteur dans une autre appli |
 | `MOTEUR.md` | Ce fichier |
 
