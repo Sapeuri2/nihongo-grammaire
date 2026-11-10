@@ -16,7 +16,9 @@ Le plan complet des leçons est dans [PROGRAMME.md](PROGRAMME.md).
 
 **Ma liste** : le ☆ à côté d'un mot ou d'une réponse le met dans une liste commune aux applis (page 📌, révision, export Anki). Réglages `autoNext` et `listeEnabled` dans `js/config.js`.
 
-Le code est un **moteur partagé** avec d'autres applis (vocabulaire…) : voir [MOTEUR.md](MOTEUR.md). Les réglages propres à cette appli sont dans `js/config.js` et `css/theme.css`.
+Le code (moteur commun aux applis grammaire, vocabulaire et kanji) est géré par l'agent central, dépôt [nihongo-central](https://github.com/Sapeuri2/nihongo-central) : voir [MOTEUR.md](MOTEUR.md). Ici, on ne modifie que le contenu (`data/`, générateurs, `PROGRAMME.md`).
+
+Avant chaque push : `node tools/verifier.mjs` et `node tools/test-parcours.mjs` (tout le parcours dans Chromium, format téléphone).
 
 ## Lancer en local
 
