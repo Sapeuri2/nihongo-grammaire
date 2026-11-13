@@ -1,0 +1,803 @@
+{
+  "id": "n4-b10",
+  "level": "N4",
+  "title": "Les conditions : たら, ば, と, なら, ても",
+  "lessons": [
+    {
+      "id": "n4-47",
+      "title": "たら : si, quand, une fois que",
+      "formula": ["Forme た + ら : {行|い}ったら, {食|た}べたら", "Adj. い : かったら · Adj. な / nom : だったら", "Négatif : なかったら", "いい → よかったら"],
+      "sections": [
+        {
+          "h": "Fabriquer たら",
+          "p": [
+            "On prend la **forme た** (leçon 41) et on ajoute ら. Ça marche pour tout : verbes, adjectifs, noms."
+          ],
+          "ex": [
+            { "jp": "{雨|あめ}が{降|ふ}ったら、{家|いえ}にいます。", "fr": "S'il pleut, je reste à la maison." },
+            { "jp": "{安|やす}かったら、{買|か}います。", "fr": "Si c'est bon marché, je l'achète." },
+            { "jp": "{暇|ひま}だったら、{遊|あそ}びに{来|き}てください。", "fr": "Si tu es libre, viens me voir." },
+            { "jp": "わからなかったら、{聞|き}いてください。", "fr": "Si tu ne comprends pas, demande-moi." }
+          ]
+        },
+        {
+          "h": "« Une fois que » : un événement certain",
+          "p": [
+            "たら peut aussi dire **quand / une fois que** pour quelque chose qui arrivera de toute façon. Pour ce sens, seul たら convient.",
+            "Après たら, on peut tout mettre : demande, invitation, envie, intention."
+          ],
+          "ex": [
+            { "jp": "{駅|えき}に{着|つ}いたら、{電話|でんわ}してください。", "fr": "Quand tu arrives à la gare, appelle-moi." },
+            { "jp": "{大学|だいがく}を{卒業|そつぎょう}したら、{日本|にほん}で{働|はたら}きたいです。", "fr": "Une fois diplômé, je veux travailler au Japon." }
+          ]
+        },
+        {
+          "h": "たら + passé : une découverte",
+          "p": [
+            "〜たら、〜ました = j'ai fait A, et j'ai constaté B (souvent une surprise).",
+            "もし renforce le « si » (« si jamais ») : もし{時間|じかん}があったら…"
+          ],
+          "ex": [
+            { "jp": "{窓|まど}を{開|あ}けたら、{雪|ゆき}が{降|ふ}っていました。", "fr": "J'ai ouvert la fenêtre : il neigeait." }
+          ]
+        }
+      ],
+      "pieges": [
+        "いい → よかったら (pas いかったら). よかったら = si ça te dit.",
+        "{来|く}る → {来|き}たら ; する → したら.",
+        "Nom / adj. な : だったら ({雨|あめ}だったら, {暇|ひま}だったら)."
+      ],
+      "exercises": [
+        {
+          "id": "n4-47-e01", "type": "choice", "uses": ["n4-41"],
+          "q": "Forme たら de {行|い}く ?",
+          "choices": ["{行|い}ったら", "{行|い}いたら", "{行|い}きたら", "{行|い}くたら"], "a": 0,
+          "explain": "Forme た + ら : {行|い}った → {行|い}ったら."
+        },
+        {
+          "id": "n4-47-e02", "type": "choice", "uses": [],
+          "jp": "{雨|あめ}が＿、{家|いえ}にいます。", "fr": "S'il pleut, je reste à la maison.",
+          "choices": ["{降|ふ}ったら", "{降|ふ}りたら", "{降|ふ}るたら", "{降|ふ}ってら"], "a": 0,
+          "explain": "{降|ふ}る → {降|ふ}った → {降|ふ}ったら."
+        },
+        {
+          "id": "n4-47-e03", "type": "choice", "uses": ["n5-09"],
+          "jp": "{暇|ひま}＿、{遊|あそ}びに{来|き}てください。", "fr": "Si tu es libre, viens me voir.",
+          "choices": ["だったら", "かったら", "ったら", "たら"], "a": 0,
+          "explain": "Adj. な : だったら."
+        },
+        {
+          "id": "n4-47-e04", "type": "choice", "uses": ["n5-08"],
+          "jp": "この{服|ふく}がもう{少|すこ}し{安|やす}＿、{買|か}います。", "fr": "Si ce vêtement était un peu moins cher, je l'achèterais.",
+          "choices": ["かったら", "だったら", "いたら", "くたら"], "a": 0,
+          "explain": "Adj. い : い → かったら."
+        },
+        {
+          "id": "n4-47-e05", "type": "choice", "uses": [],
+          "jp": "{駅|えき}に＿、{電話|でんわ}してください。", "fr": "Quand tu arrives à la gare, appelle-moi.",
+          "choices": ["{着|つ}いたら", "{着|つ}くと", "{着|つ}けば", "{着|つ}きたら"], "a": 0,
+          "explain": "Événement certain + demande : seul たら convient. と et ば ne peuvent pas être suivis d'une demande quand ils portent sur une action."
+        },
+        {
+          "id": "n4-47-e06", "type": "choice", "uses": [],
+          "q": "Que signifie : {窓|まど}を{開|あ}けたら、{雪|ゆき}が{降|ふ}っていました。",
+          "choices": ["J'ai ouvert la fenêtre : il neigeait.", "Si j'ouvre la fenêtre, il neigera.", "Quand il neige, j'ouvre la fenêtre.", "J'ai ouvert la fenêtre parce qu'il neigeait."], "a": 0,
+          "explain": "たら + passé = découverte."
+        },
+        {
+          "id": "n4-47-e07", "type": "choice", "uses": [],
+          "jp": "もし{時間|じかん}が＿、{手伝|てつだ}ってください。", "fr": "Si jamais tu as le temps, aide-moi.",
+          "choices": ["あったら", "あるたら", "ありたら", "あって"], "a": 0,
+          "explain": "ある → あった → あったら."
+        },
+        {
+          "id": "n4-47-e08", "type": "order", "uses": ["n5-13"],
+          "fr": "Une fois diplômé de l'université, je veux travailler au Japon.",
+          "tokens": ["{大学|だいがく}", "を", "{卒業|そつぎょう}したら", "{日本|にほん}", "で", "{働|はたら}きたいです"],
+          "explain": "〜したら = une fois que…"
+        },
+        {
+          "id": "n4-47-e09", "type": "choice", "uses": [],
+          "q": "いい + たら ?",
+          "choices": ["よかったら", "いかったら", "いいだったら", "いいたら"], "a": 0,
+          "explain": "いい se conjugue avec よ : よかった → よかったら."
+        },
+        {
+          "id": "n4-47-e10", "type": "choice", "uses": [],
+          "jp": "{明日|あした}、{天気|てんき}が＿、{海|うみ}に{行|い}きましょう。", "fr": "S'il fait beau demain, allons à la mer.",
+          "choices": ["よかったら", "いいたら", "いかったら", "よくたら"], "a": 0,
+          "explain": "いい → よかったら."
+        },
+        {
+          "id": "n4-47-e11", "type": "choice", "uses": ["n4-41"],
+          "q": "Comment dire « Si tu ne comprends pas, demande-moi » ?",
+          "choices": ["わからなかったら、{聞|き}いてください。", "わからないたら、{聞|き}いてください。", "わかりなかったら、{聞|き}いてください。", "わからなくたら、{聞|き}いてください。"], "a": 0,
+          "explain": "ない → なかった → なかったら."
+        },
+        {
+          "id": "n4-47-e12", "type": "order", "uses": [],
+          "fr": "Quand tu rentres à la maison, lave-toi les mains.",
+          "tokens": ["{家|いえ}", "に", "{帰|かえ}ったら", "{手|て}", "を", "{洗|あら}ってください"],
+          "explain": "{帰|かえ}る (groupe 1) → {帰|かえ}った → {帰|かえ}ったら."
+        },
+        {
+          "id": "n4-47-e13", "type": "choice", "uses": [],
+          "jp": "{先生|せんせい}が＿、{教|おし}えてください。", "fr": "Quand le professeur arrive, préviens-moi.",
+          "choices": ["きたら", "くたら", "こたら", "くったら"], "a": 0,
+          "explain": "{来|く}る → {来|き}た → {来|き}たら."
+        }
+      ]
+    },
+    {
+      "id": "n4-48",
+      "title": "ば : si (condition)",
+      "formula": ["Groupe 1 : u → e + ば ({行|い}く → {行|い}けば)", "Groupe 2 : る → れば · する → すれば · {来|く}る → {来|く}れば", "Adj. い : い → ければ (いい → よければ)", "Négatif : ない → なければ"],
+      "sections": [
+        {
+          "h": "Fabriquer ば",
+          "p": [
+            "**Groupe 1** : le son « u » devient « e », puis ば. **Groupe 2** : る → れば. Négatif : ない → なければ."
+          ],
+          "grid": {
+            "head": ["", "dictionnaire", "ば", "négatif + ば"],
+            "rows": [
+              ["gr. 1", "{行|い}く", "{行|い}けば", "{行|い}かなければ"],
+              ["gr. 1", "{読|よ}む", "{読|よ}めば", "{読|よ}まなければ"],
+              ["gr. 1", "{買|か}う", "{買|か}えば", "{買|か}わなければ"],
+              ["gr. 1", "ある", "あれば", "なければ"],
+              ["gr. 2", "{食|た}べる", "{食|た}べれば", "{食|た}べなければ"],
+              ["gr. 3", "する", "すれば", "しなければ"],
+              ["gr. 3", "{来|く}る", "{来|く}れば", "{来|こ}なければ"],
+              ["adj. い", "{安|やす}い", "{安|やす}ければ", "{安|やす}くなければ"],
+              ["adj. い", "いい", "よければ", "よくなければ"]
+            ]
+          }
+        },
+        {
+          "h": "Le sens",
+          "p": [
+            "ば pose une **condition** : si A (alors B). Il insiste sur la condition : « il suffit de A pour B »."
+          ],
+          "ex": [
+            { "jp": "{薬|くすり}を{飲|の}めば、よくなりますよ。", "fr": "Si tu prends le médicament, ça ira mieux." },
+            { "jp": "{時間|じかん}があれば、{行|い}きたいです。", "fr": "Si j'ai le temps, j'aimerais y aller." },
+            { "jp": "{練習|れんしゅう}すれば、{上手|じょうず}になります。", "fr": "Si tu t'entraînes, tu deviendras bon." }
+          ]
+        },
+        {
+          "h": "Ce que ば ne fait pas",
+          "p": [
+            "Si la partie ば est une **action**, la suite ne peut pas être une demande, une invitation ou une intention : ✗ {駅|えき}に{着|つ}けば、{電話|でんわ}してください → {駅|えき}に{着|つ}いたら、{電話|でんわ}してください.",
+            "Avec un **état** (ある, いる, adjectif, potentiel), c'est possible : {天気|てんき}がよければ、{散歩|さんぽ}しましょう."
+          ]
+        },
+        {
+          "h": "どうすればいいですか",
+          "p": [
+            "〜ばいい = il suffit de, il faut. どうすればいいですか = que dois-je faire ?"
+          ],
+          "ex": [
+            { "jp": "どうすればいいですか。", "fr": "Que faut-il faire ?" },
+            { "jp": "この{薬|くすり}を{飲|の}めばいいですよ。", "fr": "Il suffit de prendre ce médicament." }
+          ]
+        }
+      ],
+      "pieges": [
+        "いい → よければ (pas いければ).",
+        "{来|く}る → くれば (pas これば) ; する → すれば.",
+        "Adj. な et nom : on utilise plutôt なら (leçon 50) : {静|しず}かなら, {学生|がくせい}なら."
+      ],
+      "exercises": [
+        {
+          "id": "n4-48-e01", "type": "choice", "uses": [],
+          "q": "Forme ば de {行|い}く ?",
+          "choices": ["{行|い}けば", "{行|い}きば", "{行|い}くば", "{行|い}かば"], "a": 0,
+          "explain": "Groupe 1 : く → け + ば."
+        },
+        {
+          "id": "n4-48-e02", "type": "choice", "uses": [],
+          "q": "Forme ば de {食|た}べる ?",
+          "choices": ["{食|た}べれば", "{食|た}べば", "{食|た}べるば", "{食|た}べけば"], "a": 0,
+          "explain": "Groupe 2 : る → れば."
+        },
+        {
+          "id": "n4-48-e03", "type": "choice", "uses": [],
+          "q": "Forme ば de {来|く}る ?",
+          "choices": ["くれば", "これば", "きれば", "くるば"], "a": 0,
+          "explain": "{来|く}る → くれば."
+        },
+        {
+          "id": "n4-48-e04", "type": "choice", "uses": [],
+          "q": "Forme ば de {安|やす}い ?",
+          "choices": ["{安|やす}ければ", "{安|やす}いば", "{安|やす}かれば", "{安|やす}くば"], "a": 0,
+          "explain": "Adj. い : い → ければ."
+        },
+        {
+          "id": "n4-48-e05", "type": "choice", "uses": [],
+          "jp": "{薬|くすり}を＿、よくなりますよ。", "fr": "Si tu prends le médicament, ça ira mieux.",
+          "choices": ["{飲|の}めば", "{飲|の}みば", "{飲|の}むば", "{飲|の}まば"], "a": 0,
+          "explain": "{飲|の}む → {飲|の}めば (む → め + ば)."
+        },
+        {
+          "id": "n4-48-e06", "type": "choice", "uses": [],
+          "jp": "{時間|じかん}が＿、{行|い}きたいです。", "fr": "Si j'ai le temps, j'aimerais y aller.",
+          "choices": ["あれば", "あるば", "ありば", "あったれば"], "a": 0,
+          "explain": "ある → あれば."
+        },
+        {
+          "id": "n4-48-e07", "type": "choice", "uses": [],
+          "jp": "どう＿いいですか。", "fr": "Que faut-il faire ?",
+          "choices": ["すれば", "しれば", "するば", "せれば"], "a": 0,
+          "explain": "する → すれば. どうすればいいですか = que dois-je faire ?"
+        },
+        {
+          "id": "n4-48-e08", "type": "choice", "uses": ["n4-47"],
+          "q": "Une seule de ces phrases est naturelle. Laquelle ?",
+          "choices": ["{駅|えき}に{着|つ}いたら、{電話|でんわ}してください。", "{駅|えき}に{着|つ}けば、{電話|でんわ}してください。", "{駅|えき}に{着|つ}いてば、{電話|でんわ}してください。", "{駅|えき}に{着|つ}きば、{電話|でんわ}してください。"], "a": 0,
+          "explain": "Action + demande : on ne peut pas utiliser ば. Il faut たら."
+        },
+        {
+          "id": "n4-48-e09", "type": "choice", "uses": [],
+          "jp": "{天気|てんき}が＿、{散歩|さんぽ}しましょう。", "fr": "S'il fait beau, allons nous promener.",
+          "choices": ["よければ", "いければ", "いいければ", "よくば"], "a": 0,
+          "explain": "いい → よければ. Avec un adjectif (un état), ば peut être suivi d'une invitation."
+        },
+        {
+          "id": "n4-48-e10", "type": "order", "uses": ["n5-37"],
+          "fr": "Si tu t'entraînes, tu deviendras bon.",
+          "tokens": ["{練習|れんしゅう}", "すれば", "{上手|じょうず}", "に", "なりますよ"],
+          "explain": "する → すれば. {上手|じょうず}になる = devenir bon."
+        },
+        {
+          "id": "n4-48-e11", "type": "choice", "uses": [],
+          "jp": "{急|いそ}が＿、{間|ま}に{合|あ}いませんよ。", "fr": "Si tu ne te dépêches pas, tu ne seras pas à l'heure.",
+          "choices": ["なければ", "ないば", "なくば", "ないれば"], "a": 0,
+          "explain": "Négatif : ない → なければ. {急|いそ}がなければ."
+        },
+        {
+          "id": "n4-48-e12", "type": "choice", "uses": [],
+          "q": "Que signifie : この{本|ほん}を{読|よ}めばわかります。",
+          "choices": ["Si tu lis ce livre, tu comprendras.", "Même si tu lis ce livre, tu ne comprendras pas.", "J'ai lu ce livre et j'ai compris.", "Il faut que je lise ce livre."], "a": 0,
+          "explain": "ば = si (condition)."
+        },
+        {
+          "id": "n4-48-e13", "type": "choice", "uses": ["n5-38"],
+          "jp": "A：{日本語|にほんご}が{上手|じょうず}になりたいんです。B：{毎日|まいにち}{話|はな}せば＿よ。", "fr": "A : Je voudrais devenir bon en japonais. B : Il suffit de parler tous les jours.",
+          "choices": ["いいです", "よかったです", "いいでした", "いいます"], "a": 0,
+          "explain": "〜ばいいです = il suffit de."
+        }
+      ]
+    },
+    {
+      "id": "n4-49",
+      "title": "と : quand / si (conséquence automatique)",
+      "formula": ["Forme du dictionnaire (ou ない) + と", "A と B : chaque fois que A, B se produit naturellement", "Pas de demande, d'invitation ni de volonté après と"],
+      "sections": [
+        {
+          "h": "Le sens",
+          "p": [
+            "A と B : quand A arrive, **B suit forcément** (loi de la nature, machine, habitude, chemin)."
+          ],
+          "ex": [
+            { "jp": "{春|はる}になると、{桜|さくら}が{咲|さ}きます。", "fr": "Quand vient le printemps, les cerisiers fleurissent." },
+            { "jp": "このボタンを{押|お}すと、お{金|かね}が{出|で}ます。", "fr": "Si on appuie sur ce bouton, l'argent sort." },
+            { "jp": "{右|みぎ}に{曲|ま}がると、{銀行|ぎんこう}があります。", "fr": "Si on tourne à droite, il y a une banque." }
+          ]
+        },
+        {
+          "h": "Fabriquer",
+          "p": [
+            "Forme neutre **non passée** + と : {行|い}くと, {行|い}かないと, {寒|さむ}いと, {静|しず}かだと, {学生|がくせい}だと."
+          ],
+          "ex": [
+            { "jp": "{寒|さむ}いと、{手|て}が{痛|いた}くなります。", "fr": "Quand il fait froid, j'ai mal aux mains." },
+            { "jp": "{眼鏡|めがね}をかけないと、{何|なに}も{見|み}えません。", "fr": "Sans lunettes, je ne vois rien." }
+          ]
+        },
+        {
+          "h": "Ce que と ne fait pas",
+          "p": [
+            "Après と, pas de demande, d'invitation, d'envie ni d'intention : ✗ {暑|あつ}いと、{窓|まど}を{開|あ}けましょう → {暑|あつ}かったら、{窓|まど}を{開|あ}けましょう."
+          ]
+        }
+      ],
+      "pieges": [
+        "と se met après la forme du dictionnaire : {押|お}すと (pas {押|お}したと).",
+        "Ne pas confondre avec と « et / avec » ({友|とも}だちと) ni avec と{思|おも}う."
+      ],
+      "exercises": [
+        {
+          "id": "n4-49-e01", "type": "choice", "uses": [],
+          "jp": "{春|はる}になる＿、{桜|さくら}が{咲|さ}きます。", "fr": "Quand vient le printemps, les cerisiers fleurissent.",
+          "choices": ["と", "に", "を", "の"], "a": 0,
+          "explain": "Conséquence naturelle : と."
+        },
+        {
+          "id": "n4-49-e02", "type": "choice", "uses": [],
+          "jp": "このボタンを＿と、お{金|かね}が{出|で}ます。", "fr": "Si on appuie sur ce bouton, l'argent sort.",
+          "choices": ["{押|お}す", "{押|お}した", "{押|お}して", "{押|お}しましょう"], "a": 0,
+          "explain": "Forme du dictionnaire + と."
+        },
+        {
+          "id": "n4-49-e03", "type": "choice", "uses": [],
+          "jp": "{右|みぎ}に＿と、{銀行|ぎんこう}があります。", "fr": "Si on tourne à droite, il y a une banque.",
+          "choices": ["{曲|ま}がる", "{曲|ま}がった", "{曲|ま}がります", "{曲|ま}がって"], "a": 0,
+          "explain": "Indiquer un chemin : forme du dictionnaire + と."
+        },
+        {
+          "id": "n4-49-e04", "type": "choice", "uses": ["n4-47"],
+          "q": "Une seule de ces phrases est naturelle. Laquelle ?",
+          "choices": ["{暑|あつ}かったら、{窓|まど}を{開|あ}けましょう。", "{暑|あつ}いと、{窓|まど}を{開|あ}けましょう。", "{暑|あつ}いと、{窓|まど}を{開|あ}けてください。", "{暑|あつ}いと、{窓|まど}を{開|あ}けたいです。"], "a": 0,
+          "explain": "Après と, pas d'invitation, de demande ni d'envie : il faut たら."
+        },
+        {
+          "id": "n4-49-e05", "type": "choice", "uses": [],
+          "jp": "{眼鏡|めがね}をかけない＿、{何|なに}も{見|み}えません。", "fr": "Sans lunettes, je ne vois rien.",
+          "choices": ["と", "たら", "ば", "ても"], "a": 0,
+          "explain": "ない + と. (Les autres demanderaient かけなかったら, かけなければ, かけなくても.)"
+        },
+        {
+          "id": "n4-49-e06", "type": "choice", "uses": [],
+          "q": "Que signifie : この{道|みち}をまっすぐ{行|い}くと、{駅|えき}があります。",
+          "choices": ["Si tu vas tout droit dans cette rue, tu trouveras la gare.", "Va tout droit jusqu'à la gare.", "Je suis allé tout droit jusqu'à la gare.", "Pour aller à la gare, il ne faut pas aller tout droit."], "a": 0,
+          "explain": "Indication de chemin avec と."
+        },
+        {
+          "id": "n4-49-e07", "type": "order", "uses": ["n5-37"],
+          "fr": "Quand il fait froid, j'ai mal aux mains.",
+          "tokens": ["{寒|さむ}い", "と", "{手|て}", "が", "{痛|いた}く", "なります"],
+          "explain": "Adj. い + と ; {痛|いた}い → {痛|いた}くなる."
+        },
+        {
+          "id": "n4-49-e08", "type": "choice", "uses": [],
+          "jp": "{冬|ふゆ}は{五時|ごじ}に＿と、{暗|くら}くなります。", "fr": "En hiver, à 17 h, il fait déjà nuit.",
+          "choices": ["なる", "なった", "なります", "なって"], "a": 0,
+          "explain": "Forme du dictionnaire + と."
+        },
+        {
+          "id": "n4-49-e09", "type": "choice", "uses": [],
+          "q": "Dans quelle phrase と veut dire « quand / si » ?",
+          "choices": ["{夏|なつ}になると、{暑|あつ}くなります。", "{友|とも}だちと{映画|えいが}を{見|み}ました。", "パンとたまごを{買|か}いました。", "{明日|あした}は{雨|あめ}だと{思|おも}います。"], "a": 0,
+          "explain": "Verbe + と + conséquence = condition. Les autres : « avec », « et », と{思|おも}う."
+        },
+        {
+          "id": "n4-49-e10", "type": "choice", "uses": [],
+          "jp": "お{酒|さけ}を{飲|の}む＿、{顔|かお}が{赤|あか}くなります。", "fr": "Quand je bois de l'alcool, mon visage devient rouge.",
+          "choices": ["と", "に", "を", "や"], "a": 0,
+          "explain": "Réaction automatique : と."
+        },
+        {
+          "id": "n4-49-e11", "type": "order", "uses": [],
+          "fr": "Si on appuie sur ce bouton, la porte s'ouvre.",
+          "tokens": ["この", "ボタン", "を", "{押|お}す", "と", "ドア", "が", "{開|あ}きます"],
+          "explain": "{開|あ}く = s'ouvrir (tout seul) ; {開|あ}ける = ouvrir (quelque chose)."
+        },
+        {
+          "id": "n4-49-e12", "type": "choice", "uses": [],
+          "jp": "{日本語|にほんご}を{毎日|まいにち}{使|つか}わない＿、{忘|わす}れますよ。", "fr": "Si tu n'utilises pas le japonais tous les jours, tu l'oublies.",
+          "choices": ["と", "て", "に", "を"], "a": 0,
+          "explain": "ない + と : conséquence qui arrive forcément."
+        }
+      ]
+    },
+    {
+      "id": "n4-50",
+      "title": "なら : si c'est le cas, s'il s'agit de",
+      "formula": ["Nom + なら", "Verbe / adj. (forme neutre) + なら", "Pour conseiller sur ce que l'autre vient de dire", "A なら B : B peut se passer avant A"],
+      "sections": [
+        {
+          "h": "Reprendre ce que dit l'autre",
+          "p": [
+            "なら reprend un sujet qu'on vient d'évoquer pour donner un **conseil** ou une info : « si c'est ça que tu veux… »."
+          ],
+          "ex": [
+            { "jp": "A：{京都|きょうと}に{行|い}きたいです。B：{京都|きょうと}に{行|い}くなら、{秋|あき}がいいですよ。", "fr": "A : J'aimerais aller à Kyoto. B : Si tu vas à Kyoto, l'automne, c'est bien." },
+            { "jp": "A：カメラを{買|か}いたいんですが。B：カメラなら、あの{店|みせ}が{安|やす}いですよ。", "fr": "A : Je voudrais acheter un appareil photo. B : Pour un appareil photo, ce magasin est bon marché." }
+          ]
+        },
+        {
+          "h": "Fabriquer",
+          "p": [
+            "Nom + なら ; adj. な + なら ({静|しず}かなら) ; verbe ou adj. い à la forme neutre + なら ({行|い}くなら, {高|たか}いなら). **Jamais** だ devant なら."
+          ]
+        },
+        {
+          "h": "なら ou たら ?",
+          "p": [
+            "A たら B : B se passe **après** A. A なら B : B peut se passer **avant** A (on se prépare)."
+          ],
+          "ex": [
+            { "jp": "{日本|にほん}に{行|い}くなら、まず{日本語|にほんご}を{勉強|べんきょう}してください。", "fr": "Si tu comptes aller au Japon, étudie d'abord le japonais." },
+            { "jp": "{日本|にほん}に{行|い}ったら、すしを{食|た}べたいです。", "fr": "Une fois au Japon, je veux manger des sushis." },
+            { "jp": "{京都|きょうと}に{行|い}くなら、{新幹線|しんかんせん}が{便利|べんり}です。", "fr": "Pour aller à Kyoto, le shinkansen est pratique (on le prend avant d'arriver)." }
+          ]
+        }
+      ],
+      "pieges": [
+        "Pas de だ : {学生|がくせい}なら (pas {学生|がくせい}だなら).",
+        "Pas la forme ます : {行|い}くなら (pas {行|い}きますなら).",
+        "Si l'action de la 2e partie se fait avant la 1re (préparer, choisir le moyen d'y aller), seul なら convient."
+      ],
+      "exercises": [
+        {
+          "id": "n4-50-e01", "type": "choice", "uses": ["n5-13"],
+          "jp": "A：{京都|きょうと}に{行|い}きたいです。B：{京都|きょうと}に{行|い}く＿、{秋|あき}がいいですよ。", "fr": "A : J'aimerais aller à Kyoto. B : Si tu vas à Kyoto, l'automne, c'est bien.",
+          "choices": ["なら", "たら", "ば", "だら"], "a": 0,
+          "explain": "On reprend ce que dit l'autre pour conseiller : なら. ({行|い}くたら, {行|い}くば n'existent pas.)"
+        },
+        {
+          "id": "n4-50-e02", "type": "choice", "uses": ["n5-38"],
+          "jp": "A：カメラを{買|か}いたいんですが。B：カメラ＿、あの{店|みせ}が{安|やす}いですよ。", "fr": "A : Je voudrais acheter un appareil photo. B : Pour un appareil photo, ce magasin est bon marché.",
+          "choices": ["なら", "だなら", "ったら", "れば"], "a": 0,
+          "explain": "Nom + なら (sans だ)."
+        },
+        {
+          "id": "n4-50-e03", "type": "choice", "uses": ["n4-47", "n4-48", "n4-49"],
+          "q": "Une seule de ces phrases est naturelle. Laquelle ?",
+          "choices": ["{京都|きょうと}に{行|い}くなら、{新幹線|しんかんせん}が{便利|べんり}です。", "{京都|きょうと}に{行|い}ったら、{新幹線|しんかんせん}が{便利|べんり}です。", "{京都|きょうと}に{行|い}くと、{新幹線|しんかんせん}が{便利|べんり}です。", "{京都|きょうと}に{行|い}けば、{新幹線|しんかんせん}が{便利|べんり}です。"], "a": 0,
+          "explain": "On prend le shinkansen AVANT d'arriver à Kyoto : seul なら convient."
+        },
+        {
+          "id": "n4-50-e04", "type": "choice", "uses": ["n5-12"],
+          "jp": "A：{明日|あした}は{暇|ひま}です。B：{暇|ひま}＿、{一緒|いっしょ}に{映画|えいが}を{見|み}ませんか。", "fr": "A : Demain, je suis libre. B : Si tu es libre, on va voir un film ensemble ?",
+          "choices": ["なら", "だなら", "ければ", "くたら"], "a": 0,
+          "explain": "Adj. な + なら."
+        },
+        {
+          "id": "n4-50-e05", "type": "choice", "uses": [],
+          "q": "Que signifie : {日本|にほん}に{行|い}くなら、まず{日本語|にほんご}を{勉強|べんきょう}してください。",
+          "choices": ["Si tu comptes aller au Japon, étudie d'abord le japonais.", "Quand tu seras au Japon, étudie le japonais.", "Je suis allé au Japon pour étudier le japonais.", "Même si tu vas au Japon, étudie le japonais."], "a": 0,
+          "explain": "なら : on se prépare avant."
+        },
+        {
+          "id": "n4-50-e06", "type": "choice", "uses": ["n5-31"],
+          "jp": "A：{日本|にほん}の{料理|りょうり}が{好|す}きです。B：{日本料理|にほんりょうり}＿、すしがいちばんおいしいですよ。", "fr": "A : J'aime la cuisine japonaise. B : En cuisine japonaise, ce sont les sushis les meilleurs.",
+          "choices": ["なら", "だなら", "たら", "ば"], "a": 0,
+          "explain": "Nom + なら : « s'il s'agit de… »."
+        },
+        {
+          "id": "n4-50-e07", "type": "order", "uses": [],
+          "fr": "Si tu vas à la poste, achète-moi des timbres.",
+          "tokens": ["{郵便局|ゆうびんきょく}", "に", "{行|い}く", "なら", "{切手|きって}", "を", "{買|か}ってください"],
+          "explain": "On achète les timbres avant / pendant, pas après : なら."
+        },
+        {
+          "id": "n4-50-e08", "type": "choice", "uses": ["n4-47", "n4-49"],
+          "q": "« Une fois au Japon, je veux manger des sushis. » Quelle phrase ?",
+          "choices": ["{日本|にほん}に{行|い}ったら、すしを{食|た}べたいです。", "{日本|にほん}に{行|い}きたら、すしを{食|た}べたいです。", "{日本|にほん}に{行|い}くたら、すしを{食|た}べたいです。", "{日本|にほん}に{行|い}くと、すしを{食|た}べたいです。"], "a": 0,
+          "explain": "Après être arrivé : たら. Et と ne peut pas être suivi d'une envie."
+        },
+        {
+          "id": "n4-50-e09", "type": "choice", "uses": [],
+          "jp": "{雨|あめ}＿、{試合|しあい}は{中止|ちゅうし}です。", "fr": "S'il pleut, le match est annulé.",
+          "choices": ["なら", "だなら", "かったら", "ければ"], "a": 0,
+          "explain": "Nom + なら."
+        },
+        {
+          "id": "n4-50-e10", "type": "choice", "uses": [],
+          "q": "Une seule de ces phrases est correcte. Laquelle ?",
+          "choices": ["{学生|がくせい}なら、{安|やす}くなります。", "{学生|がくせい}だなら、{安|やす}くなります。", "{学生|がくせい}ければ、{安|やす}くなります。", "{学生|がくせい}くなら、{安|やす}くなります。"], "a": 0,
+          "explain": "Nom + なら, sans だ."
+        },
+        {
+          "id": "n4-50-e11", "type": "order", "uses": [],
+          "fr": "Pour aller jusqu'à la gare, le bus est pratique.",
+          "tokens": ["{駅|えき}", "まで", "なら", "バス", "が", "{便利|べんり}です"],
+          "explain": "Nom (+ particule) + なら : « s'il s'agit de… »."
+        },
+        {
+          "id": "n4-50-e12", "type": "choice", "uses": [],
+          "jp": "A：{来週|らいしゅう}、{北海道|ほっかいどう}に{行|い}きます。B：{北海道|ほっかいどう}に{行|い}く＿、{暖|あたた}かい{服|ふく}を{買|か}ってください。", "fr": "A : La semaine prochaine, je vais à Hokkaidō. B : Si tu vas à Hokkaidō, achète des vêtements chauds.",
+          "choices": ["なら", "と", "ば", "たら"], "a": 0,
+          "explain": "Conseil pour se préparer avant le départ : なら. ({行|い}くと ne peut pas être suivi d'une demande.)"
+        }
+      ]
+    },
+    {
+      "id": "n4-51",
+      "title": "ても : même si",
+      "formula": ["Forme て + も : {降|ふ}っても", "Adj. い : くても · Adj. な / nom : でも", "Négatif : なくても", "いくら / {何|なに}を〜ても : avoir beau, quoi que"],
+      "sections": [
+        {
+          "h": "Le sens",
+          "p": [
+            "A ても B = **même si** A, B (B arrive quand même, contre ce qu'on attendrait).",
+            "Tu connais déjà cette forme : てもいいです (N5 leçon 20) veut dire « même si tu le fais, c'est bon »."
+          ],
+          "ex": [
+            { "jp": "{雨|あめ}が{降|ふ}っても、{行|い}きます。", "fr": "Même s'il pleut, j'irai." },
+            { "jp": "{高|たか}くても、{買|か}いたいです。", "fr": "Même si c'est cher, je veux l'acheter." },
+            { "jp": "{日曜日|にちようび}でも、{働|はたら}きます。", "fr": "Même le dimanche, je travaille." }
+          ]
+        },
+        {
+          "h": "Fabriquer",
+          "vocab": [
+            { "jp": "{行|い}く → {行|い}っても", "fr": "verbe : forme て + も" },
+            { "jp": "{食|た}べる → {食|た}べても", "fr": "verbe groupe 2" },
+            { "jp": "{行|い}かない → {行|い}かなくても", "fr": "négatif : ない → なくても" },
+            { "jp": "{高|たか}い → {高|たか}くても", "fr": "adj. い : い → くても" },
+            { "jp": "いい → よくても", "fr": "exception" },
+            { "jp": "{静|しず}か → {静|しず}かでも", "fr": "adj. な : でも" },
+            { "jp": "{学生|がくせい} → {学生|がくせい}でも", "fr": "nom : でも" }
+          ]
+        },
+        {
+          "h": "いくら〜ても・{何|なに}を〜ても",
+          "p": [
+            "いくら〜ても = avoir beau… ; {何|なに}を / どこで / いつ〜ても = quoi que, où que, quand que."
+          ],
+          "ex": [
+            { "jp": "いくら{勉強|べんきょう}しても、わかりません。", "fr": "J'ai beau étudier, je ne comprends pas." },
+            { "jp": "{何|なに}を{食|た}べても、おいしいです。", "fr": "Quoi qu'on mange, c'est bon." }
+          ]
+        }
+      ],
+      "pieges": [
+        "いい → よくても (pas いくても).",
+        "Nom / adj. な : でも (pas だても).",
+        "Après un nom, でも veut aussi dire « même » : {子|こ}どもでもわかります = même un enfant comprend."
+      ],
+      "exercises": [
+        {
+          "id": "n4-51-e01", "type": "choice", "uses": ["n4-41"],
+          "jp": "{雨|あめ}が＿、{行|い}きます。", "fr": "Même s'il pleut, j'irai.",
+          "choices": ["{降|ふ}っても", "{降|ふ}りても", "{降|ふ}るても", "{降|ふ}ってでも"], "a": 0,
+          "explain": "Forme て + も : {降|ふ}って → {降|ふ}っても."
+        },
+        {
+          "id": "n4-51-e02", "type": "choice", "uses": [],
+          "jp": "{高|たか}＿、この{本|ほん}が{買|か}いたいです。", "fr": "Même s'il est cher, je veux acheter ce livre.",
+          "choices": ["くても", "いても", "でも", "かっても"], "a": 0,
+          "explain": "Adj. い : い → くても."
+        },
+        {
+          "id": "n4-51-e03", "type": "choice", "uses": [],
+          "jp": "{日曜日|にちようび}＿、{仕事|しごと}に{行|い}きます。", "fr": "Même le dimanche, je vais au travail.",
+          "choices": ["でも", "ても", "だても", "くても"], "a": 0,
+          "explain": "Nom + でも."
+        },
+        {
+          "id": "n4-51-e04", "type": "choice", "uses": ["n4-42"],
+          "q": "Que signifie : いくら{勉強|べんきょう}しても、{漢字|かんじ}が{覚|おぼ}えられません。",
+          "choices": ["J'ai beau étudier, je n'arrive pas à retenir les kanji.", "Si j'étudie beaucoup, je retiendrai les kanji.", "Même sans étudier, je retiens les kanji.", "J'étudie beaucoup pour retenir les kanji."], "a": 0,
+          "explain": "いくら〜ても = avoir beau."
+        },
+        {
+          "id": "n4-51-e05", "type": "choice", "uses": [],
+          "jp": "{薬|くすり}を{飲|の}んでも、＿。", "fr": "Même en prenant le médicament, ça ne va pas mieux.",
+          "choices": ["よくなりません", "よくなりますから", "よくなるために", "よくなりましょう"], "a": 0,
+          "explain": "Après ても vient une phrase complète, souvent contraire à ce qu'on attend."
+        },
+        {
+          "id": "n4-51-e06", "type": "choice", "uses": [],
+          "q": "Forme ても de いい ?",
+          "choices": ["よくても", "いくても", "いいでも", "いいても"], "a": 0,
+          "explain": "いい → よくても."
+        },
+        {
+          "id": "n4-51-e07", "type": "order", "uses": [],
+          "fr": "Même si je suis occupé, je prends un petit-déjeuner.",
+          "tokens": ["{忙|いそが}しくても", "{朝|あさ}ごはん", "は", "{食|た}べます"],
+          "alt": [["{朝|あさ}ごはん", "は", "{忙|いそが}しくても", "{食|た}べます"]],
+          "explain": "Adj. い → くても."
+        },
+        {
+          "id": "n4-51-e08", "type": "choice", "uses": [],
+          "jp": "この{問題|もんだい}は{何回|なんかい}{読|よ}＿、わかりません。", "fr": "J'ai beau relire ce problème, je ne le comprends pas.",
+          "choices": ["んでも", "みても", "むても", "んで"], "a": 0,
+          "explain": "{読|よ}む → {読|よ}んで → {読|よ}んでも."
+        },
+        {
+          "id": "n4-51-e09", "type": "choice", "uses": [],
+          "q": "Une seule de ces phrases est correcte. Laquelle ?",
+          "choices": ["{静|しず}かでも、{眠|ねむ}れません。", "{静|しず}かだても、{眠|ねむ}れません。", "{静|しず}かくても、{眠|ねむ}れません。", "{静|しず}かなでも、{眠|ねむ}れません。"], "a": 0,
+          "explain": "Adj. な + でも."
+        },
+        {
+          "id": "n4-51-e10", "type": "choice", "uses": [],
+          "jp": "{明日|あした}は{雨|あめ}が{降|ふ}って＿、サッカーの{試合|しあい}があります。", "fr": "Demain, même s'il pleut, il y a le match de foot.",
+          "choices": ["も", "は", "を", "が"], "a": 0,
+          "explain": "Forme て + も."
+        },
+        {
+          "id": "n4-51-e11", "type": "choice", "uses": ["n5-20"],
+          "jp": "A：{来|こ}なくてもいいですよ。B：いいえ、{忙|いそが}しく＿{行|い}きます。", "fr": "A : Tu n'es pas obligé de venir. B : Si, même occupé, je viens.",
+          "choices": ["ても", "でも", "たら", "は"], "a": 0,
+          "explain": "Adj. い : {忙|いそが}しい → {忙|いそが}しくても."
+        },
+        {
+          "id": "n4-51-e12", "type": "order", "uses": [],
+          "fr": "Même si le billet est cher, je veux y aller.",
+          "tokens": ["チケット", "が", "{高|たか}くても", "{行|い}きたい", "です"],
+          "explain": "Adj. い → くても."
+        }
+      ]
+    }
+  ],
+  "test": [
+    {
+      "id": "n4-b10-t01", "type": "choice", "uses": ["n4-47"],
+      "jp": "{家|いえ}に＿、{電話|でんわ}します。", "fr": "Quand je serai rentré, je t'appelle.",
+      "choices": ["{帰|かえ}ったら", "{帰|かえ}ると", "{帰|かえ}れば", "{帰|かえ}りたら"], "a": 0,
+      "explain": "Une fois que (événement certain) + intention : たら."
+    },
+    {
+      "id": "n4-b10-t02", "type": "choice", "uses": ["n4-48"],
+      "q": "Forme ば de する ?",
+      "choices": ["すれば", "しれば", "するば", "せば"], "a": 0,
+      "explain": "する → すれば."
+    },
+    {
+      "id": "n4-b10-t03", "type": "choice", "uses": ["n4-49"],
+      "jp": "このボタンを{押|お}す＿、{切符|きっぷ}が{出|で}ます。", "fr": "Si on appuie sur ce bouton, le billet sort.",
+      "choices": ["と", "なら", "たら", "ば"], "a": 0,
+      "explain": "Machine, conséquence automatique : と."
+    },
+    {
+      "id": "n4-b10-t04", "type": "choice", "uses": ["n4-50"],
+      "jp": "A：パソコンを{買|か}いたいです。B：パソコン＿、{秋葉原|あきはばら}がいいですよ。", "fr": "A : Je veux acheter un ordinateur. B : Pour un ordinateur, Akihabara, c'est bien.",
+      "choices": ["なら", "ならで", "だなら", "ければ"], "a": 0,
+      "explain": "Nom + なら pour conseiller."
+    },
+    {
+      "id": "n4-b10-t05", "type": "choice", "uses": ["n4-51"],
+      "jp": "{雨|あめ}が{降|ふ}って＿、{出|で}かけます。", "fr": "Même s'il pleut, je sors.",
+      "choices": ["も", "は", "が", "を"], "a": 0,
+      "explain": "Forme て + も = même si."
+    },
+    {
+      "id": "n4-b10-t06", "type": "choice", "uses": ["n4-49"],
+      "q": "Une seule de ces phrases est naturelle. Laquelle ?",
+      "choices": ["{春|はる}になると、{暖|あたた}かくなります。", "{春|はる}になると、{花見|はなみ}をしましょう。", "{春|はる}になると、{花見|はなみ}がしたいです。", "{春|はる}になると、{花見|はなみ}に{来|き}てください。"], "a": 0,
+      "explain": "Après と : seulement une conséquence naturelle."
+    },
+    {
+      "id": "n4-b10-t07", "type": "choice", "uses": ["n4-48"],
+      "jp": "{安|やす}＿、{買|か}います。", "fr": "Si c'est bon marché, je l'achète.",
+      "choices": ["ければ", "いば", "くば", "かれば"], "a": 0,
+      "explain": "Adj. い : い → ければ."
+    },
+    {
+      "id": "n4-b10-t08", "type": "order", "uses": ["n4-47"],
+      "fr": "Si tu as le temps, viens me voir à la maison.",
+      "tokens": ["{時間|じかん}", "が", "あったら", "{家|いえ}", "に", "{遊|あそ}びに", "{来|き}てください"],
+      "alt": [["{時間|じかん}", "が", "あったら", "{遊|あそ}びに", "{家|いえ}", "に", "{来|き}てください"]],
+      "explain": "ある → あったら."
+    },
+    {
+      "id": "n4-b10-t09", "type": "choice", "uses": ["n4-51"],
+      "q": "Que signifie : いくら{呼|よ}んでも、{返事|へんじ}がありません。",
+      "choices": ["J'ai beau appeler, personne ne répond.", "Si j'appelle, quelqu'un répond.", "Quand j'ai appelé, il a répondu.", "Il faut appeler plus fort."], "a": 0,
+      "explain": "いくら〜ても = avoir beau."
+    },
+    {
+      "id": "n4-b10-t10", "type": "choice", "uses": ["n4-50"],
+      "q": "On parle de prendre le train pour aller à Osaka. Quelle phrase ?",
+      "choices": ["{大阪|おおさか}に{行|い}くなら、{新幹線|しんかんせん}が{速|はや}いですよ。", "{大阪|おおさか}に{行|い}ったら、{新幹線|しんかんせん}が{速|はや}いですよ。", "{大阪|おおさか}に{行|い}くと、{新幹線|しんかんせん}が{速|はや}いですよ。", "{大阪|おおさか}に{行|い}けば、{新幹線|しんかんせん}が{速|はや}いですよ。"], "a": 0,
+      "explain": "Le train se prend avant d'arriver : なら."
+    },
+    {
+      "id": "n4-b10-t11", "type": "choice", "uses": ["n4-47"],
+      "jp": "わから＿、{先生|せんせい}に{聞|き}いてください。", "fr": "Si tu ne comprends pas, demande au professeur.",
+      "choices": ["なかったら", "ないと", "なくても", "ないたら"], "a": 0,
+      "explain": "Négatif + たら : なかったら. と ne peut pas être suivi d'une demande."
+    },
+    {
+      "id": "n4-b10-t12", "type": "choice", "uses": ["n4-48"],
+      "jp": "{宿題|しゅくだい}が{終|お}わら＿、{遊|あそ}びに{行|い}けません。", "fr": "Si mes devoirs ne sont pas finis, je ne peux pas aller jouer.",
+      "choices": ["なければ", "ないば", "なくば", "ないれば"], "a": 0,
+      "explain": "Négatif : ない → なければ."
+    },
+    {
+      "id": "n4-b10-t13", "type": "order", "uses": ["n4-51"],
+      "fr": "Même si c'est loin, j'irai à pied.",
+      "tokens": ["{遠|とお}くても", "{歩|ある}いて", "{行|い}きます"],
+      "explain": "{遠|とお}い → {遠|とお}くても."
+    },
+    {
+      "id": "n4-b10-t14", "type": "choice", "uses": ["n4-47"],
+      "q": "Forme たら de {来|く}る ?",
+      "choices": ["きたら", "くたら", "こたら", "くったら"], "a": 0,
+      "explain": "{来|く}る → {来|き}た → {来|き}たら."
+    },
+    {
+      "id": "n4-b10-t15", "type": "choice", "uses": ["n4-48"],
+      "jp": "お{金|かね}が＿、{旅行|りょこう}に{行|い}きたいです。", "fr": "Si j'avais de l'argent, j'aimerais voyager.",
+      "choices": ["あれば", "あるば", "ありば", "あったれば"], "a": 0,
+      "explain": "ある → あれば (état + envie : possible avec ば)."
+    }
+  ],
+  "examTest": [
+    {
+      "id": "n4-x01-01", "type": "choice", "uses": ["n4-42", "n4-48"],
+      "q": "Une seule de ces phrases est correcte. Laquelle ?",
+      "choices": ["{漢字|かんじ}が{読|よ}めれば、{新聞|しんぶん}が{読|よ}めます。", "{漢字|かんじ}が{読|よ}めば、{新聞|しんぶん}が{読|よ}めます。", "{漢字|かんじ}が{読|よ}めるれば、{新聞|しんぶん}が{読|よ}めます。", "{漢字|かんじ}が{読|よ}められれば、{新聞|しんぶん}が{読|よ}めます。"], "a": 0,
+      "explain": "Potentiel {読|よ}める (groupe 2) → ば : {読|よ}めれば."
+    },
+    {
+      "id": "n4-x01-02", "type": "choice", "uses": ["n4-46"],
+      "jp": "{日本|にほん}に{住|す}んで{三年|さんねん}。やっと{日本語|にほんご}で{夢|ゆめ}を＿ようになりました。", "fr": "Trois ans que je vis au Japon. J'ai enfin commencé à rêver en japonais.",
+      "choices": ["{見|み}る", "{見|み}た", "{見|み}ます", "{見|み}て"], "a": 0,
+      "explain": "Forme du dictionnaire + ようになる : un changement."
+    },
+    {
+      "id": "n4-x01-03", "type": "choice", "uses": ["n4-45", "n5-26"],
+      "q": "Ton ami : 「{明日|あした}、{海|うみ}に{行|い}かない？」 Tu acceptes. Que réponds-tu ?",
+      "choices": ["うん、{行|い}こう！", "うん、{行|い}かない！", "うん、{行|い}きよう！", "うん、{行|い}くつもりはない！"], "a": 0,
+      "explain": "Accepter une invitation en style neutre : volitif {行|い}こう."
+    },
+    {
+      "id": "n4-x01-04", "type": "choice", "uses": ["n4-47", "n4-51"],
+      "jp": "{明日|あした}、もし{雨|あめ}が＿、{試合|しあい}は{中止|ちゅうし}です。", "fr": "Demain, s'il pleut, le match est annulé.",
+      "choices": ["{降|ふ}ったら", "{降|ふ}っても", "{降|ふ}らなくて", "{降|ふ}りながら"], "a": 0,
+      "explain": "もし + たら. ても (même si) ne va pas avec « annulé »."
+    },
+    {
+      "id": "n4-x01-05", "type": "choice", "uses": ["n4-50"],
+      "q": "Une seule de ces phrases est naturelle. Laquelle ?",
+      "choices": ["{日本|にほん}へ{行|い}くなら、このガイドブックがいいですよ。", "{日本|にほん}へ{行|い}ったら、このガイドブックがいいですよ。", "{日本|にほん}へ{行|い}くと、このガイドブックがいいですよ。", "{日本|にほん}へ{行|い}っても、このガイドブックがいいですよ。"], "a": 0,
+      "explain": "Conseil pour préparer le voyage (avant de partir) : なら."
+    },
+    {
+      "id": "n4-x01-06", "type": "order", "uses": ["n4-46"],
+      "fr": "Le soir, j'évite de manger des gâteaux.",
+      "tokens": ["{夜|よる}", "は", "ケーキ", "を", "{食|た}べない", "ように", "しています"],
+      "explain": "ない + ようにしています = habitude qu'on s'impose."
+    },
+    {
+      "id": "n4-x01-07", "type": "choice", "uses": ["n4-45", "n4-47"],
+      "q": "Que signifie : {仕事|しごと}が{終|お}わったら、{飲|の}みに{行|い}こう。",
+      "choices": ["Quand le travail sera fini, allons boire un verre.", "Même si le travail n'est pas fini, allons boire.", "Si le travail finit, j'irai boire seul.", "Après le travail, je suis allé boire."], "a": 0,
+      "explain": "たら = une fois que ; {行|い}こう = allons-y."
+    },
+    {
+      "id": "n4-x01-08", "type": "choice", "uses": ["n4-51"],
+      "jp": "いくら{待|ま}って＿、バスが{来|き}ません。", "fr": "J'ai beau attendre, le bus ne vient pas.",
+      "choices": ["も", "は", "から", "で"], "a": 0,
+      "explain": "いくら appelle ても."
+    },
+    {
+      "id": "n4-x01-09", "type": "choice", "uses": ["n4-42", "n4-45"],
+      "q": "Laquelle n'est PAS une forme potentielle ?",
+      "choices": ["{行|い}こう", "{行|い}ける", "こられる", "できる"], "a": 0,
+      "explain": "{行|い}こう est le volitif (allons-y)."
+    },
+    {
+      "id": "n4-x01-10", "type": "choice", "uses": ["n4-42", "n4-50"],
+      "jp": "{日本語|にほんご}が{話|はな}せる＿、{日本|にほん}で{働|はたら}けますよ。", "fr": "Si tu sais parler japonais, tu peux travailler au Japon.",
+      "choices": ["なら", "ば", "ても", "たら"], "a": 0,
+      "explain": "Forme neutre + なら. ({話|はな}せるば, {話|はな}せるても, {話|はな}せるたら n'existent pas.)"
+    },
+    {
+      "id": "n4-x01-11", "type": "choice", "uses": ["n4-44"],
+      "q": "Ton collègue : 「{来週|らいしゅう}、{会社|かいしゃ}をやめるつもりです。」 Que comprends-tu ?",
+      "choices": ["Il a l'intention de quitter l'entreprise la semaine prochaine.", "Il a déjà quitté l'entreprise.", "On l'oblige à partir.", "Il pense que quelqu'un va partir."], "a": 0,
+      "explain": "つもり = intention."
+    },
+    {
+      "id": "n4-x01-12", "type": "choice", "uses": ["n4-49", "n4-43"],
+      "jp": "ここに{名前|なまえ}を＿と、{予約|よやく}ができます。", "fr": "Si on écrit son nom ici, on peut réserver.",
+      "choices": ["{書|か}く", "{書|か}いた", "{書|か}きます", "{書|か}こう"], "a": 0,
+      "explain": "Forme du dictionnaire + と ; できる = être possible."
+    },
+    {
+      "id": "n4-x01-13", "type": "choice", "uses": ["n4-50"],
+      "q": "Une seule de ces phrases est correcte. Laquelle ?",
+      "choices": ["{暇|ひま}なら、{手伝|てつだ}ってください。", "{暇|ひま}だなら、{手伝|てつだ}ってください。", "{暇|ひま}ければ、{手伝|てつだ}ってください。", "{暇|ひま}くても、{手伝|てつだ}ってください。"], "a": 0,
+      "explain": "Adj. な + なら (sans だ)."
+    },
+    {
+      "id": "n4-x01-14", "type": "order", "uses": ["n4-49"],
+      "fr": "Si on tourne à gauche, il y a une poste.",
+      "tokens": ["{左|ひだり}", "に", "{曲|ま}がる", "と", "{郵便局|ゆうびんきょく}", "が", "あります"],
+      "explain": "Chemin : forme du dictionnaire + と."
+    },
+    {
+      "id": "n4-x01-15", "type": "choice", "uses": ["n4-46", "n4-48"],
+      "jp": "{毎日|まいにち}{練習|れんしゅう}すれば、{一人|ひとり}で{着物|きもの}が{着|き}られる＿なりますよ。", "fr": "Si tu t'entraînes tous les jours, tu sauras mettre un kimono toute seule.",
+      "choices": ["ように", "ようで", "のに", "ために"], "a": 0,
+      "explain": "Potentiel + ようになる ; する → すれば."
+    }
+  ]
+}
