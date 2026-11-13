@@ -1,0 +1,661 @@
+{
+  "id": "n4-b15",
+  "level": "N4",
+  "title": "Raisons, contraste, but, questions, ordres",
+  "lessons": [
+    {
+      "id": "n4-72",
+      "title": "し : et en plus (plusieurs raisons)",
+      "formula": ["Forme neutre + し : et en plus", "〜し、〜し、… : raisons qui s'ajoutent", "Nom / adj. な + だし"],
+      "sections": [
+        {
+          "h": "Le sens",
+          "p": [
+            "し **ajoute** des raisons ou des qualités les unes aux autres : « et en plus », « et puis ». Souvent avec も."
+          ],
+          "ex": [
+            { "jp": "この{店|みせ}は{安|やす}いし、おいしいし、よく{来|き}ます。", "fr": "Ce restaurant est bon marché, en plus c'est bon : j'y viens souvent." },
+            { "jp": "{雨|あめ}も{降|ふ}っているし、{今日|きょう}は{出|で}かけません。", "fr": "En plus il pleut : aujourd'hui, je ne sors pas." },
+            { "jp": "{彼|かれ}は{優|やさ}しいし、{頭|あたま}もいいです。", "fr": "Il est gentil, et en plus intelligent." }
+          ]
+        },
+        {
+          "h": "Fabriquer",
+          "p": [
+            "Forme neutre + し : {行|い}くし, {行|い}かないし, {高|たか}いし, {静|しず}か**だ**し, {学生|がくせい}**だ**し. Au poli : {高|たか}いですし.",
+            "Une seule raison avec し sous-entend « entre autres » : {暇|ひま}だし、{映画|えいが}でも{見|み}に{行|い}こうか (je suis libre, entre autres…)."
+          ]
+        }
+      ],
+      "pieges": [
+        "Nom / adj. な : だし ({静|しず}かだし, pas {静|しず}かし).",
+        "し = plusieurs raisons qui s'ajoutent ; から = une raison principale."
+      ],
+      "exercises": [
+        {
+          "id": "n4-72-e01", "type": "choice", "uses": [],
+          "jp": "この{店|みせ}は{安|やす}い＿、おいしいし、よく{来|き}ます。", "fr": "Ce restaurant est bon marché, en plus c'est bon : j'y viens souvent.",
+          "choices": ["し", "て", "と", "や"], "a": 0,
+          "explain": "Forme neutre + し : raisons qui s'ajoutent."
+        },
+        {
+          "id": "n4-72-e02", "type": "choice", "uses": [],
+          "jp": "この{町|まち}は{静|しず}か＿し、{緑|みどり}も{多|おお}いです。", "fr": "Cette ville est calme, et en plus il y a beaucoup de verdure.",
+          "choices": ["だ", "な", "に", "の"], "a": 0,
+          "explain": "Adj. な + だし."
+        },
+        {
+          "id": "n4-72-e03", "type": "choice", "uses": [],
+          "q": "Que signifie : {雨|あめ}も{降|ふ}っているし、{今日|きょう}は{出|で}かけません。",
+          "choices": ["En plus il pleut : aujourd'hui, je ne sors pas.", "Même s'il pleut, je sors aujourd'hui.", "Il ne pleut pas, mais je reste.", "S'il pleut, je ne sortirai pas."], "a": 0,
+          "explain": "し donne une raison (parmi d'autres)."
+        },
+        {
+          "id": "n4-72-e04", "type": "order", "uses": [],
+          "fr": "Il est gentil, et en plus intelligent.",
+          "tokens": ["{彼|かれ}", "は", "{優|やさ}しい", "し", "{頭|あたま}", "も", "いいです"],
+          "explain": "Adj. い + し ; も souligne l'ajout."
+        },
+        {
+          "id": "n4-72-e05", "type": "choice", "uses": [],
+          "jp": "{今日|きょう}は{暇|ひま}だ＿、{映画|えいが}でも{見|み}に{行|い}こうか。", "fr": "Je suis libre aujourd'hui : on va voir un film ?",
+          "choices": ["し", "と", "て", "や"], "a": 0,
+          "explain": "だし : une raison parmi d'autres. (と ne peut pas être suivi d'une invitation.)"
+        },
+        {
+          "id": "n4-72-e06", "type": "choice", "uses": [],
+          "q": "Une seule de ces phrases est correcte. Laquelle ?",
+          "choices": ["{部屋|へや}は{広|ひろ}いし、{駅|えき}にも{近|ちか}いです。", "{部屋|へや}は{広|ひろ}いだし、{駅|えき}にも{近|ちか}いです。", "{部屋|へや}は{広|ひろ}くし、{駅|えき}にも{近|ちか}いです。", "{部屋|へや}は{広|ひろ}いの、{駅|えき}にも{近|ちか}いです。"], "a": 0,
+          "explain": "Adj. い + し (sans だ)."
+        },
+        {
+          "id": "n4-72-e07", "type": "choice", "uses": [],
+          "jp": "A：どうしてこのアパートにしたんですか。B：{駅|えき}から{近|ちか}い＿、{家賃|やちん}も{安|やす}いですから。", "fr": "A : Pourquoi as-tu choisi cet appartement ? B : Il est près de la gare, et en plus le loyer est bas.",
+          "choices": ["し", "と", "て", "を"], "a": 0,
+          "explain": "Deux raisons qui s'ajoutent : し."
+        },
+        {
+          "id": "n4-72-e08", "type": "choice", "uses": [],
+          "q": "Pourquoi utiliser し plutôt que から ?",
+          "choices": ["Pour donner plusieurs raisons qui s'ajoutent.", "Pour dire « bien que ».", "Pour donner un ordre.", "Pour parler du futur."], "a": 0,
+          "explain": "し empile les raisons."
+        },
+        {
+          "id": "n4-72-e09", "type": "order", "uses": [],
+          "fr": "Je suis fatigué, et en plus il est tard : rentrons.",
+          "tokens": ["{疲|つか}れた", "し", "もう", "{遅|おそ}い", "し", "{帰|かえ}ろう"],
+          "alt": [["もう", "{遅|おそ}い", "し", "{疲|つか}れた", "し", "{帰|かえ}ろう"]],
+          "explain": "〜し、〜し + conclusion."
+        },
+        {
+          "id": "n4-72-e10", "type": "choice", "uses": [],
+          "jp": "{彼|かれ}は{学生|がくせい}＿し、お{金|かね}がありません。", "fr": "Il est étudiant, et puis il n'a pas d'argent.",
+          "choices": ["だ", "の", "な", "で"], "a": 0,
+          "explain": "Nom + だし."
+        },
+        {
+          "id": "n4-72-e11", "type": "choice", "uses": [],
+          "q": "Tu expliques pourquoi tu aimes ton quartier (plusieurs raisons). Quelle phrase ?",
+          "choices": ["{店|みせ}も{多|おお}いし、{公園|こうえん}もあるし、{便利|べんり}です。", "{店|みせ}も{多|おお}いのに、{公園|こうえん}もあるのに、{便利|べんり}です。", "{店|みせ}も{多|おお}くて、{公園|こうえん}もあって、{便利|べんり}じゃないです。", "{店|みせ}も{多|おお}いだし、{公園|こうえん}もあるだし、{便利|べんり}です。"], "a": 0,
+          "explain": "〜も〜し、〜も〜し : raisons qui s'ajoutent."
+        },
+        {
+          "id": "n4-72-e12", "type": "choice", "uses": [],
+          "jp": "お{金|かね}もない＿、{時間|じかん}もないし、{旅行|りょこう}は{無理|むり}です。", "fr": "Je n'ai pas d'argent, ni de temps : voyager, c'est impossible.",
+          "choices": ["し", "だし", "くし", "でし"], "a": 0,
+          "explain": "ない (adj. い) + し."
+        }
+      ]
+    },
+    {
+      "id": "n4-73",
+      "title": "のに : alors que, pourtant",
+      "formula": ["Forme neutre + のに : alors que (surprise, reproche)", "Nom / adj. な + なのに", "Pas d'ordre ni d'intention après のに"],
+      "sections": [
+        {
+          "h": "Le sens",
+          "p": [
+            "A のに B : B est **contraire** à ce qu'on attendait après A, avec un **sentiment** (surprise, déception, reproche)."
+          ],
+          "ex": [
+            { "jp": "{一生懸命|いっしょうけんめい}{勉強|べんきょう}したのに、{試験|しけん}に{落|お}ちました。", "fr": "J'ai étudié comme un fou, et pourtant j'ai raté l'examen." },
+            { "jp": "{約束|やくそく}したのに、{彼|かれ}は{来|き}ませんでした。", "fr": "Il avait promis, et pourtant il n'est pas venu." },
+            { "jp": "{日曜日|にちようび}なのに、{仕事|しごと}があります。", "fr": "Alors que c'est dimanche, j'ai du travail." }
+          ]
+        },
+        {
+          "h": "のに, ても ou が ?",
+          "p": [
+            "**ても** : même si (hypothèse ou fait). **のに** : alors que (fait réel + sentiment). **が / けど** : mais (neutre)."
+          ],
+          "ex": [
+            { "jp": "{雨|あめ}が{降|ふ}っても{行|い}きます。", "fr": "Même s'il pleut, j'irai." },
+            { "jp": "{雨|あめ}が{降|ふ}っているのに、{彼|かれ}は{出|で}かけました。", "fr": "Alors qu'il pleuvait, il est sorti." },
+            { "jp": "せっかく{作|つく}ったのに…", "fr": "Moi qui avais pris la peine de le préparer…" }
+          ]
+        }
+      ],
+      "pieges": [
+        "Nom / adj. な : **な**のに ({日曜日|にちようび}なのに, pas {日曜日|にちようび}だのに).",
+        "Après のに, pas d'ordre, de demande ni d'intention."
+      ],
+      "exercises": [
+        {
+          "id": "n4-73-e01", "type": "choice", "uses": [],
+          "jp": "{一生懸命|いっしょうけんめい}{勉強|べんきょう}した＿、{試験|しけん}に{落|お}ちました。", "fr": "J'ai étudié comme un fou, et pourtant j'ai raté l'examen.",
+          "choices": ["のに", "なのに", "だのに", "のを"], "a": 0,
+          "explain": "Verbe + のに."
+        },
+        {
+          "id": "n4-73-e02", "type": "choice", "uses": [],
+          "jp": "{日曜日|にちようび}＿、{仕事|しごと}があります。", "fr": "Alors que c'est dimanche, j'ai du travail.",
+          "choices": ["なのに", "のに", "だのに", "ので"], "a": 0,
+          "explain": "Nom + なのに."
+        },
+        {
+          "id": "n4-73-e03", "type": "choice", "uses": [],
+          "q": "Que signifie : {約束|やくそく}したのに、{彼|かれ}は{来|き}ませんでした。",
+          "choices": ["Il avait promis, et pourtant il n'est pas venu.", "Comme il avait promis, il est venu.", "Même s'il promet, il ne viendra pas.", "Il n'avait pas promis, donc il n'est pas venu."], "a": 0,
+          "explain": "のに = alors que (déception)."
+        },
+        {
+          "id": "n4-73-e04", "type": "order", "uses": [],
+          "fr": "Il fait froid, et pourtant il est en T-shirt.",
+          "tokens": ["{寒|さむ}い", "のに", "{彼|かれ}", "は", "Tシャツ", "を", "{着|き}ています"],
+          "alt": [["{彼|かれ}", "は", "{寒|さむ}い", "のに", "Tシャツ", "を", "{着|き}ています"]],
+          "explain": "Adj. い + のに."
+        },
+        {
+          "id": "n4-73-e05", "type": "choice", "uses": ["n4-51"],
+          "q": "« Même s'il pleut, j'irai. » Quelle phrase ?",
+          "choices": ["{雨|あめ}が{降|ふ}っても{行|い}きます。", "{雨|あめ}が{降|ふ}るのに{行|い}きます。", "{雨|あめ}が{降|ふ}ったのに{行|い}きます。", "{雨|あめ}が{降|ふ}るなのに{行|い}きます。"], "a": 0,
+          "explain": "Hypothèse + intention : ても. のに porte sur un fait réel et ne peut pas être suivi d'une intention."
+        },
+        {
+          "id": "n4-73-e06", "type": "choice", "uses": [],
+          "jp": "この{部屋|へや}は{静|しず}か＿、{眠|ねむ}れません。", "fr": "Cette chambre est calme, et pourtant je n'arrive pas à dormir.",
+          "choices": ["なのに", "のに", "だのに", "でのに"], "a": 0,
+          "explain": "Adj. な + なのに."
+        },
+        {
+          "id": "n4-73-e07", "type": "choice", "uses": [],
+          "q": "Une seule de ces phrases est naturelle. Laquelle ?",
+          "choices": ["{薬|くすり}を{飲|の}んだのに、まだ{熱|ねつ}があります。", "{薬|くすり}を{飲|の}んだのに、{寝|ね}てください。", "{薬|くすり}を{飲|の}んだのに、{休|やす}みましょう。", "{薬|くすり}を{飲|の}むのに、{熱|ねつ}がありました。"], "a": 0,
+          "explain": "Après のに : un constat, pas une demande ni une invitation."
+        },
+        {
+          "id": "n4-73-e08", "type": "choice", "uses": [],
+          "jp": "せっかく{作|つく}った＿、{誰|だれ}も{食|た}べてくれませんでした。", "fr": "Moi qui avais pris la peine de cuisiner, personne n'a mangé.",
+          "choices": ["のに", "ので", "から", "ために"], "a": 0,
+          "explain": "Déception : のに (souvent avec せっかく)."
+        },
+        {
+          "id": "n4-73-e09", "type": "order", "uses": [],
+          "fr": "Alors qu'il est étudiant, il ne fait pas ses devoirs.",
+          "tokens": ["{学生|がくせい}", "なのに", "{宿題|しゅくだい}", "を", "しません"],
+          "explain": "Nom + なのに."
+        },
+        {
+          "id": "n4-73-e10", "type": "choice", "uses": [],
+          "q": "Quelle phrase exprime un reproche ?",
+          "choices": ["もう{十時|じゅうじ}なのに、まだ{寝|ね}ている。", "もう{十時|じゅうじ}だから、{起|お}きよう。", "もう{十時|じゅうじ}ですが、{大丈夫|だいじょうぶ}です。", "もう{十時|じゅうじ}になりました。"], "a": 0,
+          "explain": "のに = alors que (reproche, surprise)."
+        },
+        {
+          "id": "n4-73-e11", "type": "choice", "uses": ["n4-57"],
+          "jp": "{高|たか}かった＿、すぐ{壊|こわ}れてしまいました。", "fr": "C'était cher, et pourtant ça s'est cassé tout de suite.",
+          "choices": ["のに", "なのに", "だのに", "ので"], "a": 0,
+          "explain": "Adj. い au passé + のに."
+        },
+        {
+          "id": "n4-73-e12", "type": "choice", "uses": [],
+          "jp": "{毎日|まいにち}{練習|れんしゅう}している＿、ぜんぜん{上手|じょうず}になりません。", "fr": "Je m'entraîne tous les jours, et pourtant je ne progresse pas du tout.",
+          "choices": ["のに", "なのに", "だのに", "のを"], "a": 0,
+          "explain": "Verbe + のに."
+        }
+      ]
+    },
+    {
+      "id": "n4-74",
+      "title": "ために・ように : pour, afin que",
+      "formula": ["Verbe volontaire (dictionnaire) + ために : pour (je le fais exprès)", "Nom + の ために : pour (au profit de)", "Potentiel / ない / verbe non volontaire + ように : pour que, afin de pouvoir"],
+      "sections": [
+        {
+          "h": "ために : un but que je réalise moi-même",
+          "p": [
+            "ために + **action volontaire** (que je contrôle). Même personne dans les deux parties."
+          ],
+          "ex": [
+            { "jp": "{日本|にほん}で{働|はたら}くために、{日本語|にほんご}を{勉強|べんきょう}しています。", "fr": "J'étudie le japonais pour travailler au Japon." },
+            { "jp": "{家|いえ}を{買|か}うために、お{金|かね}を{貯|た}めています。", "fr": "J'économise pour acheter une maison." },
+            { "jp": "{家族|かぞく}のために{働|はたら}きます。", "fr": "Je travaille pour ma famille." }
+          ]
+        },
+        {
+          "h": "ように : un état qu'on espère atteindre",
+          "p": [
+            "ように + **potentiel**, **négatif**, ou verbe qu'on ne contrôle pas (わかる, {見|み}える, {聞|き}こえる, なる)."
+          ],
+          "ex": [
+            { "jp": "{後|うし}ろの{人|ひと}にも{聞|き}こえるように、{大|おお}きい{声|こえ}で{話|はな}してください。", "fr": "Parlez fort pour que les gens du fond entendent aussi." },
+            { "jp": "{日本語|にほんご}が{話|はな}せるように、{毎日|まいにち}{練習|れんしゅう}しています。", "fr": "Je m'entraîne tous les jours pour pouvoir parler japonais." },
+            { "jp": "{忘|わす}れないように、メモします。", "fr": "Je note pour ne pas oublier." }
+          ]
+        }
+      ],
+      "pieges": [
+        "✗ {忘|わす}れないために → {忘|わす}れないように (ne pas oublier n'est pas une action qu'on décide).",
+        "✗ {話|はな}せるために → {話|はな}せるように.",
+        "Ne pas confondre avec ようにする / ようになる (leçon 46)."
+      ],
+      "exercises": [
+        {
+          "id": "n4-74-e01", "type": "choice", "uses": [],
+          "jp": "{日本|にほん}で{働|はたら}く＿、{日本語|にほんご}を{勉強|べんきょう}しています。", "fr": "J'étudie le japonais pour travailler au Japon.",
+          "choices": ["ために", "ように", "ための", "ようで"], "a": 0,
+          "explain": "Action volontaire ({働|はたら}く) : ために."
+        },
+        {
+          "id": "n4-74-e02", "type": "choice", "uses": [],
+          "jp": "{忘|わす}れない＿、メモします。", "fr": "Je note pour ne pas oublier.",
+          "choices": ["ように", "ために", "ような", "ようで"], "a": 0,
+          "explain": "Négatif (pas une action qu'on décide) : ように."
+        },
+        {
+          "id": "n4-74-e03", "type": "choice", "uses": [],
+          "jp": "{家族|かぞく}＿ために{働|はたら}きます。", "fr": "Je travaille pour ma famille.",
+          "choices": ["の", "な", "に", "を"], "a": 0,
+          "explain": "Nom + の + ために."
+        },
+        {
+          "id": "n4-74-e04", "type": "choice", "uses": [],
+          "jp": "{後|うし}ろの{人|ひと}にも{聞|き}こえる＿、{大|おお}きい{声|こえ}で{話|はな}してください。", "fr": "Parlez fort pour que les gens du fond entendent aussi.",
+          "choices": ["ように", "ために", "ような", "ようで"], "a": 0,
+          "explain": "{聞|き}こえる (qu'on ne contrôle pas) : ように."
+        },
+        {
+          "id": "n4-74-e05", "type": "choice", "uses": [],
+          "q": "Une seule de ces phrases est correcte. Laquelle ?",
+          "choices": ["{日本語|にほんご}が{話|はな}せるように、{毎日|まいにち}{練習|れんしゅう}しています。", "{日本語|にほんご}が{話|はな}せるために、{毎日|まいにち}{練習|れんしゅう}しています。", "{日本語|にほんご}が{話|はな}せますように、{毎日|まいにち}{練習|れんしゅう}しています。", "{日本語|にほんご}が{話|はな}せるのように、{毎日|まいにち}{練習|れんしゅう}しています。"], "a": 0,
+          "explain": "Potentiel + ように."
+        },
+        {
+          "id": "n4-74-e06", "type": "order", "uses": [],
+          "fr": "J'économise pour acheter une maison.",
+          "tokens": ["{家|いえ}", "を", "{買|か}う", "ために", "お{金|かね}", "を", "{貯|た}めています"],
+          "explain": "Action volontaire + ために."
+        },
+        {
+          "id": "n4-74-e07", "type": "choice", "uses": [],
+          "jp": "{風邪|かぜ}をひかない＿、{気|き}をつけてください。", "fr": "Faites attention à ne pas attraper froid.",
+          "choices": ["ように", "ために", "ような", "ようで"], "a": 0,
+          "explain": "Négatif + ように."
+        },
+        {
+          "id": "n4-74-e08", "type": "choice", "uses": [],
+          "q": "Que signifie : {健康|けんこう}のために、{毎日|まいにち}{歩|ある}いています。",
+          "choices": ["Je marche tous les jours pour ma santé.", "Je marche tous les jours parce que je suis en bonne santé.", "Je marche tous les jours malgré ma santé.", "Je ne marche pas pour ma santé."], "a": 0,
+          "explain": "Nom + のために = pour."
+        },
+        {
+          "id": "n4-74-e09", "type": "choice", "uses": [],
+          "q": "« Pour que ce soit visible de tous, j'écris en gros. » Quelle phrase ?",
+          "choices": ["みんなに{見|み}えるように、{大|おお}きく{書|か}きます。", "みんなに{見|み}えるために、{大|おお}きく{書|か}きます。", "みんなに{見|み}えるのために、{大|おお}きく{書|か}きます。", "みんなに{見|み}えますように、{大|おお}きく{書|か}きます。"], "a": 0,
+          "explain": "{見|み}える (qu'on ne contrôle pas) : ように."
+        },
+        {
+          "id": "n4-74-e10", "type": "order", "uses": [],
+          "fr": "Je note pour ne pas oublier.",
+          "tokens": ["{忘|わす}れない", "ように", "メモ", "します"],
+          "explain": "ない + ように."
+        },
+        {
+          "id": "n4-74-e11", "type": "choice", "uses": [],
+          "jp": "{子|こ}どもにもわかる＿、やさしい{言葉|ことば}で{説明|せつめい}します。", "fr": "J'explique avec des mots simples pour que même les enfants comprennent.",
+          "choices": ["ように", "ために", "ような", "ようで"], "a": 0,
+          "explain": "わかる (qu'on ne contrôle pas) : ように."
+        },
+        {
+          "id": "n4-74-e12", "type": "choice", "uses": [],
+          "jp": "{留学|りゅうがく}する＿、アルバイトをしています。", "fr": "Je fais un petit boulot pour partir étudier à l'étranger.",
+          "choices": ["ために", "ように", "ための", "ようで"], "a": 0,
+          "explain": "Action volontaire ({留学|りゅうがく}する) : ために."
+        }
+      ]
+    },
+    {
+      "id": "n4-75",
+      "title": "Questions dans une phrase : か・かどうか",
+      "formula": ["Mot interrogatif + … + か : (je ne sais pas) où, quand, quoi…", "Phrase + かどうか : si… ou non", "Forme neutre ; nom / adj. な sans だ"],
+      "sections": [
+        {
+          "h": "Avec un mot interrogatif : か",
+          "p": [
+            "Une question avec {何|なに}, いつ, どこ, {誰|だれ}… peut se glisser dans une phrase : on la met à la forme neutre + **か**."
+          ],
+          "ex": [
+            { "jp": "{会議|かいぎ}が{何時|なんじ}に{始|はじ}まるか{知|し}っていますか。", "fr": "Sais-tu à quelle heure commence la réunion ?" },
+            { "jp": "{彼|かれ}がどこに{住|す}んでいるか{知|し}りません。", "fr": "Je ne sais pas où il habite." },
+            { "jp": "{何|なに}を{買|か}ったか{忘|わす}れました。", "fr": "J'ai oublié ce que j'ai acheté." }
+          ]
+        },
+        {
+          "h": "Oui / non : かどうか",
+          "p": [
+            "Pour une question oui / non : forme neutre + **かどうか** (si… ou non)."
+          ],
+          "ex": [
+            { "jp": "{明日|あした}{雨|あめ}が{降|ふ}るかどうかわかりません。", "fr": "Je ne sais pas s'il pleuvra demain." },
+            { "jp": "この{答|こた}えが{正|ただ}しいかどうか{確|たし}かめてください。", "fr": "Vérifie si cette réponse est juste." },
+            { "jp": "{彼|かれ}が{来|く}るかどうか{聞|き}いてみます。", "fr": "Je vais lui demander s'il vient ou non." }
+          ]
+        }
+      ],
+      "pieges": [
+        "Avec un mot interrogatif : か seul (pas かどうか).",
+        "Pas de だ : {学生|がくせい}かどうか, {本当|ほんとう}かどうか.",
+        "Pas de forme ます dans la question incluse."
+      ],
+      "exercises": [
+        {
+          "id": "n4-75-e01", "type": "choice", "uses": [],
+          "jp": "{明日|あした}{雨|あめ}が{降|ふ}る＿わかりません。", "fr": "Je ne sais pas s'il pleuvra demain.",
+          "choices": ["かどうか", "どうか", "かどう", "とどうか"], "a": 0,
+          "explain": "Oui / non : forme neutre + かどうか."
+        },
+        {
+          "id": "n4-75-e02", "type": "choice", "uses": [],
+          "jp": "{会議|かいぎ}が{何時|なんじ}に{始|はじ}まる＿{知|し}っていますか。", "fr": "Sais-tu à quelle heure commence la réunion ?",
+          "choices": ["か", "かどうか", "を", "が"], "a": 0,
+          "explain": "Avec un mot interrogatif ({何時|なんじ}) : か."
+        },
+        {
+          "id": "n4-75-e03", "type": "choice", "uses": [],
+          "q": "Une seule de ces phrases est correcte. Laquelle ?",
+          "choices": ["{彼|かれ}がどこに{住|す}んでいるか{知|し}りません。", "{彼|かれ}がどこに{住|す}んでいるかどうか{知|し}りません。", "{彼|かれ}がどこに{住|す}んでいますか{知|し}りません。", "{彼|かれ}がどこに{住|す}んでいるを{知|し}りません。"], "a": 0,
+          "explain": "Mot interrogatif + forme neutre + か."
+        },
+        {
+          "id": "n4-75-e04", "type": "choice", "uses": [],
+          "jp": "その{話|はなし}が{本当|ほんとう}＿どうか、{確|たし}かめてください。", "fr": "Vérifie si cette histoire est vraie.",
+          "choices": ["か", "だか", "なか", "のか"], "a": 0,
+          "explain": "Nom / adj. な + かどうか, sans だ."
+        },
+        {
+          "id": "n4-75-e05", "type": "choice", "uses": [],
+          "q": "Que signifie : {彼|かれ}が{来|く}るかどうか{聞|き}いてみます。",
+          "choices": ["Je vais lui demander s'il vient ou non.", "Je vais lui demander de venir.", "Je sais qu'il vient.", "Je ne lui demanderai pas."], "a": 0,
+          "explain": "かどうか = si… ou non."
+        },
+        {
+          "id": "n4-75-e06", "type": "order", "uses": [],
+          "fr": "J'ai oublié ce que j'ai acheté.",
+          "tokens": ["{何|なに}", "を", "{買|か}った", "か", "{忘|わす}れました"],
+          "explain": "Mot interrogatif + … + か."
+        },
+        {
+          "id": "n4-75-e07", "type": "choice", "uses": [],
+          "jp": "この{答|こた}えが{正|ただ}しい＿、{先生|せんせい}に{聞|き}きましょう。", "fr": "Demandons au professeur si cette réponse est juste.",
+          "choices": ["かどうか", "かどう", "だかどうか", "なかどうか"], "a": 0,
+          "explain": "Adj. い + かどうか."
+        },
+        {
+          "id": "n4-75-e08", "type": "choice", "uses": [],
+          "q": "« Savez-vous quand il revient ? » Quelle phrase ?",
+          "choices": ["{彼|かれ}がいつ{帰|かえ}ってくるか{知|し}っていますか。", "{彼|かれ}がいつ{帰|かえ}ってくるかどうか{知|し}っていますか。", "{彼|かれ}がいつ{帰|かえ}ってきますか{知|し}っていますか。", "{彼|かれ}がいつ{帰|かえ}ってくるを{知|し}っていますか。"], "a": 0,
+          "explain": "Mot interrogatif (いつ) + forme neutre + か."
+        },
+        {
+          "id": "n4-75-e09", "type": "choice", "uses": [],
+          "jp": "{誰|だれ}が{来|く}る＿、まだわかりません。", "fr": "On ne sait pas encore qui vient.",
+          "choices": ["か", "かどうか", "が", "を"], "a": 0,
+          "explain": "Avec {誰|だれ} : か."
+        },
+        {
+          "id": "n4-75-e10", "type": "order", "uses": [],
+          "fr": "Je ne sais pas si ce restaurant est bon.",
+          "tokens": ["あの", "{店|みせ}", "が", "おいしい", "かどうか", "わかりません"],
+          "explain": "Adj. い + かどうか."
+        },
+        {
+          "id": "n4-75-e11", "type": "choice", "uses": [],
+          "q": "Une seule de ces phrases est correcte. Laquelle ?",
+          "choices": ["{彼|かれ}が{学生|がくせい}かどうか{知|し}りません。", "{彼|かれ}が{学生|がくせい}だかどうか{知|し}りません。", "{彼|かれ}が{学生|がくせい}ですかどうか{知|し}りません。", "{彼|かれ}が{学生|がくせい}のかどうか{知|し}りません。"], "a": 0,
+          "explain": "Nom + かどうか, sans だ."
+        },
+        {
+          "id": "n4-75-e12", "type": "choice", "uses": ["n4-58"],
+          "jp": "{駅|えき}までどのくらいかかる＿{調|しら}べておきます。", "fr": "Je vais regarder (à l'avance) combien de temps il faut jusqu'à la gare.",
+          "choices": ["か", "かどうか", "が", "の"], "a": 0,
+          "explain": "Avec どのくらい : か."
+        }
+      ]
+    },
+    {
+      "id": "n4-76",
+      "title": "Impératif, interdiction (な), なさい",
+      "formula": ["Impératif : groupe 1 u → e ({行|い}け) · groupe 2 る → ろ ({食|た}べろ)", "する → しろ · {来|く}る → {来|こ}い", "Interdiction : dictionnaire + な ({行|い}くな)", "Ordre doux : base ます + なさい"],
+      "sections": [
+        {
+          "h": "L'impératif",
+          "p": [
+            "Très **direct**, voire brutal : panneaux, urgences, sport, entre garçons proches. Dans la vie courante, on dit 〜てください."
+          ],
+          "grid": {
+            "head": ["", "dictionnaire", "impératif", "interdiction"],
+            "rows": [
+              ["gr. 1", "{行|い}く", "{行|い}け", "{行|い}くな"],
+              ["gr. 1", "{待|ま}つ", "{待|ま}て", "{待|ま}つな"],
+              ["gr. 1", "{走|はし}る", "{走|はし}れ", "{走|はし}るな"],
+              ["gr. 2", "{食|た}べる", "{食|た}べろ", "{食|た}べるな"],
+              ["gr. 2", "{見|み}る", "{見|み}ろ", "{見|み}るな"],
+              ["gr. 3", "する", "しろ", "するな"],
+              ["gr. 3", "{来|く}る", "{来|こ}い", "{来|く}るな"]
+            ]
+          },
+          "ex": [
+            { "jp": "{止|と}まれ", "fr": "Stop (panneau)." },
+            { "jp": "{頑張|がんば}れ！", "fr": "Allez, courage !" }
+          ]
+        },
+        {
+          "h": "L'interdiction : 〜な",
+          "p": [
+            "Forme du dictionnaire + **な** = « ne… pas ! »."
+          ],
+          "ex": [
+            { "jp": "ここに{入|はい}るな。", "fr": "N'entre pas ici." },
+            { "jp": "{心配|しんぱい}するな。", "fr": "Ne t'inquiète pas." }
+          ]
+        },
+        {
+          "h": "〜なさい : ordre doux",
+          "p": [
+            "Base ます + **なさい** : ordre d'un parent, d'un professeur, ou consigne d'exercice."
+          ],
+          "ex": [
+            { "jp": "{早|はや}く{寝|ね}なさい。", "fr": "Va vite te coucher." },
+            { "jp": "{次|つぎ}の{文|ぶん}を{読|よ}みなさい。", "fr": "Lisez la phrase suivante." }
+          ]
+        }
+      ],
+      "pieges": [
+        "Impératif et な sont brutaux : pour demander poliment, 〜てください / 〜ないでください.",
+        "{見|み}るな (interdiction) ≠ いいな (« c'est bien », な d'émotion en fin de phrase).",
+        "{来|く}る → {来|こ}い ; する → しろ."
+      ],
+      "exercises": [
+        {
+          "id": "n4-76-e01", "type": "choice", "uses": [],
+          "q": "Impératif de {行|い}く ?",
+          "choices": ["{行|い}け", "{行|い}こ", "{行|い}き", "{行|い}くれ"], "a": 0,
+          "explain": "Groupe 1 : u → e."
+        },
+        {
+          "id": "n4-76-e02", "type": "choice", "uses": [],
+          "q": "Impératif de {食|た}べる ?",
+          "choices": ["{食|た}べろ", "{食|た}べれ", "{食|た}べろう", "{食|た}べけ"], "a": 0,
+          "explain": "Groupe 2 : る → ろ."
+        },
+        {
+          "id": "n4-76-e03", "type": "choice", "uses": [],
+          "q": "Impératif de {来|く}る ?",
+          "choices": ["こい", "きろ", "くろ", "こよ"], "a": 0,
+          "explain": "{来|く}る → {来|こ}い."
+        },
+        {
+          "id": "n4-76-e04", "type": "choice", "uses": [],
+          "q": "Impératif de する ?",
+          "choices": ["しろ", "すれ", "せろ", "しれ"], "a": 0,
+          "explain": "する → しろ."
+        },
+        {
+          "id": "n4-76-e05", "type": "choice", "uses": [],
+          "q": "Que signifie le panneau 「{止|と}まれ」 ?",
+          "choices": ["Stop (arrêtez-vous).", "Ne vous arrêtez pas.", "On peut s'arrêter ici.", "Arrêt de bus."], "a": 0,
+          "explain": "{止|と}まる → {止|と}まれ (impératif)."
+        },
+        {
+          "id": "n4-76-e06", "type": "choice", "uses": [],
+          "jp": "ここに＿な。", "fr": "N'entre pas ici.",
+          "choices": ["{入|はい}る", "{入|はい}って", "{入|はい}った", "{入|はい}ろ"], "a": 0,
+          "explain": "Interdiction : forme du dictionnaire + な."
+        },
+        {
+          "id": "n4-76-e07", "type": "choice", "uses": [],
+          "jp": "{早|はや}く{寝|ね}＿。", "fr": "Va vite te coucher.",
+          "choices": ["なさい", "ないさい", "なさる", "なさいる"], "a": 0,
+          "explain": "Base ます + なさい."
+        },
+        {
+          "id": "n4-76-e08", "type": "choice", "uses": [],
+          "q": "Que signifie : {心配|しんぱい}するな。",
+          "choices": ["Ne t'inquiète pas.", "Inquiète-toi.", "Il s'inquiète.", "Je m'inquiète."], "a": 0,
+          "explain": "Dictionnaire + な = interdiction."
+        },
+        {
+          "id": "n4-76-e09", "type": "choice", "uses": [],
+          "jp": "{次|つぎ}の{文|ぶん}を{読|よ}み＿。", "fr": "Lisez la phrase suivante.",
+          "choices": ["なさい", "ないさい", "なさいい", "なさえ"], "a": 0,
+          "explain": "Consigne : base ます + なさい."
+        },
+        {
+          "id": "n4-76-e10", "type": "choice", "uses": [],
+          "q": "L'entraîneur crie à un joueur : « Cours ! ». Quelle forme ?",
+          "choices": ["{走|はし}れ！", "{走|はし}れろ！", "{走|はし}りれ！", "{走|はし}るな！"], "a": 0,
+          "explain": "{走|はし}る est du groupe 1 : る → れ."
+        },
+        {
+          "id": "n4-76-e11", "type": "order", "uses": [],
+          "fr": "Ne touche pas ici !",
+          "tokens": ["ここ", "に", "{触|さわ}る", "な"],
+          "explain": "Dictionnaire + な."
+        },
+        {
+          "id": "n4-76-e12", "type": "choice", "uses": [],
+          "q": "Comment dire poliment « Attendez ici » à un client ?",
+          "choices": ["ここで{待|ま}ってください。", "ここで{待|ま}て。", "ここで{待|ま}つな。", "ここで{待|ま}ちなさい。"], "a": 0,
+          "explain": "Avec un client : 〜てください. なさい et l'impératif seraient impolis."
+        },
+        {
+          "id": "n4-76-e13", "type": "choice", "uses": [],
+          "q": "Lequel est une interdiction ?",
+          "choices": ["{見|み}るな", "{見|み}ろ", "{見|み}なさい", "{見|み}たいな"], "a": 0,
+          "explain": "Dictionnaire + な. ({見|み}たいな = j'aimerais voir.)"
+        }
+      ]
+    }
+  ],
+  "test": [
+    {
+      "id": "n4-b15-t01", "type": "choice", "uses": ["n4-72"],
+      "jp": "このアパートは{広|ひろ}い＿、{駅|えき}にも{近|ちか}いです。", "fr": "Cet appartement est grand, et en plus près de la gare.",
+      "choices": ["し", "と", "て", "や"], "a": 0,
+      "explain": "Raisons qui s'ajoutent : し."
+    },
+    {
+      "id": "n4-b15-t02", "type": "choice", "uses": ["n4-73"],
+      "jp": "{約束|やくそく}した＿、{彼女|かのじょ}は{来|き}ませんでした。", "fr": "Elle avait promis, et pourtant elle n'est pas venue.",
+      "choices": ["のに", "なのに", "だのに", "のを"], "a": 0,
+      "explain": "Verbe + のに."
+    },
+    {
+      "id": "n4-b15-t03", "type": "choice", "uses": ["n4-74"],
+      "jp": "{車|くるま}を{買|か}う＿、アルバイトをしています。", "fr": "Je fais un petit boulot pour acheter une voiture.",
+      "choices": ["ために", "ように", "ための", "ようで"], "a": 0,
+      "explain": "Action volontaire : ために."
+    },
+    {
+      "id": "n4-b15-t04", "type": "choice", "uses": ["n4-74"],
+      "jp": "{後|うし}ろの{席|せき}からも{見|み}える＿、{大|おお}きく{書|か}いてください。", "fr": "Écrivez gros, pour que ce soit visible même du fond.",
+      "choices": ["ように", "ために", "ような", "ようで"], "a": 0,
+      "explain": "{見|み}える : ように."
+    },
+    {
+      "id": "n4-b15-t05", "type": "choice", "uses": ["n4-75"],
+      "q": "Une seule de ces phrases est correcte. Laquelle ?",
+      "choices": ["どこで{会|あ}うか{決|き}めましょう。", "どこで{会|あ}うかどうか{決|き}めましょう。", "どこで{会|あ}いますか{決|き}めましょう。", "どこで{会|あ}うを{決|き}めましょう。"], "a": 0,
+      "explain": "Mot interrogatif + forme neutre + か."
+    },
+    {
+      "id": "n4-b15-t06", "type": "choice", "uses": ["n4-75"],
+      "jp": "{明日|あした}のパーティーに{行|い}く＿、まだ{決|き}めていません。", "fr": "Je n'ai pas encore décidé si j'irai à la fête demain.",
+      "choices": ["かどうか", "どうか", "かどう", "とどうか"], "a": 0,
+      "explain": "Oui / non : かどうか."
+    },
+    {
+      "id": "n4-b15-t07", "type": "choice", "uses": ["n4-76"],
+      "q": "Impératif de {待|ま}つ ?",
+      "choices": ["{待|ま}て", "{待|ま}ろ", "{待|ま}ちろ", "{待|ま}つれ"], "a": 0,
+      "explain": "Groupe 1 : つ → て."
+    },
+    {
+      "id": "n4-b15-t08", "type": "choice", "uses": ["n4-76"],
+      "jp": "{早|はや}く＿なさい。", "fr": "Lève-toi vite.",
+      "choices": ["{起|お}き", "{起|お}きる", "{起|お}きて", "{起|お}きろ"], "a": 0,
+      "explain": "Base ます + なさい."
+    },
+    {
+      "id": "n4-b15-t09", "type": "choice", "uses": ["n4-72", "n4-45"],
+      "q": "Que signifie : {雨|あめ}も{降|ふ}っているし、{寒|さむ}いし、{家|いえ}にいよう。",
+      "choices": ["Il pleut, et en plus il fait froid : restons à la maison.", "Il pleut mais il ne fait pas froid.", "Même s'il pleut, sortons.", "Il ne pleut plus, sortons."], "a": 0,
+      "explain": "〜し、〜し : raisons qui s'ajoutent."
+    },
+    {
+      "id": "n4-b15-t10", "type": "order", "uses": ["n4-73"],
+      "fr": "Il a beaucoup mangé, et pourtant il a encore faim.",
+      "tokens": ["たくさん", "{食|た}べた", "のに", "まだ", "おなか", "が", "すいています"],
+      "explain": "Verbe au passé + のに."
+    },
+    {
+      "id": "n4-b15-t11", "type": "choice", "uses": ["n4-74"],
+      "q": "« Je fais attention à ne pas tomber malade. » Quelle phrase ?",
+      "choices": ["{病気|びょうき}にならないように{気|き}をつけています。", "{病気|びょうき}にならないために{気|き}をつけています。", "{病気|びょうき}にならないのように{気|き}をつけています。", "{病気|びょうき}になりませんように{気|き}をつけています。"], "a": 0,
+      "explain": "Négatif + ように."
+    },
+    {
+      "id": "n4-b15-t12", "type": "choice", "uses": ["n4-75"],
+      "jp": "{彼|かれ}が{何|なに}を{言|い}った＿、{覚|おぼ}えていません。", "fr": "Je ne me souviens pas de ce qu'il a dit.",
+      "choices": ["か", "かどうか", "が", "を"], "a": 0,
+      "explain": "Avec {何|なに} : か."
+    },
+    {
+      "id": "n4-b15-t13", "type": "choice", "uses": ["n4-76"],
+      "q": "Lequel est une interdiction ?",
+      "choices": ["{行|い}くな", "{行|い}け", "{行|い}きなさい", "{行|い}こう"], "a": 0,
+      "explain": "Dictionnaire + な."
+    },
+    {
+      "id": "n4-b15-t14", "type": "choice", "uses": ["n4-73"],
+      "jp": "{日曜日|にちようび}＿、{仕事|しごと}に{行|い}かなければなりません。", "fr": "Alors que c'est dimanche, je dois aller travailler.",
+      "choices": ["なのに", "のに", "だのに", "ので"], "a": 0,
+      "explain": "Nom + なのに."
+    },
+    {
+      "id": "n4-b15-t15", "type": "order", "uses": ["n4-75"],
+      "fr": "Je ne sais pas s'il est japonais ou non.",
+      "tokens": ["{彼|かれ}", "が", "{日本人|にほんじん}", "かどうか", "{知|し}りません"],
+      "explain": "Nom + かどうか."
+    }
+  ]
+}
