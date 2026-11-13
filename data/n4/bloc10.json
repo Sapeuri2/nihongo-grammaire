@@ -61,13 +61,13 @@
           "explain": "{降|ふ}る → {降|ふ}った → {降|ふ}ったら."
         },
         {
-          "id": "n4-47-e03", "type": "choice", "uses": ["n5-09"],
+          "id": "n4-47-e03", "type": "choice", "uses": [],
           "jp": "{暇|ひま}＿、{遊|あそ}びに{来|き}てください。", "fr": "Si tu es libre, viens me voir.",
           "choices": ["だったら", "かったら", "ったら", "たら"], "a": 0,
           "explain": "Adj. な : だったら."
         },
         {
-          "id": "n4-47-e04", "type": "choice", "uses": ["n5-08"],
+          "id": "n4-47-e04", "type": "choice", "uses": [],
           "jp": "この{服|ふく}がもう{少|すこ}し{安|やす}＿、{買|か}います。", "fr": "Si ce vêtement était un peu moins cher, je l'achèterais.",
           "choices": ["かったら", "だったら", "いたら", "くたら"], "a": 0,
           "explain": "Adj. い : い → かったら."
@@ -91,7 +91,7 @@
           "explain": "ある → あった → あったら."
         },
         {
-          "id": "n4-47-e08", "type": "order", "uses": ["n5-13"],
+          "id": "n4-47-e08", "type": "order", "uses": [],
           "fr": "Une fois diplômé de l'université, je veux travailler au Japon.",
           "tokens": ["{大学|だいがく}", "を", "{卒業|そつぎょう}したら", "{日本|にほん}", "で", "{働|はたら}きたいです"],
           "explain": "〜したら = une fois que…"
@@ -243,7 +243,7 @@
           "explain": "いい → よければ. Avec un adjectif (un état), ば peut être suivi d'une invitation."
         },
         {
-          "id": "n4-48-e10", "type": "order", "uses": ["n5-37"],
+          "id": "n4-48-e10", "type": "order", "uses": [],
           "fr": "Si tu t'entraînes, tu deviendras bon.",
           "tokens": ["{練習|れんしゅう}", "すれば", "{上手|じょうず}", "に", "なりますよ"],
           "explain": "する → すれば. {上手|じょうず}になる = devenir bon."
@@ -261,7 +261,7 @@
           "explain": "ば = si (condition)."
         },
         {
-          "id": "n4-48-e13", "type": "choice", "uses": ["n5-38"],
+          "id": "n4-48-e13", "type": "choice", "uses": [],
           "jp": "A：{日本語|にほんご}が{上手|じょうず}になりたいんです。B：{毎日|まいにち}{話|はな}せば＿よ。", "fr": "A : Je voudrais devenir bon en japonais. B : Il suffit de parler tous les jours.",
           "choices": ["いいです", "よかったです", "いいでした", "いいます"], "a": 0,
           "explain": "〜ばいいです = il suffit de."
@@ -343,7 +343,7 @@
           "explain": "Indication de chemin avec と."
         },
         {
-          "id": "n4-49-e07", "type": "order", "uses": ["n5-37"],
+          "id": "n4-49-e07", "type": "order", "uses": [],
           "fr": "Quand il fait froid, j'ai mal aux mains.",
           "tokens": ["{寒|さむ}い", "と", "{手|て}", "が", "{痛|いた}く", "なります"],
           "explain": "Adj. い + と ; {痛|いた}い → {痛|いた}くなる."
@@ -420,13 +420,13 @@
       ],
       "exercises": [
         {
-          "id": "n4-50-e01", "type": "choice", "uses": ["n5-13"],
+          "id": "n4-50-e01", "type": "choice", "uses": [],
           "jp": "A：{京都|きょうと}に{行|い}きたいです。B：{京都|きょうと}に{行|い}く＿、{秋|あき}がいいですよ。", "fr": "A : J'aimerais aller à Kyoto. B : Si tu vas à Kyoto, l'automne, c'est bien.",
           "choices": ["なら", "たら", "ば", "だら"], "a": 0,
           "explain": "On reprend ce que dit l'autre pour conseiller : なら. ({行|い}くたら, {行|い}くば n'existent pas.)"
         },
         {
-          "id": "n4-50-e02", "type": "choice", "uses": ["n5-38"],
+          "id": "n4-50-e02", "type": "choice", "uses": [],
           "jp": "A：カメラを{買|か}いたいんですが。B：カメラ＿、あの{店|みせ}が{安|やす}いですよ。", "fr": "A : Je voudrais acheter un appareil photo. B : Pour un appareil photo, ce magasin est bon marché.",
           "choices": ["なら", "だなら", "ったら", "れば"], "a": 0,
           "explain": "Nom + なら (sans だ)."
@@ -438,7 +438,7 @@
           "explain": "On prend le shinkansen AVANT d'arriver à Kyoto : seul なら convient."
         },
         {
-          "id": "n4-50-e04", "type": "choice", "uses": ["n5-12"],
+          "id": "n4-50-e04", "type": "choice", "uses": [],
           "jp": "A：{明日|あした}は{暇|ひま}です。B：{暇|ひま}＿、{一緒|いっしょ}に{映画|えいが}を{見|み}ませんか。", "fr": "A : Demain, je suis libre. B : Si tu es libre, on va voir un film ensemble ?",
           "choices": ["なら", "だなら", "ければ", "くたら"], "a": 0,
           "explain": "Adj. な + なら."
@@ -450,7 +450,7 @@
           "explain": "なら : on se prépare avant."
         },
         {
-          "id": "n4-50-e06", "type": "choice", "uses": ["n5-31"],
+          "id": "n4-50-e06", "type": "choice", "uses": [],
           "jp": "A：{日本|にほん}の{料理|りょうり}が{好|す}きです。B：{日本料理|にほんりょうり}＿、すしがいちばんおいしいですよ。", "fr": "A : J'aime la cuisine japonaise. B : En cuisine japonaise, ce sont les sushis les meilleurs.",
           "choices": ["なら", "だなら", "たら", "ば"], "a": 0,
           "explain": "Nom + なら : « s'il s'agit de… »."
@@ -601,7 +601,7 @@
           "explain": "Forme て + も."
         },
         {
-          "id": "n4-51-e11", "type": "choice", "uses": ["n5-20"],
+          "id": "n4-51-e11", "type": "choice", "uses": [],
           "jp": "A：{来|こ}なくてもいいですよ。B：いいえ、{忙|いそが}しく＿{行|い}きます。", "fr": "A : Tu n'es pas obligé de venir. B : Si, même occupé, je viens.",
           "choices": ["ても", "でも", "たら", "は"], "a": 0,
           "explain": "Adj. い : {忙|いそが}しい → {忙|いそが}しくても."
@@ -722,7 +722,7 @@
       "explain": "Forme du dictionnaire + ようになる : un changement."
     },
     {
-      "id": "n4-x01-03", "type": "choice", "uses": ["n4-45", "n5-26"],
+      "id": "n4-x01-03", "type": "choice", "uses": ["n4-45"],
       "q": "Ton ami : 「{明日|あした}、{海|うみ}に{行|い}かない？」 Tu acceptes. Que réponds-tu ?",
       "choices": ["うん、{行|い}こう！", "うん、{行|い}かない！", "うん、{行|い}きよう！", "うん、{行|い}くつもりはない！"], "a": 0,
       "explain": "Accepter une invitation en style neutre : volitif {行|い}こう."

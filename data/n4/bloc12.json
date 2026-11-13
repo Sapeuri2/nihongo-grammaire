@@ -1,0 +1,749 @@
+{
+  "id": "n4-b12",
+  "level": "N4",
+  "title": "Nuances avec て : しまう, おく, みる, ある, いく / くる",
+  "lessons": [
+    {
+      "id": "n4-57",
+      "title": "てしまう : finir complètement, malheureusement",
+      "formula": ["Verbe て + しまう", "1. finir complètement", "2. regret, accident : malheureusement", "Familier : 〜ちゃう / 〜じゃう"],
+      "sections": [
+        {
+          "h": "Finir complètement",
+          "p": [
+            "〜てしまう insiste sur le fait qu'une action est **entièrement terminée**."
+          ],
+          "ex": [
+            { "jp": "{宿題|しゅくだい}はもう{全部|ぜんぶ}やってしまいました。", "fr": "J'ai déjà fini tous mes devoirs." },
+            { "jp": "この{本|ほん}は{一日|いちにち}で{読|よ}んでしまいました。", "fr": "J'ai lu ce livre en entier en une journée." }
+          ]
+        },
+        {
+          "h": "Regret, accident",
+          "p": [
+            "Très souvent, 〜てしまう dit qu'une chose s'est faite **sans le vouloir** ou qu'on le **regrette**."
+          ],
+          "ex": [
+            { "jp": "{電車|でんしゃ}に{傘|かさ}を{忘|わす}れてしまいました。", "fr": "J'ai oublié mon parapluie dans le train (zut)." },
+            { "jp": "{大事|だいじ}なコップを{割|わ}ってしまいました。", "fr": "J'ai cassé un verre précieux." },
+            { "jp": "{寝坊|ねぼう}してしまいました。", "fr": "Je ne me suis pas réveillé à temps." }
+          ]
+        },
+        {
+          "h": "À l'oral : ちゃう・じゃう",
+          "p": [
+            "てしまう → **ちゃう** ; でしまう → **じゃう**. Au passé : ちゃった / じゃった."
+          ],
+          "ex": [
+            { "jp": "{忘|わす}れちゃった。", "fr": "J'ai oublié !" },
+            { "jp": "{全部|ぜんぶ}{飲|の}んじゃった。", "fr": "J'ai tout bu." },
+            { "jp": "{遅|おく}れちゃう！", "fr": "Je vais être en retard !" }
+          ]
+        }
+      ],
+      "pieges": [
+        "で → じゃう : {飲|の}んでしまう → {飲|の}んじゃう (pas {飲|の}んちゃう).",
+        "しまう se conjugue comme un verbe du groupe 1 : しまいます, しまった, しまって."
+      ],
+      "exercises": [
+        {
+          "id": "n4-57-e01", "type": "choice", "uses": [],
+          "jp": "{電車|でんしゃ}に{傘|かさ}を{忘|わす}れて＿。", "fr": "J'ai oublié mon parapluie dans le train.",
+          "choices": ["しまいました", "しまいりました", "しまえました", "しまいた"], "a": 0,
+          "explain": "Regret : 〜てしまいました."
+        },
+        {
+          "id": "n4-57-e02", "type": "choice", "uses": [],
+          "jp": "{大事|だいじ}なコップを＿しまいました。", "fr": "J'ai cassé un verre précieux.",
+          "choices": ["{割|わ}って", "{割|わ}れて", "{割|わ}りて", "{割|わ}った"], "a": 0,
+          "explain": "{割|わ}る (casser quelque chose, avec を) → {割|わ}って. {割|わ}れる = se casser (sans を)."
+        },
+        {
+          "id": "n4-57-e03", "type": "choice", "uses": [],
+          "q": "Que signifie : この{本|ほん}は{一日|いちにち}で{読|よ}んでしまいました。",
+          "choices": ["J'ai lu ce livre en entier en une journée.", "Je n'ai pas pu lire ce livre.", "Je vais lire ce livre demain.", "Je lis un peu ce livre chaque jour."], "a": 0,
+          "explain": "てしまう = action complètement terminée."
+        },
+        {
+          "id": "n4-57-e04", "type": "choice", "uses": [],
+          "q": "Forme familière de {忘|わす}れてしまった ?",
+          "choices": ["{忘|わす}れちゃった", "{忘|わす}れじゃった", "{忘|わす}れしまった", "{忘|わす}れてちゃった"], "a": 0,
+          "explain": "てしまった → ちゃった."
+        },
+        {
+          "id": "n4-57-e05", "type": "choice", "uses": [],
+          "q": "Forme familière de {飲|の}んでしまった ?",
+          "choices": ["{飲|の}んじゃった", "{飲|の}んちゃった", "{飲|の}みちゃった", "{飲|の}んでちゃった"], "a": 0,
+          "explain": "でしまった → じゃった."
+        },
+        {
+          "id": "n4-57-e06", "type": "choice", "uses": [],
+          "jp": "あ、もうこんな{時間|じかん}！{遅|おく}れ＿！", "fr": "Oh, déjà cette heure-là ! Je vais être en retard !",
+          "choices": ["ちゃう", "じゃう", "しまう", "ちょう"], "a": 0,
+          "explain": "{遅|おく}れてしまう → {遅|おく}れちゃう."
+        },
+        {
+          "id": "n4-57-e07", "type": "order", "uses": [],
+          "fr": "J'ai fini tous mes devoirs.",
+          "tokens": ["{宿題|しゅくだい}", "は", "{全部|ぜんぶ}", "やって", "しまいました"],
+          "explain": "Action complètement terminée : てしまう."
+        },
+        {
+          "id": "n4-57-e08", "type": "choice", "uses": [],
+          "q": "Tu as mangé le gâteau de ta sœur sans le vouloir. Que dis-tu ?",
+          "choices": ["{妹|いもうと}のケーキを{食|た}べてしまいました。", "{妹|いもうと}のケーキを{食|た}べておきました。", "{妹|いもうと}のケーキを{食|た}べてみました。", "{妹|いもうと}のケーキを{食|た}べてあげました。"], "a": 0,
+          "explain": "Regret : てしまう."
+        },
+        {
+          "id": "n4-57-e09", "type": "choice", "uses": [],
+          "jp": "{昨日|きのう}は{寝坊|ねぼう}して＿、{授業|じゅぎょう}に{遅|おく}れました。", "fr": "Hier, je ne me suis pas réveillé et je suis arrivé en retard en cours.",
+          "choices": ["しまって", "しまいて", "しまった", "しまう"], "a": 0,
+          "explain": "Pour enchaîner, しまう se met à la forme て : しまって."
+        },
+        {
+          "id": "n4-57-e10", "type": "order", "uses": [],
+          "fr": "J'ai perdu les clés de ma chambre.",
+          "tokens": ["{部屋|へや}", "の", "かぎ", "を", "なくして", "しまいました"],
+          "explain": "なくす = perdre ; てしまう = malheureusement."
+        },
+        {
+          "id": "n4-57-e11", "type": "choice", "uses": [],
+          "jp": "A：ケーキは？　B：ごめん、{全部|ぜんぶ}{食|た}べ＿。", "fr": "A : Et le gâteau ? B : Désolé, je l'ai tout mangé.",
+          "choices": ["ちゃった", "じゃった", "しまった", "ちった"], "a": 0,
+          "explain": "{食|た}べてしまった → {食|た}べちゃった."
+        },
+        {
+          "id": "n4-57-e12", "type": "choice", "uses": [],
+          "q": "Laquelle exprime un regret ?",
+          "choices": ["{財布|さいふ}を{落|お}としてしまいました。", "{財布|さいふ}を{買|か}いました。", "{財布|さいふ}をもらいました。", "{財布|さいふ}を{見|み}せました。"], "a": 0,
+          "explain": "てしまう exprime souvent le regret."
+        }
+      ]
+    },
+    {
+      "id": "n4-58",
+      "title": "ておく : faire à l'avance, laisser tel quel",
+      "formula": ["Verbe て + おく", "1. faire à l'avance (pour se préparer)", "2. laisser dans cet état", "Familier : 〜とく / 〜どく"],
+      "sections": [
+        {
+          "h": "Préparer à l'avance",
+          "p": [
+            "〜ておく = faire quelque chose **maintenant, en vue d'après**."
+          ],
+          "ex": [
+            { "jp": "{旅行|りょこう}の{前|まえ}に、ホテルを{予約|よやく}しておきます。", "fr": "Avant le voyage, je réserve l'hôtel." },
+            { "jp": "{授業|じゅぎょう}の{前|まえ}に、{教科書|きょうかしょ}を{読|よ}んでおいてください。", "fr": "Lisez le manuel avant le cours." },
+            { "jp": "パーティーのために、ビールを{買|か}っておきました。", "fr": "J'ai acheté de la bière pour la fête." }
+          ]
+        },
+        {
+          "h": "Laisser tel quel",
+          "p": [
+            "〜ておく = aussi **laisser** quelque chose dans un état."
+          ],
+          "ex": [
+            { "jp": "{暑|あつ}いので、{窓|まど}を{開|あ}けておきます。", "fr": "Il fait chaud, je laisse la fenêtre ouverte." },
+            { "jp": "そのままにしておいてください。", "fr": "Laissez comme ça." }
+          ]
+        },
+        {
+          "h": "À l'oral : とく・どく",
+          "p": [
+            "ておく → **とく** ; でおく → **どく** : {買|か}っとく, {読|よ}んどく, {読|よ}んどいて."
+          ]
+        }
+      ],
+      "pieges": [
+        "おく se conjugue comme un verbe du groupe 1 : おきます, おいて, おいた.",
+        "{読|よ}んでおく → {読|よ}んどく (pas {読|よ}んとく)."
+      ],
+      "exercises": [
+        {
+          "id": "n4-58-e01", "type": "choice", "uses": [],
+          "jp": "{旅行|りょこう}の{前|まえ}に、ホテルを{予約|よやく}して＿。", "fr": "Avant le voyage, je réserve l'hôtel.",
+          "choices": ["おきます", "おくます", "おきいます", "おいます"], "a": 0,
+          "explain": "Faire à l'avance : ておきます."
+        },
+        {
+          "id": "n4-58-e02", "type": "choice", "uses": [],
+          "jp": "{授業|じゅぎょう}の{前|まえ}に、{教科書|きょうかしょ}を＿おいてください。", "fr": "Lisez le manuel avant le cours.",
+          "choices": ["{読|よ}んで", "{読|よ}みて", "{読|よ}んだ", "{読|よ}む"], "a": 0,
+          "explain": "Forme て + おく."
+        },
+        {
+          "id": "n4-58-e03", "type": "choice", "uses": [],
+          "q": "Que signifie : {暑|あつ}いので、{窓|まど}を{開|あ}けておきます。",
+          "choices": ["Il fait chaud, je laisse la fenêtre ouverte.", "Il fait chaud, la fenêtre s'est ouverte toute seule.", "J'ai ouvert la fenêtre par erreur.", "Si tu as chaud, ouvre la fenêtre."], "a": 0,
+          "explain": "ておく = laisser dans un état."
+        },
+        {
+          "id": "n4-58-e04", "type": "choice", "uses": [],
+          "q": "Forme familière de {買|か}っておく ?",
+          "choices": ["{買|か}っとく", "{買|か}っどく", "{買|か}いとく", "{買|か}ってっとく"], "a": 0,
+          "explain": "ておく → とく."
+        },
+        {
+          "id": "n4-58-e05", "type": "choice", "uses": [],
+          "jp": "お{客|きゃく}さんが{来|く}る{前|まえ}に、{部屋|へや}を{掃除|そうじ}して＿ましょう。", "fr": "Faisons le ménage avant que les invités arrivent.",
+          "choices": ["おき", "おか", "おけ", "おく"], "a": 0,
+          "explain": "おく → おきましょう."
+        },
+        {
+          "id": "n4-58-e06", "type": "order", "uses": [],
+          "fr": "J'ai acheté de la bière pour la fête (à l'avance).",
+          "tokens": ["パーティー", "の", "ために", "ビール", "を", "{買|か}って", "おきました"],
+          "explain": "Préparer : ておく."
+        },
+        {
+          "id": "n4-58-e07", "type": "choice", "uses": [],
+          "jp": "そのままにして＿ください。", "fr": "Laissez comme ça.",
+          "choices": ["おいて", "おきて", "おって", "おいって"], "a": 0,
+          "explain": "おく → おいて (comme {書|か}く → {書|か}いて)."
+        },
+        {
+          "id": "n4-58-e08", "type": "choice", "uses": [],
+          "q": "Ton ami : 「{明日|あした}の{会議|かいぎ}の{前|まえ}に{読|よ}んどいて。」 Que veut-il ?",
+          "choices": ["Que tu le lises avant la réunion de demain.", "Qu'il le lira demain.", "Que tu ne le lises pas.", "Que tu l'as déjà lu."], "a": 0,
+          "explain": "{読|よ}んどいて = {読|よ}んでおいて."
+        },
+        {
+          "id": "n4-58-e09", "type": "choice", "uses": [],
+          "jp": "{試験|しけん}の{前|まえ}に、{単語|たんご}をよく{覚|おぼ}えて＿ください。", "fr": "Avant l'examen, apprenez bien le vocabulaire.",
+          "choices": ["おいて", "おきて", "おって", "おけて"], "a": 0,
+          "explain": "ておく + ください → ておいてください."
+        },
+        {
+          "id": "n4-58-e10", "type": "order", "uses": [],
+          "fr": "Laisse la lumière allumée, s'il te plaît.",
+          "tokens": ["{電気|でんき}", "を", "つけて", "おいて", "ください"],
+          "explain": "Laisser allumé : つけておく."
+        },
+        {
+          "id": "n4-58-e11", "type": "choice", "uses": [],
+          "q": "Laquelle veut dire « faire à l'avance » ?",
+          "choices": ["{切符|きっぷ}を{買|か}っておきます。", "{切符|きっぷ}を{買|か}ってしまいます。", "{切符|きっぷ}を{買|か}ってみます。", "{切符|きっぷ}を{買|か}ってあげます。"], "a": 0,
+          "explain": "ておく = préparer. てしまう = finir, てみる = essayer, てあげる = pour quelqu'un."
+        },
+        {
+          "id": "n4-58-e12", "type": "choice", "uses": [],
+          "jp": "{来週|らいしゅう}の{会議|かいぎ}の{資料|しりょう}を{作|つく}っ＿。", "fr": "J'ai préparé (à l'avance) les documents de la réunion de la semaine prochaine.",
+          "choices": ["ておきました", "ておくました", "ておきった", "ていおきました"], "a": 0,
+          "explain": "{作|つく}って + おきました."
+        }
+      ]
+    },
+    {
+      "id": "n4-59",
+      "title": "てみる : essayer (pour voir)",
+      "formula": ["Verbe て + みる : essayer, faire pour voir", "〜てみたい : j'aimerais essayer", "〜てみてください : essaie donc"],
+      "sections": [
+        {
+          "h": "Le sens",
+          "p": [
+            "〜てみる = faire quelque chose **pour voir** ce que ça donne.",
+            "Dans ce sens, みる s'écrit en **hiragana**."
+          ],
+          "ex": [
+            { "jp": "{着物|きもの}を{着|き}てみました。", "fr": "J'ai essayé de porter un kimono." },
+            { "jp": "この{料理|りょうり}を{食|た}べてみてください。", "fr": "Goûte donc ce plat." },
+            { "jp": "{一度|いちど}{富士山|ふじさん}に{登|のぼ}ってみたいです。", "fr": "J'aimerais faire l'ascension du mont Fuji une fois." }
+          ]
+        },
+        {
+          "h": "Avec たら : essayer et découvrir",
+          "p": [
+            "〜てみたら、〜 = j'ai essayé, et (j'ai découvert que)…"
+          ],
+          "ex": [
+            { "jp": "{新|あたら}しいレストランに{行|い}ってみたら、とてもおいしかったです。", "fr": "Je suis allé essayer le nouveau restaurant : c'était très bon." }
+          ]
+        }
+      ],
+      "pieges": [
+        "みる (essayer) s'écrit en hiragana.",
+        "〜てみる : on le fait vraiment, pour voir (pas « essayer sans réussir »)."
+      ],
+      "exercises": [
+        {
+          "id": "n4-59-e01", "type": "choice", "uses": [],
+          "jp": "この{料理|りょうり}、おいしいですよ。{食|た}べて＿ください。", "fr": "Ce plat est bon. Goûte-le donc.",
+          "choices": ["みて", "みって", "みりて", "みえて"], "a": 0,
+          "explain": "みる → みて → てみてください."
+        },
+        {
+          "id": "n4-59-e02", "type": "choice", "uses": [],
+          "jp": "{一度|いちど}、{富士山|ふじさん}に{登|のぼ}って＿です。", "fr": "J'aimerais faire l'ascension du mont Fuji une fois.",
+          "choices": ["みたい", "みるい", "みた", "みって"], "a": 0,
+          "explain": "てみる + たい = j'aimerais essayer."
+        },
+        {
+          "id": "n4-59-e03", "type": "choice", "uses": [],
+          "q": "Que signifie : {着物|きもの}を{着|き}てみました。",
+          "choices": ["J'ai essayé de porter un kimono (pour voir).", "J'ai regardé un kimono.", "J'ai porté un kimono pour quelqu'un.", "Je n'ai jamais porté de kimono."], "a": 0,
+          "explain": "てみる = faire pour voir."
+        },
+        {
+          "id": "n4-59-e04", "type": "order", "uses": [],
+          "fr": "J'ai essayé d'appeler, mais personne n'a répondu.",
+          "tokens": ["{電話|でんわ}", "して", "みました", "が", "{誰|だれ}も", "{出|で}ませんでした"],
+          "explain": "〜てみましたが = j'ai essayé, mais…"
+        },
+        {
+          "id": "n4-59-e05", "type": "choice", "uses": [],
+          "jp": "{新|あたら}しい{靴|くつ}を＿みてもいいですか。", "fr": "Je peux essayer les nouvelles chaussures ?",
+          "choices": ["{履|は}いて", "{履|は}きて", "{履|は}いた", "{履|は}く"], "a": 0,
+          "explain": "{履|は}く → {履|は}いて."
+        },
+        {
+          "id": "n4-59-e06", "type": "choice", "uses": [],
+          "q": "Tu proposes à un ami d'essayer ce jeu. Que dis-tu ?",
+          "choices": ["このゲーム、やってみて。", "このゲーム、やってしまって。", "このゲーム、やっておいて。", "このゲーム、やってあって。"], "a": 0,
+          "explain": "Essayer : てみる."
+        },
+        {
+          "id": "n4-59-e07", "type": "choice", "uses": [],
+          "jp": "わからない{言葉|ことば}は、{辞書|じしょ}で{調|しら}べて＿ましょう。", "fr": "Les mots qu'on ne comprend pas, cherchons-les dans le dictionnaire.",
+          "choices": ["み", "みり", "みえ", "みて"], "a": 0,
+          "explain": "みる → みましょう."
+        },
+        {
+          "id": "n4-59-e08", "type": "choice", "uses": [],
+          "q": "Dans quelle phrase みる veut dire « essayer » ?",
+          "choices": ["{日本語|にほんご}で{手紙|てがみ}を{書|か}いてみました。", "{毎晩|まいばん}テレビを{見|み}ます。", "{窓|まど}から{海|うみ}が{見|み}えます。", "{映画|えいが}を{見|み}に{行|い}きます。"], "a": 0,
+          "explain": "Verbe て + みる (en hiragana) = essayer."
+        },
+        {
+          "id": "n4-59-e09", "type": "order", "uses": [],
+          "fr": "J'aimerais essayer de vivre au Japon.",
+          "tokens": ["{日本|にほん}", "に", "{住|す}んで", "みたい", "です"],
+          "explain": "{住|す}む → {住|す}んで + みたい."
+        },
+        {
+          "id": "n4-59-e10", "type": "choice", "uses": ["n4-47"],
+          "jp": "{新|あたら}しいレストランに{行|い}って＿たら、とてもおいしかったです。", "fr": "Je suis allé essayer le nouveau restaurant : c'était très bon.",
+          "choices": ["み", "みっ", "みえ", "みり"], "a": 0,
+          "explain": "てみる → てみた → てみたら (découverte)."
+        },
+        {
+          "id": "n4-59-e11", "type": "choice", "uses": [],
+          "q": "Une seule de ces phrases est correcte. Laquelle ?",
+          "choices": ["ちょっと{考|かんが}えてみます。", "ちょっと{考|かんが}えみます。", "ちょっと{考|かんが}えてみります。", "ちょっと{考|かんが}えて{見|み}えます。"], "a": 0,
+          "explain": "Forme て + みる."
+        },
+        {
+          "id": "n4-59-e12", "type": "order", "uses": [],
+          "fr": "Essaie de le dire encore une fois.",
+          "tokens": ["もう{一度|いちど}", "{言|い}って", "みて", "ください"],
+          "explain": "てみてください = essaie donc."
+        }
+      ]
+    },
+    {
+      "id": "n4-60",
+      "title": "てある : c'est fait (et ça reste)",
+      "formula": ["Verbe transitif (avec を) て + ある", "Objet + が + 〜てある", "Quelqu'un l'a fait exprès, le résultat reste", "≠ verbe intransitif + ている (simple état)"],
+      "sections": [
+        {
+          "h": "Le sens",
+          "p": [
+            "〜てある décrit un **résultat visible** d'une action que quelqu'un a faite **exprès**. L'objet devient sujet (が)."
+          ],
+          "ex": [
+            { "jp": "{壁|かべ}に{絵|え}がかけてあります。", "fr": "Un tableau est accroché au mur." },
+            { "jp": "{机|つくえ}の{上|うえ}にメモが{置|お}いてあります。", "fr": "Une note a été posée sur le bureau." },
+            { "jp": "ビールは{冷蔵庫|れいぞうこ}に{入|い}れてあります。", "fr": "La bière est (déjà) au frigo." }
+          ]
+        },
+        {
+          "h": "てある ou ている ?",
+          "p": [
+            "**Verbe intransitif + ている** : simple constat d'un état ({窓|まど}が{開|あ}いています = la fenêtre est ouverte).",
+            "**Verbe transitif + てある** : quelqu'un l'a fait exprès ({窓|まど}が{開|あ}けてあります = on a ouvert la fenêtre, exprès)."
+          ],
+          "vocab": [
+            { "jp": "{開|あ}く / {開|あ}ける", "fr": "s'ouvrir / ouvrir" },
+            { "jp": "{閉|し}まる / {閉|し}める", "fr": "se fermer / fermer" },
+            { "jp": "つく / つける", "fr": "s'allumer / allumer" },
+            { "jp": "{消|き}える / {消|け}す", "fr": "s'éteindre / éteindre" },
+            { "jp": "かかる / かける", "fr": "être accroché / accrocher" },
+            { "jp": "{並|なら}ぶ / {並|なら}べる", "fr": "être aligné / aligner" },
+            { "jp": "{入|はい}る / {入|い}れる", "fr": "entrer / mettre dedans" }
+          ]
+        }
+      ],
+      "pieges": [
+        "てある : seulement avec un verbe **transitif** ({開|あ}ける, {書|か}く, {置|お}く…).",
+        "Avec てある, l'objet prend が : {名前|なまえ}**が**{書|か}いてある."
+      ],
+      "exercises": [
+        {
+          "id": "n4-60-e01", "type": "choice", "uses": [],
+          "jp": "{壁|かべ}にカレンダーがかけて＿。", "fr": "Un calendrier est accroché au mur.",
+          "choices": ["あります", "います", "おきます", "みます"], "a": 0,
+          "explain": "Verbe transitif (かける) + が + てある."
+        },
+        {
+          "id": "n4-60-e02", "type": "choice", "uses": [],
+          "jp": "{窓|まど}が{開|あ}けて＿。", "fr": "La fenêtre a été ouverte (exprès).",
+          "choices": ["あります", "います", "しまいます", "みます"], "a": 0,
+          "explain": "{開|あ}ける (transitif) + てある."
+        },
+        {
+          "id": "n4-60-e03", "type": "choice", "uses": [],
+          "jp": "{窓|まど}が{開|あ}いて＿。", "fr": "La fenêtre est ouverte.",
+          "choices": ["います", "あります", "おきます", "みます"], "a": 0,
+          "explain": "{開|あ}く (intransitif) + ている = état."
+        },
+        {
+          "id": "n4-60-e04", "type": "choice", "uses": [],
+          "q": "Que signifie : {机|つくえ}の{上|うえ}にメモが{置|お}いてあります。",
+          "choices": ["Une note a été posée sur le bureau (exprès).", "Je vais poser une note sur le bureau.", "Une note est tombée sur le bureau.", "Pose une note sur le bureau."], "a": 0,
+          "explain": "てある = quelqu'un l'a fait, le résultat reste."
+        },
+        {
+          "id": "n4-60-e05", "type": "choice", "uses": [],
+          "q": "Une seule de ces phrases est correcte. Laquelle ?",
+          "choices": ["{電気|でんき}がつけてあります。", "{電気|でんき}がついてあります。", "{電気|でんき}がつけています。", "{電気|でんき}がつけてあるます。"], "a": 0,
+          "explain": "つける (transitif) + てある. ついている serait aussi correct, mais ついてある n'existe pas."
+        },
+        {
+          "id": "n4-60-e06", "type": "order", "uses": [],
+          "fr": "Le nom est écrit ici.",
+          "tokens": ["ここ", "に", "{名前|なまえ}", "が", "{書|か}いて", "あります"],
+          "alt": [["{名前|なまえ}", "が", "ここ", "に", "{書|か}いて", "あります"]],
+          "explain": "{書|か}く (transitif) + てある."
+        },
+        {
+          "id": "n4-60-e07", "type": "choice", "uses": [],
+          "q": "La porte s'est fermée toute seule (à cause du vent). Que dis-tu ?",
+          "choices": ["ドアが{閉|し}まっています。", "ドアが{閉|し}めてあります。", "ドアが{閉|し}まってあります。", "ドアを{閉|し}めてあります。"], "a": 0,
+          "explain": "Personne ne l'a fermée exprès : intransitif + ている."
+        },
+        {
+          "id": "n4-60-e08", "type": "choice", "uses": [],
+          "jp": "ビールはもう{冷蔵庫|れいぞうこ}に{入|い}れて＿よ。", "fr": "La bière est déjà au frigo.",
+          "choices": ["あります", "あれます", "ありです", "あるます"], "a": 0,
+          "explain": "{入|い}れる (transitif) + てあります."
+        },
+        {
+          "id": "n4-60-e09", "type": "choice", "uses": [],
+          "q": "てある se construit avec…",
+          "choices": ["un verbe qui a un objet ({開|あ}ける, {書|か}く, {置|お}く…)", "un verbe sans objet ({開|あ}く, {落|お}ちる…)", "un adjectif", "un nom"], "a": 0,
+          "explain": "てある : verbe transitif."
+        },
+        {
+          "id": "n4-60-e10", "type": "order", "uses": [],
+          "fr": "Les chaises sont alignées (quelqu'un les a rangées).",
+          "tokens": ["いす", "が", "{並|なら}べて", "あります"],
+          "explain": "{並|なら}べる (transitif) + てある."
+        },
+        {
+          "id": "n4-60-e11", "type": "choice", "uses": [],
+          "jp": "{黒板|こくばん}に{字|じ}が＿あります。", "fr": "Des caractères sont écrits au tableau.",
+          "choices": ["{書|か}いて", "{書|か}きて", "{書|か}いた", "{書|か}く"], "a": 0,
+          "explain": "Forme て + ある."
+        },
+        {
+          "id": "n4-60-e12", "type": "choice", "uses": [],
+          "q": "{窓|まど}が{開|あ}いています / {窓|まど}が{開|あ}けてあります. Que dit la 2e phrase en plus ?",
+          "choices": ["Que quelqu'un l'a ouverte exprès.", "Que la fenêtre vient de s'ouvrir.", "Que la fenêtre est cassée.", "Que je vais l'ouvrir."], "a": 0,
+          "explain": "てある = résultat d'une action volontaire."
+        }
+      ]
+    },
+    {
+      "id": "n4-61",
+      "title": "ていく・てくる : aller et venir, changer",
+      "formula": ["Verbe て + くる : faire et revenir, apporter / changement jusqu'à maintenant", "Verbe て + いく : partir en faisant, emporter / changement à partir de maintenant", "{持|も}っていく / {持|も}ってくる : emporter / apporter"],
+      "sections": [
+        {
+          "h": "Le mouvement",
+          "p": [
+            "〜ていく : s'éloigner en faisant ; 〜てくる : venir en faisant, ou aller faire puis **revenir**."
+          ],
+          "ex": [
+            { "jp": "{傘|かさ}を{持|も}っていきます。", "fr": "J'emporte un parapluie." },
+            { "jp": "{明日|あした}、{辞書|じしょ}を{持|も}ってきてください。", "fr": "Apportez un dictionnaire demain." },
+            { "jp": "ちょっとジュースを{買|か}ってきます。", "fr": "Je vais acheter du jus (et je reviens)." },
+            { "jp": "{行|い}ってきます。", "fr": "J'y vais (et je reviens) — formule en partant." }
+          ]
+        },
+        {
+          "h": "Le changement dans le temps",
+          "p": [
+            "〜てきた : un changement **jusqu'à maintenant** (passé → présent). 〜ていく : un changement **à partir de maintenant** (présent → futur)."
+          ],
+          "ex": [
+            { "jp": "{寒|さむ}くなってきました。", "fr": "Il commence à faire froid." },
+            { "jp": "{日本語|にほんご}がわかってきました。", "fr": "Je commence à comprendre le japonais." },
+            { "jp": "これからも{日本語|にほんご}を{勉強|べんきょう}していきます。", "fr": "Je vais continuer à étudier le japonais." },
+            { "jp": "{雨|あめ}が{降|ふ}ってきました。", "fr": "Il s'est mis à pleuvoir." }
+          ]
+        }
+      ],
+      "pieges": [
+        "〜てくる : くる s'écrit en hiragana et se conjugue comme {来|く}る (きます, きた, こない).",
+        "{行|い}ってきます (celui qui part) / {行|い}ってらっしゃい (celui qui reste)."
+      ],
+      "exercises": [
+        {
+          "id": "n4-61-e01", "type": "choice", "uses": [],
+          "jp": "{雨|あめ}ですから、{傘|かさ}を{持|も}って＿ください。", "fr": "Il pleut, emporte un parapluie.",
+          "choices": ["いって", "いきて", "くって", "いけて"], "a": 0,
+          "explain": "いく → いって."
+        },
+        {
+          "id": "n4-61-e02", "type": "choice", "uses": [],
+          "jp": "ちょっとジュースを{買|か}って＿ね。", "fr": "Je vais acheter du jus et je reviens.",
+          "choices": ["くる", "くろ", "こる", "きる"], "a": 0,
+          "explain": "Aller faire puis revenir : てくる."
+        },
+        {
+          "id": "n4-61-e03", "type": "choice", "uses": [],
+          "jp": "{最近|さいきん}、{寒|さむ}くなって＿ね。", "fr": "Ces derniers temps, il commence à faire froid.",
+          "choices": ["きました", "きります", "くました", "こました"], "a": 0,
+          "explain": "Changement jusqu'à maintenant : てきました."
+        },
+        {
+          "id": "n4-61-e04", "type": "choice", "uses": [],
+          "q": "Que signifie : これからも{日本語|にほんご}を{勉強|べんきょう}していきます。",
+          "choices": ["Je vais continuer à étudier le japonais.", "J'ai étudié le japonais jusqu'à maintenant.", "Je vais aller étudier le japonais au Japon.", "J'ai arrêté d'étudier le japonais."], "a": 0,
+          "explain": "ていく : à partir de maintenant."
+        },
+        {
+          "id": "n4-61-e05", "type": "choice", "uses": [],
+          "q": "Que signifie : {雨|あめ}が{降|ふ}ってきました。",
+          "choices": ["Il s'est mis à pleuvoir.", "Il a plu hier.", "Il va pleuvoir demain.", "La pluie s'est arrêtée."], "a": 0,
+          "explain": "てくる : quelque chose commence, apparaît."
+        },
+        {
+          "id": "n4-61-e06", "type": "order", "uses": [],
+          "fr": "Apportez votre manuel demain.",
+          "tokens": ["{明日|あした}", "{教科書|きょうかしょ}", "を", "{持|も}って", "きて", "ください"],
+          "alt": [["{教科書|きょうかしょ}", "を", "{明日|あした}", "{持|も}って", "きて", "ください"]],
+          "explain": "Apporter : {持|も}ってくる."
+        },
+        {
+          "id": "n4-61-e07", "type": "choice", "uses": [],
+          "q": "Tu quittes la maison le matin. Que dis-tu ?",
+          "choices": ["{行|い}ってきます。", "{行|い}っていきます。", "{行|い}ってください。", "{行|い}ってらっしゃい。"], "a": 0,
+          "explain": "Celui qui part : {行|い}ってきます. Celui qui reste : {行|い}ってらっしゃい."
+        },
+        {
+          "id": "n4-61-e08", "type": "choice", "uses": [],
+          "jp": "だんだん{日本語|にほんご}がわかって＿。", "fr": "Je commence peu à peu à comprendre le japonais.",
+          "choices": ["きました", "きりました", "こました", "きいました"], "a": 0,
+          "explain": "Changement jusqu'à maintenant : てきました."
+        },
+        {
+          "id": "n4-61-e09", "type": "order", "uses": [],
+          "fr": "Je suis allé jusqu'à la gare en courant.",
+          "tokens": ["{駅|えき}", "まで", "{走|はし}って", "いきました"],
+          "explain": "S'éloigner en faisant : ていく."
+        },
+        {
+          "id": "n4-61-e10", "type": "choice", "uses": [],
+          "q": "« La population va continuer à baisser. » Quelle phrase ?",
+          "choices": ["{人口|じんこう}はこれから{減|へ}っていくでしょう。", "{人口|じんこう}はこれから{減|へ}ってきたでしょう。", "{人口|じんこう}はこれから{減|へ}っていったでしょう。", "{人口|じんこう}はこれから{減|へ}ってくるでした。"], "a": 0,
+          "explain": "À partir de maintenant : ていく."
+        },
+        {
+          "id": "n4-61-e11", "type": "choice", "uses": ["n4-56"],
+          "jp": "{友|とも}だちがケーキを{持|も}って＿くれました。", "fr": "Un ami m'a apporté un gâteau.",
+          "choices": ["きて", "きって", "くって", "きいて"], "a": 0,
+          "explain": "くる → きて ; {持|も}ってきてくれる = apporter pour moi."
+        },
+        {
+          "id": "n4-61-e12", "type": "choice", "uses": [],
+          "q": "Laquelle veut dire « apporter » ?",
+          "choices": ["{持|も}ってくる", "{持|も}っていく", "{持|も}っている", "{持|も}っておく"], "a": 0,
+          "explain": "{持|も}ってくる = apporter ; {持|も}っていく = emporter ; {持|も}っている = avoir."
+        }
+      ]
+    }
+  ],
+  "test": [
+    {
+      "id": "n4-b12-t01", "type": "choice", "uses": ["n4-57"],
+      "jp": "あ、{財布|さいふ}を{家|いえ}に{忘|わす}れて＿。", "fr": "Ah, j'ai oublié mon portefeuille à la maison.",
+      "choices": ["しまった", "しまいた", "しまえた", "しまわった"], "a": 0,
+      "explain": "Regret : てしまった."
+    },
+    {
+      "id": "n4-b12-t02", "type": "choice", "uses": ["n4-58"],
+      "jp": "お{客|きゃく}さんが{来|く}るので、{部屋|へや}を{片付|かたづ}けて＿ます。", "fr": "Des invités viennent, alors je range la chambre (à l'avance).",
+      "choices": ["おき", "おか", "おきい", "おい"], "a": 0,
+      "explain": "ておく → ておきます."
+    },
+    {
+      "id": "n4-b12-t03", "type": "choice", "uses": ["n4-59"],
+      "q": "Que signifie : {一度|いちど}{北海道|ほっかいどう}へ{行|い}ってみたいです。",
+      "choices": ["J'aimerais aller une fois à Hokkaidō (pour voir).", "Je suis déjà allé à Hokkaidō.", "Je dois aller à Hokkaidō.", "Je ne veux pas aller à Hokkaidō."], "a": 0,
+      "explain": "てみたい = j'aimerais essayer."
+    },
+    {
+      "id": "n4-b12-t04", "type": "choice", "uses": ["n4-60"],
+      "jp": "{部屋|へや}にきれいな{花|はな}が{飾|かざ}って＿。", "fr": "De jolies fleurs ont été disposées dans la pièce.",
+      "choices": ["あります", "います", "しまいます", "みます"], "a": 0,
+      "explain": "{飾|かざ}る (transitif) + が + てある."
+    },
+    {
+      "id": "n4-b12-t05", "type": "choice", "uses": ["n4-61"],
+      "jp": "だんだん{暖|あたた}かくなって＿ね。", "fr": "Il commence à faire doux, peu à peu.",
+      "choices": ["きました", "きいました", "きりました", "こました"], "a": 0,
+      "explain": "Changement jusqu'à maintenant : てきました."
+    },
+    {
+      "id": "n4-b12-t06", "type": "choice", "uses": ["n4-58"],
+      "q": "Forme familière de {読|よ}んでおく ?",
+      "choices": ["{読|よ}んどく", "{読|よ}んとく", "{読|よ}みとく", "{読|よ}んでっとく"], "a": 0,
+      "explain": "でおく → どく."
+    },
+    {
+      "id": "n4-b12-t07", "type": "order", "uses": ["n4-59"],
+      "fr": "J'ai essayé de faire des sushis.",
+      "tokens": ["すし", "を", "{作|つく}って", "みました"],
+      "explain": "てみる = essayer."
+    },
+    {
+      "id": "n4-b12-t08", "type": "choice", "uses": ["n4-60"],
+      "q": "Quelqu'un a ouvert la porte pour aérer. Quelle phrase ?",
+      "choices": ["ドアが{開|あ}けてあります。", "ドアが{開|あ}いてあります。", "ドアを{開|あ}いています。", "ドアが{開|あ}けています。"], "a": 0,
+      "explain": "Action volontaire : transitif + てある."
+    },
+    {
+      "id": "n4-b12-t09", "type": "choice", "uses": ["n4-57"],
+      "q": "Forme familière de {食|た}べてしまった ?",
+      "choices": ["{食|た}べちゃった", "{食|た}べじゃった", "{食|た}べてちゃった", "{食|た}べしまった"], "a": 0,
+      "explain": "てしまった → ちゃった."
+    },
+    {
+      "id": "n4-b12-t10", "type": "choice", "uses": ["n4-61"],
+      "jp": "ちょっとコンビニに{行|い}って＿。すぐ{戻|もど}ります。", "fr": "Je fais un saut à la supérette. Je reviens tout de suite.",
+      "choices": ["きます", "いきます", "きいます", "くります"], "a": 0,
+      "explain": "Aller et revenir : {行|い}ってきます."
+    },
+    {
+      "id": "n4-b12-t11", "type": "choice", "uses": ["n4-57"],
+      "jp": "{大切|たいせつ}な{書類|しょるい}をなくして＿、{困|こま}っています。", "fr": "J'ai perdu des documents importants et je suis embêté.",
+      "choices": ["しまって", "しまいて", "しまった", "しまう"], "a": 0,
+      "explain": "てしまう à la forme て pour enchaîner."
+    },
+    {
+      "id": "n4-b12-t12", "type": "choice", "uses": ["n4-58"],
+      "q": "Quand dit-on 「{旅行|りょこう}の{前|まえ}に{調|しら}べておきます」 ?",
+      "choices": ["Pour dire qu'on se renseigne à l'avance.", "Pour dire qu'on a fini de se renseigner.", "Pour dire qu'on essaie de se renseigner.", "Pour dire qu'on regrette de s'être renseigné."], "a": 0,
+      "explain": "ておく = à l'avance."
+    },
+    {
+      "id": "n4-b12-t13", "type": "order", "uses": ["n4-60"],
+      "fr": "Le menu est affiché devant le restaurant.",
+      "tokens": ["{店|みせ}", "の", "{前|まえ}", "に", "メニュー", "が", "はって", "あります"],
+      "explain": "はる (coller, afficher) + てある."
+    },
+    {
+      "id": "n4-b12-t14", "type": "choice", "uses": ["n4-61"],
+      "jp": "{雨|あめ}が{急|きゅう}に{降|ふ}って＿。", "fr": "Il s'est soudain mis à pleuvoir.",
+      "choices": ["きました", "きいました", "くりました", "こました"], "a": 0,
+      "explain": "てくる : quelque chose commence."
+    },
+    {
+      "id": "n4-b12-t15", "type": "choice", "uses": ["n4-59"],
+      "q": "Ton ami : 「この{歌|うた}、いいよ。{聞|き}いてみて。」 Que veut-il ?",
+      "choices": ["Que tu écoutes cette chanson pour voir.", "Que tu chantes cette chanson.", "Qu'il a déjà écouté la chanson.", "Que tu n'écoutes pas la chanson."], "a": 0,
+      "explain": "てみて = essaie donc."
+    }
+  ],
+  "examTest": [
+    {
+      "id": "n4-x02-01", "type": "choice", "uses": ["n4-46", "n4-61"],
+      "q": "Une seule de ces phrases est correcte. Laquelle ?",
+      "choices": ["{日本語|にほんご}が{話|はな}せるようになってきました。", "{日本語|にほんご}が{話|はな}せるようになってあります。", "{日本語|にほんご}が{話|はな}すようにできました。", "{日本語|にほんご}を{話|はな}せるのようになってきました。"], "a": 0,
+      "explain": "Potentiel + ようになる + てくる = je commence à savoir parler."
+    },
+    {
+      "id": "n4-x02-02", "type": "choice", "uses": ["n4-54", "n4-57"],
+      "jp": "{母|はは}に{嫌|きら}いな{野菜|やさい}を{食|た}べ＿、{泣|な}いてしまいました。", "fr": "Ma mère m'a forcé à manger des légumes que je déteste, et j'ai pleuré.",
+      "choices": ["させられて", "させれて", "さされて", "られさせて"], "a": 0,
+      "explain": "Groupe 2 : させられる → させられて."
+    },
+    {
+      "id": "n4-x02-03", "type": "choice", "uses": ["n4-56"],
+      "q": "Ton professeur t'a prêté un livre. Quelle phrase est correcte ?",
+      "choices": ["{先生|せんせい}が{本|ほん}を{貸|か}してくださいました。", "{先生|せんせい}が{本|ほん}を{貸|か}していただきました。", "{先生|せんせい}に{本|ほん}を{貸|か}してくださいました。", "{先生|せんせい}が{本|ほん}を{貸|か}してさしあげました。"], "a": 0,
+      "explain": "Un supérieur (が) fait pour moi : てくださる."
+    },
+    {
+      "id": "n4-x02-04", "type": "choice", "uses": ["n4-47", "n4-59"],
+      "jp": "{日本|にほん}に{行|い}っ＿、{着物|きもの}を{着|き}てみたいです。", "fr": "Une fois au Japon, j'aimerais essayer de porter un kimono.",
+      "choices": ["たら", "たれ", "たて", "てら"], "a": 0,
+      "explain": "{行|い}った + ら ; てみたい = j'aimerais essayer."
+    },
+    {
+      "id": "n4-x02-05", "type": "choice", "uses": ["n4-49", "n4-50"],
+      "q": "Une seule de ces phrases est naturelle. Laquelle ?",
+      "choices": ["ボタンを{押|お}すと、ドアが{開|あ}きます。", "ボタンを{押|お}すと、ドアを{開|あ}けてください。", "ボタンを{押|お}したと、ドアが{開|あ}きます。", "ボタンを{押|お}すなら、ドアが{開|あ}きます。"], "a": 0,
+      "explain": "Machine : と + conséquence automatique."
+    },
+    {
+      "id": "n4-x02-06", "type": "order", "uses": ["n4-44", "n4-58"],
+      "fr": "Je compte réserver l'hôtel à l'avance.",
+      "tokens": ["ホテル", "を", "{予約|よやく}して", "おく", "つもりです"],
+      "explain": "ておく (à l'avance) + つもり (intention)."
+    },
+    {
+      "id": "n4-x02-07", "type": "choice", "uses": ["n4-52"],
+      "jp": "この{本|ほん}は{有名|ゆうめい}な{作家|さっか}に＿。", "fr": "Ce livre a été écrit par un écrivain célèbre.",
+      "choices": ["{書|か}かれました", "{書|か}きました", "{書|か}けました", "{書|か}かりました"], "a": 0,
+      "explain": "Passif : l'auteur prend に."
+    },
+    {
+      "id": "n4-x02-08", "type": "choice", "uses": ["n4-48", "n4-57", "n4-42"],
+      "q": "Que signifie : {宿題|しゅくだい}をやってしまえば、{遊|あそ}びに{行|い}けますよ。",
+      "choices": ["Une fois tes devoirs finis, tu pourras aller jouer.", "Même sans finir tes devoirs, tu peux aller jouer.", "Tu as oublié tes devoirs pour aller jouer.", "Fais tes devoirs en jouant."], "a": 0,
+      "explain": "てしまう (finir) + ば (condition) + potentiel."
+    },
+    {
+      "id": "n4-x02-09", "type": "choice", "uses": ["n4-51", "n4-44"],
+      "jp": "{雨|あめ}が{降|ふ}って＿{出|で}かけるつもりです。", "fr": "Même s'il pleut, je compte sortir.",
+      "choices": ["も", "は", "で", "に"], "a": 0,
+      "explain": "ても = même si."
+    },
+    {
+      "id": "n4-x02-10", "type": "choice", "uses": ["n4-52", "n4-53"],
+      "q": "Laquelle n'est PAS une forme passive ?",
+      "choices": ["{書|か}かせる", "{書|か}かれる", "{食|た}べられる", "される"], "a": 0,
+      "explain": "{書|か}かせる est le causatif (faire écrire)."
+    },
+    {
+      "id": "n4-x02-11", "type": "order", "uses": ["n4-56", "n4-61"],
+      "fr": "Mon ami m'a emmené dans un bon restaurant.",
+      "tokens": ["{友|とも}だち", "が", "おいしい", "{店|みせ}", "に", "{連|つ}れていって", "くれました"],
+      "explain": "{連|つ}れていく = emmener ; てくれる = pour moi."
+    },
+    {
+      "id": "n4-x02-12", "type": "choice", "uses": ["n4-60"],
+      "jp": "{窓|まど}が{開|あ}いて＿から、{閉|し}めてください。", "fr": "La fenêtre est ouverte, ferme-la s'il te plaît.",
+      "choices": ["います", "あります", "おきます", "みます"], "a": 0,
+      "explain": "{開|あ}く (intransitif) + ている."
+    },
+    {
+      "id": "n4-x02-13", "type": "choice", "uses": ["n4-58"],
+      "q": "Ton chef : 「{明日|あした}の{会議|かいぎ}の{資料|しりょう}、コピーしておいて。」 Que dois-tu faire ?",
+      "choices": ["Faire les copies avant la réunion.", "Faire les copies après la réunion.", "Essayer de faire une copie.", "Ne pas faire de copies."], "a": 0,
+      "explain": "ておく = à l'avance."
+    },
+    {
+      "id": "n4-x02-14", "type": "choice", "uses": ["n4-43"],
+      "jp": "{弟|おとうと}は{犬|いぬ}が{怖|こわ}くて、{近|ちか}くに＿こともできません。", "fr": "Mon petit frère a peur des chiens, il ne peut même pas s'en approcher.",
+      "choices": ["{行|い}く", "{行|い}ける", "{行|い}った", "{行|い}って"], "a": 0,
+      "explain": "Forme du dictionnaire + こと(も)できない."
+    },
+    {
+      "id": "n4-x02-15", "type": "choice", "uses": ["n4-54"],
+      "q": "Une seule de ces phrases est correcte. Laquelle ?",
+      "choices": ["{部長|ぶちょう}に{遅|おそ}くまで{働|はたら}かされました。", "{部長|ぶちょう}に{遅|おそ}くまで{働|はたら}かれさせました。", "{部長|ぶちょう}に{遅|おそ}くまで{働|はたら}かさせました。", "{部長|ぶちょう}に{遅|おそ}くまで{働|はたら}きさせられました。"], "a": 0,
+      "explain": "{働|はたら}く → {働|はたら}かされる (causatif-passif, forme courte)."
+    }
+  ]
+}

@@ -107,37 +107,37 @@
           "explain": "{行|い}く est l'exception des verbes en く : {行|い}って, {行|い}った."
         },
         {
-          "id": "n4-41-e07", "type": "choice", "uses": ["n5-26"],
+          "id": "n4-41-e07", "type": "choice", "uses": [],
           "q": "Style neutre de : {昨日|きのう}は{何|なに}も{食|た}べませんでした。",
           "choices": ["{食|た}べなかった", "{食|た}べないだった", "{食|た}べませんだった", "{食|た}べなくた"], "a": 0,
           "explain": "ません でした → なかった : {食|た}べなかった."
         },
         {
-          "id": "n4-41-e08", "type": "choice", "uses": ["n5-16"],
+          "id": "n4-41-e08", "type": "choice", "uses": [],
           "q": "Lequel de ces verbes est du groupe 1 ?",
           "choices": ["{帰|かえ}る", "{食|た}べる", "{見|み}る", "{起|お}きる"], "a": 0,
           "explain": "{帰|かえ}ります → groupe 1 ({帰|かえ}らない, {帰|かえ}って). Les trois autres font ます sans い devant : groupe 2."
         },
         {
-          "id": "n4-41-e09", "type": "choice", "uses": ["n5-26"],
+          "id": "n4-41-e09", "type": "choice", "uses": [],
           "q": "Style neutre de : {友|とも}だちと{映画|えいが}を{見|み}ました。",
           "choices": ["{見|み}た", "{見|み}って", "{見|み}るた", "{見|み}いた"], "a": 0,
           "explain": "{見|み}る est du groupe 2 : on enlève る et on ajoute た."
         },
         {
-          "id": "n4-41-e10", "type": "choice", "uses": ["n5-17"],
+          "id": "n4-41-e10", "type": "choice", "uses": [],
           "q": "Forme て de {話|はな}す ?",
           "choices": ["{話|はな}して", "{話|はな}いて", "{話|はな}って", "{話|はな}んで"], "a": 0,
           "explain": "す → して."
         },
         {
-          "id": "n4-41-e11", "type": "order", "uses": ["n5-03"],
+          "id": "n4-41-e11", "type": "order", "uses": [],
           "fr": "Je n'ai pas lu ce livre (style neutre).",
           "tokens": ["この", "{本|ほん}", "は", "{読|よ}まなかった"],
           "explain": "{読|よ}む → {読|よ}まない → {読|よ}まなかった. L'objet déjà connu (この{本|ほん}) passe en は."
         },
         {
-          "id": "n4-41-e12", "type": "choice", "uses": ["n5-26"],
+          "id": "n4-41-e12", "type": "choice", "uses": [],
           "jp": "A：{明日|あした}、{来|く}る？　B：ううん、＿。", "fr": "A : Tu viens demain ? B : Non, je ne viens pas.",
           "choices": ["こない", "きない", "くない", "こらない"], "a": 0,
           "explain": "Réponse négative au style neutre : {来|こ}ない."
@@ -259,7 +259,7 @@
           "explain": "Un son qui arrive à nos oreilles : {聞|き}こえる."
         },
         {
-          "id": "n4-42-e09", "type": "order", "uses": ["n5-36"],
+          "id": "n4-42-e09", "type": "order", "uses": [],
           "fr": "Je ne sais pas encore lire les kanji.",
           "tokens": ["まだ", "{漢字|かんじ}", "が", "{読|よ}めません"],
           "alt": [["{漢字|かんじ}", "が", "まだ", "{読|よ}めません"]],
@@ -462,7 +462,7 @@
           "explain": "Forme du dictionnaire + つもり."
         },
         {
-          "id": "n4-44-e02", "type": "choice", "uses": ["n4-41", "n5-15"],
+          "id": "n4-44-e02", "type": "choice", "uses": ["n4-41"],
           "jp": "{明日|あした}は{早|はや}く{起|お}きますから、{今日|きょう}はお{酒|さけ}を＿つもりです。", "fr": "Comme je me lève tôt demain, je compte ne pas boire aujourd'hui.",
           "choices": ["{飲|の}まない", "{飲|の}む", "{飲|の}みない", "{飲|の}まなかった"], "a": 0,
           "explain": "Le contexte (se lever tôt) appelle la négation : {飲|の}まないつもり."
@@ -620,7 +620,7 @@
           "explain": "Volitif + と{思|おも}います = mon intention."
         },
         {
-          "id": "n4-45-e07", "type": "choice", "uses": ["n5-27"],
+          "id": "n4-45-e07", "type": "choice", "uses": [],
           "q": "Laquelle veut dire « Je pense qu'il va pleuvoir » ?",
           "choices": ["{雨|あめ}が{降|ふ}ると{思|おも}います。", "{雨|あめ}が{降|ふ}ろうと{思|おも}います。", "{雨|あめ}が{降|ふ}ろうと{思|おも}っています。", "{雨|あめ}が{降|ふ}りましょうと{思|おも}います。"], "a": 0,
           "explain": "Une opinion : forme neutre + と{思|おも}います. Le volitif sert à une intention."
@@ -755,7 +755,7 @@
           "explain": "Potentiel + ようになる."
         },
         {
-          "id": "n4-46-e10", "type": "choice", "uses": ["n5-38"],
+          "id": "n4-46-e10", "type": "choice", "uses": [],
           "jp": "たばこは{体|からだ}に{悪|わる}いので、{吸|す}わない＿。", "fr": "Le tabac est mauvais pour la santé, alors j'évite de fumer.",
           "choices": ["ようにしています", "ようになりません", "ようにあります", "ようでしています"], "a": 0,
           "explain": "Une habitude qu'on s'impose : 〜ないようにしています."
@@ -843,7 +843,7 @@
       "explain": "する → しよう."
     },
     {
-      "id": "n4-b09-t12", "type": "choice", "uses": ["n4-44", "n5-38"],
+      "id": "n4-b09-t12", "type": "choice", "uses": ["n4-44"],
       "jp": "{明日|あした}は{用事|ようじ}があるので、パーティーに＿つもりです。", "fr": "J'ai une course à faire demain, donc je compte ne pas aller à la fête.",
       "choices": ["{行|い}かない", "{行|い}く", "{行|い}かなかった", "{行|い}きない"], "a": 0,
       "explain": "Le contexte (j'ai une course) appelle la négation : {行|い}かないつもり."
