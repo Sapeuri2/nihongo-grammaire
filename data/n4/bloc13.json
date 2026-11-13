@@ -1,0 +1,668 @@
+{
+  "id": "n4-b13",
+  "level": "N4",
+  "title": "Apparence, ouï-dire, supposition",
+  "lessons": [
+    {
+      "id": "n4-62",
+      "title": "そうだ (1) : on dirait que (apparence)",
+      "formula": ["Verbe (base ます) + そう : on dirait que ça va ({降|ふ}りそう)", "Adj. い : い → そう ({高|たか}そう) · Adj. な : {元気|げんき}そう", "いい → よさそう · ない → なさそう", "そうな + nom · そうに + verbe"],
+      "sections": [
+        {
+          "h": "Le sens",
+          "p": [
+            "そう ici décrit une **impression immédiate**, ce qu'on voit : « on dirait que », « avoir l'air »."
+          ],
+          "ex": [
+            { "jp": "{雨|あめ}が{降|ふ}りそうです。", "fr": "On dirait qu'il va pleuvoir." },
+            { "jp": "このケーキはおいしそうですね。", "fr": "Ce gâteau a l'air délicieux." },
+            { "jp": "{田中|たなか}さんは{元気|げんき}そうです。", "fr": "M. Tanaka a l'air en forme." }
+          ]
+        },
+        {
+          "h": "Fabriquer",
+          "p": [
+            "Verbe : **base ます** + そう ({降|ふ}ります → {降|ふ}りそう). Adj. い : on enlève い ({高|たか}い → {高|たか}そう). Adj. な : + そう.",
+            "Exceptions : いい → **よさそう** ; ない → **なさそう** ({時間|じかん}がなさそう, おいしくなさそう)."
+          ]
+        },
+        {
+          "h": "Comme un adjectif な",
+          "p": [
+            "そう se comporte comme un adjectif な : おいしそう**な**{料理|りょうり} ; {楽|たの}しそう**に**{話|はな}す."
+          ],
+          "ex": [
+            { "jp": "おいしそうな{料理|りょうり}ですね。", "fr": "Quel plat appétissant !" },
+            { "jp": "{子|こ}どもたちが{楽|たの}しそうに{遊|あそ}んでいます。", "fr": "Les enfants jouent avec l'air de s'amuser." }
+          ]
+        }
+      ],
+      "pieges": [
+        "Verbe : base ます ({降|ふ}りそう), pas la forme du dictionnaire ({降|ふ}るそう = « il paraît que », leçon suivante).",
+        "かわいそう = « le / la pauvre » (pitié), pas « a l'air mignon ».",
+        "Pas pour ce qui est évident à voir : on dit きれいです, pas きれいそうです."
+      ],
+      "exercises": [
+        {
+          "id": "n4-62-e01", "type": "choice", "uses": [],
+          "jp": "{空|そら}が{暗|くら}いですね。{雨|あめ}が＿そうです。", "fr": "Le ciel est sombre. On dirait qu'il va pleuvoir.",
+          "choices": ["{降|ふ}り", "{降|ふ}って", "{降|ふ}ら", "{降|ふ}れ"], "a": 0,
+          "explain": "Base ます + そう : {降|ふ}りそう."
+        },
+        {
+          "id": "n4-62-e02", "type": "choice", "uses": [],
+          "jp": "このケーキ、おいし＿ですね。", "fr": "Ce gâteau a l'air délicieux.",
+          "choices": ["そう", "くそう", "さそう", "なそう"], "a": 0,
+          "explain": "Adj. い : on enlève い → おいしそう."
+        },
+        {
+          "id": "n4-62-e03", "type": "choice", "uses": [],
+          "q": "いい + そう (apparence) ?",
+          "choices": ["よさそう", "いいそう", "いそう", "よそう"], "a": 0,
+          "explain": "Exception : いい → よさそう. (いいそう = « il paraît que c'est bien ».)"
+        },
+        {
+          "id": "n4-62-e04", "type": "choice", "uses": [],
+          "jp": "この{仕事|しごと}は{大変|たいへん}＿ですね。", "fr": "Ce travail a l'air dur.",
+          "choices": ["そう", "なそう", "にそう", "くそう"], "a": 0,
+          "explain": "Adj. な + そう."
+        },
+        {
+          "id": "n4-62-e05", "type": "choice", "uses": [],
+          "q": "Que signifie : {田中|たなか}さんは{元気|げんき}そうです。",
+          "choices": ["M. Tanaka a l'air en forme.", "On dit que M. Tanaka est en forme.", "M. Tanaka n'est pas en forme.", "M. Tanaka veut être en forme."], "a": 0,
+          "explain": "そう (apparence) = avoir l'air."
+        },
+        {
+          "id": "n4-62-e06", "type": "order", "uses": [],
+          "fr": "Les enfants jouent avec l'air de s'amuser.",
+          "tokens": ["{子|こ}どもたち", "が", "{楽|たの}しそうに", "{遊|あそ}んでいます"],
+          "explain": "そうに + verbe."
+        },
+        {
+          "id": "n4-62-e07", "type": "choice", "uses": [],
+          "jp": "あの{人|ひと}は{時間|じかん}がな＿です。", "fr": "Cette personne n'a pas l'air d'avoir le temps.",
+          "choices": ["さそう", "そう", "くそう", "かそう"], "a": 0,
+          "explain": "ない → なさそう."
+        },
+        {
+          "id": "n4-62-e08", "type": "choice", "uses": [],
+          "q": "Que signifie : かわいそうですね。",
+          "choices": ["Le pauvre ! (pitié)", "Il a l'air mignon.", "On dit qu'il est mignon.", "Il n'est pas mignon."], "a": 0,
+          "explain": "Piège : かわいそう = digne de pitié."
+        },
+        {
+          "id": "n4-62-e09", "type": "choice", "uses": [],
+          "jp": "おいしそう＿{料理|りょうり}ですね。", "fr": "Quel plat appétissant !",
+          "choices": ["な", "の", "に", "で"], "a": 0,
+          "explain": "そう + な + nom."
+        },
+        {
+          "id": "n4-62-e10", "type": "choice", "uses": [],
+          "q": "Laquelle décrit une impression visuelle ?",
+          "choices": ["{今|いま}にも{雨|あめ}が{降|ふ}りそうです。", "{天気予報|てんきよほう}によると、{雨|あめ}が{降|ふ}るそうです。", "{明日|あした}は{雨|あめ}が{降|ふ}ると{思|おも}います。", "{雨|あめ}が{降|ふ}ったら、{行|い}きません。"], "a": 0,
+          "explain": "Base ます + そう = ce que je vois maintenant."
+        },
+        {
+          "id": "n4-62-e11", "type": "order", "uses": [],
+          "fr": "Ce sac a l'air lourd.",
+          "tokens": ["その", "かばん", "は", "{重|おも}そう", "です", "ね"],
+          "explain": "{重|おも}い → {重|おも}そう."
+        },
+        {
+          "id": "n4-62-e12", "type": "choice", "uses": [],
+          "jp": "ボタンが{取|と}れ＿ですよ。", "fr": "Ton bouton est sur le point de tomber.",
+          "choices": ["そう", "てそう", "ってそう", "りそう"], "a": 0,
+          "explain": "{取|と}れる (groupe 2) → base {取|と}れ + そう."
+        }
+      ]
+    },
+    {
+      "id": "n4-63",
+      "title": "そうだ (2) : il paraît que (ouï-dire)",
+      "formula": ["Forme neutre + そうです : il paraît que", "Nom / adj. な + だそうです", "〜によると / 〜の{話|はなし}では : d'après…"],
+      "sections": [
+        {
+          "h": "Le sens",
+          "p": [
+            "Après une **forme neutre complète**, そうです rapporte une information **entendue ou lue** : « il paraît que »."
+          ],
+          "ex": [
+            { "jp": "{天気予報|てんきよほう}によると、{明日|あした}は{雨|あめ}が{降|ふ}るそうです。", "fr": "D'après la météo, il pleuvra demain." },
+            { "jp": "{田中|たなか}さんは{来月|らいげつ}{結婚|けっこん}するそうです。", "fr": "Il paraît que M. Tanaka se marie le mois prochain." },
+            { "jp": "あのレストランはおいしいそうです。", "fr": "Il paraît que ce restaurant est bon." },
+            { "jp": "{山田|やまだ}さんのお{父|とう}さんは{医者|いしゃ}だそうです。", "fr": "Il paraît que le père de Mme Yamada est médecin." }
+          ]
+        },
+        {
+          "h": "Les deux そう côte à côte",
+          "grid": {
+            "head": ["", "apparence (on dirait)", "ouï-dire (il paraît)"],
+            "rows": [
+              ["verbe", "{降|ふ}りそう", "{降|ふ}るそう"],
+              ["adj. い", "おいしそう", "おいしいそう"],
+              ["adj. な", "{元気|げんき}そう", "{元気|げんき}だそう"],
+              ["nom", "—", "{学生|がくせい}だそう"],
+              ["いい", "よさそう", "いいそう"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "Le ouï-dire reste toujours au présent : そうです (pas そうでした, pas そうな + nom).",
+        "Nom / adj. な : だそうです ({医者|いしゃ}だそうです).",
+        "によると (d'après) appelle le ouï-dire, pas l'apparence."
+      ],
+      "exercises": [
+        {
+          "id": "n4-63-e01", "type": "choice", "uses": [],
+          "jp": "{天気予報|てんきよほう}によると、{明日|あした}は{雪|ゆき}が＿そうです。", "fr": "D'après la météo, il neigera demain.",
+          "choices": ["{降|ふ}る", "{降|ふ}り", "{降|ふ}って", "{降|ふ}ら"], "a": 0,
+          "explain": "によると → ouï-dire : forme neutre complète + そうです."
+        },
+        {
+          "id": "n4-63-e02", "type": "choice", "uses": [],
+          "jp": "あの{店|みせ}のラーメンはとてもおいしい＿。", "fr": "Il paraît que les ramen de ce restaurant sont très bons.",
+          "choices": ["そうです", "そうでした", "そうな", "そうに"], "a": 0,
+          "explain": "Ouï-dire : そうです, toujours au présent."
+        },
+        {
+          "id": "n4-63-e03", "type": "choice", "uses": [],
+          "jp": "{山田|やまだ}さんのお{父|とう}さんは{医者|いしゃ}＿そうです。", "fr": "Il paraît que le père de Mme Yamada est médecin.",
+          "choices": ["だ", "な", "の", "で"], "a": 0,
+          "explain": "Nom + だ + そうです."
+        },
+        {
+          "id": "n4-63-e04", "type": "choice", "uses": [],
+          "q": "Que signifie : {田中|たなか}さんは{来月|らいげつ}{結婚|けっこん}するそうです。",
+          "choices": ["Il paraît que M. Tanaka se marie le mois prochain.", "M. Tanaka a l'air de vouloir se marier.", "M. Tanaka va peut-être se marier.", "M. Tanaka s'est marié le mois dernier."], "a": 0,
+          "explain": "Forme du dictionnaire + そうです = il paraît que."
+        },
+        {
+          "id": "n4-63-e05", "type": "choice", "uses": [],
+          "q": "D'après la météo, il fera beau demain. Quelle phrase ?",
+          "choices": ["{天気予報|てんきよほう}によると、{明日|あした}は{晴|は}れるそうです。", "{天気予報|てんきよほう}によると、{明日|あした}は{晴|は}れそうです。", "{天気予報|てんきよほう}によると、{明日|あした}は{晴|は}れるそうでした。", "{天気予報|てんきよほう}によると、{明日|あした}は{晴|は}れだそうです。"], "a": 0,
+          "explain": "Ouï-dire : forme neutre complète + そうです."
+        },
+        {
+          "id": "n4-63-e06", "type": "choice", "uses": [],
+          "jp": "{友|とも}だちの{話|はなし}では、あの{映画|えいが}はあまり＿そうです。", "fr": "D'après mon ami, ce film n'est pas très intéressant.",
+          "choices": ["おもしろくない", "おもしろくなさ", "おもしろいじゃない", "おもしろくないだ"], "a": 0,
+          "explain": "Forme neutre négative + そうです."
+        },
+        {
+          "id": "n4-63-e07", "type": "order", "uses": [],
+          "fr": "Il paraît que Mme Suzuki est malade.",
+          "tokens": ["{鈴木|すずき}さん", "は", "{病気|びょうき}", "だ", "そうです"],
+          "explain": "Nom + だ + そうです."
+        },
+        {
+          "id": "n4-63-e08", "type": "choice", "uses": [],
+          "q": "Quelle phrase rapporte une information entendue ?",
+          "choices": ["{試験|しけん}は{難|むずか}しかったそうです。", "{試験|しけん}は{難|むずか}しそうです。", "{試験|しけん}は{難|むずか}しいと{思|おも}います。", "{試験|しけん}は{難|むずか}しくなりました。"], "a": 0,
+          "explain": "Forme neutre complète (ici au passé) + そうです = ouï-dire."
+        },
+        {
+          "id": "n4-63-e09", "type": "choice", "uses": [],
+          "jp": "ニュースによると、{昨日|きのう}{大|おお}きい{地震|じしん}が＿そうです。", "fr": "D'après les infos, il y a eu un gros séisme hier.",
+          "choices": ["あった", "あり", "ある", "あって"], "a": 0,
+          "explain": "Événement passé : forme neutre au passé + そうです."
+        },
+        {
+          "id": "n4-63-e10", "type": "choice", "uses": [],
+          "q": "Une seule de ces phrases est correcte. Laquelle ?",
+          "choices": ["この{町|まち}は{静|しず}かだそうです。", "この{町|まち}は{静|しず}かなそうです。", "この{町|まち}は{静|しず}かのそうです。", "この{町|まち}は{静|しず}かだそうでした。"], "a": 0,
+          "explain": "Adj. な + だそうです."
+        },
+        {
+          "id": "n4-63-e11", "type": "order", "uses": [],
+          "fr": "D'après mon grand frère, ce jeu est intéressant.",
+          "tokens": ["{兄|あに}", "に", "よると", "この", "ゲーム", "は", "おもしろい", "そうです"],
+          "explain": "〜によると + ouï-dire."
+        },
+        {
+          "id": "n4-63-e12", "type": "choice", "uses": ["n4-62"],
+          "q": "Laquelle veut dire « Il paraît que c'est bien » ?",
+          "choices": ["いいそうです。", "よさそうです。", "いいようです。", "よくなりそうです。"], "a": 0,
+          "explain": "Ouï-dire : いい + そうです. (よさそう = a l'air bien.)"
+        }
+      ]
+    },
+    {
+      "id": "n4-64",
+      "title": "ようだ・みたい : il semble que, comme",
+      "formula": ["Forme neutre + ようです : il semble (je le déduis)", "Nom + の ようです · adj. な + な ようです", "みたい : pareil, plus familier (nom / adj. な + みたい)", "〜のように / 〜みたいに : comme"],
+      "sections": [
+        {
+          "h": "Une déduction",
+          "p": [
+            "ようだ = je **déduis** quelque chose à partir d'indices (ce que je vois, entends, sens)."
+          ],
+          "ex": [
+            { "jp": "{電気|でんき}が{消|き}えています。{田中|たなか}さんはもう{帰|かえ}ったようです。", "fr": "La lumière est éteinte. M. Tanaka semble être déjà rentré." },
+            { "jp": "{風邪|かぜ}をひいたようです。", "fr": "J'ai l'impression d'avoir attrapé un rhume." },
+            { "jp": "{誰|だれ}もいないみたいだね。", "fr": "On dirait qu'il n'y a personne." }
+          ]
+        },
+        {
+          "h": "Fabriquer",
+          "p": [
+            "**ようだ** : verbe / adj. い + ようだ ; adj. な + **な**ようだ ; nom + **の**ようだ.",
+            "**みたい** (familier) : verbe / adj. い + みたい ; adj. な et nom + みたい **directement** ({静|しず}かみたい, {雨|あめ}みたい)."
+          ],
+          "ex": [
+            { "jp": "{外|そと}は{雨|あめ}のようです。", "fr": "Dehors, il semble pleuvoir." },
+            { "jp": "{今日|きょう}は{休|やす}みみたいです。", "fr": "On dirait que c'est fermé aujourd'hui." }
+          ]
+        },
+        {
+          "h": "« Comme » : comparer",
+          "p": [
+            "〜のような + nom / 〜のように + verbe ; 〜みたいな / 〜みたいに (familier). まるで renforce : « exactement comme »."
+          ],
+          "ex": [
+            { "jp": "{夢|ゆめ}のようです。", "fr": "On dirait un rêve." },
+            { "jp": "{田中|たなか}さんは{日本人|にほんじん}のように{日本語|にほんご}を{話|はな}します。", "fr": "M. Tanaka parle japonais comme un Japonais." },
+            { "jp": "まるで{本物|ほんもの}みたいな{絵|え}ですね。", "fr": "On dirait un vrai, ce tableau." }
+          ]
+        }
+      ],
+      "pieges": [
+        "Nom : {雨|あめ}**の**ようだ, mais {雨|あめ}みたい (sans の).",
+        "Adj. な : {静|しず}か**な**ようだ, mais {静|しず}かみたい (sans な).",
+        "そう (apparence) = ce que je vois tout de suite ; よう = ma conclusion d'après des indices."
+      ],
+      "exercises": [
+        {
+          "id": "n4-64-e01", "type": "choice", "uses": [],
+          "jp": "{電気|でんき}が{消|き}えています。{田中|たなか}さんはもう{帰|かえ}った＿です。", "fr": "La lumière est éteinte. M. Tanaka semble être déjà rentré.",
+          "choices": ["よう", "ような", "ように", "ようの"], "a": 0,
+          "explain": "Déduction d'après un indice : ようです."
+        },
+        {
+          "id": "n4-64-e02", "type": "choice", "uses": [],
+          "jp": "{外|そと}は{雨|あめ}＿ようですね。", "fr": "Dehors, il semble pleuvoir.",
+          "choices": ["の", "な", "だ", "で"], "a": 0,
+          "explain": "Nom + の + ようだ."
+        },
+        {
+          "id": "n4-64-e03", "type": "choice", "uses": [],
+          "jp": "あの{店|みせ}は{今日|きょう}は{休|やす}み＿。", "fr": "On dirait que ce magasin est fermé aujourd'hui.",
+          "choices": ["みたいです", "のみたいです", "なみたいです", "だみたいです"], "a": 0,
+          "explain": "Nom + みたい, directement."
+        },
+        {
+          "id": "n4-64-e04", "type": "choice", "uses": [],
+          "jp": "{部屋|へや}が{静|しず}か＿ようです。{誰|だれ}もいないのかな。", "fr": "La chambre semble silencieuse. Il n'y a personne ?",
+          "choices": ["な", "の", "だ", "に"], "a": 0,
+          "explain": "Adj. な + な + ようだ."
+        },
+        {
+          "id": "n4-64-e05", "type": "choice", "uses": [],
+          "q": "Que signifie : {風邪|かぜ}をひいたようです。",
+          "choices": ["Il me semble que j'ai attrapé un rhume.", "J'ai décidé de ne pas attraper de rhume.", "Il paraît que tu as un rhume.", "Je n'ai jamais eu de rhume."], "a": 0,
+          "explain": "ようだ = je le déduis (d'après ce que je ressens)."
+        },
+        {
+          "id": "n4-64-e06", "type": "order", "uses": [],
+          "fr": "Il parle japonais comme un Japonais.",
+          "tokens": ["{日本人|にほんじん}", "の", "ように", "{日本語|にほんご}", "を", "{話|はな}します"],
+          "alt": [["{日本語|にほんご}", "を", "{日本人|にほんじん}", "の", "ように", "{話|はな}します"]],
+          "explain": "Nom + のように + verbe = comme."
+        },
+        {
+          "id": "n4-64-e07", "type": "choice", "uses": [],
+          "q": "Une seule de ces phrases est correcte. Laquelle ?",
+          "choices": ["{夢|ゆめ}のようです。", "{夢|ゆめ}なようです。", "{夢|ゆめ}ようです。", "{夢|ゆめ}だようです。"], "a": 0,
+          "explain": "Nom + の + ようです."
+        },
+        {
+          "id": "n4-64-e08", "type": "choice", "uses": [],
+          "jp": "{子|こ}ども＿{泣|な}かないでください。", "fr": "Ne pleure pas comme un enfant.",
+          "choices": ["みたいに", "みたいな", "のみたいに", "のようで"], "a": 0,
+          "explain": "Nom + みたいに + verbe = comme."
+        },
+        {
+          "id": "n4-64-e09", "type": "choice", "uses": ["n4-63"],
+          "q": "Tu vois de la lumière chez ton voisin et tu entends la télé. Que dis-tu ?",
+          "choices": ["{隣|となり}の{人|ひと}は{家|いえ}にいるようです。", "{隣|となり}の{人|ひと}は{家|いえ}にいるのようです。", "{隣|となり}の{人|ひと}は{家|いえ}にいるそうです。", "{隣|となり}の{人|ひと}は{家|いえ}にいようです。"], "a": 0,
+          "explain": "Déduction d'après des indices : ようです. (そうです serait « on me l'a dit ».)"
+        },
+        {
+          "id": "n4-64-e10", "type": "choice", "uses": [],
+          "q": "Style familier de : {外|そと}は{寒|さむ}いようです。",
+          "choices": ["{外|そと}は{寒|さむ}いみたい。", "{外|そと}は{寒|さむ}いのみたい。", "{外|そと}は{寒|さむ}かみたい。", "{外|そと}は{寒|さむ}くみたい。"], "a": 0,
+          "explain": "Adj. い + みたい."
+        },
+        {
+          "id": "n4-64-e11", "type": "order", "uses": [],
+          "fr": "On dirait qu'il n'y a personne.",
+          "tokens": ["{誰|だれ}も", "いない", "よう", "です"],
+          "explain": "Forme neutre + ようです."
+        },
+        {
+          "id": "n4-64-e12", "type": "choice", "uses": [],
+          "jp": "まるで{本物|ほんもの}＿{絵|え}ですね。", "fr": "Ce tableau, on dirait un vrai.",
+          "choices": ["のような", "のように", "みたいに", "なような"], "a": 0,
+          "explain": "Nom + のような + nom."
+        }
+      ]
+    },
+    {
+      "id": "n4-65",
+      "title": "らしい : il paraît, typique de",
+      "formula": ["Forme neutre + らしい : il paraît (rumeur, pas sûr)", "Nom / adj. な + らしい (sans だ)", "Nom + らしい : typique de, digne de ({春|はる}らしい)"],
+      "sections": [
+        {
+          "h": "Une rumeur",
+          "p": [
+            "らしい rapporte ce qu'on a entendu dire, avec une certaine **distance** : « il paraît », « apparemment »."
+          ],
+          "ex": [
+            { "jp": "{田中|たなか}さんは{会社|かいしゃ}をやめるらしいです。", "fr": "Apparemment, M. Tanaka va quitter l'entreprise." },
+            { "jp": "{明日|あした}は{雨|あめ}らしいです。", "fr": "Il paraît qu'il pleuvra demain." }
+          ]
+        },
+        {
+          "h": "Typique de, digne de",
+          "p": [
+            "Nom + らしい = qui a toutes les qualités de… : {春|はる}らしい = vraiment printanier.",
+            "らしい se conjugue comme un adjectif い : らしくない (ça ne lui ressemble pas), らしく + verbe."
+          ],
+          "ex": [
+            { "jp": "{今日|きょう}は{春|はる}らしい{天気|てんき}です。", "fr": "Aujourd'hui, c'est un vrai temps de printemps." },
+            { "jp": "あの{子|こ}は{子|こ}どもらしく{元気|げんき}に{遊|あそ}んでいます。", "fr": "Cet enfant joue plein d'énergie, comme un enfant." },
+            { "jp": "{遅|おく}れるなんて、{彼|かれ}らしくないね。", "fr": "Être en retard, ça ne lui ressemble pas." }
+          ]
+        },
+        {
+          "h": "そうだ, ようだ, らしい",
+          "p": [
+            "そうだ (ouï-dire) : j'ai une source précise. らしい : rumeur, je ne garantis rien. ようだ : c'est **ma** déduction."
+          ]
+        }
+      ],
+      "pieges": [
+        "Pas de だ : {雨|あめ}らしい, {病気|びょうき}らしい (pas {雨|あめ}だらしい).",
+        "{春|はる}らしい (vraiment printanier) ≠ {春|はる}のようだ (on se croirait au printemps)."
+      ],
+      "exercises": [
+        {
+          "id": "n4-65-e01", "type": "choice", "uses": [],
+          "jp": "{田中|たなか}さんは{会社|かいしゃ}をやめる＿です。", "fr": "Apparemment, M. Tanaka va quitter l'entreprise.",
+          "choices": ["らしい", "らしく", "らしいだ", "らしな"], "a": 0,
+          "explain": "Forme neutre + らしいです."
+        },
+        {
+          "id": "n4-65-e02", "type": "choice", "uses": [],
+          "jp": "{明日|あした}は＿らしいです。", "fr": "Il paraît qu'il pleuvra demain.",
+          "choices": ["{雨|あめ}", "{雨|あめ}だ", "{雨|あめ}の", "{雨|あめ}な"], "a": 0,
+          "explain": "Nom + らしい, sans だ."
+        },
+        {
+          "id": "n4-65-e03", "type": "choice", "uses": [],
+          "q": "Que signifie : {今日|きょう}は{春|はる}らしい{天気|てんき}ですね。",
+          "choices": ["Aujourd'hui, c'est un vrai temps de printemps.", "Il paraît qu'aujourd'hui c'est le printemps.", "Aujourd'hui, on dirait l'hiver.", "Le printemps n'est pas encore là."], "a": 0,
+          "explain": "Nom + らしい + nom = typique de."
+        },
+        {
+          "id": "n4-65-e04", "type": "choice", "uses": [],
+          "jp": "あの{子|こ}は{子|こ}ども＿{元気|げんき}に{遊|あそ}んでいます。", "fr": "Cet enfant joue plein d'énergie, comme un enfant.",
+          "choices": ["らしく", "らしい", "らしいに", "らしいで"], "a": 0,
+          "explain": "らしい → らしく + verbe (comme un adjectif い)."
+        },
+        {
+          "id": "n4-65-e05", "type": "choice", "uses": [],
+          "q": "Tu as entendu une rumeur : Yamada et Satō sortent ensemble. Que dis-tu ?",
+          "choices": ["{山田|やまだ}さんと{佐藤|さとう}さんは{付|つ}き{合|あ}っているらしいよ。", "{山田|やまだ}さんと{佐藤|さとう}さんは{付|つ}き{合|あ}いそうだよ。", "{山田|やまだ}さんと{佐藤|さとう}さんは{付|つ}き{合|あ}っているらしくないよ。", "{山田|やまだ}さんと{佐藤|さとう}さんは{付|つ}き{合|あ}っていようだよ。"], "a": 0,
+          "explain": "Rumeur : らしい. {付|つ}き{合|あ}う = sortir avec quelqu'un."
+        },
+        {
+          "id": "n4-65-e06", "type": "choice", "uses": [],
+          "jp": "その{話|はなし}は{本当|ほんとう}＿。", "fr": "Apparemment, cette histoire est vraie.",
+          "choices": ["らしい", "だらしい", "ならしい", "のらしい"], "a": 0,
+          "explain": "Nom / adj. な + らしい."
+        },
+        {
+          "id": "n4-65-e07", "type": "order", "uses": [],
+          "fr": "Aujourd'hui, il fait vraiment un temps d'automne.",
+          "tokens": ["{今日|きょう}", "は", "{秋|あき}らしい", "{天気|てんき}", "です"],
+          "explain": "Nom + らしい + nom."
+        },
+        {
+          "id": "n4-65-e08", "type": "choice", "uses": [],
+          "q": "Forme négative de {男|おとこ}らしい ?",
+          "choices": ["{男|おとこ}らしくない", "{男|おとこ}らしいじゃない", "{男|おとこ}らしない", "{男|おとこ}らしでない"], "a": 0,
+          "explain": "Comme un adjectif い : らしい → らしくない."
+        },
+        {
+          "id": "n4-65-e09", "type": "choice", "uses": [],
+          "jp": "{最近|さいきん}、あの{歌手|かしゅ}はとても{人気|にんき}がある＿。", "fr": "Apparemment, ce chanteur est très populaire ces temps-ci.",
+          "choices": ["らしい", "らしく", "らしいだ", "らしな"], "a": 0,
+          "explain": "Forme neutre + らしい."
+        },
+        {
+          "id": "n4-65-e10", "type": "choice", "uses": [],
+          "q": "Quelle phrase veut dire « typique de, digne de » ?",
+          "choices": ["{学生|がくせい}らしい{服|ふく}を{着|き}てください。", "{学生|がくせい}だそうです。", "{学生|がくせい}のようです。", "{学生|がくせい}になりたいです。"], "a": 0,
+          "explain": "Nom + らしい + nom."
+        },
+        {
+          "id": "n4-65-e11", "type": "order", "uses": [],
+          "fr": "Il paraît que ce film est très intéressant.",
+          "tokens": ["あの", "{映画|えいが}", "は", "とても", "おもしろい", "らしい", "です"],
+          "explain": "Forme neutre + らしいです."
+        },
+        {
+          "id": "n4-65-e12", "type": "choice", "uses": [],
+          "q": "Une seule de ces phrases est correcte. Laquelle ?",
+          "choices": ["{彼|かれ}は{病気|びょうき}らしいです。", "{彼|かれ}は{病気|びょうき}だらしいです。", "{彼|かれ}は{病気|びょうき}ならしいです。", "{彼|かれ}は{病気|びょうき}のらしいです。"], "a": 0,
+          "explain": "Nom + らしい, sans だ."
+        }
+      ]
+    },
+    {
+      "id": "n4-66",
+      "title": "かもしれない : peut-être",
+      "formula": ["Forme neutre + かもしれない : peut-être", "Nom / adj. な + かもしれない (sans だ)", "Poli : かもしれません · familier : かも"],
+      "sections": [
+        {
+          "h": "Le sens",
+          "p": [
+            "かもしれない = **peut-être**, une chance sur deux environ."
+          ],
+          "ex": [
+            { "jp": "{明日|あした}は{雨|あめ}が{降|ふ}るかもしれません。", "fr": "Il pleuvra peut-être demain." },
+            { "jp": "{彼|かれ}は{来|こ}ないかもしれない。", "fr": "Il ne viendra peut-être pas." },
+            { "jp": "{財布|さいふ}を{電車|でんしゃ}に{忘|わす}れたかもしれない。", "fr": "J'ai peut-être oublié mon portefeuille dans le train." },
+            { "jp": "その{話|はなし}は{本当|ほんとう}かもしれません。", "fr": "Cette histoire est peut-être vraie." }
+          ]
+        },
+        {
+          "h": "Du plus sûr au moins sûr",
+          "grid": {
+            "head": ["", "degré"],
+            "rows": [
+              ["はずだ (leçon 67)", "presque sûr (logique)"],
+              ["でしょう / だろう", "probable"],
+              ["と{思|おも}う", "mon avis"],
+              ["かもしれない", "peut-être (50 %)"]
+            ]
+          }
+        }
+      ],
+      "pieges": [
+        "Pas de だ : {本当|ほんとう}かもしれない, {暇|ひま}かもしれない.",
+        "Pas de forme ます devant : {来|く}るかもしれません (pas {来|き}ますかもしれません).",
+        "À l'oral : かも ({雨|あめ}かも)."
+      ],
+      "exercises": [
+        {
+          "id": "n4-66-e01", "type": "choice", "uses": [],
+          "jp": "{明日|あした}は{雨|あめ}が{降|ふ}る＿。", "fr": "Il pleuvra peut-être demain.",
+          "choices": ["かもしれません", "かもしります", "かもしれます", "かもしりません"], "a": 0,
+          "explain": "Forme neutre + かもしれません."
+        },
+        {
+          "id": "n4-66-e02", "type": "choice", "uses": [],
+          "jp": "その{話|はなし}は＿かもしれません。", "fr": "Cette histoire est peut-être vraie.",
+          "choices": ["{本当|ほんとう}", "{本当|ほんとう}だ", "{本当|ほんとう}な", "{本当|ほんとう}の"], "a": 0,
+          "explain": "Nom / adj. な + かもしれない, sans だ."
+        },
+        {
+          "id": "n4-66-e03", "type": "choice", "uses": [],
+          "q": "Que signifie : {彼|かれ}は{来|こ}ないかもしれない。",
+          "choices": ["Il ne viendra peut-être pas.", "Il ne viendra sûrement pas.", "Il paraît qu'il ne vient pas.", "Il doit venir."], "a": 0,
+          "explain": "かもしれない = peut-être."
+        },
+        {
+          "id": "n4-66-e04", "type": "choice", "uses": [],
+          "jp": "{財布|さいふ}を{電車|でんしゃ}に{忘|わす}れた＿。", "fr": "J'ai peut-être oublié mon portefeuille dans le train.",
+          "choices": ["かもしれない", "かもしれる", "かもしらない", "かもしれないだ"], "a": 0,
+          "explain": "Passé + かもしれない."
+        },
+        {
+          "id": "n4-66-e05", "type": "order", "uses": [],
+          "fr": "Il est peut-être malade.",
+          "tokens": ["{彼|かれ}", "は", "{病気|びょうき}", "かもしれません"],
+          "explain": "Nom + かもしれません."
+        },
+        {
+          "id": "n4-66-e06", "type": "choice", "uses": [],
+          "q": "Laquelle est la moins sûre ?",
+          "choices": ["{明日|あした}は{晴|は}れるかもしれません。", "{明日|あした}は{晴|は}れるでしょう。", "{明日|あした}は{晴|は}れます。", "{明日|あした}は{晴|は}れると{思|おも}います。"], "a": 0,
+          "explain": "かもしれない : une chance sur deux."
+        },
+        {
+          "id": "n4-66-e07", "type": "choice", "uses": [],
+          "jp": "もしかしたら、{明日|あした}は{会議|かいぎ}が＿かもしれません。", "fr": "Il n'y aura peut-être pas de réunion demain.",
+          "choices": ["ない", "なかった", "ありません", "ないだ"], "a": 0,
+          "explain": "Forme neutre (pas ます) + かもしれません."
+        },
+        {
+          "id": "n4-66-e08", "type": "choice", "uses": [],
+          "q": "Style familier de : {雨|あめ}かもしれない。",
+          "choices": ["{雨|あめ}かも。", "{雨|あめ}だかも。", "{雨|あめ}かもしれ。", "{雨|あめ}もかし。"], "a": 0,
+          "explain": "À l'oral : かも."
+        },
+        {
+          "id": "n4-66-e09", "type": "choice", "uses": [],
+          "jp": "この{問題|もんだい}は{子|こ}どもには{難|むずか}し＿かもしれません。", "fr": "Ce problème est peut-être difficile pour un enfant.",
+          "choices": ["い", "く", "さ", "な"], "a": 0,
+          "explain": "Adj. い complet + かもしれない."
+        },
+        {
+          "id": "n4-66-e10", "type": "order", "uses": [],
+          "fr": "Je l'ai peut-être déjà dit.",
+          "tokens": ["もう", "{言|い}った", "かもしれません"],
+          "explain": "Passé + かもしれません."
+        },
+        {
+          "id": "n4-66-e11", "type": "choice", "uses": [],
+          "q": "Une seule de ces phrases est correcte. Laquelle ?",
+          "choices": ["あの{人|ひと}は{先生|せんせい}かもしれません。", "あの{人|ひと}は{先生|せんせい}だかもしれません。", "あの{人|ひと}は{先生|せんせい}なかもしれません。", "あの{人|ひと}は{先生|せんせい}のかもしれません。"], "a": 0,
+          "explain": "Nom + かもしれません."
+        },
+        {
+          "id": "n4-66-e12", "type": "choice", "uses": [],
+          "jp": "{道|みち}が{込|こ}んでいるので、{少|すこ}し{遅|おく}れる＿。", "fr": "Il y a des bouchons, je serai peut-être un peu en retard.",
+          "choices": ["かもしれません", "かもしれませんだ", "かもしれなくて", "かもしれ"], "a": 0,
+          "explain": "Forme du dictionnaire + かもしれません."
+        }
+      ]
+    }
+  ],
+  "test": [
+    {
+      "id": "n4-b13-t01", "type": "choice", "uses": ["n4-62", "n4-61"],
+      "jp": "{空|そら}が{暗|くら}くなってきました。{雨|あめ}が{降|ふ}り＿です。", "fr": "Le ciel s'assombrit. On dirait qu'il va pleuvoir.",
+      "choices": ["そう", "よう", "らしい", "みたい"], "a": 0,
+      "explain": "Base ます + そう (apparence). よう, らしい, みたい ne se mettent pas après la base ます."
+    },
+    {
+      "id": "n4-b13-t02", "type": "choice", "uses": ["n4-63"],
+      "jp": "ニュースによると、{台風|たいふう}が{来|く}る＿です。", "fr": "D'après les infos, un typhon arrive.",
+      "choices": ["そう", "そうな", "そうに", "そうだ"], "a": 0,
+      "explain": "Ouï-dire : forme neutre + そうです."
+    },
+    {
+      "id": "n4-b13-t03", "type": "choice", "uses": ["n4-64"],
+      "q": "Que signifie : あの{二人|ふたり}は{兄弟|きょうだい}のようです。",
+      "choices": ["Ces deux-là semblent être frères (je le déduis).", "On m'a dit qu'ils sont frères.", "Ils sont frères, c'est certain.", "Ils ne sont pas frères."], "a": 0,
+      "explain": "ようだ = ma déduction."
+    },
+    {
+      "id": "n4-b13-t04", "type": "choice", "uses": ["n4-64"],
+      "jp": "{彼|かれ}は{今日|きょう}{休|やす}み＿よ。", "fr": "On dirait qu'il est absent aujourd'hui.",
+      "choices": ["みたいだ", "のみたいだ", "なみたいだ", "だみたいだ"], "a": 0,
+      "explain": "Nom + みたい, directement."
+    },
+    {
+      "id": "n4-b13-t05", "type": "choice", "uses": ["n4-66"],
+      "jp": "その{話|はなし}、{本当|ほんとう}＿ね。", "fr": "Cette histoire est peut-être vraie.",
+      "choices": ["かもしれない", "だかもしれない", "なかもしれない", "のかもしれない"], "a": 0,
+      "explain": "Nom + かもしれない, sans だ."
+    },
+    {
+      "id": "n4-b13-t06", "type": "choice", "uses": ["n4-62"],
+      "q": "ない + そう (apparence) ?",
+      "choices": ["なさそう", "なそう", "ないそう", "なくそう"], "a": 0,
+      "explain": "Exception : ない → なさそう."
+    },
+    {
+      "id": "n4-b13-t07", "type": "order", "uses": ["n4-63"],
+      "fr": "D'après la météo, il neigera demain.",
+      "tokens": ["{天気予報|てんきよほう}", "に", "よると", "{明日|あした}", "は", "{雪|ゆき}", "だ", "そうです"],
+      "explain": "〜によると + ouï-dire ; nom + だそうです."
+    },
+    {
+      "id": "n4-b13-t08", "type": "choice", "uses": ["n4-65"],
+      "q": "Rumeur pas très sûre : « Il paraît qu'il va déménager. »",
+      "choices": ["{彼|かれ}は{引|ひ}っ{越|こ}すらしいです。", "{彼|かれ}は{引|ひ}っ{越|こ}しそうです。", "{彼|かれ}は{引|ひ}っ{越|こ}すらしくです。", "{彼|かれ}は{引|ひ}っ{越|こ}すようにです。"], "a": 0,
+      "explain": "Rumeur : らしい."
+    },
+    {
+      "id": "n4-b13-t09", "type": "choice", "uses": ["n4-62"],
+      "jp": "おいし＿なケーキですね。", "fr": "Quel gâteau appétissant !",
+      "choices": ["そう", "いそう", "くそう", "さそう"], "a": 0,
+      "explain": "Adj. い sans い + そう + な + nom."
+    },
+    {
+      "id": "n4-b13-t10", "type": "choice", "uses": ["n4-65"],
+      "q": "Une seule de ces phrases est correcte. Laquelle ?",
+      "choices": ["{今日|きょう}は{夏|なつ}らしい{天気|てんき}です。", "{今日|きょう}は{夏|なつ}だらしい{天気|てんき}です。", "{今日|きょう}は{夏|なつ}のらしい{天気|てんき}です。", "{今日|きょう}は{夏|なつ}らしいな{天気|てんき}です。"], "a": 0,
+      "explain": "Nom + らしい + nom."
+    },
+    {
+      "id": "n4-b13-t11", "type": "choice", "uses": ["n4-66"],
+      "jp": "{鍵|かぎ}がない。どこかで{落|お}とした＿。", "fr": "Je n'ai plus mes clés. Je les ai peut-être perdues quelque part.",
+      "choices": ["かもしれない", "かもしれる", "かもしらない", "かもしれないだ"], "a": 0,
+      "explain": "Passé + かもしれない."
+    },
+    {
+      "id": "n4-b13-t12", "type": "order", "uses": ["n4-64"],
+      "fr": "On dirait qu'il n'y a personne à la maison.",
+      "tokens": ["{家|いえ}", "に", "{誰|だれ}も", "いない", "みたい", "です"],
+      "alt": [["{誰|だれ}も", "{家|いえ}", "に", "いない", "みたい", "です"]],
+      "explain": "Forme neutre + みたいです."
+    },
+    {
+      "id": "n4-b13-t13", "type": "choice", "uses": ["n4-62", "n4-63"],
+      "q": "Laquelle veut dire « Il paraît que c'est cher » (on me l'a dit) ?",
+      "choices": ["{高|たか}いそうです。", "{高|たか}そうです。", "{高|たか}いようです。", "{高|たか}かもしれません。"], "a": 0,
+      "explain": "Ouï-dire : forme complète + そうです. {高|たか}そう = a l'air cher."
+    },
+    {
+      "id": "n4-b13-t14", "type": "choice", "uses": ["n4-64"],
+      "jp": "{彼女|かのじょ}はまるで{人形|にんぎょう}＿かわいいです。", "fr": "Elle est mignonne comme une poupée.",
+      "choices": ["のように", "のような", "みたいな", "なように"], "a": 0,
+      "explain": "Nom + のように + adjectif / verbe."
+    },
+    {
+      "id": "n4-b13-t15", "type": "choice", "uses": ["n4-62"],
+      "q": "Que signifie : {雨|あめ}が{降|ふ}りそうですね。",
+      "choices": ["On dirait qu'il va pleuvoir.", "Il paraît qu'il va pleuvoir.", "Il pleut beaucoup.", "La pluie s'est arrêtée."], "a": 0,
+      "explain": "Base ます + そう = apparence."
+    }
+  ]
+}
