@@ -1,0 +1,870 @@
+{
+  "id": "n4-b09",
+  "level": "N4",
+  "title": "Pouvoir, avoir l'intention, changer",
+  "lessons": [
+    {
+      "id": "n4-41",
+      "title": "Rappel : les 5 formes du verbe (passerelle vers le N4)",
+      "formula": ["ます → dictionnaire → て → た → ない", "Groupe 1 : la dernière syllabe change ({書|か}く → {書|か}かない)", "Groupe 2 : on enlève る ({食|た}べる → {食|た}べない)", "Groupe 3 : する → しない, {来|く}る → {来|こ}ない"],
+      "sections": [
+        {
+          "h": "Pourquoi ce rappel",
+          "p": [
+            "Presque toute la grammaire du N4 se fabrique à partir de **5 formes** du verbe : ます, dictionnaire, て, た et ない. Si une forme te manque, cette leçon les remet côte à côte.",
+            "Pour aller plus loin : leçons N5 16 (dictionnaire), 17 (て), 22 (ない), 24 (た), 26 (style neutre), et le point clé {動詞|どうし}."
+          ]
+        },
+        {
+          "h": "Les 5 formes côte à côte",
+          "p": [
+            "Les verbes du **groupe 1** changent leur dernière syllabe ; ceux du **groupe 2** perdent る ; する et {来|く}る sont irréguliers."
+          ],
+          "grid": {
+            "head": ["", "ます", "dictionnaire", "て", "た", "ない"],
+            "rows": [
+              ["{書|か}く (gr. 1)", "{書|か}きます", "{書|か}く", "{書|か}いて", "{書|か}いた", "{書|か}かない"],
+              ["{飲|の}む (gr. 1)", "{飲|の}みます", "{飲|の}む", "{飲|の}んで", "{飲|の}んだ", "{飲|の}まない"],
+              ["{買|か}う (gr. 1)", "{買|か}います", "{買|か}う", "{買|か}って", "{買|か}った", "{買|か}わない"],
+              ["{話|はな}す (gr. 1)", "{話|はな}します", "{話|はな}す", "{話|はな}して", "{話|はな}した", "{話|はな}さない"],
+              ["{帰|かえ}る (gr. 1)", "{帰|かえ}ります", "{帰|かえ}る", "{帰|かえ}って", "{帰|かえ}った", "{帰|かえ}らない"],
+              ["{食|た}べる (gr. 2)", "{食|た}べます", "{食|た}べる", "{食|た}べて", "{食|た}べた", "{食|た}べない"],
+              ["{見|み}る (gr. 2)", "{見|み}ます", "{見|み}る", "{見|み}て", "{見|み}た", "{見|み}ない"],
+              ["する (gr. 3)", "します", "する", "して", "した", "しない"],
+              ["{来|く}る (gr. 3)", "{来|き}ます", "{来|く}る", "{来|き}て", "{来|き}た", "{来|こ}ない"]
+            ]
+          }
+        },
+        {
+          "h": "La forme ない (groupe 1)",
+          "p": [
+            "Le son « u » final devient « a », puis ない : {書|か}く → {書|か}**か**ない, {待|ま}つ → {待|ま}**た**ない, {読|よ}む → {読|よ}**ま**ない.",
+            "==う devient わ== (pas あ) : {買|か}う → {買|か}**わ**ない, {会|あ}う → {会|あ}**わ**ない.",
+            "Au passé : ない → **なかった** ({書|か}かなかった = je n'ai pas écrit)."
+          ]
+        },
+        {
+          "h": "La forme た = la forme て avec « a »",
+          "p": [
+            "Même fabrication que la forme て, en remplaçant て/で par た/だ : {書|か}いて → {書|か}いた, {飲|の}んで → {飲|の}んだ, {行|い}って → {行|い}った."
+          ]
+        },
+        {
+          "h": "Poli ↔ neutre",
+          "p": [
+            "Le N4 utilise beaucoup le style neutre (entre amis, et à l'intérieur des phrases)."
+          ],
+          "ex": [
+            { "jp": "{行|い}きます = {行|い}く", "fr": "j'y vais" },
+            { "jp": "{行|い}きません = {行|い}かない", "fr": "je n'y vais pas" },
+            { "jp": "{行|い}きました = {行|い}った", "fr": "j'y suis allé" },
+            { "jp": "{行|い}きませんでした = {行|い}かなかった", "fr": "je n'y suis pas allé" }
+          ]
+        }
+      ],
+      "pieges": [
+        "{行|い}く : {行|い}って / {行|い}った (pas {行|い}いて).",
+        "{買|か}う → {買|か}わない (pas {買|か}あない).",
+        "ある → ない (pas あらない).",
+        "{帰|かえ}る, {入|はい}る, {走|はし}る, {知|し}る, {切|き}る finissent par る mais sont du **groupe 1** : {帰|かえ}らない, {帰|かえ}って.",
+        "{来|く}る : きます, くる, きて, きた, こない."
+      ],
+      "exercises": [
+        {
+          "id": "n4-41-e01", "type": "choice", "uses": [],
+          "q": "Forme ない de {書|か}く ?",
+          "choices": ["{書|か}かない", "{書|か}きない", "{書|か}くない", "{書|か}かいない"], "a": 0,
+          "explain": "Groupe 1 : く → か + ない."
+        },
+        {
+          "id": "n4-41-e02", "type": "choice", "uses": [],
+          "q": "Forme ない de {買|か}う ?",
+          "choices": ["{買|か}わない", "{買|か}あない", "{買|か}いない", "{買|か}うない"], "a": 0,
+          "explain": "う devient わ (et non あ) : {買|か}わない."
+        },
+        {
+          "id": "n4-41-e03", "type": "choice", "uses": [],
+          "q": "Forme ない de {来|く}る ?",
+          "choices": ["こない", "きない", "くない", "くらない"], "a": 0,
+          "explain": "{来|く}る est irrégulier : {来|こ}ない."
+        },
+        {
+          "id": "n4-41-e04", "type": "choice", "uses": [],
+          "q": "Forme ない de ある ?",
+          "choices": ["ない", "あらない", "あるない", "ありない"], "a": 0,
+          "explain": "ある est l'exception : sa forme négative est simplement ない."
+        },
+        {
+          "id": "n4-41-e05", "type": "choice", "uses": [],
+          "q": "Forme た de {飲|の}む ?",
+          "choices": ["{飲|の}んだ", "{飲|の}みた", "{飲|の}んた", "{飲|の}った"], "a": 0,
+          "explain": "む → んで (forme て) → んだ (forme た)."
+        },
+        {
+          "id": "n4-41-e06", "type": "choice", "uses": [],
+          "q": "Forme た de {行|い}く ?",
+          "choices": ["{行|い}った", "{行|い}いた", "{行|い}きた", "{行|い}くた"], "a": 0,
+          "explain": "{行|い}く est l'exception des verbes en く : {行|い}って, {行|い}った."
+        },
+        {
+          "id": "n4-41-e07", "type": "choice", "uses": ["n5-26"],
+          "q": "Style neutre de : {昨日|きのう}は{何|なに}も{食|た}べませんでした。",
+          "choices": ["{食|た}べなかった", "{食|た}べないだった", "{食|た}べませんだった", "{食|た}べなくた"], "a": 0,
+          "explain": "ません でした → なかった : {食|た}べなかった."
+        },
+        {
+          "id": "n4-41-e08", "type": "choice", "uses": ["n5-16"],
+          "q": "Lequel de ces verbes est du groupe 1 ?",
+          "choices": ["{帰|かえ}る", "{食|た}べる", "{見|み}る", "{起|お}きる"], "a": 0,
+          "explain": "{帰|かえ}ります → groupe 1 ({帰|かえ}らない, {帰|かえ}って). Les trois autres font ます sans い devant : groupe 2."
+        },
+        {
+          "id": "n4-41-e09", "type": "choice", "uses": ["n5-26"],
+          "q": "Style neutre de : {友|とも}だちと{映画|えいが}を{見|み}ました。",
+          "choices": ["{見|み}た", "{見|み}って", "{見|み}るた", "{見|み}いた"], "a": 0,
+          "explain": "{見|み}る est du groupe 2 : on enlève る et on ajoute た."
+        },
+        {
+          "id": "n4-41-e10", "type": "choice", "uses": ["n5-17"],
+          "q": "Forme て de {話|はな}す ?",
+          "choices": ["{話|はな}して", "{話|はな}いて", "{話|はな}って", "{話|はな}んで"], "a": 0,
+          "explain": "す → して."
+        },
+        {
+          "id": "n4-41-e11", "type": "order", "uses": ["n5-03"],
+          "fr": "Je n'ai pas lu ce livre (style neutre).",
+          "tokens": ["この", "{本|ほん}", "は", "{読|よ}まなかった"],
+          "explain": "{読|よ}む → {読|よ}まない → {読|よ}まなかった. L'objet déjà connu (この{本|ほん}) passe en は."
+        },
+        {
+          "id": "n4-41-e12", "type": "choice", "uses": ["n5-26"],
+          "jp": "A：{明日|あした}、{来|く}る？　B：ううん、＿。", "fr": "A : Tu viens demain ? B : Non, je ne viens pas.",
+          "choices": ["こない", "きない", "くない", "こらない"], "a": 0,
+          "explain": "Réponse négative au style neutre : {来|こ}ない."
+        }
+      ]
+    },
+    {
+      "id": "n4-42",
+      "title": "La forme potentielle : pouvoir, savoir faire",
+      "formula": ["Groupe 1 : u → e + る ({書|か}く → {書|か}ける)", "Groupe 2 : る → られる ({食|た}べる → {食|た}べられる)", "する → できる · {来|く}る → {来|こ}られる", "L'objet prend souvent が : {日本語|にほんご}**が**{話|はな}せる"],
+      "sections": [
+        {
+          "h": "Le sens",
+          "p": [
+            "La forme potentielle dit qu'on **peut** ou qu'on **sait** faire quelque chose (capacité ou possibilité).",
+            "Elle se conjugue comme un verbe du groupe 2 : {書|か}ける → {書|か}けます, {書|か}けません, {書|か}けた, {書|か}けない."
+          ],
+          "ex": [
+            { "jp": "{漢字|かんじ}が{少|すこ}し{読|よ}めます。", "fr": "Je sais lire un peu les kanji." },
+            { "jp": "{私|わたし}は{泳|およ}げません。", "fr": "Je ne sais pas nager." },
+            { "jp": "ここで{写真|しゃしん}が{撮|と}れますか。", "fr": "Peut-on prendre des photos ici ?" }
+          ]
+        },
+        {
+          "h": "Fabriquer la forme",
+          "p": [
+            "**Groupe 1** : le son « u » final devient « e », puis る. **Groupe 2** : る → られる."
+          ],
+          "grid": {
+            "head": ["", "dictionnaire", "potentiel", "poli"],
+            "rows": [
+              ["gr. 1", "{書|か}く", "{書|か}ける", "{書|か}けます"],
+              ["gr. 1", "{話|はな}す", "{話|はな}せる", "{話|はな}せます"],
+              ["gr. 1", "{読|よ}む", "{読|よ}める", "{読|よ}めます"],
+              ["gr. 1", "{買|か}う", "{買|か}える", "{買|か}えます"],
+              ["gr. 1", "{帰|かえ}る", "{帰|かえ}れる", "{帰|かえ}れます"],
+              ["gr. 2", "{食|た}べる", "{食|た}べられる", "{食|た}べられます"],
+              ["gr. 2", "{起|お}きる", "{起|お}きられる", "{起|お}きられます"],
+              ["gr. 3", "する", "できる", "できます"],
+              ["gr. 3", "{来|く}る", "{来|こ}られる", "{来|こ}られます"]
+            ]
+          }
+        },
+        {
+          "h": "を devient が",
+          "p": [
+            "Avec la forme potentielle, l'objet prend le plus souvent **が** : {日本語|にほんご}を{話|はな}す → {日本語|にほんご}**が**{話|はな}せる. Les autres particules (に, で, へ…) ne changent pas."
+          ],
+          "ex": [
+            { "jp": "{日本語|にほんご}が{話|はな}せますか。", "fr": "Tu sais parler japonais ?" },
+            { "jp": "{一人|ひとり}で{病院|びょういん}に{行|い}けます。", "fr": "Je peux aller seul à l'hôpital." }
+          ]
+        },
+        {
+          "h": "{見|み}える・{聞|き}こえる",
+          "p": [
+            "{見|み}える = être visible, se voir (sans effort) ; {聞|き}こえる = s'entendre. {見|み}られる / {聞|き}ける = avoir la possibilité de voir / d'écouter."
+          ],
+          "ex": [
+            { "jp": "ここから{山|やま}が{見|み}えます。", "fr": "D'ici, on voit la montagne." },
+            { "jp": "{隣|となり}の{部屋|へや}から{音楽|おんがく}が{聞|き}こえます。", "fr": "On entend de la musique dans la pièce d'à côté." },
+            { "jp": "このサイトで{日本|にほん}のドラマが{見|み}られます。", "fr": "Sur ce site, on peut regarder des dramas japonais." }
+          ]
+        }
+      ],
+      "pieges": [
+        "{帰|かえ}る, {入|はい}る, {走|はし}る sont du groupe 1 : {帰|かえ}れる (pas {帰|かえ}られる, qui est une autre forme).",
+        "する → できる (pas すれる).",
+        "Groupe 2 : {食|た}べられる. À l'oral on entend « {食|た}べれる », mais à l'écrit et au JLPT on attend {食|た}べられる.",
+        "{見|み}える (c'est visible) ≠ {見|み}られる (j'ai l'occasion de voir)."
+      ],
+      "exercises": [
+        {
+          "id": "n4-42-e01", "type": "choice", "uses": [],
+          "jp": "{私|わたし}は{漢字|かんじ}が{少|すこ}し＿。", "fr": "Je sais lire un peu les kanji.",
+          "choices": ["{読|よ}めます", "{読|よ}みます", "{読|よ}みれます", "{読|よ}むれます"], "a": 0,
+          "explain": "{読|よ}む → {読|よ}める (u → e + る). Avec が, il faut la forme potentielle."
+        },
+        {
+          "id": "n4-42-e02", "type": "choice", "uses": [],
+          "jp": "{日本語|にほんご}が＿か。", "fr": "Tu sais parler japonais ?",
+          "choices": ["{話|はな}せます", "{話|はな}します", "{話|はな}しれます", "{話|はな}られます"], "a": 0,
+          "explain": "{話|はな}す → {話|はな}せる. {日本語|にほんご}が{話|はな}します est faux : が appelle le potentiel."
+        },
+        {
+          "id": "n4-42-e03", "type": "choice", "uses": [],
+          "q": "Forme potentielle de {食|た}べる ?",
+          "choices": ["{食|た}べられる", "{食|た}べける", "{食|た}べるれる", "{食|た}べらる"], "a": 0,
+          "explain": "Groupe 2 : る → られる."
+        },
+        {
+          "id": "n4-42-e04", "type": "choice", "uses": [],
+          "q": "Forme potentielle de する ?",
+          "choices": ["できる", "すれる", "しられる", "しれる"], "a": 0,
+          "explain": "する → できる."
+        },
+        {
+          "id": "n4-42-e05", "type": "choice", "uses": [],
+          "q": "Forme potentielle de {来|く}る ?",
+          "choices": ["こられる", "きられる", "くられる", "こらる"], "a": 0,
+          "explain": "{来|く}る → {来|こ}られる."
+        },
+        {
+          "id": "n4-42-e06", "type": "choice", "uses": ["n4-41"],
+          "q": "Forme potentielle de {帰|かえ}る ?",
+          "choices": ["{帰|かえ}れる", "{帰|かえ}られる", "{帰|かえ}りれる", "{帰|かえ}るれる"], "a": 0,
+          "explain": "{帰|かえ}る est du groupe 1 ({帰|かえ}ります) : る → れる. {帰|かえ}られる est une autre forme (passif)."
+        },
+        {
+          "id": "n4-42-e07", "type": "choice", "uses": [],
+          "jp": "ここから{富士山|ふじさん}が＿。", "fr": "D'ici, on voit le mont Fuji.",
+          "choices": ["{見|み}えます", "{見|み}ます", "{見|み}せます", "{見|み}えられます"], "a": 0,
+          "explain": "Ce qui est visible naturellement : {見|み}える. {見|み}ます demanderait を."
+        },
+        {
+          "id": "n4-42-e08", "type": "choice", "uses": [],
+          "jp": "{隣|となり}の{部屋|へや}から{音楽|おんがく}が＿。", "fr": "On entend de la musique dans la pièce d'à côté.",
+          "choices": ["{聞|き}こえます", "{聞|き}きます", "{聞|き}かせます", "{聞|き}こえれます"], "a": 0,
+          "explain": "Un son qui arrive à nos oreilles : {聞|き}こえる."
+        },
+        {
+          "id": "n4-42-e09", "type": "order", "uses": ["n5-36"],
+          "fr": "Je ne sais pas encore lire les kanji.",
+          "tokens": ["まだ", "{漢字|かんじ}", "が", "{読|よ}めません"],
+          "alt": [["{漢字|かんじ}", "が", "まだ", "{読|よ}めません"]],
+          "explain": "まだ + négatif = pas encore. {読|よ}む → {読|よ}める."
+        },
+        {
+          "id": "n4-42-e10", "type": "choice", "uses": [],
+          "q": "Comment dire « Demain, je ne peux pas venir » ?",
+          "choices": ["{明日|あした}はこられません。", "{明日|あした}はきられません。", "{明日|あした}はくられません。", "{明日|あした}はこれれません。"], "a": 0,
+          "explain": "{来|く}る → {来|こ}られる → {来|こ}られません."
+        },
+        {
+          "id": "n4-42-e11", "type": "choice", "uses": [],
+          "jp": "この{店|みせ}ではカードが＿。", "fr": "Dans ce magasin, on ne peut pas payer par carte.",
+          "choices": ["{使|つか}えません", "{使|つか}いません", "{使|つか}えれません", "{使|つか}いれません"], "a": 0,
+          "explain": "{使|つか}う → {使|つか}える (u → e + る)."
+        },
+        {
+          "id": "n4-42-e12", "type": "choice", "uses": [],
+          "q": "La mer est visible d'ici, sans rien faire de spécial. Que dis-tu ?",
+          "choices": ["ここから{海|うみ}が{見|み}えます。", "ここから{海|うみ}を{見|み}えます。", "ここから{海|うみ}が{見|み}ます。", "ここから{海|うみ}に{見|み}えます。"], "a": 0,
+          "explain": "{見|み}える se construit avec が : {海|うみ}が{見|み}えます."
+        },
+        {
+          "id": "n4-42-e13", "type": "order", "uses": [],
+          "fr": "Peux-tu écrire ton nom en kanji ?",
+          "tokens": ["{名前|なまえ}", "が", "{漢字|かんじ}", "で", "{書|か}けますか"],
+          "alt": [["{漢字|かんじ}", "で", "{名前|なまえ}", "が", "{書|か}けますか"]],
+          "explain": "{書|か}く → {書|か}ける. で = au moyen de (ici : en kanji)."
+        }
+      ]
+    },
+    {
+      "id": "n4-43",
+      "title": "ことができる・できる",
+      "formula": ["Verbe (dictionnaire) + ことができる : pouvoir faire", "Nom + が + できる : savoir faire, être possible", "できる seul : être prêt, terminé"],
+      "sections": [
+        {
+          "h": "Le sens",
+          "p": [
+            "〜ことができる dit la même chose que la forme potentielle, en un peu plus **formel** (écrit, annonces, règlements).",
+            "Le verbe reste à la **forme du dictionnaire** : {泳|およ}ぐことができます = {泳|およ}げます."
+          ],
+          "ex": [
+            { "jp": "{私|わたし}はピアノを{弾|ひ}くことができます。", "fr": "Je sais jouer du piano." },
+            { "jp": "この{図書館|としょかん}では{本|ほん}を{借|か}りることができます。", "fr": "Dans cette bibliothèque, on peut emprunter des livres." },
+            { "jp": "{昨日|きのう}はよく{寝|ね}ることができませんでした。", "fr": "Hier, je n'ai pas pu bien dormir." }
+          ]
+        },
+        {
+          "h": "Nom + が + できる",
+          "p": [
+            "Avec un nom d'activité ou de langue : **が**できる = savoir faire, savoir parler."
+          ],
+          "ex": [
+            { "jp": "{兄|あに}は{英語|えいご}ができます。", "fr": "Mon grand frère parle anglais." },
+            { "jp": "テニスができますか。", "fr": "Tu sais jouer au tennis ?" }
+          ]
+        },
+        {
+          "h": "できる = être prêt, terminé",
+          "p": [
+            "できる veut aussi dire « être fait, prêt, terminé » : c'est souvent ce sens au passé."
+          ],
+          "ex": [
+            { "jp": "{晩|ばん}ごはんができましたよ。", "fr": "Le dîner est prêt !" },
+            { "jp": "{宿題|しゅくだい}はもうできましたか。", "fr": "Tes devoirs sont déjà faits ?" }
+          ]
+        }
+      ],
+      "pieges": [
+        "Toujours la forme du dictionnaire avant こと : {話|はな}すことができる (pas {話|はな}しますことができる).",
+        "{話|はな}したことがある (je l'ai déjà fait, N5 leçon 25) ≠ {話|はな}すことができる (je peux le faire).",
+        "Pas de double potentiel : {話|はな}せることができる ✗.",
+        "La particule devant できる est が : {日本語|にほんご}**が**できる."
+      ],
+      "exercises": [
+        {
+          "id": "n4-43-e01", "type": "choice", "uses": [],
+          "jp": "{私|わたし}はピアノを＿ことができます。", "fr": "Je sais jouer du piano.",
+          "choices": ["{弾|ひ}く", "{弾|ひ}きます", "{弾|ひ}いて", "{弾|ひ}いた"], "a": 0,
+          "explain": "Devant こと, la forme du dictionnaire : {弾|ひ}くことができます."
+        },
+        {
+          "id": "n4-43-e02", "type": "choice", "uses": [],
+          "jp": "{兄|あに}は{英語|えいご}＿できます。", "fr": "Mon grand frère parle anglais.",
+          "choices": ["が", "を", "で", "に"], "a": 0,
+          "explain": "Nom + **が** + できる."
+        },
+        {
+          "id": "n4-43-e03", "type": "choice", "uses": [],
+          "jp": "この{図書館|としょかん}では{本|ほん}を{借|か}りる＿ができます。", "fr": "Dans cette bibliothèque, on peut emprunter des livres.",
+          "choices": ["こと", "の", "もの", "ところ"], "a": 0,
+          "explain": "Verbe + ことができる."
+        },
+        {
+          "id": "n4-43-e04", "type": "choice", "uses": ["n4-42"],
+          "q": "Même sens que {泳|およ}ぐことができます ?",
+          "choices": ["{泳|およ}げます", "{泳|およ}ぎます", "{泳|およ}いだことがあります", "{泳|およ}ぎたいです"], "a": 0,
+          "explain": "ことができる = forme potentielle : {泳|およ}ぐ → {泳|およ}げる."
+        },
+        {
+          "id": "n4-43-e05", "type": "choice", "uses": [],
+          "jp": "{晩|ばん}ごはんが＿よ。{一緒|いっしょ}に{食|た}べましょう。", "fr": "Le dîner est prêt ! Mangeons ensemble.",
+          "choices": ["できました", "できません", "しました", "なりました"], "a": 0,
+          "explain": "できる = être prêt. Au passé : できました."
+        },
+        {
+          "id": "n4-43-e06", "type": "choice", "uses": [],
+          "q": "Comment dire « Hier, je n'ai pas pu dormir » (style formel) ?",
+          "choices": ["{昨日|きのう}は{寝|ね}ることができませんでした。", "{昨日|きのう}は{寝|ね}たことができませんでした。", "{昨日|きのう}は{寝|ね}ることができないでした。", "{昨日|きのう}は{寝|ね}ますことができませんでした。"], "a": 0,
+          "explain": "Le passé se met sur できる : ことができませんでした. Le verbe reste au dictionnaire."
+        },
+        {
+          "id": "n4-43-e07", "type": "order", "uses": [],
+          "fr": "Ici, on peut acheter des billets.",
+          "tokens": ["ここ", "で", "きっぷ", "を", "{買|か}う", "こと", "が", "できます"],
+          "alt": [["きっぷ", "を", "ここ", "で", "{買|か}う", "こと", "が", "できます"]],
+          "explain": "Verbe (dictionnaire) + ことができます."
+        },
+        {
+          "id": "n4-43-e08", "type": "choice", "uses": [],
+          "q": "Une seule de ces phrases est correcte. Laquelle ?",
+          "choices": ["{漢字|かんじ}を{書|か}くことができます。", "{漢字|かんじ}を{書|か}けることができます。", "{漢字|かんじ}を{書|か}きますことができます。", "{漢字|かんじ}を{書|か}いてことができます。"], "a": 0,
+          "explain": "Forme du dictionnaire + ことができる, sans potentiel en plus."
+        },
+        {
+          "id": "n4-43-e09", "type": "choice", "uses": [],
+          "jp": "{母|はは}は{料理|りょうり}がよく＿。", "fr": "Ma mère est très bonne cuisinière.",
+          "choices": ["できます", "します", "つくります", "かきます"], "a": 0,
+          "explain": "Nom + が + できる : savoir faire. {料理|りょうり}がします est faux (ce serait {料理|りょうり}をします)."
+        },
+        {
+          "id": "n4-43-e10", "type": "choice", "uses": [],
+          "jp": "{会議|かいぎ}では{英語|えいご}で＿ことができますか。", "fr": "Peut-on parler en anglais pendant la réunion ?",
+          "choices": ["{話|はな}す", "{話|はな}せる", "{話|はな}して", "{話|はな}し"], "a": 0,
+          "explain": "Forme du dictionnaire avant こと."
+        },
+        {
+          "id": "n4-43-e11", "type": "choice", "uses": [],
+          "q": "Dans quelle phrase できる veut dire « être terminé » ?",
+          "choices": ["{宿題|しゅくだい}ができました。", "{日本語|にほんご}ができます。", "ここで{泳|およ}ぐことができます。", "テニスができますか。"], "a": 0,
+          "explain": "{宿題|しゅくだい}ができました = les devoirs sont faits."
+        },
+        {
+          "id": "n4-43-e12", "type": "order", "uses": [],
+          "fr": "Je ne peux pas manger de viande.",
+          "tokens": ["{肉|にく}", "を", "{食|た}べる", "こと", "が", "できません"],
+          "explain": "ことができません = ne pas pouvoir."
+        }
+      ]
+    },
+    {
+      "id": "n4-44",
+      "title": "つもり : avoir l'intention de",
+      "formula": ["Verbe (dictionnaire) + つもりです", "Verbe (ない) + つもりです : ne pas avoir l'intention", "〜つもりはありません : pas du tout l'intention", "〜つもりでした : j'avais l'intention (mais…)"],
+      "sections": [
+        {
+          "h": "Le sens",
+          "p": [
+            "つもり = une **intention** déjà décidée, un projet personnel."
+          ],
+          "ex": [
+            { "jp": "{夏休|なつやす}みに{日本|にほん}へ{行|い}くつもりです。", "fr": "Pendant les vacances d'été, j'ai l'intention d'aller au Japon." },
+            { "jp": "{今日|きょう}はお{酒|さけ}を{飲|の}まないつもりです。", "fr": "Aujourd'hui, je compte ne pas boire d'alcool." },
+            { "jp": "{来年|らいねん}、{結婚|けっこん}するつもりです。", "fr": "Je compte me marier l'an prochain." }
+          ]
+        },
+        {
+          "h": "Négation : deux façons",
+          "p": [
+            "〜**ない**つもりです = je compte ne pas… ; 〜つもり**はありません** = je n'en ai pas du tout l'intention (plus fort)."
+          ],
+          "ex": [
+            { "jp": "{仕事|しごと}をやめるつもりはありません。", "fr": "Je n'ai aucune intention de quitter mon travail." }
+          ]
+        },
+        {
+          "h": "つもりでした, et {予定|よてい}",
+          "p": [
+            "つもりでした = j'avais l'intention, souvent suivi de « mais… ».",
+            "{予定|よてい} = un **programme fixé** (horaire, agenda), pas une simple intention : {会議|かいぎ}は{三時|さんじ}からの{予定|よてい}です."
+          ],
+          "ex": [
+            { "jp": "{電話|でんわ}するつもりでしたが、{忘|わす}れました。", "fr": "J'avais l'intention de téléphoner, mais j'ai oublié." },
+            { "jp": "{明日|あした}は{大阪|おおさか}に{行|い}く{予定|よてい}です。", "fr": "Demain, il est prévu que j'aille à Osaka." }
+          ]
+        }
+      ],
+      "pieges": [
+        "Pas la forme ます : {行|い}きますつもり ✗ → {行|い}くつもり.",
+        "{行|い}ったつもり a un autre sens (« croire être allé », « faire comme si »).",
+        "Pour demander poliment le programme d'un supérieur, on évite つもり (trop direct) : on dit plutôt 〜{予定|よてい}ですか."
+      ],
+      "exercises": [
+        {
+          "id": "n4-44-e01", "type": "choice", "uses": [],
+          "jp": "{夏休|なつやす}みに{日本|にほん}へ＿つもりです。", "fr": "Pendant les vacances, j'ai l'intention d'aller au Japon.",
+          "choices": ["{行|い}く", "{行|い}きます", "{行|い}って", "{行|い}こう"], "a": 0,
+          "explain": "Forme du dictionnaire + つもり."
+        },
+        {
+          "id": "n4-44-e02", "type": "choice", "uses": ["n4-41", "n5-15"],
+          "jp": "{明日|あした}は{早|はや}く{起|お}きますから、{今日|きょう}はお{酒|さけ}を＿つもりです。", "fr": "Comme je me lève tôt demain, je compte ne pas boire aujourd'hui.",
+          "choices": ["{飲|の}まない", "{飲|の}む", "{飲|の}みない", "{飲|の}まなかった"], "a": 0,
+          "explain": "Le contexte (se lever tôt) appelle la négation : {飲|の}まないつもり."
+        },
+        {
+          "id": "n4-44-e03", "type": "choice", "uses": [],
+          "q": "Que signifie : {来年|らいねん}、{結婚|けっこん}するつもりです。",
+          "choices": ["J'ai l'intention de me marier l'an prochain.", "Je me suis marié l'an dernier.", "Je ne veux pas me marier.", "On dit qu'il se marie l'an prochain."], "a": 0,
+          "explain": "つもり = intention personnelle."
+        },
+        {
+          "id": "n4-44-e04", "type": "choice", "uses": [],
+          "jp": "{週末|しゅうまつ}は{何|なに}を＿つもりですか。", "fr": "Que comptes-tu faire ce week-end ?",
+          "choices": ["する", "します", "して", "した"], "a": 0,
+          "explain": "Forme du dictionnaire + つもり."
+        },
+        {
+          "id": "n4-44-e05", "type": "choice", "uses": [],
+          "jp": "{電話|でんわ}する＿でしたが、{忘|わす}れました。", "fr": "J'avais l'intention de téléphoner, mais j'ai oublié.",
+          "choices": ["つもり", "こと", "ため", "ほう"], "a": 0,
+          "explain": "つもりでした = j'avais l'intention (mais…)."
+        },
+        {
+          "id": "n4-44-e06", "type": "choice", "uses": [],
+          "q": "Laquelle exprime le refus le plus fort ?",
+          "choices": ["{行|い}くつもりはありません。", "{行|い}かないつもりです。", "{行|い}くつもりです。", "{行|い}くつもりでした。"], "a": 0,
+          "explain": "〜つもりはありません = je n'en ai aucune intention."
+        },
+        {
+          "id": "n4-44-e07", "type": "order", "uses": [],
+          "fr": "J'ai l'intention d'étudier le japonais pendant un an.",
+          "tokens": ["{一年間|いちねんかん}", "{日本語|にほんご}", "を", "{勉強|べんきょう}する", "つもりです"],
+          "alt": [["{日本語|にほんご}", "を", "{一年間|いちねんかん}", "{勉強|べんきょう}する", "つもりです"]],
+          "explain": "Durée + objet + verbe + つもりです."
+        },
+        {
+          "id": "n4-44-e08", "type": "choice", "uses": [],
+          "q": "Programme fixé par l'entreprise : « La réunion est prévue à partir de 15 h ». Quelle phrase ?",
+          "choices": ["{会議|かいぎ}は{三時|さんじ}からの{予定|よてい}です。", "{会議|かいぎ}は{三時|さんじ}からのつもりです。", "{会議|かいぎ}は{三時|さんじ}から{予定|よてい}します。", "{会議|かいぎ}は{三時|さんじ}からつもりです。"], "a": 0,
+          "explain": "Un horaire fixé : {予定|よてい}. つもり = intention d'une personne."
+        },
+        {
+          "id": "n4-44-e09", "type": "choice", "uses": [],
+          "jp": "A：{来年|らいねん}は{何|なに}をしますか。B：{日本|にほん}で＿つもりです。", "fr": "A : Que fais-tu l'an prochain ? B : Je compte travailler au Japon.",
+          "choices": ["{働|はたら}く", "{働|はたら}きます", "{働|はたら}いて", "{働|はたら}いた"], "a": 0,
+          "explain": "Forme du dictionnaire + つもり."
+        },
+        {
+          "id": "n4-44-e10", "type": "choice", "uses": ["n4-41"],
+          "q": "Comment dire « Je n'ai pas l'intention d'acheter une voiture » ?",
+          "choices": ["{車|くるま}を{買|か}わないつもりです。", "{車|くるま}を{買|か}いないつもりです。", "{車|くるま}を{買|か}うないつもりです。", "{車|くるま}を{買|か}いませんつもりです。"], "a": 0,
+          "explain": "{買|か}う → {買|か}わない (う → わ)."
+        },
+        {
+          "id": "n4-44-e11", "type": "order", "uses": [],
+          "fr": "Ce week-end, je compte rester à la maison.",
+          "tokens": ["{週末|しゅうまつ}", "は", "{家|いえ}", "に", "いる", "つもりです"],
+          "explain": "いる = être, rester (personne). Lieu + に + いる."
+        },
+        {
+          "id": "n4-44-e12", "type": "choice", "uses": [],
+          "jp": "{明日|あした}から{毎日|まいにち}{走|はし}る＿です。", "fr": "À partir de demain, je compte courir tous les jours.",
+          "choices": ["つもり", "たい", "ほしい", "ため"], "a": 0,
+          "explain": "Verbe (dictionnaire) + つもりです. たい se colle à la base ます ({走|はし}りたい)."
+        }
+      ]
+    },
+    {
+      "id": "n4-45",
+      "title": "La forme volitive (〜おう) et 〜ようと{思|おも}っている",
+      "formula": ["Groupe 1 : u → o + う ({行|い}く → {行|い}こう)", "Groupe 2 : る → よう ({食|た}べる → {食|た}べよう)", "する → しよう · {来|く}る → {来|こ}よう", "Volitif + と{思|おも}っています : j'envisage de"],
+      "sections": [
+        {
+          "h": "Le sens",
+          "p": [
+            "La forme volitive est le **〜ましょう du style neutre** : {行|い}こう = allons-y. Avec か : {行|い}こうか = on y va ?"
+          ],
+          "ex": [
+            { "jp": "{一緒|いっしょ}に{帰|かえ}ろう。", "fr": "Rentrons ensemble." },
+            { "jp": "ちょっと{休|やす}もうか。", "fr": "On fait une petite pause ?" }
+          ]
+        },
+        {
+          "h": "Fabriquer la forme",
+          "p": [
+            "**Groupe 1** : le son « u » final devient « o », puis う. **Groupe 2** : る → よう."
+          ],
+          "grid": {
+            "head": ["", "dictionnaire", "volitif", "poli"],
+            "rows": [
+              ["gr. 1", "{行|い}く", "{行|い}こう", "{行|い}きましょう"],
+              ["gr. 1", "{飲|の}む", "{飲|の}もう", "{飲|の}みましょう"],
+              ["gr. 1", "{待|ま}つ", "{待|ま}とう", "{待|ま}ちましょう"],
+              ["gr. 1", "{買|か}う", "{買|か}おう", "{買|か}いましょう"],
+              ["gr. 1", "{帰|かえ}る", "{帰|かえ}ろう", "{帰|かえ}りましょう"],
+              ["gr. 2", "{食|た}べる", "{食|た}べよう", "{食|た}べましょう"],
+              ["gr. 2", "{見|み}る", "{見|み}よう", "{見|み}ましょう"],
+              ["gr. 3", "する", "しよう", "しましょう"],
+              ["gr. 3", "{来|く}る", "{来|こ}よう", "{来|き}ましょう"]
+            ]
+          }
+        },
+        {
+          "h": "〜ようと{思|おも}う : envisager de",
+          "p": [
+            "Volitif + と{思|おも}います = je pense faire (décision prise maintenant). Volitif + と{思|おも}っています = j'envisage de… (depuis un moment).",
+            "Pour une **autre personne**, seulement と{思|おも}っています : {田中|たなか}さんは{車|くるま}を{買|か}おうと{思|おも}っています."
+          ],
+          "ex": [
+            { "jp": "{来年|らいねん}、{日本|にほん}に{留学|りゅうがく}しようと{思|おも}っています。", "fr": "J'envisage d'aller étudier au Japon l'an prochain." },
+            { "jp": "{今日|きょう}は{早|はや}く{寝|ね}ようと{思|おも}います。", "fr": "Ce soir, je pense me coucher tôt." }
+          ]
+        }
+      ],
+      "pieges": [
+        "{行|い}くと{思|おも}う = je pense qu'il ira (opinion) ; {行|い}こうと{思|おも}う = je pense y aller (intention).",
+        "Pour quelqu'un d'autre : 〜ようと{思|おも}っています (pas 〜ようと{思|おも}います).",
+        "{来|く}る → {来|こ}よう ; する → しよう."
+      ],
+      "exercises": [
+        {
+          "id": "n4-45-e01", "type": "choice", "uses": [],
+          "q": "Forme volitive de {行|い}く ?",
+          "choices": ["{行|い}こう", "{行|い}きよう", "{行|い}くよう", "{行|い}かう"], "a": 0,
+          "explain": "Groupe 1 : く → こ + う."
+        },
+        {
+          "id": "n4-45-e02", "type": "choice", "uses": [],
+          "q": "Forme volitive de {食|た}べる ?",
+          "choices": ["{食|た}べよう", "{食|た}べろう", "{食|た}べこう", "{食|た}べるよう"], "a": 0,
+          "explain": "Groupe 2 : る → よう."
+        },
+        {
+          "id": "n4-45-e03", "type": "choice", "uses": [],
+          "q": "Forme volitive de {来|く}る ?",
+          "choices": ["こよう", "きよう", "くろう", "ころう"], "a": 0,
+          "explain": "{来|く}る → {来|こ}よう."
+        },
+        {
+          "id": "n4-45-e04", "type": "choice", "uses": ["n4-41"],
+          "jp": "もう{遅|おそ}いから、そろそろ＿。", "fr": "Il est tard, rentrons.",
+          "choices": ["{帰|かえ}ろう", "{帰|かえ}よう", "{帰|かえ}りよう", "{帰|かえ}るよう"], "a": 0,
+          "explain": "{帰|かえ}る est du groupe 1 : る → ろう."
+        },
+        {
+          "id": "n4-45-e05", "type": "choice", "uses": [],
+          "jp": "{来年|らいねん}、{日本|にほん}に{留学|りゅうがく}＿と{思|おも}っています。", "fr": "J'envisage d'aller étudier au Japon l'an prochain.",
+          "choices": ["しよう", "しろう", "すろう", "しょう"], "a": 0,
+          "explain": "する → しよう. Volitif + と{思|おも}っています = projet."
+        },
+        {
+          "id": "n4-45-e06", "type": "choice", "uses": [],
+          "q": "Que signifie : {今日|きょう}は{早|はや}く{寝|ね}ようと{思|おも}います。",
+          "choices": ["Ce soir, je pense me coucher tôt.", "Je pense qu'il se couche tôt.", "Couche-toi tôt !", "Hier, je me suis couché tôt."], "a": 0,
+          "explain": "Volitif + と{思|おも}います = mon intention."
+        },
+        {
+          "id": "n4-45-e07", "type": "choice", "uses": ["n5-27"],
+          "q": "Laquelle veut dire « Je pense qu'il va pleuvoir » ?",
+          "choices": ["{雨|あめ}が{降|ふ}ると{思|おも}います。", "{雨|あめ}が{降|ふ}ろうと{思|おも}います。", "{雨|あめ}が{降|ふ}ろうと{思|おも}っています。", "{雨|あめ}が{降|ふ}りましょうと{思|おも}います。"], "a": 0,
+          "explain": "Une opinion : forme neutre + と{思|おも}います. Le volitif sert à une intention."
+        },
+        {
+          "id": "n4-45-e08", "type": "order", "uses": [],
+          "fr": "J'envisage d'acheter une nouvelle voiture.",
+          "tokens": ["{新|あたら}しい", "{車|くるま}", "を", "{買|か}おう", "と", "{思|おも}っています"],
+          "explain": "{買|か}う → {買|か}おう. Volitif + と{思|おも}っています."
+        },
+        {
+          "id": "n4-45-e09", "type": "choice", "uses": [],
+          "jp": "{田中|たなか}さんは{仕事|しごと}をやめようと＿。", "fr": "M. Tanaka envisage de quitter son travail.",
+          "choices": ["{思|おも}っています", "{思|おも}います", "{思|おも}いましょう", "{思|おも}おう"], "a": 0,
+          "explain": "On ne peut pas dire ce que pense une autre personne avec と{思|おも}います : il faut と{思|おも}っています."
+        },
+        {
+          "id": "n4-45-e10", "type": "choice", "uses": [],
+          "jp": "ちょっと{疲|つか}れたね。{少|すこ}し＿か。", "fr": "On est un peu fatigués. On fait une pause ?",
+          "choices": ["{休|やす}もう", "{休|やす}みよう", "{休|やす}むよう", "{休|やす}まう"], "a": 0,
+          "explain": "{休|やす}む → {休|やす}もう (む → も + う)."
+        },
+        {
+          "id": "n4-45-e11", "type": "choice", "uses": [],
+          "q": "Style familier de : {一緒|いっしょ}に{映画|えいが}を{見|み}ましょう。",
+          "choices": ["{一緒|いっしょ}に{映画|えいが}を{見|み}よう。", "{一緒|いっしょ}に{映画|えいが}を{見|み}ろう。", "{一緒|いっしょ}に{映画|えいが}を{見|み}こう。", "{一緒|いっしょ}に{映画|えいが}を{見|み}るよう。"], "a": 0,
+          "explain": "ましょう → volitif. {見|み}る (groupe 2) → {見|み}よう."
+        },
+        {
+          "id": "n4-45-e12", "type": "order", "uses": [],
+          "fr": "Ce soir, je pense téléphoner à ma mère.",
+          "tokens": ["{今晩|こんばん}", "{母|はは}", "に", "{電話|でんわ}しよう", "と", "{思|おも}います"],
+          "alt": [["{母|はは}", "に", "{今晩|こんばん}", "{電話|でんわ}しよう", "と", "{思|おも}います"]],
+          "explain": "{電話|でんわ}する → {電話|でんわ}しよう."
+        }
+      ]
+    },
+    {
+      "id": "n4-46",
+      "title": "ようにする・ようになる",
+      "formula": ["Verbe (dictionnaire / ない) + ようにする : faire en sorte de", "Verbe (dictionnaire / potentiel) + ようになる : en arriver à, devenir capable", "ne plus : 〜なくなる"],
+      "sections": [
+        {
+          "h": "ようにする : un effort, une habitude",
+          "p": [
+            "〜ようにする = **faire en sorte de**, s'efforcer de. Au présent continu (〜ようにしています), c'est une habitude qu'on s'impose."
+          ],
+          "ex": [
+            { "jp": "{毎日|まいにち}{野菜|やさい}を{食|た}べるようにしています。", "fr": "Je fais en sorte de manger des légumes tous les jours." },
+            { "jp": "{夜|よる}は{甘|あま}いものを{食|た}べないようにしています。", "fr": "Le soir, j'évite de manger sucré." },
+            { "jp": "{遅|おく}れないようにしてください。", "fr": "Faites en sorte de ne pas être en retard." }
+          ]
+        },
+        {
+          "h": "ようになる : un changement",
+          "p": [
+            "〜ようになる = **en arriver à**, un changement qui s'est fait peu à peu. Avec la forme potentielle : devenir capable."
+          ],
+          "ex": [
+            { "jp": "{日本語|にほんご}が{話|はな}せるようになりました。", "fr": "Je suis devenu capable de parler japonais." },
+            { "jp": "{最近|さいきん}、{朝|あさ}ごはんを{食|た}べるようになりました。", "fr": "Depuis peu, je prends un petit-déjeuner (avant, non)." }
+          ]
+        },
+        {
+          "h": "Ne plus : 〜なくなる",
+          "p": [
+            "Pour un changement négatif, on dit 〜**なくなる** : {話|はな}せなくなりました = je ne sais plus parler."
+          ],
+          "ex": [
+            { "jp": "{父|ちち}はたばこを{吸|す}わなくなりました。", "fr": "Mon père ne fume plus." }
+          ]
+        }
+      ],
+      "pieges": [
+        "する = effort volontaire ; なる = changement (souvent progressif).",
+        "Pas de forme ます devant よう : {食|た}べますようにする ✗.",
+        "Avec un nom ou un adjectif, on n'utilise pas ようになる : {上手|じょうず}になる, {好|す}きになる (N5 leçon 37)."
+      ],
+      "exercises": [
+        {
+          "id": "n4-46-e01", "type": "choice", "uses": [],
+          "jp": "{健康|けんこう}のために、{毎日|まいにち}{野菜|やさい}を{食|た}べるように＿。", "fr": "Pour ma santé, je fais en sorte de manger des légumes tous les jours.",
+          "choices": ["しています", "ことができます", "つもりです", "あります"], "a": 0,
+          "explain": "Une habitude qu'on s'impose : 〜ようにしています."
+        },
+        {
+          "id": "n4-46-e02", "type": "choice", "uses": [],
+          "jp": "{三年|さんねん}{勉強|べんきょう}して、{日本語|にほんご}が{話|はな}せるように＿。", "fr": "Après trois ans d'étude, je suis devenu capable de parler japonais.",
+          "choices": ["なりました", "しました", "ありました", "できました"], "a": 0,
+          "explain": "Potentiel + ようになる = devenir capable (résultat d'un changement)."
+        },
+        {
+          "id": "n4-46-e03", "type": "choice", "uses": [],
+          "jp": "{遅|おく}れない＿してください。", "fr": "Faites en sorte de ne pas être en retard.",
+          "choices": ["ように", "ようで", "ようと", "ような"], "a": 0,
+          "explain": "Forme ない + ようにする."
+        },
+        {
+          "id": "n4-46-e04", "type": "choice", "uses": [],
+          "q": "Que signifie : {最近|さいきん}、{朝|あさ}ごはんを{食|た}べるようになりました。",
+          "choices": ["Depuis peu, je prends un petit-déjeuner (avant, non).", "Je fais en sorte de prendre un petit-déjeuner.", "J'ai décidé de sauter le petit-déjeuner.", "Je ne prends plus de petit-déjeuner."], "a": 0,
+          "explain": "ようになる = un changement : avant non, maintenant oui."
+        },
+        {
+          "id": "n4-46-e05", "type": "choice", "uses": [],
+          "q": "Comment dire « Je ne sais plus parler anglais » ?",
+          "choices": ["{英語|えいご}が{話|はな}せなくなりました。", "{英語|えいご}が{話|はな}せないようにしました。", "{英語|えいご}が{話|はな}せなくしました。", "{英語|えいご}を{話|はな}すようになりました。"], "a": 0,
+          "explain": "Ne plus : 〜なくなる."
+        },
+        {
+          "id": "n4-46-e06", "type": "choice", "uses": [],
+          "jp": "{夜|よる}は{甘|あま}いものを＿ようにしています。", "fr": "Le soir, j'évite de manger sucré.",
+          "choices": ["{食|た}べない", "{食|た}べません", "{食|た}べなく", "{食|た}べなかった"], "a": 0,
+          "explain": "Forme ない + ようにしています."
+        },
+        {
+          "id": "n4-46-e07", "type": "order", "uses": ["n4-42"],
+          "fr": "Mon fils sait maintenant faire du vélo.",
+          "tokens": ["{息子|むすこ}", "は", "{自転車|じてんしゃ}", "に", "{乗|の}れる", "ように", "なりました"],
+          "explain": "{乗|の}る → {乗|の}れる + ようになりました."
+        },
+        {
+          "id": "n4-46-e08", "type": "choice", "uses": [],
+          "q": "« Je m'efforce de dormir 7 heures. » Quelle phrase ?",
+          "choices": ["{七時間|しちじかん}{寝|ね}るようにしています。", "{七時間|しちじかん}{寝|ね}るようになりました。", "{七時間|しちじかん}{寝|ね}るつもりでした。", "{七時間|しちじかん}{寝|ね}ることができます。"], "a": 0,
+          "explain": "Un effort qu'on fait : ようにする."
+        },
+        {
+          "id": "n4-46-e09", "type": "choice", "uses": [],
+          "jp": "{赤|あか}ちゃんが{歩|ある}ける＿なりました。", "fr": "Le bébé sait maintenant marcher.",
+          "choices": ["ように", "ようで", "ことが", "ために"], "a": 0,
+          "explain": "Potentiel + ようになる."
+        },
+        {
+          "id": "n4-46-e10", "type": "choice", "uses": ["n5-38"],
+          "jp": "たばこは{体|からだ}に{悪|わる}いので、{吸|す}わない＿。", "fr": "Le tabac est mauvais pour la santé, alors j'évite de fumer.",
+          "choices": ["ようにしています", "ようになりません", "ようにあります", "ようでしています"], "a": 0,
+          "explain": "Une habitude qu'on s'impose : 〜ないようにしています."
+        },
+        {
+          "id": "n4-46-e11", "type": "order", "uses": [],
+          "fr": "Faites en sorte de ne pas oublier vos affaires.",
+          "tokens": ["{忘|わす}れ{物|もの}", "を", "しない", "ように", "して", "ください"],
+          "explain": "{忘|わす}れ{物|もの}をする = oublier quelque chose. ないようにしてください."
+        },
+        {
+          "id": "n4-46-e12", "type": "choice", "uses": [],
+          "q": "Une seule de ces phrases est correcte. Laquelle ?",
+          "choices": ["{漢字|かんじ}が{読|よ}めるようになりました。", "{漢字|かんじ}が{読|よ}めますようになりました。", "{漢字|かんじ}が{読|よ}めるになりました。", "{漢字|かんじ}が{読|よ}めるようにになりました。"], "a": 0,
+          "explain": "Forme du dictionnaire (ici potentiel) + ようになる."
+        }
+      ]
+    }
+  ],
+  "test": [
+    {
+      "id": "n4-b09-t01", "type": "choice", "uses": ["n4-42"],
+      "jp": "{私|わたし}は{少|すこ}し{日本語|にほんご}が＿。", "fr": "Je parle un peu japonais.",
+      "choices": ["{話|はな}せます", "{話|はな}します", "{話|はな}しれます", "{話|はな}られます"], "a": 0,
+      "explain": "が + forme potentielle : {話|はな}す → {話|はな}せる."
+    },
+    {
+      "id": "n4-b09-t02", "type": "choice", "uses": ["n4-44"],
+      "jp": "{来年|らいねん}、{車|くるま}を＿つもりです。", "fr": "Je compte acheter une voiture l'an prochain.",
+      "choices": ["{買|か}う", "{買|か}います", "{買|か}って", "{買|か}おう"], "a": 0,
+      "explain": "Forme du dictionnaire + つもり."
+    },
+    {
+      "id": "n4-b09-t03", "type": "choice", "uses": ["n4-45"],
+      "jp": "みんなで{写真|しゃしん}を＿よ。", "fr": "Prenons une photo tous ensemble !",
+      "choices": ["{撮|と}ろう", "{撮|と}りよう", "{撮|と}るよう", "{撮|と}らう"], "a": 0,
+      "explain": "{撮|と}る (groupe 1) → {撮|と}ろう."
+    },
+    {
+      "id": "n4-b09-t04", "type": "choice", "uses": ["n4-41"],
+      "q": "Forme ない de {話|はな}す ?",
+      "choices": ["{話|はな}さない", "{話|はな}しない", "{話|はな}すない", "{話|はな}かない"], "a": 0,
+      "explain": "す → さ + ない."
+    },
+    {
+      "id": "n4-b09-t05", "type": "choice", "uses": ["n4-46"],
+      "jp": "{毎朝|まいあさ}{運動|うんどう}する＿しています。", "fr": "Je fais en sorte de faire du sport chaque matin.",
+      "choices": ["ように", "つもり", "ことが", "ために"], "a": 0,
+      "explain": "Une habitude qu'on s'impose : 〜ようにしています."
+    },
+    {
+      "id": "n4-b09-t06", "type": "order", "uses": ["n4-43"],
+      "fr": "Je sais jouer de la guitare.",
+      "tokens": ["ギター", "を", "{弾|ひ}く", "こと", "が", "できます"],
+      "explain": "Verbe (dictionnaire) + ことができます."
+    },
+    {
+      "id": "n4-b09-t07", "type": "choice", "uses": ["n4-42"],
+      "q": "Comment dire « Je ne peux pas manger de nattō » ?",
+      "choices": ["なっとうが{食|た}べられません。", "なっとうが{食|た}べません。", "なっとうを{食|た}べることができます。", "なっとうが{食|た}べるられません。"], "a": 0,
+      "explain": "{食|た}べる (groupe 2) → {食|た}べられる → {食|た}べられません."
+    },
+    {
+      "id": "n4-b09-t08", "type": "choice", "uses": ["n4-45"],
+      "jp": "{来週|らいしゅう}、{国|くに}へ＿と{思|おも}っています。", "fr": "J'envisage de rentrer dans mon pays la semaine prochaine.",
+      "choices": ["{帰|かえ}ろう", "{帰|かえ}よう", "{帰|かえ}りよう", "{帰|かえ}りましょう"], "a": 0,
+      "explain": "{帰|かえ}る (groupe 1) → {帰|かえ}ろう."
+    },
+    {
+      "id": "n4-b09-t09", "type": "choice", "uses": ["n4-46"],
+      "q": "Que signifie : {日本語|にほんご}の{新聞|しんぶん}が{読|よ}めるようになりました。",
+      "choices": ["Je suis maintenant capable de lire un journal en japonais.", "Je m'efforce de lire un journal en japonais.", "J'ai l'intention de lire un journal en japonais.", "Je lis souvent un journal en japonais."], "a": 0,
+      "explain": "Potentiel + ようになる = devenir capable."
+    },
+    {
+      "id": "n4-b09-t10", "type": "choice", "uses": ["n4-42"],
+      "jp": "ここから{東京|とうきょう}タワーが＿。", "fr": "D'ici, on voit la tour de Tokyo.",
+      "choices": ["{見|み}えます", "{見|み}ます", "{見|み}えられます", "{見|み}せます"], "a": 0,
+      "explain": "Visible naturellement : {見|み}える."
+    },
+    {
+      "id": "n4-b09-t11", "type": "choice", "uses": ["n4-45"],
+      "q": "Forme volitive de する ?",
+      "choices": ["しよう", "すろう", "しろう", "するよう"], "a": 0,
+      "explain": "する → しよう."
+    },
+    {
+      "id": "n4-b09-t12", "type": "choice", "uses": ["n4-44", "n5-38"],
+      "jp": "{明日|あした}は{用事|ようじ}があるので、パーティーに＿つもりです。", "fr": "J'ai une course à faire demain, donc je compte ne pas aller à la fête.",
+      "choices": ["{行|い}かない", "{行|い}く", "{行|い}かなかった", "{行|い}きない"], "a": 0,
+      "explain": "Le contexte (j'ai une course) appelle la négation : {行|い}かないつもり."
+    },
+    {
+      "id": "n4-b09-t13", "type": "order", "uses": ["n4-44"],
+      "fr": "Je n'ai aucune intention de quitter mon travail.",
+      "tokens": ["{仕事|しごと}", "を", "やめる", "つもり", "は", "ありません"],
+      "explain": "〜つもりはありません = refus net."
+    },
+    {
+      "id": "n4-b09-t14", "type": "choice", "uses": ["n4-43", "n4-46"],
+      "q": "Une seule de ces phrases est correcte. Laquelle ?",
+      "choices": ["{一人|ひとり}で{料理|りょうり}ができるようになりました。", "{一人|ひとり}で{料理|りょうり}ができるになりました。", "{一人|ひとり}で{料理|りょうり}をできますようになりました。", "{一人|ひとり}で{料理|りょうり}ができようになりました。"], "a": 0,
+      "explain": "Nom + ができる + ようになる."
+    },
+    {
+      "id": "n4-b09-t15", "type": "choice", "uses": ["n4-45"],
+      "jp": "{雨|あめ}がやんだから、そろそろ＿か。", "fr": "La pluie s'est arrêtée, on y va ?",
+      "choices": ["{出|で}かけよう", "{出|で}かけろう", "{出|で}かけこう", "{出|で}かけるよう"], "a": 0,
+      "explain": "{出|で}かける (groupe 2) → {出|で}かけよう."
+    }
+  ]
+}
