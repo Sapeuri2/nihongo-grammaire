@@ -1,0 +1,749 @@
+{
+  "id": "n4-b11",
+  "level": "N4",
+  "title": "Passif, causatif, donner et recevoir",
+  "lessons": [
+    {
+      "id": "n4-52",
+      "title": "Le passif : subir une action",
+      "formula": ["Groupe 1 : u → a + れる ({書|か}く → {書|か}かれる, {言|い}う → {言|い}われる)", "Groupe 2 : る → られる ({食|た}べる → {食|た}べられる)", "する → される · {来|く}る → {来|こ}られる", "Celui qui fait l'action prend に"],
+      "sections": [
+        {
+          "h": "Fabriquer le passif",
+          "p": [
+            "**Groupe 1** : le son « u » devient « a », puis れる (comme pour ない : う → わ). **Groupe 2** : る → られる. Le passif se conjugue ensuite comme un verbe du groupe 2.",
+            "Au groupe 2, le passif ressemble au potentiel ({見|み}られる). C'est le **に + personne** et le sens qui font la différence."
+          ],
+          "grid": {
+            "head": ["", "dictionnaire", "passif", "poli"],
+            "rows": [
+              ["gr. 1", "{書|か}く", "{書|か}かれる", "{書|か}かれます"],
+              ["gr. 1", "{言|い}う", "{言|い}われる", "{言|い}われます"],
+              ["gr. 1", "{呼|よ}ぶ", "{呼|よ}ばれる", "{呼|よ}ばれます"],
+              ["gr. 1", "{盗|ぬす}む", "{盗|ぬす}まれる", "{盗|ぬす}まれます"],
+              ["gr. 1", "しかる", "しかられる", "しかられます"],
+              ["gr. 2", "{食|た}べる", "{食|た}べられる", "{食|た}べられます"],
+              ["gr. 2", "ほめる", "ほめられる", "ほめられます"],
+              ["gr. 3", "する", "される", "されます"],
+              ["gr. 3", "{来|く}る", "{来|こ}られる", "{来|こ}られます"]
+            ]
+          }
+        },
+        {
+          "h": "Le passif simple",
+          "p": [
+            "La personne qui **subit** est le sujet (は / が) ; celle qui **fait** l'action prend **に**."
+          ],
+          "ex": [
+            { "jp": "{私|わたし}は{先生|せんせい}にほめられました。", "fr": "J'ai été félicité par le professeur." },
+            { "jp": "{弟|おとうと}は{犬|いぬ}にかまれました。", "fr": "Mon petit frère s'est fait mordre par un chien." },
+            { "jp": "{母|はは}に{呼|よ}ばれました。", "fr": "Ma mère m'a appelé." }
+          ]
+        },
+        {
+          "h": "Le passif « de gêne »",
+          "p": [
+            "Quand on subit un tort, la **victime** est le sujet, et l'objet abîmé ou volé garde を.",
+            "Même un verbe sans objet peut se mettre au passif pour dire qu'on en a souffert : {雨|あめ}に{降|ふ}られる = se faire surprendre par la pluie."
+          ],
+          "ex": [
+            { "jp": "{電車|でんしゃ}で{足|あし}を{踏|ふ}まれました。", "fr": "Dans le train, on m'a marché sur le pied." },
+            { "jp": "{財布|さいふ}を{盗|ぬす}まれました。", "fr": "On m'a volé mon portefeuille." },
+            { "jp": "{帰|かえ}りに{雨|あめ}に{降|ふ}られました。", "fr": "En rentrant, je me suis fait surprendre par la pluie." }
+          ]
+        },
+        {
+          "h": "Choses, événements, œuvres",
+          "p": [
+            "Pour un bâtiment, un événement ou une œuvre, le passif sert à dire ce qui « a été fait » sans dire qui l'a fait."
+          ],
+          "ex": [
+            { "jp": "この{寺|てら}は{六百年前|ろっぴゃくねんまえ}に{建|た}てられました。", "fr": "Ce temple a été construit il y a 600 ans." },
+            { "jp": "この{本|ほん}は{世界中|せかいじゅう}で{読|よ}まれています。", "fr": "Ce livre est lu dans le monde entier." }
+          ]
+        }
+      ],
+      "pieges": [
+        "L'auteur de l'action prend に (pas が) : {先生|せんせい}**に**しかられた.",
+        "う → わ : {言|い}う → {言|い}われる (pas {言|い}あれる).",
+        "Groupe 2 : passif et potentiel ont la même forme ({見|み}られる). に + personne → passif.",
+        "Objet volé : {私|わたし}は{財布|さいふ}**を**{盗|ぬす}まれた (la victime est le sujet)."
+      ],
+      "exercises": [
+        {
+          "id": "n4-52-e01", "type": "choice", "uses": [],
+          "q": "Forme passive de {書|か}く ?",
+          "choices": ["{書|か}かれる", "{書|か}けられる", "{書|か}きれる", "{書|か}かられる"], "a": 0,
+          "explain": "Groupe 1 : く → か + れる."
+        },
+        {
+          "id": "n4-52-e02", "type": "choice", "uses": [],
+          "q": "Forme passive de {言|い}う ?",
+          "choices": ["{言|い}われる", "{言|い}あれる", "{言|い}いられる", "{言|い}えれる"], "a": 0,
+          "explain": "う → わ + れる (comme {言|い}わない)."
+        },
+        {
+          "id": "n4-52-e03", "type": "choice", "uses": [],
+          "q": "Forme passive de する ?",
+          "choices": ["される", "しられる", "すれる", "できる"], "a": 0,
+          "explain": "する → される. (できる est le potentiel.)"
+        },
+        {
+          "id": "n4-52-e04", "type": "choice", "uses": [],
+          "jp": "{私|わたし}は{先生|せんせい}＿ほめられました。", "fr": "J'ai été félicité par le professeur.",
+          "choices": ["に", "が", "を", "で"], "a": 0,
+          "explain": "Celui qui fait l'action prend に."
+        },
+        {
+          "id": "n4-52-e05", "type": "choice", "uses": [],
+          "jp": "{私|わたし}は{電車|でんしゃ}の{中|なか}で、{知|し}らない{人|ひと}に{足|あし}を＿。", "fr": "Dans le train, un inconnu m'a marché sur le pied.",
+          "choices": ["{踏|ふ}まれました", "{踏|ふ}みました", "{踏|ふ}めました", "{踏|ふ}まりました"], "a": 0,
+          "explain": "Passif de gêne : {踏|ふ}む → {踏|ふ}まれる. L'objet ({足|あし}) garde を."
+        },
+        {
+          "id": "n4-52-e06", "type": "choice", "uses": [],
+          "q": "Que signifie : {財布|さいふ}を{盗|ぬす}まれました。",
+          "choices": ["On m'a volé mon portefeuille.", "J'ai volé un portefeuille.", "J'ai perdu mon portefeuille.", "On m'a rendu mon portefeuille."], "a": 0,
+          "explain": "{盗|ぬす}む = voler ; au passif, c'est moi qui subis."
+        },
+        {
+          "id": "n4-52-e07", "type": "choice", "uses": [],
+          "jp": "この{寺|てら}は{六百年前|ろっぴゃくねんまえ}に＿。", "fr": "Ce temple a été construit il y a 600 ans.",
+          "choices": ["{建|た}てられました", "{建|た}てさられました", "{建|た}てされました", "{建|た}てりました"], "a": 0,
+          "explain": "{建|た}てる (groupe 2) → {建|た}てられる."
+        },
+        {
+          "id": "n4-52-e08", "type": "choice", "uses": [],
+          "jp": "この{歌|うた}は{世界中|せかいじゅう}で＿います。", "fr": "Cette chanson est chantée dans le monde entier.",
+          "choices": ["{歌|うた}われて", "{歌|うた}いれて", "{歌|うた}あれて", "{歌|うた}えられて"], "a": 0,
+          "explain": "{歌|うた}う → {歌|うた}われる (う → わ)."
+        },
+        {
+          "id": "n4-52-e09", "type": "choice", "uses": [],
+          "q": "Tu rentrais et il s'est mis à pleuvoir : tu as été trempé. Comment le dire ?",
+          "choices": ["{雨|あめ}に{降|ふ}られました。", "{雨|あめ}が{降|ふ}られました。", "{雨|あめ}に{降|ふ}りました。", "{雨|あめ}を{降|ふ}られました。"], "a": 0,
+          "explain": "Passif de gêne d'un verbe sans objet : {雨|あめ}に{降|ふ}られる."
+        },
+        {
+          "id": "n4-52-e10", "type": "order", "uses": [],
+          "fr": "J'ai été grondé par ma mère.",
+          "tokens": ["{私|わたし}", "は", "{母|はは}", "に", "しかられました"],
+          "explain": "しかる → しかられる ; l'auteur prend に."
+        },
+        {
+          "id": "n4-52-e11", "type": "choice", "uses": [],
+          "q": "Une seule de ces phrases est correcte. Laquelle ?",
+          "choices": ["{弟|おとうと}は{犬|いぬ}にかまれました。", "{弟|おとうと}は{犬|いぬ}がかまれました。", "{弟|おとうと}は{犬|いぬ}にかみられました。", "{弟|おとうと}を{犬|いぬ}にかまれました。"], "a": 0,
+          "explain": "かむ → かまれる ; le chien (auteur) prend に."
+        },
+        {
+          "id": "n4-52-e12", "type": "choice", "uses": [],
+          "jp": "{友|とも}だちにパーティーに＿。", "fr": "Un ami m'a invité à une fête.",
+          "choices": ["{誘|さそ}われました", "{誘|さそ}いました", "{誘|さそ}えました", "{誘|さそ}あれました"], "a": 0,
+          "explain": "{誘|さそ}う → {誘|さそ}われる (う → わ)."
+        },
+        {
+          "id": "n4-52-e13", "type": "order", "uses": [],
+          "fr": "Ce livre est lu par beaucoup de gens.",
+          "tokens": ["この", "{本|ほん}", "は", "{多|おお}くの", "{人|ひと}", "に", "{読|よ}まれています"],
+          "explain": "{読|よ}む → {読|よ}まれる ; 〜ています = état actuel."
+        }
+      ]
+    },
+    {
+      "id": "n4-53",
+      "title": "Le causatif : faire faire, laisser faire",
+      "formula": ["Groupe 1 : u → a + せる ({行|い}く → {行|い}かせる)", "Groupe 2 : る → させる ({食|た}べる → {食|た}べさせる)", "する → させる · {来|く}る → {来|こ}させる", "〜させてください : laissez-moi…"],
+      "sections": [
+        {
+          "h": "Fabriquer le causatif",
+          "p": [
+            "**Groupe 1** : « u » → « a » + せる. **Groupe 2** : る → させる. Il se conjugue ensuite comme un verbe du groupe 2."
+          ],
+          "grid": {
+            "head": ["", "dictionnaire", "causatif"],
+            "rows": [
+              ["gr. 1", "{行|い}く", "{行|い}かせる"],
+              ["gr. 1", "{飲|の}む", "{飲|の}ませる"],
+              ["gr. 1", "{待|ま}つ", "{待|ま}たせる"],
+              ["gr. 1", "{言|い}う", "{言|い}わせる"],
+              ["gr. 2", "{食|た}べる", "{食|た}べさせる"],
+              ["gr. 2", "{考|かんが}える", "{考|かんが}えさせる"],
+              ["gr. 3", "する", "させる"],
+              ["gr. 3", "{来|く}る", "{来|こ}させる"]
+            ]
+          }
+        },
+        {
+          "h": "Faire faire, obliger",
+          "p": [
+            "Celui qui décide est le sujet. Celui qui agit prend **に** si le verbe a déjà un objet (を), sinon **を**."
+          ],
+          "ex": [
+            { "jp": "{母|はは}は{子|こ}どもに{野菜|やさい}を{食|た}べさせました。", "fr": "La mère a fait manger des légumes à l'enfant." },
+            { "jp": "{先生|せんせい}は{学生|がくせい}を{立|た}たせました。", "fr": "Le professeur a fait lever l'élève." }
+          ]
+        },
+        {
+          "h": "Laisser faire : 〜させてください",
+          "p": [
+            "Le causatif veut aussi dire **laisser faire**. 〜させてください = laissez-moi…, permettez-moi de… (très utile et poli)."
+          ],
+          "ex": [
+            { "jp": "ちょっと{考|かんが}えさせてください。", "fr": "Laissez-moi réfléchir un peu." },
+            { "jp": "{子|こ}どもを{公園|こうえん}で{自由|じゆう}に{遊|あそ}ばせます。", "fr": "Je laisse les enfants jouer librement au parc." }
+          ]
+        },
+        {
+          "h": "Provoquer un sentiment",
+          "p": [
+            "Avec les verbes de sentiment : faire attendre, inquiéter, faire plaisir."
+          ],
+          "ex": [
+            { "jp": "{待|ま}たせてすみません。", "fr": "Désolé de t'avoir fait attendre." },
+            { "jp": "{親|おや}を{心配|しんぱい}させないでください。", "fr": "N'inquiète pas tes parents." }
+          ]
+        }
+      ],
+      "pieges": [
+        "Pas deux を dans la phrase : {子|こ}ども**に**{野菜|やさい}**を**{食|た}べさせる.",
+        "〜させてください = « laissez-moi faire » ; 〜てください = « faites ».",
+        "う → わ : {言|い}う → {言|い}わせる."
+      ],
+      "exercises": [
+        {
+          "id": "n4-53-e01", "type": "choice", "uses": [],
+          "q": "Forme causative de {行|い}く ?",
+          "choices": ["{行|い}かせる", "{行|い}きさせる", "{行|い}けさせる", "{行|い}くさせる"], "a": 0,
+          "explain": "Groupe 1 : く → か + せる."
+        },
+        {
+          "id": "n4-53-e02", "type": "choice", "uses": [],
+          "q": "Forme causative de {食|た}べる ?",
+          "choices": ["{食|た}べさせる", "{食|た}べかせる", "{食|た}べらせる", "{食|た}べせる"], "a": 0,
+          "explain": "Groupe 2 : る → させる."
+        },
+        {
+          "id": "n4-53-e03", "type": "choice", "uses": [],
+          "q": "Forme causative de {来|く}る ?",
+          "choices": ["こさせる", "きさせる", "くさせる", "こらせる"], "a": 0,
+          "explain": "{来|く}る → {来|こ}させる."
+        },
+        {
+          "id": "n4-53-e04", "type": "choice", "uses": [],
+          "jp": "{母|はは}は{子|こ}どもに{野菜|やさい}を＿。", "fr": "La mère a fait manger des légumes à l'enfant.",
+          "choices": ["{食|た}べさせました", "{食|た}べました", "{食|た}べかせました", "{食|た}べさました"], "a": 0,
+          "explain": "Faire faire : causatif. L'enfant (qui mange) prend に."
+        },
+        {
+          "id": "n4-53-e05", "type": "choice", "uses": [],
+          "jp": "{先生|せんせい}は{学生|がくせい}＿{立|た}たせました。", "fr": "Le professeur a fait lever l'élève.",
+          "choices": ["を", "が", "で", "と"], "a": 0,
+          "explain": "{立|た}つ n'a pas d'objet : la personne qu'on fait agir prend を."
+        },
+        {
+          "id": "n4-53-e06", "type": "choice", "uses": [],
+          "jp": "ちょっと{考|かんが}え＿ください。", "fr": "Laissez-moi réfléchir un peu.",
+          "choices": ["させて", "させって", "らせて", "かせて"], "a": 0,
+          "explain": "{考|かんが}える → {考|かんが}えさせる → {考|かんが}えさせてください."
+        },
+        {
+          "id": "n4-53-e07", "type": "choice", "uses": [],
+          "q": "Que signifie : {待|ま}たせてすみません。",
+          "choices": ["Désolé de t'avoir fait attendre.", "Désolé d'avoir attendu.", "Attends un peu, s'il te plaît.", "Merci de m'avoir attendu."], "a": 0,
+          "explain": "{待|ま}つ → {待|ま}たせる = faire attendre."
+        },
+        {
+          "id": "n4-53-e08", "type": "choice", "uses": [],
+          "jp": "{部長|ぶちょう}、その{仕事|しごと}は{私|わたし}に＿ください。", "fr": "Chef, laissez-moi faire ce travail.",
+          "choices": ["させて", "されて", "しさせて", "させられて"], "a": 0,
+          "explain": "する → させる → させてください = laissez-moi faire."
+        },
+        {
+          "id": "n4-53-e09", "type": "order", "uses": [],
+          "fr": "Le professeur a fait lire le manuel aux élèves.",
+          "tokens": ["{先生|せんせい}", "は", "{学生|がくせい}", "に", "{教科書|きょうかしょ}", "を", "{読|よ}ませました"],
+          "alt": [["{先生|せんせい}", "は", "{教科書|きょうかしょ}", "を", "{学生|がくせい}", "に", "{読|よ}ませました"]],
+          "explain": "{読|よ}む → {読|よ}ませる ; les élèves (qui lisent) prennent に."
+        },
+        {
+          "id": "n4-53-e10", "type": "choice", "uses": [],
+          "q": "Une seule de ces phrases est correcte. Laquelle ?",
+          "choices": ["{子|こ}どもに{薬|くすり}を{飲|の}ませました。", "{子|こ}どもを{薬|くすり}を{飲|の}ませました。", "{子|こ}どもに{薬|くすり}を{飲|の}みさせました。", "{子|こ}どもに{薬|くすり}が{飲|の}ませました。"], "a": 0,
+          "explain": "{飲|の}む → {飲|の}ませる ; l'enfant prend に, le médicament を."
+        },
+        {
+          "id": "n4-53-e11", "type": "choice", "uses": [],
+          "jp": "{息子|むすこ}がテストで{百点|ひゃくてん}を{取|と}って、{親|おや}を＿。", "fr": "Le fils a eu 100 points au contrôle et a fait plaisir à ses parents.",
+          "choices": ["{喜|よろこ}ばせました", "{喜|よろこ}びました", "{喜|よろこ}ばれました", "{喜|よろこ}ばせられました"], "a": 0,
+          "explain": "{喜|よろこ}ぶ → {喜|よろこ}ばせる = faire plaisir à."
+        },
+        {
+          "id": "n4-53-e12", "type": "order", "uses": [],
+          "fr": "Laissez-moi rentrer tôt aujourd'hui.",
+          "tokens": ["{今日|きょう}", "は", "{早|はや}く", "{帰|かえ}らせて", "ください"],
+          "explain": "{帰|かえ}る (groupe 1) → {帰|かえ}らせる → {帰|かえ}らせてください."
+        }
+      ]
+    },
+    {
+      "id": "n4-54",
+      "title": "Le causatif-passif : être obligé de",
+      "formula": ["Groupe 1 : u → a + される ({飲|の}む → {飲|の}まされる)", "Groupe 2 : る → させられる ({食|た}べる → {食|た}べさせられる)", "する → させられる · {来|く}る → {来|こ}させられる", "Celui qui oblige prend に"],
+      "sections": [
+        {
+          "h": "Le sens",
+          "p": [
+            "Causatif (faire faire) + passif (subir) = **être obligé de faire**, contre son gré."
+          ],
+          "ex": [
+            { "jp": "{私|わたし}は{母|はは}に{野菜|やさい}を{食|た}べさせられました。", "fr": "Ma mère m'a obligé à manger des légumes." },
+            { "jp": "{子|こ}どものとき、ピアノを{習|なら}わされました。", "fr": "Enfant, on m'a forcé à apprendre le piano." },
+            { "jp": "{部長|ぶちょう}にお{酒|さけ}を{飲|の}まされました。", "fr": "Mon chef m'a forcé à boire de l'alcool." }
+          ]
+        },
+        {
+          "h": "Fabriquer",
+          "p": [
+            "**Groupe 1** : forme courte en される ({飲|の}まされる). Exception : les verbes en す n'ont que la forme longue ({話|はな}させられる). **Groupe 2 et 3** : させられる."
+          ],
+          "grid": {
+            "head": ["", "dictionnaire", "causatif", "causatif-passif"],
+            "rows": [
+              ["gr. 1", "{行|い}く", "{行|い}かせる", "{行|い}かされる"],
+              ["gr. 1", "{飲|の}む", "{飲|の}ませる", "{飲|の}まされる"],
+              ["gr. 1", "{待|ま}つ", "{待|ま}たせる", "{待|ま}たされる"],
+              ["gr. 1", "{話|はな}す", "{話|はな}させる", "{話|はな}させられる"],
+              ["gr. 2", "{食|た}べる", "{食|た}べさせる", "{食|た}べさせられる"],
+              ["gr. 3", "する", "させる", "させられる"],
+              ["gr. 3", "{来|く}る", "{来|こ}させる", "{来|こ}させられる"]
+            ]
+          }
+        },
+        {
+          "h": "Passif ou causatif-passif ?",
+          "p": [
+            "Passif : on **subit** l'action de quelqu'un ({先生|せんせい}にしかられた = le professeur m'a grondé). Causatif-passif : on est **forcé d'agir** soi-même ({先生|せんせい}に{掃除|そうじ}をさせられた = le professeur m'a fait nettoyer)."
+          ],
+          "ex": [
+            { "jp": "{駅|えき}で{一時間|いちじかん}も{待|ま}たされました。", "fr": "On m'a fait attendre une heure entière à la gare." }
+          ]
+        }
+      ],
+      "pieges": [
+        "Verbes en す : {話|はな}させられる (pas {話|はな}さされる).",
+        "Celui qui oblige prend に : {母|はは}**に**{食|た}べさせられた.",
+        "〜も après une quantité ({一時間|いちじかん}も) souligne que c'est beaucoup."
+      ],
+      "exercises": [
+        {
+          "id": "n4-54-e01", "type": "choice", "uses": [],
+          "q": "Forme causative-passive de {飲|の}む ?",
+          "choices": ["{飲|の}まされる", "{飲|の}まれる", "{飲|の}ませる", "{飲|の}みさせられる"], "a": 0,
+          "explain": "Groupe 1 : む → ま + される. ({飲|の}まれる = passif, {飲|の}ませる = causatif.)"
+        },
+        {
+          "id": "n4-54-e02", "type": "choice", "uses": [],
+          "q": "Forme causative-passive de {食|た}べる ?",
+          "choices": ["{食|た}べさせられる", "{食|た}べられさせる", "{食|た}べさされる", "{食|た}べらされる"], "a": 0,
+          "explain": "Groupe 2 : る → させられる."
+        },
+        {
+          "id": "n4-54-e03", "type": "choice", "uses": [],
+          "q": "Forme causative-passive de する ?",
+          "choices": ["させられる", "されさせる", "しさせられる", "さされる"], "a": 0,
+          "explain": "する → させる → させられる."
+        },
+        {
+          "id": "n4-54-e04", "type": "choice", "uses": [],
+          "jp": "{子|こ}どものとき、{母|はは}に{毎日|まいにち}ピアノを＿。", "fr": "Enfant, ma mère m'obligeait à faire du piano tous les jours.",
+          "choices": ["{練習|れんしゅう}させられました", "{練習|れんしゅう}しました", "{練習|れんしゅう}しさせられました", "{練習|れんしゅう}させれました"], "a": 0,
+          "explain": "する → させられる. {母|はは}に = celle qui oblige."
+        },
+        {
+          "id": "n4-54-e05", "type": "choice", "uses": [],
+          "jp": "{駅|えき}で{一時間|いちじかん}も{友|とも}だちに＿。", "fr": "Mon ami m'a fait attendre une heure entière à la gare.",
+          "choices": ["{待|ま}たされました", "{待|ま}ちました", "{待|ま}ちさせられました", "{待|ま}たさせました"], "a": 0,
+          "explain": "{待|ま}つ → {待|ま}たされる (on m'a fait attendre)."
+        },
+        {
+          "id": "n4-54-e06", "type": "choice", "uses": [],
+          "q": "Que signifie : {部長|ぶちょう}にお{酒|さけ}を{飲|の}まされました。",
+          "choices": ["Mon chef m'a forcé à boire de l'alcool.", "Mon chef a bu mon alcool.", "J'ai fait boire mon chef.", "Mon chef m'a interdit de boire."], "a": 0,
+          "explain": "Causatif-passif = être forcé."
+        },
+        {
+          "id": "n4-54-e07", "type": "choice", "uses": ["n4-52", "n4-53"],
+          "q": "Quelle phrase veut dire « Le professeur m'a fait nettoyer la classe » ?",
+          "choices": ["{先生|せんせい}に{教室|きょうしつ}を{掃除|そうじ}させられました。", "{先生|せんせい}に{教室|きょうしつ}を{掃除|そうじ}されました。", "{先生|せんせい}に{教室|きょうしつ}を{掃除|そうじ}させました。", "{先生|せんせい}が{教室|きょうしつ}を{掃除|そうじ}しました。"], "a": 0,
+          "explain": "Je suis forcé d'agir : させられる."
+        },
+        {
+          "id": "n4-54-e08", "type": "choice", "uses": [],
+          "q": "Forme causative-passive de {話|はな}す ?",
+          "choices": ["{話|はな}させられる", "{話|はな}さされる", "{話|はな}しさせられる", "{話|はな}されさせる"], "a": 0,
+          "explain": "Les verbes en す n'ont que la forme longue : させられる."
+        },
+        {
+          "id": "n4-54-e09", "type": "order", "uses": [],
+          "fr": "On m'a fait chanter devant tout le monde.",
+          "tokens": ["みんな", "の", "{前|まえ}", "で", "{歌|うた}", "を", "{歌|うた}わされました"],
+          "explain": "{歌|うた}う → {歌|うた}わされる (う → わ)."
+        },
+        {
+          "id": "n4-54-e10", "type": "choice", "uses": [],
+          "jp": "{子|こ}どものころ、{嫌|きら}いな{野菜|やさい}を＿。", "fr": "Quand j'étais petit, on me forçait à manger les légumes que je détestais.",
+          "choices": ["{食|た}べさせられました", "{食|た}べられさせました", "{食|た}べさされました", "{食|た}べらせました"], "a": 0,
+          "explain": "Groupe 2 : させられる."
+        },
+        {
+          "id": "n4-54-e11", "type": "choice", "uses": ["n4-52"],
+          "q": "« J'ai été grondé par le professeur. » Quelle phrase ?",
+          "choices": ["{先生|せんせい}にしかられました。", "{先生|せんせい}にしからせられました。", "{先生|せんせい}をしかられました。", "{先生|せんせい}にしかりました。"], "a": 0,
+          "explain": "Je subis une action (gronder) : simple passif."
+        },
+        {
+          "id": "n4-54-e12", "type": "order", "uses": [],
+          "fr": "Hier, on m'a fait faire des heures supplémentaires.",
+          "tokens": ["{昨日|きのう}", "は", "{残業|ざんぎょう}", "させられました"],
+          "explain": "{残業|ざんぎょう}する → {残業|ざんぎょう}させられる."
+        }
+      ]
+    },
+    {
+      "id": "n4-55",
+      "title": "あげる・くれる・もらう : donner et recevoir",
+      "formula": ["A は B に あげる : A donne à B (vers l'extérieur)", "B が {私|わたし}に くれる : B me donne", "A は B に / から もらう : A reçoit de B", "Poli : さしあげる · くださる · いただく"],
+      "sections": [
+        {
+          "h": "あげる : donner (vers les autres)",
+          "p": [
+            "あげる : je donne à quelqu'un, ou quelqu'un donne à une autre personne (pas à moi)."
+          ],
+          "ex": [
+            { "jp": "{私|わたし}は{友|とも}だちに{本|ほん}をあげました。", "fr": "J'ai donné un livre à un ami." },
+            { "jp": "{田中|たなか}さんは{山田|やまだ}さんに{花|はな}をあげました。", "fr": "M. Tanaka a offert des fleurs à Mme Yamada." }
+          ]
+        },
+        {
+          "h": "くれる : quelqu'un me donne",
+          "p": [
+            "くれる : quelqu'un donne **à moi** (ou à ma famille, mon groupe). Le sujet est **celui qui donne**."
+          ],
+          "ex": [
+            { "jp": "{友|とも}だちが{私|わたし}にチョコレートをくれました。", "fr": "Un ami m'a donné du chocolat." },
+            { "jp": "{祖母|そぼ}が{妹|いもうと}にお{金|かね}をくれました。", "fr": "Ma grand-mère a donné de l'argent à ma petite sœur." }
+          ]
+        },
+        {
+          "h": "もらう : recevoir",
+          "p": [
+            "もらう : le sujet est **celui qui reçoit** ; celui qui donne prend に ou から."
+          ],
+          "ex": [
+            { "jp": "{私|わたし}は{友|とも}だちにチョコレートをもらいました。", "fr": "J'ai reçu du chocolat d'un ami." },
+            { "jp": "{父|ちち}から{時計|とけい}をもらいました。", "fr": "J'ai reçu une montre de mon père." }
+          ]
+        },
+        {
+          "h": "Formes polies et やる",
+          "p": [
+            "Envers un supérieur : あげる → **さしあげる** ; くれる → **くださる** (くださいます) ; もらう → **いただく**.",
+            "やる : donner à un animal ou une plante ({花|はな}に{水|みず}をやる)."
+          ],
+          "ex": [
+            { "jp": "{先生|せんせい}に{本|ほん}をいただきました。", "fr": "J'ai reçu un livre de mon professeur." },
+            { "jp": "{先生|せんせい}が{辞書|じしょ}をくださいました。", "fr": "Mon professeur m'a donné un dictionnaire." }
+          ]
+        }
+      ],
+      "pieges": [
+        "Jamais くれる quand c'est moi qui donne : ✗ {私|わたし}は{友|とも}だちに{本|ほん}をくれました.",
+        "Jamais あげる quand on me donne : ✗ {友|とも}だちが{私|わたし}にあげました → くれました.",
+        "くださる → くださいます (pas くださります)."
+      ],
+      "exercises": [
+        {
+          "id": "n4-55-e01", "type": "choice", "uses": [],
+          "jp": "{友|とも}だちが{私|わたし}に{本|ほん}を＿。", "fr": "Un ami m'a donné un livre.",
+          "choices": ["くれました", "あげました", "もらいました", "やりました"], "a": 0,
+          "explain": "Quelqu'un me donne : くれる."
+        },
+        {
+          "id": "n4-55-e02", "type": "choice", "uses": [],
+          "jp": "{私|わたし}は{妹|いもうと}にお{菓子|かし}を＿。{妹|いもうと}はとても{喜|よろこ}びました。", "fr": "J'ai donné des sucreries à ma petite sœur. Elle était très contente.",
+          "choices": ["あげました", "くれました", "くださいました", "さしあげました"], "a": 0,
+          "explain": "Je donne à quelqu'un : あげる. (さしあげる est réservé aux supérieurs.)"
+        },
+        {
+          "id": "n4-55-e03", "type": "choice", "uses": [],
+          "jp": "{私|わたし}は{先生|せんせい}＿{辞書|じしょ}をいただきました。", "fr": "J'ai reçu un dictionnaire de mon professeur.",
+          "choices": ["に", "が", "を", "で"], "a": 0,
+          "explain": "もらう / いただく : celui qui donne prend に (ou から)."
+        },
+        {
+          "id": "n4-55-e04", "type": "choice", "uses": [],
+          "q": "Que signifie : {友|とも}だちが{妹|いもうと}に{花|はな}をくれました。",
+          "choices": ["Un ami a offert des fleurs à ma petite sœur.", "Ma petite sœur a offert des fleurs à un ami.", "J'ai offert des fleurs à ma petite sœur.", "Un ami a reçu des fleurs de ma petite sœur."], "a": 0,
+          "explain": "くれる : quelqu'un donne à moi ou à ma famille."
+        },
+        {
+          "id": "n4-55-e05", "type": "choice", "uses": [],
+          "q": "Une seule de ces phrases est correcte. Laquelle ?",
+          "choices": ["{田中|たなか}さんが{私|わたし}にケーキをくれました。", "{私|わたし}が{田中|たなか}さんにケーキをくれました。", "{田中|たなか}さんが{私|わたし}にケーキをあげました。", "{田中|たなか}さんは{私|わたし}にケーキをもらいました。"], "a": 0,
+          "explain": "Vers moi : くれる, avec le donneur en sujet."
+        },
+        {
+          "id": "n4-55-e06", "type": "choice", "uses": [],
+          "jp": "{花|はな}に{水|みず}を＿。", "fr": "J'arrose les fleurs.",
+          "choices": ["やります", "くれます", "もらいます", "くださいます"], "a": 0,
+          "explain": "Donner à une plante ou un animal : やる."
+        },
+        {
+          "id": "n4-55-e07", "type": "order", "uses": [],
+          "fr": "J'ai reçu une lettre de ma grand-mère.",
+          "tokens": ["{祖母|そぼ}", "から", "{手紙|てがみ}", "を", "もらいました"],
+          "alt": [["{手紙|てがみ}", "を", "{祖母|そぼ}", "から", "もらいました"]],
+          "explain": "もらう : la source prend から (ou に)."
+        },
+        {
+          "id": "n4-55-e08", "type": "choice", "uses": [],
+          "jp": "{先生|せんせい}が{私|わたし}に{本|ほん}を＿。", "fr": "Mon professeur m'a donné un livre.",
+          "choices": ["くださいました", "くださりました", "いただきました", "さしあげました"], "a": 0,
+          "explain": "くれる poli = くださる → くださいました."
+        },
+        {
+          "id": "n4-55-e09", "type": "choice", "uses": [],
+          "q": "Ton ami t'a offert un stylo. Comment le dire ?",
+          "choices": ["{友|とも}だちがペンをくれました。", "{友|とも}だちがペンをあげました。", "{友|とも}だちにペンをあげました。", "{友|とも}だちがペンをもらいました。"], "a": 0,
+          "explain": "Vers moi : くれる."
+        },
+        {
+          "id": "n4-55-e10", "type": "order", "uses": [],
+          "fr": "Mon père a offert un cadeau à ma mère.",
+          "tokens": ["{父|ちち}", "は", "{母|はは}", "に", "プレゼント", "を", "あげました"],
+          "alt": [["{父|ちち}", "は", "プレゼント", "を", "{母|はは}", "に", "あげました"]],
+          "explain": "Entre deux autres personnes : あげる."
+        },
+        {
+          "id": "n4-55-e11", "type": "choice", "uses": [],
+          "q": "Forme polie de くれる (pour un supérieur) ?",
+          "choices": ["くださる", "いただく", "さしあげる", "まいる"], "a": 0,
+          "explain": "くれる → くださる ; もらう → いただく ; あげる → さしあげる."
+        },
+        {
+          "id": "n4-55-e12", "type": "choice", "uses": [],
+          "q": "Tu offres un cadeau à ton professeur. Quelle phrase ?",
+          "choices": ["{先生|せんせい}にプレゼントをさしあげました。", "{先生|せんせい}にプレゼントをくださいました。", "{先生|せんせい}がプレゼントをさしあげました。", "{先生|せんせい}にプレゼントをくれました。"], "a": 0,
+          "explain": "Donner à un supérieur : さしあげる."
+        }
+      ]
+    },
+    {
+      "id": "n4-56",
+      "title": "てあげる・てくれる・てもらう : rendre service",
+      "formula": ["Verbe て + あげる : faire pour quelqu'un", "Verbe て + くれる : quelqu'un fait pour moi", "Verbe て + もらう : obtenir que quelqu'un fasse", "Demander : 〜てくれませんか / 〜てもらえませんか / 〜ていただけませんか"],
+      "sections": [
+        {
+          "h": "Le principe",
+          "p": [
+            "Mêmes règles que あげる / くれる / もらう, mais on « donne » une **action** : un service rendu."
+          ],
+          "ex": [
+            { "jp": "{私|わたし}は{弟|おとうと}の{宿題|しゅくだい}を{手伝|てつだ}ってあげました。", "fr": "J'ai aidé mon petit frère à faire ses devoirs." },
+            { "jp": "{友|とも}だちが{駅|えき}まで{送|おく}ってくれました。", "fr": "Un ami m'a raccompagné jusqu'à la gare." },
+            { "jp": "{私|わたし}は{友|とも}だちに{日本語|にほんご}を{教|おし}えてもらいました。", "fr": "Un ami m'a appris le japonais (à ma demande)." }
+          ]
+        },
+        {
+          "h": "Demander un service",
+          "p": [
+            "Du plus familier au plus poli : 〜てくれない？ → 〜てくれませんか → 〜てもらえませんか → 〜ていただけませんか."
+          ],
+          "ex": [
+            { "jp": "ちょっと{手伝|てつだ}ってもらえませんか。", "fr": "Pourrais-tu m'aider un peu ?" },
+            { "jp": "{窓|まど}を{開|あ}けていただけませんか。", "fr": "Pourriez-vous ouvrir la fenêtre ?" }
+          ]
+        },
+        {
+          "h": "Les particules",
+          "p": [
+            "てくれる : celui qui agit est le sujet (が). てもらう : celui qui agit prend に.",
+            "La personne aidée garde la particule du verbe : {友|とも}だち**の**{荷物|にもつ}を{持|も}ってあげた (pas {友|とも}だちに{荷物|にもつ}を…)."
+          ]
+        }
+      ],
+      "pieges": [
+        "Ne pas dire 〜てあげます en face à un supérieur (ça sonne condescendant) : on utilise le keigo (leçons 79 à 81).",
+        "てくれる exprime la gratitude : {母|はは}が{作|つく}ってくれた = ma mère me l'a préparé (merci)."
+      ],
+      "exercises": [
+        {
+          "id": "n4-56-e01", "type": "choice", "uses": ["n4-55"],
+          "jp": "{友|とも}だちが{私|わたし}を{駅|えき}まで{送|おく}って＿。", "fr": "Un ami m'a raccompagné jusqu'à la gare.",
+          "choices": ["くれました", "あげました", "もらいました", "やりました"], "a": 0,
+          "explain": "Quelqu'un fait quelque chose pour moi : てくれる."
+        },
+        {
+          "id": "n4-56-e02", "type": "choice", "uses": [],
+          "jp": "{私|わたし}は{友|とも}だち＿{日本語|にほんご}を{教|おし}えてもらいました。", "fr": "Un ami m'a appris le japonais.",
+          "choices": ["に", "が", "を", "で"], "a": 0,
+          "explain": "てもらう : celui qui agit prend に."
+        },
+        {
+          "id": "n4-56-e03", "type": "choice", "uses": [],
+          "jp": "{私|わたし}は{弟|おとうと}の{宿題|しゅくだい}を{手伝|てつだ}って＿。", "fr": "J'ai aidé mon petit frère à faire ses devoirs.",
+          "choices": ["あげました", "くれました", "くださいました", "やらせました"], "a": 0,
+          "explain": "Je rends service à quelqu'un : てあげる."
+        },
+        {
+          "id": "n4-56-e04", "type": "choice", "uses": [],
+          "q": "Que signifie : {医者|いしゃ}にみてもらいました。",
+          "choices": ["Je me suis fait examiner par un médecin.", "J'ai examiné un médecin.", "J'ai vu un médecin par hasard.", "J'ai montré quelque chose au médecin."], "a": 0,
+          "explain": "てもらう : obtenir que quelqu'un fasse quelque chose pour moi."
+        },
+        {
+          "id": "n4-56-e05", "type": "choice", "uses": [],
+          "q": "Quelle est la demande la plus polie ?",
+          "choices": ["{窓|まど}を{開|あ}けていただけませんか。", "{窓|まど}を{開|あ}けてくれない？", "{窓|まど}を{開|あ}けて。", "{窓|まど}を{開|あ}けてくれる？"], "a": 0,
+          "explain": "〜ていただけませんか est la forme la plus polie."
+        },
+        {
+          "id": "n4-56-e06", "type": "choice", "uses": [],
+          "jp": "ちょっと{手伝|てつだ}って＿か。", "fr": "Pourrais-tu m'aider un peu ?",
+          "choices": ["もらえません", "もらいません", "もらえなかった", "もらわない"], "a": 0,
+          "explain": "Demande polie : 〜てもらえませんか (potentiel de もらう)."
+        },
+        {
+          "id": "n4-56-e07", "type": "order", "uses": [],
+          "fr": "Ma mère m'a préparé à manger.",
+          "tokens": ["{母|はは}", "が", "{料理|りょうり}", "を", "{作|つく}って", "くれました"],
+          "explain": "Pour moi, avec gratitude : てくれる."
+        },
+        {
+          "id": "n4-56-e08", "type": "choice", "uses": [],
+          "q": "Une seule de ces phrases est correcte. Laquelle ?",
+          "choices": ["{友|とも}だちの{荷物|にもつ}を{持|も}ってあげました。", "{友|とも}だちに{荷物|にもつ}を{持|も}ってあげました。", "{友|とも}だちの{荷物|にもつ}を{持|も}ちてあげました。", "{友|とも}だちの{荷物|にもつ}に{持|も}ってあげました。"], "a": 0,
+          "explain": "Avec {持|も}つ, la personne aidée garde の : {友|とも}だちの{荷物|にもつ}を{持|も}つ."
+        },
+        {
+          "id": "n4-56-e09", "type": "choice", "uses": [],
+          "jp": "{山田|やまだ}さんが{私|わたし}に{傘|かさ}を{貸|か}して＿。", "fr": "Mme Yamada m'a prêté un parapluie.",
+          "choices": ["くれました", "もらいました", "あげました", "いただきました"], "a": 0,
+          "explain": "Le sujet (が) agit pour moi : てくれる."
+        },
+        {
+          "id": "n4-56-e10", "type": "order", "uses": [],
+          "fr": "Je me suis fait couper les cheveux par ma grande sœur.",
+          "tokens": ["{姉|あね}", "に", "{髪|かみ}", "を", "{切|き}って", "もらいました"],
+          "alt": [["{髪|かみ}", "を", "{姉|あね}", "に", "{切|き}って", "もらいました"]],
+          "explain": "てもらう : celle qui agit prend に."
+        },
+        {
+          "id": "n4-56-e11", "type": "choice", "uses": [],
+          "q": "Tu demandes à un ami (familier) de t'attendre. Que dis-tu ?",
+          "choices": ["ちょっと{待|ま}ってくれない？", "ちょっと{待|ま}ってあげない？", "ちょっと{待|ま}ってもらわない？", "ちょっと{待|ま}ちてくれない？"], "a": 0,
+          "explain": "Demande familière : 〜てくれない？"
+        },
+        {
+          "id": "n4-56-e12", "type": "choice", "uses": [],
+          "jp": "{先生|せんせい}が{作文|さくぶん}を{直|なお}して＿。", "fr": "Mon professeur a corrigé ma rédaction.",
+          "choices": ["くださいました", "いただきました", "さしあげました", "もらいました"], "a": 0,
+          "explain": "Un supérieur fait pour moi : てくださる (sujet が)."
+        }
+      ]
+    }
+  ],
+  "test": [
+    {
+      "id": "n4-b11-t01", "type": "choice", "uses": ["n4-52"],
+      "q": "Forme passive de {読|よ}む ?",
+      "choices": ["{読|よ}まれる", "{読|よ}められる", "{読|よ}みれる", "{読|よ}むれる"], "a": 0,
+      "explain": "む → ま + れる."
+    },
+    {
+      "id": "n4-b11-t02", "type": "choice", "uses": ["n4-52"],
+      "jp": "{私|わたし}は{弟|おとうと}にケーキを＿。", "fr": "Mon petit frère a mangé mon gâteau (et ça m'embête).",
+      "choices": ["{食|た}べられました", "{食|た}べました", "{食|た}べれました", "{食|た}べかれました"], "a": 0,
+      "explain": "Passif de gêne : {食|た}べる → {食|た}べられる ; le frère (auteur) prend に."
+    },
+    {
+      "id": "n4-b11-t03", "type": "choice", "uses": ["n4-53"],
+      "jp": "{母|はは}は{弟|おとうと}に{部屋|へや}を{掃除|そうじ}＿。", "fr": "Ma mère a fait nettoyer la chambre à mon petit frère.",
+      "choices": ["させました", "しました", "しさせました", "させれました"], "a": 0,
+      "explain": "Faire faire : する → させる."
+    },
+    {
+      "id": "n4-b11-t04", "type": "choice", "uses": ["n4-54"],
+      "q": "Que signifie : {子|こ}どものころ、{毎日|まいにち}{牛乳|ぎゅうにゅう}を{飲|の}まされました。",
+      "choices": ["Enfant, on me forçait à boire du lait tous les jours.", "Enfant, je faisais boire du lait à mon frère.", "Enfant, je buvais du lait parce que j'aimais ça.", "Enfant, on m'interdisait le lait."], "a": 0,
+      "explain": "Causatif-passif = être forcé."
+    },
+    {
+      "id": "n4-b11-t05", "type": "choice", "uses": ["n4-55"],
+      "jp": "{友|とも}だちが{私|わたし}に{誕生日|たんじょうび}のプレゼントを＿。", "fr": "Un ami m'a offert un cadeau d'anniversaire.",
+      "choices": ["くれました", "あげました", "もらいました", "いただきました"], "a": 0,
+      "explain": "Vers moi : くれる."
+    },
+    {
+      "id": "n4-b11-t06", "type": "choice", "uses": ["n4-56"],
+      "jp": "{私|わたし}は{先輩|せんぱい}＿{駅|えき}までの{道|みち}を{教|おし}えてもらいました。", "fr": "Un aîné m'a indiqué le chemin jusqu'à la gare.",
+      "choices": ["に", "が", "を", "へ"], "a": 0,
+      "explain": "てもらう : celui qui agit prend に."
+    },
+    {
+      "id": "n4-b11-t07", "type": "order", "uses": ["n4-53"],
+      "fr": "Laissez-moi réfléchir un peu.",
+      "tokens": ["{少|すこ}し", "{考|かんが}えさせて", "ください"],
+      "explain": "〜させてください = laissez-moi…"
+    },
+    {
+      "id": "n4-b11-t08", "type": "choice", "uses": ["n4-52"],
+      "q": "Une seule de ces phrases est correcte. Laquelle ?",
+      "choices": ["{電車|でんしゃ}で{財布|さいふ}を{盗|ぬす}まれました。", "{電車|でんしゃ}で{財布|さいふ}が{盗|ぬす}みました。", "{電車|でんしゃ}で{財布|さいふ}を{盗|ぬす}められました。", "{電車|でんしゃ}で{財布|さいふ}に{盗|ぬす}まれました。"], "a": 0,
+      "explain": "Passif de gêne : la victime est le sujet, l'objet garde を."
+    },
+    {
+      "id": "n4-b11-t09", "type": "choice", "uses": ["n4-56"],
+      "jp": "{先生|せんせい}が{私|わたし}の{作文|さくぶん}を{読|よ}んで＿。", "fr": "Mon professeur a lu ma rédaction.",
+      "choices": ["くださいました", "いただきました", "さしあげました", "もらいました"], "a": 0,
+      "explain": "Un supérieur fait pour moi : てくださる."
+    },
+    {
+      "id": "n4-b11-t10", "type": "choice", "uses": ["n4-53"],
+      "q": "Forme causative de {待|ま}つ ?",
+      "choices": ["{待|ま}たせる", "{待|ま}ちさせる", "{待|ま}てさせる", "{待|ま}つさせる"], "a": 0,
+      "explain": "つ → た + せる."
+    },
+    {
+      "id": "n4-b11-t11", "type": "order", "uses": ["n4-56"],
+      "fr": "Un ami m'a prêté son dictionnaire.",
+      "tokens": ["{友|とも}だち", "が", "{辞書|じしょ}", "を", "{貸|か}して", "くれました"],
+      "explain": "Pour moi : てくれる."
+    },
+    {
+      "id": "n4-b11-t12", "type": "choice", "uses": ["n4-52"],
+      "jp": "この{手紙|てがみ}は{英語|えいご}で＿います。", "fr": "Cette lettre est écrite en anglais.",
+      "choices": ["{書|か}かれて", "{書|か}きれて", "{書|か}けられて", "{書|か}かせれて"], "a": 0,
+      "explain": "Passif : {書|か}く → {書|か}かれる."
+    },
+    {
+      "id": "n4-b11-t13", "type": "choice", "uses": ["n4-54"],
+      "q": "Un ami t'a fait attendre une heure. Que dis-tu ?",
+      "choices": ["{友|とも}だちに{一時間|いちじかん}も{待|ま}たされました。", "{友|とも}だちを{一時間|いちじかん}も{待|ま}たせました。", "{友|とも}だちに{一時間|いちじかん}も{待|ま}ちました。", "{友|とも}だちが{一時間|いちじかん}も{待|ま}たされました。"], "a": 0,
+      "explain": "On m'a fait attendre : causatif-passif."
+    },
+    {
+      "id": "n4-b11-t14", "type": "choice", "uses": ["n4-55"],
+      "jp": "{犬|いぬ}にえさを＿。", "fr": "Je donne à manger au chien.",
+      "choices": ["やります", "くれます", "もらいます", "くださいます"], "a": 0,
+      "explain": "Donner à un animal : やる."
+    },
+    {
+      "id": "n4-b11-t15", "type": "choice", "uses": ["n4-56"],
+      "q": "Que signifie : {田中|たなか}さんに{引|ひ}っ{越|こ}しを{手伝|てつだ}ってもらいました。",
+      "choices": ["M. Tanaka m'a aidé à déménager (je le lui ai demandé).", "J'ai aidé M. Tanaka à déménager.", "M. Tanaka a déménagé seul.", "J'ai demandé à M. Tanaka de déménager."], "a": 0,
+      "explain": "てもらう : obtenir l'aide de quelqu'un."
+    }
+  ]
+}
