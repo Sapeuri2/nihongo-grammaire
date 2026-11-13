@@ -1,0 +1,780 @@
+{
+  "id": "n4-b16",
+  "level": "N4",
+  "title": "Décider, sans faire, keigo",
+  "lessons": [
+    {
+      "id": "n4-77",
+      "title": "ことにする・ことになる : décider, être décidé",
+      "formula": ["Dictionnaire / ない + ことにする : je décide de", "Dictionnaire / ない + ことになる : il a été décidé que", "ことにしている : règle que je me suis fixée", "ことになっている : règlement"],
+      "sections": [
+        {
+          "h": "ことにする : c'est moi qui décide",
+          "ex": [
+            { "jp": "{来年|らいねん}、{日本|にほん}に{留学|りゅうがく}することにしました。", "fr": "J'ai décidé d'aller étudier au Japon l'an prochain." },
+            { "jp": "もうお{酒|さけ}を{飲|の}まないことにしました。", "fr": "J'ai décidé de ne plus boire d'alcool." },
+            { "jp": "{毎朝|まいあさ}{走|はし}ることにしています。", "fr": "Je me suis fixé de courir chaque matin." }
+          ]
+        },
+        {
+          "h": "ことになる : la décision vient d'ailleurs",
+          "p": [
+            "ことになる : une décision prise par d'autres (l'entreprise, les circonstances). On l'utilise aussi par **modestie** pour annoncer une nouvelle (mariage, départ) sans dire « j'ai décidé »."
+          ],
+          "ex": [
+            { "jp": "{来月|らいげつ}、{大阪|おおさか}に{転勤|てんきん}することになりました。", "fr": "Il a été décidé que je serai muté à Osaka le mois prochain." },
+            { "jp": "この{部屋|へや}ではたばこを{吸|す}ってはいけないことになっています。", "fr": "Il est interdit de fumer dans cette pièce (c'est le règlement)." }
+          ]
+        },
+        {
+          "h": "Nom + にする : choisir",
+          "p": [
+            "Avec un nom, にする = choisir, prendre : コーヒーにします (je prends un café)."
+          ]
+        }
+      ],
+      "pieges": [
+        "ことにした : c'est moi qui ai décidé ; ことになった : décision extérieure.",
+        "Forme du dictionnaire ou ない devant こと (pas la forme ます)."
+      ],
+      "exercises": [
+        {
+          "id": "n4-77-e01", "type": "choice", "uses": [],
+          "jp": "{来年|らいねん}、{日本|にほん}に{留学|りゅうがく}する＿にしました。", "fr": "J'ai décidé d'aller étudier au Japon l'an prochain.",
+          "choices": ["こと", "の", "もの", "ところ"], "a": 0,
+          "explain": "Dictionnaire + ことにする."
+        },
+        {
+          "id": "n4-77-e02", "type": "choice", "uses": [],
+          "jp": "{健康|けんこう}のために、もうたばこを{吸|す}わない＿。", "fr": "Pour ma santé, j'ai décidé de ne plus fumer.",
+          "choices": ["ことにしました", "ことがしました", "ことをしました", "ことでしました"], "a": 0,
+          "explain": "ない + ことにしました."
+        },
+        {
+          "id": "n4-77-e03", "type": "choice", "uses": [],
+          "q": "Que signifie : {来月|らいげつ}、{大阪|おおさか}に{転勤|てんきん}することになりました。",
+          "choices": ["Il a été décidé que je serai muté à Osaka le mois prochain.", "J'ai décidé de déménager à Osaka.", "Je voudrais être muté à Osaka.", "J'ai été muté à Osaka le mois dernier."], "a": 0,
+          "explain": "ことになる = décision extérieure."
+        },
+        {
+          "id": "n4-77-e04", "type": "choice", "uses": [],
+          "jp": "{会社|かいしゃ}の{決|き}まりで、{毎朝|まいあさ}{八時|はちじ}に{来|く}る＿なっています。", "fr": "D'après le règlement de l'entreprise, on doit venir à 8 h chaque matin.",
+          "choices": ["ことに", "ことが", "ことを", "ことで"], "a": 0,
+          "explain": "Règlement : ことになっている."
+        },
+        {
+          "id": "n4-77-e05", "type": "choice", "uses": [],
+          "q": "C'est toi qui as décidé : « J'ai décidé de faire du sport tous les jours. »",
+          "choices": ["{毎日|まいにち}{運動|うんどう}することにしました。", "{毎日|まいにち}{運動|うんどう}することになりました。", "{毎日|まいにち}{運動|うんどう}するようになりました。", "{毎日|まいにち}{運動|うんどう}することができました。"], "a": 0,
+          "explain": "Ma décision : ことにする."
+        },
+        {
+          "id": "n4-77-e06", "type": "order", "uses": [],
+          "fr": "J'ai décidé de ne plus boire de café le soir.",
+          "tokens": ["{夜|よる}", "は", "コーヒー", "を", "{飲|の}まない", "ことにしました"],
+          "explain": "ない + ことにしました."
+        },
+        {
+          "id": "n4-77-e07", "type": "choice", "uses": [],
+          "jp": "A：{何|なに}にしますか。B：コーヒー＿します。", "fr": "A : Que prenez-vous ? B : Je prends un café.",
+          "choices": ["に", "を", "が", "で"], "a": 0,
+          "explain": "Choisir : nom + にする."
+        },
+        {
+          "id": "n4-77-e08", "type": "choice", "uses": [],
+          "q": "Pourquoi annonce-t-on souvent 「{結婚|けっこん}することになりました」 plutôt que 「ことにしました」 ?",
+          "choices": ["Ça sonne plus modeste, comme si la chose s'était décidée d'elle-même.", "Parce que ことにしました est faux.", "Parce que c'est au futur.", "Parce que c'est quelqu'un d'autre qui se marie."], "a": 0,
+          "explain": "ことになる : modestie."
+        },
+        {
+          "id": "n4-77-e09", "type": "choice", "uses": [],
+          "jp": "{毎晩|まいばん}、{寝|ね}る{前|まえ}に{日記|にっき}を{書|か}く＿しています。", "fr": "Chaque soir, je me suis fixé d'écrire mon journal avant de dormir.",
+          "choices": ["ことに", "ことが", "ようで", "ことを"], "a": 0,
+          "explain": "Règle personnelle : ことにしている."
+        },
+        {
+          "id": "n4-77-e10", "type": "order", "uses": [],
+          "fr": "Il a été décidé que la réunion aurait lieu demain.",
+          "tokens": ["{会議|かいぎ}", "は", "{明日|あした}", "{行|おこな}う", "ことになりました"],
+          "explain": "Décision extérieure : ことになりました."
+        },
+        {
+          "id": "n4-77-e11", "type": "choice", "uses": [],
+          "jp": "この{図書館|としょかん}では、{飲|の}み{物|もの}を{飲|の}んではいけない＿。", "fr": "Dans cette bibliothèque, il est interdit de boire (c'est le règlement).",
+          "choices": ["ことになっています", "ことがなっています", "ことになっていります", "ことになりています"], "a": 0,
+          "explain": "Règlement : ことになっています."
+        },
+        {
+          "id": "n4-77-e12", "type": "choice", "uses": [],
+          "q": "Une seule de ces phrases est correcte. Laquelle ?",
+          "choices": ["{来週|らいしゅう}{引|ひ}っ{越|こ}すことにしました。", "{来週|らいしゅう}{引|ひ}っ{越|こ}しますことにしました。", "{来週|らいしゅう}{引|ひ}っ{越|こ}すことをしました。", "{来週|らいしゅう}{引|ひ}っ{越|こ}すのことにしました。"], "a": 0,
+          "explain": "Dictionnaire + ことにしました."
+        }
+      ]
+    },
+    {
+      "id": "n4-78",
+      "title": "ないで・ずに : sans faire, au lieu de",
+      "formula": ["Forme ない + で : sans faire ({食|た}べないで)", "Base ない + ずに : pareil, plus écrit ({食|た}べずに)", "する → せずに", "Aussi : au lieu de"],
+      "sections": [
+        {
+          "h": "Sans faire",
+          "p": [
+            "A ないで B = faire B **sans** faire A."
+          ],
+          "ex": [
+            { "jp": "{朝|あさ}ごはんを{食|た}べないで{学校|がっこう}に{行|い}きました。", "fr": "Je suis allé à l'école sans prendre de petit-déjeuner." },
+            { "jp": "{辞書|じしょ}を{使|つか}わないで{読|よ}んでください。", "fr": "Lisez sans utiliser de dictionnaire." },
+            { "jp": "{昨日|きのう}は{寝|ね}ないで{勉強|べんきょう}しました。", "fr": "Hier, j'ai étudié sans dormir." }
+          ]
+        },
+        {
+          "h": "Au lieu de",
+          "ex": [
+            { "jp": "{電車|でんしゃ}に{乗|の}らないで、{歩|ある}いて{行|い}きました。", "fr": "Au lieu de prendre le train, j'y suis allé à pied." }
+          ]
+        },
+        {
+          "h": "ずに : plus écrit",
+          "p": [
+            "On remplace ない par **ずに** : {食|た}べない → {食|た}べずに, {言|い}わない → {言|い}わずに. Exception : する → **せずに**."
+          ],
+          "ex": [
+            { "jp": "{彼|かれ}は{何|なに}も{言|い}わずに{帰|かえ}りました。", "fr": "Il est rentré sans rien dire." }
+          ]
+        },
+        {
+          "h": "ないで ou なくて ?",
+          "p": [
+            "ないで = sans faire / au lieu de. **なくて** = parce que… ne… pas (une cause) : {宿題|しゅくだい}が{終|お}わらなくて{困|こま}っています."
+          ]
+        }
+      ],
+      "pieges": [
+        "する → せずに (pas しずに).",
+        "ないで (sans) ≠ なくて (cause).",
+        "〜ないでください (ne faites pas) : même forme, mais c'est une demande (N5 leçon 23)."
+      ],
+      "exercises": [
+        {
+          "id": "n4-78-e01", "type": "choice", "uses": [],
+          "jp": "{朝|あさ}ごはんを{食|た}べ＿{学校|がっこう}に{行|い}きました。", "fr": "Je suis allé à l'école sans prendre de petit-déjeuner.",
+          "choices": ["ないで", "ずで", "ないに", "なくで"], "a": 0,
+          "explain": "Sans faire : forme ない + で."
+        },
+        {
+          "id": "n4-78-e02", "type": "choice", "uses": [],
+          "jp": "{辞書|じしょ}を{使|つか}わ＿{読|よ}んでください。", "fr": "Lisez sans utiliser de dictionnaire.",
+          "choices": ["ないで", "ずで", "なくに", "なずに"], "a": 0,
+          "explain": "Forme ない + で."
+        },
+        {
+          "id": "n4-78-e03", "type": "choice", "uses": [],
+          "q": "Forme ずに de する ?",
+          "choices": ["せずに", "しずに", "すずに", "さずに"], "a": 0,
+          "explain": "Exception : する → せずに."
+        },
+        {
+          "id": "n4-78-e04", "type": "choice", "uses": [],
+          "q": "Forme ずに de {言|い}う ?",
+          "choices": ["{言|い}わずに", "{言|い}いずに", "{言|い}あずに", "{言|い}うずに"], "a": 0,
+          "explain": "{言|い}わない → {言|い}わずに."
+        },
+        {
+          "id": "n4-78-e05", "type": "choice", "uses": [],
+          "q": "Que signifie : {彼|かれ}は{何|なに}も{言|い}わずに{帰|かえ}りました。",
+          "choices": ["Il est rentré sans rien dire.", "Il a tout dit avant de rentrer.", "Il n'est pas rentré.", "Il est rentré pour dire quelque chose."], "a": 0,
+          "explain": "ずに = sans."
+        },
+        {
+          "id": "n4-78-e06", "type": "order", "uses": [],
+          "fr": "Au lieu de prendre le bus, je suis allé à pied.",
+          "tokens": ["バス", "に", "{乗|の}らないで", "{歩|ある}いて", "{行|い}きました"],
+          "explain": "ないで = au lieu de."
+        },
+        {
+          "id": "n4-78-e07", "type": "choice", "uses": [],
+          "jp": "{昨日|きのう}は{寝|ね}＿{勉強|べんきょう}しました。", "fr": "Hier, j'ai étudié sans dormir.",
+          "choices": ["ないで", "なくて", "ずで", "なずに"], "a": 0,
+          "explain": "Sans faire : ないで (なくて exprime une cause)."
+        },
+        {
+          "id": "n4-78-e08", "type": "choice", "uses": [],
+          "q": "« Comme mes devoirs ne sont pas finis, je suis embêté. » Quelle phrase ?",
+          "choices": ["{宿題|しゅくだい}が{終|お}わらなくて、{困|こま}っています。", "{宿題|しゅくだい}が{終|お}わらないで、{困|こま}っています。", "{宿題|しゅくだい}が{終|お}わらずに、{困|こま}っています。", "{宿題|しゅくだい}が{終|お}わらないでください。"], "a": 0,
+          "explain": "Une cause : なくて."
+        },
+        {
+          "id": "n4-78-e09", "type": "choice", "uses": ["n4-52"],
+          "jp": "{傘|かさ}を{持|も}た＿{出|で}かけて、{雨|あめ}に{降|ふ}られました。", "fr": "Je suis sorti sans parapluie et je me suis fait surprendre par la pluie.",
+          "choices": ["ずに", "ずで", "なくに", "ないに"], "a": 0,
+          "explain": "{持|も}たない → {持|も}たずに."
+        },
+        {
+          "id": "n4-78-e10", "type": "order", "uses": [],
+          "fr": "Il est sorti sans rien manger.",
+          "tokens": ["{何|なに}も", "{食|た}べずに", "{出|で}かけました"],
+          "explain": "{食|た}べない → {食|た}べずに."
+        },
+        {
+          "id": "n4-78-e11", "type": "choice", "uses": [],
+          "q": "Une seule de ces phrases est correcte. Laquelle ?",
+          "choices": ["{連絡|れんらく}せずに{休|やす}みました。", "{連絡|れんらく}しずに{休|やす}みました。", "{連絡|れんらく}すずに{休|やす}みました。", "{連絡|れんらく}しないずに{休|やす}みました。"], "a": 0,
+          "explain": "する → せずに."
+        },
+        {
+          "id": "n4-78-e12", "type": "choice", "uses": [],
+          "jp": "{砂糖|さとう}を{入|い}れ＿コーヒーを{飲|の}みます。", "fr": "Je bois mon café sans sucre.",
+          "choices": ["ないで", "なくて", "ないに", "なくに"], "a": 0,
+          "explain": "Sans faire : ないで."
+        }
+      ]
+    },
+    {
+      "id": "n4-79",
+      "title": "Keigo (1) : les verbes honorifiques ({尊敬語|そんけいご})",
+      "formula": ["Honorifique = élever l'action d'un supérieur, d'un client", "いる / {行|い}く / {来|く}る → いらっしゃる", "{食|た}べる / {飲|の}む → {召|め}し{上|あ}がる · {言|い}う → おっしゃる · {見|み}る → ご{覧|らん}になる", "する → なさる · くれる → くださる · {知|し}っている → ご{存|ぞん}じだ"],
+      "sections": [
+        {
+          "h": "Le principe",
+          "p": [
+            "On utilise l'**honorifique** pour les actions d'une personne qu'on respecte (client, professeur, supérieur). **Jamais pour soi-même.**"
+          ]
+        },
+        {
+          "h": "Les verbes spéciaux",
+          "p": [
+            "いらっしゃる, おっしゃる, なさる, くださる ont une forme ます irrégulière : いらっしゃ**い**ます (pas いらっしゃります)."
+          ],
+          "grid": {
+            "head": ["verbe", "honorifique", "poli"],
+            "rows": [
+              ["いる / {行|い}く / {来|く}る", "いらっしゃる", "いらっしゃいます"],
+              ["{食|た}べる / {飲|の}む", "{召|め}し{上|あ}がる", "{召|め}し{上|あ}がります"],
+              ["{言|い}う", "おっしゃる", "おっしゃいます"],
+              ["{見|み}る", "ご{覧|らん}になる", "ご{覧|らん}になります"],
+              ["する", "なさる", "なさいます"],
+              ["くれる", "くださる", "くださいます"],
+              ["{知|し}っている", "ご{存|ぞん}じだ", "ご{存|ぞん}じです"]
+            ]
+          }
+        },
+        {
+          "h": "Exemples",
+          "ex": [
+            { "jp": "{社長|しゃちょう}は{今|いま}、{会議室|かいぎしつ}にいらっしゃいます。", "fr": "Le président est dans la salle de réunion." },
+            { "jp": "{先生|せんせい}は{何|なん}とおっしゃいましたか。", "fr": "Qu'a dit le professeur ?" },
+            { "jp": "どうぞ{召|め}し{上|あ}がってください。", "fr": "Je vous en prie, servez-vous." },
+            { "jp": "{田中|たなか}{部長|ぶちょう}をご{存|ぞん}じですか。", "fr": "Connaissez-vous M. Tanaka, le chef de service ?" }
+          ]
+        }
+      ],
+      "pieges": [
+        "Jamais d'honorifique pour soi : ✗ {私|わたし}はいらっしゃいます.",
+        "いらっしゃいます, おっしゃいます, なさいます, くださいます (い, pas り).",
+        "{召|め}し{上|あ}がる = manger et boire."
+      ],
+      "exercises": [
+        {
+          "id": "n4-79-e01", "type": "choice", "uses": [],
+          "q": "Honorifique de {行|い}く ?",
+          "choices": ["いらっしゃる", "まいる", "うかがう", "おる"], "a": 0,
+          "explain": "{行|い}く (honorifique) → いらっしゃる. まいる, うかがう, おる sont des formes de modestie."
+        },
+        {
+          "id": "n4-79-e02", "type": "choice", "uses": [],
+          "q": "Honorifique de {食|た}べる ?",
+          "choices": ["{召|め}し{上|あ}がる", "いただく", "さしあげる", "{拝見|はいけん}する"], "a": 0,
+          "explain": "{食|た}べる / {飲|の}む → {召|め}し{上|あ}がる. いただく = modestie."
+        },
+        {
+          "id": "n4-79-e03", "type": "choice", "uses": [],
+          "jp": "{社長|しゃちょう}は{今|いま}、{会議室|かいぎしつ}に＿。", "fr": "Le président est dans la salle de réunion.",
+          "choices": ["いらっしゃいます", "いらっしゃります", "いらっしゃるます", "いらっしゃいります"], "a": 0,
+          "explain": "いらっしゃる → いらっしゃいます (forme ます irrégulière)."
+        },
+        {
+          "id": "n4-79-e04", "type": "choice", "uses": [],
+          "jp": "{先生|せんせい}は{何|なん}と＿か。", "fr": "Qu'a dit le professeur ?",
+          "choices": ["おっしゃいました", "おっしゃりました", "{申|もう}しました", "{言|い}いになりました"], "a": 0,
+          "explain": "{言|い}う (honorifique) → おっしゃる → おっしゃいました."
+        },
+        {
+          "id": "n4-79-e05", "type": "choice", "uses": [],
+          "q": "Que signifie : どうぞ{召|め}し{上|あ}がってください。",
+          "choices": ["Je vous en prie, servez-vous (mangez, buvez).", "Je vous en prie, entrez.", "Je vous en prie, asseyez-vous.", "Je vous en prie, regardez."], "a": 0,
+          "explain": "{召|め}し{上|あ}がる = manger / boire (honorifique)."
+        },
+        {
+          "id": "n4-79-e06", "type": "choice", "uses": [],
+          "jp": "この{写真|しゃしん}を＿か。", "fr": "Avez-vous vu cette photo ?",
+          "choices": ["ご{覧|らん}になりました", "{拝見|はいけん}しました", "{見|み}させました", "ご{覧|らん}しました"], "a": 0,
+          "explain": "{見|み}る (honorifique) → ご{覧|らん}になる."
+        },
+        {
+          "id": "n4-79-e07", "type": "choice", "uses": [],
+          "q": "Une seule de ces phrases est correcte. Laquelle ?",
+          "choices": ["{田中|たなか}{部長|ぶちょう}をご{存|ぞん}じですか。", "{田中|たなか}{部長|ぶちょう}をご{存|ぞん}じしていますか。", "{田中|たなか}{部長|ぶちょう}をご{存|ぞん}じましたか。", "{田中|たなか}{部長|ぶちょう}を{存|ぞん}じですか。"], "a": 0,
+          "explain": "{知|し}っている (honorifique) → ご{存|ぞん}じです."
+        },
+        {
+          "id": "n4-79-e08", "type": "choice", "uses": [],
+          "q": "Honorifique de する ?",
+          "choices": ["なさる", "いたす", "まいる", "おる"], "a": 0,
+          "explain": "する → なさる (いたす = modestie)."
+        },
+        {
+          "id": "n4-79-e09", "type": "order", "uses": [],
+          "fr": "Le professeur sera-t-il là demain ?",
+          "tokens": ["{先生|せんせい}", "は", "{明日|あした}", "いらっしゃいますか"],
+          "alt": [["{明日|あした}", "{先生|せんせい}", "は", "いらっしゃいますか"]],
+          "explain": "いる (honorifique) → いらっしゃる."
+        },
+        {
+          "id": "n4-79-e10", "type": "choice", "uses": ["n4-55"],
+          "jp": "{先生|せんせい}が{私|わたし}に{本|ほん}を＿。", "fr": "Le professeur m'a donné un livre.",
+          "choices": ["くださいました", "くださりました", "いただきました", "さしあげました"], "a": 0,
+          "explain": "くれる → くださる → くださいました."
+        },
+        {
+          "id": "n4-79-e11", "type": "choice", "uses": [],
+          "q": "Pourquoi 「{私|わたし}は{明日|あした}いらっしゃいます」 est-il faux ?",
+          "choices": ["On n'utilise jamais l'honorifique pour soi-même.", "Parce que いらっしゃる veut dire « manger ».", "Parce qu'il faudrait いらっしゃります.", "Parce que {明日|あした} est impossible ici."], "a": 0,
+          "explain": "Honorifique = pour les autres."
+        },
+        {
+          "id": "n4-79-e12", "type": "choice", "uses": [],
+          "jp": "お{客|きゃく}さまは{何|なに}を＿か。", "fr": "Que désirez-vous prendre (à manger, à boire) ?",
+          "choices": ["{召|め}し{上|あ}がります", "いただきます", "{食|た}べさせます", "さしあげます"], "a": 0,
+          "explain": "Action du client : honorifique {召|め}し{上|あ}がる."
+        }
+      ]
+    },
+    {
+      "id": "n4-80",
+      "title": "Keigo (2) : les verbes de modestie ({謙譲語|けんじょうご})",
+      "formula": ["Modestie = abaisser ses propres actions devant un supérieur, un client", "{行|い}く / {来|く}る → まいる · いる → おる · {言|い}う → {申|もう}す", "{食|た}べる / もらう → いただく · {見|み}る → {拝見|はいけん}する · する → いたす", "{訪|たず}ねる / {聞|き}く → うかがう · {知|し}っている → {存|ぞん}じている"],
+      "sections": [
+        {
+          "h": "Le principe",
+          "p": [
+            "La **modestie** abaisse **mes** actions (ou celles de mon groupe) pour respecter l'autre."
+          ]
+        },
+        {
+          "h": "Les verbes spéciaux",
+          "grid": {
+            "head": ["verbe", "modestie", "poli"],
+            "rows": [
+              ["{行|い}く / {来|く}る", "まいる", "まいります"],
+              ["いる", "おる", "おります"],
+              ["{言|い}う", "{申|もう}す", "{申|もう}します"],
+              ["{食|た}べる / {飲|の}む / もらう", "いただく", "いただきます"],
+              ["{見|み}る", "{拝見|はいけん}する", "{拝見|はいけん}します"],
+              ["する", "いたす", "いたします"],
+              ["{訪|たず}ねる / {聞|き}く", "うかがう", "うかがいます"],
+              ["{知|し}っている", "{存|ぞん}じている", "{存|ぞん}じております"],
+              ["あげる", "さしあげる", "さしあげます"]
+            ]
+          }
+        },
+        {
+          "h": "Exemples",
+          "ex": [
+            { "jp": "はじめまして、{田中|たなか}と{申|もう}します。", "fr": "Enchanté, je m'appelle Tanaka." },
+            { "jp": "{明日|あした}、そちらにまいります。", "fr": "Demain, je viendrai chez vous." },
+            { "jp": "{資料|しりょう}を{拝見|はいけん}しました。", "fr": "J'ai consulté les documents." },
+            { "jp": "{明日|あした}、お{宅|たく}にうかがってもよろしいですか。", "fr": "Puis-je passer chez vous demain ?" }
+          ]
+        },
+        {
+          "h": "Mon groupe face à l'extérieur",
+          "p": [
+            "Face à quelqu'un d'extérieur, on parle de **sa famille** (et, au travail, de son propre chef) avec la modestie, sans さん : {父|ちち}は{今|いま}、{家|いえ}におります."
+          ]
+        }
+      ],
+      "pieges": [
+        "Jamais de modestie pour l'action d'un supérieur : ✗ {先生|せんせい}がまいりました.",
+        "{申|もう}す (modestie, moi) ≠ おっしゃる (honorifique, l'autre).",
+        "うかがう = rendre visite OU demander (poliment)."
+      ],
+      "exercises": [
+        {
+          "id": "n4-80-e01", "type": "choice", "uses": [],
+          "q": "Modestie de {言|い}う ?",
+          "choices": ["{申|もう}す", "おっしゃる", "{言|い}われる", "なさる"], "a": 0,
+          "explain": "{言|い}う (modestie) → {申|もう}す. おっしゃる = honorifique."
+        },
+        {
+          "id": "n4-80-e02", "type": "choice", "uses": [],
+          "jp": "はじめまして。{田中|たなか}と＿。", "fr": "Enchanté, je m'appelle Tanaka.",
+          "choices": ["{申|もう}します", "おっしゃいます", "{言|い}いになります", "いらっしゃいます"], "a": 0,
+          "explain": "Se présenter : modestie {申|もう}します."
+        },
+        {
+          "id": "n4-80-e03", "type": "choice", "uses": [],
+          "jp": "{明日|あした}、そちらに＿。", "fr": "Demain, je viendrai chez vous.",
+          "choices": ["まいります", "いらっしゃいます", "まいられます", "おります"], "a": 0,
+          "explain": "Mon action : modestie まいる."
+        },
+        {
+          "id": "n4-80-e04", "type": "choice", "uses": [],
+          "q": "Au téléphone, on demande ton père. Il est à la maison. Que dis-tu ?",
+          "choices": ["{父|ちち}は{今|いま}、{家|いえ}におります。", "{父|ちち}は{今|いま}、{家|いえ}にいらっしゃいます。", "お{父|とう}さんは{今|いま}、{家|いえ}にいらっしゃいます。", "{父|ちち}は{今|いま}、{家|いえ}にまいります。"], "a": 0,
+          "explain": "Ma famille face à l'extérieur : modestie (おる), et {父|ちち}."
+        },
+        {
+          "id": "n4-80-e05", "type": "choice", "uses": [],
+          "jp": "{資料|しりょう}を＿。ありがとうございました。", "fr": "J'ai consulté les documents. Merci beaucoup.",
+          "choices": ["{拝見|はいけん}しました", "ご{覧|らん}になりました", "{拝見|はいけん}になりました", "{見|み}させました"], "a": 0,
+          "explain": "Mon action ({見|み}る) : {拝見|はいけん}する."
+        },
+        {
+          "id": "n4-80-e06", "type": "choice", "uses": [],
+          "q": "Que signifie : {明日|あした}、お{宅|たく}にうかがってもよろしいですか。",
+          "choices": ["Puis-je passer chez vous demain ?", "Pouvez-vous venir chez moi demain ?", "Êtes-vous chez vous demain ?", "Puis-je vous téléphoner demain ?"], "a": 0,
+          "explain": "うかがう = rendre visite (modestie)."
+        },
+        {
+          "id": "n4-80-e07", "type": "choice", "uses": [],
+          "q": "Modestie de する ?",
+          "choices": ["いたす", "なさる", "される", "おる"], "a": 0,
+          "explain": "する (modestie) → いたす."
+        },
+        {
+          "id": "n4-80-e08", "type": "order", "uses": [],
+          "fr": "Je m'en occupe.",
+          "tokens": ["{私|わたし}", "が", "いたします"],
+          "explain": "する (modestie) → いたします."
+        },
+        {
+          "id": "n4-80-e09", "type": "choice", "uses": [],
+          "jp": "{先生|せんせい}のお{宅|たく}で、おいしい{料理|りょうり}を＿。", "fr": "Chez mon professeur, j'ai mangé un délicieux repas.",
+          "choices": ["いただきました", "{召|め}し{上|あ}がりました", "くださいました", "さしあげました"], "a": 0,
+          "explain": "Mon action ({食|た}べる) : いただく."
+        },
+        {
+          "id": "n4-80-e10", "type": "choice", "uses": [],
+          "q": "Une seule de ces phrases est correcte. Laquelle ?",
+          "choices": ["{先生|せんせい}がいらっしゃいました。", "{先生|せんせい}がまいりました。", "{私|わたし}がいらっしゃいました。", "{私|わたし}がおっしゃいました。"], "a": 0,
+          "explain": "Honorifique pour le professeur, jamais pour soi."
+        },
+        {
+          "id": "n4-80-e11", "type": "choice", "uses": [],
+          "jp": "{山田|やまだ}さんのことはよく＿おります。", "fr": "Je connais bien Mme Yamada.",
+          "choices": ["{存|ぞん}じて", "ご{存|ぞん}じて", "{存|ぞん}じで", "ご{存|ぞん}じ"], "a": 0,
+          "explain": "{知|し}っている (modestie) → {存|ぞん}じております."
+        },
+        {
+          "id": "n4-80-e12", "type": "choice", "uses": [],
+          "q": "Laquelle est une forme de modestie ?",
+          "choices": ["まいります", "いらっしゃいます", "おっしゃいます", "{召|め}し{上|あ}がります"], "a": 0,
+          "explain": "まいる = {行|い}く / {来|く}る (modestie)."
+        }
+      ]
+    },
+    {
+      "id": "n4-81",
+      "title": "お〜になる・お〜する : le keigo régulier",
+      "formula": ["Honorifique : お + base ます + になる (お{待|ま}ちになる)", "Modestie : お + base ます + する (お{持|も}ちする)", "Mots sino-japonais : ご + nom (ご{連絡|れんらく}する)", "Demande : お + base ます + ください (お{待|ま}ちください)"],
+      "sections": [
+        {
+          "h": "Honorifique : お〜になる",
+          "p": [
+            "Pour les verbes **sans** forme spéciale : お + base ます + になる."
+          ],
+          "ex": [
+            { "jp": "{先生|せんせい}はもうお{帰|かえ}りになりました。", "fr": "Le professeur est déjà rentré." },
+            { "jp": "この{本|ほん}をお{読|よ}みになりましたか。", "fr": "Avez-vous lu ce livre ?" }
+          ]
+        },
+        {
+          "h": "Modestie : お〜する",
+          "p": [
+            "Pour **mes** actions envers l'autre : お + base ます + する (ou いたす). Avec un mot sino-japonais : **ご** + nom + する."
+          ],
+          "ex": [
+            { "jp": "お{荷物|にもつ}をお{持|も}ちします。", "fr": "Je vais porter vos bagages." },
+            { "jp": "{後|あと}でお{電話|でんわ}します。", "fr": "Je vous téléphonerai plus tard." },
+            { "jp": "{明日|あした}ご{連絡|れんらく}します。", "fr": "Je vous contacterai demain." },
+            { "jp": "ご{案内|あんない}します。", "fr": "Je vais vous guider." }
+          ]
+        },
+        {
+          "h": "お〜ください : demander avec respect",
+          "ex": [
+            { "jp": "こちらでお{待|ま}ちください。", "fr": "Veuillez attendre ici." },
+            { "jp": "どうぞ、お{入|はい}りください。", "fr": "Entrez, je vous en prie." },
+            { "jp": "ご{注意|ちゅうい}ください。", "fr": "Faites attention, s'il vous plaît." }
+          ]
+        }
+      ],
+      "pieges": [
+        "になる = pour l'autre (honorifique) ; する = pour moi (modestie).",
+        "Les verbes spéciaux passent avant : いらっしゃる (pas お{行|い}きになる), ご{覧|らん}になる (pas お{見|み}になる).",
+        "ご + mots sino-japonais ({連絡|れんらく}, {説明|せつめい}, {案内|あんない}) ; お + mots japonais."
+      ],
+      "exercises": [
+        {
+          "id": "n4-81-e01", "type": "choice", "uses": [],
+          "jp": "{先生|せんせい}はもうお{帰|かえ}り＿。", "fr": "Le professeur est déjà rentré.",
+          "choices": ["になりました", "しました", "いたしました", "くださいました"], "a": 0,
+          "explain": "Action du professeur : お〜になる."
+        },
+        {
+          "id": "n4-81-e02", "type": "choice", "uses": [],
+          "jp": "お{荷物|にもつ}をお{持|も}ち＿。", "fr": "Je vais porter vos bagages.",
+          "choices": ["します", "になります", "なさいます", "くださいます"], "a": 0,
+          "explain": "Mon action : お〜する."
+        },
+        {
+          "id": "n4-81-e03", "type": "choice", "uses": [],
+          "q": "Que signifie : こちらでお{待|ま}ちください。",
+          "choices": ["Veuillez attendre ici.", "J'attends ici.", "Il attend ici.", "Nous vous avons attendu ici."], "a": 0,
+          "explain": "お〜ください = demande respectueuse."
+        },
+        {
+          "id": "n4-81-e04", "type": "choice", "uses": [],
+          "jp": "{後|あと}で＿{連絡|れんらく}します。", "fr": "Je vous contacterai plus tard.",
+          "choices": ["ご", "お", "おご", "ごお"], "a": 0,
+          "explain": "Mot sino-japonais : ご{連絡|れんらく}."
+        },
+        {
+          "id": "n4-81-e05", "type": "choice", "uses": [],
+          "q": "Une seule de ces phrases est correcte. Laquelle ?",
+          "choices": ["{社長|しゃちょう}がお{待|ま}ちになっています。", "{社長|しゃちょう}がお{待|ま}ちになりています。", "{私|わたし}がお{待|ま}ちになっています。", "{社長|しゃちょう}がご{待|ま}ちになっています。"], "a": 0,
+          "explain": "Action du président : お〜になる (お + mot japonais)."
+        },
+        {
+          "id": "n4-81-e06", "type": "choice", "uses": [],
+          "jp": "どうぞ、お{入|はい}り＿。", "fr": "Entrez, je vous en prie.",
+          "choices": ["ください", "します", "になります", "いたします"], "a": 0,
+          "explain": "Invitation respectueuse : お〜ください."
+        },
+        {
+          "id": "n4-81-e07", "type": "choice", "uses": [],
+          "q": "Tu proposes à un client de lui montrer le chemin. Que dis-tu ?",
+          "choices": ["ご{案内|あんない}します。", "ご{案内|あんない}になります。", "お{案内|あんない}になってください。", "ご{案内|あんない}ください。"], "a": 0,
+          "explain": "Mon action : ご〜する."
+        },
+        {
+          "id": "n4-81-e08", "type": "order", "uses": [],
+          "fr": "Avez-vous lu ce livre ?",
+          "tokens": ["この", "{本|ほん}", "を", "お{読|よ}みに", "なりましたか"],
+          "explain": "Honorifique : お〜になる."
+        },
+        {
+          "id": "n4-81-e09", "type": "choice", "uses": ["n4-79"],
+          "q": "Pourquoi ne dit-on pas 「お{行|い}きになる」 ?",
+          "choices": ["Parce que {行|い}く a un verbe spécial : いらっしゃる.", "Parce que {行|い}く n'a pas de forme ます.", "Parce qu'on dit お{行|い}きする.", "Parce que c'est trop familier."], "a": 0,
+          "explain": "Les verbes spéciaux passent avant."
+        },
+        {
+          "id": "n4-81-e10", "type": "choice", "uses": [],
+          "jp": "お{客|きゃく}さま、こちらにお{座|すわ}り＿。", "fr": "Madame, monsieur, asseyez-vous ici, je vous prie.",
+          "choices": ["ください", "します", "いたします", "{申|もう}します"], "a": 0,
+          "explain": "お〜ください."
+        },
+        {
+          "id": "n4-81-e11", "type": "choice", "uses": [],
+          "q": "「お{電話|でんわ}します」 : honorifique ou modestie ?",
+          "choices": ["Modestie : c'est moi qui téléphonerai.", "Honorifique : c'est le client qui téléphonera.", "Une demande : téléphonez-moi.", "Un ordre."], "a": 0,
+          "explain": "お〜する = modestie."
+        },
+        {
+          "id": "n4-81-e12", "type": "order", "uses": [],
+          "fr": "Je vous expliquerai demain.",
+          "tokens": ["{明日|あした}", "ご{説明|せつめい}", "します"],
+          "explain": "ご + nom + する."
+        }
+      ]
+    }
+  ],
+  "test": [
+    {
+      "id": "n4-b16-t01", "type": "choice", "uses": ["n4-77"],
+      "jp": "{来月|らいげつ}から{一人|ひとり}で{住|す}む＿にしました。", "fr": "J'ai décidé de vivre seul à partir du mois prochain.",
+      "choices": ["こと", "の", "もの", "ところ"], "a": 0,
+      "explain": "Dictionnaire + ことにする."
+    },
+    {
+      "id": "n4-b16-t02", "type": "choice", "uses": ["n4-77"],
+      "jp": "{会社|かいしゃ}の{決|き}まりで、{制服|せいふく}を{着|き}る＿なっています。", "fr": "D'après le règlement de l'entreprise, on doit porter l'uniforme.",
+      "choices": ["ことに", "ことが", "ことを", "ことで"], "a": 0,
+      "explain": "Règlement : ことになっている."
+    },
+    {
+      "id": "n4-b16-t03", "type": "choice", "uses": ["n4-78", "n4-57"],
+      "jp": "{財布|さいふ}を{持|も}た＿{家|いえ}を{出|で}てしまいました。", "fr": "Je suis sorti de chez moi sans mon portefeuille.",
+      "choices": ["ないで", "なくて", "ずで", "なずに"], "a": 0,
+      "explain": "Sans faire : ないで."
+    },
+    {
+      "id": "n4-b16-t04", "type": "choice", "uses": ["n4-78"],
+      "q": "Forme ずに de {来|く}る ?",
+      "choices": ["こずに", "きずに", "くずに", "こらずに"], "a": 0,
+      "explain": "{来|こ}ない → {来|こ}ずに."
+    },
+    {
+      "id": "n4-b16-t05", "type": "choice", "uses": ["n4-79"],
+      "jp": "{先生|せんせい}は{明日|あした}{学校|がっこう}に＿か。", "fr": "Le professeur viendra-t-il à l'école demain ?",
+      "choices": ["いらっしゃいます", "まいります", "おります", "いらっしゃります"], "a": 0,
+      "explain": "Action du professeur : honorifique いらっしゃる."
+    },
+    {
+      "id": "n4-b16-t06", "type": "choice", "uses": ["n4-80"],
+      "jp": "はじめまして。キムと＿。", "fr": "Enchanté, je m'appelle Kim.",
+      "choices": ["{申|もう}します", "おっしゃいます", "{申|もう}しになります", "いらっしゃいます"], "a": 0,
+      "explain": "Se présenter : {申|もう}します (modestie)."
+    },
+    {
+      "id": "n4-b16-t07", "type": "choice", "uses": ["n4-81"],
+      "q": "Que signifie : お{名前|なまえ}をお{書|か}きください。",
+      "choices": ["Veuillez écrire votre nom.", "J'écris mon nom.", "Il a écrit son nom.", "N'écrivez pas votre nom."], "a": 0,
+      "explain": "お〜ください = demande respectueuse."
+    },
+    {
+      "id": "n4-b16-t08", "type": "order", "uses": ["n4-77"],
+      "fr": "J'ai décidé de ne plus manger de viande.",
+      "tokens": ["もう", "{肉|にく}", "を", "{食|た}べない", "ことにしました"],
+      "alt": [["{肉|にく}", "を", "もう", "{食|た}べない", "ことにしました"]],
+      "explain": "ない + ことにしました."
+    },
+    {
+      "id": "n4-b16-t09", "type": "choice", "uses": ["n4-79"],
+      "q": "Honorifique de {言|い}う ?",
+      "choices": ["おっしゃる", "{申|もう}す", "{申|もう}し{上|あ}げる", "いたす"], "a": 0,
+      "explain": "{言|い}う → おっしゃる (honorifique)."
+    },
+    {
+      "id": "n4-b16-t10", "type": "choice", "uses": ["n4-81"],
+      "jp": "お{荷物|にもつ}、お{持|も}ち＿ましょうか。", "fr": "Je porte vos bagages ?",
+      "choices": ["し", "になり", "なさい", "ください"], "a": 0,
+      "explain": "Proposer un service : お〜しましょうか."
+    },
+    {
+      "id": "n4-b16-t11", "type": "choice", "uses": ["n4-80"],
+      "q": "Ton supérieur te demande si tu as vu le document. Que réponds-tu ?",
+      "choices": ["はい、{拝見|はいけん}しました。", "はい、ご{覧|らん}になりました。", "はい、{拝見|はいけん}になりました。", "はい、ご{覧|らん}しました。"], "a": 0,
+      "explain": "Mon action : modestie {拝見|はいけん}する."
+    },
+    {
+      "id": "n4-b16-t12", "type": "choice", "uses": ["n4-78"],
+      "jp": "{朝|あさ}ごはんを{食|た}べ＿{会社|かいしゃ}に{行|い}くのは、よくないですよ。", "fr": "Aller au travail sans prendre de petit-déjeuner, ce n'est pas bien.",
+      "choices": ["ないで", "なくて", "ずで", "なずに"], "a": 0,
+      "explain": "Sans faire : ないで."
+    },
+    {
+      "id": "n4-b16-t13", "type": "choice", "uses": ["n4-77"],
+      "q": "Quelle phrase annonce poliment une mutation décidée par l'entreprise ?",
+      "choices": ["{来月|らいげつ}、{東京|とうきょう}に{転勤|てんきん}することになりました。", "{来月|らいげつ}、{東京|とうきょう}に{転勤|てんきん}することにしました。", "{来月|らいげつ}、{東京|とうきょう}に{転勤|てんきん}するつもりです。", "{来月|らいげつ}、{東京|とうきょう}に{転勤|てんきん}したいです。"], "a": 0,
+      "explain": "Décision extérieure : ことになりました."
+    },
+    {
+      "id": "n4-b16-t14", "type": "choice", "uses": ["n4-79"],
+      "jp": "お{客|きゃく}さま、コーヒーとお{茶|ちゃ}、どちらを＿か。", "fr": "Monsieur, madame, que désirez-vous : café ou thé ?",
+      "choices": ["{召|め}し{上|あ}がります", "いただきます", "さしあげます", "{拝見|はいけん}します"], "a": 0,
+      "explain": "Action du client : {召|め}し{上|あ}がる."
+    },
+    {
+      "id": "n4-b16-t15", "type": "order", "uses": ["n4-81"],
+      "fr": "Je vous téléphonerai plus tard.",
+      "tokens": ["{後|あと}で", "お{電話|でんわ}", "します"],
+      "explain": "Modestie : お〜する."
+    }
+  ],
+  "examTest": [
+    {
+      "id": "n4-x04-01", "type": "choice", "uses": ["n4-66", "n4-72", "n4-78"],
+      "q": "Une seule de ces phrases est correcte. Laquelle ?",
+      "choices": ["{彼|かれ}は{来|こ}ないかもしれないし、{待|ま}たないで{行|い}こう。", "{彼|かれ}は{来|こ}ないかもしれないだし、{待|ま}たないで{行|い}こう。", "{彼|かれ}は{来|こ}ないかもしれなくし、{待|ま}たないで{行|い}こう。", "{彼|かれ}は{来|こ}ないかもしれないし、{待|ま}たなくて{行|い}こう。"], "a": 0,
+      "explain": "かもしれない + し ; ないで = sans."
+    },
+    {
+      "id": "n4-x04-02", "type": "choice", "uses": ["n4-73", "n4-57"],
+      "jp": "{一生懸命|いっしょうけんめい}{練習|れんしゅう}した＿、{試合|しあい}に{負|ま}けてしまいました。", "fr": "Je me suis entraîné à fond, et pourtant j'ai perdu le match.",
+      "choices": ["のに", "なのに", "だのに", "のを"], "a": 0,
+      "explain": "Verbe + のに ; てしまう = regret."
+    },
+    {
+      "id": "n4-x04-03", "type": "choice", "uses": ["n4-79", "n4-80", "n4-81"],
+      "q": "Tu veux demander au directeur à quelle heure il vient demain. Quelle phrase ?",
+      "choices": ["{明日|あした}は{何時|なんじ}にいらっしゃいますか。", "{明日|あした}は{何時|なんじ}にまいりますか。", "{明日|あした}は{何時|なんじ}にうかがいますか。", "{明日|あした}は{何時|なんじ}にお{来|き}になりますか。"], "a": 0,
+      "explain": "Action du directeur : いらっしゃる (pas de お{来|き}になる)."
+    },
+    {
+      "id": "n4-x04-04", "type": "choice", "uses": ["n4-74"],
+      "jp": "{日本語|にほんご}が{上手|じょうず}に{話|はな}せる＿、{毎日|まいにち}ニュースを{聞|き}いています。", "fr": "J'écoute les infos tous les jours pour pouvoir bien parler japonais.",
+      "choices": ["ように", "ために", "ような", "ようで"], "a": 0,
+      "explain": "Potentiel + ように."
+    },
+    {
+      "id": "n4-x04-05", "type": "choice", "uses": ["n4-75", "n4-63"],
+      "q": "Que signifie : {彼|かれ}が{来|く}るかどうか、まだわからないそうです。",
+      "choices": ["Il paraît qu'on ne sait pas encore s'il vient.", "Il a l'air de ne pas savoir s'il vient.", "Il viendra sûrement.", "On sait qu'il ne vient pas."], "a": 0,
+      "explain": "かどうか (si… ou non) + そうです (ouï-dire)."
+    },
+    {
+      "id": "n4-x04-06", "type": "order", "uses": ["n4-75"],
+      "fr": "Je ne sais pas à quelle heure part le train.",
+      "tokens": ["{電車|でんしゃ}", "が", "{何時|なんじ}", "に", "{出|で}る", "か", "わかりません"],
+      "alt": [["{何時|なんじ}", "に", "{電車|でんしゃ}", "が", "{出|で}る", "か", "わかりません"]],
+      "explain": "Mot interrogatif + … + か."
+    },
+    {
+      "id": "n4-x04-07", "type": "choice", "uses": ["n4-72", "n4-77"],
+      "jp": "この{部屋|へや}は{狭|せま}い＿、{暗|くら}いし、{引|ひ}っ{越|こ}すことにしました。", "fr": "Cette chambre est petite, en plus sombre : j'ai décidé de déménager.",
+      "choices": ["し", "のに", "て", "と"], "a": 0,
+      "explain": "〜し、〜し ; ことにする."
+    },
+    {
+      "id": "n4-x04-08", "type": "choice", "uses": ["n4-79", "n4-80", "n4-81"],
+      "q": "Tu as lu le livre écrit par ton professeur. Quelle phrase est correcte ?",
+      "choices": ["{先生|せんせい}がお{書|か}きになった{本|ほん}を{拝見|はいけん}しました。", "{先生|せんせい}がお{書|か}きした{本|ほん}を{拝見|はいけん}しました。", "{先生|せんせい}がお{書|か}きになった{本|ほん}をご{覧|らん}になりました。", "{先生|せんせい}が{書|か}いた{本|ほん}をご{覧|らん}しました。"], "a": 0,
+      "explain": "Professeur : お〜になる (honorifique) ; moi : {拝見|はいけん}する (modestie)."
+    },
+    {
+      "id": "n4-x04-09", "type": "choice", "uses": ["n4-77"],
+      "jp": "{寝|ね}る{前|まえ}に{甘|あま}いものを{食|た}べない＿にしています。", "fr": "Je me suis fixé de ne pas manger sucré avant de dormir.",
+      "choices": ["こと", "の", "もの", "ところ"], "a": 0,
+      "explain": "Règle personnelle : ことにしている."
+    },
+    {
+      "id": "n4-x04-10", "type": "choice", "uses": ["n4-76"],
+      "q": "Laquelle est un ordre brutal ?",
+      "choices": ["{早|はや}くしろ！", "{早|はや}くしてください。", "{早|はや}くしてくださいませんか。", "{早|はや}くしなさい。"], "a": 0,
+      "explain": "Impératif : しろ. (なさい est un ordre plus doux.)"
+    },
+    {
+      "id": "n4-x04-11", "type": "choice", "uses": ["n4-73"],
+      "jp": "{薬|くすり}を{飲|の}んだ＿、まだ{頭|あたま}が{痛|いた}いです。", "fr": "J'ai pris un médicament, et pourtant j'ai encore mal à la tête.",
+      "choices": ["のに", "ので", "ために", "から"], "a": 0,
+      "explain": "Résultat contraire à l'attente : のに."
+    },
+    {
+      "id": "n4-x04-12", "type": "choice", "uses": ["n4-78"],
+      "q": "Que signifie : {電車|でんしゃ}に{乗|の}らないで、{歩|ある}いて{来|き}ました。",
+      "choices": ["Je suis venu à pied au lieu de prendre le train.", "Je suis venu en train, sans marcher.", "Je n'ai pas pu prendre le train.", "Je vais prendre le train à pied."], "a": 0,
+      "explain": "ないで = au lieu de."
+    },
+    {
+      "id": "n4-x04-13", "type": "order", "uses": ["n4-81"],
+      "fr": "Veuillez patienter un instant.",
+      "tokens": ["{少々|しょうしょう}", "お{待|ま}ち", "ください"],
+      "explain": "お〜ください."
+    },
+    {
+      "id": "n4-x04-14", "type": "choice", "uses": ["n4-63"],
+      "jp": "{田中|たなか}さんは{結婚|けっこん}する＿です。{本人|ほんにん}から{聞|き}きました。", "fr": "Il paraît que M. Tanaka se marie. Je l'ai appris de lui-même.",
+      "choices": ["そう", "そうな", "そうに", "そうだ"], "a": 0,
+      "explain": "Ouï-dire : forme neutre + そうです."
+    },
+    {
+      "id": "n4-x04-15", "type": "choice", "uses": ["n4-80"],
+      "q": "Tu présentes ton chef de service (de ta société) à un client. Quelle phrase ?",
+      "choices": ["こちらは{部長|ぶちょう}の{田中|たなか}です。", "こちらは{田中|たなか}{部長|ぶちょう}さまです。", "こちらは{田中|たなか}さんでいらっしゃいます。", "こちらは{部長|ぶちょう}の{田中|たなか}さんでございます。"], "a": 0,
+      "explain": "Face à un client, on parle de son propre chef sans さん ni honorifique."
+    }
+  ]
+}
