@@ -1,0 +1,742 @@
+{
+  "id": "n4-b14",
+  "level": "N4",
+  "title": "Certitude, moment, manière, excès",
+  "lessons": [
+    {
+      "id": "n4-67",
+      "title": "はずだ : normalement, ça doit être",
+      "formula": ["Forme neutre + はずです : normalement (logique)", "Nom + の はず · adj. な + な はず", "はずがない : impossible que", "はずでした : c'était censé (mais…)"],
+      "sections": [
+        {
+          "h": "Le sens",
+          "p": [
+            "はずだ = je suis **presque sûr**, parce que j'ai une **raison logique** (un fait, une info)."
+          ],
+          "ex": [
+            { "jp": "{田中|たなか}さんは{今日|きょう}{来|く}るはずです。{昨日|きのう}そう{言|い}っていましたから。", "fr": "M. Tanaka doit venir aujourd'hui. Il l'a dit hier." },
+            { "jp": "{荷物|にもつ}は{明日|あした}{着|つ}くはずです。", "fr": "Le colis devrait arriver demain." },
+            { "jp": "{十年|じゅうねん}も{日本|にほん}にいたから、{日本語|にほんご}が{上手|じょうず}なはずです。", "fr": "Il a passé dix ans au Japon, il doit bien parler japonais." }
+          ]
+        },
+        {
+          "h": "はずがない : impossible",
+          "p": [
+            "〜はずがない = il est **impossible** que… (très fort)."
+          ],
+          "ex": [
+            { "jp": "{彼|かれ}がうそをつくはずがありません。", "fr": "Il est impossible qu'il mente." },
+            { "jp": "そんなはずはない。", "fr": "Ce n'est pas possible !" }
+          ]
+        },
+        {
+          "h": "はずでした : c'était prévu, mais…",
+          "ex": [
+            { "jp": "{電車|でんしゃ}は{九時|くじ}に{着|つ}くはずでしたが、{遅|おく}れました。", "fr": "Le train devait arriver à 9 h, mais il a eu du retard." }
+          ]
+        }
+      ],
+      "pieges": [
+        "Nom : {休|やす}み**の**はず ; adj. な : {静|しず}か**な**はず.",
+        "はず = déduction logique, pas une obligation (≠ なければならない).",
+        "はずがない (impossible) est plus fort que ないはず (normalement non)."
+      ],
+      "exercises": [
+        {
+          "id": "n4-67-e01", "type": "choice", "uses": [],
+          "jp": "{田中|たなか}さんは{昨日|きのう}「{行|い}きます」と{言|い}っていましたから、{今日|きょう}{来|く}る＿です。", "fr": "M. Tanaka a dit hier « je viendrai », donc il doit venir aujourd'hui.",
+          "choices": ["はず", "はずの", "はずに", "はずだ"], "a": 0,
+          "explain": "Déduction logique : forme neutre + はずです."
+        },
+        {
+          "id": "n4-67-e02", "type": "choice", "uses": [],
+          "jp": "{今日|きょう}は{日曜日|にちようび}だから、{銀行|ぎんこう}は{休|やす}み＿はずです。", "fr": "Aujourd'hui c'est dimanche, la banque doit être fermée.",
+          "choices": ["の", "な", "だ", "で"], "a": 0,
+          "explain": "Nom + の + はず."
+        },
+        {
+          "id": "n4-67-e03", "type": "choice", "uses": [],
+          "jp": "ここは{駅|えき}から{遠|とお}いから、{静|しず}か＿はずです。", "fr": "C'est loin de la gare, ça doit être calme.",
+          "choices": ["な", "の", "だ", "に"], "a": 0,
+          "explain": "Adj. な + な + はず."
+        },
+        {
+          "id": "n4-67-e04", "type": "choice", "uses": [],
+          "q": "Que signifie : {彼|かれ}がうそをつくはずがありません。",
+          "choices": ["Il est impossible qu'il mente.", "Il ment sûrement.", "Il paraît qu'il ment.", "Il ne faut pas mentir."], "a": 0,
+          "explain": "はずがない = impossible."
+        },
+        {
+          "id": "n4-67-e05", "type": "order", "uses": [],
+          "fr": "Le colis devrait arriver demain.",
+          "tokens": ["{荷物|にもつ}", "は", "{明日|あした}", "{着|つ}く", "はずです"],
+          "alt": [["{明日|あした}", "{荷物|にもつ}", "は", "{着|つ}く", "はずです"]],
+          "explain": "Forme du dictionnaire + はずです."
+        },
+        {
+          "id": "n4-67-e06", "type": "choice", "uses": [],
+          "jp": "{電車|でんしゃ}は{九時|くじ}に{着|つ}く＿が、{遅|おく}れました。", "fr": "Le train devait arriver à 9 h, mais il a eu du retard.",
+          "choices": ["はずでした", "はずだでした", "はずなでした", "はずのでした"], "a": 0,
+          "explain": "C'était prévu, mais… : はずでした."
+        },
+        {
+          "id": "n4-67-e07", "type": "choice", "uses": [],
+          "q": "Une seule de ces phrases est correcte. Laquelle ?",
+          "choices": ["{今日|きょう}は{休|やす}みのはずです。", "{今日|きょう}は{休|やす}みなはずです。", "{今日|きょう}は{休|やす}みだはずです。", "{今日|きょう}は{休|やす}みはずです。"], "a": 0,
+          "explain": "Nom + の + はず."
+        },
+        {
+          "id": "n4-67-e08", "type": "choice", "uses": [],
+          "q": "Tu ne trouves pas tes clés. « Je les ai pourtant mises dans mon sac ! » Que dis-tu ?",
+          "choices": ["かばんに{入|い}れたはずなんですが…", "かばんに{入|い}れるつもりなんですが…", "かばんに{入|い}れてしまいました。", "かばんに{入|い}れておきます。"], "a": 0,
+          "explain": "Je suis sûr de l'avoir fait : 〜たはずです."
+        },
+        {
+          "id": "n4-67-e09", "type": "choice", "uses": [],
+          "jp": "あの{人|ひと}は{十年|じゅうねん}も{日本|にほん}に{住|す}んでいたから、{日本語|にほんご}が{上手|じょうず}な＿。", "fr": "Il a vécu dix ans au Japon, il doit bien parler japonais.",
+          "choices": ["はずです", "そうです", "はずだです", "ことです"], "a": 0,
+          "explain": "Déduction : adj. な + な + はずです. ({上手|じょうず}なそう n'existe pas : ce serait {上手|じょうず}だそう.)"
+        },
+        {
+          "id": "n4-67-e10", "type": "choice", "uses": [],
+          "q": "Que signifie : そんなはずはない。",
+          "choices": ["Ce n'est pas possible !", "C'est sûrement vrai.", "Il paraît que c'est vrai.", "Je ne veux pas."], "a": 0,
+          "explain": "はずはない = impossible."
+        },
+        {
+          "id": "n4-67-e11", "type": "order", "uses": [],
+          "fr": "Il est impossible qu'il oublie.",
+          "tokens": ["{彼|かれ}", "が", "{忘|わす}れる", "はず", "が", "ありません"],
+          "explain": "〜はずがありません = impossible."
+        },
+        {
+          "id": "n4-67-e12", "type": "choice", "uses": [],
+          "jp": "もう{五時|ごじ}だから、{子|こ}どもたちは{学校|がっこう}から{帰|かえ}っている＿です。", "fr": "Il est déjà 17 h, les enfants doivent être rentrés de l'école.",
+          "choices": ["はず", "はずの", "はずな", "はずだ"], "a": 0,
+          "explain": "Déduction : はずです."
+        }
+      ]
+    },
+    {
+      "id": "n4-68",
+      "title": "ところ・たばかり : sur le point de, en train de, venir de",
+      "formula": ["Dictionnaire + ところ : sur le point de", "ている + ところ : en train de", "た + ところ : venir juste de", "た + ばかり : venir de (ça ne fait pas longtemps)"],
+      "sections": [
+        {
+          "h": "Trois moments d'une action",
+          "grid": {
+            "head": ["", "moment"],
+            "rows": [
+              ["{食|た}べるところです", "je vais manger (juste avant)"],
+              ["{食|た}べているところです", "je suis en train de manger"],
+              ["{食|た}べたところです", "je viens de finir de manger"]
+            ]
+          },
+          "ex": [
+            { "jp": "これから{出|で}かけるところです。", "fr": "Je suis sur le point de sortir." },
+            { "jp": "{今|いま}、{宿題|しゅくだい}をしているところです。", "fr": "Je suis en train de faire mes devoirs." },
+            { "jp": "{今|いま}、{家|いえ}に{着|つ}いたところです。", "fr": "Je viens d'arriver à la maison." }
+          ]
+        },
+        {
+          "h": "たばかり : « ça ne fait pas longtemps »",
+          "p": [
+            "たばかり dit que c'est **récent pour moi**, même si ça fait des jours ou des semaines. たところ = **juste à l'instant**."
+          ],
+          "ex": [
+            { "jp": "{先月|せんげつ}{日本|にほん}に{来|き}たばかりです。", "fr": "Je suis arrivé au Japon le mois dernier (c'est tout récent)." },
+            { "jp": "{買|か}ったばかりのパソコンが{壊|こわ}れました。", "fr": "L'ordinateur que je venais d'acheter est tombé en panne." }
+          ]
+        }
+      ],
+      "pieges": [
+        "たところ : seulement juste après ({今|いま}, ちょうど). Avec {先月|せんげつ}, {去年|きょねん}… → たばかり.",
+        "たばかりの + nom ({買|か}ったばかりの{靴|くつ})."
+      ],
+      "exercises": [
+        {
+          "id": "n4-68-e01", "type": "choice", "uses": [],
+          "jp": "A：もう{晩|ばん}ごはんを{食|た}べましたか。B：いいえ、これから{食|た}べる＿です。", "fr": "A : Tu as déjà dîné ? B : Non, je vais justement manger.",
+          "choices": ["ところ", "ばかり", "ところに", "ところで"], "a": 0,
+          "explain": "Sur le point de : dictionnaire + ところ."
+        },
+        {
+          "id": "n4-68-e02", "type": "choice", "uses": [],
+          "jp": "{今|いま}、{宿題|しゅくだい}をしている＿です。あとで{電話|でんわ}します。", "fr": "Je suis en train de faire mes devoirs. Je t'appelle plus tard.",
+          "choices": ["ところ", "ばかり", "ところを", "ところが"], "a": 0,
+          "explain": "En train de : ている + ところ."
+        },
+        {
+          "id": "n4-68-e03", "type": "choice", "uses": [],
+          "jp": "＿{駅|えき}に{着|つ}いたところです。", "fr": "Je viens tout juste d'arriver à la gare.",
+          "choices": ["{今|いま}", "{先月|せんげつ}", "{去年|きょねん}", "{昨日|きのう}"], "a": 0,
+          "explain": "たところ = juste à l'instant : seulement avec {今|いま}."
+        },
+        {
+          "id": "n4-68-e04", "type": "choice", "uses": [],
+          "jp": "{先月|せんげつ}、{日本|にほん}に{来|き}た＿です。", "fr": "Je suis arrivé au Japon le mois dernier (c'est récent).",
+          "choices": ["ばかり", "ところ", "ばかりに", "ばかりな"], "a": 0,
+          "explain": "Avec {先月|せんげつ} : たばかり (たところ = juste à l'instant)."
+        },
+        {
+          "id": "n4-68-e05", "type": "choice", "uses": [],
+          "q": "Que signifie : これから{出|で}かけるところです。",
+          "choices": ["Je suis sur le point de sortir.", "Je viens de rentrer.", "Je suis en train de sortir.", "Je ne sors jamais."], "a": 0,
+          "explain": "Dictionnaire + ところ = sur le point de."
+        },
+        {
+          "id": "n4-68-e06", "type": "order", "uses": [],
+          "fr": "L'ordinateur que je venais d'acheter est tombé en panne.",
+          "tokens": ["{買|か}った", "ばかり", "の", "パソコン", "が", "{壊|こわ}れました"],
+          "explain": "たばかりの + nom."
+        },
+        {
+          "id": "n4-68-e07", "type": "choice", "uses": [],
+          "q": "Tu es en train de cuisiner quand un ami appelle. Que dis-tu ?",
+          "choices": ["{今|いま}、{料理|りょうり}を{作|つく}っているところなんだ。", "{今|いま}、{料理|りょうり}を{作|つく}ったばかりなんだ。", "{今|いま}、{料理|りょうり}を{作|つく}るはずなんだ。", "{今|いま}、{料理|りょうり}を{作|つく}っているばかりなんだ。"], "a": 0,
+          "explain": "En train de : ているところ."
+        },
+        {
+          "id": "n4-68-e08", "type": "choice", "uses": [],
+          "jp": "{日本語|にほんご}の{勉強|べんきょう}を{始|はじ}めた＿なので、まだ{下手|へた}です。", "fr": "Je viens de commencer le japonais, je suis encore mauvais.",
+          "choices": ["ばかり", "ばかりの", "ばかりに", "ばかりで"], "a": 0,
+          "explain": "たばかり + なので."
+        },
+        {
+          "id": "n4-68-e09", "type": "choice", "uses": [],
+          "q": "« Je suis arrivé au Japon il y a deux semaines (c'est récent pour moi). » Quelle phrase ?",
+          "choices": ["{二週間前|にしゅうかんまえ}に{日本|にほん}に{来|き}たばかりです。", "{二週間前|にしゅうかんまえ}に{日本|にほん}に{来|き}たところです。", "{二週間前|にしゅうかんまえ}に{日本|にほん}に{来|く}るところです。", "{二週間前|にしゅうかんまえ}に{日本|にほん}に{来|き}ているところです。"], "a": 0,
+          "explain": "Il y a deux semaines : たばかり (たところ = à l'instant)."
+        },
+        {
+          "id": "n4-68-e10", "type": "order", "uses": [],
+          "fr": "Je suis en train de réfléchir.",
+          "tokens": ["{今|いま}", "{考|かんが}えている", "ところ", "です"],
+          "explain": "ている + ところ."
+        },
+        {
+          "id": "n4-68-e11", "type": "choice", "uses": [],
+          "q": "Laquelle veut dire « je viens juste de finir de manger » ?",
+          "choices": ["{今|いま}、{食|た}べたところです。", "{今|いま}、{食|た}べるところです。", "{今|いま}、{食|た}べているところです。", "{今|いま}、{食|た}べたはずです。"], "a": 0,
+          "explain": "た + ところ = venir juste de."
+        },
+        {
+          "id": "n4-68-e12", "type": "choice", "uses": [],
+          "jp": "{起|お}きた＿で、まだ{顔|かお}も{洗|あら}っていません。", "fr": "Je viens de me lever, je ne me suis même pas encore lavé le visage.",
+          "choices": ["ばかり", "ばかりの", "ばかりに", "ばかりが"], "a": 0,
+          "explain": "たばかりで = comme je viens de…"
+        }
+      ]
+    },
+    {
+      "id": "n4-69",
+      "title": "ながら : en faisant (deux actions en même temps)",
+      "formula": ["Verbe (base ます) + ながら", "A ながら B : faire B en faisant A", "L'action principale est à la fin", "Même personne pour les deux actions"],
+      "sections": [
+        {
+          "h": "Le sens",
+          "p": [
+            "A ながら B = la même personne fait **A et B en même temps**. B est l'action principale."
+          ],
+          "ex": [
+            { "jp": "{音楽|おんがく}を{聞|き}きながら{勉強|べんきょう}します。", "fr": "J'étudie en écoutant de la musique." },
+            { "jp": "{歩|ある}きながら{話|はな}しましょう。", "fr": "Parlons en marchant." },
+            { "jp": "テレビを{見|み}ながらごはんを{食|た}べないでください。", "fr": "Ne mange pas en regardant la télé." }
+          ]
+        },
+        {
+          "h": "Sur une longue durée",
+          "p": [
+            "ながら peut aussi dire « tout en » sur une longue période."
+          ],
+          "ex": [
+            { "jp": "{働|はたら}きながら{大学|だいがく}に{通|かよ}っています。", "fr": "Je vais à l'université tout en travaillant." }
+          ]
+        }
+      ],
+      "pieges": [
+        "Base ます : {聞|き}きながら (pas {聞|き}くながら).",
+        "Même personne : ✗ {母|はは}が{料理|りょうり}しながら、{私|わたし}はテレビを{見|み}た (voir {間|あいだ}, leçon 88)."
+      ],
+      "exercises": [
+        {
+          "id": "n4-69-e01", "type": "choice", "uses": [],
+          "jp": "{音楽|おんがく}を＿ながら{勉強|べんきょう}します。", "fr": "J'étudie en écoutant de la musique.",
+          "choices": ["{聞|き}き", "{聞|き}く", "{聞|き}いて", "{聞|き}いた"], "a": 0,
+          "explain": "Base ます + ながら."
+        },
+        {
+          "id": "n4-69-e02", "type": "choice", "uses": [],
+          "jp": "{歩|ある}き＿{話|はな}しましょう。", "fr": "Parlons en marchant.",
+          "choices": ["ながら", "ないで", "て", "たり"], "a": 0,
+          "explain": "Base ます + ながら."
+        },
+        {
+          "id": "n4-69-e03", "type": "choice", "uses": [],
+          "q": "Que signifie : {歌|うた}を{歌|うた}いながら{料理|りょうり}をします。",
+          "choices": ["Je cuisine en chantant.", "Je chante en cuisinant (l'action principale est de chanter).", "Je chante, puis je cuisine.", "Je ne chante pas quand je cuisine."], "a": 0,
+          "explain": "L'action principale est à la fin : {料理|りょうり}をします."
+        },
+        {
+          "id": "n4-69-e04", "type": "order", "uses": [],
+          "fr": "Ne regarde pas ton téléphone en marchant.",
+          "tokens": ["{歩|ある}きながら", "スマホ", "を", "{見|み}ないで", "ください"],
+          "alt": [["スマホ", "を", "{歩|ある}きながら", "{見|み}ないで", "ください"]],
+          "explain": "Base ます + ながら."
+        },
+        {
+          "id": "n4-69-e05", "type": "choice", "uses": [],
+          "jp": "{彼|かれ}は{働|はたら}き＿{大学|だいがく}に{通|かよ}っています。", "fr": "Il va à l'université tout en travaillant.",
+          "choices": ["ながら", "ても", "ので", "から"], "a": 0,
+          "explain": "ながら = tout en (longue durée)."
+        },
+        {
+          "id": "n4-69-e06", "type": "choice", "uses": [],
+          "q": "Une seule de ces phrases est correcte. Laquelle ?",
+          "choices": ["コーヒーを{飲|の}みながら{新聞|しんぶん}を{読|よ}みます。", "コーヒーを{飲|の}むながら{新聞|しんぶん}を{読|よ}みます。", "コーヒーを{飲|の}んでながら{新聞|しんぶん}を{読|よ}みます。", "コーヒーを{飲|の}みますながら{新聞|しんぶん}を{読|よ}みます。"], "a": 0,
+          "explain": "Base ます + ながら."
+        },
+        {
+          "id": "n4-69-e07", "type": "choice", "uses": [],
+          "q": "Tu manges en regardant la télé (en même temps). Que dis-tu ?",
+          "choices": ["テレビを{見|み}ながらごはんを{食|た}べます。", "テレビを{見|み}てからごはんを{食|た}べます。", "テレビを{見|み}るまえにごはんを{食|た}べます。", "テレビを{見|み}たあとでごはんを{食|た}べます。"], "a": 0,
+          "explain": "En même temps : ながら."
+        },
+        {
+          "id": "n4-69-e08", "type": "choice", "uses": [],
+          "jp": "{運転|うんてん}＿{電話|でんわ}をしてはいけません。", "fr": "Il ne faut pas téléphoner en conduisant.",
+          "choices": ["しながら", "するながら", "しってながら", "してながら"], "a": 0,
+          "explain": "する → し + ながら."
+        },
+        {
+          "id": "n4-69-e09", "type": "order", "uses": [],
+          "fr": "Je fais mes devoirs en écoutant de la musique.",
+          "tokens": ["{音楽|おんがく}", "を", "{聞|き}きながら", "{宿題|しゅくだい}", "を", "します"],
+          "explain": "A ながら B : B est l'action principale."
+        },
+        {
+          "id": "n4-69-e10", "type": "choice", "uses": [],
+          "q": "Laquelle est correcte ?",
+          "choices": ["{笑|わら}いながら{話|はな}しました。", "{母|はは}が{料理|りょうり}をしながら、{私|わたし}はテレビを{見|み}ました。", "{笑|わら}うながら{話|はな}しました。", "{笑|わら}いながらに{話|はな}しました。"], "a": 0,
+          "explain": "Base ます + ながら, et une seule personne pour les deux actions."
+        },
+        {
+          "id": "n4-69-e11", "type": "choice", "uses": [],
+          "jp": "ガムをかみ＿{授業|じゅぎょう}を{受|う}けないでください。", "fr": "Ne suivez pas le cours en mâchant du chewing-gum.",
+          "choices": ["ながら", "ないで", "ても", "たら"], "a": 0,
+          "explain": "Base ます + ながら."
+        },
+        {
+          "id": "n4-69-e12", "type": "order", "uses": [],
+          "fr": "Prenons un café en discutant.",
+          "tokens": ["{話|はな}しながら", "コーヒー", "を", "{飲|の}みましょう"],
+          "alt": [["コーヒー", "を", "{話|はな}しながら", "{飲|の}みましょう"]],
+          "explain": "A ながら B (B principal)."
+        }
+      ]
+    },
+    {
+      "id": "n4-70",
+      "title": "すぎる : trop",
+      "formula": ["Verbe (base ます) + すぎる : trop faire", "Adj. い : い → すぎる · Adj. な : + すぎる", "いい → よすぎる", "すぎる = verbe du groupe 2"],
+      "sections": [
+        {
+          "h": "Le sens",
+          "p": [
+            "すぎる = **trop**, souvent avec une conséquence négative."
+          ],
+          "ex": [
+            { "jp": "{昨日|きのう}は{飲|の}みすぎました。", "fr": "Hier, j'ai trop bu." },
+            { "jp": "この{靴|くつ}は{大|おお}きすぎます。", "fr": "Ces chaussures sont trop grandes." },
+            { "jp": "{説明|せつめい}が{複雑|ふくざつ}すぎて、わかりません。", "fr": "L'explication est trop compliquée, je ne comprends pas." }
+          ]
+        },
+        {
+          "h": "Fabriquer",
+          "grid": {
+            "head": ["", "mot", "+ すぎる"],
+            "rows": [
+              ["verbe", "{食|た}べる", "{食|た}べすぎる"],
+              ["verbe", "{働|はたら}く", "{働|はたら}きすぎる"],
+              ["adj. い", "{高|たか}い", "{高|たか}すぎる"],
+              ["adj. い", "いい", "よすぎる"],
+              ["adj. な", "{静|しず}か", "{静|しず}かすぎる"]
+            ]
+          }
+        },
+        {
+          "h": "すぎて : la raison",
+          "p": [
+            "すぎる est un verbe du groupe 2 : すぎます, すぎた, **すぎて** (trop…, donc…)."
+          ],
+          "ex": [
+            { "jp": "{高|たか}すぎて{買|か}えません。", "fr": "C'est trop cher, je ne peux pas l'acheter." }
+          ]
+        }
+      ],
+      "pieges": [
+        "Verbe : base ます ({食|た}べすぎる, pas {食|た}べるすぎる).",
+        "いい → よすぎる."
+      ],
+      "exercises": [
+        {
+          "id": "n4-70-e01", "type": "choice", "uses": [],
+          "jp": "{昨日|きのう}はお{酒|さけ}を{飲|の}み＿、{頭|あたま}が{痛|いた}いです。", "fr": "Hier j'ai trop bu, j'ai mal à la tête.",
+          "choices": ["すぎて", "すぎって", "すぎに", "すぎで"], "a": 0,
+          "explain": "すぎる (groupe 2) → すぎて."
+        },
+        {
+          "id": "n4-70-e02", "type": "choice", "uses": [],
+          "jp": "この{靴|くつ}は{大|おお}き＿ます。", "fr": "Ces chaussures sont trop grandes.",
+          "choices": ["すぎ", "いすぎ", "くすぎ", "さすぎ"], "a": 0,
+          "explain": "Adj. い : on enlève い → {大|おお}きすぎます."
+        },
+        {
+          "id": "n4-70-e03", "type": "choice", "uses": [],
+          "q": "いい + すぎる ?",
+          "choices": ["よすぎる", "いすぎる", "よくすぎる", "よさすぎる"], "a": 0,
+          "explain": "いい → よすぎる."
+        },
+        {
+          "id": "n4-70-e04", "type": "choice", "uses": [],
+          "q": "Que signifie : {説明|せつめい}が{複雑|ふくざつ}すぎて、わかりません。",
+          "choices": ["L'explication est trop compliquée, je ne comprends pas.", "L'explication est simple, je comprends.", "L'explication n'est pas assez détaillée.", "Je n'ai pas eu d'explication."], "a": 0,
+          "explain": "すぎて = trop…, donc…"
+        },
+        {
+          "id": "n4-70-e05", "type": "order", "uses": [],
+          "fr": "Ce sac est trop cher, je ne peux pas l'acheter.",
+          "tokens": ["この", "かばん", "は", "{高|たか}すぎて", "{買|か}えません"],
+          "explain": "{高|たか}い → {高|たか}すぎて."
+        },
+        {
+          "id": "n4-70-e06", "type": "choice", "uses": [],
+          "jp": "{働|はたら}き＿のは{体|からだ}によくないですよ。", "fr": "Trop travailler, ce n'est pas bon pour la santé.",
+          "choices": ["すぎる", "すぎ", "すぎます", "すぎて"], "a": 0,
+          "explain": "Forme du dictionnaire + の (nominaliser) : {働|はたら}きすぎるのは."
+        },
+        {
+          "id": "n4-70-e07", "type": "choice", "uses": [],
+          "jp": "この{部屋|へや}は{静|しず}か＿て、ちょっと{怖|こわ}いです。", "fr": "Cette chambre est trop silencieuse, ça fait un peu peur.",
+          "choices": ["すぎ", "なすぎ", "にすぎ", "くすぎ"], "a": 0,
+          "explain": "Adj. な + すぎる → すぎて."
+        },
+        {
+          "id": "n4-70-e08", "type": "choice", "uses": [],
+          "q": "Une seule de ces phrases est correcte. Laquelle ?",
+          "choices": ["{食|た}べすぎました。", "{食|た}べるすぎました。", "{食|た}べてすぎました。", "{食|た}べたすぎました。"], "a": 0,
+          "explain": "Base ます + すぎる."
+        },
+        {
+          "id": "n4-70-e09", "type": "choice", "uses": [],
+          "jp": "この{問題|もんだい}は{簡単|かんたん}＿ます。", "fr": "Ce problème est trop facile.",
+          "choices": ["すぎ", "にすぎ", "なすぎ", "ですぎ"], "a": 0,
+          "explain": "Adj. な + すぎる."
+        },
+        {
+          "id": "n4-70-e10", "type": "order", "uses": [],
+          "fr": "J'ai trop travaillé et je suis fatigué.",
+          "tokens": ["{仕事|しごと}", "を", "しすぎて", "{疲|つか}れました"],
+          "explain": "する → しすぎる → しすぎて."
+        },
+        {
+          "id": "n4-70-e11", "type": "choice", "uses": [],
+          "q": "Tu trouves ce café trop sucré. Que dis-tu ?",
+          "choices": ["このコーヒーは{甘|あま}すぎます。", "このコーヒーは{甘|あま}いすぎます。", "このコーヒーは{甘|あま}くすぎます。", "このコーヒーは{甘|あま}さすぎます。"], "a": 0,
+          "explain": "Adj. い sans い + すぎる."
+        },
+        {
+          "id": "n4-70-e12", "type": "choice", "uses": [],
+          "jp": "ゲームをし＿のは、よくないです。", "fr": "Jouer trop aux jeux vidéo, ce n'est pas bien.",
+          "choices": ["すぎる", "すぎます", "すぎって", "すぎり"], "a": 0,
+          "explain": "Forme du dictionnaire + の."
+        }
+      ]
+    },
+    {
+      "id": "n4-71",
+      "title": "やすい・にくい : facile à, difficile à",
+      "formula": ["Verbe (base ます) + やすい : facile à", "Verbe (base ます) + にくい : difficile à", "Ils se conjuguent comme des adj. い"],
+      "sections": [
+        {
+          "h": "Le sens",
+          "ex": [
+            { "jp": "このペンは{書|か}きやすいです。", "fr": "Ce stylo écrit bien (est facile à utiliser)." },
+            { "jp": "この{本|ほん}は{字|じ}が{小|ちい}さくて{読|よ}みにくいです。", "fr": "Ce livre a de petits caractères, il est difficile à lire." },
+            { "jp": "この{町|まち}は{住|す}みやすいです。", "fr": "Cette ville est agréable à vivre." }
+          ]
+        },
+        {
+          "h": "Comme un adjectif い",
+          "p": [
+            "{分|わ}かりやすい{説明|せつめい} (une explication claire), {使|つか}いにくくて{困|こま}ります (c'est pénible à utiliser), {使|つか}いやすくない (pas pratique).",
+            "やすい veut aussi dire **avoir tendance à** : {壊|こわ}れやすい (fragile), {風邪|かぜ}をひきやすい (s'enrhumer facilement)."
+          ]
+        }
+      ],
+      "pieges": [
+        "Base ます : {読|よ}みやすい (pas {読|よ}むやすい).",
+        "{難|むずか}しい = difficile en général ; 〜にくい = difficile à faire (à cause de la chose)."
+      ],
+      "exercises": [
+        {
+          "id": "n4-71-e01", "type": "choice", "uses": [],
+          "jp": "このペンは＿やすいです。", "fr": "Ce stylo est facile à utiliser pour écrire.",
+          "choices": ["{書|か}き", "{書|か}く", "{書|か}いて", "{書|か}か"], "a": 0,
+          "explain": "Base ます + やすい."
+        },
+        {
+          "id": "n4-71-e02", "type": "choice", "uses": [],
+          "jp": "この{本|ほん}は{字|じ}が{小|ちい}さくて、{読|よ}み＿です。", "fr": "Ce livre a de petits caractères, il est difficile à lire.",
+          "choices": ["にくい", "やすい", "にくく", "にくいな"], "a": 0,
+          "explain": "Petits caractères → difficile à lire : にくい."
+        },
+        {
+          "id": "n4-71-e03", "type": "choice", "uses": [],
+          "q": "Que signifie : この{町|まち}は{住|す}みやすいです。",
+          "choices": ["Cette ville est agréable à vivre.", "Cette ville est difficile à vivre.", "J'aimerais vivre dans cette ville.", "J'ai vécu dans cette ville."], "a": 0,
+          "explain": "{住|す}む + やすい = facile / agréable à habiter."
+        },
+        {
+          "id": "n4-71-e04", "type": "order", "uses": [],
+          "fr": "Les explications du professeur sont faciles à comprendre.",
+          "tokens": ["{先生|せんせい}", "の", "{説明|せつめい}", "は", "{分|わ}かりやすい", "です"],
+          "explain": "{分|わ}かる → {分|わ}かりやすい."
+        },
+        {
+          "id": "n4-71-e05", "type": "choice", "uses": [],
+          "jp": "このコップは{割|わ}れ＿ので、{気|き}をつけてください。", "fr": "Ce verre se casse facilement, fais attention.",
+          "choices": ["やすい", "にくい", "そう", "たい"], "a": 0,
+          "explain": "やすい = avoir tendance à. (そう demanderait そうな avant ので.)"
+        },
+        {
+          "id": "n4-71-e06", "type": "choice", "uses": [],
+          "q": "Une seule de ces phrases est correcte. Laquelle ?",
+          "choices": ["この{靴|くつ}は{歩|ある}きやすいです。", "この{靴|くつ}は{歩|ある}くやすいです。", "この{靴|くつ}は{歩|ある}いてやすいです。", "この{靴|くつ}は{歩|ある}きやすいだです。"], "a": 0,
+          "explain": "Base ます + やすい."
+        },
+        {
+          "id": "n4-71-e07", "type": "choice", "uses": [],
+          "jp": "この{薬|くすり}は{苦|にが}くて、{飲|の}み＿です。", "fr": "Ce médicament est amer, il est difficile à avaler.",
+          "choices": ["にくい", "にくく", "にくいな", "にくくて"], "a": 0,
+          "explain": "Base ます + にくいです."
+        },
+        {
+          "id": "n4-71-e08", "type": "choice", "uses": [],
+          "q": "Forme négative de {使|つか}いやすい ?",
+          "choices": ["{使|つか}いやすくない", "{使|つか}いやすいじゃない", "{使|つか}いやすないです", "{使|つか}いやすくでない"], "a": 0,
+          "explain": "Comme un adj. い : やすい → やすくない."
+        },
+        {
+          "id": "n4-71-e09", "type": "order", "uses": [],
+          "fr": "L'hiver, on attrape facilement un rhume.",
+          "tokens": ["{冬|ふゆ}", "は", "{風邪|かぜ}", "を", "ひきやすい", "です"],
+          "explain": "やすい = avoir tendance à."
+        },
+        {
+          "id": "n4-71-e10", "type": "choice", "uses": [],
+          "jp": "この{漢字|かんじ}は{形|かたち}が{似|に}ていて、{覚|おぼ}え＿です。", "fr": "Ces kanji se ressemblent, ils sont difficiles à retenir.",
+          "choices": ["にくい", "にくく", "にくいな", "にくいに"], "a": 0,
+          "explain": "Base ます + にくいです."
+        },
+        {
+          "id": "n4-71-e11", "type": "choice", "uses": [],
+          "q": "Cette valise est pratique, facile à porter. Quelle phrase ?",
+          "choices": ["このスーツケースは{持|も}ちやすいです。", "このスーツケースは{持|も}ちにくいです。", "このスーツケースは{持|も}ちすぎです。", "このスーツケースは{持|も}つやすいです。"], "a": 0,
+          "explain": "Facile à : やすい."
+        },
+        {
+          "id": "n4-71-e12", "type": "choice", "uses": [],
+          "jp": "{分|わ}かり＿{説明|せつめい}、ありがとうございました。", "fr": "Merci pour cette explication claire.",
+          "choices": ["やすい", "やすく", "やすいな", "やすくて"], "a": 0,
+          "explain": "やすい + nom, comme un adj. い."
+        }
+      ]
+    }
+  ],
+  "test": [
+    {
+      "id": "n4-b14-t01", "type": "choice", "uses": ["n4-67"],
+      "jp": "{田中|たなか}さんはさっき{家|いえ}を{出|で}たから、もうすぐ{着|つ}く＿です。", "fr": "M. Tanaka est parti de chez lui tout à l'heure, il devrait bientôt arriver.",
+      "choices": ["はず", "はずの", "はずな", "はずだ"], "a": 0,
+      "explain": "Déduction logique : はずです."
+    },
+    {
+      "id": "n4-b14-t02", "type": "choice", "uses": ["n4-68", "n4-61"],
+      "jp": "{今|いま}、ちょうど{家|いえ}に{帰|かえ}ってきた＿です。", "fr": "Je viens tout juste de rentrer à la maison.",
+      "choices": ["ところ", "ところに", "ところで", "ところを"], "a": 0,
+      "explain": "Venir juste de : た + ところです."
+    },
+    {
+      "id": "n4-b14-t03", "type": "choice", "uses": ["n4-69"],
+      "jp": "スマホを{見|み}＿{歩|ある}くのは{危|あぶ}ないです。", "fr": "C'est dangereux de marcher en regardant son téléphone.",
+      "choices": ["ながら", "ても", "たら", "ば"], "a": 0,
+      "explain": "Base ます + ながら."
+    },
+    {
+      "id": "n4-b14-t04", "type": "choice", "uses": ["n4-70"],
+      "jp": "このカレーは{辛|から}＿て、{食|た}べられません。", "fr": "Ce curry est trop épicé, je ne peux pas le manger.",
+      "choices": ["すぎ", "いすぎ", "くすぎ", "さすぎ"], "a": 0,
+      "explain": "Adj. い sans い + すぎて."
+    },
+    {
+      "id": "n4-b14-t05", "type": "choice", "uses": ["n4-71"],
+      "jp": "この{説明書|せつめいしょ}は{分|わ}かり＿です。", "fr": "Ce mode d'emploi est facile à comprendre.",
+      "choices": ["やすい", "やすいな", "やすく", "やすくて"], "a": 0,
+      "explain": "Base ます + やすいです."
+    },
+    {
+      "id": "n4-b14-t06", "type": "choice", "uses": ["n4-67"],
+      "q": "Que signifie : {彼|かれ}が{来|こ}ないはずがありません。",
+      "choices": ["Il viendra forcément (impossible qu'il ne vienne pas).", "Il ne viendra sûrement pas.", "Il est peut-être venu.", "Il paraît qu'il ne viendra pas."], "a": 0,
+      "explain": "ないはずがない = impossible que non → forcément."
+    },
+    {
+      "id": "n4-b14-t07", "type": "order", "uses": ["n4-68"],
+      "fr": "Je suis arrivé au Japon le mois dernier (c'est récent).",
+      "tokens": ["{先月|せんげつ}", "{日本|にほん}", "に", "{来|き}た", "ばかり", "です"],
+      "alt": [["{日本|にほん}", "に", "{先月|せんげつ}", "{来|き}た", "ばかり", "です"]],
+      "explain": "たばかり = ça ne fait pas longtemps."
+    },
+    {
+      "id": "n4-b14-t08", "type": "choice", "uses": ["n4-69"],
+      "q": "Une seule de ces phrases est correcte. Laquelle ?",
+      "choices": ["{音楽|おんがく}を{聞|き}きながら{走|はし}ります。", "{音楽|おんがく}を{聞|き}くながら{走|はし}ります。", "{音楽|おんがく}を{聞|き}いてながら{走|はし}ります。", "{音楽|おんがく}を{聞|き}きますながら{走|はし}ります。"], "a": 0,
+      "explain": "Base ます + ながら."
+    },
+    {
+      "id": "n4-b14-t09", "type": "choice", "uses": ["n4-70"],
+      "jp": "{昨日|きのう}は{食|た}べ＿て、おなかが{痛|いた}いです。", "fr": "Hier j'ai trop mangé, j'ai mal au ventre.",
+      "choices": ["すぎ", "すぎた", "すぎる", "すぎって"], "a": 0,
+      "explain": "{食|た}べすぎる → {食|た}べすぎて."
+    },
+    {
+      "id": "n4-b14-t10", "type": "choice", "uses": ["n4-68"],
+      "q": "Laquelle veut dire « je suis sur le point de sortir » ?",
+      "choices": ["これから{出|で}かけるところです。", "{今|いま}、{出|で}かけたところです。", "{出|で}かけたばかりです。", "{出|で}かけているところです。"], "a": 0,
+      "explain": "Dictionnaire + ところ = sur le point de."
+    },
+    {
+      "id": "n4-b14-t11", "type": "choice", "uses": ["n4-71"],
+      "jp": "この{道|みち}は{狭|せま}くて{運転|うんてん}し＿です。", "fr": "Cette route est étroite, elle est difficile à conduire.",
+      "choices": ["にくい", "にくく", "にくいな", "にくくて"], "a": 0,
+      "explain": "する → し + にくい."
+    },
+    {
+      "id": "n4-b14-t12", "type": "choice", "uses": ["n4-67"],
+      "jp": "{今日|きょう}は{祝日|しゅくじつ}だから、{郵便局|ゆうびんきょく}は{休|やす}み＿はずです。", "fr": "Aujourd'hui c'est férié, la poste doit être fermée.",
+      "choices": ["の", "な", "だ", "で"], "a": 0,
+      "explain": "Nom + の + はず."
+    },
+    {
+      "id": "n4-b14-t13", "type": "order", "uses": ["n4-69"],
+      "fr": "Il étudie tout en travaillant.",
+      "tokens": ["{彼|かれ}", "は", "{働|はたら}きながら", "{勉強|べんきょう}しています"],
+      "explain": "ながら = tout en."
+    },
+    {
+      "id": "n4-b14-t14", "type": "choice", "uses": ["n4-70"],
+      "q": "Tu as trop bu hier. Comment le dire ?",
+      "choices": ["{昨日|きのう}は{飲|の}みすぎました。", "{昨日|きのう}は{飲|の}むすぎました。", "{昨日|きのう}は{飲|の}んですぎました。", "{昨日|きのう}は{飲|の}みにくかったです。"], "a": 0,
+      "explain": "Base ます + すぎる."
+    },
+    {
+      "id": "n4-b14-t15", "type": "choice", "uses": ["n4-71"],
+      "q": "Que signifie : このコップは{割|わ}れやすいです。",
+      "choices": ["Ce verre se casse facilement.", "Ce verre est difficile à casser.", "Ce verre est cassé.", "Ce verre a l'air cassé."], "a": 0,
+      "explain": "やすい = avoir tendance à."
+    }
+  ],
+  "examTest": [
+    {
+      "id": "n4-x03-01", "type": "choice", "uses": ["n4-63", "n4-64", "n4-65", "n4-67"],
+      "q": "Tu vois que ton ami a l'air épuisé. Que dis-tu ?",
+      "choices": ["{疲|つか}れたようだね。", "{疲|つか}れたそうだね。", "{疲|つか}れたらしいね。", "{疲|つか}れるはずがないね。"], "a": 0,
+      "explain": "Tu le déduis de ce que tu vois : ようだ. (そうだ après une forme complète = on me l'a dit ; らしい = rumeur.)"
+    },
+    {
+      "id": "n4-x03-02", "type": "choice", "uses": ["n4-62", "n4-61"],
+      "jp": "{雨|あめ}が{降|ふ}り＿なので、{傘|かさ}を{持|も}っていきます。", "fr": "On dirait qu'il va pleuvoir, alors j'emporte un parapluie.",
+      "choices": ["そう", "よう", "らしい", "みたい"], "a": 0,
+      "explain": "Base ます + そう (apparence)."
+    },
+    {
+      "id": "n4-x03-03", "type": "choice", "uses": ["n4-67"],
+      "q": "Une seule de ces phrases est correcte. Laquelle ?",
+      "choices": ["{彼|かれ}は{学生|がくせい}のはずです。", "{彼|かれ}は{学生|がくせい}なはずです。", "{彼|かれ}は{学生|がくせい}だはずです。", "{彼|かれ}は{学生|がくせい}はずです。"], "a": 0,
+      "explain": "Nom + の + はず."
+    },
+    {
+      "id": "n4-x03-04", "type": "choice", "uses": ["n4-68"],
+      "jp": "A：もしもし、{今|いま}どこ？B：ごめん、{今|いま}{家|いえ}を{出|で}る＿。", "fr": "A : Allô, tu es où ? B : Désolé, je sors tout juste de chez moi.",
+      "choices": ["ところ", "ばかり", "ところに", "ところが"], "a": 0,
+      "explain": "Sur le point de : dictionnaire + ところ."
+    },
+    {
+      "id": "n4-x03-05", "type": "choice", "uses": ["n4-63"],
+      "q": "Que signifie : {先生|せんせい}の{話|はなし}によると、{来週|らいしゅう}テストがあるそうです。",
+      "choices": ["D'après le professeur, il y aura un contrôle la semaine prochaine.", "Le professeur a l'air de préparer un contrôle.", "Il y aura peut-être un contrôle.", "Il n'y aura pas de contrôle."], "a": 0,
+      "explain": "〜によると + そうです = ouï-dire."
+    },
+    {
+      "id": "n4-x03-06", "type": "order", "uses": ["n4-70", "n4-71"],
+      "fr": "Ce dictionnaire est pratique, mais trop lourd.",
+      "tokens": ["この", "{辞書|じしょ}", "は", "{使|つか}いやすい", "けど", "{重|おも}すぎる"],
+      "explain": "やすい (facile à) ; すぎる (trop)."
+    },
+    {
+      "id": "n4-x03-07", "type": "choice", "uses": ["n4-68", "n4-42"],
+      "jp": "まだ{日本|にほん}に{来|き}た＿なので、{日本語|にほんご}があまり{話|はな}せません。", "fr": "Je viens à peine d'arriver au Japon, je ne parle pas encore bien japonais.",
+      "choices": ["ばかり", "ばかりの", "ばかりに", "ばかりで"], "a": 0,
+      "explain": "たばかり + なので."
+    },
+    {
+      "id": "n4-x03-08", "type": "choice", "uses": ["n4-66", "n4-67"],
+      "q": "Laquelle exprime la plus grande certitude ?",
+      "choices": ["{彼|かれ}は{来|く}るはずです。", "{彼|かれ}は{来|く}るかもしれません。", "{彼|かれ}は{来|く}るらしいです。", "{彼|かれ}は{来|く}るみたいです。"], "a": 0,
+      "explain": "はず = déduction logique, presque sûr."
+    },
+    {
+      "id": "n4-x03-09", "type": "choice", "uses": ["n4-69", "n4-49"],
+      "jp": "{歩|ある}き＿{話|はな}すと、{危|あぶ}ないですよ。", "fr": "C'est dangereux de parler en marchant.",
+      "choices": ["ながら", "すぎ", "やすく", "そう"], "a": 0,
+      "explain": "Base ます + ながら."
+    },
+    {
+      "id": "n4-x03-10", "type": "choice", "uses": ["n4-70"],
+      "q": "Une seule de ces phrases est correcte. Laquelle ?",
+      "choices": ["この{町|まち}は{静|しず}かすぎて、ちょっとさびしいです。", "この{町|まち}は{静|しず}かなすぎて、ちょっとさびしいです。", "この{町|まち}は{静|しず}かにすぎて、ちょっとさびしいです。", "この{町|まち}は{静|しず}かくすぎて、ちょっとさびしいです。"], "a": 0,
+      "explain": "Adj. な + すぎる."
+    },
+    {
+      "id": "n4-x03-11", "type": "choice", "uses": ["n4-62", "n4-59", "n4-45"],
+      "jp": "このケーキ、とてもおいし＿。{一|ひと}つ{食|た}べてみようかな。", "fr": "Ce gâteau a l'air très bon. Je vais peut-être en goûter un.",
+      "choices": ["そう", "くそう", "さそう", "いよう"], "a": 0,
+      "explain": "Ce que je vois : おいしそう."
+    },
+    {
+      "id": "n4-x03-12", "type": "order", "uses": ["n4-65"],
+      "fr": "Il paraît que ce restaurant est bon marché et délicieux.",
+      "tokens": ["あの", "レストラン", "は", "{安|やす}くて", "おいしい", "らしい", "です"],
+      "explain": "Forme neutre + らしいです."
+    },
+    {
+      "id": "n4-x03-13", "type": "choice", "uses": ["n4-64"],
+      "jp": "{鈴木|すずき}さんはもう{帰|かえ}った＿。かばんがありません。", "fr": "On dirait que M. Suzuki est déjà rentré. Son sac n'est plus là.",
+      "choices": ["みたいです", "のみたいです", "なみたいです", "だみたいです"], "a": 0,
+      "explain": "Forme neutre + みたいです."
+    },
+    {
+      "id": "n4-x03-14", "type": "choice", "uses": ["n4-65"],
+      "q": "Que signifie : {子|こ}どもらしい{絵|え}ですね。",
+      "choices": ["C'est un vrai dessin d'enfant.", "Il paraît que c'est un dessin d'enfant.", "On dirait un dessin d'adulte.", "Ce dessin n'est pas pour les enfants."], "a": 0,
+      "explain": "Nom + らしい + nom = typique de."
+    },
+    {
+      "id": "n4-x03-15", "type": "choice", "uses": ["n4-66", "n4-58", "n4-45"],
+      "jp": "{明日|あした}の{試験|しけん}は{難|むずか}しい＿。{勉強|べんきょう}しておこう。", "fr": "L'examen de demain sera peut-être difficile. Révisons à l'avance.",
+      "choices": ["かもしれない", "かもしれる", "かもしらない", "かもしれないだ"], "a": 0,
+      "explain": "Forme neutre + かもしれない."
+    }
+  ]
+}
